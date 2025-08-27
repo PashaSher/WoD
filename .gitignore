@@ -1,60 +1,79 @@
-# ========== Unity generated folders ==========
+# ========== Unity generated ==========
 [Ll]ibrary/
+[Ll]ibrary.meta
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
-UserSettings/
-Recordings/
-CrashReports/
+[Rr]ecordings/
+[Cc]rashReports/
+Library/Bee/
 
-# ========== IDE / Editor ==========
+# ========== External Dependency Manager (Firebase) ==========
+Temp/PlayServicesResolverGradle/
+_utmp/
+
+# Firebase desktop binaries (не нужны в репо; часто >100MB)
+**/Assets/Firebase/Plugins/x86_64/
+**/Assets/Firebase/Plugins/x86/
+**/Assets/Firebase/Plugins/Editor/
+**/Assets/Firebase/Plugins/arm64/   # iOS; игнорим, если проект только под Android
+
+# (Android AAR оставляем — они нужны для сборки)
+!**/Assets/Plugins/Android/**
+
+# ========== Gradle / Android ==========
+.gradle/
+**/.gradle/
+**/*.gradle.lockfile
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ========== iOS / Xcode ==========
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# ========== IDE / Editors ==========
 .vs/
 .vscode/
 .idea/
+*.iml
 *.csproj
-*.unityproj
 *.sln
 *.suo
-*.tmp
 *.user
 *.userprefs
 *.pidb
-*.booproj
-*.svd
+*.opendb
+*.VC.db
 
-# ========== OS generated ==========
+# ========== OS junk ==========
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ========== Unity builds ==========
-*.apk
-*.aab
-*.unitypackage
-*.exe
-*.zip
-*.tar.gz
-*.app
-
-# ========== Textures, models, big sources ==========
-*.psd
-*.tga
-*.fbx
-*.blend1
-*.blend2
-*.max
-*.mb
-*.ma
-
-# ========== Auto backups ==========
+# ========== Backups / logs ==========
 *.bak
 *.swp
 *.tmp
 *.log
 
-# ========== Rider / JetBrains ==========
-.idea/
-*.iml
+# ========== Packages / archives ==========
+*.unitypackage
+*.zip
+*.tar.gz
+*.app
+*.exe
+
+# --- если когда-нибудь решишь игнорировать *.json, не игнорь конфиги Firebase:
+#!Assets/google-services.json
+#!Assets/GoogleService-Info.plist
+#!Assets/StreamingAssets/google-services-desktop.json
