@@ -11,9 +11,13 @@ struct String_t;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t86517A9AF51944B327188B90FCF98654CD70A5AF;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____46886D1C3EA2F074D8D2AE56B89B489604A3DBA96E80C2FD9B6C7F417FA218A3_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____685D33E36DBAAACD58F4B35441F9B70BB1F802DA5A24F6C4FBBFD56AB33E8AEC_FieldInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690_0_0_0_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -302,43 +306,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76974
+// Method Definition Index: 77664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____46886D1C3EA2F074D8D2AE56B89B489604A3DBA96E80C2FD9B6C7F417FA218A3_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____685D33E36DBAAACD58F4B35441F9B70BB1F802DA5A24F6C4FBBFD56AB33E8AEC_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF_RuntimeMethod_var);
 	MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m051EDD34236B7F963D71166E95A33203CB6E30CF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)215));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____46886D1C3EA2F074D8D2AE56B89B489604A3DBA96E80C2FD9B6C7F417FA218A3_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)213));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t4CD66A162F5D953B7D54B787725E07B4A495919B____685D33E36DBAAACD58F4B35441F9B70BB1F802DA5A24F6C4FBBFD56AB33E8AEC_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 2;
 		(&V_0)->___TotalTypes = 4;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005d;
+	}
+
+IL_005d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipeline_Universal_ShaderLibrary + 6));
+		MonoScriptData_tC4A299808061ECECB1711FDB41D9A52CD7B60690 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 76975
+// Method Definition Index: 77665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t86517A9AF51944B327188B90FCF98654CD70A5AF* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m2A2AAEB96C3B2134C4872DA9BE9A99281D633FAC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;

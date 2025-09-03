@@ -15,15 +15,48 @@ struct SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_SpriteShapeModule[];
 IL2CPP_EXTERN_C RuntimeField* SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45____fillTexture_FieldInfo_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannelDataArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7BE92EECFDEB833E64904EB94C92985BC37832C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannelInfo_m6B622671C214A2920BAC1DF0190DEC62ABA7BADA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannels_m08BD580C754823A2578D887BEEF70AA43019DB8F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetChannels_mBFF908DA30D2D2A9650F917211D83F6A5795D755_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetDataInfo_m8BEE8EE1332F043EA4FF0CFDF2F0C2882BDF800D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetNativeDataArray_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m0838818F39B270DF99CC37D5CC7E50864E4FE913_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetNativeDataArray_TisSpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_mF62707A86DE10260EC8D744C6B3F2AC75D8EEED1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetSegments_m20EAF8C9AA9B74C31053A0F69B60B15D7967AA20_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_GetSplineMeshCount_mB0789A1FCA7CCC40FA3083EF173146088719A62A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_Prepare_m3EB1D60213EC54306CEC059519D22E2754072950_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetLocalAABB_m50672DFB7F3EF0AB13FF725A86EA3DA718C8F080_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeRenderer__ctor_m44BF2C8BE32D32910B2E162D0830BFC36694D6A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6CD46CC5376652DADC13_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var;
 
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B;
@@ -516,12 +549,28 @@ IL2CPP_EXTERN_C void SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76830
+// Method Definition Index: 77490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 3));
 		int32_t L_0 = ___0_value;
 		__this->___m_GeomIndex = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 4));
 		return;
 	}
 }
@@ -532,11 +581,25 @@ IL2CPP_EXTERN_C  void SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD6
 	_thisAdjusted = reinterpret_cast<SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5*>(__this + _offset);
 	SpriteShapeSegment_set_geomIndex_m14DE47F211B8A0689AE1CBD62C3A1EEFF0605E25(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 76831
+// Method Definition Index: 77491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 5));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 6));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 7));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 8));
 		int32_t L_0 = __this->___m_IndexCount;
 		V_0 = L_0;
 		goto IL_000a;
@@ -544,6 +607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeSegment_get_indexCount_mB1
 
 IL_000a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 9));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
@@ -557,12 +621,28 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeSegment_get_indexCount_mB1823401E991934E00A5
 	_returnValue = SpriteShapeSegment_get_indexCount_mB1823401E991934E00A50147D40297C300AF456A(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76832
+// Method Definition Index: 77492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 10));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 11));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 12));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 13));
 		int32_t L_0 = ___0_value;
 		__this->___m_IndexCount = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 14));
 		return;
 	}
 }
@@ -573,11 +653,25 @@ IL2CPP_EXTERN_C  void SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0
 	_thisAdjusted = reinterpret_cast<SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5*>(__this + _offset);
 	SpriteShapeSegment_set_indexCount_m28732D6B993D21A6327A1A0CEC2AA9EDCCA2C4A1(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 76833
+// Method Definition Index: 77493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381_RuntimeMethod_var);
+	int32_t V_0 = 0;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 15));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 16));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 17));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 18));
 		int32_t L_0 = __this->___m_VertexCount;
 		V_0 = L_0;
 		goto IL_000a;
@@ -585,6 +679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeSegment_get_vertexCount_m7
 
 IL_000a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 19));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
@@ -598,12 +693,28 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C02
 	_returnValue = SpriteShapeSegment_get_vertexCount_m7FAC6E2254D9AC12C0293E26EEC5BE64832F7381(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76834
+// Method Definition Index: 77494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 20));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 21));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 22));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 23));
 		int32_t L_0 = ___0_value;
 		__this->___m_VertexCount = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 24));
 		return;
 	}
 }
@@ -614,12 +725,28 @@ IL2CPP_EXTERN_C  void SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D45
 	_thisAdjusted = reinterpret_cast<SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5*>(__this + _offset);
 	SpriteShapeSegment_set_vertexCount_mFF8D13BF27EC6010581D458BB131F118EF52A0F3(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 76835
+// Method Definition Index: 77495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6CD46CC5376652DADC13 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6CD46CC5376652DADC13_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6CD46CC5376652DADC13_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6CD46CC5376652DADC13_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 25));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 26));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 27));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 28));
 		int32_t L_0 = ___0_value;
 		__this->___m_SpriteIndex = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 29));
 		return;
 	}
 }
@@ -646,15 +773,19 @@ IL2CPP_EXTERN_C  void SpriteShapeSegment_set_spriteIndex_mDAFA4E1F6BB47EE7540C6C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76836
+// Method Definition Index: 77496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_Prepare_m3EB1D60213EC54306CEC059519D22E2754072950 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___0_handle, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45 ___1_shapeParams, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___2_sprites, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_Prepare_m3EB1D60213EC54306CEC059519D22E2754072950_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_Prepare_m3EB1D60213EC54306CEC059519D22E2754072950_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_Prepare_m3EB1D60213EC54306CEC059519D22E2754072950_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -682,15 +813,19 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 76839
+// Method Definition Index: 77499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_geomCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -718,15 +853,19 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 76840
+// Method Definition Index: 77500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_vertexCount, int32_t ___1_indexCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -755,15 +894,19 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 76841
+// Method Definition Index: 77501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_vertexCount, int32_t ___1_indexCount, int32_t ___2_hotChannelMask, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -793,17 +936,21 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 76842
+// Method Definition Index: 77502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA SpriteShapeRenderer_GetDataInfo_m8BEE8EE1332F043EA4FF0CFDF2F0C2882BDF800D (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_arrayType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetDataInfo_m8BEE8EE1332F043EA4FF0CFDF2F0C2882BDF800D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetDataInfo_m8BEE8EE1332F043EA4FF0CFDF2F0C2882BDF800D_RuntimeMethod_var);
 	SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetDataInfo_m8BEE8EE1332F043EA4FF0CFDF2F0C2882BDF800D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -832,17 +979,21 @@ IL_000f:
 		return L_3;
 	}
 }
-// Method Definition Index: 76843
+// Method Definition Index: 77503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA SpriteShapeRenderer_GetChannelInfo_m6B622671C214A2920BAC1DF0190DEC62ABA7BADA (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelInfo_m6B622671C214A2920BAC1DF0190DEC62ABA7BADA_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetChannelInfo_m6B622671C214A2920BAC1DF0190DEC62ABA7BADA_RuntimeMethod_var);
 	SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetChannelInfo_m6B622671C214A2920BAC1DF0190DEC62ABA7BADA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -871,15 +1022,19 @@ IL_000f:
 		return L_3;
 	}
 }
-// Method Definition Index: 76844
+// Method Definition Index: 77504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetLocalAABB_m50672DFB7F3EF0AB13FF725A86EA3DA718C8F080 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___0_bounds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetLocalAABB_m50672DFB7F3EF0AB13FF725A86EA3DA718C8F080_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetLocalAABB_m50672DFB7F3EF0AB13FF725A86EA3DA718C8F080_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_SetLocalAABB_m50672DFB7F3EF0AB13FF725A86EA3DA718C8F080_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -906,15 +1061,19 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 76845
+// Method Definition Index: 77505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeRenderer_GetSplineMeshCount_mB0789A1FCA7CCC40FA3083EF173146088719A62A (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MarshalledUnityObject_MarshalNotNull_TisSpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_m44B479F70FDF1B087819A855FA36051E1432DD0F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetSplineMeshCount_mB0789A1FCA7CCC40FA3083EF173146088719A62A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetSplineMeshCount_mB0789A1FCA7CCC40FA3083EF173146088719A62A_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetSplineMeshCount_mB0789A1FCA7CCC40FA3083EF173146088719A62A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	intptr_t G_B2_0;
 	memset((&G_B2_0), 0, sizeof(G_B2_0));
 	intptr_t G_B1_0;
@@ -942,57 +1101,87 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 76846
+// Method Definition Index: 77506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetNativeDataArray_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m0838818F39B270DF99CC37D5CC7E50864E4FE913_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A_RuntimeMethod_var);
 	NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 55));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 56));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 57));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 58));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 59));
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_0;
 		L_0 = SpriteShapeRenderer_GetNativeDataArray_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m0838818F39B270DF99CC37D5CC7E50864E4FE913(__this, 2, SpriteShapeRenderer_GetNativeDataArray_TisBounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3_m0838818F39B270DF99CC37D5CC7E50864E4FE913_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 59));
 		V_0 = L_0;
 		goto IL_000b;
 	}
 
 IL_000b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 60));
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 76847
+// Method Definition Index: 77507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED SpriteShapeRenderer_GetSegments_m20EAF8C9AA9B74C31053A0F69B60B15D7967AA20 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_dataSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetNativeDataArray_TisSpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_mF62707A86DE10260EC8D744C6B3F2AC75D8EEED1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetSegments_m20EAF8C9AA9B74C31053A0F69B60B15D7967AA20_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetSegments_m20EAF8C9AA9B74C31053A0F69B60B15D7967AA20_RuntimeMethod_var);
 	NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_dataSize));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetSegments_m20EAF8C9AA9B74C31053A0F69B60B15D7967AA20_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 61));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 62));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 63));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 64));
 		int32_t L_0 = ___0_dataSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 65));
 		SpriteShapeRenderer_SetSegmentCount_m649276042B95E37EE26246F371675D7123480EC5(__this, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 65));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 66));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 67));
 		NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED L_1;
 		L_1 = SpriteShapeRenderer_GetNativeDataArray_TisSpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_mF62707A86DE10260EC8D744C6B3F2AC75D8EEED1(__this, 1, SpriteShapeRenderer_GetNativeDataArray_TisSpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_mF62707A86DE10260EC8D744C6B3F2AC75D8EEED1_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 67));
 		V_0 = L_1;
 		goto IL_0013;
 	}
 
 IL_0013:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 68));
 		NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED L_2 = V_0;
 		return L_2;
 	}
 }
-// Method Definition Index: 76848
+// Method Definition Index: 77508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetChannels_mBFF908DA30D2D2A9650F917211D83F6A5795D755 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_dataSize, NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* ___1_indices, NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* ___2_vertices, NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* ___3_texcoords, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1000,29 +1189,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetChannels_mBFF908D
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannels_mBFF908DA30D2D2A9650F917211D83F6A5795D755_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetChannels_mBFF908DA30D2D2A9650F917211D83F6A5795D755_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_dataSize), (&___1_indices), (&___2_vertices), (&___3_texcoords));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetChannels_mBFF908DA30D2D2A9650F917211D83F6A5795D755_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 69));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 70));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 71));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 72));
 		int32_t L_0 = ___0_dataSize;
 		int32_t L_1 = ___0_dataSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 73));
 		SpriteShapeRenderer_SetMeshDataCount_m7F8F41487DABF81F7DF3B4334452EE0C8A7095F6(__this, L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 73));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 74));
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* L_2 = ___1_indices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 75));
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_3;
 		L_3 = SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C(__this, 0, SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 75));
 		*(NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934*)L_2 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 76));
 		NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* L_4 = ___2_vertices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 77));
 		NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A L_5;
 		L_5 = SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A(__this, 3, 0, SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 77));
 		*(NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A*)L_4 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 78));
 		NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* L_6 = ___3_texcoords;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 79));
 		NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF L_7;
 		L_7 = SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375(__this, 4, 4, SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 79));
 		*(NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF*)L_6 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 80));
 		return;
 	}
 }
-// Method Definition Index: 76849
+// Method Definition Index: 77509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetChannels_m08BD580C754823A2578D887BEEF70AA43019DB8F (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, int32_t ___0_dataSize, NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* ___1_indices, NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* ___2_vertices, NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* ___3_texcoords, NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F* ___4_tangents, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1031,106 +1242,196 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetChannels_m08BD580
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelDataArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7BE92EECFDEB833E64904EB94C92985BC37832C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannels_m08BD580C754823A2578D887BEEF70AA43019DB8F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetChannels_m08BD580C754823A2578D887BEEF70AA43019DB8F_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_dataSize), (&___1_indices), (&___2_vertices), (&___3_texcoords), (&___4_tangents));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer_GetChannels_m08BD580C754823A2578D887BEEF70AA43019DB8F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 81));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 82));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 83));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 84));
 		int32_t L_0 = ___0_dataSize;
 		int32_t L_1 = ___0_dataSize;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 85));
 		SpriteShapeRenderer_SetMeshChannelInfo_m08D74539463B0B415A4F0A9D9863D4E79A76E7AF(__this, L_0, L_1, 4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 85));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 86));
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* L_2 = ___1_indices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 87));
 		NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 L_3;
 		L_3 = SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C(__this, 0, SpriteShapeRenderer_GetNativeDataArray_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mA713E8BC67B0B90AD897353ADE6CF271E43C4C0C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 87));
 		*(NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934*)L_2 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 88));
 		NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* L_4 = ___2_vertices;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 89));
 		NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A L_5;
 		L_5 = SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A(__this, 3, 0, SpriteShapeRenderer_GetChannelDataArray_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_mBEF4590ABBB66C0A2FE21F8567D98D1A8770401A_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 89));
 		*(NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A*)L_4 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 90));
 		NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* L_6 = ___3_texcoords;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 91));
 		NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF L_7;
 		L_7 = SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375(__this, 4, 4, SpriteShapeRenderer_GetChannelDataArray_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m985874D8CD9F2711E49E0DF155BC507338930375_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 91));
 		*(NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF*)L_6 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 92));
 		NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F* L_8 = ___4_tangents;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 93));
 		NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F L_9;
 		L_9 = SpriteShapeRenderer_GetChannelDataArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7BE92EECFDEB833E64904EB94C92985BC37832C6(__this, 6, 2, SpriteShapeRenderer_GetChannelDataArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7BE92EECFDEB833E64904EB94C92985BC37832C6_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 93));
 		*(NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F*)L_8 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_SpriteShapeModule + 94));
 		return;
 	}
 }
-// Method Definition Index: 76850
+// Method Definition Index: 77510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer__ctor_m44BF2C8BE32D32910B2E162D0830BFC36694D6A6 (SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer__ctor_m44BF2C8BE32D32910B2E162D0830BFC36694D6A6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer__ctor_m44BF2C8BE32D32910B2E162D0830BFC36694D6A6_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeRenderer__ctor_m44BF2C8BE32D32910B2E162D0830BFC36694D6A6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Renderer__ctor_m8B4EE9696B155A1B0A2CF13EBFC363CE175B9271(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76851
+// Method Definition Index: 77511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376 (intptr_t ___0__unity_self, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* ___1_handle, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45* ___2_shapeParams, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___3_sprites, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_ftn) (intptr_t, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45*, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B*);
 	static SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_Prepare_Injected_mDA45CC3C11063151FB393BA8E8B44867BE975376_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::Prepare_Injected(System.IntPtr,Unity.Jobs.JobHandle&,UnityEngine.U2D.SpriteShapeParameters&,UnityEngine.Sprite[])");
 	_il2cpp_icall_func(___0__unity_self, ___1_handle, ___2_shapeParams, ___3_sprites);
 }
-// Method Definition Index: 76852
+// Method Definition Index: 77512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5 (intptr_t ___0__unity_self, int32_t ___1_geomCount, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_ftn) (intptr_t, int32_t);
 	static SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_SetSegmentCount_Injected_mBF100934A747787A951947B49F38787982470AB5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::SetSegmentCount_Injected(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_geomCount);
 }
-// Method Definition Index: 76853
+// Method Definition Index: 77513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B (intptr_t ___0__unity_self, int32_t ___1_vertexCount, int32_t ___2_indexCount, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_ftn) (intptr_t, int32_t, int32_t);
 	static SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_SetMeshDataCount_Injected_mDC7106ABC3B49CE5B5D354A61241F980D5A4128B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::SetMeshDataCount_Injected(System.IntPtr,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_vertexCount, ___2_indexCount);
 }
-// Method Definition Index: 76854
+// Method Definition Index: 77514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480 (intptr_t ___0__unity_self, int32_t ___1_vertexCount, int32_t ___2_indexCount, int32_t ___3_hotChannelMask, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_ftn) (intptr_t, int32_t, int32_t, int32_t);
 	static SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_SetMeshChannelInfo_Injected_mB82C67188169523B1CBFC4F532D246CA9F910480_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::SetMeshChannelInfo_Injected(System.IntPtr,System.Int32,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___0__unity_self, ___1_vertexCount, ___2_indexCount, ___3_hotChannelMask);
 }
-// Method Definition Index: 76855
+// Method Definition Index: 77515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F (intptr_t ___0__unity_self, int32_t ___1_arrayType, SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA* ___2_ret, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_ftn) (intptr_t, int32_t, SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA*);
 	static SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_GetDataInfo_Injected_mC6251133ED4834D29B479EF13B211A73817A487F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::GetDataInfo_Injected(System.IntPtr,UnityEngine.U2D.SpriteShapeDataType,UnityEngine.U2D.SpriteChannelInfo&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_arrayType, ___2_ret);
 }
-// Method Definition Index: 76856
+// Method Definition Index: 77516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2 (intptr_t ___0__unity_self, int32_t ___1_channel, SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA* ___2_ret, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_ftn) (intptr_t, int32_t, SpriteChannelInfo_t059F8D7ED52326BD2136B9AC41287F3E82FDE4CA*);
 	static SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_GetChannelInfo_Injected_m027D34C874A1A16F2BB36E548C887AF5B62BDCF2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::GetChannelInfo_Injected(System.IntPtr,UnityEngine.Rendering.VertexAttribute,UnityEngine.U2D.SpriteChannelInfo&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_channel, ___2_ret);
 }
-// Method Definition Index: 76857
+// Method Definition Index: 77517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124 (intptr_t ___0__unity_self, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___1_bounds, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_RuntimeMethod_var);
 	typedef void (*SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_ftn) (intptr_t, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*);
 	static SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SpriteShapeRenderer_SetLocalAABB_Injected_m4D381B8A76DF76FB7AA8A52D44C8EB2802B19124_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.U2D.SpriteShapeRenderer::SetLocalAABB_Injected(System.IntPtr,UnityEngine.Bounds&)");
 	_il2cpp_icall_func(___0__unity_self, ___1_bounds);
 }
-// Method Definition Index: 76858
+// Method Definition Index: 77518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA (intptr_t ___0__unity_self, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA_RuntimeMethod_var);
 	typedef int32_t (*SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA_ftn) (intptr_t);
 	static SpriteShapeRenderer_GetSplineMeshCount_Injected_m8EB1F051BF5101331D1E585EBE5CF54B71D439CA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -1275,12 +1576,18 @@ IL2CPP_EXTERN_C void AngleRangeInfo_t54B4C94C605EABEC2D401C612F1D8CCB42985DBB_ma
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 38460
+// Method Definition Index: 48251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_MarshalNotNull_TisRuntimeObject_mEB1AA6B672D00242BB9DCE007056EC0E9C8DB075_gshared_inline (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16346));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16347));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16348));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16349));
 		RuntimeObject* L_0 = ___0_obj;
 		NullCheck(L_0);
 		intptr_t L_1 = ((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_0)->___m_CachedPtr;
@@ -1290,6 +1597,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t MarshalledUnityObject_Ma
 
 IL_000f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 16350));
 		intptr_t L_2 = V_0;
 		return L_2;
 	}

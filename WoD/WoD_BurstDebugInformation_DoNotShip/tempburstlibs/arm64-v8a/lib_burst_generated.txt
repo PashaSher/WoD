@@ -10,6 +10,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -126,6 +127,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -154,6 +156,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated

@@ -42,6 +42,8 @@ struct String_t;
 struct Type_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_JSONSerializeModule[];
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_il2cpp_TypeInfo_var;
@@ -53,11 +55,19 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8B9E56C5D95D7C3EED5199236F70D44573B11813
 IL2CPP_EXTERN_C String_t* _stringLiteral9149DCC4875937380DD00ED5471A7A1258254B95;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MemoryExtensions_AsSpan_m0EB07912D71097A8B05F586158966837F5C3DB38_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlySpan_1_GetPinnableReference_mB710059C1A1A30270065958DE8345808C6683638_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlySpan_1_get_Length_m36BD32453530B535FE60A8123643219FEAABC351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StringMarshaller_TryMarshalEmptyOrNullString_m615203C511071D59295D889AB136575DFFEA90A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_0_0_0_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
@@ -334,18 +344,22 @@ inline void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_inlin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76891
+// Method Definition Index: 77581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral690BF02630AC0BD6AA6BD08D2C36A28E1FC54F3E);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_RuntimeMethod_var);
 	ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	String_t* V_1 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = ___0_obj;
 		if (L_0)
@@ -367,6 +381,7 @@ IL_000e:
 
 FINALLY_001a:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E L_2 = V_0;
 				String_t* L_3;
 				L_3 = OutStringMarshaller_GetStringAndDispose_mB15D41A9893BBC55074D4910259FA722129DB062(L_2, NULL);
@@ -376,6 +391,7 @@ FINALLY_001a:
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			RuntimeObject* L_4 = ___0_obj;
 			bool L_5 = ___1_prettyPrint;
 			JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB(L_4, L_5, (&V_0), NULL);
@@ -393,34 +409,40 @@ IL_0022:
 		return L_6;
 	}
 }
-// Method Definition Index: 76892
+// Method Definition Index: 77582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0 (String_t* ___0_json, RuntimeObject* ___1_objectToOverwrite, Type_t* ___2_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlySpan_1_GetPinnableReference_mB710059C1A1A30270065958DE8345808C6683638_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlySpan_1_get_Length_m36BD32453530B535FE60A8123643219FEAABC351_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_RuntimeMethod_var);
 	ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Il2CppChar* V_1 = NULL;
 	ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	RuntimeObject* V_3 = NULL;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
 FINALLY_0036:
 			{
+				STORE_TRY_ID(methodExecutionContext, -1);
 				V_1 = (Il2CppChar*)((uintptr_t)0);
 				return;
 			}
 		});
 		try
 		{
+			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				String_t* L_0 = ___0_json;
 				bool L_1;
@@ -466,44 +488,69 @@ IL_003a:
 		return L_10;
 	}
 }
-// Method Definition Index: 76893
+// Method Definition Index: 77583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
-	String_t* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA_RuntimeMethod_var);
+	String_t* V_0 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 3));
 		RuntimeObject* L_0 = ___0_obj;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 4));
 		String_t* L_1;
 		L_1 = JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53(L_0, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 4));
 		V_0 = L_1;
 		goto IL_000b;
 	}
 
 IL_000b:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 5));
 		String_t* L_2 = V_0;
 		return L_2;
 	}
 }
-// Method Definition Index: 76894
+// Method Definition Index: 77584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53_RuntimeMethod_var);
 	bool V_0 = false;
 	String_t* V_1 = NULL;
 	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj), (&___1_prettyPrint));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 6));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 7));
 	int32_t G_B6_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 8));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 9));
 		RuntimeObject* L_0 = ___0_obj;
 		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 10));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -511,12 +558,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 11));
 		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		goto IL_004c;
 	}
 
 IL_0011:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 12));
 		RuntimeObject* L_2 = ___0_obj;
 		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_2, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
 		{
@@ -555,6 +604,7 @@ IL_0032:
 IL_0033:
 	{
 		V_2 = (bool)G_B8_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 13));
 		bool L_5 = V_2;
 		if (!L_5)
 		{
@@ -562,46 +612,64 @@ IL_0033:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 14));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 15));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral8B9E56C5D95D7C3EED5199236F70D44573B11813)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 15));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53_RuntimeMethod_var)));
 	}
 
 IL_0042:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 16));
 		RuntimeObject* L_7 = ___0_obj;
 		bool L_8 = ___1_prettyPrint;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 17));
 		String_t* L_9;
 		L_9 = JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 17));
 		V_1 = L_9;
 		goto IL_004c;
 	}
 
 IL_004c:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 18));
 		String_t* L_10 = V_1;
 		return L_10;
 	}
 }
-// Method Definition Index: 76896
+// Method Definition Index: 77586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A (String_t* ___0_json, Type_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var);
 	bool V_0 = false;
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
 	bool V_3 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_json), (&___1_type));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 26));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 27));
 	int32_t G_B7_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 28));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 29));
 		String_t* L_0 = ___0_json;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 30));
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 30));
 		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 31));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -609,17 +677,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85B
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 32));
 		V_1 = NULL;
 		goto IL_006a;
 	}
 
 IL_000f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 33));
 		Type_t* L_3 = ___1_type;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 34));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		bool L_4;
 		L_4 = Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC(L_3, (Type_t*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 34));
 		V_2 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 35));
 		bool L_5 = V_2;
 		if (!L_5)
 		{
@@ -627,17 +700,23 @@ IL_000f:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 36));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 37));
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_6 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 37));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var)));
 	}
 
 IL_0025:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 38));
 		Type_t* L_7 = ___1_type;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 39));
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = Type_get_IsAbstract_m16FA83463867635ED9DECAE1C5F6BE96B4579CE5(L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 39));
 		if (L_8)
 		{
 			goto IL_003f;
@@ -646,12 +725,16 @@ IL_0025:
 	{
 		Type_t* L_9 = ___1_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_10 = { reinterpret_cast<intptr_t> (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_0_0_0_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 40));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_11;
 		L_11 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 40));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 41));
 		NullCheck(L_9);
 		bool L_12;
 		L_12 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(20, L_9, L_11);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 41));
 		G_B7_0 = ((int32_t)(L_12));
 		goto IL_0040;
 	}
@@ -664,6 +747,7 @@ IL_003f:
 IL_0040:
 	{
 		V_3 = (bool)G_B7_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 42));
 		bool L_13 = V_3;
 		if (!L_13)
 		{
@@ -671,45 +755,70 @@ IL_0040:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 43));
 		Type_t* L_14 = ___1_type;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 44));
 		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 44));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 45));
 		String_t* L_16;
 		L_16 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9149DCC4875937380DD00ED5471A7A1258254B95)), L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1A021298794A95A088D89F0DFEE478EB088FC94B)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 45));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 46));
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_17 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_17, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 46));
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A_RuntimeMethod_var)));
 	}
 
 IL_005f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 47));
 		String_t* L_18 = ___0_json;
 		Type_t* L_19 = ___1_type;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 48));
 		RuntimeObject* L_20;
 		L_20 = JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0(L_18, NULL, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 48));
 		V_1 = L_20;
 		goto IL_006a;
 	}
 
 IL_006a:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_JSONSerializeModule + 49));
 		RuntimeObject* L_21 = V_1;
 		return L_21;
 	}
 }
-// Method Definition Index: 76897
+// Method Definition Index: 77587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB (RuntimeObject* ___0_obj, bool ___1_prettyPrint, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___2_ret, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_RuntimeMethod_var);
 	typedef void (*JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_ftn) (RuntimeObject*, bool, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*);
 	static JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (JsonUtility_ToJsonInternal_Injected_m98EE8DC30E5CE6834F164F7DD13F7119101157FB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.JsonUtility::ToJsonInternal_Injected(System.Object,System.Boolean,UnityEngine.Bindings.ManagedSpanWrapper&)");
 	_il2cpp_icall_func(___0_obj, ___1_prettyPrint, ___2_ret);
 }
-// Method Definition Index: 76898
+// Method Definition Index: 77588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5 (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_json, RuntimeObject* ___1_objectToOverwrite, Type_t* ___2_type, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5_RuntimeMethod_var);
 	typedef RuntimeObject* (*JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5_ftn) (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*, RuntimeObject*, Type_t*);
 	static JsonUtility_FromJsonInternal_Injected_m796C743852FE6B4AAB666B1D6D7713FD1E0D55F5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
@@ -720,15 +829,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_I
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 39022
+// Method Definition Index: 48822
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool StringMarshaller_TryMarshalEmptyOrNullString_m615203C511071D59295D889AB136575DFFEA90A6_inline (String_t* ___0_s, ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___1_managedSpanWrapper, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringMarshaller_TryMarshalEmptyOrNullString_m615203C511071D59295D889AB136575DFFEA90A6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_s), (&___1_managedSpanWrapper));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StringMarshaller_TryMarshalEmptyOrNullString_m615203C511071D59295D889AB136575DFFEA90A6_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19484));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19485));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19486));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19487));
 		String_t* L_0 = ___0_s;
 		V_0 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19488));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -736,19 +858,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool StringMarshaller_TryMarshalE
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19489));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19490));
 		ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* L_2 = ___1_managedSpanWrapper;
 		il2cpp_codegen_initobj(L_2, sizeof(ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19491));
 		V_1 = (bool)1;
 		goto IL_0043;
 	}
 
 IL_0015:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19492));
 		String_t* L_3 = ___0_s;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19493));
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19493));
 		V_2 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19494));
 		bool L_5 = V_2;
 		if (!L_5)
 		{
@@ -756,42 +885,56 @@ IL_0015:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19495));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19496));
 		ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* L_6 = ___1_managedSpanWrapper;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19497));
 		uintptr_t L_7;
 		L_7 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19497));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19498));
 		void* L_8;
 		L_8 = UIntPtr_op_Explicit_m42C3EA82465934F505B4274A7CE320550A48B7B9(L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19498));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19499));
 		ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		ManagedSpanWrapper__ctor_mB29647A21BB87EA4DF859E5C2FA2207F47E525D2((&L_9), L_8, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19499));
 		*(ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*)L_6 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19500));
 		V_1 = (bool)1;
 		goto IL_0043;
 	}
 
 IL_003f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19501));
 		V_1 = (bool)0;
 		goto IL_0043;
 	}
 
 IL_0043:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 19502));
 		bool L_10 = V_1;
 		return L_10;
 	}
 }
-// Method Definition Index: 1673
+// Method Definition Index: 1734
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 MemoryExtensions_AsSpan_m0EB07912D71097A8B05F586158966837F5C3DB38_inline (String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryExtensions_AsSpan_m0EB07912D71097A8B05F586158966837F5C3DB38_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MemoryExtensions_AsSpan_m0EB07912D71097A8B05F586158966837F5C3DB38_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_text;
 		if (L_0)
@@ -821,9 +964,11 @@ IL_000d:
 		return L_6;
 	}
 }
-// Method Definition Index: 1896
+// Method Definition Index: 1972
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlySpan_1_get_Length_m36BD32453530B535FE60A8123643219FEAABC351_gshared_inline (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1* __this, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____length;
 		return L_0;
@@ -832,14 +977,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlySpan_1_get_Length
 // Method Definition Index: 429
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____stringLength;
 		return L_0;
 	}
 }
-// Method Definition Index: 1886
+// Method Definition Index: 1962
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReadOnlySpan_1__ctor_m0152E50B40750679B83FF9F30CA539FFBB98EEE8_gshared_inline (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1* __this, Il2CppChar* ___0_ptr, int32_t ___1_length, const RuntimeMethod* method) 
 {
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Il2CppChar* L_0 = ___0_ptr;
 		ByReference_1_t7BA5A6CA164F770BC688F21C5978D368716465F5 L_1;

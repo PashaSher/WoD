@@ -8,6 +8,9 @@
 struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_GridModule[];
+IL2CPP_EXTERN_C const RuntimeMethod* GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -84,10 +87,24 @@ struct GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B  : public Behaviour_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76923
+// Method Definition Index: 77613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A (GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GridLayout_tAD661B1E1E57C16BE21C8C13432EA04FE1F0418B_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var);
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, GridLayout_DoNothing_mA280987BF98D257023D46C2C01902FC82EE6A00A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_GridModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_GridModule + 1));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_GridModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_GridModule + 3));
 		return;
 	}
 }

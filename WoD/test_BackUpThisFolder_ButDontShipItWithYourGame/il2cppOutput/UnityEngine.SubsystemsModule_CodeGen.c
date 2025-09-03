@@ -83,49 +83,49 @@ static Il2CppMethodPointer s_methodPointers[38] =
 static const int32_t s_InvokerIndices[38] = 
 {
 	-1,
-	11034,
-	14225,
-	14225,
-	14225,
-	14633,
-	21283,
-	23551,
-	23785,
+	11963,
+	15757,
+	15757,
+	15757,
+	16167,
+	23535,
+	26207,
+	26441,
 	-1,
-	14413,
-	14633,
+	15946,
+	16167,
 	-1,
-	23881,
-	21278,
-	14633,
-	14413,
-	14633,
-	24255,
-	25511,
-	25511,
-	21283,
-	25511,
-	25511,
-	25511,
+	26537,
+	23530,
+	16167,
+	15946,
+	16167,
+	26912,
+	28370,
+	28370,
+	23535,
+	28370,
+	28370,
+	28370,
 	-1,
 	-1,
-	23881,
-	21283,
-	25511,
-	24255,
+	26537,
+	23535,
+	28370,
+	26912,
 	-1,
-	24255,
-	25511,
-	24240,
-	14413,
-	14633,
-	14633,
+	26912,
+	28370,
+	26897,
+	15946,
+	16167,
+	16167,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[3] = 
 {
 	{ 0x0600001A, { 0, 5 } },
-	{ 0x0600001B, { 5, 11 } },
-	{ 0x06000020, { 16, 9 } },
+	{ 0x0600001B, { 5, 14 } },
+	{ 0x06000020, { 19, 10 } },
 };
 extern const uint32_t g_rgctx_List_1_t4D4A4160AD6A5AF7BE63E6C9DDD4B2E4E331E8AD;
 extern const uint32_t g_rgctx_List_1_Clear_m263E9405C711E2BF06E72D12C60C6DB44FD83E60;
@@ -143,6 +143,9 @@ extern const uint32_t g_rgctx_List_1_tC05347E9439A32B87668F876D0BCE11C446FACD1;
 extern const uint32_t g_rgctx_List_1_Add_m63BEFC493BABD8C0591479AB80B81127382FFA32;
 extern const uint32_t g_rgctx_Enumerator_MoveNext_m022E697D4613667FD4ABF9B1520381349E39C238;
 extern const Il2CppRGCTXConstrainedData g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7;
+extern const uint32_t g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411;
+extern const uint32_t g_rgctx_TBaseTypeInList_tF0CE0747D2F83FC3C38B2F057083EA0C63AC7C61;
+extern const uint32_t g_rgctx_TQueryType_tFAA6B5F209223336BB243BD708D59C43AF4A259B;
 extern const uint32_t g_rgctx_List_1_t4FD62234F80546ED54378254D3B222948841B4AF;
 extern const uint32_t g_rgctx_List_1_get_Item_m3935F8C510B45D47FD1F8DFEEE467CE30B145BF4;
 extern const uint32_t g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54;
@@ -152,7 +155,8 @@ extern const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_tD5C1BF59BFFF7F69AC9
 extern const uint32_t g_rgctx_List_1_set_Item_m58B49CD878D3DC099EB422A63AB014DF5B1CAE06;
 extern const uint32_t g_rgctx_List_1_get_Count_mC3BAEE88ADF85DEC0CA10B97B3E7F42183A8AFBB;
 extern const uint32_t g_rgctx_List_1_Add_m99E6BCF557EB89898061B9B8761AA6D402DD2592;
-static const Il2CppRGCTXDefinition s_rgctxValues[25] = 
+extern const uint32_t g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54;
+static const Il2CppRGCTXDefinition s_rgctxValues[29] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t4D4A4160AD6A5AF7BE63E6C9DDD4B2E4E331E8AD },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Clear_m263E9405C711E2BF06E72D12C60C6DB44FD83E60 },
@@ -170,6 +174,9 @@ static const Il2CppRGCTXDefinition s_rgctxValues[25] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m63BEFC493BABD8C0591479AB80B81127382FFA32 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_m022E697D4613667FD4ABF9B1520381349E39C238 },
 	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411_IDisposable_Dispose_m3C902735BE731EE30AC1185E7AEF6ACE7A9D9CC7 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_Enumerator_tF63BE6DA4E12FC2CCE9C20921649B1AB2D81E411 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TBaseTypeInList_tF0CE0747D2F83FC3C38B2F057083EA0C63AC7C61 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TQueryType_tFAA6B5F209223336BB243BD708D59C43AF4A259B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t4FD62234F80546ED54378254D3B222948841B4AF },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Item_m3935F8C510B45D47FD1F8DFEEE467CE30B145BF4 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54 },
@@ -179,7 +186,9 @@ static const Il2CppRGCTXDefinition s_rgctxValues[25] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_set_Item_m58B49CD878D3DC099EB422A63AB014DF5B1CAE06 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_get_Count_mC3BAEE88ADF85DEC0CA10B97B3E7F42183A8AFBB },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_Add_m99E6BCF557EB89898061B9B8761AA6D402DD2592 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TBaseTypeInList_t7042BCACE0A8A2A88132E86C1016AB2EA0E01C54 },
 };
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_SubsystemsModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule = 
 {
@@ -193,9 +202,9 @@ const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule =
 	NULL,
 	3,
 	s_rgctxIndices,
-	25,
+	29,
 	s_rgctxValues,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_SubsystemsModule,
 	NULL,
 	NULL,
 	NULL,

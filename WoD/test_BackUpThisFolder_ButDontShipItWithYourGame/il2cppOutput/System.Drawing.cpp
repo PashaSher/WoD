@@ -160,6 +160,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA5E43D4B9D6BD45F1DE9FF7D9FC9BC6F5AF86D0F
 IL2CPP_EXTERN_C String_t* _stringLiteralAF25DC5A736EC63E7FFBDE734FC4EC9B0024A767;
 IL2CPP_EXTERN_C String_t* _stringLiteralB04BD692036B5EE39D032DC402E0EC84CE96EFA4;
 IL2CPP_EXTERN_C String_t* _stringLiteralB15077D6B86395A72F7C1318136CD64578FA08BF;
+IL2CPP_EXTERN_C String_t* _stringLiteralB243E266B4DBD4EC5C0B7CCF9C3B261EA0914EDC;
 IL2CPP_EXTERN_C String_t* _stringLiteralB26F50B338D34F3E42FFA9C2628393743D2AD2BE;
 IL2CPP_EXTERN_C String_t* _stringLiteralB2EF4AEEC292D34024BC775BC0F17D425A1C0325;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3C05D8A35844E1E82D9FF2A8C83562939E1EDF2;
@@ -223,6 +224,34 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFA18942F3C9F50CF877ED04B1DE8E2DABFD08741
 IL2CPP_EXTERN_C String_t* _stringLiteralFAEA585C93CC8A656C9B90659DEE7AE1EC03AF5F;
 IL2CPP_EXTERN_C String_t* _stringLiteralFC0364E02AABC3EC57B1EFCB86BF8802604E2538;
 IL2CPP_EXTERN_C const RuntimeMethod* Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC_RuntimeMethod_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -553,9 +582,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_G_m8BBF290336C0D938F2546AB2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE (int32_t ___0_color, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToString_mD50A87BAAF57E646B5A7B8AE989EC2A6B8DC1057 (int64_t ___0_value, int32_t ___1_toBase, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97 (int32_t ___0_color, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
@@ -587,9 +617,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_GetHashCode_m87358396DFDAE1F143
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74413
+// Method Definition Index: 75283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___0_format;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = ___1_args;
@@ -606,9 +645,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9977F23B838724F9DA04223E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74414
+// Method Definition Index: 75284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8 (int32_t ___0_h1, int32_t ___1_h2, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___0_h1;
 		int32_t L_1 = ___0_h1;
@@ -617,17 +665,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_mB8E75AA81F7543BB
 		return ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)(L_0<<5))|((int32_t)((uint32_t)L_1>>((int32_t)27))))), L_2))^L_3));
 	}
 }
-// Method Definition Index: 74415
+// Method Definition Index: 75285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashHelpers_t0F28B03B873280BF35E747F5B954C752F924A770_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99_RuntimeMethod_var);
 	Guid_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Guid_t L_0;
 		L_0 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
@@ -654,15 +706,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mA1680F8D1B4E1C62B666
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74416
+// Method Definition Index: 75286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ((KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_StaticFields*)il2cpp_codegen_static_fields_for(KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var))->___s_colorTable;
 		if (L_0)
@@ -679,16 +735,20 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 74417
+// Method Definition Index: 75287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)175));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
@@ -1121,15 +1181,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorTable_mC6E537EF
 		return;
 	}
 }
-// Method Definition Index: 74418
+// Method Definition Index: 75288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ((KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_StaticFields*)il2cpp_codegen_static_fields_for(KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var))->___s_colorNameTable;
 		if (L_0)
@@ -1146,12 +1210,13 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 74419
+// Method Definition Index: 75289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral012F05B13B20BEDFF14849000C19F4828A82208C);
@@ -1330,6 +1395,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorNameTable_mB77C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC0364E02AABC3EC57B1EFCB86BF8802604E2538);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)175));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
@@ -1859,15 +1927,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorNameTable_mB77C
 		return;
 	}
 }
-// Method Definition Index: 74420
+// Method Definition Index: 75290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97 (int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83(NULL);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ((KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_StaticFields*)il2cpp_codegen_static_fields_for(KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var))->___s_colorTable;
@@ -1878,15 +1950,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KnownColorTable_KnownColorToArgb_m097
 		return L_3;
 	}
 }
-// Method Definition Index: 74421
+// Method Definition Index: 75291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE (int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303(NULL);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ((KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_StaticFields*)il2cpp_codegen_static_fields_for(KnownColorTable_tB5906A1181942046FF6EF2C53777B6B79A7EFB08_il2cpp_TypeInfo_var))->___s_colorNameTable;
@@ -1897,9 +1973,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KnownColorTable_KnownColorToName_mE
 		return L_3;
 	}
 }
-// Method Definition Index: 74422
+// Method Definition Index: 75292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0 (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_colorTable, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ___0_colorTable;
 		NullCheck(L_0);
@@ -2063,9 +2148,18 @@ IL2CPP_EXTERN_C void Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661_marshal_com
 	il2cpp_codegen_marshal_free_bstring(marshaled.___name);
 	marshaled.___name = NULL;
 }
-// Method Definition Index: 74423
+// Method Definition Index: 75293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, int64_t ___0_value, int16_t ___1_state, String_t* ___2_name, int32_t ___3_knownColor, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0 = ___0_value;
 		__this->___value = L_0;
@@ -2086,9 +2180,18 @@ IL2CPP_EXTERN_C  void Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_Adju
 	_thisAdjusted = reinterpret_cast<Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661*>(__this + _offset);
 	Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970(_thisAdjusted, ___0_value, ___1_state, ___2_name, ___3_knownColor, method);
 }
-// Method Definition Index: 74424
+// Method Definition Index: 75294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(__this, NULL);
@@ -2104,9 +2207,18 @@ IL2CPP_EXTERN_C  uint8_t Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_A
 	_returnValue = Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74425
+// Method Definition Index: 75295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(__this, NULL);
@@ -2122,9 +2234,18 @@ IL2CPP_EXTERN_C  uint8_t Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_A
 	_returnValue = Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74426
+// Method Definition Index: 75296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(__this, NULL);
@@ -2140,9 +2261,18 @@ IL2CPP_EXTERN_C  uint8_t Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_A
 	_returnValue = Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74427
+// Method Definition Index: 75297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(__this, NULL);
@@ -2158,9 +2288,18 @@ IL2CPP_EXTERN_C  uint8_t Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_A
 	_returnValue = Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74428
+// Method Definition Index: 75298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int16_t L_0 = __this->___state;
 		return (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&1))) <= ((uint32_t)0)))? 1 : 0);
@@ -2175,15 +2314,87 @@ IL2CPP_EXTERN_C  bool Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6
 	_returnValue = Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74429
+// Method Definition Index: 75299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB243E266B4DBD4EC5C0B7CCF9C3B261EA0914EDC);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
+		String_t* L_2;
+		L_2 = Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876(__this, NULL);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_1;
+		uint8_t L_4;
+		L_4 = Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230(__this, NULL);
+		uint8_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.byte_class, &L_5);
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_6);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_6);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_3;
+		uint8_t L_8;
+		L_8 = Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951(__this, NULL);
+		uint8_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(il2cpp_defaults.byte_class, &L_9);
+		NullCheck(L_7);
+		ArrayElementTypeCheck (L_7, L_10);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_7;
+		uint8_t L_12;
+		L_12 = Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA(__this, NULL);
+		uint8_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(il2cpp_defaults.byte_class, &L_13);
+		NullCheck(L_11);
+		ArrayElementTypeCheck (L_11, L_14);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_14);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_11;
+		uint8_t L_16;
+		L_16 = Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61(__this, NULL);
+		uint8_t L_17 = L_16;
+		RuntimeObject* L_18 = Box(il2cpp_defaults.byte_class, &L_17);
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_18);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_18);
+		String_t* L_19;
+		L_19 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralB243E266B4DBD4EC5C0B7CCF9C3B261EA0914EDC, L_15, NULL);
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C  String_t* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF(_thisAdjusted, method);
+	return _returnValue;
+}
+// Method Definition Index: 75300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int16_t L_0 = __this->___state;
 		if (!((int32_t)((int32_t)L_0&8)))
@@ -2230,9 +2441,18 @@ IL2CPP_EXTERN_C  String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B
 	_returnValue = Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74430
+// Method Definition Index: 75301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int16_t L_0 = __this->___state;
 		if (!((int32_t)((int32_t)L_0&2)))
@@ -2275,9 +2495,18 @@ IL2CPP_EXTERN_C  int64_t Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA0777125
 	_returnValue = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74431
+// Method Definition Index: 75302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7 (int32_t ___0_value, String_t* ___1_name, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___0_value;
 		if ((((int32_t)L_0) < ((int32_t)0)))
@@ -2332,9 +2561,18 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 74432
+// Method Definition Index: 75303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E (uint8_t ___0_alpha, uint8_t ___1_red, uint8_t ___2_green, uint8_t ___3_blue, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		uint8_t L_0 = ___1_red;
 		uint8_t L_1 = ___2_green;
@@ -2343,9 +2581,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_MakeArgb_mCFECEF91CF3C17C3992AA
 		return ((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)16)))|((int32_t)((int32_t)L_1<<8))))|(int32_t)L_2))|((int32_t)((int32_t)L_3<<((int32_t)24)))))))&((int64_t)(uint64_t)((uint32_t)(-1)))));
 	}
 }
-// Method Definition Index: 74433
+// Method Definition Index: 75304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C (int32_t ___0_argb, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___0_argb;
 		Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 L_1;
@@ -2354,18 +2601,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD716916
 		return L_1;
 	}
 }
-// Method Definition Index: 74434
+// Method Definition Index: 75305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C (int32_t ___0_alpha, int32_t ___1_red, int32_t ___2_green, int32_t ___3_blue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0003B14F695AB7215B136EA26D31E90AFF0EB15A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2375165D26BB55F57D2F81F646CDE703E7803615);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31A0D7054359216EFE7213AEA1E910EEFC934B74);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B736A9739934A4ACD0D222F5EDAB3AB0209F008);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___0_alpha;
 		Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7(L_0, _stringLiteral0003B14F695AB7215B136EA26D31E90AFF0EB15A, NULL);
@@ -2387,9 +2638,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD716916
 		return L_9;
 	}
 }
-// Method Definition Index: 74435
+// Method Definition Index: 75306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0;
 		L_0 = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(__this, NULL);
@@ -2405,12 +2665,13 @@ IL2CPP_EXTERN_C  int32_t Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_
 	_returnValue = Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74436
+// Method Definition Index: 75307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2BAE49BDE068FA80909F1B2FE5CCD6C635DD9783);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral52E4E95B00FBFE8143FAC52CA391655BEE331044);
@@ -2421,7 +2682,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_ToString_m5C7D9DB036E127D264B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFA18942F3C9F50CF877ED04B1DE8E2DABFD08741);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F_RuntimeMethod_var);
 	uint8_t V_0 = 0x0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		int16_t L_0 = __this->___state;
 		if (((int32_t)((int32_t)L_0&8)))
@@ -2522,9 +2786,18 @@ IL2CPP_EXTERN_C  String_t* Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD0525
 	_returnValue = Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 74437
+// Method Definition Index: 75308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___0_left, Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___1_right, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 L_0 = ___0_left;
 		int64_t L_1 = L_0.___value;
@@ -2570,15 +2843,19 @@ IL_003c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 74438
+// Method Definition Index: 75309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661_il2cpp_TypeInfo_var)))
@@ -2607,9 +2884,18 @@ IL2CPP_EXTERN_C  bool Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_Adj
 	_returnValue = Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A(_thisAdjusted, ___0_obj, method);
 	return _returnValue;
 }
-// Method Definition Index: 74439
+// Method Definition Index: 75310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___0_other, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 L_0 = (*(Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661*)__this);
 		Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 L_1 = ___0_other;
@@ -2627,15 +2913,19 @@ IL2CPP_EXTERN_C  bool Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_Adj
 	_returnValue = Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 74440
+// Method Definition Index: 75311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashHelpers_t0F28B03B873280BF35E747F5B954C752F924A770_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->___name;
 		bool L_1;

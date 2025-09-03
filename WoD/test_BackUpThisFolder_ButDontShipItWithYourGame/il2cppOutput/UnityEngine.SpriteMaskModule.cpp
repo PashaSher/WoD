@@ -7,6 +7,8 @@
 
 struct String_t;
 
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -66,18 +68,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76924
+// Method Definition Index: 77614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9 ___0_range, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		bool L_0;
 		L_0 = SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD((&___0_range), NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 76925
+// Method Definition Index: 77615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9* ___0_range, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_RuntimeMethod_var);
 	typedef bool (*SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_ftn) (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9*);
 	static SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)

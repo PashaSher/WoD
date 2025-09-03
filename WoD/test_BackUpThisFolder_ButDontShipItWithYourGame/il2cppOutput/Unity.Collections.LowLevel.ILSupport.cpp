@@ -13,6 +13,8 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6____79A1C5065E3683D0CCDFA570FA53B151961969DD034788B9FDE927454C901A98_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6____E957F2AFC795677AA0ACFF0DB287CBE3D2F0D8D6FBB97578B7791915F1B9E702_FieldInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m5AEC11BEDCF402372741582A926E9D7E5C979AC6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0D7FC8D9CBAF4951124B56FA51165015F41B67A4_RuntimeMethod_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -192,7 +194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77101
+// Method Definition Index: 77791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m5AEC11BEDCF402372741582A926E9D7E5C979AC6 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -201,10 +203,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE8CE27F1B50A55060EDAD9796B653
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6____79A1C5065E3683D0CCDFA570FA53B151961969DD034788B9FDE927454C901A98_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t56B11D653DDDDCE1FB62511C9112308EE5C13DF6____E957F2AFC795677AA0ACFF0DB287CBE3D2F0D8D6FBB97578B7791915F1B9E702_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m5AEC11BEDCF402372741582A926E9D7E5C979AC6_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m5AEC11BEDCF402372741582A926E9D7E5C979AC6_RuntimeMethod_var);
 	MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m5AEC11BEDCF402372741582A926E9D7E5C979AC6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tE8CE27F1B50A55060EDAD9796B65329E68490400));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)144));
@@ -226,9 +232,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE8CE27F1B50A55060EDAD9796B653
 		return L_6;
 	}
 }
-// Method Definition Index: 77102
+// Method Definition Index: 77792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0D7FC8D9CBAF4951124B56FA51165015F41B67A4 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB0711B22A0E1701A911D120A3F7C3B316E599C42* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0D7FC8D9CBAF4951124B56FA51165015F41B67A4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0D7FC8D9CBAF4951124B56FA51165015F41B67A4_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m0D7FC8D9CBAF4951124B56FA51165015F41B67A4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;

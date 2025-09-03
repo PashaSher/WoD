@@ -13,10 +13,15 @@ struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t21637E60B4727FCC74DBA2662
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____0A02D26BFBA6DFF59C1E3BC5E6B5832B263438655010A0A49BE8D61B88D5E5B8_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____85BF11957BFA44053C2CAE7DACC65E08541F7E3C1BB08C2CC6BCD53A11DFCE24_FieldInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_0_0_0_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -225,43 +230,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77081
+// Method Definition Index: 77788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____0A02D26BFBA6DFF59C1E3BC5E6B5832B263438655010A0A49BE8D61B88D5E5B8_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____85BF11957BFA44053C2CAE7DACC65E08541F7E3C1BB08C2CC6BCD53A11DFCE24_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var);
 	MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m586E7B58DA433D6C284C4C29185006F170A6B633_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)112));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____85BF11957BFA44053C2CAE7DACC65E08541F7E3C1BB08C2CC6BCD53A11DFCE24_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)66));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tA040082ACE377F10A31FF80DC6C1864B1CB3AF82____0A02D26BFBA6DFF59C1E3BC5E6B5832B263438655010A0A49BE8D61B88D5E5B8_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 1;
 		(&V_0)->___TotalTypes = 1;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_0057;
+	}
+
+IL_0057:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 6));
+		MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 77082
+// Method Definition Index: 77789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t21637E60B4727FCC74DBA2662FABA55B062650DA* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ProfilerMethodSentry _profilerMethodSentry(UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var);
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC16F012056158B3BD5187FB0B498F4B4AC67F058_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -345,21 +381,30 @@ IL2CPP_EXTERN_C void MonoScriptData_t82B1EDB2E75C6D415B8D03B486672468ACF9471A_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77083
+// Method Definition Index: 77790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	ProfilerMethodSentry _profilerMethodSentry(CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var);
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_camera));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 8));
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@609b19816fd2/Runtime-PrivateShared/AssemblyInfo.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 9));
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 10));
 		il2cpp_codegen_runtime_class_init_inline(CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var);
 		RuntimeObject* L_1;
 		L_1 = CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m6ECF80A30B41D0DBA2404F64A33CCE58F31B1B3A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Core_Runtime_Shared + 10));
 		return L_1;
 	}
 }
