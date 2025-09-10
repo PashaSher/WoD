@@ -40,6 +40,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -55,6 +56,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -99,6 +101,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -122,6 +125,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
@@ -142,6 +146,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -157,6 +162,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -190,6 +196,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -223,6 +230,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -257,13 +265,16 @@
           },
           {
             "name": "MeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/RegistrationWindow.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -279,6 +290,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -288,6 +300,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -341,6 +354,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
