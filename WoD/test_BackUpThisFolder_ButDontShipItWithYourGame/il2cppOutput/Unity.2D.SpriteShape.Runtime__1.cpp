@@ -1875,7 +1875,7 @@ extern "C" void CDECL ReversePInvokeWrapper_SpriteShapeGenerator_UTessellator_mA
 	SpriteShapeGenerator_UTessellator_mA975B9F66E80F2334124BFADD19F331AB2F6E90D(___0_geom, ___1_maxCount, ___2_tessPoints, ___3_tessPointCount, ___4_indices, ___5_iCount, ___6_vertices, ___7_stride, ___8_vCount, ___9_label, NULL);
 
 }
-// Method Definition Index: 69480
+// Method Definition Index: 69485
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_vertexDataCount_mDC30ECF81BCDFA0769E3F7EACE2718E929637EFD (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1917,7 +1917,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_vertexDataCount_mDC30ECF81BCDF
 	_returnValue = SpriteShapeGenerator_get_vertexDataCount_mDC30ECF81BCDFA0769E3F7EACE2718E929637EFD(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69481
+// Method Definition Index: 69486
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_vertexArrayCount_m776FBDEEB5A98DDBE16B219D2587D981B606D910 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1959,7 +1959,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_vertexArrayCount_m776FBDEEB5A9
 	_returnValue = SpriteShapeGenerator_get_vertexArrayCount_m776FBDEEB5A98DDBE16B219D2587D981B606D910(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69482
+// Method Definition Index: 69487
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_indexDataCount_m1E6F0585FA2A3F592856EBB491409A7B39ABBB16 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2001,7 +2001,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_indexDataCount_m1E6F0585FA2A3F
 	_returnValue = SpriteShapeGenerator_get_indexDataCount_m1E6F0585FA2A3F592856EBB491409A7B39ABBB16(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69483
+// Method Definition Index: 69488
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_spriteCount_m8D39765E70D833493EEA503ED982F410EA9DFA53 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2047,7 +2047,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_spriteCount_m8D39765E70D833493
 	_returnValue = SpriteShapeGenerator_get_spriteCount_m8D39765E70D833493EEA503ED982F410EA9DFA53(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69484
+// Method Definition Index: 69489
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_cornerSpriteCount_mF842CCBF80F27E03641B10A9A12D721EA6957642 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2093,7 +2093,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_cornerSpriteCount_mF842CCBF80F
 	_returnValue = SpriteShapeGenerator_get_cornerSpriteCount_mF842CCBF80F27E03641B10A9A12D721EA6957642(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69485
+// Method Definition Index: 69490
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_angleRangeCount_mE6EB56E420B87315E754A66D294CF201F93FA1A8 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2139,7 +2139,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_angleRangeCount_mE6EB56E420B87
 	_returnValue = SpriteShapeGenerator_get_angleRangeCount_mE6EB56E420B87315E754A66D294CF201F93FA1A8(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69486
+// Method Definition Index: 69491
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_controlPointCount_m0B72EE45FD6E4BF63650958439B43712ADD39696 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2181,7 +2181,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_controlPointCount_m0B72EE45FD6
 	_returnValue = SpriteShapeGenerator_get_controlPointCount_m0B72EE45FD6E4BF63650958439B43712ADD39696(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69487
+// Method Definition Index: 69492
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_contourPointCount_m45CA4B09B39611D4A1C09F494A3BED828258CC41 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2223,7 +2223,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_contourPointCount_m45CA4B09B39
 	_returnValue = SpriteShapeGenerator_get_contourPointCount_m45CA4B09B39611D4A1C09F494A3BED828258CC41(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69488
+// Method Definition Index: 69493
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_segmentCount_m5B0A226EBA7CA12B095A92DB429DEB30DF3C7210 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2265,7 +2265,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_segmentCount_m5B0A226EBA7CA12B
 	_returnValue = SpriteShapeGenerator_get_segmentCount_m5B0A226EBA7CA12B095A92DB429DEB30DF3C7210(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69489
+// Method Definition Index: 69494
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_get_hasCollider_m6C79BA0841071B0B97D33C195716F14C0B5453DC (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2309,7 +2309,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_get_hasCollider_m6C79BA0841071B0B97D3
 	_returnValue = SpriteShapeGenerator_get_hasCollider_m6C79BA0841071B0B97D33C195716F14C0B5453DC(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69490
+// Method Definition Index: 69495
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_get_hasShadow_mF8B09961DA6FE6A05AA217EA3DAC9FF8D026FBB3 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2353,7 +2353,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_get_hasShadow_mF8B09961DA6FE6A05AA217
 	_returnValue = SpriteShapeGenerator_get_hasShadow_mF8B09961DA6FE6A05AA217EA3DAC9FF8D026FBB3(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69491
+// Method Definition Index: 69496
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_get_colliderPivot_m8D45A62C4E63DFD67D502547812616043B2582E7 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2397,7 +2397,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_get_colliderPivot_m8D45A62C4E63DFD67
 	_returnValue = SpriteShapeGenerator_get_colliderPivot_m8D45A62C4E63DFD67D502547812616043B2582E7(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69492
+// Method Definition Index: 69497
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_get_shadowPivot_mDF1695D06772C0DF9F3D30F628780F1EF4A2B39E (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2441,7 +2441,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_get_shadowPivot_mDF1695D06772C0DF9F3
 	_returnValue = SpriteShapeGenerator_get_shadowPivot_mDF1695D06772C0DF9F3D30F628780F1EF4A2B39E(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69493
+// Method Definition Index: 69498
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_get_borderPivot_m1CB177826C97190744B42A7A39F1E4B2ACA17941 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2485,7 +2485,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_get_borderPivot_m1CB177826C97190744B
 	_returnValue = SpriteShapeGenerator_get_borderPivot_m1CB177826C97190744B42A7A39F1E4B2ACA17941(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69494
+// Method Definition Index: 69499
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_get_splineDetail_m3739C3D78D2F7D5EE0C31ADC7EFF1A28E1620D5F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2529,7 +2529,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_get_splineDetail_m3739C3D78D2F7D5E
 	_returnValue = SpriteShapeGenerator_get_splineDetail_m3739C3D78D2F7D5EE0C31ADC7EFF1A28E1620D5F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69495
+// Method Definition Index: 69500
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_get_isCarpet_m82A7BACAF2824B38318697B6BD0BC97FE07624B2 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2573,7 +2573,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_get_isCarpet_m82A7BACAF2824B38318697B
 	_returnValue = SpriteShapeGenerator_get_isCarpet_m82A7BACAF2824B38318697B6BD0BC97FE07624B2(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69496
+// Method Definition Index: 69501
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_get_isAdaptive_m8022015FFC581294D888FCC63FEDC6B503985C85 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2617,7 +2617,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_get_isAdaptive_m8022015FFC581294D888F
 	_returnValue = SpriteShapeGenerator_get_isAdaptive_m8022015FFC581294D888FCC63FEDC6B503985C85(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69497
+// Method Definition Index: 69502
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_get_hasSpriteBorder_m015043D5050787F1744E27679E6681101C24C01F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2661,7 +2661,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_get_hasSpriteBorder_m015043D5050787F1
 	_returnValue = SpriteShapeGenerator_get_hasSpriteBorder_m015043D5050787F1744E27679E6681101C24C01F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69498
+// Method Definition Index: 69503
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 SpriteShapeGenerator_GetSpriteInfo_mC06825216D7CF04273E559CBBACEA742CCCC129E (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2711,7 +2711,7 @@ IL2CPP_EXTERN_C  JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 SpriteS
 	_returnValue = SpriteShapeGenerator_GetSpriteInfo_mC06825216D7CF04273E559CBBACEA742CCCC129E(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69499
+// Method Definition Index: 69504
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 SpriteShapeGenerator_GetCornerSpriteInfo_m6170012E001B82F923367E339A60AE997AEC7335 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2767,7 +2767,7 @@ IL2CPP_EXTERN_C  JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 SpriteS
 	_returnValue = SpriteShapeGenerator_GetCornerSpriteInfo_m6170012E001B82F923367E339A60AE997AEC7335(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69500
+// Method Definition Index: 69505
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobAngleRange_t974C3D0183C9572CE9C7D88703CABC5FAE543F13 SpriteShapeGenerator_GetAngleRange_m5FCB024AC77D929F60F35E4852920B49EC40D53F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2817,7 +2817,7 @@ IL2CPP_EXTERN_C  JobAngleRange_t974C3D0183C9572CE9C7D88703CABC5FAE543F13 SpriteS
 	_returnValue = SpriteShapeGenerator_GetAngleRange_m5FCB024AC77D929F60F35E4852920B49EC40D53F(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69501
+// Method Definition Index: 69506
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobControlPoint_t4A1C76318BCFAEC1F3FBA7879A2FB6FD0AFB2A36 SpriteShapeGenerator_GetControlPoint_mF73708A8E099838AC8806D2EE1305D230C709A37 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2867,7 +2867,7 @@ IL2CPP_EXTERN_C  JobControlPoint_t4A1C76318BCFAEC1F3FBA7879A2FB6FD0AFB2A36 Sprit
 	_returnValue = SpriteShapeGenerator_GetControlPoint_mF73708A8E099838AC8806D2EE1305D230C709A37(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69502
+// Method Definition Index: 69507
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobContourPoint_t4C410C8E8FEECD48C1DE496790BA15C88F09E3E3 SpriteShapeGenerator_GetContourPoint_m7BD62D1044854A6E2811C65FC8C4C3451133A20A (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2917,7 +2917,7 @@ IL2CPP_EXTERN_C  JobContourPoint_t4C410C8E8FEECD48C1DE496790BA15C88F09E3E3 Sprit
 	_returnValue = SpriteShapeGenerator_GetContourPoint_m7BD62D1044854A6E2811C65FC8C4C3451133A20A(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69503
+// Method Definition Index: 69508
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 SpriteShapeGenerator_GetSegmentInfo_m72363F976D7D18181DED537467749537D0999DA9 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2967,7 +2967,7 @@ IL2CPP_EXTERN_C  JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 Sprite
 	_returnValue = SpriteShapeGenerator_GetSegmentInfo_m72363F976D7D18181DED537467749537D0999DA9(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69504
+// Method Definition Index: 69509
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_GetContourIndex_m8705A508B3B54F8268411F3FDF3DCBD030705500 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3013,7 +3013,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_GetContourIndex_m8705A508B3B54F826
 	_returnValue = SpriteShapeGenerator_GetContourIndex_m8705A508B3B54F8268411F3FDF3DCBD030705500(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69505
+// Method Definition Index: 69510
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_GetEndContourIndexOfSegment_m34A178F013D01C7EA2713CCE22E43BFF85D2E8CD (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_isi, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3068,7 +3068,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_GetEndContourIndexOfSegment_m34A17
 	_returnValue = SpriteShapeGenerator_GetEndContourIndexOfSegment_m34A178F013D01C7EA2713CCE22E43BFF85D2E8CD(_thisAdjusted, ___0_isi, method);
 	return _returnValue;
 }
-// Method Definition Index: 69506
+// Method Definition Index: 69511
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_SetResult_mB943A248C968BCA647038BD8CF5F568BB4669475 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3145,7 +3145,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_SetResult_mB943A248C968BCA647038BD8CF
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_SetResult_mB943A248C968BCA647038BD8CF5F568BB4669475(_thisAdjusted, ___0_result, method);
 }
-// Method Definition Index: 69509
+// Method Definition Index: 69514
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_IsPointOnLine_m9ADB4EB472366B1B12FE900C9395F6A50A01DE8B (float ___0_epsilon, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3306,7 +3306,7 @@ IL_00e5:
 		return L_57;
 	}
 }
-// Method Definition Index: 69510
+// Method Definition Index: 69515
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_IsPointOnLines_m2CA862D27FF37797951B22A515F697BFE97848C4 (float ___0_epsilon, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p3, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_p4, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___5_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3371,7 +3371,7 @@ IL_001e:
 		return L_10;
 	}
 }
-// Method Definition Index: 69511
+// Method Definition Index: 69516
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_Colinear_mD902FD4B26FE511CE9F0177B99A0BF16AD82DB41 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_p, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_q, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3472,7 +3472,7 @@ IL_006e:
 		return L_28;
 	}
 }
-// Method Definition Index: 69512
+// Method Definition Index: 69517
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_Det_m1CBF814EBFAF65729676E04E7C2B25556B96BD34 (float ___0_epsilon, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_q, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3585,7 +3585,7 @@ IL_005c:
 		return L_22;
 	}
 }
-// Method Definition Index: 69513
+// Method Definition Index: 69518
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_LineIntersectionTest_mE62B6C1918AFA11BD5F4B17D32063D86DFD374BC (float ___0_epsilon, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_q1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_q2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3891,7 +3891,7 @@ IL_00b1:
 		return L_49;
 	}
 }
-// Method Definition Index: 69514
+// Method Definition Index: 69519
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_LineIntersection_mB00C5425B41C9CA3C6665C14817D7BA812F0C68C (float ___0_epsilon, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p3, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_p4, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4104,7 +4104,7 @@ IL_00ef:
 		return L_59;
 	}
 }
-// Method Definition Index: 69515
+// Method Definition Index: 69520
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_AngleBetweenVector_mE576D3B5B635113A6402D84E3C7E9C02898E2685 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4164,7 +4164,7 @@ IL_0035:
 		return L_14;
 	}
 }
-// Method Definition Index: 69516
+// Method Definition Index: 69521
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_GenerateColumnsBi_m432FE4F034EE3FEB5856B11DD3F08AD87B8C5CB5 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_whsize, bool ___3_flip, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_rt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_rb, float ___6_cph, float ___7_pivot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4369,7 +4369,7 @@ IL_00d8:
 		return L_46;
 	}
 }
-// Method Definition Index: 69517
+// Method Definition Index: 69522
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_GenerateColumnsTri_mC86F836BF87D9E75633C54280BADB76A9751B8D4 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_whsize, bool ___4_flip, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_rt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___6_rb, float ___7_cph, float ___8_pivot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4588,7 +4588,7 @@ IL_00f5:
 		return L_53;
 	}
 }
-// Method Definition Index: 69518
+// Method Definition Index: 69523
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_AppendCornerCoordinates_mDCB86690220150FEE68F15E621D8507E22095B2B (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_corners, int32_t* ___1_cornerCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___5_d, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4675,7 +4675,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_AppendCornerCoordinates_mDCB866902201
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_AppendCornerCoordinates_mDCB86690220150FEE68F15E621D8507E22095B2B(_thisAdjusted, ___0_corners, ___1_cornerCount, ___2_a, ___3_b, ___4_c, ___5_d, method);
 }
-// Method Definition Index: 69519
+// Method Definition Index: 69524
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_PrepareInput_mE4FDC5415D5B004748A141D7F51383B5255E0FBF (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45 ___0_shapeParams, int32_t ___1_maxArrayCount, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___2_shapePoints, bool ___3_optimizeGeometry, bool ___4_updateCollider, bool ___5_optimizeCollider, float ___6_colliderOffset, float ___7_colliderDetail, bool ___8_updateShadow, float ___9_shadowOffset, float ___10_shadowDetail, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5725,7 +5725,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_PrepareInput_mE4FDC5415D5B004748A141D
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_PrepareInput_mE4FDC5415D5B004748A141D7F51383B5255E0FBF(_thisAdjusted, ___0_shapeParams, ___1_maxArrayCount, ___2_shapePoints, ___3_optimizeGeometry, ___4_updateCollider, ___5_optimizeCollider, ___6_colliderOffset, ___7_colliderDetail, ___8_updateShadow, ___9_shadowOffset, ___10_shadowDetail, method);
 }
-// Method Definition Index: 69520
+// Method Definition Index: 69525
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TransferSprites_m7EB37DB492012CA10801310B4A6AB9D23C9D604A (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, NativeArray_1_t6F6DC3ADF226AD65ED9319CB852676AE3EEEDB13* ___0_spriteInfos, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___1_sprites, int32_t ___2_maxCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6127,7 +6127,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_TransferSprites_m7EB37DB492012CA10801
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_TransferSprites_m7EB37DB492012CA10801310B4A6AB9D23C9D604A(_thisAdjusted, ___0_spriteInfos, ___1_sprites, ___2_maxCount, method);
 }
-// Method Definition Index: 69521
+// Method Definition Index: 69526
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_PrepareSprites_m5423E297D56773AD47D53877570C57D2B38B4E24 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___0_edgeSprites, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___1_cornerSprites, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6195,7 +6195,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_PrepareSprites_m5423E297D56773AD47D53
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_PrepareSprites_m5423E297D56773AD47D53877570C57D2B38B4E24(_thisAdjusted, ___0_edgeSprites, ___1_cornerSprites, method);
 }
-// Method Definition Index: 69522
+// Method Definition Index: 69527
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_PrepareAngleRanges_m612B2151F30299B9B7AACDA7A041510E65EB618B (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, AngleRangeInfoU5BU5D_t8AE5F89B8CA102A1093EFEA4E67B9364AC690BC8* ___0_angleRanges, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6371,7 +6371,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_PrepareAngleRanges_m612B2151F30299B9B
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_PrepareAngleRanges_m612B2151F30299B9B7AACDA7A041510E65EB618B(_thisAdjusted, ___0_angleRanges, method);
 }
-// Method Definition Index: 69523
+// Method Definition Index: 69528
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_PrepareControlPoints_mABC163490DAF124A972C1440B19D0140EB2673D4 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___0_shapePoints, NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25 ___1_metaData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6660,7 +6660,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_PrepareControlPoints_mABC163490DAF124
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_PrepareControlPoints_mABC163490DAF124A972C1440B19D0140EB2673D4(_thisAdjusted, ___0_shapePoints, ___1_metaData, method);
 }
-// Method Definition Index: 69524
+// Method Definition Index: 69529
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_WithinRange_mA4F9BD34C7AAA5111DF48DFCC66FCE28FB70E31E (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobAngleRange_t974C3D0183C9572CE9C7D88703CABC5FAE543F13 ___0_angleRange, float ___1_inputAngle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6746,7 +6746,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_WithinRange_mA4F9BD34C7AAA5111DF48DFC
 	_returnValue = SpriteShapeGenerator_WithinRange_mA4F9BD34C7AAA5111DF48DFCC66FCE28FB70E31E(_thisAdjusted, ___0_angleRange, ___1_inputAngle, method);
 	return _returnValue;
 }
-// Method Definition Index: 69525
+// Method Definition Index: 69530
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_AngleWithinRange_mBFC8803A87435D94B5AA0D8E779A79729AC7FC90 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float ___0_t, float ___1_a, float ___2_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6836,7 +6836,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_AngleWithinRange_mBFC8803A87435D94B5A
 	_returnValue = SpriteShapeGenerator_AngleWithinRange_mBFC8803A87435D94B5AA0D8E779A79729AC7FC90(_thisAdjusted, ___0_t, ___1_a, ___2_b, method);
 	return _returnValue;
 }
-// Method Definition Index: 69526
+// Method Definition Index: 69531
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA SpriteShapeGenerator_BezierPoint_mF0FE84A56DDB2BB6D2DF7C76053FFFF41EFFBA58 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_st, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_sp, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_ep, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_et, float ___4_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6979,7 +6979,7 @@ IL_008f:
 		return L_37;
 	}
 }
-// Method Definition Index: 69527
+// Method Definition Index: 69532
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_SlopeAngle_mA77578AE85D18BE9DBA77F08EDA58F854C3FEB38 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_dirNormalized, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7131,7 +7131,7 @@ IL_008a:
 		return L_16;
 	}
 }
-// Method Definition Index: 69528
+// Method Definition Index: 69533
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_SlopeAngle_m4B4B9571E7C898E103D6FEB88D6D6B22019A4011 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_start, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_end, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7184,7 +7184,7 @@ IL_0017:
 		return L_6;
 	}
 }
-// Method Definition Index: 69529
+// Method Definition Index: 69534
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_ResolveAngle_m718F26C825AD850CDE3B9780C7EA4F4FD09360A1 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float ___0_angle, int32_t ___1_activeIndex, float* ___2_renderOrder, int32_t* ___3_spriteIndex, int32_t* ___4_firstSpriteIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7383,7 +7383,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_ResolveAngle_m718F26C825AD850CDE3B978
 	_returnValue = SpriteShapeGenerator_ResolveAngle_m718F26C825AD850CDE3B9780C7EA4F4FD09360A1(_thisAdjusted, ___0_angle, ___1_activeIndex, ___2_renderOrder, ___3_spriteIndex, ___4_firstSpriteIndex, method);
 	return _returnValue;
 }
-// Method Definition Index: 69530
+// Method Definition Index: 69535
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_GetSpriteIndex_mFE565014AF490E45B712164C61A27C3E6B230163 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, int32_t ___1_previousIndex, int32_t* ___2_resolved, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7537,7 +7537,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_GetSpriteIndex_mFE565014AF490E45B7
 	_returnValue = SpriteShapeGenerator_GetSpriteIndex_mFE565014AF490E45B712164C61A27C3E6B230163(_thisAdjusted, ___0_index, ___1_previousIndex, ___2_resolved, method);
 	return _returnValue;
 }
-// Method Definition Index: 69531
+// Method Definition Index: 69536
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_GenerateSegments_mFD269D1C42D371CD823610D0DF68AFAF6C221E9F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8391,7 +8391,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_GenerateSegments_mFD269D1C42D371CD823
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_GenerateSegments_mFD269D1C42D371CD823610D0DF68AFAF6C221E9F(_thisAdjusted, method);
 }
-// Method Definition Index: 69532
+// Method Definition Index: 69537
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UpdateSegments_m7D6F5BA1B8A1E53960801B0B947F46CAE379AA8E (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8507,7 +8507,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_UpdateSegments_m7D6F5BA1B8A1E53960801
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_UpdateSegments_m7D6F5BA1B8A1E53960801B0B947F46CAE379AA8E(_thisAdjusted, method);
 }
-// Method Definition Index: 69533
+// Method Definition Index: 69538
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_GetSegmentBoundaryColumn_m93EFD1563B99BCBA319FA4A4ADF2F9CA382190CB (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_segment, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___1_sprInfo, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_whsize, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_startPos, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___4_endPos, bool ___5_end, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___6_top, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___7_bottom, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8712,7 +8712,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_GetSegmentBoundaryColumn_m93EFD1563B9
 	_returnValue = SpriteShapeGenerator_GetSegmentBoundaryColumn_m93EFD1563B99BCBA319FA4A4ADF2F9CA382190CB(_thisAdjusted, ___0_segment, ___1_sprInfo, ___2_whsize, ___3_startPos, ___4_endPos, ___5_end, ___6_top, ___7_bottom, method);
 	return _returnValue;
 }
-// Method Definition Index: 69534
+// Method Definition Index: 69539
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_GenerateControlPoints_mAD773E2807C8D8E29AC20CD125A78C516A1C6F82 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9324,7 +9324,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_GenerateControlPoints_mAD773E2807C8D8
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_GenerateControlPoints_mAD773E2807C8D8E29AC20CD125A78C516A1C6F82(_thisAdjusted, method);
 }
-// Method Definition Index: 69535
+// Method Definition Index: 69540
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_SegmentDistance_mC59D5EFEDEEB7AA90180AF4B4F53DF6BF49BFDD5 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_isi, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9465,7 +9465,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_SegmentDistance_mC59D5EFEDEEB7AA9018
 	_returnValue = SpriteShapeGenerator_SegmentDistance_mC59D5EFEDEEB7AA90180AF4B4F53DF6BF49BFDD5(_thisAdjusted, ___0_isi, method);
 	return _returnValue;
 }
-// Method Definition Index: 69536
+// Method Definition Index: 69541
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_GenerateContour_m6EBB4C1E95B82166E226FD2EAE9B33341EBBB5A2 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10274,7 +10274,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_GenerateContour_m6EBB4C1E95B82166E226
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_GenerateContour_m6EBB4C1E95B82166E226FD2EAE9B33341EBBB5A2(_thisAdjusted, method);
 }
-// Method Definition Index: 69537
+// Method Definition Index: 69542
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_PrepareContour_m89E38CF7A6CD6D93457277CA6AA43BA7BFA61973 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10434,7 +10434,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_PrepareContour_m89E38CF7A6CD6D9345727
 	_returnValue = SpriteShapeGenerator_PrepareContour_m89E38CF7A6CD6D93457277CA6AA43BA7BFA61973(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 69538
+// Method Definition Index: 69543
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UTessellator_mA975B9F66E80F2334124BFADD19F331AB2F6E90D (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10461,7 +10461,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UT
 		return;
 	}
 }
-// Method Definition Index: 69539
+// Method Definition Index: 69544
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_TessellateContour_mF70D92C350C736C57382EAD8AB02413344FD5545 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10734,7 +10734,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_TessellateContour_mF70D92C350C736C573
 	_returnValue = SpriteShapeGenerator_TessellateContour_mF70D92C350C736C57382EAD8AB02413344FD5545(_thisAdjusted, ___0_label, method);
 	return _returnValue;
 }
-// Method Definition Index: 69540
+// Method Definition Index: 69545
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TessellateContourMainThread_m4509E90FD48DB95C993D9144DDA67B825F809EE1 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11248,7 +11248,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_TessellateContourMainThread_m4509E90F
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_TessellateContourMainThread_m4509E90FD48DB95C993D9144DDA67B825F809EE1(_thisAdjusted, method);
 }
-// Method Definition Index: 69541
+// Method Definition Index: 69546
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_CalculateBoundingBox_m51E8608113267A80B08E671CD0E6F9E98403DE3A (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11594,7 +11594,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_CalculateBoundingBox_m51E8608113267A8
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_CalculateBoundingBox_m51E8608113267A80B08E671CD0E6F9E98403DE3A(_thisAdjusted, method);
 }
-// Method Definition Index: 69542
+// Method Definition Index: 69547
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_CalculateTexCoords_m601199E7DD5A81D4586B708E9BF175692744B3A3 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11943,7 +11943,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_CalculateTexCoords_m601199E7DD5A81D45
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_CalculateTexCoords_m601199E7DD5A81D4586B708E9BF175692744B3A3(_thisAdjusted, method);
 }
-// Method Definition Index: 69543
+// Method Definition Index: 69548
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_CopyVertexData_mBD9B93DAB3A30EA5D20DD8EB415C91437C957F0D (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* ___0_outPos, NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* ___1_outUV0, NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F* ___2_outTan, int32_t ___3_outIndex, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___4_inVertices, int32_t ___5_inIndex, float ___6_sOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12317,7 +12317,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_CopyVertexData_mBD9B93DAB3A30EA5D20DD
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_CopyVertexData_mBD9B93DAB3A30EA5D20DD8EB415C91437C957F0D(_thisAdjusted, ___0_outPos, ___1_outUV0, ___2_outTan, ___3_outIndex, ___4_inVertices, ___5_inIndex, ___6_sOrder, method);
 }
-// Method Definition Index: 69544
+// Method Definition Index: 69549
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_CopySegmentRenderData_m48B6A14833D7B597E6E97A6F53E1542FA0A23F76 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___0_ispr, NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A* ___1_outPos, NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF* ___2_outUV0, NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F* ___3_outTan, int32_t* ___4_outCount, NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934* ___5_indexData, int32_t* ___6_indexCount, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___7_inVertices, int32_t ___8_inCount, float ___9_sOrder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12569,7 +12569,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_CopySegmentRenderData_m48B6A14833D
 	_returnValue = SpriteShapeGenerator_CopySegmentRenderData_m48B6A14833D7B597E6E97A6F53E1542FA0A23F76(_thisAdjusted, ___0_ispr, ___1_outPos, ___2_outUV0, ___3_outTan, ___4_outCount, ___5_indexData, ___6_indexCount, ___7_inVertices, ___8_inCount, ___9_sOrder, method);
 	return _returnValue;
 }
-// Method Definition Index: 69545
+// Method Definition Index: 69550
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_GetLineSegments_m42433AFD66A0FE4716E83F2D8F1EB3FFBAE614FE (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___0_sprInfo, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___1_segment, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_whsize, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___3_vlt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_vlb, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_vrt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___6_vrb, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12655,7 +12655,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_GetLineSegments_m42433AFD66A0FE4716E8
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_GetLineSegments_m42433AFD66A0FE4716E83F2D8F1EB3FFBAE614FE(_thisAdjusted, ___0_sprInfo, ___1_segment, ___2_whsize, ___3_vlt, ___4_vlb, ___5_vrt, ___6_vrb, method);
 }
-// Method Definition Index: 69546
+// Method Definition Index: 69551
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TessellateSegment_m85D8FE88E38E3AC599183C5CB25D61EF203C3878 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_segmentIndex, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___1_sprInfo, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___2_segment, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_whsize, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___4_border, float ___5_pxlWidth, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___6_vertices, int32_t ___7_vertexCount, bool ___8_useClosure, bool ___9_validHead, bool ___10_validTail, bool ___11_firstSegment, bool ___12_finalSegment, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___13_outputVertices, int32_t* ___14_outputCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14005,7 +14005,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_TessellateSegment_m85D8FE88E38E3AC599
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_TessellateSegment_m85D8FE88E38E3AC599183C5CB25D61EF203C3878(_thisAdjusted, ___0_segmentIndex, ___1_sprInfo, ___2_segment, ___3_whsize, ___4_border, ___5_pxlWidth, ___6_vertices, ___7_vertexCount, ___8_useClosure, ___9_validHead, ___10_validTail, ___11_firstSegment, ___12_finalSegment, ___13_outputVertices, ___14_outputCount, method);
 }
-// Method Definition Index: 69547
+// Method Definition Index: 69552
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_SkipSegment_m60AD06EAE4EC71495A2C4DDF16E30CCCC7AC48D1 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_isi, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14204,7 +14204,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_SkipSegment_m60AD06EAE4EC71495A2C4DDF
 	_returnValue = SpriteShapeGenerator_SkipSegment_m60AD06EAE4EC71495A2C4DDF16E30CCCC7AC48D1(_thisAdjusted, ___0_isi, method);
 	return _returnValue;
 }
-// Method Definition Index: 69548
+// Method Definition Index: 69553
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_InterpolateLinear_m6655E2A9307AFE3E0F947E22789FD1D6709260BB (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14253,7 +14253,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_InterpolateLinear_m6655E2A9307AFE3E0
 	_returnValue = SpriteShapeGenerator_InterpolateLinear_m6655E2A9307AFE3E0F947E22789FD1D6709260BB(_thisAdjusted, ___0_a, ___1_b, ___2_t, method);
 	return _returnValue;
 }
-// Method Definition Index: 69549
+// Method Definition Index: 69554
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float SpriteShapeGenerator_InterpolateSmooth_m8A19C193EC1ECCA8116A4FE8834C22E4CDC38A1F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14309,7 +14309,7 @@ IL2CPP_EXTERN_C  float SpriteShapeGenerator_InterpolateSmooth_m8A19C193EC1ECCA81
 	_returnValue = SpriteShapeGenerator_InterpolateSmooth_m8A19C193EC1ECCA8116A4FE8834C22E4CDC38A1F(_thisAdjusted, ___0_a, ___1_b, ___2_t, method);
 	return _returnValue;
 }
-// Method Definition Index: 69550
+// Method Definition Index: 69555
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_AddVertex_m299A47F7A33CAB37533B90ACF8AD971DD9D358F2 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___0_array, int32_t* ___1_indexCount, JobShapeVertex_t630D64AD32E441EC9BC0B7B54948F861B2ECE9CC ___2_vertex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14396,7 +14396,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_AddVertex_m299A47F7A33CAB37533B90ACF8
 	_returnValue = SpriteShapeGenerator_AddVertex_m299A47F7A33CAB37533B90ACF8AD971DD9D358F2(_thisAdjusted, ___0_array, ___1_indexCount, ___2_vertex, method);
 	return _returnValue;
 }
-// Method Definition Index: 69551
+// Method Definition Index: 69556
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TessellateSegments_m42A1531B9F7C1DEC85DB7367542CFEC3D90E7FAA (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16222,7 +16222,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_TessellateSegments_m42A1531B9F7C1DEC8
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_TessellateSegments_m42A1531B9F7C1DEC85DB7367542CFEC3D90E7FAA(_thisAdjusted, method);
 }
-// Method Definition Index: 69552
+// Method Definition Index: 69557
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_FetchStretcher_m62E10BC6A8E62E8B07FAB981EA8791443792ECFC (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_segmentIndex, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___1_sprInfo, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___2_segment, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_whsize, bool ___4_validHead, bool ___5_validTail, float4_t89D9A294E7A79BD81BFBDD18654508532958555E* ___6_stretcher, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17327,7 +17327,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_FetchStretcher_m62E10BC6A8E62E8B07FAB
 	_returnValue = SpriteShapeGenerator_FetchStretcher_m62E10BC6A8E62E8B07FAB981EA8791443792ECFC(_thisAdjusted, ___0_segmentIndex, ___1_sprInfo, ___2_segment, ___3_whsize, ___4_validHead, ___5_validTail, ___6_stretcher, method);
 	return _returnValue;
 }
-// Method Definition Index: 69553
+// Method Definition Index: 69558
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_StretchCorners_mEF433099727D0C24530F28C9AA5A688FD001AEF4 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_segment, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___1_vertices, int32_t ___2_vertexCount, bool ___3_validHead, bool ___4_validTail, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___5_stretcher, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17979,7 +17979,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_StretchCorners_mEF433099727D0C24530F2
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_StretchCorners_mEF433099727D0C24530F28C9AA5A688FD001AEF4(_thisAdjusted, ___0_segment, ___1_vertices, ___2_vertexCount, ___3_validHead, ___4_validTail, ___5_stretcher, method);
 }
-// Method Definition Index: 69554
+// Method Definition Index: 69559
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_ExtendSegment_mA0441D565DA580DFA03ED402D55C01FCE45A62DC (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___0_l0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___1_r0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18074,7 +18074,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_ExtendSegment_mA0441D565DA580DFA03ED4
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_ExtendSegment_mA0441D565DA580DFA03ED402D55C01FCE45A62DC(_thisAdjusted, ___0_l0, ___1_r0, method);
 }
-// Method Definition Index: 69555
+// Method Definition Index: 69560
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_GetIntersection_m7A6907C124D4C476D9F6A474EB8D2C32B3ED22D0 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_cp, int32_t ___1_ct, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___2_ispr, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___3_lt0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___4_lb0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___5_rt0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___6_rb0, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___7_lt1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___8_lb1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___9_rt1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___10_rb1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___11_tp, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___12_bt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18513,7 +18513,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_GetIntersection_m7A6907C124D4C476D9F6
 	_returnValue = SpriteShapeGenerator_GetIntersection_m7A6907C124D4C476D9F6A474EB8D2C32B3ED22D0(_thisAdjusted, ___0_cp, ___1_ct, ___2_ispr, ___3_lt0, ___4_lb0, ___5_rt0, ___6_rb0, ___7_lt1, ___8_lb1, ___9_rt1, ___10_rb1, ___11_tp, ___12_bt, method);
 	return _returnValue;
 }
-// Method Definition Index: 69556
+// Method Definition Index: 69561
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_AttachCorner_mE870FE2AFC67B7EA889191D1D4290690B3D9AEDE (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_cp, int32_t ___1_ct, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___2_ispr, NativeArray_1_tD02731CFBE491B5BFFD8328166FDE46F8D844B1A* ___3_newPoints, int32_t* ___4_activePoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19247,7 +19247,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_AttachCorner_mE870FE2AFC67B7EA889191D
 	_returnValue = SpriteShapeGenerator_AttachCorner_mE870FE2AFC67B7EA889191D1D4290690B3D9AEDE(_thisAdjusted, ___0_cp, ___1_ct, ___2_ispr, ___3_newPoints, ___4_activePoint, method);
 	return _returnValue;
 }
-// Method Definition Index: 69557
+// Method Definition Index: 69562
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA SpriteShapeGenerator_CornerTextureCoordinate_m832C4406CE02463EA7B1E0B1BAD91F0D3902E485 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_cornerType, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19304,7 +19304,7 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA SpriteShapeGen
 	_returnValue = SpriteShapeGenerator_CornerTextureCoordinate_m832C4406CE02463EA7B1E0B1BAD91F0D3902E485(_thisAdjusted, ___0_cornerType, ___1_index, method);
 	return _returnValue;
 }
-// Method Definition Index: 69558
+// Method Definition Index: 69563
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t SpriteShapeGenerator_CalculateCorner_m2889F0F78372F001B2827FC7F97311A6FF801828 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, float ___1_angle, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_lt, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_rt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19711,7 +19711,7 @@ IL2CPP_EXTERN_C  int32_t SpriteShapeGenerator_CalculateCorner_m2889F0F78372F001B
 	_returnValue = SpriteShapeGenerator_CalculateCorner_m2889F0F78372F001B2827FC7F97311A6FF801828(_thisAdjusted, ___0_index, ___1_angle, ___2_lt, ___3_rt, method);
 	return _returnValue;
 }
-// Method Definition Index: 69559
+// Method Definition Index: 69564
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_InsertCorner_m2A32C77F92888AAEFDE80128460D5FAAE8C8DEC5 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* ___1_cpSpriteIndices, NativeArray_1_tD02731CFBE491B5BFFD8328166FDE46F8D844B1A* ___2_newPoints, int32_t* ___3_activePoint, bool* ___4_cornerConsidered, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20316,7 +20316,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_InsertCorner_m2A32C77F92888AAEFDE8012
 	_returnValue = SpriteShapeGenerator_InsertCorner_m2A32C77F92888AAEFDE80128460D5FAAE8C8DEC5(_thisAdjusted, ___0_index, ___1_cpSpriteIndices, ___2_newPoints, ___3_activePoint, ___4_cornerConsidered, method);
 	return _returnValue;
 }
-// Method Definition Index: 69560
+// Method Definition Index: 69565
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TessellateCorners_mBEC539F9EBD424BC9682C3EF748E500E2D1A5C27 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21182,7 +21182,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_TessellateCorners_mBEC539F9EBD424BC96
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_TessellateCorners_mBEC539F9EBD424BC9682C3EF748E500E2D1A5C27(_thisAdjusted, method);
 }
-// Method Definition Index: 69561
+// Method Definition Index: 69566
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool SpriteShapeGenerator_AreCollinear_m2CF9A2780D5320C72BBC9415DDEC1A04FE57D89F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, float ___3_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21261,7 +21261,7 @@ IL2CPP_EXTERN_C  bool SpriteShapeGenerator_AreCollinear_m2CF9A2780D5320C72BBC941
 	_returnValue = SpriteShapeGenerator_AreCollinear_m2CF9A2780D5320C72BBC9415DDEC1A04FE57D89F(_thisAdjusted, ___0_a, ___1_b, ___2_c, ___3_t, method);
 	return _returnValue;
 }
-// Method Definition Index: 69562
+// Method Definition Index: 69567
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_OptimizePoints_m12067570C5E61E1291B57D9C6F8D284CCE19F46D (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, float ___0_tolerance, bool ___1_tess, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_pointSet, int32_t* ___3_pointCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21753,7 +21753,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_OptimizePoints_m12067570C5E61E1291B57
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_OptimizePoints_m12067570C5E61E1291B57D9C6F8D284CCE19F46D(_thisAdjusted, ___0_tolerance, ___1_tess, ___2_pointSet, ___3_pointCount, method);
 }
-// Method Definition Index: 69563
+// Method Definition Index: 69568
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_AttachCornerToCollider_m2468C75A72FD1AFD391A373FECDB44FABF9BE78F (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_isi, float ___1_pivot, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___2_points, int32_t* ___3_pointCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22013,7 +22013,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_AttachCornerToCollider_m2468C75A72FD1
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_AttachCornerToCollider_m2468C75A72FD1AFD391A373FECDB44FABF9BE78F(_thisAdjusted, ___0_isi, ___1_pivot, ___2_points, ___3_pointCount, method);
 }
-// Method Definition Index: 69564
+// Method Definition Index: 69569
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA SpriteShapeGenerator_UpdateExtraGeometry_mECAD4B1A09D3025A61B93F90029FC864AFD2D6EF (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, JobSegmentInfo_tA77A98E2F21524FDF0D28D2E53452DF45FC40481 ___0_isi, JobSpriteInfo_t002F5BF7D329A7F7A8DA7E9CB9B923C73B1C5E29 ___1_ispr, Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* ___2_vertices, int32_t ___3_count, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___4_points, int32_t* ___5_pointCount, float ___6__pivot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22324,7 +22324,7 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA SpriteShapeGen
 	_returnValue = SpriteShapeGenerator_UpdateExtraGeometry_mECAD4B1A09D3025A61B93F90029FC864AFD2D6EF(_thisAdjusted, ___0_isi, ___1_ispr, ___2_vertices, ___3_count, ___4_points, ___5_pointCount, ___6__pivot, method);
 	return _returnValue;
 }
-// Method Definition Index: 69565
+// Method Definition Index: 69570
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_TrimOverlaps_m259624880804C1A90EDE8B6621DDE70315F3137B (int32_t ___0_cpCount, bool ___1__isCarpet, int32_t ___2__splineDetail, float ___3__kEpsilon, float ___4__kEpsilonRelaxed, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___5__colliderPoints, int32_t* ___6_colliderPointCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23146,7 +23146,7 @@ IL_02d1:
 		return;
 	}
 }
-// Method Definition Index: 69566
+// Method Definition Index: 69571
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_OptimizeCollider_mBA6D3CB699F42750C239CA0BC201B672B1FD9AA8 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23395,7 +23395,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_OptimizeCollider_mBA6D3CB699F42750C23
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_OptimizeCollider_mBA6D3CB699F42750C239CA0BC201B672B1FD9AA8(_thisAdjusted, method);
 }
-// Method Definition Index: 69567
+// Method Definition Index: 69572
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_OptimizeShadow_m23799E7E865F53073846F752F6495DFBEBB0ACB6 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23644,7 +23644,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_OptimizeShadow_m23799E7E865F53073846F
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_OptimizeShadow_m23799E7E865F53073846F752F6495DFBEBB0ACB6(_thisAdjusted, method);
 }
-// Method Definition Index: 69568
+// Method Definition Index: 69573
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_Prepare_mF79A57490E60706BE72D78830EC71DEC17B1DCF1 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_controller, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45 ___1_shapeParams, int32_t ___2_maxArrayCount, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___3_shapePoints, NativeArray_1_t3CFE2FE654626A145A431BFC607D578F242E3749 ___4_metaData, AngleRangeInfoU5BU5D_t8AE5F89B8CA102A1093EFEA4E67B9364AC690BC8* ___5_angleRanges, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___6_segmentSprites, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___7_cornerSprites, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23880,7 +23880,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_Prepare_mF79A57490E60706BE72D78830EC7
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_Prepare_mF79A57490E60706BE72D78830EC71DEC17B1DCF1(_thisAdjusted, ___0_controller, ___1_shapeParams, ___2_maxArrayCount, ___3_shapePoints, ___4_metaData, ___5_angleRanges, ___6_segmentSprites, ___7_cornerSprites, method);
 }
-// Method Definition Index: 69569
+// Method Definition Index: 69574
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_Prepare_m8358A9BD95A1D45F0FBE63A5661421DD0D8B4DB7 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_controller, SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45 ___1_shapeParams, int32_t ___2_maxArrayCount, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___3_shapePoints, NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25 ___4_metaData, AngleRangeInfoU5BU5D_t8AE5F89B8CA102A1093EFEA4E67B9364AC690BC8* ___5_angleRanges, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___6_segmentSprites, SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___7_cornerSprites, bool ___8_UseUTess, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24042,7 +24042,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_Prepare_m8358A9BD95A1D45F0FBE63A56614
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_Prepare_m8358A9BD95A1D45F0FBE63A5661421DD0D8B4DB7(_thisAdjusted, ___0_controller, ___1_shapeParams, ___2_maxArrayCount, ___3_shapePoints, ___4_metaData, ___5_angleRanges, ___6_segmentSprites, ___7_cornerSprites, ___8_UseUTess, method);
 }
-// Method Definition Index: 69570
+// Method Definition Index: 69575
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_Execute_m6F11F51210E20869A78D43F7AD6E0702D8515A91 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24162,7 +24162,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_Execute_m6F11F51210E20869A78D43F7AD6E
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_Execute_m6F11F51210E20869A78D43F7AD6E0702D8515A91(_thisAdjusted, method);
 }
-// Method Definition Index: 69571
+// Method Definition Index: 69576
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_Cleanup_m2662B1967B4613B611E1E7E57341E0E7862B7FF1 (SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24272,7 +24272,7 @@ IL2CPP_EXTERN_C  void SpriteShapeGenerator_Cleanup_m2662B1967B4613B611E1E7E57341
 	_thisAdjusted = reinterpret_cast<SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E*>(__this + _offset);
 	SpriteShapeGenerator_Cleanup_m2662B1967B4613B611E1E7E57341E0E7862B7FF1(_thisAdjusted, method);
 }
-// Method Definition Index: 69572
+// Method Definition Index: 69577
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118 (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27115,7 +27115,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeSlice_1_get_Stride_
 		return L_0;
 	}
 }
-// Method Definition Index: 74812
+// Method Definition Index: 74820
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Array_1_get_MaxSize_m0564A20FB640654EAA01F8AA47218FAB52BBCAA5_gshared_inline (Array_1_t9EC4B73184D64A2C0ECB82F8D644571E251CC28E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -3107,7 +3107,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 54474
+// Method Definition Index: 54479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMeshPro_GenerateTextMesh_m92A3D91D20D8BB4E46C2E9E305EE4207B1B2A1DD (TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
