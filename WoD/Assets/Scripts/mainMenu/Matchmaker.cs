@@ -263,6 +263,7 @@ private async Task<bool> TryJoinOpenSession()
                 Debug.Log($"{TAG} SUCCESS join session={sessionId} as Client.");
                 GameSession.SessionId = sessionId;
                 GameSession.Role      = "Client";
+                FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ false); 
                 await GoNextScene();
                 return true;
             }
@@ -289,55 +290,63 @@ private static string Val(object v)
 
 
     // --- Create my own session and wait for a client ---
-    private async Task CreateSessionAndWait()
+private async Task CreateSessionAndWait()
+{
+    try
     {
-        try
+        // Create new session with push id
+        var newRef = FirebaseDatabase.DefaultInstance.GetReference(sessionsRoot).Push();
+        string sessionId = newRef.Key;
+
+        var data = new Dictionary<string, object>
         {
-            // Create new session with push id
-            var newRef = FirebaseDatabase.DefaultInstance.GetReference(sessionsRoot).Push();
-            string sessionId = newRef.Key;
+            { "sessionOpen", true },
+            { "hostUid",     myUid },
+            //{ "clientUid",   "" },
+            { "createdAt",   ServerValue.Timestamp },
+            { "updatedAt",   ServerValue.Timestamp }
+        };
 
-            var data = new Dictionary<string, object>
-            {
-                { "sessionOpen", true },
-                { "hostUid",     myUid },
-                //{ "clientUid",   "" },
-                { "createdAt",   ServerValue.Timestamp },
-                { "updatedAt",   ServerValue.Timestamp }
-            };
+        await newRef.UpdateChildrenAsync(data);
+        createdSessionId = sessionId;
 
-            await newRef.UpdateChildrenAsync(data);
-            createdSessionId = sessionId;
+        // ⬇️ ДОБАВЛЕНО: зарегистрировать сессию в менеджере (мы — хост)
+        FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
 
-            // UI wait
-            SetWaiting(true, "Wait for joiners…");
+        // UI wait
+        SetWaiting(true, "Wait for joiners…");
 
-            // Listen: when sessionOpen becomes false and clientUid present → go next
-            var refToListen = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
-            sessionListener = (s, e) =>
-            {
-                if (sceneLoading) return;
-                if (e.DatabaseError != null) return;
-                if (!e.Snapshot.Exists) return;
-
-                bool open = e.Snapshot.Child("sessionOpen").Value is bool b && b;
-                string client = e.Snapshot.Child("clientUid").Value?.ToString() ?? "";
-
-                if (!open && !string.IsNullOrEmpty(client))
-                {
-                    GameSession.SessionId = sessionId;
-                    GameSession.Role      = "Host";
-                    _ = GoNextScene();
-                }
-            };
-            refToListen.ValueChanged += sessionListener;
-        }
-        catch (Exception e)
+        // Listen: when sessionOpen becomes false and clientUid present → go next
+        var refToListen = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
+        sessionListener = (s, e) =>
         {
-            Debug.LogError("[Matchmaker] CreateSessionAndWait error: " + e.Message);
-            SetWaiting(true, "Error: " + e.Message);
-        }
+            if (sceneLoading) return;
+            if (e.DatabaseError != null) return;
+            if (!e.Snapshot.Exists) return;
+
+            bool open = e.Snapshot.Child("sessionOpen").Value is bool b && b;
+            string client = e.Snapshot.Child("clientUid").Value?.ToString() ?? "";
+
+            if (!open && !string.IsNullOrEmpty(client))
+            {
+                GameSession.SessionId = sessionId;
+                GameSession.Role      = "Host";
+
+                // ⬇️ ОБЕЗОПАСИМСЯ: ещё раз конфигурируем перед переходом (на случай, если сцены грузятся быстро)
+                FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
+
+                _ = GoNextScene();
+            }
+        };
+        refToListen.ValueChanged += sessionListener;
     }
+    catch (Exception e)
+    {
+        Debug.LogError("[Matchmaker] CreateSessionAndWait error: " + e.Message);
+        SetWaiting(true, "Error: " + e.Message);
+    }
+}
+
 
     private async Task GoNextScene()
     {
