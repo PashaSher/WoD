@@ -41,6 +41,7 @@
             "name": "AudioBehaviour",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -57,6 +58,7 @@
             "name": "AudioListener",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -102,6 +104,7 @@
             "name": "Camera",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -126,6 +129,7 @@
             "name": "Cubemap",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
@@ -147,6 +151,7 @@
             "name": "EditorExtension",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -163,6 +168,7 @@
             "name": "GameObject",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -197,6 +203,7 @@
             "name": "LevelGameManager",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -231,6 +238,7 @@
             "name": "LightmapSettings",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -247,6 +255,8 @@
             "name": "Material",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -276,6 +286,7 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -292,6 +303,7 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -302,6 +314,7 @@
             "name": "NamedObject",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -342,6 +355,8 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -357,6 +372,7 @@
             "name": "RenderSettings",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -391,6 +407,8 @@
             "name": "Shader",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -424,6 +442,8 @@
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -1391,6 +1411,8 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -1464,6 +1486,8 @@
             "name": "Canvas",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
@@ -1479,6 +1503,8 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/CreateAccountWindow.unity",
+              "Assets/Scenes/LogInScene.unity",
+              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
