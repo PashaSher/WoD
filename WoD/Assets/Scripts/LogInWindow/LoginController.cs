@@ -6,6 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 using Firebase;
 using Firebase.Auth;
 using Firebase.Database;
@@ -33,25 +34,24 @@ public class LoginController : MonoBehaviour
 
         try
         {
-            var deps = await FirebaseApp.CheckAndFixDependenciesAsync();
-            if (deps != DependencyStatus.Available)
-            {
-                Fail($"Firebase deps: {deps}");
-                return;
-            }
+            // Wait for the single, global initialization
+            await FirebaseBootstrapper.EnsureInitializedAsync();
 
             auth = FirebaseAuth.DefaultInstance;
             db   = FirebaseDatabase.DefaultInstance.RootReference;
 
-            // восстановим сохранённые поля (если ссылки назначены)
+            // restore saved fields (if assigned)
             if (emailInput != null)
                 emailInput.text = PlayerPrefs.GetString("saved_email", "");
             if (passwordInput != null)
                 passwordInput.text = PlayerPrefs.GetString("saved_password", "");
 
-            // подпишем кнопку (и через инспектор можно тоже)
+            // (re)subscribe button safely
             if (loginButton != null)
+            {
+                loginButton.onClick.RemoveListener(OnLoginButton);
                 loginButton.onClick.AddListener(OnLoginButton);
+            }
 
             SetStatus("Ready.");
             SetInteractable(true);
@@ -68,7 +68,7 @@ public class LoginController : MonoBehaviour
             loginButton.onClick.RemoveListener(OnLoginButton);
     }
 
-    // Публичный метод для OnClick() в инспекторе
+    // Public method for OnClick() in Inspector
     public void OnLoginButton()
     {
         Debug.Log("[Login] Button clicked");
@@ -87,8 +87,8 @@ public class LoginController : MonoBehaviour
             return;
         }
 
-        string email = emailInput.text.Trim();
-        string pass  = passwordInput.text;
+        string email = emailInput.text?.Trim() ?? "";
+        string pass  = passwordInput.text ?? "";
 
         if (string.IsNullOrEmpty(email))
         {
@@ -111,9 +111,13 @@ public class LoginController : MonoBehaviour
             SetStatus("Signing in...");
             var cred = await auth.SignInWithEmailAndPasswordAsync(email, pass);
             var user = cred.User;
-            if (user == null) { Fail("Signin failed: user is null."); return; }
+            if (user == null)
+            {
+                Fail("Signin failed: user is null.");
+                return;
+            }
 
-            // обновим сведения пользователя
+            // Refresh user info and check verification
             await user.ReloadAsync();
             bool verified = user.IsEmailVerified;
 
@@ -136,16 +140,26 @@ public class LoginController : MonoBehaviour
                 return;
             }
 
-            // Обновим RTDB
+            // Update RTDB: set createdAt only once; update lastLoginAt each time
             try
             {
                 string uid = user.UserId;
+
+                var userSnap = await FirebaseDatabase.DefaultInstance
+                    .GetReference($"users/{uid}")
+                    .GetValueAsync();
+
                 var updates = new Dictionary<string, object>
                 {
                     [$"users/{uid}/emailVerified"] = true,
-                    [$"users/{uid}/email"]        = user.Email ?? email,
-                    [$"users/{uid}/createdAt"]    = ServerValue.Timestamp
+                    [$"users/{uid}/email"]         = user.Email ?? email,
+                    [$"users/{uid}/lastLoginAt"]   = ServerValue.Timestamp
                 };
+
+                if (!userSnap.Exists || !userSnap.Child("createdAt").Exists)
+                {
+                    updates[$"users/{uid}/createdAt"] = ServerValue.Timestamp;
+                }
 
                 SetStatus("Updating database...");
                 await db.UpdateChildrenAsync(updates);
@@ -156,12 +170,12 @@ public class LoginController : MonoBehaviour
                 return;
             }
 
-            // Сохраним локально
+            // Save locally (note: storing password in PlayerPrefs is insecure)
             PlayerPrefs.SetString("saved_email", email);
-            PlayerPrefs.SetString("saved_password", pass); // небезопасно, но по задаче
+            PlayerPrefs.SetString("saved_password", pass); // keep for your current flow
             PlayerPrefs.Save();
 
-            // Переход
+            // Go to next scene
             SetStatus("Login success. Loading MainMenu...");
             SceneManager.LoadScene(nextSceneName);
         }
@@ -193,7 +207,6 @@ public class LoginController : MonoBehaviour
 
     private string ParseAuthError(Exception ex)
     {
-        // Общее сообщение
         string generic = "Signin failed: " + ex.Message;
 
         if (ex is FirebaseException fe)

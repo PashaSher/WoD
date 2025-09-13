@@ -68,7 +68,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77668
+// Method Definition Index: 77665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_m7E522D077F4992310FECE3D2911B0C1EE1F72F6B (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9 ___0_range, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -86,7 +86,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRa
 		return L_0;
 	}
 }
-// Method Definition Index: 77669
+// Method Definition Index: 77666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteMaskUtility_HasSpriteMaskInLayerRange_Injected_m2C4AA54A7B3110F8F11DEEA22FBA36A1CC77B7CD (SortingLayerRange_t96D04CFB4E8824978FEB2CFFFCFEAC37E56D52C9* ___0_range, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

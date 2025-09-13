@@ -1412,7 +1412,6 @@
             "name": "Font",
             "scenes": [
               "Assets/Scenes/LogInScene.unity",
-              "Assets/Scenes/MainMenu.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,

@@ -36385,7 +36385,7 @@ IL_000c:
 		return L_1;
 	}
 }
-// Method Definition Index: 68305
+// Method Definition Index: 68301
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Capture_get_Length_mA3E97C9DF116CD4B4C20EBFB70A1312F33DA7A92_inline (Capture_tE11B735186DAFEE5F7A3BF5A739E9CCCE99DC24A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
