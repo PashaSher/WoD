@@ -40,6 +40,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -57,6 +58,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -103,6 +105,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -128,6 +131,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity"
@@ -150,6 +154,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -167,6 +172,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -202,6 +208,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -237,6 +244,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -285,6 +293,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -302,6 +311,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -313,6 +323,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -354,6 +365,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -371,6 +383,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -1484,6 +1497,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",

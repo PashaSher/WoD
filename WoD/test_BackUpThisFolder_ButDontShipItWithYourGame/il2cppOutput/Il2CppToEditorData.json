@@ -14,34 +14,6 @@
     },
     {
       "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High Variable Count of 250"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High Instruction Count of 6305"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High CodeSize of 17778"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High Variable Count of 301"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High Instruction Count of 5818"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High CodeSize of 15136"
-    },
-    {
-      "Type": 0,
-      "Text": "[UnityEngine.TextCoreTextEngineModule] - UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::CalculatePreferredValues(System.Single\u0026,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo) - High Variable Count of 208"
-    },
-    {
-      "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - High Variable Count of 489"
     },
     {
@@ -83,6 +55,34 @@
     {
       "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - High CodeSize of 31712"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High Variable Count of 250"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High Instruction Count of 6305"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(UnityEngine.TextCore.Text.TextProcessingElement[],System.Int32,System.Int32\u0026,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo,System.Boolean\u0026) - High CodeSize of 17778"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High Variable Count of 301"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High Instruction Count of 5818"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - System.Void UnityEngine.TextCore.Text.TextGenerator::ParsingPhase(UnityEngine.TextCore.Text.TextInfo,UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32\u0026,System.Single\u0026) - High CodeSize of 15136"
+    },
+    {
+      "Type": 0,
+      "Text": "[UnityEngine.TextCoreTextEngineModule] - UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::CalculatePreferredValues(System.Single\u0026,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo) - High Variable Count of 208"
     },
     {
       "Type": 0,
