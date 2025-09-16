@@ -1427,7 +1427,6 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
