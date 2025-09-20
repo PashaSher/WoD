@@ -19,7 +19,7 @@ public class Matchmaker : MonoBehaviour
     [Header("Config")]
     [SerializeField] private string sessionsRoot = "sessions";
     [SerializeField] private string nextSceneName = "ArmyCreationScene";
-    [SerializeField] private int   joinRetryCount = 8;     // попытки забрать открытую сессию
+    [SerializeField] private int joinRetryCount = 8;     // попытки забрать открытую сессию
     [SerializeField] private float joinRetryDelay = 0.3f; // задержка между попытками (сек)
 
     private FirebaseAuth auth;
@@ -41,7 +41,7 @@ public class Matchmaker : MonoBehaviour
         {
             await FirebaseBootstrapper.EnsureInitializedAsync();
             auth = FirebaseAuth.DefaultInstance;
-            db   = FirebaseDatabase.DefaultInstance.RootReference;
+            db = FirebaseDatabase.DefaultInstance.RootReference;
 
             if (auth.CurrentUser == null)
                 throw new Exception("Not signed in. Go through login first.");
@@ -112,6 +112,7 @@ public class Matchmaker : MonoBehaviour
         // Прячем окно ожидания, снимаем листенер
         SetWaiting(false, "");
         DetachSessionListener();
+        GameSession.Clear();
 
         // Если мы Host и сессия ещё открыта — удалим её
         if (!string.IsNullOrEmpty(createdSessionId))
@@ -144,161 +145,160 @@ public class Matchmaker : MonoBehaviour
 
     // --- Try to join any open session (atomic) ---
     // --- Try to join any open session (robust) ---
-// --- Try to join any open session (robust) ---
-private async Task<bool> TryJoinOpenSession()
-{
-    string TAG = "[Matchmaker/Join]";
-    try
+    // --- Try to join any open session (robust) ---
+    private async Task<bool> TryJoinOpenSession()
     {
-        Debug.Log($"{TAG} myUid={myUid ?? "<null>"}; query open sessions...");
-
-        var query = FirebaseDatabase.DefaultInstance
-            .GetReference(sessionsRoot)
-            .OrderByChild("sessionOpen")
-            .EqualTo(true)
-            .LimitToFirst(25);
-
-        var snap = await query.GetValueAsync();
-        Debug.Log($"{TAG} snap.Exists={snap.Exists}, children={snap.ChildrenCount}");
-
-        if (!snap.Exists)
+        string TAG = "[Matchmaker/Join]";
+        try
         {
-            Debug.Log($"{TAG} No open sessions.");
-            return false;
-        }
+            Debug.Log($"{TAG} myUid={myUid ?? "<null>"}; query open sessions...");
 
-        // Пройдёмся по всем узлам и выведем их поля
-        foreach (var child in snap.Children)
-        {
-            string id = child.Key;
-            object openV   = child.Child("sessionOpen").Value;
-            object hostV   = child.Child("hostUid").Value;
-            object clientV = child.Child("clientUid").Value;
+            var query = FirebaseDatabase.DefaultInstance
+                .GetReference(sessionsRoot)
+                .OrderByChild("sessionOpen")
+                .EqualTo(true)
+                .LimitToFirst(25);
 
-            Debug.Log($"{TAG} session[{id}] " +
-                      $"sessionOpen={Val(openV)} hostUid={Val(hostV)} clientUid={Val(clientV)}");
-        }
+            var snap = await query.GetValueAsync();
+            Debug.Log($"{TAG} snap.Exists={snap.Exists}, children={snap.ChildrenCount}");
 
-        // Кандидаты
-        var candidates = new List<(string id, string host)>();
-        foreach (var child in snap.Children)
-        {
-            string id   = child.Key;
-            string host = child.Child("hostUid").Value?.ToString() ?? "";
-            if (string.IsNullOrEmpty(id))
+            if (!snap.Exists)
             {
-                Debug.Log($"{TAG} skip: empty id");
-                continue;
-            }
-            if (string.IsNullOrEmpty(host))
-            {
-                Debug.Log($"{TAG} skip {id}: host is empty");
-                continue;
-            }
-            if (host == myUid)
-            {
-                Debug.Log($"{TAG} skip {id}: my own session (host==me)");
-                continue;
+                Debug.Log($"{TAG} No open sessions.");
+                return false;
             }
 
-            candidates.Add((id, host));
-        }
-
-        Debug.Log($"{TAG} candidates count={candidates.Count}");
-        if (candidates.Count == 0)
-        {
-            Debug.Log($"{TAG} Only my sessions found or none valid.");
-            return false;
-        }
-
-        // Пробуем по очереди
-        foreach (var (sessionId, hostUid) in candidates)
-        {
-            Debug.Log($"{TAG} try join session={sessionId} (host={hostUid}) ...");
-            var sessionRef = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
-
-            var txnSnap = await sessionRef.RunTransaction(mutable =>
+            // Пройдёмся по всем узлам и выведем их поля
+            foreach (var child in snap.Children)
             {
-                // ВНИМАНИЕ: это выполняется на ворк-потоке, но Debug.Log допустим
-                var dict = mutable.Value as Dictionary<string, object> ?? new Dictionary<string, object>();
+                string id = child.Key;
+                object openV = child.Child("sessionOpen").Value;
+                object hostV = child.Child("hostUid").Value;
+                object clientV = child.Child("clientUid").Value;
 
-                bool open = dict.TryGetValue("sessionOpen", out var o) && o is bool b && b;
-                string host = dict.TryGetValue("hostUid", out var h) ? (h?.ToString() ?? "") : "";
-                string client = dict.TryGetValue("clientUid", out var c) ? (c?.ToString() ?? "") : "";
+                Debug.Log($"{TAG} session[{id}] " +
+                          $"sessionOpen={Val(openV)} hostUid={Val(hostV)} clientUid={Val(clientV)}");
+            }
 
-                Debug.Log($"{TAG} TXN(before) id={sessionId} open={open} host={host} client={client}");
-
-                // нельзя подключаться к себе, к закрытой или уже с клиентом
-                if (!open || !string.IsNullOrEmpty(client) || string.IsNullOrEmpty(host) || host == myUid)
+            // Кандидаты
+            var candidates = new List<(string id, string host)>();
+            foreach (var child in snap.Children)
+            {
+                string id = child.Key;
+                string host = child.Child("hostUid").Value?.ToString() ?? "";
+                if (string.IsNullOrEmpty(id))
                 {
-                    Debug.Log($"{TAG} TXN(abort) id={sessionId} reason=" +
-                              $"open={open}, client='{client}', host='{host}', myUid='{myUid}'");
-                    return TransactionResult.Abort();
+                    Debug.Log($"{TAG} skip: empty id");
+                    continue;
+                }
+                if (string.IsNullOrEmpty(host))
+                {
+                    Debug.Log($"{TAG} skip {id}: host is empty");
+                    continue;
+                }
+                if (host == myUid)
+                {
+                    Debug.Log($"{TAG} skip {id}: my own session (host==me)");
+                    continue;
                 }
 
-                dict["clientUid"]   = myUid;                // <-- ставим себя
-                dict["sessionOpen"] = false;                // <-- закрываем
-                dict["updatedAt"]   = ServerValue.Timestamp;
-
-                mutable.Value = dict;
-                Debug.Log($"{TAG} TXN(commit) id={sessionId} set clientUid={myUid}, sessionOpen=false");
-                return TransactionResult.Success(mutable);
-            });
-
-            // Что получилось после транзакции
-            string afterClient = txnSnap.Child("clientUid").Value?.ToString();
-            object afterOpenV  = txnSnap.Child("sessionOpen").Value;
-            bool   afterOpen   = (afterOpenV is bool bo) && bo;
-
-            Debug.Log($"{TAG} txn result id={sessionId}: clientUid={Val(afterClient)}, sessionOpen={Val(afterOpenV)}");
-
-            bool success =
-                txnSnap != null &&
-                txnSnap.Exists &&
-                afterClient == myUid &&
-                afterOpen == false;
-
-            if (success)
-            {
-                Debug.Log($"{TAG} SUCCESS join session={sessionId} as Client.");
-                GameSession.SessionId = sessionId;
-                GameSession.Role      = "Client";
-                FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ false); 
-                await GoNextScene();
-                return true;
+                candidates.Add((id, host));
             }
 
-            Debug.Log($"{TAG} not joined {sessionId} (probably raced); trying next...");
+            Debug.Log($"{TAG} candidates count={candidates.Count}");
+            if (candidates.Count == 0)
+            {
+                Debug.Log($"{TAG} Only my sessions found or none valid.");
+                return false;
+            }
+
+            // Пробуем по очереди
+            foreach (var (sessionId, hostUid) in candidates)
+            {
+                Debug.Log($"{TAG} try join session={sessionId} (host={hostUid}) ...");
+                var sessionRef = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
+
+                var txnSnap = await sessionRef.RunTransaction(mutable =>
+                {
+                    // ВНИМАНИЕ: это выполняется на ворк-потоке, но Debug.Log допустим
+                    var dict = mutable.Value as Dictionary<string, object> ?? new Dictionary<string, object>();
+
+                    bool open = dict.TryGetValue("sessionOpen", out var o) && o is bool b && b;
+                    string host = dict.TryGetValue("hostUid", out var h) ? (h?.ToString() ?? "") : "";
+                    string client = dict.TryGetValue("clientUid", out var c) ? (c?.ToString() ?? "") : "";
+
+                    Debug.Log($"{TAG} TXN(before) id={sessionId} open={open} host={host} client={client}");
+
+                    // нельзя подключаться к себе, к закрытой или уже с клиентом
+                    if (!open || !string.IsNullOrEmpty(client) || string.IsNullOrEmpty(host) || host == myUid)
+                    {
+                        Debug.Log($"{TAG} TXN(abort) id={sessionId} reason=" +
+                                  $"open={open}, client='{client}', host='{host}', myUid='{myUid}'");
+                        return TransactionResult.Abort();
+                    }
+
+                    dict["clientUid"] = myUid;                // <-- ставим себя
+                    dict["sessionOpen"] = false;                // <-- закрываем
+                    dict["updatedAt"] = ServerValue.Timestamp;
+
+                    mutable.Value = dict;
+                    Debug.Log($"{TAG} TXN(commit) id={sessionId} set clientUid={myUid}, sessionOpen=false");
+                    return TransactionResult.Success(mutable);
+                });
+
+                // Что получилось после транзакции
+                string afterClient = txnSnap.Child("clientUid").Value?.ToString();
+                object afterOpenV = txnSnap.Child("sessionOpen").Value;
+                bool afterOpen = (afterOpenV is bool bo) && bo;
+
+                Debug.Log($"{TAG} txn result id={sessionId}: clientUid={Val(afterClient)}, sessionOpen={Val(afterOpenV)}");
+
+                bool success =
+                    txnSnap != null &&
+                    txnSnap.Exists &&
+                    afterClient == myUid &&
+                    afterOpen == false;
+
+                if (success)
+                {
+                    Debug.Log($"{TAG} SUCCESS join session={sessionId} as Client.");
+                    PersistContext(sessionId, /*isHost:*/ false);
+                    FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ false);
+                    await GoNextScene();
+                    return true;
+                }
+
+                Debug.Log($"{TAG} not joined {sessionId} (probably raced); trying next...");
+            }
+
+            Debug.Log($"{TAG} Could not join any candidate; will create my own.");
+            return false;
         }
-
-        Debug.Log($"{TAG} Could not join any candidate; will create my own.");
-        return false;
+        catch (Exception e)
+        {
+            Debug.LogWarning($"{TAG} ERROR: {e}");
+            return false;
+        }
     }
-    catch (Exception e)
+
+    private static string Val(object v)
     {
-        Debug.LogWarning($"{TAG} ERROR: {e}");
-        return false;
+        if (v == null) return "<null>";
+        return $"({v.GetType().Name}) {v}";
     }
-}
-
-private static string Val(object v)
-{
-    if (v == null) return "<null>";
-    return $"({v.GetType().Name}) {v}";
-}
 
 
 
     // --- Create my own session and wait for a client ---
-private async Task CreateSessionAndWait()
-{
-    try
+    private async Task CreateSessionAndWait()
     {
-        // Create new session with push id
-        var newRef = FirebaseDatabase.DefaultInstance.GetReference(sessionsRoot).Push();
-        string sessionId = newRef.Key;
+        try
+        {
+            // Create new session with push id
+            var newRef = FirebaseDatabase.DefaultInstance.GetReference(sessionsRoot).Push();
+            string sessionId = newRef.Key;
 
-        var data = new Dictionary<string, object>
+            var data = new Dictionary<string, object>
         {
             { "sessionOpen", true },
             { "hostUid",     myUid },
@@ -307,45 +307,43 @@ private async Task CreateSessionAndWait()
             { "updatedAt",   ServerValue.Timestamp }
         };
 
-        await newRef.UpdateChildrenAsync(data);
-        createdSessionId = sessionId;
+            await newRef.UpdateChildrenAsync(data);
+            createdSessionId = sessionId;
+            PersistContext(sessionId, /*isHost:*/ true);
+            // ⬇️ ДОБАВЛЕНО: зарегистрировать сессию в менеджере (мы — хост)
+            FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
 
-        // ⬇️ ДОБАВЛЕНО: зарегистрировать сессию в менеджере (мы — хост)
-        FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
+            // UI wait
+            SetWaiting(true, "Wait for joiners…");
 
-        // UI wait
-        SetWaiting(true, "Wait for joiners…");
-
-        // Listen: when sessionOpen becomes false and clientUid present → go next
-        var refToListen = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
-        sessionListener = (s, e) =>
-        {
-            if (sceneLoading) return;
-            if (e.DatabaseError != null) return;
-            if (!e.Snapshot.Exists) return;
-
-            bool open = e.Snapshot.Child("sessionOpen").Value is bool b && b;
-            string client = e.Snapshot.Child("clientUid").Value?.ToString() ?? "";
-
-            if (!open && !string.IsNullOrEmpty(client))
+            // Listen: when sessionOpen becomes false and clientUid present → go next
+            var refToListen = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
+            sessionListener = (s, e) =>
             {
-                GameSession.SessionId = sessionId;
-                GameSession.Role      = "Host";
+                if (sceneLoading) return;
+                if (e.DatabaseError != null) return;
+                if (!e.Snapshot.Exists) return;
 
-                // ⬇️ ОБЕЗОПАСИМСЯ: ещё раз конфигурируем перед переходом (на случай, если сцены грузятся быстро)
-                FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
+                bool open = e.Snapshot.Child("sessionOpen").Value is bool b && b;
+                string client = e.Snapshot.Child("clientUid").Value?.ToString() ?? "";
 
-                _ = GoNextScene();
-            }
-        };
-        refToListen.ValueChanged += sessionListener;
+                if (!open && !string.IsNullOrEmpty(client))
+                {
+                    PersistContext(sessionId, /*isHost:*/ true);
+                    // ⬇️ ОБЕЗОПАСИМСЯ: ещё раз конфигурируем перед переходом (на случай, если сцены грузятся быстро)
+                    FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
+
+                    _ = GoNextScene();
+                }
+            };
+            refToListen.ValueChanged += sessionListener;
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("[Matchmaker] CreateSessionAndWait error: " + e.Message);
+            SetWaiting(true, "Error: " + e.Message);
+        }
     }
-    catch (Exception e)
-    {
-        Debug.LogError("[Matchmaker] CreateSessionAndWait error: " + e.Message);
-        SetWaiting(true, "Error: " + e.Message);
-    }
-}
 
 
     private async Task GoNextScene()
@@ -370,6 +368,16 @@ private async Task CreateSessionAndWait()
             sessionListener = null;
         }
     }
+    private void PersistContext(string sessionId, bool isHost)
+    {
+    // в оперативной памяти
+    GameSession.SessionId = sessionId;
+    GameSession.Role      = isHost ? "Host" : "Client";
+    Globalflags.ifHost    = isHost;
+
+    // в PlayerPrefs (на случай перезапуска)
+    GameSession.Save(sessionId, isHost);
+    }   
 
     private async Task TryCleanupMyOpenSession(string sessionId)
     {
@@ -392,4 +400,6 @@ private async Task CreateSessionAndWait()
             Debug.LogWarning("[Matchmaker] Cleanup error: " + e.Message);
         }
     }
+    
+    
 }

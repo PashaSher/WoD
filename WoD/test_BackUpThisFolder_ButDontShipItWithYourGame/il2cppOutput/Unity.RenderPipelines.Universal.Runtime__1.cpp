@@ -55184,7 +55184,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 47857
+// Method Definition Index: 47864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1 RenderingLayerMask_get_defaultRenderingLayerMask_m75949CAB9D04088013D84AF5835A3F38BB723A7B_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -55195,10 +55195,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderingLayerMask_tD73B9FC1A65A9
 		s_Il2CppMethodInitialized = true;
 	}
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RenderingLayerMask_get_defaultRenderingLayerMask_m75949CAB9D04088013D84AF5835A3F38BB723A7B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13744));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13745));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13753));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13754));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13746));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13755));
 		il2cpp_codegen_runtime_class_init_inline(RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1_il2cpp_TypeInfo_var);
 		RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1 L_0 = ((RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1_StaticFields*)il2cpp_codegen_static_fields_for(RenderingLayerMask_tD73B9FC1A65A937F18E56833FC83BF89C2B085A1_il2cpp_TypeInfo_var))->___U3CdefaultRenderingLayerMaskU3Ek__BackingField;
 		return L_0;
