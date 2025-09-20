@@ -148,47 +148,51 @@ private void OnDisable()
    }
 
     public async void OnPlus(UnitType type)
-    {
-        int price = UnitPrices.Cost[type];
-        if (_points < price)
-        {
-            ShowOnlyNotEnoughPoints(type, price);
-            return;
-        }
+   {
+       int price = UnitPrices.Cost[type];
+       if (_points < price)
+       {
+         ShowOnlyNotEnoughPoints(type, price);
+         return;
+       }
 
-        try
-        {
-            string _ = await firebase.AddUnitAsync(type);
-            _counts[type]++;
-            _points -= price;
-            RedrawPoints();
-            GetTile(type)?.SetCount(_counts[type]);
-            ClearStatus();
+      try
+       {
+         await firebase.AddUnitAsync(type);
+
+         // НЕ трогаем _counts[type] и не SetCount()
+         _points -= price;           // локально меняем только очки
+         RedrawPoints();
+         ClearStatus();
+         // Количество обновится из ListenArmyChanges → SyncCountsFromDb/GetCountsAsync
         }
-        catch (Exception e)
-        {
-            Debug.LogWarning($"Add {type} failed: {e.Message}");
-            // статус не показываем — по требованию только "not enough points"
-        }
+       catch (Exception e)
+       {
+          Debug.LogWarning($"Add {type} failed: {e.Message}");
+       }
     }
 
     public async void OnMinus(UnitType type)
     {
-        if (_counts[type] <= 0) return;
-
-        try
-        {
-            await firebase.RemoveUnitAsync(type);
-            _counts[type]--;
+       // Тоже не проверяем локально _counts[type] — состояние источника истины в RTDB
+       try
+       {
+          var removed = await firebase.RemoveUnitAsync(type);
+          if (!string.IsNullOrEmpty(removed))
+          {
             _points += UnitPrices.Cost[type];
             RedrawPoints();
-            GetTile(type)?.SetCount(_counts[type]);
             ClearStatus();
+            // Количество снова придёт из слушателя
+          }
+          else
+          {
+            // ничего не удалилось — можно подсветить если нужно
         }
-        catch (Exception e)
+       }
+         catch (Exception e)
         {
-            Debug.LogWarning($"Remove {type} failed: {e.Message}");
-            // статус не показываем
+          Debug.LogWarning($"Remove {type} failed: {e.Message}");
         }
     }
 
