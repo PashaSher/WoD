@@ -40,39 +40,40 @@ public class FirebaseArmyService : MonoBehaviour
 
     /// <summary> Добавить юнита: создаёт индексированное имя type_i </summary>
     public async Task<string> AddUnitAsync(UnitType type)
-    {
-        Debug.Log($"[FAS] AddUnit to '{ArmyPath}' type={type}");
-        // читаем текущее число, чтобы выдать следующий индекс
-        var snap = await FirebaseDatabase.DefaultInstance
-            .GetReference(ArmyPath)
-            .GetValueAsync();
+{
+    Debug.Log($"[FAS] AddUnit to '{ArmyPath}' type={type}");
 
-        int nextIndex = 0;
-        if (snap.Exists)
+    var snap = await FirebaseDatabase.DefaultInstance
+        .GetReference(ArmyPath).GetValueAsync();
+
+    int nextIndex = 0;
+    if (snap.Exists)
+    {
+        foreach (var child in snap.Children)
         {
-            foreach (var child in snap.Children)
+            if (child.Key.StartsWith(type.ToString(), StringComparison.OrdinalIgnoreCase))
             {
-                // child.Key format: sniper_0 etc.
-                if (child.Key.StartsWith(type.ToString(), StringComparison.OrdinalIgnoreCase))
-                {
-                    var parts = child.Key.Split('_');
-                    if (parts.Length == 2 && int.TryParse(parts[1], out int idx))
-                        nextIndex = Math.Max(nextIndex, idx + 1);
-                }
+                var parts = child.Key.Split('_');
+                if (parts.Length == 2 && int.TryParse(parts[1], out int idx))
+                    nextIndex = Math.Max(nextIndex, idx + 1);
             }
         }
-
-        string key = $"{type}_{nextIndex}";
-        var unit = new Dictionary<string, object>
-        {
-            { "type", type.ToString() },
-            { "createdAt", ServerValue.Timestamp }
-        };
-
-        await Root.Child(ArmyPath).Child(key).SetValueAsync(unit);
-        await UpdateUpdatedAt();
-        return key;
     }
+
+    string key = $"{type}_{nextIndex}";
+    var unit = new Dictionary<string, object>
+    {
+        { "type", type.ToString() },
+        { "createdAt", ServerValue.Timestamp },
+        { "sessionId", sessionId },   // <-- НОВОЕ
+        { "host", ifHost }            // <-- НОВОЕ (владелец-сторона)
+    };
+
+    await Root.Child(ArmyPath).Child(key).SetValueAsync(unit);
+    await UpdateUpdatedAt();
+    return key;
+}
+
 
     public async Task<Dictionary<UnitType, int>> GetEnemyCountsAsync()
     {

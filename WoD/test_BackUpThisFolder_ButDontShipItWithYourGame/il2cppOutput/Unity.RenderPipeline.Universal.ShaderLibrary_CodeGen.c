@@ -16,7 +16,7 @@ static Il2CppMethodPointer s_methodPointers[2] =
 };
 static const int32_t s_InvokerIndices[2] = 
 {
-	28431,
+	28435,
 	16184,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_RenderPipeline_Universal_ShaderLibrary;

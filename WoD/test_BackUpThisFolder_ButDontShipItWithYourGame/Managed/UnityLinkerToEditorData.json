@@ -303,6 +303,7 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -321,6 +322,7 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -376,6 +378,7 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -467,6 +470,7 @@
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -1511,6 +1515,7 @@
             "name": "Canvas",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -1529,6 +1534,7 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
