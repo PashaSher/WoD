@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: RiflemanStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 0
-  health: 100
-  damage: 10
-  attackRange: 4
+  health: 200
+  damage: 30
+  attackRange: 6
   moveSpeed: 2.5
-  sprite: {fileID: -7627819191866995224, guid: bfd982ef36025b4438b8be70685a97ad, type: 3}
+  sprite: {fileID: 3668938499985076069, guid: 0ec8daf2b63a5d44fafc5192d7f7f126, type: 3}
+  animatorOverride: {fileID: 0}

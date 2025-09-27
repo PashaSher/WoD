@@ -17,3 +17,5 @@ MonoBehaviour:
   damage: 10
   attackRange: 4
   moveSpeed: 2.5
+  sprite: {fileID: -7627819191866995224, guid: bfd982ef36025b4438b8be70685a97ad, type: 3}
+  animatorOverride: {fileID: 0}

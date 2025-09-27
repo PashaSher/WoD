@@ -46652,7 +46652,7 @@ IL_00bb:
 		return L_28;
 	}
 }
-// Method Definition Index: 49382
+// Method Definition Index: 49384
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CommandBuffer_BeginSample_mD924F50B20D56D58840A5E5AA78E5CDD60B895C1_inline (CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* __this, ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___0_marker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46665,23 +46665,23 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CommandBuffer_BeginSample_mD
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_marker));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CommandBuffer_BeginSample_mD924F50B20D56D58840A5E5AA78E5CDD60B895C1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22126));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22127));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22133));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22134));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22128));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22129));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22130));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22135));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22136));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22137));
 		intptr_t L_0;
 		L_0 = ProfilerMarker_get_Handle_mE228BCE74751B66026EBC49DE7F1A440EDE7B845_inline((&___0_marker), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22130));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22131));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22137));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22138));
 		CommandBuffer_BeginSample_ProfilerMarker_m680485627AEBBFAFA449A69A2E1924C57BD6B5B7(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22131));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22132));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22138));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22139));
 		return;
 	}
 }
-// Method Definition Index: 49383
+// Method Definition Index: 49385
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CommandBuffer_EndSample_m16D43035D6F147D55BB0E5F95E6048E6B15F54E4_inline (CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* __this, ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___0_marker, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -46694,19 +46694,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CommandBuffer_EndSample_m16D
 	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
 	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_marker));
 	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CommandBuffer_EndSample_m16D43035D6F147D55BB0E5F95E6048E6B15F54E4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22133));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22134));
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22140));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22141));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22135));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22136));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22137));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22142));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22143));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22144));
 		intptr_t L_0;
 		L_0 = ProfilerMarker_get_Handle_mE228BCE74751B66026EBC49DE7F1A440EDE7B845_inline((&___0_marker), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22137));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22138));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22145));
 		CommandBuffer_EndSample_ProfilerMarker_m5E2D845E37C179A0119E1BB28D2496242FEB0B9E(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22138));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22139));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 22146));
 		return;
 	}
 }

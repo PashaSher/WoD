@@ -304,6 +304,8 @@ UnityEngine.Animator::get_hasBoundPlayables_Injected
 UnityEngine.Animator::StringToHash_Injected
 UnityEngine.Animator::ResetTriggerString_Injected
 UnityEngine.Animator::SetTriggerString_Injected
+UnityEngine.Animator::set_runtimeAnimatorController_Injected
+UnityEngine.AnimatorOverrideController::Internal_Create_Injected
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
@@ -1419,9 +1421,11 @@ UnityEngine.ResourcesAPIInternal::FindShaderByName_Injected
 UnityEngine.ResourcesAPIInternal::Load_Injected
 UnityEngine.ResourcesAPIInternal::UnloadAsset_Injected
 UnityEngine.ResourcesAPIInternal::FindObjectsOfTypeAll
+UnityEngine.Rigidbody2D::get_linearVelocity_Injected
 UnityEngine.ScalableBufferManager::get_heightScaleFactor
 UnityEngine.ScalableBufferManager::get_widthScaleFactor
 UnityEngine.ScalableBufferManager::ResizeBuffers
+UnityEngine.SceneManagement.Scene::IsValidInternal
 UnityEngine.SceneManagement.Scene::GetGUIDInternal_Injected
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
