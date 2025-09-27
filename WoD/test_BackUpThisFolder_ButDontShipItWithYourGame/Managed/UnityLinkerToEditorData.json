@@ -271,6 +271,7 @@
             "name": "Material",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -434,6 +435,7 @@
             "name": "Shader",
             "scenes": [
               "Assets/Scenes/ArmyCreationScene.unity",
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
@@ -487,7 +489,9 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/BattleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

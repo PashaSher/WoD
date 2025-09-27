@@ -4,24 +4,28 @@ using System.Threading.Tasks;
 using Firebase.Database;
 using UnityEngine;
 
+/// <summary>
+/// Спавнит юнитов из Firebase-сессии. Всегда инстансит один базовый префаб Unit_Root,
+/// а внешний вид/анимации и характеристики берёт из UnitStats по типу юнита.
+/// ВАЖНО: в префабе Unit_Root должен быть дочерний объект "Visual" с SpriteRenderer
+/// (и опционально Animator).
+/// В UnitStats должны быть поля: unitType, sprite (Sprite), animatorOverride (AnimatorOverrideController, опц.).
+/// </summary>
 public class ArmySpawner : MonoBehaviour
 {
     [Header("Prefabs")]
-    [SerializeField] private GameObject unitRootPrefab;   // префаб Unit_Root
+    [SerializeField] private GameObject unitRootPrefab;   // базовый префаб Unit_Root
 
-    [Header("Stats")]
+    [Header("Stats (1 asset per type)")]
     [SerializeField] private List<UnitStats> unitStatsList; // Rifleman/Grenader/Sniper/Tank
 
     [Header("References")]
-    [SerializeField] private Transform unitsParent;   // пустой GameObject "Units" в сцене
-    [SerializeField] private bool ifHost;             // флаг роли (при желании переопределится из Globalflags)
-    [SerializeField] private string sessionId;        // ID сессии из Firebase
-
-    [Header("Visual (test)")]
-    [SerializeField] private Sprite testSprite;       // любой PNG как Sprite — для быстрого теста
+    [SerializeField] private Transform unitsParent;   // контейнер "Units" (если не задан — создадим)
+    [SerializeField] private bool ifHost;             // роль (может подхватиться из Globalflags)
+    [SerializeField] private string sessionId;        // ID сессии (может подхватиться из GameSession)
 
     [Header("Debug")]
-    [SerializeField] private bool verboseLogs = true; // включить подробные логи
+    [SerializeField] private bool verboseLogs = true; // подробные логи
 
     private DatabaseReference root;
     private readonly Dictionary<UnitType, UnitStats> statsByType = new();
@@ -31,14 +35,16 @@ public class ArmySpawner : MonoBehaviour
     // ---------- lifecycle ----------
     private void Awake()
     {
-        SafeLog($"Awake() start");
+        SafeLog("Awake() start");
 
-        // пробуем подтянуть контекст, если он есть
-        try {
+        // контекст — если есть
+        try
+        {
             GameSession.Load();
             if (!string.IsNullOrEmpty(GameSession.SessionId))
                 sessionId = GameSession.SessionId;
-        } catch { /* ignore */ }
+        }
+        catch { /* ignore */ }
 
         try { ifHost = Globalflags.ifHost; } catch { /* ignore */ }
 
@@ -50,7 +56,7 @@ public class ArmySpawner : MonoBehaviour
             SafeLog("Units parent auto-created/attached");
         }
 
-        // собрать словарь статов
+        // словарь статов по типу
         statsByType.Clear();
         if (unitStatsList != null)
         {
@@ -67,7 +73,7 @@ public class ArmySpawner : MonoBehaviour
 
     private async void Start()
     {
-        SafeLog($"Start() | sessionId='{sessionId}', prefab='{(unitRootPrefab?unitRootPrefab.name:"NULL")}', stats={statsByType.Count}");
+        SafeLog($"Start() | sessionId='{sessionId}', prefab='{(unitRootPrefab ? unitRootPrefab.name : "NULL")}', stats={statsByType.Count}");
 
         root = FirebaseDatabase.DefaultInstance.RootReference;
 
@@ -76,13 +82,19 @@ public class ArmySpawner : MonoBehaviour
             Debug.LogError("[ArmySpawner] UnitRootPrefab не задан — спавн невозможен.");
             return;
         }
+        // защита от ссылки на объект сцены вместо ассета префаба
+        if (unitRootPrefab.scene.IsValid())
+        {
+            Debug.LogError("[ArmySpawner] UnitRootPrefab указывает на объект в сцене. Перетащи ПРЕФАБ (синий кубик) из Project.");
+            return;
+        }
         if (string.IsNullOrEmpty(sessionId))
         {
             Debug.LogError("[ArmySpawner] sessionId пуст — укажи ID сессии.");
             return;
         }
 
-        await LoadAndSpawn();   // отдельный метод с try/catch и логами
+        await LoadAndSpawn();
     }
 
     // ---------- main flow ----------
@@ -115,105 +127,135 @@ public class ArmySpawner : MonoBehaviour
         SpawnArmy(client, Side.Right);
     }
 
-     private void SpawnArmy(DataSnapshot armySnap, Side side)
-{
-    if (armySnap == null || !armySnap.HasChildren)
+    private void SpawnArmy(DataSnapshot armySnap, Side side)
     {
-        SafeLog($"SpawnArmy({side}) skip: empty");
-        return;
+        if (armySnap == null || !armySnap.HasChildren)
+        {
+            SafeLog($"SpawnArmy({side}) skip: empty");
+            return;
+        }
+
+        var cam = Camera.main;
+        if (cam == null)
+        {
+            Debug.LogError("[ArmySpawner] Camera.main == null");
+            return;
+        }
+
+        float halfH = cam.orthographicSize;
+        float halfW = halfH * cam.aspect;
+
+        float x = (side == Side.Left) ? -halfW + 2f : halfW - 2f;
+        float y =  halfH - 1f;
+
+        bool isHostBranch = (side == Side.Left); // hostArmy слева
+        int spawned = 0;
+
+        int valid = 0;
+        foreach (var c in armySnap.Children)
+            if (c.HasChildren && c.HasChild("type")) valid++;
+
+        SafeLog($"SpawnArmy({side}) begin at x={x:F2}, yStart={y:F2} | nodes={armySnap.ChildrenCount}, units(with type)={valid}");
+
+        foreach (var child in armySnap.Children)
+        {
+            string key = child.Key;
+
+            if (!child.HasChildren || !child.HasChild("type")) continue;
+
+            string typeStr = child.Child("type").Value?.ToString();
+            if (string.IsNullOrEmpty(typeStr))
+            {
+                Debug.LogWarning($"[ArmySpawner] node '{key}' has no valid 'type'");
+                continue;
+            }
+
+            if (!Enum.TryParse(typeStr, true, out UnitType type))
+            {
+                Debug.LogWarning($"[ArmySpawner] Unknown unit type '{typeStr}' at '{key}'");
+                continue;
+            }
+
+            // Позиция и инстанс
+            Vector3 pos = new Vector3(x, y, 0f);
+            var go = Instantiate(unitRootPrefab, pos, Quaternion.identity, unitsParent);
+
+            // --- ВИЗУАЛ И СТАТЫ ---
+            var visualTr = go.transform.Find("Visual");
+            if (visualTr == null)
+            {
+                Debug.LogError("[ArmySpawner] 'Visual' child NOT found in Unit_Root prefab.");
+                Destroy(go);
+                continue;
+            }
+
+            // гарантируем наличие SpriteRenderer
+            var sr   = visualTr.GetComponent<SpriteRenderer>() ?? visualTr.gameObject.AddComponent<SpriteRenderer>();
+            var anim = visualTr.GetComponent<Animator>(); // может быть null
+
+            Sprite appliedSprite = null;
+            if (statsByType.TryGetValue(type, out var stats) && stats != null)
+            {
+                // если есть override-контроллер — используем анимации
+                if (anim != null && stats.animatorOverride != null)
+                {
+                    anim.runtimeAnimatorController = stats.animatorOverride;
+                    anim.enabled = true;
+                }
+                else
+                {
+                    if (anim != null) { anim.runtimeAnimatorController = null; anim.enabled = false; }
+                    if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
+                }
+
+                // Инициализировать компонент Unit статами
+                var unit = go.GetComponent<Unit>();
+                if (unit != null) unit.Init(type.ToString(), stats);
+            }
+            else
+            {
+                Debug.LogWarning($"[ArmySpawner] No stats for type={type} (key={key}). Visual will stay NONE.");
+            }
+
+            // гарантируем видимость поверх фона
+            sr.enabled = true;
+            sr.color = Color.white;
+            if (sr.sortingOrder < 5) sr.sortingOrder = 5;
+
+            // Зеркалим ТОЛЬКО визуал (арт), не корень с коллайдерами
+            var s = visualTr.localScale;
+            s.x = Mathf.Abs(s.x) * (side == Side.Right ? -1f : 1f);
+            visualTr.localScale = s;
+
+            // Метаданные в RTDB (best-effort)
+            var unitMeta = go.GetComponent<Unit>();
+            if (unitMeta != null)
+            {
+                try { unitMeta.SetFirebaseContextAndPush(sessionId, isHostBranch, key); }
+                catch (Exception ex) { Debug.LogWarning($"[ArmySpawner] meta write skip for '{key}': {ex.Message}"); }
+            }
+
+            // Цвет кольца (если есть)
+            var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
+            if (ring != null) ring.color = isHostBranch ? Color.cyan : Color.red;
+
+            // Имя для наглядности
+            go.name = $"{type}_{key}";
+            SafeLog($"  + {go.name} at {pos} (sprite='{appliedSprite?.name}')");
+
+            // Следующее место
+            y -= 1.5f;
+            if (y < -halfH + 1f)
+            {
+                y = halfH - 1f;
+                x += (side == Side.Left ? +1.6f : -1.6f);
+            }
+
+            spawned++;
+        }
+
+        SafeLog($"SpawnArmy({side}) done. Spawned={spawned}");
     }
-
-    var cam = Camera.main;
-    if (cam == null)
-    {
-        Debug.LogError("[ArmySpawner] Camera.main == null");
-        return;
-    }
-
-    float halfH = cam.orthographicSize;
-    float halfW = halfH * cam.aspect;
-
-    float x = (side == Side.Left) ? -halfW + 2f : halfW - 2f;
-    float y =  halfH - 1f;
-
-    bool isHostBranch = (side == Side.Left); // фикс: hostArmy слева
-    int spawned = 0;
-
-    // Сколько узлов реально являются юнитами
-    int valid = 0;
-    foreach (var c in armySnap.Children)
-        if (c.HasChildren && c.HasChild("type")) valid++;
-
-    SafeLog($"SpawnArmy({side}) begin at x={x:F2}, yStart={y:F2} | nodes={armySnap.ChildrenCount}, units(with type)={valid}");
-
-    foreach (var child in armySnap.Children)
-    {
-        string key = child.Key;
-
-        // Спавним только узлы с данными юнита
-        if (!child.HasChildren || !child.HasChild("type")) continue;
-
-        // Тип берём из поля "type" (а не из имени ключа)
-        string typeStr = child.Child("type").Value?.ToString();
-        if (string.IsNullOrEmpty(typeStr))
-        {
-            Debug.LogWarning($"[ArmySpawner] node '{key}' has no valid 'type'");
-            continue;
-        }
-
-        if (!Enum.TryParse(typeStr, true, out UnitType type))
-        {
-            Debug.LogWarning($"[ArmySpawner] Unknown unit type '{typeStr}' at '{key}'");
-            continue;
-        }
-
-        // Позиция и инстанс
-        Vector3 pos = new Vector3(x, y, 0f);
-        var go = Instantiate(unitRootPrefab, pos, Quaternion.identity, unitsParent);
-
-        // Визуал (тестовый спрайт, если задан)
-        var sr = go.transform.Find("Visual")?.GetComponent<SpriteRenderer>();
-        if (sr != null && testSprite != null)
-        {
-            sr.sprite = testSprite;
-            if (sr.sortingOrder < 5) sr.sortingOrder = 5; // на всякий случай поверх фона
-        }
-
-        // Применяем статы (если есть)
-        var unit = go.GetComponent<Unit>();
-        if (unit != null && statsByType != null && statsByType.TryGetValue(type, out var stats))
-            unit.Init(type.ToString(), stats);
-
-        // Пишем мету (не мешаем геймплею, если прав нет)
-        if (unit != null)
-        {
-            try { unit.SetFirebaseContextAndPush(sessionId, isHostBranch, key); }
-            catch (Exception ex) { Debug.LogWarning($"[ArmySpawner] meta write skip for '{key}': {ex.Message}"); }
-        }
-
-        // Цвет кольца и разворот
-        var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
-        if (ring != null) ring.color = isHostBranch ? Color.cyan : Color.red;
-
-        var ls = go.transform.localScale;
-        ls.x = Mathf.Abs(ls.x) * (side == Side.Left ? 1f : -1f);
-        go.transform.localScale = ls;
-
-        // Следующее место
-        y -= 1.5f;
-        if (y < -halfH + 1f)
-        {
-            y = halfH - 1f;
-            x += (side == Side.Left ? +1.6f : -1.6f);
-        }
-
-        spawned++;
-        if (spawned <= 3) SafeLog($"  + {key} ({type}) at {pos}");
-    }
-
-    SafeLog($"SpawnArmy({side}) done. Spawned={spawned}");
-}
-
 
     // ---------- helpers ----------
     private void SafeLog(string msg)

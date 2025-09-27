@@ -12,5 +12,6 @@ public class UnitStats : ScriptableObject
 
     [Header("Visual")]
     public Sprite sprite; 
+    public AnimatorOverrideController animatorOverride;
 
 }
