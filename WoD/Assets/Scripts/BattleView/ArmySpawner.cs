@@ -231,7 +231,13 @@ public class ArmySpawner : MonoBehaviour
             var unitMeta = go.GetComponent<Unit>();
             if (unitMeta != null)
             {
-                try { unitMeta.SetFirebaseContextAndPush(sessionId, isHostBranch, key); }
+                try
+                {
+                    unitMeta.SetFirebaseContextAndPush(sessionId, isHostBranch, key);
+                    // гарантируем кликабельность
+                     EnsureClickable(go);
+                }
+
                 catch (Exception ex) { Debug.LogWarning($"[ArmySpawner] meta write skip for '{key}': {ex.Message}"); }
             }
 
@@ -256,6 +262,36 @@ public class ArmySpawner : MonoBehaviour
 
         SafeLog($"SpawnArmy({side}) done. Spawned={spawned}");
     }
+
+    private void EnsureClickable(GameObject go)
+{
+    var visualTr = go.transform.Find("Visual");
+    if (!visualTr) return;
+
+    // Коллайдер (для тапа)
+    var poly = visualTr.GetComponent<PolygonCollider2D>();
+    var box  = visualTr.GetComponent<BoxCollider2D>();
+    if (!poly && !box)
+    {
+        // проще: прямоугольник
+        box = visualTr.gameObject.AddComponent<BoxCollider2D>();
+        box.isTrigger = true;
+        // подстроим размер под спрайт, если есть
+        var sr = visualTr.GetComponent<SpriteRenderer>();
+        if (sr && sr.sprite)
+            box.size = sr.sprite.bounds.size;
+    }
+    else
+    {
+        if (poly) poly.isTrigger = true;
+        if (box)  box.isTrigger  = true;
+    }
+
+    // Обработчик перетаскивания/записи конечной точки
+    if (!visualTr.GetComponent<UnitDragMover>())
+        visualTr.gameObject.AddComponent<UnitDragMover>();
+}
+
 
     // ---------- helpers ----------
     private void SafeLog(string msg)

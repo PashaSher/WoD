@@ -1,67 +1,60 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using Firebase.Database;
 using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
+    // ===== Identity (runtime) =====
     [Header("Runtime (identity)")]
-    [SerializeField] public string unitKey;        // например, "Rifleman_0"
-    [SerializeField] public string sessionId;      // ID сессии
-    [SerializeField] public bool   host;           // true -> hostArmy, false -> clientArmy
+    [SerializeField] public string unitKey;    // e.g. "Rifleman_0"
+    [SerializeField] public string sessionId;  // session id
+    [SerializeField] public bool   host;       // true -> hostArmy, false -> clientArmy
 
+    // ===== Stats =====
     [Header("Stats")]
-    public string unitType;                        // "Rifleman" / "Grenader" / ...
+    public string unitType;     // "Rifleman" / "Grenader" / ...
     public int    health;
     public int    damage;
     public float  attackRange;
     public float  moveSpeed;
-    public int    maxHP;                           // добавили для state
+    public int    maxHP;
 
+    // ===== Refs =====
     [Header("Refs (optional)")]
-    [SerializeField] private Transform   visual;   // child "Visual" (для зеркала)
-    [SerializeField] private Rigidbody2D rb;       // если двигаешь физикой
+    [SerializeField] private Transform   visual;   // child "Visual"
+    [SerializeField] private Rigidbody2D rb;       // optional
 
-    // --- Firebase ---
-    private DatabaseReference unitRef;
+    // ===== Firebase =====
+    private DatabaseReference unitRef;   // .../sessions/{sid}/{branch}/{unitKey}
+    private DatabaseReference stateRef;  // .../state
 
-    // --- локальный снимок ---
-    private struct Snapshot
+    // ===== Local move playback for remote commands =====
+    private Coroutine moveCo;
+
+    // ===== Combat sync (hp/attacking/facing only) =====
+    private struct CombatSnapshot
     {
-        public Vector2 pos;
-        public int     hp;
-        public int     facing;   // 1 / -1
-        public bool    moving;
-        public bool    attacking;
-    }
-    private Snapshot lastSent;
-    private float nextSyncTime;
-    private const float SYNC_INTERVAL = 0.10f; // 10 Гц
-
-    // флаг атаки
-    private bool attacking;
-
-    // --- кросс-версионная скорость Rb2D ---
-    private Vector2 RBVel()
-    {
-        if (rb == null) return Vector2.zero;
-#if UNITY_6000_0_OR_NEWER || UNITY_2023_3_OR_NEWER
-        return rb.linearVelocity;
-#else
-        return rb.velocity;
-#endif
+        public int  hp;
+        public int  facing;     // 1 / -1
+        public bool attacking;
     }
 
-    // ----------------------------------------------------
-    // Инициализация статами (вызывает спавнер)
-    // ----------------------------------------------------
+    private CombatSnapshot _combatLast;
+    private float _nextCombatSyncTime;
+    private bool  _forceCombatPush;
+    private bool  _maxHpDirty;                 // push maxHP once at start or on explicit change
+    private const float COMBAT_SYNC_INTERVAL = 0.10f; // push at most 10 Hz
+
+    // ====== Public API ======
     public void Init(string type, UnitStats stats)
     {
         unitType = type;
         if (stats != null)
         {
             health      = stats.health;
-            maxHP       = stats.health;  // стартовое maxHP = health (можно менять в геймплее)
+            maxHP       = stats.health;
             damage      = stats.damage;
             attackRange = stats.attackRange;
             moveSpeed   = stats.moveSpeed;
@@ -70,13 +63,11 @@ public class Unit : MonoBehaviour
         if (visual == null) visual = transform.Find("Visual");
         if (rb == null)     rb     = GetComponent<Rigidbody2D>();
 
-        attacking = false;
-        lastSent  = Capture(); // стартовый снэпшот
+        _combatLast  = CaptureCombat();
+        _maxHpDirty  = true;       // отправим maxHP один раз после бинда к RTDB
+        _forceCombatPush = true;   // инициализирующий пуш
     }
 
-    // ----------------------------------------------------
-    // Привязка к Firebase и первичная запись МЕТА (без hp/maxHP)
-    // ----------------------------------------------------
     public async void SetFirebaseContextAndPush(string sessionId, bool host, string unitKey)
     {
         this.sessionId = sessionId;
@@ -88,7 +79,9 @@ public class Unit : MonoBehaviour
             .Child("sessions").Child(sessionId)
             .Child(branch).Child(unitKey);
 
-        // Пишем только метаданные (hp/maxHP убрали отсюда)
+        stateRef = unitRef.Child("state");
+
+        // метаданные (без координат!)
         var meta = new Dictionary<string, object>
         {
             ["type"]      = unitType,
@@ -99,31 +92,33 @@ public class Unit : MonoBehaviour
         };
         await unitRef.UpdateChildrenAsync(meta);
 
-        // первичный state
-        PushState(Capture());
+        // первичный боевой state (включая maxHP один раз)
+        PushCombatState(includeMaxHP: _maxHpDirty);
+        _maxHpDirty = false;
 
-        // слушатель удалённых изменений state (если нужно принимать чужие правки)
-        unitRef.Child("state").ValueChanged += OnRemoteStateChanged;
+        // подписка на состояние
+        stateRef.ValueChanged += OnRemoteStateChanged;
     }
 
     private void OnDestroy()
     {
-        if (unitRef != null)
-            unitRef.Child("state").ValueChanged -= OnRemoteStateChanged;
+        if (stateRef != null) stateRef.ValueChanged -= OnRemoteStateChanged;
     }
 
-    // ---------------------- Геймплей ---------------------
+    // ====== Gameplay (hp / attack flags) ======
+    private bool attacking;
+
     public void TakeDamage(int amount)
     {
         health = Mathf.Max(0, health - Mathf.Abs(amount));
-        nextSyncTime = 0f;
+        _forceCombatPush = true;
         if (health == 0) Destroy(gameObject);
     }
 
     public void Heal(int amount)
     {
         health = Mathf.Clamp(health + Mathf.Abs(amount), 0, maxHP);
-        nextSyncTime = 0f;
+        _forceCombatPush = true;
     }
 
     public void StartAttack() => SetAttacking(true);
@@ -133,124 +128,169 @@ public class Unit : MonoBehaviour
         if (attacking != value)
         {
             attacking = value;
-            nextSyncTime = 0f; // форснем ближайший пуш
+            _forceCombatPush = true;
         }
     }
 
-    // ---------------------- Синхронизация ----------------
+    /// <summary>Явленно изменить maxHP и отправить в RTDB (редкий случай).</summary>
+    public void SetMaxHP(int newMax)
+    {
+        if (newMax <= 0 || newMax == maxHP) return;
+        maxHP = newMax;
+        if (health > maxHP) health = maxHP;
+        _maxHpDirty = true;
+        _forceCombatPush = true;
+        PushCombatState(includeMaxHP: true);
+        _maxHpDirty = false;
+    }
+
+    // ====== Outbound combat sync (no position/moving!) ======
     private void Update()
     {
-        if (unitRef == null) return;
+        if (stateRef == null) return;
 
-        var cur = Capture();
+        var cur = CaptureCombat();
+        bool changed = HasCombatChanged(cur, _combatLast);
 
-        if (Time.time >= nextSyncTime && HasChanged(cur, lastSent))
+        if (_forceCombatPush || (changed && Time.time >= _nextCombatSyncTime))
         {
-            PushState(cur);
-            lastSent    = cur;
-            nextSyncTime = Time.time + SYNC_INTERVAL;
+            PushCombatState(includeMaxHP: false); // maxHP не шлём тут
+            _combatLast = cur;
+            _nextCombatSyncTime = Time.time + COMBAT_SYNC_INTERVAL;
+            _forceCombatPush = false;
         }
     }
 
-    private Snapshot Capture()
+    private CombatSnapshot CaptureCombat() => new CombatSnapshot
     {
-        return new Snapshot
+        hp        = health,
+        facing    = GetFacing(),
+        attacking = attacking
+    };
+
+    private static bool HasCombatChanged(CombatSnapshot a, CombatSnapshot b) =>
+        a.hp != b.hp || a.facing != b.facing || a.attacking != b.attacking;
+
+    private async void PushCombatState(bool includeMaxHP)
+    {
+        if (stateRef == null) return;
+
+        var dict = new Dictionary<string, object>
         {
-            pos       = transform.position,
-            hp        = health,
-            facing    = GetFacing(),
-            moving    = IsMoving(),
-            attacking = attacking
+            ["hp"]        = health,
+            ["facing"]    = GetFacing(),
+            ["attacking"] = attacking,
+            ["updatedAt"] = ServerValue.Timestamp
         };
-    }
+        if (includeMaxHP) dict["maxHP"] = maxHP;
 
-    private bool HasChanged(Snapshot a, Snapshot b)
-    {
-        if (a.hp        != b.hp)        return true;
-        if (a.facing    != b.facing)    return true;
-        if (a.moving    != b.moving)    return true;
-        if (a.attacking != b.attacking) return true;
-        if ((a.pos - b.pos).sqrMagnitude > 0.0004f) return true; // позиция
-        return false;
-    }
-
-    private Dictionary<string, object> BuildStateDict(Snapshot s)
-    {
-        return new Dictionary<string, object>
-        {
-            // позиция
-            ["x"]        = (double)s.pos.x,
-            ["y"]        = (double)s.pos.y,
-
-            // боевое состояние
-            ["hp"]       = s.hp,
-            ["maxHP"]    = maxHP,             // <-- теперь в state
-            ["facing"]   = s.facing,          // 1 / -1
-            ["moving"]   = s.moving,
-            ["attacking"]= s.attacking,       // <-- флаг атаки
-
-            // служебное
-            ["updatedAt"]= ServerValue.Timestamp
-        };
-    }
-
-    private async void PushState(Snapshot s)
-    {
-        if (unitRef == null) return;
-        await unitRef.Child("state").UpdateChildrenAsync(BuildStateDict(s));
+        await stateRef.UpdateChildrenAsync(dict);
         await unitRef.Child("updatedAt").SetValueAsync(ServerValue.Timestamp);
     }
 
+    // ====== Inbound sync: consume movement + combat ======
     private void OnRemoteStateChanged(object sender, ValueChangedEventArgs e)
     {
-        if (e.DatabaseError != null) return;
-        if (e.Snapshot == null || !e.Snapshot.Exists) return;
+        if (e.DatabaseError != null || e.Snapshot == null || !e.Snapshot.Exists) return;
 
-        float x      = ToFloat(e.Snapshot.Child("x").Value, transform.position.x);
-        float y      = ToFloat(e.Snapshot.Child("y").Value, transform.position.y);
-        int   rHp    = ToInt  (e.Snapshot.Child("hp").Value, health);
-        int   rMaxHP = ToInt  (e.Snapshot.Child("maxHP").Value, maxHP);
-        int   facing = ToInt  (e.Snapshot.Child("facing").Value, GetFacing());
-        bool  moving = ToBool (e.Snapshot.Child("moving").Value, false);
-        bool  rAtk   = ToBool (e.Snapshot.Child("attacking").Value, attacking);
+        var s = e.Snapshot;
 
-        // применяем позицию/HP/атаку
-        transform.position = new Vector3(x, y, transform.position.z);
-        health = Mathf.Clamp(rHp, 0, rMaxHP);
-        maxHP  = rMaxHP;
+        // Всегда применяем боевые поля
+        int   rHp    = ToInt  (s.Child("hp").Value, health);
+        int   rMaxHP = ToInt  (s.Child("maxHP").Value, maxHP);
+        int   facing = ToInt  (s.Child("facing").Value, GetFacing());
+        bool  rAtk   = ToBool (s.Child("attacking").Value, attacking);
+
+        health    = Mathf.Clamp(rHp, 0, rMaxHP);
+        maxHP     = (rMaxHP > 0) ? rMaxHP : maxHP;
         attacking = rAtk;
 
-        // разворот только визуала
         if (visual != null)
         {
-            var s = visual.localScale;
-            s.x = Mathf.Abs(s.x) * (facing >= 0 ? 1f : -1f);
-            visual.localScale = s;
+            var ls = visual.localScale;
+            ls.x = Mathf.Abs(ls.x) * (facing >= 0 ? 1f : -1f);
+            visual.localScale = ls;
         }
 
-        lastSent = Capture(); // чтобы не отослать то же самое назад
+        // Движение воспроизводим только если ЭТО устройство не владелец юнита
+        if (!IsThisDeviceOwner())
+        {
+            bool moving = ToBool(s.Child("moving").Value, false);
+            float x = ToFloat(s.Child("x").Value, transform.position.x);
+            float y = ToFloat(s.Child("y").Value, transform.position.y);
+            Vector3 target = new Vector3(x, y, transform.position.z);
+
+            if (moving)
+            {
+                if (moveCo != null) StopCoroutine(moveCo);
+                moveCo = StartCoroutine(MoveTo(target, moveSpeed)); // скорость из статов
+            }
+            else
+            {
+                if (moveCo != null) StopCoroutine(moveCo);
+                moveCo = null;
+                transform.position = target; // фиксация позиции
+            }
+        }
+
+        // обновляем локальный combat-снимок, чтобы не слать обратно то же самое
+        _combatLast = CaptureCombat();
     }
 
-    // ---------------------- Вспомогательные --------------
-    private bool IsMoving()
+    private bool IsThisDeviceOwner() => Globalflags.ifHost == host;
+
+    private IEnumerator MoveTo(Vector3 target, float speed)
     {
-        if (rb != null) return RBVel().sqrMagnitude > 0.01f;
-        return (transform.hasChanged && (transform.position - (Vector3)lastSent.pos).sqrMagnitude > 0.0001f);
+        const float stopDist = 0.02f;
+        while (Vector2.Distance(transform.position, target) > stopDist)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            yield return null;
+        }
+        transform.position = target;
+        moveCo = null;
+        // ВАЖНО: здесь ничего не пишем в RTDB; инициатор сам установит moving=false.
     }
 
+    // ===== Helpers =====
     private int GetFacing()
     {
-        if (visual == null) return 1;
-        return (visual.localScale.x >= 0f) ? 1 : -1;
+        var vis = visual != null ? visual : transform.Find("Visual");
+        if (vis == null) return 1;
+        return (vis.localScale.x >= 0f) ? 1 : -1;
     }
 
-    private static float ToFloat(object v, float def) { return v == null ? def : Convert.ToSingle(v); }
-    private static int   ToInt  (object v, int   def) { return v == null ? def : Convert.ToInt32(v); }
-    private static bool  ToBool (object v, bool  def) { return v == null ? def : Convert.ToBoolean(v); }
+    private Vector2 RBVel()
+    {
+        if (rb == null) return Vector2.zero;
+#if UNITY_6000_0_OR_NEWER || UNITY_2023_3_OR_NEWER
+        return rb.linearVelocity;
+#else
+        return rb.velocity;
+#endif
+    }
 
-    // ---- DEBUG getters для UnitDebugInfo ----
-    public Vector2 PosDebug   => (Vector2)transform.position;
-    public bool    MovingDebug => RBVel().sqrMagnitude > 0.01f;
+    private static float ToFloat(object v, float def)
+    {
+        try { return v == null ? def : Convert.ToSingle(v); }
+        catch { return def; }
+    }
+
+    private static int ToInt(object v, int def)
+    {
+        try { return v == null ? def : Convert.ToInt32(v); }
+        catch { return def; }
+    }
+
+    private static bool ToBool(object v, bool def)
+    {
+        try { return v == null ? def : Convert.ToBoolean(v); }
+        catch { return def; }
+    }
+
+    // ===== Debug getters =====
+    public Vector2 PosDebug     => (Vector2)transform.position;
+    public bool    MovingDebug  => RBVel().sqrMagnitude > 0.01f;
     public int     FacingDebug
     {
         get

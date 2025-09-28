@@ -335,6 +335,7 @@ UnityEngine.BoxCollider::get_center_Injected
 UnityEngine.BoxCollider::get_size_Injected
 UnityEngine.BoxCollider::set_center_Injected
 UnityEngine.BoxCollider::set_size_Injected
+UnityEngine.BoxCollider2D::set_size_Injected
 UnityEngine.Camera::GetCullingParameters_Internal_Injected
 UnityEngine.Camera::get_allowDynamicResolution_Injected
 UnityEngine.Camera::get_allowHDR_Injected
@@ -362,6 +363,7 @@ UnityEngine.Camera::get_orthographicSize_Injected
 UnityEngine.Camera::ResetWorldToCameraMatrix_Injected
 UnityEngine.Camera::ScreenPointToRay_Injected
 UnityEngine.Camera::ScreenToViewportPoint_Injected
+UnityEngine.Camera::ScreenToWorldPoint_Injected
 UnityEngine.Camera::SetStereoProjectionMatrix_Injected
 UnityEngine.Camera::SetStereoViewMatrix_Injected
 UnityEngine.Camera::SetupCurrent_Injected
@@ -455,6 +457,7 @@ UnityEngine.Collider2D::get_shapeCount_Injected
 UnityEngine.Collider2D::get_attachedRigidbody_Injected
 UnityEngine.Collider2D::GetShapeHash_Injected
 UnityEngine.Collider2D::GetShapeBounds_Injected
+UnityEngine.Collider2D::set_isTrigger_Injected
 UnityEngine.ColorGamutUtility::GetColorPrimaries
 UnityEngine.ColorGamutUtility::GetTransferFunction
 UnityEngine.ColorGamutUtility::GetWhitePoint
@@ -839,6 +842,15 @@ UnityEngine.Light::get_shadowResolution_Injected
 UnityEngine.LightProbesQuery::Create
 UnityEngine.LightProbesQuery::CalculateInterpolatedLightAndOcclusionProbes
 UnityEngine.LightProbesQuery::Destroy
+UnityEngine.LineRenderer::SetPosition_Injected
+UnityEngine.LineRenderer::set_endWidth_Injected
+UnityEngine.LineRenderer::set_loop_Injected
+UnityEngine.LineRenderer::set_numCapVertices_Injected
+UnityEngine.LineRenderer::set_numCornerVertices_Injected
+UnityEngine.LineRenderer::set_positionCount_Injected
+UnityEngine.LineRenderer::set_startWidth_Injected
+UnityEngine.LineRenderer::set_useWorldSpace_Injected
+UnityEngine.LineRenderer::set_widthMultiplier_Injected
 UnityEngine.LODGroup::get_size_Injected
 UnityEngine.LODGroup::get_localReferencePoint_Injected
 UnityEngine.LowLevel.PlayerLoop::SetPlayerLoopInternal
@@ -1421,7 +1433,9 @@ UnityEngine.ResourcesAPIInternal::FindShaderByName_Injected
 UnityEngine.ResourcesAPIInternal::Load_Injected
 UnityEngine.ResourcesAPIInternal::UnloadAsset_Injected
 UnityEngine.ResourcesAPIInternal::FindObjectsOfTypeAll
+UnityEngine.Rigidbody2D::MovePosition_Injected
 UnityEngine.Rigidbody2D::get_linearVelocity_Injected
+UnityEngine.Rigidbody2D::set_linearVelocity_Injected
 UnityEngine.ScalableBufferManager::get_heightScaleFactor
 UnityEngine.ScalableBufferManager::get_widthScaleFactor
 UnityEngine.ScalableBufferManager::ResizeBuffers

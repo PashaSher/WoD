@@ -262,6 +262,12 @@
             "icon": null
           },
           {
+            "name": "LineRenderer",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "LowerResBlitTexture",
             "scenes": [],
             "dependencyType": 0,
@@ -1035,9 +1041,17 @@
         "name": "Physics2D",
         "dependencies": [
           {
-            "name": "Collider2D",
+            "name": "BoxCollider2D",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Collider2D",
+            "scenes": [
+              "Assets/Scenes/BattleScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -1054,7 +1068,9 @@
           },
           {
             "name": "PolygonCollider2D",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/BattleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
