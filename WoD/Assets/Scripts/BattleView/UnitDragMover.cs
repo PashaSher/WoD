@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Firebase.Database;
@@ -16,7 +17,11 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
     private bool dragging;
     private Vector3 startWorld, currWorld;
 
-    private DatabaseReference stateRef; // лениво инициализируем
+    private DatabaseReference stateRef; // lazily initialized
+
+    // cache of remote "moving" to avoid extra writes while unit is in motion
+    private bool hasMovingCache;
+    private bool movingCache;
 
     void Awake()
     {
@@ -33,22 +38,67 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         line.numCapVertices    = 2;
     }
 
-    // Попытка собрать ссылку, если её ещё нет
+    private void OnEnable()
+    {
+        TryAttachMovingListener();
+    }
+
+    private void OnDisable()
+    {
+        if (stateRef != null)
+        {
+            // Firebase Unity SDK uses +=/-= on ValueChanged
+            stateRef.Child("moving").ValueChanged -= OnMovingValueChanged;
+        }
+    }
+
+    private void TryAttachMovingListener()
+    {
+        if (!EnsureStateRef()) return;
+        stateRef.Child("moving").ValueChanged -= OnMovingValueChanged;
+        stateRef.Child("moving").ValueChanged += OnMovingValueChanged;
+        // Fire a one-time read to warm cache
+        _ = stateRef.Child("moving").GetValueAsync().ContinueWith(t =>
+        {
+            if (t.IsCompleted && t.Result != null)
+            {
+                var snap = t.Result;
+                var mv = ParseBool(snap.Value);
+                hasMovingCache = true;
+                movingCache = mv;
+            }
+        });
+    }
+
+    private void OnMovingValueChanged(object sender, ValueChangedEventArgs e)
+    {
+        hasMovingCache = true;
+        movingCache = ParseBool(e.Snapshot?.Value);
+        // If someone else set moving=true while we are drawing a line, cancel local drag UI.
+        if (movingCache && dragging)
+        {
+            dragging = false;
+            line.enabled = false;
+        }
+    }
+
+    // Attempt to build reference if it isn't ready yet
     private bool EnsureStateRef()
     {
         if (stateRef != null) return true;
         if (unit == null) return false;
-        if (string.IsNullOrEmpty(unit.sessionId) ||
-            string.IsNullOrEmpty(unit.unitKey))
+        if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey))
         {
-            // ещё не готово — спавнер не успел заполнить
-            return false;
+            return false; // spawner not ready to fill identity
         }
 
         var root   = FirebaseDatabase.DefaultInstance.RootReference;
         var branch = unit.host ? "hostArmy" : "clientArmy";
         stateRef = root.Child("sessions").Child(unit.sessionId)
                        .Child(branch).Child(unit.unitKey).Child("state");
+
+        // attach listener as soon as we succeed
+        TryAttachMovingListener();
         return true;
     }
 
@@ -63,8 +113,30 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
             return;
         }
 
+        // If we have cache and unit is moving — ignore.
+        if (hasMovingCache && movingCache)
+        {
+            // Still moving remotely — do nothing
+            return;
+        }
+
+        // Double-check from server just in case cache is stale
+        StartCoroutine(BeginDragIfNotMoving(e.position));
+    }
+
+    private IEnumerator BeginDragIfNotMoving(Vector2 screenPos)
+    {
+        var task = stateRef.Child("moving").GetValueAsync();
+        while (!task.IsCompleted) yield return null;
+
+        bool remoteMoving = ParseBool(task.Result?.Value);
+        hasMovingCache = true;
+        movingCache = remoteMoving;
+
+        if (remoteMoving) yield break;
+
         dragging   = true;
-        startWorld = ScreenToWorld(e.position);
+        startWorld = ScreenToWorld(screenPos);
         currWorld  = startWorld;
 
         line.enabled = true;
@@ -87,14 +159,32 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         dragging = false;
         line.enabled = false;
 
-        if (!EnsureStateRef()) return; // безопасность
+        if (!EnsureStateRef()) return; // safety
+
+        // If someone set moving in RTDB while we were dragging — abort.
+        if (hasMovingCache && movingCache) return;
 
         var target = ScreenToWorld(e.position);
         if (Vector2.Distance(target, unit.transform.position) < minDragDistance) return;
 
+        // Re-check before write to avoid race
+        StartCoroutine(TryCommitMove(target));
+    }
+
+    private IEnumerator TryCommitMove(Vector3 target)
+    {
+        var task = stateRef.Child("moving").GetValueAsync();
+        while (!task.IsCompleted) yield return null;
+
+        bool remoteMoving = ParseBool(task.Result?.Value);
+        hasMovingCache = true;
+        movingCache = remoteMoving;
+
+        if (remoteMoving) yield break;
+
         int facing = (target.x >= unit.transform.position.x) ? 1 : -1;
 
-        // ОДНА запись: конечные координаты + moving=true
+        // SINGLE write: final coordinates + moving=true
         var updates = new Dictionary<string, object>
         {
             ["x"] = target.x,
@@ -105,7 +195,10 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         };
         stateRef.UpdateChildrenAsync(updates);
 
-        // локально едем и по прибытии ставим moving=false
+        // update cache so further drags are blocked until finished
+        movingCache = true;
+
+        // locally move and on arrival set moving=false
         StopAllCoroutines();
         StartCoroutine(MoveToAndFinish(target, unit.moveSpeed));
     }
@@ -131,6 +224,10 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
             };
             stateRef.UpdateChildrenAsync(done);
         }
+
+        // refresh local cache
+        movingCache = false;
+        hasMovingCache = true;
     }
 
     private Vector3 ScreenToWorld(Vector2 screenPos)
@@ -139,5 +236,19 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         var wp = cam.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, z));
         wp.z = unit.transform.position.z;
         return wp;
+    }
+
+    private static bool ParseBool(object v)
+    {
+        // RTDB may store bool as true/false or 0/1 (Int64)
+        if (v is bool b) return b;
+        if (v is long l) return l != 0;
+        if (v is int i) return i != 0;
+        if (v is string s)
+        {
+            if (bool.TryParse(s, out var bs)) return bs;
+            if (long.TryParse(s, out var ls)) return ls != 0;
+        }
+        return false;
     }
 }
