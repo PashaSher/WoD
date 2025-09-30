@@ -617,6 +617,7 @@ UnityEngine.GeometryUtility::TestPlanesAABB_Injected
 UnityEngine.GeometryUtility::Internal_ExtractPlanes_Injected
 UnityEngine.Gizmos::DrawIcon_Injected
 UnityEngine.Gizmos::DrawLine_Injected
+UnityEngine.Gizmos::DrawWireSphere_Injected
 UnityEngine.Gizmos::set_color_Injected
 UnityEngine.Gizmos::set_matrix_Injected
 UnityEngine.GL::get_wireframe
@@ -991,6 +992,7 @@ UnityEngine.Object::ToString_Injected
 UnityEngine.Object::set_hideFlags_Injected
 UnityEngine.Object::get_hideFlags_Injected
 UnityEngine.Object::FindObjectsByType
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectDispatcher::CreateDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DestroyDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DispatchTransformDataChangesAndClear
