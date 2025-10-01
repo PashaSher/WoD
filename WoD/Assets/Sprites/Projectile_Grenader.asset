@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12dbac6bfac7f4458eeca16ac0c838d, type: 3}
+  m_Name: Projectile_Grenader
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileStats
+  damage: 40
+  penetration: 0
+  splashRadius: 1.2
+  speed: 6
+  maxLifetime: 5
+  sprite: {fileID: 2208703988740019828, guid: 18cb2cb6ec6d55743a99f44d0447ea83, type: 3}

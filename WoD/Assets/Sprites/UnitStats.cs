@@ -10,8 +10,16 @@ public class UnitStats : ScriptableObject
     public float attackRange = 4f;
     public float moveSpeed = 2.5f;
 
+    [Header("Combat Timing")]
+    public float fireRate = 1.0f;        // выстрелов в секунду
+    [Range(0f, 1f)] public float accuracy = 0.9f;  // 1 = идеально, 0 = рандом
+    public float accuracySpread = 0.3f;  // максимальный разброс цели (мировые единицы)
+
     [Header("Visual")]
     public Sprite sprite; 
     public AnimatorOverrideController animatorOverride;
+
+    [Header("Projectile")]
+    public ProjectileStats projectileStats; // настройки снаряда для этого юнита
 
 }

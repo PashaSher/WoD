@@ -21,6 +21,13 @@ public class Unit : MonoBehaviour
     public float  moveSpeed;
     public int    maxHP;
 
+    // ===== Firing/Projectile =====
+    [Header("Firing")]
+    public float  fireRate;         // выстрелов в секунду
+    [Range(0f,1f)] public float accuracy;       // 1 = идеально, 0 = большой разброс
+    public float  accuracySpread;   // макс. отклонение цели (мировые ед.)
+    public ProjectileStats projectileStats; // ссылка на настройки снаряда
+
     // ===== Refs =====
     [Header("Refs (optional)")]
     [SerializeField] private Transform   visual;   // child "Visual"
@@ -58,6 +65,10 @@ public class Unit : MonoBehaviour
             damage      = stats.damage;
             attackRange = stats.attackRange;
             moveSpeed   = stats.moveSpeed;
+            fireRate    = Mathf.Max(0.01f, stats.fireRate);
+            accuracy    = Mathf.Clamp01(stats.accuracy);
+            accuracySpread = Mathf.Max(0f, stats.accuracySpread);
+            projectileStats = stats.projectileStats;
         }
 
         if (visual == null) visual = transform.Find("Visual");
@@ -112,6 +123,8 @@ public class Unit : MonoBehaviour
     {
         health = Mathf.Max(0, health - Mathf.Abs(amount));
         _forceCombatPush = true;
+        // Сразу отправим в RTDB фактическое HP, чтобы оба клиента увидели обновление до уничтожения
+        PushCombatState(includeMaxHP: false);
         if (health == 0) Destroy(gameObject);
     }
 

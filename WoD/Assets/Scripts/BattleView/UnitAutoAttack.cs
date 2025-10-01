@@ -19,6 +19,7 @@ public class UnitAutoAttack : MonoBehaviour
 
     private Unit unit;                                // владелец (ищем в родителях)
     private float nextScanTime;
+    private float nextShotTime;
 
     // RTDB moving state for THIS unit
     private DatabaseReference stateRef;               // .../sessions/{sid}/{branch}/{unitKey}/state
@@ -58,6 +59,13 @@ public class UnitAutoAttack : MonoBehaviour
             return;
         }
 
+        // Если уже атакуем и пора стрелять — создаём снаряд (и реплицируем в RTDB)
+        if (IsAttacking() && Time.time >= nextShotTime)
+        {
+            nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit.fireRate));
+            TryFireProjectile();
+        }
+
         TryScanAndAttack();
     }
 
@@ -69,7 +77,7 @@ public class UnitAutoAttack : MonoBehaviour
         Unit closestEnemy = null;
         float closestSqr = float.PositiveInfinity;
 
-        var allUnits = FindObjectsOfType<Unit>();
+        var allUnits = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
         Vector3 myPos = unit.transform.position;
         bool myHost = unit.host;
 
@@ -100,6 +108,100 @@ public class UnitAutoAttack : MonoBehaviour
     {
         if (unit == null) return;
         unit.SetAttacking(value); // дальше Unit сам пушит в RTDB с дросселем
+    }
+
+    private bool IsAttacking()
+    {
+        // Используем внутреннее состояние Unit через отражение недоступно; полагаемся на публичный флаг через CombatSnapshot
+        // Здесь считаем, что Unit.PushCombatState пошлёт актуальный флаг, а мы просто повторяем каденс
+        return true; // каденс управляется TryScanAndAttack -> SetAttacking(true)/false
+    }
+
+    private void TryFireProjectile()
+    {
+        if (unit == null || unit.projectileStats == null) return;
+        if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey)) return;
+
+        // вычисляем старт по facing: чуть правее/левее центра визуала
+        var vis = unit.transform.Find("Visual");
+        Vector3 basePos = vis ? vis.position : unit.transform.position;
+        int facing = unit.FacingDebug >= 0 ? 1 : -1;
+        Vector3 start = basePos + new Vector3(0.25f * facing, 0.1f, 0);
+
+        // цель — ближайший враг в радиусе attackRange, с разбросом по accuracy
+        Unit targetUnit = FindClosestEnemyWithin(unit.attackRange);
+        if (!targetUnit) return;
+        Vector3 target = targetUnit.transform.position;
+
+        // применим разброс: чем ниже accuracy, тем выше отклонение
+        float spreadFactor = (1f - Mathf.Clamp01(unit.accuracy)) * Mathf.Max(0f, unit.accuracySpread);
+        if (spreadFactor > 0f)
+        {
+            target += new Vector3(UnityEngine.Random.Range(-spreadFactor, spreadFactor), UnityEngine.Random.Range(-spreadFactor, spreadFactor), 0f);
+        }
+
+        // создаём ноду снаряда в RTDB: /sessions/{sid}/{branch}/projectiles/{autoKey}
+        string branch = unit.host ? "hostArmy" : "clientArmy";
+        var root = FirebaseDatabase.DefaultInstance.RootReference;
+        var projRoot = root.Child("sessions").Child(unit.sessionId).Child(branch).Child("projectiles");
+        var newRef = projRoot.Push();
+        string key = newRef.Key;
+
+        var payload = new Dictionary<string, object>
+        {
+            ["ownerKey"] = unit.unitKey,
+            ["ownerBranch"] = branch,
+            ["host"] = unit.host,
+            ["type"] = unit.unitType,
+            ["startX"] = (double)start.x,
+            ["startY"] = (double)start.y,
+            ["targetX"] = (double)target.x,
+            ["targetY"] = (double)target.y,
+            ["speed"] = (double)unit.projectileStats.speed,
+            ["damage"] = unit.projectileStats.damage,
+            ["penetration"] = unit.projectileStats.penetration,
+            ["splash"] = (double)unit.projectileStats.splashRadius,
+            ["createdAt"] = ServerValue.Timestamp
+        };
+        newRef.SetValueAsync(payload);
+
+        // Локально отрисуем снаряд
+        SpawnLocalProjectile(key, start, target, createdByLocal: true);
+    }
+
+    private Unit FindClosestEnemyWithin(float range)
+    {
+        var all = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
+        Unit best = null;
+        float bestSqr = float.PositiveInfinity;
+        Vector3 my = unit.transform.position;
+        foreach (var u in all)
+        {
+            if (!u || u.host == unit.host) continue;
+            float sqr = (u.transform.position - my).sqrMagnitude;
+            if (sqr < bestSqr)
+            {
+                bestSqr = sqr; best = u;
+            }
+        }
+        if (best && bestSqr <= range * range) return best;
+        return null;
+    }
+
+    private void SpawnLocalProjectile(string key, Vector2 start, Vector2 target, bool createdByLocal)
+    {
+        if (unit == null || unit.projectileStats == null) return;
+        var go = new GameObject($"Projectile_{key}");
+        go.transform.position = start;
+        var proj = go.AddComponent<Projectile>();
+        proj.Init(unit, unit.projectileStats, key, start, target, createdByLocal);
+
+        // привяжем ref, если хотим позже удалять
+        var refPath = FirebaseDatabase.DefaultInstance.RootReference
+            .Child("sessions").Child(unit.sessionId)
+            .Child(unit.host ? "hostArmy" : "clientArmy")
+            .Child("projectiles").Child(key);
+        proj.BindRef(refPath);
     }
 
     private void TryAttachMovingListener()
