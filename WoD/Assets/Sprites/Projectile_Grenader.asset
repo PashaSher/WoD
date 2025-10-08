@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12dbac6bfac7f4458eeca16ac0c838d, type: 3}
   m_Name: Projectile_Grenader
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileStats
-  damage: 40
+  damage: 5
   penetration: 0
   splashRadius: 1.2
   speed: 6

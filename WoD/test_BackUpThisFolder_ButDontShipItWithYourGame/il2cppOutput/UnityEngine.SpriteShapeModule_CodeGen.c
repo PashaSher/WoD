@@ -115,25 +115,20 @@ static const int32_t s_InvokerIndices[29] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
-	{ 0x06000008, { 0, 3 } },
-	{ 0x06000009, { 3, 3 } },
+	{ 0x06000008, { 0, 2 } },
+	{ 0x06000009, { 2, 2 } },
 };
 extern const uint32_t g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t5BC1F8928A1B35AC768A2C4B0239C04CEDA1FD56_mE6BDF655A67788463021A6D09555A3B92E856D7B;
 extern const uint32_t g_rgctx_NativeArray_1_t669037BF55DFB05FFC88EED828421A071607779E;
-extern const uint32_t g_rgctx_NativeArray_1_t669037BF55DFB05FFC88EED828421A071607779E;
 extern const uint32_t g_rgctx_NativeSliceUnsafeUtility_ConvertExistingDataToNativeSlice_TisT_t987F30B32AF875C4AE5FF41A2CF0541B43BA72C8_mFBF5CBDC8F822FB2B34B6722DC374C229061FC2E;
 extern const uint32_t g_rgctx_NativeSlice_1_t548FE7BFD18D3AE82BF650C973E1A93318CA56B8;
-extern const uint32_t g_rgctx_NativeSlice_1_t548FE7BFD18D3AE82BF650C973E1A93318CA56B8;
-static const Il2CppRGCTXDefinition s_rgctxValues[6] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
 {
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NativeArrayUnsafeUtility_ConvertExistingDataToNativeArray_TisT_t5BC1F8928A1B35AC768A2C4B0239C04CEDA1FD56_mE6BDF655A67788463021A6D09555A3B92E856D7B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_NativeArray_1_t669037BF55DFB05FFC88EED828421A071607779E },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_NativeArray_1_t669037BF55DFB05FFC88EED828421A071607779E },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NativeSliceUnsafeUtility_ConvertExistingDataToNativeSlice_TisT_t987F30B32AF875C4AE5FF41A2CF0541B43BA72C8_mFBF5CBDC8F822FB2B34B6722DC374C229061FC2E },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_NativeSlice_1_t548FE7BFD18D3AE82BF650C973E1A93318CA56B8 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_NativeSlice_1_t548FE7BFD18D3AE82BF650C973E1A93318CA56B8 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_SpriteShapeModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule = 
 {
@@ -147,9 +142,9 @@ const Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule =
 	NULL,
 	2,
 	s_rgctxIndices,
-	6,
+	4,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnityEngine_SpriteShapeModule,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

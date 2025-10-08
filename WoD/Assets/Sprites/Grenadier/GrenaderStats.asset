@@ -17,8 +17,4 @@ MonoBehaviour:
   damage: 10
   attackRange: 4
   moveSpeed: 2.5
-  fireRate: 0.6
-  accuracy: 0.7
-  accuracySpread: 0.4
   sprite: {fileID: 7712903261968664713, guid: feddd9c58c450934cb0f2f3903cccf94, type: 3}
-  projectileStats: {fileID: 11400000, guid: 9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d, type: 2}

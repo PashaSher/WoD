@@ -15,6 +15,7 @@ public class FirebaseSessionManager : MonoBehaviour
     [Header("Config")]
     [SerializeField] private string sessionsPath = "sessions";
     [SerializeField] private string mainMenuSceneName = "MainMenu";
+    public string MainMenuSceneName => mainMenuSceneName;
 
     // UI для сообщения "сессию закрыл другой игрок"
     private GameObject remoteClosedPanel;
@@ -144,5 +145,13 @@ public class FirebaseSessionManager : MonoBehaviour
         try { await r.UpdateChildrenAsync(updates); } catch (Exception ex) { Debug.LogWarning(ex); }
         await Task.Delay(600); // дать второму клиенту поймать событие
         try { await r.RemoveValueAsync(); } catch (Exception ex) { Debug.LogWarning(ex); }
+    }
+
+    /// <summary>Закрыть/удалить сессию и перейти в главное меню.</summary>
+    public async Task LeaveSessionAndGoToMenuAsync()
+    {
+        try { await LeaveSessionAsync(); }
+        catch (Exception ex) { Debug.LogWarning(ex); }
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 }

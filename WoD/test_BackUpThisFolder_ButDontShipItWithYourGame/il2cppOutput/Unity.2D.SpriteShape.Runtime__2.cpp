@@ -53,10 +53,6 @@ struct U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68;
 struct U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74;
 struct UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_2D_SpriteShape_Runtime[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Burst[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Mathematics[];
 IL2CPP_EXTERN_C RuntimeClass* Allocator_t996642592271AAD9EE688F142741D512C07B5824_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var;
@@ -74,10 +70,7 @@ IL2CPP_EXTERN_C RuntimeClass* UTessellator_0000017FU24BurstDirectCall_t10E2F0FFA
 IL2CPP_EXTERN_C RuntimeClass* UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteralB97EA8E93DF3A597AEFDD8BACBE2AD61BB9CAE61;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* BurstCompiler_CompileFunctionPointer_TisUTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA_m185061C1CB9EC862782431884C54DCBB4BA2A702_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FunctionPointer_1_get_Value_mCBDE3C3B018EFC1FB10C35410FBD998F12C042F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IJobExtensions_Schedule_TisSpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_m78894CA76B6A5619A1DCF526E1DFEBB3B4781DA1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var;
@@ -88,116 +81,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mAD3B69E4B23316C46AF8
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ScriptableObject_CreateInstance_TisSpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_m718F697C1547BCE1B2A070C0925A6402EB830D07_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeDefaultCreator_GetVersion_mBF55AB1CA538BEBDAC4AD7C3D6D416C976E22995_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeDefaultCreator_GetVertexArrayCount_mDDE727F55D07FBBF570F7617443C2782ED87B4CC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeDefaultCreator_MakeCreatorJob_m95E60274C1A0757B5AC8B71DBF5142F1C7E5379C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeDefaultCreator__ctor_m1686195DD7A0692725025943A87FEF4130923707_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeDefaultCreator_get_defaultInstance_m3D7F2CB26AD65BA670E221E672716B4AEB5764E4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGenerator_UTessellator_mA975B9F66E80F2334124BFADD19F331AB2F6E90D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_0_mA1368E9968F5B0A4865D4994245C3AB3703B2823_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2722DC493302EB6C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24PostfixBurstDelegate_BeginInvoke_m098909B481B8513DBEABBFAF8389B36B3B207D98_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24PostfixBurstDelegate_EndInvoke_m0CA934E4E8F4AF159D45C6766236E3C036AA0304_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UTessellator_0000017FU24PostfixBurstDelegate__ctor_m7D82A379E92F612522917026D1FBB234A0299719_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* FunctionPointer_1_tB635C696E956CB8DC2B055F1669431B2F6D73193_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Spline_tD674213224F697425072FBF76AE3FD203AD2B818_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeObjectPlacementMode_t9E70BA2334ED43D7A80BEA8C89F0CF84D86D1EF9_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector3U2A_t8DC7CA066FED841DA35AC98FEEC67E4FB0B5D28A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -1405,19 +1290,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70238
+// Method Definition Index: 70256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2722DC493302EB6C2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2722DC493302EB6C2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2722DC493302EB6C2_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2722DC493302EB6C2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68* L_0 = (U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68*)il2cpp_codegen_object_new(U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68_il2cpp_TypeInfo_var);
 		U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1(L_0, NULL);
@@ -1426,60 +1307,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m46528AD52B64571CEF44A8F2
 		return;
 	}
 }
-// Method Definition Index: 70239
+// Method Definition Index: 70257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1 (U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__ctor_m3D2A053B5948BDFC84870DCBEAD76989CF259BF1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 70240
+// Method Definition Index: 70258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_0_mA1368E9968F5B0A4865D4994245C3AB3703B2823 (U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68* __this, AngleRange_t9E6944E61CB80C5B3F9090198ABF27023FFF2143* ___0_a, AngleRange_t9E6944E61CB80C5B3F9090198ABF27023FFF2143* ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_0_mA1368E9968F5B0A4865D4994245C3AB3703B2823_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t2D4D15BFA51D3A1AEDB056CFF52D9F1C267DBA68_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_0_mA1368E9968F5B0A4865D4994245C3AB3703B2823_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_0_mA1368E9968F5B0A4865D4994245C3AB3703B2823_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6272));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6273));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeController.cs:799>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6274));
 		AngleRange_t9E6944E61CB80C5B3F9090198ABF27023FFF2143* L_0 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6275));
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = AngleRange_get_order_m4B94B4ABE3C9280BC7D7C42C3BAFD215C4FDE65A(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6275));
 		V_0 = L_1;
 		AngleRange_t9E6944E61CB80C5B3F9090198ABF27023FFF2143* L_2 = ___1_b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6276));
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = AngleRange_get_order_m4B94B4ABE3C9280BC7D7C42C3BAFD215C4FDE65A(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6276));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6277));
 		int32_t L_4;
 		L_4 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586((&V_0), L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6277));
 		return L_4;
 	}
 }
@@ -1491,61 +1343,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CUpdateSpriteDataU3Eb__166_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70241
+// Method Definition Index: 70259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeDefaultCreator_GetVertexArrayCount_mDDE727F55D07FBBF570F7617443C2782ED87B4CC (SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_sc, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_GetVertexArrayCount_mDDE727F55D07FBBF570F7617443C2782ED87B4CC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeDefaultCreator_GetVertexArrayCount_mDDE727F55D07FBBF570F7617443C2782ED87B4CC_RuntimeMethod_var);
 	NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_sc));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeDefaultCreator_GetVertexArrayCount_mDDE727F55D07FBBF570F7617443C2782ED87B4CC_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6278));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6279));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6280));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:16>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6281));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6282));
 		NullCheck(L_0);
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_1;
 		L_1 = SpriteShapeController_GetShapeControlPoints_m4A0BF704DB4274546156AC4085353536541B30D5(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6282));
 		V_0 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:17>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6283));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_2 = ___0_sc;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_3 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6284));
 		NullCheck(L_2);
 		int32_t L_4;
 		L_4 = SpriteShapeController_CalculateMaxArrayCount_m3460A750AFF7144E55395AF683DD508233190ECB(L_2, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6284));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:18>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6285));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6286));
 		NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43((&V_0), NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6286));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:19>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6287));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_5 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6288));
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = SpriteShapeController_get_maxArrayCount_m1CD21D97E9DFB36FB05C64261E6B2AE8AE7A9F29(L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6288));
 		V_1 = L_6;
 		goto IL_0021;
 	}
@@ -1553,31 +1382,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeDefaultCreator_GetVertexAr
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:20>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6289));
 		int32_t L_7 = V_1;
 		return L_7;
 	}
 }
-// Method Definition Index: 70242
+// Method Definition Index: 70260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 SpriteShapeDefaultCreator_MakeCreatorJob_m95E60274C1A0757B5AC8B71DBF5142F1C7E5379C (SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_sc, NativeArray_1_t275C00CC374DEA66C69B3BB3992116F315A8E934 ___1_indices, NativeSlice_1_t4B5C42A704ED060AB92A8716135FE435B1E6C23A ___2_positions, NativeSlice_1_tBDD0B6C963222DE23BD34911416213E058F9FBAF ___3_texCoords, NativeSlice_1_tA687F314957178F2A299D03D59B960DDC218680F ___4_tangents, NativeArray_1_t2BC742D9A03AF608A0AB5B638F49639E1C7BD6ED ___5_segments, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E ___6_colliderData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobExtensions_Schedule_TisSpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_m78894CA76B6A5619A1DCF526E1DFEBB3B4781DA1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m86CDDC18C767D3558378241F4CB6BF35D9733F35_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_MakeCreatorJob_m95E60274C1A0757B5AC8B71DBF5142F1C7E5379C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeDefaultCreator_MakeCreatorJob_m95E60274C1A0757B5AC8B71DBF5142F1C7E5379C_RuntimeMethod_var);
 	bool V_0 = false;
 	NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -1595,43 +1415,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	memset((&V_7), 0, sizeof(V_7));
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_8;
 	memset((&V_8), 0, sizeof(V_8));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_sc), (&___1_indices), (&___2_positions), (&___3_texCoords), (&___4_tangents), (&___5_segments), (&___6_colliderData));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeDefaultCreator_MakeCreatorJob_m95E60274C1A0757B5AC8B71DBF5142F1C7E5379C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6290));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6291));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6292));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:26>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6293));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6294));
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = SpriteShapeController_ValidateUTess2D_mC71A1EC29B1BC0FF00C49C695A96846D709F458E(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6294));
 		V_0 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:27>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6295));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_2 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6296));
 		NullCheck(L_2);
 		SpriteShapeRenderer_tE998BB73CF661079736CCC23617E597AB230A4AC* L_3;
 		L_3 = SpriteShapeController_get_spriteShapeRenderer_m1CE6071F363FDDC49999CD3482311619EDA97F00(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6296));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6297));
 		NullCheck(L_3);
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_4;
 		L_4 = SpriteShapeRenderer_GetBounds_mB1109C67BE9B7A2376B92299C07B89E25026E42A(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6297));
 		V_1 = L_4;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:28>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:29>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:30>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:31>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:32>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6298));
 		il2cpp_codegen_initobj((&V_6), sizeof(SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E));
 		NativeArray_1_t596D8D9BF28AE72A671779EB28469319AC3F1147 L_5 = V_1;
 		(&V_6)->___m_Bounds = L_5;
@@ -1648,110 +1452,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_11 = ___6_colliderData;
 		(&V_6)->___m_ColliderPoints = L_11;
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_12 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6299));
 		NullCheck(L_12);
 		NativeArray_1_t77D78B577AF7E0DD9EB5B192AF05EF90AE6F567D L_13;
 		L_13 = SpriteShapeController_get_stats_m3130C2A150F3CFF99A6FD0D5EC06147E907D96FD(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6299));
 		(&V_6)->___m_Stats = L_13;
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_14 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6300));
 		NullCheck(L_14);
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_15;
 		L_15 = SpriteShapeController_get_shadowData_m6D637C25E16688807369372E8B00026509CD1EB3(L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6300));
 		(&V_6)->___m_ShadowPoints = L_15;
 		SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E L_16 = V_6;
 		V_2 = L_16;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:33>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6301));
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_17 = ((SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_il2cpp_TypeInfo_var))->___generateCollider;
 		(&V_2)->___generateCollider = L_17;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:34>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6302));
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_18 = ((SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_il2cpp_TypeInfo_var))->___generateGeometry;
 		(&V_2)->___generateGeometry = L_18;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6303));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_19 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6304));
 		NullCheck(L_19);
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_20;
 		L_20 = SpriteShapeController_GetShapeControlPoints_m4A0BF704DB4274546156AC4085353536541B30D5(L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6304));
 		V_3 = L_20;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:37>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6305));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_21 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6306));
 		NullCheck(L_21);
 		NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25 L_22;
 		L_22 = SpriteShapeController_GetSplinePointMetaData_m56AE94299696DA36F56EE24B792FAD9892ECF786(L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6306));
 		V_4 = L_22;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:38>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6307));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_23 = ___0_sc;
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_24 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6308));
 		NullCheck(L_24);
 		SpriteShapeParameters_tC047BDC50B45EE3C0035646195EFA31FB89F2E45 L_25;
 		L_25 = SpriteShapeController_get_spriteShapeParameters_m5EB8EFD2C04CC8797FDC67F2E381AB833D287AA0(L_24, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6308));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_26 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6309));
 		NullCheck(L_26);
 		int32_t L_27;
 		L_27 = SpriteShapeController_get_maxArrayCount_m1CD21D97E9DFB36FB05C64261E6B2AE8AE7A9F29(L_26, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6309));
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_28 = V_3;
 		NativeArray_1_tFFFE148C68B1A575F4A4762E11CE7A836203BE25 L_29 = V_4;
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_30 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6310));
 		NullCheck(L_30);
 		AngleRangeInfoU5BU5D_t8AE5F89B8CA102A1093EFEA4E67B9364AC690BC8* L_31;
 		L_31 = SpriteShapeController_get_angleRangeInfoArray_mED8D0B5CD5EE8724A44A6CA86DCE37AE085C11F4(L_30, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6310));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_32 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6311));
 		NullCheck(L_32);
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_33;
 		L_33 = SpriteShapeController_get_edgeSpriteArray_mB562E639F3951B0A5432AA7F9BA18BCD69387071(L_32, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6311));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_34 = ___0_sc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6312));
 		NullCheck(L_34);
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_35;
 		L_35 = SpriteShapeController_get_cornerSpriteArray_mF0A3ACBD990E4DCE4BFE3CA2192C0058DD3F7E9E(L_34, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6312));
 		bool L_36 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6313));
 		SpriteShapeGenerator_Prepare_m8358A9BD95A1D45F0FBE63A5661421DD0D8B4DB7((&V_2), L_23, L_25, L_27, L_28, L_29, L_31, L_33, L_35, L_36, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6313));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:40>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6314));
 		SpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E L_37 = V_2;
 		il2cpp_codegen_initobj((&V_7), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_38 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6315));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_39;
 		L_39 = IJobExtensions_Schedule_TisSpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_m78894CA76B6A5619A1DCF526E1DFEBB3B4781DA1(L_37, L_38, IJobExtensions_Schedule_TisSpriteShapeGenerator_tE3C79C2D9685232AD17AB7FA803F44FA92DB854E_m78894CA76B6A5619A1DCF526E1DFEBB3B4781DA1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6315));
 		V_5 = L_39;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:41>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6316));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6317));
 		NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43((&V_3), NativeArray_1_Dispose_m4666F0407DE459A53D3477A8D88314C0E44E4B43_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6317));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:42>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6318));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6319));
 		NativeArray_1_Dispose_m86CDDC18C767D3558378241F4CB6BF35D9733F35((&V_4), NativeArray_1_Dispose_m86CDDC18C767D3558378241F4CB6BF35D9733F35_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6319));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:43>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6320));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_40 = V_5;
 		V_8 = L_40;
 		goto IL_00ef;
@@ -1760,12 +1529,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 IL_00ef:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6321));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_41 = V_8;
 		return L_41;
 	}
 }
-// Method Definition Index: 70243
+// Method Definition Index: 70261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* SpriteShapeDefaultCreator_get_defaultInstance_m3D7F2CB26AD65BA670E221E672716B4AEB5764E4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1773,29 +1541,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeDefaultCreator_tBDEFF529BF54395B03
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptableObject_CreateInstance_TisSpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_m718F697C1547BCE1B2A070C0925A6402EB830D07_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_get_defaultInstance_m3D7F2CB26AD65BA670E221E672716B4AEB5764E4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeDefaultCreator_get_defaultInstance_m3D7F2CB26AD65BA670E221E672716B4AEB5764E4_RuntimeMethod_var);
 	bool V_0 = false;
 	SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeDefaultCreator_get_defaultInstance_m3D7F2CB26AD65BA670E221E672716B4AEB5764E4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6322));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6323));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6324));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:52>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6325));
 		SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* L_0 = ((SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var))->___creator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6326));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6326));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6327));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -1803,29 +1560,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeDefaultCreator_tBDEFF529BF54395B03
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6328));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:54>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6329));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6330));
 		SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* L_3;
 		L_3 = ScriptableObject_CreateInstance_TisSpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_m718F697C1547BCE1B2A070C0925A6402EB830D07(ScriptableObject_CreateInstance_TisSpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_m718F697C1547BCE1B2A070C0925A6402EB830D07_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6330));
 		((SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var))->___creator = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var))->___creator), (void*)L_3);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6331));
 		SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* L_4 = ((SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var))->___creator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6332));
 		NullCheck(L_4);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)52), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6332));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6333));
 	}
 
 IL_0029:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:57>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6334));
 		SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* L_5 = ((SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_il2cpp_TypeInfo_var))->___creator;
 		V_1 = L_5;
 		goto IL_0031;
@@ -1834,54 +1582,30 @@ IL_0029:
 IL_0031:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:58>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6335));
 		SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* L_6 = V_1;
 		return L_6;
 	}
 }
-// Method Definition Index: 70244
+// Method Definition Index: 70262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeDefaultCreator_GetVersion_mBF55AB1CA538BEBDAC4AD7C3D6D416C976E22995 (SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_GetVersion_mBF55AB1CA538BEBDAC4AD7C3D6D416C976E22995_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeDefaultCreator_GetVersion_mBF55AB1CA538BEBDAC4AD7C3D6D416C976E22995_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeDefaultCreator_GetVersion_mBF55AB1CA538BEBDAC4AD7C3D6D416C976E22995_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6336));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6337));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6338));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:67>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6339));
 		V_0 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:68>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6340));
 		V_1 = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6341));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6342));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6343));
 		int32_t L_0;
 		L_0 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6343));
 		V_0 = ((int32_t)(((int32_t)-2128831035)^L_0));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:72>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6344));
 		int32_t L_1 = V_0;
 		int32_t L_2 = V_1;
 		V_0 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_1, ((int32_t)16777619)))^L_2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6345));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:74>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6346));
 		int32_t L_3 = V_0;
 		V_2 = L_3;
 		goto IL_0022;
@@ -1890,23 +1614,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeDefaultCreator_GetVersion_
 IL_0022:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeDefaultCreator.cs:75>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 6347));
 		int32_t L_4 = V_2;
 		return L_4;
 	}
 }
-// Method Definition Index: 70245
+// Method Definition Index: 70263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeDefaultCreator__ctor_m1686195DD7A0692725025943A87FEF4130923707 (SpriteShapeDefaultCreator_tBDEFF529BF54395B0399B8F5B163187DF12816F5* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeDefaultCreator__ctor_m1686195DD7A0692725025943A87FEF4130923707_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeDefaultCreator__ctor_m1686195DD7A0692725025943A87FEF4130923707_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeDefaultCreator__ctor_m1686195DD7A0692725025943A87FEF4130923707_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B(__this, NULL);
 		return;
@@ -2008,19 +1722,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeDefaultCreator__ctor_m1686195
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70339
+// Method Definition Index: 70357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5BADA65B9D7949A349_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* L_0 = (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74*)il2cpp_codegen_object_new(U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74_il2cpp_TypeInfo_var);
 		U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999(L_0, NULL);
@@ -2029,76 +1739,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3B0AC2339A8DE4BC31CEDD5B
 		return;
 	}
 }
-// Method Definition Index: 70340
+// Method Definition Index: 70358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999 (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec__ctor_mA91FE5EA2C14E43491278E311B2F74B7478EF999_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 70341
+// Method Definition Index: 70359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8 (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, int32_t ___0_i, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_i));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_0_m4DC5973A9C496EEA6F7E0098F7A5D14133CF8FA8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9879));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9880));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1311>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9881));
 		int32_t L_0 = ___0_i;
 		return (uint16_t)((int32_t)(uint16_t)L_0);
 	}
 }
-// Method Definition Index: 70342
+// Method Definition Index: 70360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C (U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74* __this, ContourVertex_tCF411C2A25CB1E379D7566058ACD30AE23E7FC66 ___0_v, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tBCE2556A62FBB2630B0C191C01319B1FBE992F74_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_v));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U3CU3Ec_U3CTessellateContourMainThreadU3Eb__155_1_mF10AA4653D6AE7C5ECCE75B6EE424F6A82D6B37C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9882));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9883));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1312>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9884));
 		ContourVertex_tCF411C2A25CB1E379D7566058ACD30AE23E7FC66 L_0 = ___0_v;
 		Vec3_t2DC07E9249C572CF68A4D54873B4038A68B77E74 L_1 = L_0.___Position;
 		float L_2 = L_1.___X;
 		ContourVertex_tCF411C2A25CB1E379D7566058ACD30AE23E7FC66 L_3 = ___0_v;
 		Vec3_t2DC07E9249C572CF68A4D54873B4038A68B77E74 L_4 = L_3.___Position;
 		float L_5 = L_4.___Y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9885));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9885));
 		return L_6;
 	}
 }
@@ -2138,16 +1809,9 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_UTessellator_0000017FU24PostfixBurs
 	il2cppPInvokeFunc(___0_geom, ___1_maxCount, ___2_tessPoints, ___3_tessPointCount, ___4_indices, ___5_iCount, ___6_vertices, ___7_stride, ___8_vCount, ___9_label);
 
 }
-// Method Definition Index: 70343
+// Method Definition Index: 70361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate__ctor_m7D82A379E92F612522917026D1FBB234A0299719 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, RuntimeObject* ___0_p, intptr_t ___1_p, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24PostfixBurstDelegate__ctor_m7D82A379E92F612522917026D1FBB234A0299719_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24PostfixBurstDelegate__ctor_m7D82A379E92F612522917026D1FBB234A0299719_RuntimeMethod_var);
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_p);
 	__this->___method = ___1_p;
 	__this->___m_target = ___0_p;
@@ -2182,20 +1846,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDele
 	}
 	__this->___extra_arg = (intptr_t)&UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024_Multicast;
 }
-// Method Definition Index: 70344
+// Method Definition Index: 70362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24PostfixBurstDelegate_Invoke_m3FE651BD796903A59B0486C44F86A6101BB31024_RuntimeMethod_var);
 	typedef void (*FunctionPointerType) (RuntimeObject*, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5*, int32_t, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*, int32_t, uint16_t*, int32_t*, uint8_t*, int32_t, int32_t*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_geom, ___1_maxCount, ___2_tessPoints, ___3_tessPointCount, ___4_indices, ___5_iCount, ___6_vertices, ___7_stride, ___8_vCount, ___9_label, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 70345
+// Method Definition Index: 70363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UTessellator_0000017FU24PostfixBurstDelegate_BeginInvoke_m098909B481B8513DBEABBFAF8389B36B3B207D98 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___10_p, RuntimeObject* ___11_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2203,10 +1860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UTessellator_0000017FU24Postfi
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Allocator_t996642592271AAD9EE688F142741D512C07B5824_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24PostfixBurstDelegate_BeginInvoke_m098909B481B8513DBEABBFAF8389B36B3B207D98_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24PostfixBurstDelegate_BeginInvoke_m098909B481B8513DBEABBFAF8389B36B3B207D98_RuntimeMethod_var);
 	void *__d_args[11] = {0};
 	__d_args[0] = Box(SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5_il2cpp_TypeInfo_var, &*___0_geom);
 	__d_args[1] = Box(il2cpp_defaults.int32_class, &___1_maxCount);
@@ -2220,16 +1875,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UTessellator_0000017FU24Postfi
 	__d_args[9] = Box(Allocator_t996642592271AAD9EE688F142741D512C07B5824_il2cpp_TypeInfo_var, &___9_label);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___10_p, (RuntimeObject*)___11_p);
 }
-// Method Definition Index: 70346
+// Method Definition Index: 70364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDelegate_EndInvoke_m0CA934E4E8F4AF159D45C6766236E3C036AA0304 (UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA* __this, RuntimeObject* ___0_p, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24PostfixBurstDelegate_EndInvoke_m0CA934E4E8F4AF159D45C6766236E3C036AA0304_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24PostfixBurstDelegate_EndInvoke_m0CA934E4E8F4AF159D45C6766236E3C036AA0304_RuntimeMethod_var);
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_p, 0);
 }
 #ifdef __clang__
@@ -2240,7 +1888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24PostfixBurstDele
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70347
+// Method Definition Index: 70365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44 (intptr_t* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2250,16 +1898,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24BurstDirectCall_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FunctionPointer_1_get_Value_mCBDE3C3B018EFC1FB10C35410FBD998F12C042F2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGenerator_UTessellator_mA975B9F66E80F2334124BFADD19F331AB2F6E90D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24BurstDirectCall_t10E2F0FFAA6320EDA9200880AEAD6EC648617280_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24PostfixBurstDelegate_tDF79A7EB1C33923D599FF1D39F29EDFDEC4E47BA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44_RuntimeMethod_var);
 	FunctionPointer_1_tE9B0E7B7584968B2ED8D94E976B6AB8C67D4E4D4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = ((UTessellator_0000017FU24BurstDirectCall_t10E2F0FFAA6320EDA9200880AEAD6EC648617280_StaticFields*)il2cpp_codegen_static_fields_for(UTessellator_0000017FU24BurstDirectCall_t10E2F0FFAA6320EDA9200880AEAD6EC648617280_il2cpp_TypeInfo_var))->___Pointer;
 		if (L_0)
@@ -2287,20 +1931,11 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 70348
+// Method Definition Index: 70366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UTessellator_0000017FU24BurstDirectCall_GetFunctionPointer_m5DDBAB15141B65F9C34F7A02735B490B7CB79DFB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		V_0 = ((intptr_t)0);
 		UTessellator_0000017FU24BurstDirectCall_GetFunctionPointerDiscard_m674170764EDF0A0753BD85F5B4326892F27ABA44((&V_0), NULL);
@@ -2308,21 +1943,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t UTessellator_0000017FU24BurstDirectC
 		return L_0;
 	}
 }
-// Method Definition Index: 70349
+// Method Definition Index: 70367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C_RuntimeMethod_var);
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UTessellator_0000017FU24BurstDirectCall_Invoke_mA24AF835EA088D43CAC380DDCAB35C8BD81A688C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
 		bool L_0;
@@ -2383,43 +2014,19 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70352
+// Method Definition Index: 70370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8 (SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeGeometryCreator_GetVersion_m44860C0EE661F0B0B7D145D084BA7D5CE6C7ACA8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9886));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9887));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGeometryCreator.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9888));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9889));
 		int32_t L_0;
 		L_0 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9889));
 		return L_0;
 	}
 }
-// Method Definition Index: 70353
+// Method Definition Index: 70371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B (SpriteShapeGeometryCreator_t7A84B10A6429A625610D783C12A86ED5F1C515C4* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeGeometryCreator__ctor_m11995DD5FE4D69A420FABBD8AE3DB243E9D4EF7B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
@@ -2433,43 +2040,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryCreator__ctor_m11995D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70355
+// Method Definition Index: 70373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89 (SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeGeometryModifier_GetVersion_m279A107B00A417E5058A6456CEAA750C66C88D89_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9890));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9891));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGeometryModifier.cs:33>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9892));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9893));
 		int32_t L_0;
 		L_0 = Object_GetInstanceID_m554FF4073C9465F3835574CC084E68AAEEC6CC6A(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9893));
 		return L_0;
 	}
 }
-// Method Definition Index: 70356
+// Method Definition Index: 70374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E (SpriteShapeGeometryModifier_tBCAFA8CB38E611DA5EB0D1F2E6DD67762302369F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeGeometryModifier__ctor_mC8B2D08FC71266F54041FAD12592B2009883C48E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
@@ -2491,26 +2074,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeGeometryModifier__ctor_mC8B2D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70357
+// Method Definition Index: 70375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9894));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9895));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9896));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:61>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9897));
 		bool L_0 = __this->___m_SetNormal;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2519,59 +2088,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_get_setNormal
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:61>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9898));
 		bool L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70358
+// Method Definition Index: 70376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_setNormal_mC372153584297F251B6C0010110900584F0C7FC4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9899));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9900));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9901));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:62>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9902));
 		bool L_0 = ___0_value;
 		__this->___m_SetNormal = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:62>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9903));
 		return;
 	}
 }
-// Method Definition Index: 70359
+// Method Definition Index: 70377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacementMode_t9E70BA2334ED43D7A80BEA8C89F0CF84D86D1EF9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_mode_mC07CCEC65A4CF7075CE09754A2B503D3926E428E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9904));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9905));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9906));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:70>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9907));
 		int32_t L_0 = __this->___m_Mode;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2580,58 +2117,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_mode_m
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:70>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9908));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70360
+// Method Definition Index: 70378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_mode_m4F946059DDF7E8EEBC818BE0ECCE59C3A7193F2F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9909));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9910));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9911));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9912));
 		int32_t L_0 = ___0_value;
 		__this->___m_Mode = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9913));
 		return;
 	}
 }
-// Method Definition Index: 70361
+// Method Definition Index: 70379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_RuntimeMethod_var);
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9914));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9915));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9916));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:79>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9917));
 		float L_0 = __this->___m_Ratio;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2640,59 +2146,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_get_ratio_m1
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:79>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9918));
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70362
+// Method Definition Index: 70380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9919));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9920));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9921));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:80>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9922));
 		float L_0 = ___0_value;
 		__this->___m_Ratio = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:80>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9923));
 		return;
 	}
 }
-// Method Definition Index: 70363
+// Method Definition Index: 70381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_RuntimeMethod_var);
 	SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9924));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9925));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9926));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:88>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9927));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = __this->___m_SpriteShapeController;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2701,59 +2175,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpriteShapeController_t38EBBE01E82A48B3533CAD
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:88>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9928));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70364
+// Method Definition Index: 70382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_spriteShapeController_m20610E17F7CF90F7DA016ED8D7F3E335AACE7F01_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9929));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9930));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9931));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:89>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9932));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0 = ___0_value;
 		__this->___m_SpriteShapeController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SpriteShapeController), (void*)L_0);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:89>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9933));
 		return;
 	}
 }
-// Method Definition Index: 70365
+// Method Definition Index: 70383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9934));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9935));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9936));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9937));
 		int32_t L_0 = __this->___m_StartPoint;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2762,58 +2205,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_startP
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9938));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70366
+// Method Definition Index: 70384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9939));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9940));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9941));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:98>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9942));
 		int32_t L_0 = ___0_value;
 		__this->___m_StartPoint = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:98>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9943));
 		return;
 	}
 }
-// Method Definition Index: 70367
+// Method Definition Index: 70385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9944));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9945));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9946));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:106>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9947));
 		int32_t L_0 = __this->___m_EndPoint;
 		V_0 = L_0;
 		goto IL_000a;
@@ -2822,39 +2234,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_get_endPoi
 IL_000a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:106>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9948));
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 70368
+// Method Definition Index: 70386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9949));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9950));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9951));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:107>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9952));
 		int32_t L_0 = ___0_value;
 		__this->___m_EndPoint = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:107>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9953));
 		return;
 	}
 }
-// Method Definition Index: 70369
+// Method Definition Index: 70387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2862,15 +2257,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOn
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692_RuntimeMethod_var);
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t V_2 = 0;
@@ -2890,30 +2279,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOn
 	bool V_12 = false;
 	bool V_13 = false;
 	bool V_14 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_9), (&V_12));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9954));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9955));
 	int32_t G_B4_0 = 0;
 	int32_t G_B3_0 = 0;
 	int32_t G_B5_0 = 0;
 	int32_t G_B5_1 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9956));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:112>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9957));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9958));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9958));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9959));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9959));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9960));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -2922,100 +2299,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_PlaceObjectOn
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:113>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9961));
 		V_1 = (bool)0;
 		goto IL_0271;
 	}
 
 IL_0018:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9962));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:117>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9963));
 		V_2 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:118>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9964));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9965));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_3;
 		L_3 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9965));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9966));
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = SpriteShapeController_get_splineHashCode_m5FD24A66B300EA0F8E1A1B0E5100ED3D0AA8FB98(L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9966));
 		V_3 = ((int32_t)(((int32_t)-2128831035)^L_4));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:119>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9967));
 		int32_t L_5 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9968));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_6;
 		L_6 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9968));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9969));
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = SpriteShapeController_get_spriteShapeHashCode_mF2D6ABCAF590DFC5A0461E61A8B78356FD2FB520(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9969));
 		V_3 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_5, ((int32_t)16777619)))^L_7));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:120>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9970));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9971));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_8;
 		L_8 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9971));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9972));
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9972));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9973));
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9973));
 		V_4 = L_10;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:121>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9974));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9975));
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9975));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9976));
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9976));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9977));
 		NullCheck(L_12);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9977));
 		V_5 = L_13;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:122>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9978));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9979));
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9979));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9980));
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
 		L_15 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9980));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9981));
 		NullCheck(L_15);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
 		L_16 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_15, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9981));
 		V_6 = L_16;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:123>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9982));
 		int32_t L_17 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9983));
 		bool L_18;
 		L_18 = SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9983));
 		if (L_18)
 		{
 			G_B4_0 = ((int32_t)il2cpp_codegen_multiply(L_17, ((int32_t)16777619)));
@@ -3039,185 +2379,124 @@ IL_008a:
 	{
 		V_3 = ((int32_t)(G_B5_1^G_B5_0));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:124>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9984));
 		int32_t L_19 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9985));
 		int32_t L_20;
 		L_20 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9985));
 		V_3 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_19, ((int32_t)16777619)))^L_20));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:125>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9986));
 		int32_t L_21 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9987));
 		int32_t L_22;
 		L_22 = SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9987));
 		V_3 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_21, ((int32_t)16777619)))^L_22));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9988));
 		int32_t L_23 = V_3;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9989));
 		NullCheck(L_24);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_24, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9989));
 		V_7 = L_25;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9990));
 		int32_t L_26;
 		L_26 = Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline((&V_7), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9990));
 		V_3 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_23, ((int32_t)16777619)))^L_26));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:127>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9991));
 		int32_t L_27 = V_3;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9992));
 		NullCheck(L_28);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
 		L_29 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_28, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9992));
 		V_8 = L_29;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9993));
 		int32_t L_30;
 		L_30 = Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_inline((&V_8), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9993));
 		V_3 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_27, ((int32_t)16777619)))^L_30));
 	}
 
 IL_00e8:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9994));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:132>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9995));
 		int32_t L_31 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_5;
 		float L_33 = L_32.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9996));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_34;
 		L_34 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_33, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9996));
 		V_10 = L_34;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9997));
 		int32_t L_35;
 		L_35 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9997));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_31, ((int32_t)16777619)))^L_35));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9998));
 		int32_t L_36 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_5;
 		float L_38 = L_37.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9999));
 		double L_39;
 		L_39 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_38, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9999));
 		V_10 = L_39;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10000));
 		int32_t L_40;
 		L_40 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10000));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_36, ((int32_t)16777619)))^L_40));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:134>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10001));
 		int32_t L_41 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_5;
 		float L_43 = L_42.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10002));
 		double L_44;
 		L_44 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_43, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10002));
 		V_10 = L_44;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10003));
 		int32_t L_45;
 		L_45 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10003));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_41, ((int32_t)16777619)))^L_45));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10004));
 		int32_t L_46 = V_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10005));
 		float L_47;
 		L_47 = SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10005));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10006));
 		double L_48;
 		L_48 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_47, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10006));
 		V_10 = L_48;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10007));
 		int32_t L_49;
 		L_49 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10007));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_46, ((int32_t)16777619)))^L_49));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10008));
 		int32_t L_50 = V_9;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_51 = V_6;
 		float L_52 = L_51.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10009));
 		double L_53;
 		L_53 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_52, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10009));
 		V_10 = L_53;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10010));
 		int32_t L_54;
 		L_54 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10010));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_50, ((int32_t)16777619)))^L_54));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:137>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10011));
 		int32_t L_55 = V_9;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = V_6;
 		float L_57 = L_56.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10012));
 		double L_58;
 		L_58 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_57, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10012));
 		V_10 = L_58;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10013));
 		int32_t L_59;
 		L_59 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10013));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_55, ((int32_t)16777619)))^L_59));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:138>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10014));
 		int32_t L_60 = V_9;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_61 = V_6;
 		float L_62 = L_61.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10015));
 		double L_63;
 		L_63 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_62, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10015));
 		V_10 = L_63;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10016));
 		int32_t L_64;
 		L_64 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10016));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_60, ((int32_t)16777619)))^L_64));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:139>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10017));
 		int32_t L_65 = V_9;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_66 = V_6;
 		float L_67 = L_66.___w;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10018));
 		double L_68;
 		L_68 = bankers_round(((double)((float)il2cpp_codegen_multiply(L_67, (1000.0f)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10018));
 		V_10 = L_68;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10019));
 		int32_t L_69;
 		L_69 = Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline((&V_10), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10019));
 		V_9 = ((int32_t)(((int32_t)il2cpp_codegen_multiply(L_65, ((int32_t)16777619)))^L_69));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10020));
 		int32_t L_70 = __this->___m_ActiveHashCode;
 		int32_t L_71 = V_9;
 		V_11 = (bool)((((int32_t)((((int32_t)L_70) == ((int32_t)L_71))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10021));
 		bool L_72 = V_11;
 		if (!L_72)
 		{
@@ -3225,23 +2504,16 @@ IL_00e8:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10022));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:143>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10023));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10024));
 		bool L_73;
 		L_73 = SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10024));
 		V_12 = L_73;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:144>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10025));
 		int32_t L_74 = V_9;
 		__this->___m_ActiveHashCode = L_74;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10026));
 		bool L_75 = V_12;
 		V_13 = (bool)((((int32_t)L_75) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10027));
 		bool L_76 = V_13;
 		if (!L_76)
 		{
@@ -3250,37 +2522,29 @@ IL_00e8:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10028));
 		goto IL_026c;
 	}
 
 IL_0250:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10029));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10030));
 		goto IL_0256;
 	}
 
 IL_0253:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10031));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10032));
 		goto IL_026c;
 	}
 
 IL_0256:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10033));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:152>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10034));
 		int32_t L_77 = V_2;
 		int32_t L_78 = L_77;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_78, 1));
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		int32_t L_79 = ((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxIteration;
 		V_14 = (bool)((((int32_t)L_78) < ((int32_t)L_79))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10035));
 		bool L_80 = V_14;
 		if (L_80)
 		{
@@ -3290,9 +2554,7 @@ IL_0256:
 
 IL_026c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10036));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:155>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10037));
 		V_1 = (bool)0;
 		goto IL_0271;
 	}
@@ -3300,42 +2562,24 @@ IL_026c:
 IL_0271:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:156>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10038));
 		bool L_81 = V_1;
 		return L_81;
 	}
 }
-// Method Definition Index: 70370
+// Method Definition Index: 70388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10039));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10040));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10041));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:160>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10042));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10043));
 		float L_2;
 		L_2 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10043));
 		V_0 = L_2;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10044));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
 		float L_4 = L_3.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_b;
@@ -3346,13 +2590,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_Angle_m133A7
 		float L_10 = L_9.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_4, L_6)), ((float)il2cpp_codegen_multiply(L_8, L_10))));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:162>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10045));
 		float L_11 = V_1;
 		float L_12 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10046));
 		float L_13;
 		L_13 = atan2f(L_11, L_12);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10046));
 		V_2 = ((float)il2cpp_codegen_multiply(L_13, (57.2957802f)));
 		goto IL_0035;
 	}
@@ -3360,25 +2601,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_Angle_m133A7
 IL_0035:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:163>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10047));
 		float L_14 = V_2;
 		return L_14;
 	}
 }
-// Method Definition Index: 70371
+// Method Definition Index: 70389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, float ___0_dist, int32_t ___1_spoint, int32_t ___2_epoint, int32_t* ___3_start, int32_t* ___4_end, float* ___5_r, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___6_shapePoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -3414,70 +2649,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SpriteShapeObjectPlacement_GetDistance_
 	float V_24 = 0.0f;
 	bool V_25 = false;
 	float V_26 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_dist), (&___1_spoint), (&___2_epoint), (&___3_start), (&___4_end), (&___5_r), (&___6_shapePoints));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10), (&V_11), (&V_12), (&V_13), (&V_14), (&V_15), (&V_18), (&V_19), (&V_20), (&V_21), (&V_24));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10048));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10049));
 	int32_t G_B6_0 = 0;
 	int32_t* G_B9_0 = NULL;
 	int32_t* G_B8_0 = NULL;
 	int32_t G_B10_0 = 0;
 	int32_t* G_B10_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10050));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:166>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10051));
 		int32_t* L_0 = ___3_start;
 		*((int32_t*)L_0) = (int32_t)(-1);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:167>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10052));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10053));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_1;
 		L_1 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10053));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10054));
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = SpriteShapeController_get_splineDetail_mB03C316DE81143E38A30C15C339D36DAD7C56E33(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10054));
 		V_0 = L_2;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:168>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10055));
 		V_1 = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10056));
 		int32_t L_3 = V_0;
 		V_2 = ((float)((int32_t)il2cpp_codegen_subtract(L_3, 1)));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:170>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10057));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10058));
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___6_shapePoints))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10058));
 		V_3 = L_4;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10059));
 		int32_t L_5 = ___1_spoint;
 		V_4 = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10060));
 		goto IL_0141;
 	}
 
 IL_002c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10061));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:174>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10062));
 		int32_t L_6 = V_4;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:175>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10063));
 		int32_t L_7 = V_5;
 		int32_t L_8 = V_3;
 		V_16 = (bool)((((int32_t)L_7) == ((int32_t)L_8))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10064));
 		bool L_9 = V_16;
 		if (!L_9)
 		{
@@ -3486,73 +2697,53 @@ IL_002c:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:175>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10065));
 		V_5 = 0;
 	}
 
 IL_0041:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10066));
 		int32_t L_10 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10067));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___6_shapePoints))->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10067));
 		V_6 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:177>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10068));
 		int32_t L_12 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10069));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___6_shapePoints))->___m_Buffer, L_12);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10069));
 		V_7 = L_13;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10070));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_14 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_14.___position;
 		V_8 = L_15;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:180>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10071));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_16 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_16.___position;
 		V_9 = L_17;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:181>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10072));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_8;
 		V_10 = L_18;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:182>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10073));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_8;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_20 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20.___rightTangent;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10074));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_19, L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10074));
 		V_11 = L_22;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:183>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10075));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_9;
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_24 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___leftTangent;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10076));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_23, L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10076));
 		V_12 = L_26;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:184>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10077));
 		V_13 = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:185>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10078));
 		V_14 = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:186>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10079));
 		V_15 = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:188>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10080));
 		float L_27 = ___0_dist;
 		if ((((float)L_27) == ((float)(0.0f))))
 		{
@@ -3574,7 +2765,6 @@ IL_00ac:
 IL_00ad:
 	{
 		V_17 = (bool)G_B6_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10081));
 		bool L_30 = V_17;
 		if (!L_30)
 		{
@@ -3582,14 +2772,11 @@ IL_00ad:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10082));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:190>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10083));
 		int32_t* L_31 = ___3_start;
 		int32_t L_32 = V_4;
 		*((int32_t*)L_31) = (int32_t)L_32;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:191>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10084));
 		int32_t* L_33 = ___4_end;
 		int32_t L_34 = V_4;
 		int32_t L_35 = V_3;
@@ -3617,75 +2804,54 @@ IL_00c9:
 	{
 		*((int32_t*)G_B10_1) = (int32_t)G_B10_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:192>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10085));
 		float L_37 = V_1;
 		V_14 = L_37;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:193>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10086));
 		V_15 = (bool)1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10087));
 	}
 
 IL_00d1:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:196>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10088));
 		V_18 = 1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10089));
 		goto IL_0117;
 	}
 
 IL_00d6:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10090));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:198>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10091));
 		int32_t L_38 = V_18;
 		float L_39 = V_2;
 		V_19 = ((float)(((float)L_38)/L_39));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:199>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10092));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_9;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_12;
 		float L_44 = V_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10093));
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
 		L_45 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_40, L_41, L_42, L_43, L_44, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10093));
 		V_20 = L_45;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:200>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10094));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_20;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10095));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_47;
 		L_47 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_46, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10095));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10096));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_49;
 		L_49 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_48, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10096));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10097));
 		float L_50;
 		L_50 = math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_inline(L_47, L_49, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10097));
 		V_21 = L_50;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:201>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10098));
 		float L_51 = V_13;
 		float L_52 = V_21;
 		V_13 = ((float)il2cpp_codegen_add(L_51, L_52));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:202>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10099));
 		float L_53 = V_1;
 		float L_54 = V_21;
 		V_1 = ((float)il2cpp_codegen_add(L_53, L_54));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10100));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:196>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10101));
 		int32_t L_55 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_55, 1));
 	}
@@ -3693,11 +2859,9 @@ IL_00d6:
 IL_0117:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:196>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10102));
 		int32_t L_56 = V_18;
 		int32_t L_57 = V_0;
 		V_22 = (bool)((((int32_t)L_56) < ((int32_t)L_57))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10103));
 		bool L_58 = V_22;
 		if (L_58)
 		{
@@ -3706,10 +2870,8 @@ IL_0117:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:205>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10104));
 		bool L_59 = V_15;
 		V_23 = L_59;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10105));
 		bool L_60 = V_23;
 		if (!L_60)
 		{
@@ -3717,26 +2879,20 @@ IL_0117:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10106));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:207>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10107));
 		float L_61 = ___0_dist;
 		float L_62 = V_14;
 		V_24 = ((float)il2cpp_codegen_subtract(L_61, L_62));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:208>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10108));
 		float* L_63 = ___5_r;
 		float L_64 = V_24;
 		float L_65 = V_13;
 		*((float*)L_63) = (float)((float)(L_64/L_65));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10109));
 	}
 
 IL_013a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10110));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10111));
 		int32_t L_66 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_66, 1));
 	}
@@ -3744,11 +2900,9 @@ IL_013a:
 IL_0141:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10112));
 		int32_t L_67 = V_4;
 		int32_t L_68 = ___2_epoint;
 		V_25 = (bool)((((int32_t)L_67) < ((int32_t)L_68))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10113));
 		bool L_69 = V_25;
 		if (L_69)
 		{
@@ -3757,7 +2911,6 @@ IL_0141:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:211>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10114));
 		float L_70 = V_1;
 		V_26 = L_70;
 		goto IL_0154;
@@ -3766,28 +2919,20 @@ IL_0141:
 IL_0154:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:212>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10115));
 		float L_71 = V_26;
 		return L_71;
 	}
 }
-// Method Definition Index: 70372
+// Method Definition Index: 70390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, int32_t ___0_sp, int32_t ___1_ep, float ___2_t, NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D ___3_shapePoints, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C_RuntimeMethod_var);
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
@@ -3826,141 +2971,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	bool V_21 = false;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_22;
 	memset((&V_22), 0, sizeof(V_22));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_sp), (&___1_ep), (&___2_t), (&___3_shapePoints));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_12), (&V_13), (&V_14), (&V_15), (&V_16), (&V_17), (&V_18), (&V_19), (&V_20));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10116));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10117));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10118));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:216>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10119));
 		int32_t L_0 = ___1_ep;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10120));
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___3_shapePoints))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10120));
 		___1_ep = ((int32_t)(L_0%L_1));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:217>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10121));
 		int32_t L_2 = ___0_sp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10122));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10122));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___position;
 		V_0 = L_4;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:218>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10123));
 		int32_t L_5 = ___1_ep;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10124));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10124));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___position;
 		V_1 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:219>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10125));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		int32_t L_9 = ___0_sp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10126));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_10;
 		L_10 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_9);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10126));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10.___rightTangent;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10127));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_8, L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10127));
 		V_2 = L_12;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:220>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10128));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
 		int32_t L_14 = ___1_ep;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10129));
 		ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5 L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(ShapeControlPoint_tFB166AFC7B226867782300A7448C406D6DE6F8F5, ((&___3_shapePoints))->___m_Buffer, L_14);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10129));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = L_15.___leftTangent;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10130));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10130));
 		V_3 = L_17;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:221>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10131));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_3;
 		float L_22 = ___2_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10132));
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_18, L_19, L_20, L_21, L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10132));
 		V_4 = L_23;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:222>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10133));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_4;
 		float L_25 = L_24.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_4;
 		float L_27 = L_26.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10134));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), L_25, L_27, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10134));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:223>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10135));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10136));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_28;
 		L_28 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10136));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10137));
 		NullCheck(L_28);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
 		L_29 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_28, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10137));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10138));
 		NullCheck(L_29);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_30;
 		L_30 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_29, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10138));
 		V_6 = L_30;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:224>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10139));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10140));
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
 		L_31 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10140));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10141));
 		NullCheck(L_31);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
 		L_32 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10141));
 		V_7 = L_32;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10142));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10143));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 		L_34 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_6), L_33, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10143));
 		V_8 = L_34;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:226>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10144));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10145));
 		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
 		L_36 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_35, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10145));
 		V_9 = L_36;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:227>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10146));
 		int32_t L_37 = __this->___m_Mode;
 		V_10 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10147));
 		bool L_38 = V_10;
 		if (!L_38)
 		{
@@ -3969,18 +3062,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:228>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10148));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_8;
 		float L_40 = L_39.___y;
 		(&V_9)->___y = L_40;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10149));
 		goto IL_00cc;
 	}
 
 IL_00c8:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10150));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_8;
 		V_9 = L_41;
 	}
@@ -3988,21 +3078,14 @@ IL_00c8:
 IL_00cc:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:231>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10151));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42 = V_7;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10152));
 		NullCheck(L_42);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_42, L_43, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10152));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:233>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10153));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10154));
 		bool L_44;
 		L_44 = SpriteShapeObjectPlacement_get_setNormal_mDF4F4E07D5CD4B8A7D5A3B1A280BB21FBD8A0567(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10154));
 		V_11 = L_44;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10155));
 		bool L_45 = V_11;
 		if (!L_45)
 		{
@@ -4010,142 +3093,100 @@ IL_00cc:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10156));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:235>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10157));
 		float L_46 = ___2_t;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10158));
 		float L_47;
 		L_47 = math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline(L_46, (0.00200000009f), (0.998000026f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10158));
 		V_12 = L_47;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:236>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10159));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_3;
 		float L_52 = V_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10160));
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
 		L_53 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_48, L_49, L_50, L_51, ((float)il2cpp_codegen_subtract(L_52, (0.00100000005f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10160));
 		V_13 = L_53;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:237>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10161));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_3;
 		float L_58 = V_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10162));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
 		L_59 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_54, L_55, L_56, L_57, L_58, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10162));
 		V_4 = L_59;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:238>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10163));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_3;
 		float L_64 = V_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10164));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
 		L_65 = BezierUtility_BezierPoint_m58FBF49282434261BFE28A39F3C891889F6FAF54(L_60, L_61, L_62, L_63, ((float)il2cpp_codegen_add(L_64, (0.00100000005f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10164));
 		V_14 = L_65;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:239>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10165));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_13;
 		float L_67 = L_66.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68 = V_13;
 		float L_69 = L_68.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10166));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
 		memset((&L_70), 0, sizeof(L_70));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_70), L_67, L_69, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10166));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = V_4;
 		float L_72 = L_71.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73 = V_4;
 		float L_74 = L_73.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10167));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
 		memset((&L_75), 0, sizeof(L_75));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_75), L_72, L_74, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10167));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10168));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76;
 		L_76 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_70, L_75, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10168));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10169));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
 		L_77 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_76, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10169));
 		V_15 = L_77;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:240>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10170));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = V_14;
 		float L_79 = L_78.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80 = V_14;
 		float L_81 = L_80.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10171));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
 		memset((&L_82), 0, sizeof(L_82));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_82), L_79, L_81, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10171));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83 = V_4;
 		float L_84 = L_83.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85 = V_4;
 		float L_86 = L_85.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10172));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
 		memset((&L_87), 0, sizeof(L_87));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_87), L_84, L_86, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10172));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10173));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88;
 		L_88 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_82, L_87, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10173));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10174));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
 		L_89 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_88, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10174));
 		V_16 = L_89;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:241>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10175));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10176));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
 		L_90 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10176));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91 = V_15;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10177));
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		float L_92;
 		L_92 = SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E(L_90, L_91, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10177));
 		V_17 = L_92;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:242>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10178));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93 = V_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_94 = V_16;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10179));
 		float L_95;
 		L_95 = SpriteShapeObjectPlacement_Angle_m133A7031202A395E8963E07B72900C9559763B6E(L_93, L_94, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10179));
 		V_18 = L_95;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:243>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10180));
 		float L_96 = V_17;
 		float L_97 = V_18;
 		V_19 = ((float)il2cpp_codegen_add(L_96, ((float)il2cpp_codegen_multiply(L_97, (0.5f)))));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:244>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10181));
 		float L_98 = V_18;
 		V_21 = (bool)((((float)L_98) > ((float)(0.0f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10182));
 		bool L_99 = V_21;
 		if (!L_99)
 		{
@@ -4154,7 +3195,6 @@ IL_00cc:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:245>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10183));
 		float L_100 = V_19;
 		V_19 = ((float)il2cpp_codegen_add((180.0f), L_100));
 	}
@@ -4162,36 +3202,24 @@ IL_00cc:
 IL_01e2:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:246>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10184));
 		float L_101 = V_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10185));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_102;
 		L_102 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), (0.0f), L_101, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10185));
 		V_20 = L_102;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:247>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10186));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_103 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10187));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_104;
 		L_104 = Matrix4x4_get_rotation_m7E2C29FCB2AAFAE4D7B4FBD3563E9EDB53F5A8BB((&V_6), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10187));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_105 = V_20;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10188));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_106;
 		L_106 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_104, L_105, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10188));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10189));
 		NullCheck(L_103);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_103, L_106, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10189));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10190));
 	}
 
 IL_020c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:249>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10191));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107 = V_9;
 		V_22 = L_107;
 		goto IL_0212;
@@ -4200,24 +3228,13 @@ IL_020c:
 IL_0212:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:250>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10192));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108 = V_22;
 		return L_108;
 	}
 }
-// Method Definition Index: 70373
+// Method Definition Index: 70391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, Spline_tD674213224F697425072FBF76AE3FD203AD2B818* ___0_spline, int32_t ___1_sp, int32_t ___2_ep, bool* ___3_run, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E_RuntimeMethod_var);
 	NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float V_1 = 0.0f;
@@ -4230,34 +3247,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	float V_7 = 0.0f;
 	float V_8 = 0.0f;
 	bool V_9 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_spline), (&___1_sp), (&___2_ep), (&___3_run));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_5), (&V_6), (&V_7), (&V_8));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10193));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10194));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10195));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:254>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10196));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10197));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10197));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10198));
 		NullCheck(L_0);
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_1;
 		L_1 = SpriteShapeController_GetShapeControlPoints_m4A0BF704DB4274546156AC4085353536541B30D5(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10198));
 		V_0 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:255>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10199));
 		int32_t L_2 = ___1_sp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10200));
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10200));
 		if ((((int32_t)L_2) > ((int32_t)L_3)))
 		{
 			goto IL_0023;
@@ -4265,10 +3267,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	}
 	{
 		int32_t L_4 = ___2_ep;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10201));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10201));
 		G_B3_0 = ((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
 		goto IL_0024;
 	}
@@ -4281,7 +3281,6 @@ IL_0023:
 IL_0024:
 	{
 		V_2 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10202));
 		bool L_6 = V_2;
 		if (!L_6)
 		{
@@ -4289,17 +3288,12 @@ IL_0024:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10203));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:257>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10204));
 		bool* L_7 = ___3_run;
 		*((int8_t*)L_7) = (int8_t)0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:258>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10205));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10206));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10206));
 		V_3 = L_8;
 		goto IL_00d8;
 	}
@@ -4307,22 +3301,15 @@ IL_0024:
 IL_0038:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:261>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10207));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10208));
 		float L_9;
 		L_9 = SpriteShapeObjectPlacement_get_ratio_m1AD37D2E67595975F88822C70707DF5EFB8B5F3B(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10208));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10209));
 		float L_10;
 		L_10 = math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline(L_9, (9.99999975E-05f), (0.999899983f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10209));
 		V_1 = L_10;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:262>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10210));
 		int32_t L_11 = ___2_ep;
 		int32_t L_12 = ___1_sp;
 		V_4 = (bool)((((int32_t)((int32_t)il2cpp_codegen_subtract(L_11, L_12))) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10211));
 		bool L_13 = V_4;
 		if (!L_13)
 		{
@@ -4330,67 +3317,49 @@ IL_0038:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10212));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:264>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10213));
 		bool* L_14 = ___3_run;
 		*((int8_t*)L_14) = (int8_t)1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:265>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10214));
 		int32_t L_15 = ___1_sp;
 		int32_t L_16 = ___2_ep;
 		float L_17 = V_1;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_18 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10215));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C(__this, L_15, L_16, L_17, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10215));
 		V_3 = L_19;
 		goto IL_00d8;
 	}
 
 IL_006c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10216));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:269>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10217));
 		V_5 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:270>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10218));
 		V_6 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:271>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10219));
 		V_7 = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:272>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10220));
 		V_8 = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:273>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10221));
 		float L_20 = V_7;
 		int32_t L_21 = ___1_sp;
 		int32_t L_22 = ___2_ep;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_23 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10222));
 		float L_24;
 		L_24 = SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB(__this, L_20, L_21, L_22, (&V_5), (&V_6), (&V_8), L_23, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10222));
 		float L_25 = V_1;
 		V_7 = ((float)il2cpp_codegen_multiply(L_24, L_25));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:274>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10223));
 		float L_26 = V_7;
 		int32_t L_27 = ___1_sp;
 		int32_t L_28 = ___2_ep;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_29 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10224));
 		float L_30;
 		L_30 = SpriteShapeObjectPlacement_GetDistance_m26F046CB844C933DD5EE6A5D744A857B8FB093FB(__this, L_26, L_27, L_28, (&V_5), (&V_6), (&V_8), L_29, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10224));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:275>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10225));
 		int32_t L_31 = V_5;
 		V_9 = (bool)((((int32_t)((((int32_t)L_31) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10226));
 		bool L_32 = V_9;
 		if (!L_32)
 		{
@@ -4398,38 +3367,28 @@ IL_006c:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10227));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:277>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10228));
 		bool* L_33 = ___3_run;
 		*((int8_t*)L_33) = (int8_t)1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:278>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10229));
 		int32_t L_34 = V_5;
 		int32_t L_35 = V_6;
 		float L_36 = V_8;
 		NativeArray_1_t0A95B911B33C28DC2EF1F36B38506E94FCAAD50D L_37 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10230));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = SpriteShapeObjectPlacement_PlaceObjectInternal_m3936E149DD314A1669C8C3CA8652C68D8350361C(__this, L_34, L_35, L_36, L_37, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10230));
 		V_3 = L_38;
 		goto IL_00d8;
 	}
 
 IL_00cb:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10231));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:281>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10232));
 		bool* L_39 = ___3_run;
 		*((int8_t*)L_39) = (int8_t)0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:282>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10233));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10234));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
 		L_40 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10234));
 		V_3 = L_40;
 		goto IL_00d8;
 	}
@@ -4437,63 +3396,36 @@ IL_00cb:
 IL_00d8:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:283>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10235));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_3;
 		return L_41;
 	}
 }
-// Method Definition Index: 70374
+// Method Definition Index: 70392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Spline_tD674213224F697425072FBF76AE3FD203AD2B818_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117_RuntimeMethod_var);
 	Spline_tD674213224F697425072FBF76AE3FD203AD2B818* V_0 = NULL;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10236));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10237));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10238));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:287>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10239));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10240));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_0;
 		L_0 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10240));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10241));
 		NullCheck(L_0);
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_1;
 		L_1 = SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10241));
 		V_0 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:288>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10242));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10243));
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10243));
 		V_1 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:289>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10244));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10245));
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = Spline_get_isOpenEnded_m09BD0EAEDB52B06A28C0D5718F63043791DC6861(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10245));
 		if (L_5)
 		{
 			goto IL_001f;
@@ -4515,7 +3447,6 @@ IL_0022:
 	{
 		V_1 = G_B3_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:290>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10246));
 		int32_t L_8 = V_1;
 		V_2 = L_8;
 		goto IL_0027;
@@ -4524,12 +3455,11 @@ IL_0022:
 IL_0027:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:291>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10247));
 		int32_t L_9 = V_2;
 		return L_9;
 	}
 }
-// Method Definition Index: 70375
+// Method Definition Index: 70393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4537,16 +3467,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Spline_tD674213224F697425072FBF76AE3FD203AD2B818_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB97EA8E93DF3A597AEFDD8BACBE2AD61BB9CAE61);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	float V_2 = 0.0f;
@@ -4584,33 +3508,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 	bool V_26 = false;
 	bool V_27 = false;
 	bool V_28 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_6), (&V_7), (&V_10), (&V_11), (&V_12), (&V_13), (&V_14), (&V_15), (&V_16), (&V_17), (&V_18), (&V_19), (&V_20), (&V_21), (&V_22), (&V_23), (&V_24));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_Place_m67C08775427481BF5175EF5BA5455F6B837140E9_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10248));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10249));
 	int32_t G_B14_0 = 0;
 	SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* G_B17_0 = NULL;
 	SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* G_B16_0 = NULL;
 	int32_t G_B18_0 = 0;
 	SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* G_B18_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10250));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:295>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10251));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10252));
 		int32_t L_0;
 		L_0 = SpriteShapeObjectPlacement_GetSplinePointCount_mF27D6D3AAE57EF8C5A3C0FDC91A341E3BA3EE117(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10252));
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:296>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10253));
 		V_1 = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:297>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10254));
 		int32_t L_1 = __this->___m_Mode;
 		V_5 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10255));
 		bool L_2 = V_5;
 		if (!L_2)
 		{
@@ -4618,37 +3530,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10256));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:299>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10257));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10258));
 		int32_t L_3;
 		L_3 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10258));
 		int32_t L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10259));
 		int32_t L_5;
 		L_5 = math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline(L_3, 0, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10259));
 		V_6 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:300>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10260));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10261));
 		int32_t L_6;
 		L_6 = SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10261));
 		int32_t L_7 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10262));
 		int32_t L_8;
 		L_8 = math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline(L_6, 0, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10262));
 		V_7 = L_8;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:301>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10263));
 		int32_t L_9 = V_6;
 		int32_t L_10 = V_7;
 		V_8 = (bool)((((int32_t)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10264));
 		bool L_11 = V_8;
 		if (!L_11)
 		{
@@ -4656,47 +3555,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpriteShapeObjectPlacement_Place_m67C087
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10265));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:303>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10266));
 		int32_t L_12 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10267));
 		SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040(__this, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10267));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:304>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10268));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10269));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10269));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10270));
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteralB97EA8E93DF3A597AEFDD8BACBE2AD61BB9CAE61, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10270));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10271));
 	}
 
 IL_0062:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:306>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10272));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10273));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_14;
 		L_14 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10273));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10274));
 		NullCheck(L_14);
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_15;
 		L_15 = SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9(L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10274));
 		int32_t L_16 = V_6;
 		int32_t L_17 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10275));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E(__this, L_15, L_16, L_17, (&V_1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10275));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:307>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10276));
 		bool L_19 = V_1;
 		V_9 = L_19;
 		goto IL_01f7;
@@ -4705,158 +3586,103 @@ IL_0062:
 IL_0082:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:310>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10277));
 		il2cpp_codegen_runtime_class_init_inline(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		float L_20 = ((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance;
 		V_2 = L_20;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:311>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10278));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10279));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10279));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10280));
 		NullCheck(L_21);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
 		L_22 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_21, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10280));
 		V_3 = L_22;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:312>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10281));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10282));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10282));
 		V_4 = L_23;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10283));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:314>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10284));
 		V_10 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:314>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10285));
 		V_11 = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:315>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10286));
 		V_12 = (100.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:315>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10287));
 		float L_24 = ((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance;
 		V_13 = L_24;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:316>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10288));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10289));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_25;
 		L_25 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10289));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10290));
 		NullCheck(L_25);
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_26;
 		L_26 = SpriteShapeController_get_spline_m1266CB84F33024475FA4FC6C2F35E4E3E74AD6B9(L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10290));
 		V_14 = L_26;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:317>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10291));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10292));
 		SpriteShapeController_t38EBBE01E82A48B3533CADFCDB5B23BEA68EDC17* L_27;
 		L_27 = SpriteShapeObjectPlacement_get_spriteShapeController_mA90BED3A705B97FDC4B368365F65922EB268BB2E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10292));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10293));
 		NullCheck(L_27);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
 		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_27, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10293));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10294));
 		NullCheck(L_28);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_29;
 		L_29 = Transform_get_localToWorldMatrix_m5D35188766856338DD21DE756F42277C21719E6D(L_28, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10294));
 		V_15 = L_29;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:318>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10295));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_30 = V_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10296));
 		NullCheck(L_30);
 		int32_t L_31;
 		L_31 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_30, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10296));
 		V_16 = L_31;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:320>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10297));
 		V_17 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10298));
 		goto IL_0186;
 	}
 
 IL_00e0:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10299));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:322>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10300));
 		int32_t L_32 = V_17;
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_33 = V_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10301));
 		NullCheck(L_33);
 		int32_t L_34;
 		L_34 = Spline_GetPointCount_m9A872A9A4C7CA81296EF70F93D48B8C47A5F7415(L_33, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10301));
 		V_18 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_32, 1))%L_34));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:323>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10302));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_35 = V_14;
 		int32_t L_36 = V_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10303));
 		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
 		L_37 = Spline_GetPosition_m68F7EECA5140A4D6C0FAA8AB9F8DED9BF214CF9C(L_35, L_36, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10303));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10304));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_15), L_37, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10304));
 		V_19 = L_38;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:324>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10305));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_39 = V_14;
 		int32_t L_40 = V_18;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10306));
 		NullCheck(L_39);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
 		L_41 = Spline_GetPosition_m68F7EECA5140A4D6C0FAA8AB9F8DED9BF214CF9C(L_39, L_40, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10306));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10307));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = Matrix4x4_MultiplyPoint3x4_mACCBD70AFA82C63DA88555780B7B6B01281AB814((&V_15), L_41, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10307));
 		V_20 = L_42;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:325>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10308));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_43 = V_14;
 		int32_t L_44 = V_17;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10309));
 		NullCheck(L_43);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
 		L_45 = Spline_GetRightTangent_m6008A3450C5E0D85D57FA8A1453670CBC5B280EF(L_43, L_44, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10309));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_19;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10310));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
 		L_47 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_45, L_46, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10310));
 		V_21 = L_47;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:326>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10311));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_48 = V_14;
 		int32_t L_49 = V_18;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10312));
 		NullCheck(L_48);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
 		L_50 = Spline_GetLeftTangent_m722F61220067D72DD8CDD817E9174F331778A398(L_48, L_49, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10312));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_20;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10313));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
 		L_52 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_50, L_51, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10313));
 		V_22 = L_52;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:329>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:330>
@@ -4866,38 +3692,28 @@ IL_00e0:
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:334>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:335>
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:336>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10314));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_19;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_20;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_21;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_22;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10315));
 		il2cpp_codegen_runtime_class_init_inline(BezierUtility_t450F38689B5013A23432043C5922D64496EF5E60_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
 		L_58 = BezierUtility_ClosestPointOnCurve_m91458888AC7667493117C7BE8E339A404533656C(L_53, L_54, L_55, L_56, L_57, (9.99999975E-05f), (&V_23), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10315));
 		V_4 = L_58;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:337>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10316));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10317));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
 		L_61 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_59, L_60, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10317));
 		V_25 = L_61;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10318));
 		float L_62;
 		L_62 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_25), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10318));
 		V_24 = L_62;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:338>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10319));
 		float L_63 = V_24;
 		float L_64 = V_13;
 		V_26 = (bool)((((float)L_63) < ((float)L_64))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10320));
 		bool L_65 = V_26;
 		if (!L_65)
 		{
@@ -4905,31 +3721,23 @@ IL_00e0:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10321));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:340>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10322));
 		int32_t L_66 = V_17;
 		V_10 = L_66;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:341>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10323));
 		int32_t L_67 = V_18;
 		V_11 = L_67;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:342>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10324));
 		float L_68 = V_23;
 		V_12 = L_68;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:343>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10325));
 		float L_69 = V_24;
 		V_13 = L_69;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10326));
 	}
 
 IL_017f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10327));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:320>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10328));
 		int32_t L_70 = V_17;
 		V_17 = ((int32_t)il2cpp_codegen_add(L_70, 1));
 	}
@@ -4937,11 +3745,9 @@ IL_017f:
 IL_0186:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:320>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10329));
 		int32_t L_71 = V_17;
 		int32_t L_72 = V_0;
 		V_27 = (bool)((((int32_t)L_71) < ((int32_t)L_72))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10330));
 		bool L_73 = V_27;
 		if (L_73)
 		{
@@ -4950,7 +3756,6 @@ IL_0186:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:348>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10331));
 		int32_t L_74 = V_10;
 		if ((((int32_t)L_74) < ((int32_t)0)))
 		{
@@ -4987,7 +3792,6 @@ IL_01ac:
 IL_01ad:
 	{
 		V_28 = (bool)G_B14_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10332));
 		bool L_80 = V_28;
 		if (!L_80)
 		{
@@ -4995,15 +3799,10 @@ IL_01ad:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10333));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:350>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10334));
 		int32_t L_81 = V_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10335));
 		SpriteShapeObjectPlacement_set_startPoint_m2C880BECFF67C3478402FF2A88C8F5F5E2E60CA6(__this, L_81, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10335));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:351>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10336));
 		int32_t L_82 = V_11;
 		if (!L_82)
 		{
@@ -5028,40 +3827,25 @@ IL_01c6:
 
 IL_01ca:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10337));
 		NullCheck(G_B18_1);
 		SpriteShapeObjectPlacement_set_endPoint_m62B77B64D9F7332D75A19F768B1CFF1FB919C040(G_B18_1, G_B18_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10337));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:352>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10338));
 		float L_85 = V_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10339));
 		SpriteShapeObjectPlacement_set_ratio_mED658B93A3A246178CCB30DEC877EA54DA1842EC(__this, L_85, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10339));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:353>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10340));
 		Spline_tD674213224F697425072FBF76AE3FD203AD2B818* L_86 = V_14;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10341));
 		int32_t L_87;
 		L_87 = SpriteShapeObjectPlacement_get_startPoint_m1C539FDCDDB00A0918771704D55D113549A08D12(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10341));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10342));
 		int32_t L_88;
 		L_88 = SpriteShapeObjectPlacement_get_endPoint_m1183FA74B1AF9A9806EC708DC9AB9FC183983335(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10342));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10343));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
 		L_89 = SpriteShapeObjectPlacement_PlaceObject_m7FB81E5C890FECC6A79C3A46C6BC326B2C9A4D5E(__this, L_86, L_87, L_88, (&V_1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10343));
 		V_3 = L_89;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10344));
 	}
 
 IL_01f1:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10345));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:356>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10346));
 		bool L_90 = V_1;
 		V_9 = L_90;
 		goto IL_01f7;
@@ -5070,124 +3854,63 @@ IL_01f1:
 IL_01f7:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:357>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10347));
 		bool L_91 = V_9;
 		return L_91;
 	}
 }
-// Method Definition Index: 70376
+// Method Definition Index: 70394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_Start_m31DF5A864CF990FAF9C0C1F1EAA899872848B0D8_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10348));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10349));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10350));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:361>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10351));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10352));
 		bool L_0;
 		L_0 = SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10352));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:362>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10353));
 		return;
 	}
 }
-// Method Definition Index: 70377
+// Method Definition Index: 70395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement_Update_m6EE91B72EC1D2A270BE170A5B58C88EA3D0F90A6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10354));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10355));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10356));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:366>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10357));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10358));
 		bool L_0;
 		L_0 = SpriteShapeObjectPlacement_PlaceObjectOnHashChange_m71263E4A1E32BA74D19300AC80B4D9A544441692(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10358));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:367>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10359));
 		return;
 	}
 }
-// Method Definition Index: 70378
+// Method Definition Index: 70396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71 (SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement__ctor_mAF1BA203CB3BF07C913E949F60542FA53B607C71_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10360));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10361));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:35>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10362));
 		__this->___m_SetNormal = (bool)1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:42>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10363));
 		__this->___m_StartPoint = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:46>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10364));
 		__this->___m_EndPoint = 1;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10365));
 		__this->___m_Ratio = (0.5f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:52>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10366));
 		__this->___m_ActiveHashCode = 0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10367));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10367));
 		return;
 	}
 }
-// Method Definition Index: 70379
+// Method Definition Index: 70397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeObjectPlacement__cctor_m78FEDC6133B00B5AD3D7E02315D054DBC519D209_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10369));
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10370));
 		((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxDistance = (10000.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeObjectPlacement.cs:54>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 10371));
 		((SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_StaticFields*)il2cpp_codegen_static_fields_for(SpriteShapeObjectPlacement_t353FCF6189C80FC27BF8A579CF73D5E32C7776FB_il2cpp_TypeInfo_var))->___kMaxIteration = ((int32_t)128);
 		return;
 	}
@@ -5224,20 +3947,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteShapeObjectPlacement__cctor_m78FED
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 70380
+// Method Definition Index: 70398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD_RuntimeMethod_var);
 	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U24BurstDirectCallInitializer_Initialize_m9CB01D973E72EFDACCBA8B435C93D60D5369B5FD_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
 		BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* L_0 = ((BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields*)il2cpp_codegen_static_fields_for(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var))->___Options;
@@ -5251,31 +3970,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 // Method Definition Index: 47656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12230));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12231));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12232));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12233));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12234));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12235));
 		return;
 	}
 }
-// Method Definition Index: 70338
+// Method Definition Index: 70356
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118_inline (SpriteShapeSegment_tB32CE039E823A27997165CD087F6DE1906C4C8D5* ___0_geom, int32_t ___1_maxCount, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* ___2_tessPoints, int32_t ___3_tessPointCount, uint16_t* ___4_indices, int32_t* ___5_iCount, uint8_t* ___6_vertices, int32_t ___7_stride, int32_t* ___8_vCount, int32_t ___9_label, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5288,12 +3991,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShape
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U2A_t8DC7CA066FED841DA35AC98FEEC67E4FB0B5D28A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 V_0;
@@ -5322,58 +4019,37 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SpriteShape
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* V_16 = NULL;
 	bool V_17 = false;
 	bool V_18 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_geom), (&___1_maxCount), (&___2_tessPoints), (&___3_tessPointCount), (&___4_indices), (&___5_iCount), (&___6_vertices), (&___7_stride), (&___8_vCount), (&___9_label));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10), (&V_12), (&V_13), (&V_16));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SpriteShapeGenerator_UTessellatorU24BurstManaged_m6F4F57B7363784CE1724AE26829C356319E88118_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9797));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9798));
 	int32_t G_B9_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9799));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9800));
 		int32_t L_0 = ___3_tessPointCount;
 		int32_t L_1 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9801));
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_0), ((int32_t)il2cpp_codegen_subtract(L_0, 1)), L_1, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9801));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1211>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9802));
 		int32_t L_2 = ___3_tessPointCount;
 		int32_t L_3 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9803));
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_1), ((int32_t)il2cpp_codegen_subtract(L_2, 1)), L_3, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9803));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1212>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9804));
 		V_2 = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1213>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9805));
 		V_10 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9806));
 		goto IL_004d;
 	}
 
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1214>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9807));
 		int32_t L_4 = V_10;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* L_5 = ___2_tessPoints;
 		int32_t L_6 = V_10;
 		uint32_t L_7 = sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = (*(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA*)il2cpp_codegen_add((intptr_t)L_5, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_6), (int32_t)L_7)))));
 		float L_9 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9808));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10;
 		L_10 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_8, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9808));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9809));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_1))->___m_Buffer, L_4, (L_10));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9809));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1213>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9810));
 		int32_t L_11 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
@@ -5381,14 +4057,10 @@ IL_0026:
 IL_004d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1213>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9811));
 		int32_t L_12 = V_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9812));
 		int32_t L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_1))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9812));
 		V_11 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9813));
 		bool L_14 = V_11;
 		if (L_14)
 		{
@@ -5397,41 +4069,28 @@ IL_004d:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1216>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9814));
 		V_12 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9815));
 		goto IL_0096;
 	}
 
 IL_0063:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9816));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1218>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9817));
 		int32_t L_15 = V_12;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9818));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_16;
 		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, L_15);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9818));
 		V_13 = L_16;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1219>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9819));
 		int32_t L_17 = V_12;
 		(&V_13)->___x = L_17;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1220>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9820));
 		int32_t L_18 = V_12;
 		(&V_13)->___y = ((int32_t)il2cpp_codegen_add(L_18, 1));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1221>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9821));
 		int32_t L_19 = V_12;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_20 = V_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9822));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, L_19, (L_20));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9822));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9823));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1216>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9824));
 		int32_t L_21 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
@@ -5439,11 +4098,9 @@ IL_0063:
 IL_0096:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1216>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9825));
 		int32_t L_22 = V_12;
 		int32_t L_23 = ___3_tessPointCount;
 		V_14 = (bool)((((int32_t)L_22) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_23, 2))))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9826));
 		bool L_24 = V_14;
 		if (L_24)
 		{
@@ -5452,58 +4109,37 @@ IL_0096:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1223>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9827));
 		int32_t L_25 = ___3_tessPointCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9828));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_26;
 		L_26 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_25, 2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9828));
 		V_3 = L_26;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1224>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9829));
 		int32_t L_27 = ___3_tessPointCount;
 		(&V_3)->___x = ((int32_t)il2cpp_codegen_subtract(L_27, 2));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9830));
 		(&V_3)->___y = 0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1226>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9831));
 		int32_t L_28 = ___3_tessPointCount;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_29 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9832));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, ((&V_0))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_28, 2)), (L_29));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9832));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1228>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9833));
 		int32_t L_30 = ___3_tessPointCount;
 		int32_t L_31 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9834));
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_4), ((int32_t)il2cpp_codegen_multiply(L_30, 4)), L_31, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9834));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1229>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9835));
 		int32_t L_32 = ___3_tessPointCount;
 		int32_t L_33 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9836));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_5), ((int32_t)il2cpp_codegen_multiply(L_32, 4)), L_33, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9836));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9837));
 		int32_t L_34 = ___3_tessPointCount;
 		int32_t L_35 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9838));
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_6), ((int32_t)il2cpp_codegen_multiply(L_34, 4)), L_35, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9838));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1231>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9839));
 		int32_t L_36 = ___9_label;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9840));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t2F8BE4233858E78501EF0B4D650CECD9A6D5D9F4_il2cpp_TypeInfo_var);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_37;
 		L_37 = ModuleHandle_Tessellate_mDCFCA96AD66F268C584B76699ECF5632D0C0E352(L_36, (&V_1), (&V_0), (&V_4), (&V_7), (&V_5), (&V_8), (&V_6), (&V_9), (bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9840));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1232>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9841));
 		int32_t L_38 = V_7;
 		int32_t L_39 = ___1_maxCount;
 		if ((((int32_t)L_38) < ((int32_t)L_39)))
@@ -5527,7 +4163,6 @@ IL_0116:
 	{
 		V_7 = G_B9_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1233>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9842));
 		int32_t L_42 = V_8;
 		int32_t L_43 = ___1_maxCount;
 		if ((((int32_t)L_42) < ((int32_t)L_43)))
@@ -5551,10 +4186,8 @@ IL_0122:
 	{
 		V_8 = G_B12_0;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1235>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9843));
 		int32_t L_46 = V_8;
 		V_15 = (bool)((((int32_t)L_46) > ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9844));
 		bool L_47 = V_15;
 		if (!L_47)
 		{
@@ -5562,58 +4195,41 @@ IL_0122:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9845));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1237>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9846));
 		int32_t* L_48 = ___8_vCount;
 		*((int32_t*)L_48) = (int32_t)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9847));
 		goto IL_0183;
 	}
 
 IL_0139:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9848));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1239>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9849));
 		uint8_t* L_49 = ___6_vertices;
 		V_16 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_49;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1240>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9850));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_50 = V_16;
 		int32_t* L_51 = ___8_vCount;
 		int32_t L_52 = *((int32_t*)L_51);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9851));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_53;
 		L_53 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_4))->___m_Buffer, L_52);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9851));
 		float L_54 = L_53.___x;
 		int32_t* L_55 = ___8_vCount;
 		int32_t L_56 = *((int32_t*)L_55);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9852));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_57;
 		L_57 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_4))->___m_Buffer, L_56);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9852));
 		float L_58 = L_57.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9853));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
 		memset((&L_59), 0, sizeof(L_59));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_59), L_54, L_58, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9853));
 		float L_60 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9854));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
 		L_61 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_59, L_60, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9854));
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_50 = L_61;
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1241>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9855));
 		uint8_t* L_62 = ___6_vertices;
 		int32_t L_63 = ___7_stride;
 		___6_vertices = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_62, L_63));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9856));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1237>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9857));
 		int32_t* L_64 = ___8_vCount;
 		int32_t* L_65 = ___8_vCount;
 		int32_t L_66 = *((int32_t*)L_65);
@@ -5623,12 +4239,10 @@ IL_0139:
 IL_0183:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1237>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9858));
 		int32_t* L_67 = ___8_vCount;
 		int32_t L_68 = *((int32_t*)L_67);
 		int32_t L_69 = V_7;
 		V_17 = (bool)((((int32_t)L_68) < ((int32_t)L_69))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9859));
 		bool L_70 = V_17;
 		if (L_70)
 		{
@@ -5637,29 +4251,23 @@ IL_0183:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1243>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9860));
 		int32_t* L_71 = ___5_iCount;
 		*((int32_t*)L_71) = (int32_t)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9861));
 		goto IL_01b3;
 	}
 
 IL_0196:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1244>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9862));
 		uint16_t* L_72 = ___4_indices;
 		int32_t* L_73 = ___5_iCount;
 		int32_t L_74 = *((int32_t*)L_73);
 		int32_t* L_75 = ___5_iCount;
 		int32_t L_76 = *((int32_t*)L_75);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9863));
 		int32_t L_77;
 		L_77 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&V_5))->___m_Buffer, L_76);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9863));
 		*((int16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_72, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_74), 2))))) = (int16_t)((int32_t)(uint16_t)L_77);
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1243>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9864));
 		int32_t* L_78 = ___5_iCount;
 		int32_t* L_79 = ___5_iCount;
 		int32_t L_80 = *((int32_t*)L_79);
@@ -5669,12 +4277,10 @@ IL_0196:
 IL_01b3:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1243>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9865));
 		int32_t* L_81 = ___5_iCount;
 		int32_t L_82 = *((int32_t*)L_81);
 		int32_t L_83 = V_8;
 		V_18 = (bool)((((int32_t)L_82) < ((int32_t)L_83))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9866));
 		bool L_84 = V_18;
 		if (L_84)
 		{
@@ -5682,81 +4288,44 @@ IL_01b3:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9867));
 	}
 
 IL_01c1:
 	{
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1247>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9868));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9869));
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_4), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9869));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1248>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9870));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9871));
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_5), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9871));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1249>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9872));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9873));
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_6), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9873));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1250>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9874));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9875));
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_0), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9875));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1251>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9876));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9877));
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_1), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9877));
 		//<source_info:./Library/PackageCache/com.unity.2d.spriteshape@1d246726c231/Runtime/SpriteShapeGenerator.cs:1252>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_2D_SpriteShape_Runtime + 9878));
 		return;
 	}
 }
 // Method Definition Index: 47529
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_GetHashCode_mB08429DC931A85BD29CE11B9ABC77DE7E0E46327_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11345));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11346));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11347));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11348));
 		float* L_0 = (float*)(&__this->___x);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11349));
 		int32_t L_1;
 		L_1 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11349));
 		float* L_2 = (float*)(&__this->___y);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11350));
 		int32_t L_3;
 		L_3 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11350));
 		float* L_4 = (float*)(&__this->___z);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11351));
 		int32_t L_5;
 		L_5 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11351));
 		V_0 = ((int32_t)(((int32_t)(L_1^((int32_t)(L_3<<2))))^((int32_t)(L_5>>2))));
 		goto IL_002b;
 	}
 
 IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11352));
 		int32_t L_6 = V_0;
 		return L_6;
 	}
@@ -5764,48 +4333,26 @@ IL_002b:
 // Method Definition Index: 47587
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_GetHashCode_m5F55C34C98E437376595E722BE4EB8A70434F049_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11758));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11759));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11760));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11761));
 		float* L_0 = (float*)(&__this->___x);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11762));
 		int32_t L_1;
 		L_1 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11762));
 		float* L_2 = (float*)(&__this->___y);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11763));
 		int32_t L_3;
 		L_3 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11763));
 		float* L_4 = (float*)(&__this->___z);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11764));
 		int32_t L_5;
 		L_5 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11764));
 		float* L_6 = (float*)(&__this->___w);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11765));
 		int32_t L_7;
 		L_7 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11765));
 		V_0 = ((int32_t)(((int32_t)(((int32_t)(L_1^((int32_t)(L_3<<2))))^((int32_t)(L_5>>2))))^((int32_t)(L_7>>1))));
 		goto IL_0039;
 	}
 
 IL_0039:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11766));
 		int32_t L_8 = V_0;
 		return L_8;
 	}
@@ -5813,15 +4360,7 @@ IL_0039:
 // Method Definition Index: 1234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline (double* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int64_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		double L_0 = *((double*)__this);
 		int64_t L_1;
@@ -5848,20 +4387,8 @@ IL_002d:
 // Method Definition Index: 47535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11398));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11399));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11400));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11401));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
@@ -5880,7 +4407,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A3
 
 IL_002d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11402));
 		float L_12 = V_0;
 		return L_12;
 	}
@@ -5888,22 +4414,9 @@ IL_002d:
 // Method Definition Index: 47554
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11534));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11535));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11536));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11537));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
@@ -5916,18 +4429,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11538));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11538));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11539));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
@@ -5935,31 +4445,15 @@ IL_0030:
 // Method Definition Index: 33773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_distance_m516495927BCF37E20FFA3E99C821062D329DFFF8_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9629));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9630));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9631));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3721>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9632));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___1_y;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9633));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
 		L_2 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9633));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9634));
 		float L_3;
 		L_3 = math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9634));
 		V_0 = L_3;
 		goto IL_0010;
 	}
@@ -5967,7 +4461,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_m516495927BCF
 IL_0010:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3721>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9635));
 		float L_4 = V_0;
 		return L_4;
 	}
@@ -5975,62 +4468,29 @@ IL_0010:
 // Method Definition Index: 47526
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11325));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11326));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11327));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11328));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11329));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11330));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11331));
 		return;
 	}
 }
 // Method Definition Index: 33470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_inline (float ___0_valueToClamp, float ___1_lowerBound, float ___2_upperBound, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_valueToClamp), (&___1_lowerBound), (&___2_upperBound));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_clamp_mB7233FC9D6C27522014C4E6D4E056D36CE82C97E_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7295));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7296));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7297));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1699>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7298));
 		float L_0 = ___1_lowerBound;
 		float L_1 = ___2_upperBound;
 		float L_2 = ___0_valueToClamp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7299));
 		float L_3;
 		L_3 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7299));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7300));
 		float L_4;
 		L_4 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_0, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7300));
 		V_0 = L_4;
 		goto IL_0011;
 	}
@@ -6038,7 +4498,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_clamp_mB7233FC9D6C2752
 IL_0011:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1699>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7301));
 		float L_5 = V_0;
 		return L_5;
 	}
@@ -6046,22 +4505,9 @@ IL_0011:
 // Method Definition Index: 47555
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11540));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11541));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11542));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11543));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
@@ -6074,18 +4520,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11544));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11544));
 		V_0 = L_12;
 		goto IL_0030;
 	}
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11545));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
 	}
@@ -6093,35 +4536,17 @@ IL_0030:
 // Method Definition Index: 47532
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
 	bool V_1 = false;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11367));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11368));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11369));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11370));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11371));
 		float L_1;
 		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11371));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11372));
 		float L_2 = V_0;
 		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11373));
 		bool L_3 = V_1;
 		if (!L_3)
 		{
@@ -6129,31 +4554,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11374));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_value;
 		float L_5 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11375));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11375));
 		V_2 = L_6;
 		goto IL_0026;
 	}
 
 IL_001e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11376));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11377));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11377));
 		V_2 = L_7;
 		goto IL_0026;
 	}
 
 IL_0026:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11378));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
 		return L_8;
 	}
@@ -6164,19 +4582,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11514));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11515));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11516));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11517));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
 		V_0 = L_0;
 		goto IL_0009;
@@ -6184,7 +4595,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11518));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
@@ -6192,45 +4602,25 @@ IL_0009:
 // Method Definition Index: 47584
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11736));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11737));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11738));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11739));
 		float L_0 = ___0_x;
 		float L_1 = ___1_y;
 		float L_2 = ___2_z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11740));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11740));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11741));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11741));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11742));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11742));
 		V_0 = L_5;
 		goto IL_001b;
 	}
 
 IL_001b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11743));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
 		return L_6;
 	}
@@ -6238,22 +4628,9 @@ IL_001b:
 // Method Definition Index: 47576
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11651));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11652));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11653));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11654));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		float L_1 = L_0.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
@@ -6318,18 +4695,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		float L_61 = L_60.___z;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
 		float L_63 = L_62.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11655));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
 		memset((&L_64), 0, sizeof(L_64));
 		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_64), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63)))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11655));
 		V_0 = L_64;
 		goto IL_00e5;
 	}
 
 IL_00e5:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11656));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = V_0;
 		return L_65;
 	}
@@ -6340,19 +4714,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11494));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11495));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11496));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11497));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
 		V_0 = L_0;
 		goto IL_0009;
@@ -6360,7 +4727,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11498));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
 		return L_1;
 	}
@@ -6368,32 +4734,16 @@ IL_0009:
 // Method Definition Index: 33460
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_inline (int32_t ___0_valueToClamp, int32_t ___1_lowerBound, int32_t ___2_upperBound, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_valueToClamp), (&___1_lowerBound), (&___2_upperBound));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_clamp_m9EABD008C8EAD9D150062ABE724D96FA2121EE1C_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7225));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7226));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7227));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1616>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7228));
 		int32_t L_0 = ___1_lowerBound;
 		int32_t L_1 = ___2_upperBound;
 		int32_t L_2 = ___0_valueToClamp;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7229));
 		int32_t L_3;
 		L_3 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7229));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7230));
 		int32_t L_4;
 		L_4 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_0, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7230));
 		V_0 = L_4;
 		goto IL_0011;
 	}
@@ -6401,7 +4751,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_clamp_m9EABD008C8EAD
 IL_0011:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1616>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7231));
 		int32_t L_5 = V_0;
 		return L_5;
 	}
@@ -6413,36 +4762,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11460));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11461));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11462));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11463));
 		float L_0 = __this->___x;
 		float L_1 = __this->___x;
 		float L_2 = __this->___y;
 		float L_3 = __this->___y;
 		float L_4 = __this->___z;
 		float L_5 = __this->___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11464));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_6;
 		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11464));
 		V_0 = ((float)L_6);
 		goto IL_0034;
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11465));
 		float L_7 = V_0;
 		return L_7;
 	}
@@ -6450,19 +4788,8 @@ IL_0034:
 // Method Definition Index: 59938
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FunctionPointer_1_tB635C696E956CB8DC2B055F1669431B2F6D73193_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 3553));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 3554));
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/FunctionPointer.cs:46>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 3555));
 		intptr_t L_0 = __this->____ptr;
 		return L_0;
 	}
@@ -6470,34 +4797,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Va
 // Method Definition Index: 36768
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33401));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33402));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33403));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33404));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___0_lhs;
 		float L_4 = L_3.___y;
 		float L_5 = ___1_rhs;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33405));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_6), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33405));
 		V_0 = L_6;
 		goto IL_0019;
 	}
@@ -6505,7 +4817,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL_0019:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33406));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = V_0;
 		return L_7;
 	}
@@ -6513,22 +4824,9 @@ IL_0019:
 // Method Definition Index: 47559
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11564));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11565));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11566));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11567));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
@@ -6538,18 +4836,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
 		float L_7 = L_6.___z;
 		float L_8 = ___1_d;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11568));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11568));
 		V_0 = L_9;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11569));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		return L_10;
 	}
@@ -6557,14 +4852,6 @@ IL_0021:
 // Method Definition Index: 732
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int64_t L_0 = *((int64_t*)((uintptr_t)(&___0_value)));
 		return L_0;
@@ -6573,23 +4860,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt6
 // Method Definition Index: 37070
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35760));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35761));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35762));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:305>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35763));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -6602,11 +4876,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
 		V_0 = L_12;
 		goto IL_0030;
 	}
@@ -6614,7 +4886,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL_0030:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:305>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35765));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
 		return L_13;
 	}
@@ -6622,31 +4893,15 @@ IL_0030:
 // Method Definition Index: 33757
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_length_m6A2B63D7A3B84261C2F7FCAA2CB382288A57D257_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9529));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9530));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9531));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3618>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9532));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9533));
 		float L_2;
 		L_2 = math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9533));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9534));
 		float L_3;
 		L_3 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9534));
 		V_0 = L_3;
 		goto IL_0010;
 	}
@@ -6654,7 +4909,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m6A2B63D7A3B842
 IL_0010:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3618>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9535));
 		float L_4 = V_0;
 		return L_4;
 	}
@@ -6662,27 +4916,13 @@ IL_0010:
 // Method Definition Index: 33386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6685));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6686));
 	float G_B4_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6687));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:929>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6688));
 		float L_0 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6689));
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6689));
 		if (L_1)
 		{
 			goto IL_0010;
@@ -6717,7 +4957,6 @@ IL_0011:
 IL_0014:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:929>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6690));
 		float L_6 = V_0;
 		return L_6;
 	}
@@ -6725,27 +4964,13 @@ IL_0014:
 // Method Definition Index: 33404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6825));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6826));
 	float G_B4_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6827));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1061>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6828));
 		float L_0 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		if (L_1)
 		{
 			goto IL_0010;
@@ -6780,7 +5005,6 @@ IL_0011:
 IL_0014:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1061>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6830));
 		float L_6 = V_0;
 		return L_6;
 	}
@@ -6792,17 +5016,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D95
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_vector));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11454));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11455));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11456));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11457));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
@@ -6815,18 +5032,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D95
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_vector;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11458));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_12;
 		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11458));
 		V_0 = ((float)L_12);
 		goto IL_0034;
 	}
 
 IL_0034:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11459));
 		float L_13 = V_0;
 		return L_13;
 	}
@@ -6834,22 +5048,9 @@ IL_0034:
 // Method Definition Index: 47557
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11552));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11553));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11554));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11555));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
@@ -6859,18 +5060,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
 		float L_7 = L_6.___z;
 		float L_8 = ___1_d;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11556));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11556));
 		V_0 = L_9;
 		goto IL_0021;
 	}
 
 IL_0021:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11557));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
 		return L_10;
 	}
@@ -6878,55 +5076,25 @@ IL_0021:
 // Method Definition Index: 47574
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z), (&___3_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11638));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11639));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11640));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11641));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11642));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11643));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11644));
 		float L_3 = ___3_w;
 		__this->___w = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11645));
 		return;
 	}
 }
 // Method Definition Index: 33376
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6611));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6612));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6613));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:855>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6614));
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -6955,7 +5123,6 @@ IL_0009:
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:855>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6615));
 		int32_t L_4 = V_0;
 		return L_4;
 	}
@@ -6963,22 +5130,10 @@ IL_000c:
 // Method Definition Index: 33394
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6751));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6752));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6753));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:987>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6754));
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
@@ -7007,7 +5162,6 @@ IL_0009:
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:987>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6755));
 		int32_t L_4 = V_0;
 		return L_4;
 	}
@@ -7015,85 +5169,40 @@ IL_000c:
 // Method Definition Index: 36743
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33247));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33248));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33249));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33250));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33251));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:40>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33252));
 		return;
 	}
 }
 // Method Definition Index: 37038
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35547));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35548));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35549));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:41>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35550));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:42>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35551));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:43>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35552));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35553));
 		return;
 	}
 }
 // Method Definition Index: 33509
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_dot_mE193D8880350D74CC8D63A0D53CDC5902F844AAD_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7568));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7569));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7570));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1967>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7571));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_y;
@@ -7113,7 +5222,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mE193D8880350D74CC
 IL_002d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1967>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7572));
 		float L_12 = V_0;
 		return L_12;
 	}
@@ -7125,24 +5233,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9288));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9289));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9290));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3382>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9291));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sqrt(((double)((float)L_0)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
 		V_0 = ((float)L_1);
 		goto IL_000d;
 	}
@@ -7150,7 +5249,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 IL_000d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3382>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9293));
 		float L_2 = V_0;
 		return L_2;
 	}
@@ -7158,14 +5256,6 @@ IL_000d:
 // Method Definition Index: 2018
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		float L_0 = ___0_f;
 		int32_t L_1;
@@ -7176,14 +5266,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 // Method Definition Index: 733
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = *((int32_t*)((uintptr_t)(&___0_value)));
 		return L_0;

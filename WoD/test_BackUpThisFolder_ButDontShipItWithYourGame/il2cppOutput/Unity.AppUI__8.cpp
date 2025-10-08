@@ -90,9 +90,6 @@ struct WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D;
 struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 struct RuntimePanelAccess_t88FC30C79AE159279E2BB55A190D2E69259B7482;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_UIElementsModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_AppUI[];
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E_il2cpp_TypeInfo_var;
@@ -137,39 +134,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD26E988BE24D2D63128910CADC5D7D7CCFA9E733
 IL2CPP_EXTERN_C String_t* _stringLiteralF0CAE94A79C089BF337052A2A4C9ECC927AC7C14;
 IL2CPP_EXTERN_C String_t* _stringLiteralF2CAAADB28EA5B7E4CC6C5F75D96DDAF43C7AABD;
 IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_RunHapticFeedback_mF0A860249D47B13002C9691C0107D558A04068DA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI__cctor_mDC9B6B85EC006FC76D31DC30444016EA0C8CBA35_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_densityDPI_m3D22DE44C22C273F92A3024B35FBC1897D15B5CF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_density_mBEE75CFA1C01B22FABA2E4225B36024CEC571C8A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_fontScale_m033600859174432F70C2ECE4AB080930B81AF456_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_ToString_mFBD069948FB80AB2D13F0051D7DF00198C33172E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch__ctor_mFF02AA009E80BDF1E6F9B24D58A4378E59D0671A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisUIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77_m50669A283DE0DEFD0FFB1F42B965E6FCD460901F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Clear_mB9301CA4A43FEC71370750ADB99AE5B39B9797C2_RuntimeMethod_var;
@@ -186,127 +155,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mACAD535E3F0911075AD587F5E30CA
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m99EC740C8FA362A5B0F32394148442E24560657A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m440971CE70F17644664F0FD54083B298429C1CDC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_Equals_mB70C966CD21456BC6322FDE619F7B8239BF28BC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_GetHashCode_mF6ADC3EBEB8D8810FCB4877422107971388EDC0C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_get_scrollDelta_m6E34116EA8B37DF9E7BAA0A79500CA65F39BCFA5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_op_Equality_m6252C87F897F9787BEAEC62B800454D5175C4EE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MemoryExtensions_AsSpan_TisAppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_mC1E5FF4DEE93A3E729EBABFB2B9DD0D4AB8AAA1E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_Equals_m70D6888E770F031B4A1E2356264CB31148006EB6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_GetHashCode_mBF06B407B6C868C16AC7AF579B5A3F7A0682C7EC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_op_Equality_mA3B5C89DBA25D4A43B72AC6601F4C4DDBCCFFE65_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PanelSettings_get_targetTexture_m56D90849783146127F88DFE296ADD1B69AFB053C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_Equals_mE9D591C5571BE6101A9ABAB44B2D599117DDA74B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_GetHashCode_m9BA915B910C67102FC1A3C1F24E07215DB5D950D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_ToString_m2D947C0783E4C4151E82C9756E5A73C997746CBC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28FE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_get_scrollDelta_mCFC29520746362B85F31939039E48B3592E5AC14_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_op_Equality_m86244286C40D12FE197859E4F691167CF22487C3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PinchGesture_op_Inequality_m9888D158201DC9F5EC11CBA7793DECB8E2C18376_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_DisableThemePolling_mDFA88A96A574AB813221930DA76CA8752F74E94E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_EnableThemePolling_m4419D4DC02003F66AD500C2E3AFCB7E7621F806D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_GetTrackpadTouches_mC09DD59C6886BE8EFB5E5C31DF8824099F8EEAFD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_HandleAndroidMessage_m6737141E3F322D454298993DB89B94313CECDCE0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_PollGestures_m259C3FED3BE1113D866EBD3AB4707ED16D0FEBCA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_PollSystemTheme_m126B020760BD103F67ACDDC7960821E96FAED887_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_ReadNativeTouches_mF90D1BDAD7332CAC2ADEE112A79A6842A2358083_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_RunHapticFeedback_m2B67614239E984323082F2E5314DD972B5F6B295_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_SetupFocusedTrackingObject_mCD439E0E8701B77D1E3E9AE366D087E06A280E54_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_Update_mA69C51BBA3469AD2F77A689F8C50AA24D03D7D0A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform__cctor_m04B6129EDB2665BF2106931DB9AC3AE21CCDB15D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_add_magnificationGestureChanged_mA43F98FD446BF1A5D39B95B09F7A6F574D1D7E07_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_add_panGestureChanged_m741E012963CFB1B78306248023D26EFBFCD7DB87_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_add_scaleFactorChanged_m4855FD13E96E7AF73A75C5F2AE04A3DD0F631E9A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_add_systemThemeChangedInternal_m2D22D0E8570BA57020EC2D0072763B34A0B31328_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_add_systemThemeChanged_mC5C9F9F27F5F86C66AC671E21B5F6798EF3B9AE6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_magnificationGestureChangedThisFrame_mCB2CB3682B7B96D2FA73CBAE5127A9C77999DD16_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_magnificationGesture_mA34C01FC6FB610C377A2CB497C9CD4C0744B8BD1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_panGestureChangedThisFrame_mC2E3B4AA7C5CD00DD9358E04BA3D7B98932FB465_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_panGesture_mBC2EBDE70A94CF8C503C59CCCE0C34B5DE0F20D8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_referenceDpi_m13E7F5EF721312EA6233693FADC0DF152E45B629_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_systemTheme_mA3F05950806BBAE36AF9BC91E5D7C9A587D3198F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_get_touches_m252E1BC2BAE12B1D5C86D18C9B5BDEF74EC90A98_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_remove_magnificationGestureChanged_m02BD9C4BB892586A30CEEEB7D4852A23FAF1BF85_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_remove_panGestureChanged_mAF0E7003A28FAD8D21ED99E66DF0025E8AA01C34_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_remove_scaleFactorChanged_m1ADB5478F26A7E9268A9A05D486215ECBC061D70_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_remove_systemThemeChangedInternal_m66184C3941044F1CC9E2F6B5597AEEA014AE6D53_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_remove_systemThemeChanged_m91BA24D64CA8A3E14E8FE1F164D42D7429B6B6DE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Span_1_op_Implicit_mA155D3F84DB0E8D463798C5FA1690768120F9362_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* StringExtensions_Capitalize_mF64C50F86733C33C0210D3D70641DDC61D2773A3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TimeUtils_GetCurrentTimeVector_mC91398EE865BFFA887CDA069AE045C7C69A0131D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WorldSpaceUIDocument_OnDisable_m1447EEE1713C38857C6476F103E718C5BF6E92BC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WorldSpaceUIDocument_OnEnable_m3736F9542B4478A7B92621ACA6D9829F7553C962_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WorldSpaceUIDocument__ctor_m104661CBFC7F17A274FEB37810275549C25BEE13_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Exception_t_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1506,27 +1359,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_HandleAndroidMessage_m6737141E3
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_HandleAndroidMessage_m6737141E3F322D454298993DB89B94313CECDCE0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF0CAE94A79C089BF337052A2A4C9ECC927AC7C14);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_HandleAndroidMessage_m6737141E3F322D454298993DB89B94313CECDCE0_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_message));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_HandleAndroidMessage_m6737141E3F322D454298993DB89B94313CECDCE0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47731));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47732));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47733));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:10>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47734));
 		String_t* L_0 = ___0_message;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47735));
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteralF0CAE94A79C089BF337052A2A4C9ECC927AC7C14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47735));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47736));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -1535,17 +1377,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_HandleAndroidMessage_m6737141E3
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:11>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47737));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47738));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47738));
 	}
 
 IL_0016:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:12>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47739));
 		return;
 	}
 }
@@ -1555,28 +1393,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Platform_get_referenceDpi_m13E7F5EF7213
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_referenceDpi_m13E7F5EF721312EA6233693FADC0DF152E45B629_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_referenceDpi_m13E7F5EF721312EA6233693FADC0DF152E45B629_RuntimeMethod_var);
 	float V_0 = 0.0f;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_referenceDpi_m13E7F5EF721312EA6233693FADC0DF152E45B629_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47740));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47741));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47742));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:323>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47743));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47744));
 		float L_0;
 		L_0 = Screen_get_dpi_mEEDAA2189F84A47BD69D62A611E031D5C59CFE8E(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47744));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47745));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47745));
 		V_0 = ((float)(L_0/L_1));
 		goto IL_000f;
 	}
@@ -1584,7 +1411,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Platform_get_referenceDpi_m13E7F5EF7213
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:325>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47746));
 		float L_2 = V_0;
 		return L_2;
 	}
@@ -1596,23 +1422,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Platform_get_mainScreenScale_m5DB779175
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1_RuntimeMethod_var);
 	float V_0 = 0.0f;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47747));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47748));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47749));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:344>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47750));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47751));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		float L_0;
 		L_0 = AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47751));
 		V_0 = L_0;
 		goto IL_0009;
 	}
@@ -1620,7 +1437,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Platform_get_mainScreenScale_m5DB779175
 IL_0009:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:353>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47752));
 		float L_1 = V_0;
 		return L_1;
 	}
@@ -1632,16 +1448,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_systemThemeChangedInternal_
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_add_systemThemeChangedInternal_m2D22D0E8570BA57020EC2D0072763B34A0B31328_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_add_systemThemeChangedInternal_m2D22D0E8570BA57020EC2D0072763B34A0B31328_RuntimeMethod_var);
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_1 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_add_systemThemeChangedInternal_m2D22D0E8570BA57020EC2D0072763B34A0B31328_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___systemThemeChangedInternal;
@@ -1650,7 +1462,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_systemThemeChangedInternal_
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = V_1;
@@ -1682,16 +1493,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_systemThemeChangedIntern
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_remove_systemThemeChangedInternal_m66184C3941044F1CC9E2F6B5597AEEA014AE6D53_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_remove_systemThemeChangedInternal_m66184C3941044F1CC9E2F6B5597AEEA014AE6D53_RuntimeMethod_var);
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_1 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_remove_systemThemeChangedInternal_m66184C3941044F1CC9E2F6B5597AEEA014AE6D53_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___systemThemeChangedInternal;
@@ -1700,7 +1507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_systemThemeChangedIntern
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = V_1;
@@ -1731,30 +1537,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_systemThemeChanged_mC5C9F9F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_add_systemThemeChanged_mC5C9F9F27F5F86C66AC671E21B5F6798EF3B9AE6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_add_systemThemeChanged_mC5C9F9F27F5F86C66AC671E21B5F6798EF3B9AE6_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_add_systemThemeChanged_mC5C9F9F27F5F86C66AC671E21B5F6798EF3B9AE6_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47753));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47754));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47755));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:365>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47756));
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47757));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_add_systemThemeChangedInternal_m2D22D0E8570BA57020EC2D0072763B34A0B31328(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47757));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:366>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47758));
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = ___0_value;
 		V_0 = (bool)((!(((RuntimeObject*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47759));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -1763,17 +1557,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_systemThemeChanged_mC5C9F9F
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:367>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47760));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47761));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_EnableThemePolling_m4419D4DC02003F66AD500C2E3AFCB7E7621F806D(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47761));
 	}
 
 IL_0016:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:368>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47762));
 		return;
 	}
 }
@@ -1783,30 +1573,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_systemThemeChanged_m91BA
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_remove_systemThemeChanged_m91BA24D64CA8A3E14E8FE1F164D42D7429B6B6DE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_remove_systemThemeChanged_m91BA24D64CA8A3E14E8FE1F164D42D7429B6B6DE_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_remove_systemThemeChanged_m91BA24D64CA8A3E14E8FE1F164D42D7429B6B6DE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47763));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47764));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47765));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:371>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47766));
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47767));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_remove_systemThemeChangedInternal_m66184C3941044F1CC9E2F6B5597AEEA014AE6D53(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47767));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:372>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47768));
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___systemThemeChangedInternal;
 		V_0 = (bool)((((RuntimeObject*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47769));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -1815,17 +1593,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_systemThemeChanged_m91BA
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:373>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47770));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47771));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_DisableThemePolling_mDFA88A96A574AB813221930DA76CA8752F74E94E(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47771));
 	}
 
 IL_001a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:374>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47772));
 		return;
 	}
 }
@@ -1835,22 +1609,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_EnableThemePolling_m4419D4DC020
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_EnableThemePolling_m4419D4DC02003F66AD500C2E3AFCB7E7621F806D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_EnableThemePolling_m4419D4DC02003F66AD500C2E3AFCB7E7621F806D_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_EnableThemePolling_m4419D4DC02003F66AD500C2E3AFCB7E7621F806D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47773));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47774));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47775));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:381>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47776));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_SystemThemePollingEnabled = (bool)1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:382>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47777));
 		return;
 	}
 }
@@ -1860,22 +1626,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_DisableThemePolling_mDFA88A96A5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_DisableThemePolling_mDFA88A96A574AB813221930DA76CA8752F74E94E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_DisableThemePolling_mDFA88A96A574AB813221930DA76CA8752F74E94E_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_DisableThemePolling_mDFA88A96A574AB813221930DA76CA8752F74E94E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47778));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47779));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47780));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:386>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47781));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_SystemThemePollingEnabled = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:387>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47782));
 		return;
 	}
 }
@@ -1885,29 +1643,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollSystemTheme_m126B020760BD10
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_PollSystemTheme_m126B020760BD103F67ACDDC7960821E96FAED887_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_PollSystemTheme_m126B020760BD103F67ACDDC7960821E96FAED887_RuntimeMethod_var);
 	String_t* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_PollSystemTheme_m126B020760BD103F67ACDDC7960821E96FAED887_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47783));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47784));
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B7_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B6_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47785));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:398>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47786));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_SystemThemePollingEnabled;
 		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47787));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -1916,26 +1665,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollSystemTheme_m126B020760BD10
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:399>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47788));
 		goto IL_0063;
 	}
 
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:401>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47789));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_ThemePollingDelta;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47790));
 		int32_t L_3;
 		L_3 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47790));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_ThemePollingDelta = ((int32_t)il2cpp_codegen_add(L_2, L_3));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:403>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47791));
 		int32_t L_4 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_ThemePollingDelta;
 		V_2 = (bool)((((int32_t)L_4) < ((int32_t)((int32_t)60)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47792));
 		bool L_5 = V_2;
 		if (!L_5)
 		{
@@ -1944,33 +1687,24 @@ IL_000f:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:404>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47793));
 		goto IL_0063;
 	}
 
 IL_002e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:406>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47794));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_ThemePollingDelta = 0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:407>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47795));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47796));
 		String_t* L_6;
 		L_6 = Platform_get_systemTheme_mA3F05950806BBAE36AF9BC91E5D7C9A587D3198F(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47796));
 		V_0 = L_6;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:408>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47797));
 		String_t* L_7 = V_0;
 		String_t* L_8 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousSystemTheme;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47798));
 		bool L_9;
 		L_9 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47798));
 		V_3 = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47799));
 		bool L_10 = V_3;
 		if (!L_10)
 		{
@@ -1978,9 +1712,7 @@ IL_002e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47800));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:410>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47801));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_11 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___systemThemeChangedInternal;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_12 = L_11;
@@ -1998,27 +1730,22 @@ IL_002e:
 IL_0055:
 	{
 		String_t* L_13 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47802));
 		NullCheck(G_B7_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B7_0, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47802));
 	}
 
 IL_005c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:411>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47803));
 		String_t* L_14 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousSystemTheme = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousSystemTheme), (void*)L_14);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47804));
 	}
 
 IL_0063:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:413>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47805));
 		return;
 	}
 }
@@ -2032,19 +1759,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollGestures_m259C3FED3BE1113D8
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m440971CE70F17644664F0FD54083B298429C1CDC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_PollGestures_m259C3FED3BE1113D866EBD3AB4707ED16D0FEBCA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D337F7EBEE7F0B734351F03BCC7560A42E085CB);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_PollGestures_m259C3FED3BE1113D866EBD3AB4707ED16D0FEBCA_RuntimeMethod_var);
 	List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* V_0 = NULL;
 	Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -2074,10 +1794,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollGestures_m259C3FED3BE1113D8
 	memset((&V_23), 0, sizeof(V_23));
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_24;
 	memset((&V_24), 0, sizeof(V_24));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_19), (&V_20), (&V_21), (&V_23), (&V_24));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_PollGestures_m259C3FED3BE1113D866EBD3AB4707ED16D0FEBCA_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47806));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47807));
 	int32_t G_B3_0 = 0;
 	int32_t G_B9_0 = 0;
 	int32_t G_B14_0 = 0;
@@ -2088,31 +1804,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollGestures_m259C3FED3BE1113D8
 	int32_t G_B41_0 = 0;
 	int32_t G_B56_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47808));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:451>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47809));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47810));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_inline((bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47810));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:452>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47811));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47812));
 		Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_inline((bool)0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47812));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:454>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47813));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47814));
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_0;
 		L_0 = Platform_GetTrackpadTouches_mC09DD59C6886BE8EFB5E5C31DF8824099F8EEAFD(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47814));
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:456>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47815));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47816));
 		bool L_1;
 		L_1 = Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47816));
 		if (L_1)
 		{
 			goto IL_0027;
@@ -2120,11 +1823,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_PollGestures_m259C3FED3BE1113D8
 	}
 	{
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47817));
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_m440971CE70F17644664F0FD54083B298429C1CDC_inline(L_2, List_1_get_Count_m440971CE70F17644664F0FD54083B298429C1CDC_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47817));
 		G_B3_0 = ((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
 		goto IL_0028;
 	}
@@ -2136,19 +1837,13 @@ IL_0027:
 
 IL_0028:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47818));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_inline((bool)G_B3_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47818));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47819));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:458>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47820));
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47821));
 		NullCheck(L_4);
 		Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B L_5;
 		L_5 = List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017(L_4, List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47821));
 		V_1 = L_5;
 	}
 	{
@@ -2157,40 +1852,26 @@ IL_0028:
 
 FINALLY_023a:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47911));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47912));
 				Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472((&V_1), Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47912));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47822));
 				goto IL_022c_1;
 			}
 
 IL_003b_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:458>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47823));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47824));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_6;
 				L_6 = Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_inline((&V_1), Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47824));
 				V_2 = L_6;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47825));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:460>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47826));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47827));
 				int32_t L_7;
 				L_7 = TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47827));
 				V_3 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47828));
 				bool L_8 = V_3;
 				if (!L_8)
 				{
@@ -2198,14 +1879,10 @@ IL_003b_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47829));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:463>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47830));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47831));
 				int32_t L_9;
 				L_9 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47831));
 				if ((((int32_t)L_9) == ((int32_t)(-1))))
 				{
 					goto IL_0078_1;
@@ -2213,14 +1890,10 @@ IL_003b_1:
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47832));
 				int32_t L_10;
 				L_10 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47832));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47833));
 				int32_t L_11;
 				L_11 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47833));
 				G_B9_0 = ((((int32_t)L_10) == ((int32_t)L_11))? 1 : 0);
 				goto IL_0079_1;
 			}
@@ -2233,7 +1906,6 @@ IL_0078_1:
 IL_0079_1:
 			{
 				V_4 = (bool)G_B9_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47834));
 				bool L_12 = V_4;
 				if (!L_12)
 				{
@@ -2241,26 +1913,19 @@ IL_0079_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47835));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:465>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47836));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_13 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0 = L_13;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47837));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47838));
 				goto IL_0119_1;
 			}
 
 IL_008c_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:467>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47839));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47840));
 				int32_t L_14;
 				L_14 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47840));
 				if ((((int32_t)L_14) == ((int32_t)(-1))))
 				{
 					goto IL_00ae_1;
@@ -2268,14 +1933,10 @@ IL_008c_1:
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47841));
 				int32_t L_15;
 				L_15 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47841));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47842));
 				int32_t L_16;
 				L_16 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47842));
 				G_B14_0 = ((((int32_t)L_15) == ((int32_t)L_16))? 1 : 0);
 				goto IL_00af_1;
 			}
@@ -2288,7 +1949,6 @@ IL_00ae_1:
 IL_00af_1:
 			{
 				V_5 = (bool)G_B14_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47843));
 				bool L_17 = V_5;
 				if (!L_17)
 				{
@@ -2296,20 +1956,13 @@ IL_00af_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47844));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:469>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47845));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47846));
 				int32_t L_18;
 				L_18 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47846));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47847));
 				int32_t L_19;
 				L_19 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47847));
 				V_6 = (bool)((((int32_t)L_18) == ((int32_t)L_19))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47848));
 				bool L_20 = V_6;
 				if (!L_20)
 				{
@@ -2318,67 +1971,44 @@ IL_00af_1:
 			}
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:470>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47849));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47850));
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5D337F7EBEE7F0B734351F03BCC7560A42E085CB, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47850));
 			}
 
 IL_00da_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:471>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47851));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_21 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1 = L_21;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:472>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47852));
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_TwoFingersUsed = (bool)1;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:473>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47853));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47854));
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
 				L_22 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47854));
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartPos0 = L_22;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:474>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47855));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47856));
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 				L_23 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47856));
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartPos1 = L_23;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:475>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47857));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47858));
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24;
 				L_24 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47858));
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos0 = L_24;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:476>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47859));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47860));
 				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25;
 				L_25 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47860));
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos1 = L_25;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47861));
 			}
 
 IL_0119_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:479>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47862));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47863));
 				int32_t L_26;
 				L_26 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47863));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47864));
 				int32_t L_27;
 				L_27 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47864));
 				if ((((int32_t)L_26) == ((int32_t)L_27)))
 				{
 					goto IL_0146_1;
@@ -2386,14 +2016,10 @@ IL_0119_1:
 			}
 			{
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47865));
 				int32_t L_28;
 				L_28 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47865));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47866));
 				int32_t L_29;
 				L_29 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47866));
 				if ((((int32_t)L_28) == ((int32_t)L_29)))
 				{
 					goto IL_0146_1;
@@ -2414,7 +2040,6 @@ IL_0146_1:
 IL_0147_1:
 			{
 				V_7 = (bool)G_B22_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47867));
 				bool L_31 = V_7;
 				if (!L_31)
 				{
@@ -2422,31 +2047,21 @@ IL_0147_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47868));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:482>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47869));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47870));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4(4, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47870));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47871));
 			}
 
 IL_0156_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47872));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47873));
 				goto IL_01b9_1;
 			}
 
 IL_0159_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:485>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47874));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47875));
 				int32_t L_32;
 				L_32 = TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47875));
 				V_9 = L_32;
 				int32_t L_33 = V_9;
 				if ((((int32_t)L_33) == ((int32_t)4)))
@@ -2468,7 +2083,6 @@ IL_0171_1:
 IL_0172_1:
 			{
 				V_8 = (bool)((((int32_t)G_B28_0) == ((int32_t)0))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47876));
 				bool L_35 = V_8;
 				if (!L_35)
 				{
@@ -2476,33 +2090,23 @@ IL_0172_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47877));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:488>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47878));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47879));
 				int32_t L_36;
 				L_36 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47879));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47880));
 				int32_t L_37;
 				L_37 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47880));
 				if ((((int32_t)L_36) == ((int32_t)L_37)))
 				{
 					goto IL_01a4_1;
 				}
 			}
 			{
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47881));
 				int32_t L_38;
 				L_38 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47881));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47882));
 				int32_t L_39;
 				L_39 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47882));
 				G_B32_0 = ((((int32_t)L_38) == ((int32_t)L_39))? 1 : 0);
 				goto IL_01a5_1;
 			}
@@ -2515,7 +2119,6 @@ IL_01a4_1:
 IL_01a5_1:
 			{
 				V_10 = (bool)G_B32_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47883));
 				bool L_40 = V_10;
 				if (!L_40)
 				{
@@ -2524,26 +2127,19 @@ IL_01a5_1:
 			}
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:489>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47884));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47885));
 				int32_t L_41;
 				L_41 = TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47885));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47886));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4(L_41, NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47886));
 			}
 
 IL_01b8_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47887));
 			}
 
 IL_01b9_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:492>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47888));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				bool L_42 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_TwoFingersUsed;
 				if (!L_42)
@@ -2552,10 +2148,8 @@ IL_01b9_1:
 				}
 			}
 			{
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47889));
 				int32_t L_43;
 				L_43 = TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47889));
 				V_9 = L_43;
 				int32_t L_44 = V_9;
 				if ((((int32_t)L_44) == ((int32_t)1)))
@@ -2588,7 +2182,6 @@ IL_01de_1:
 IL_01df_1:
 			{
 				V_11 = (bool)G_B41_0;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47890));
 				bool L_46 = V_11;
 				if (!L_46)
 				{
@@ -2596,20 +2189,13 @@ IL_01df_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47891));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:495>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47892));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47893));
 				int32_t L_47;
 				L_47 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47893));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47894));
 				int32_t L_48;
 				L_48 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47894));
 				V_12 = (bool)((((int32_t)L_47) == ((int32_t)L_48))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47895));
 				bool L_49 = V_12;
 				if (!L_49)
 				{
@@ -2617,32 +2203,22 @@ IL_01df_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47896));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:497>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47897));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_50 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0 = L_50;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47898));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47899));
 				goto IL_022a_1;
 			}
 
 IL_0209_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:499>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47900));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47901));
 				int32_t L_51;
 				L_51 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_2), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47901));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47902));
 				int32_t L_52;
 				L_52 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47902));
 				V_13 = (bool)((((int32_t)L_51) == ((int32_t)L_52))? 1 : 0);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47903));
 				bool L_53 = V_13;
 				if (!L_53)
 				{
@@ -2650,33 +2226,25 @@ IL_0209_1:
 				}
 			}
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47904));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:501>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47905));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_54 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1 = L_54;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47906));
 			}
 
 IL_022a_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47907));
 			}
 
 IL_022b_1:
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47908));
 			}
 
 IL_022c_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:458>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47909));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47910));
 				bool L_55;
 				L_55 = Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8((&V_1), Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47910));
 				if (L_55)
 				{
 					goto IL_003b_1;
@@ -2695,11 +2263,9 @@ IL_022c_1:
 IL_0249:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:506>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47913));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_56 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_TwoFingersUsed;
 		V_14 = L_56;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47914));
 		bool L_57 = V_14;
 		if (!L_57)
 		{
@@ -2707,37 +2273,24 @@ IL_0249:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47915));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:509>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47916));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47917));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
 		L_58 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47917));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_59 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartPos0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47918));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
 		L_60 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_58, L_59, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47918));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos0 = L_60;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:510>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47919));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47920));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61;
 		L_61 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47920));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_62 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartPos1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47921));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_63;
 		L_63 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_61, L_62, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47921));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos1 = L_63;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:512>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47922));
 		int32_t L_64 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture;
 		V_15 = (bool)((((int32_t)L_64) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47923));
 		bool L_65 = V_15;
 		if (!L_65)
 		{
@@ -2745,14 +2298,10 @@ IL_0249:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47924));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:515>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47925));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47926));
 		float L_66;
 		L_66 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47926));
 		if ((!(((float)L_66) > ((float)(0.0500000007f)))))
 		{
 			goto IL_02c0;
@@ -2760,10 +2309,8 @@ IL_0249:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47927));
 		float L_67;
 		L_67 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47927));
 		G_B56_0 = ((((float)L_67) > ((float)(0.0500000007f)))? 1 : 0);
 		goto IL_02c1;
 	}
@@ -2776,7 +2323,6 @@ IL_02c0:
 IL_02c1:
 	{
 		V_16 = (bool)G_B56_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47928));
 		bool L_68 = V_16;
 		if (!L_68)
 		{
@@ -2784,49 +2330,29 @@ IL_02c1:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47929));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:517>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47930));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastMag = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:518>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47931));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47932));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69;
 		L_69 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47932));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47933));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70;
 		L_70 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47933));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47934));
 		float L_71;
 		L_71 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_69, L_70, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47934));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartDistance = L_71;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:519>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47935));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47936));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_72;
 		L_72 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47936));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastPanPos = L_72;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:522>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47937));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47938));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_73;
 		L_73 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47938));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47939));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_74;
 		L_74 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_DeltaPos1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47939));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47940));
 		float L_75;
 		L_75 = Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline(L_73, L_74, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47940));
 		V_17 = (bool)((((float)L_75) > ((float)(0.899999976f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47941));
 		bool L_76 = V_17;
 		if (!L_76)
 		{
@@ -2834,74 +2360,48 @@ IL_02c1:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47942));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:525>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47943));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture = 1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:526>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47944));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47945));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_77;
 		L_77 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47945));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47946));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_78;
 		L_78 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47946));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47947));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_79;
 		memset((&L_79), 0, sizeof(L_79));
 		PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7((&L_79), L_77, L_78, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47947));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47948));
 		Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F(L_79, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47948));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47949));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47950));
 		goto IL_0366;
 	}
 
 IL_034d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47951));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:531>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47952));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture = 2;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:532>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47953));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47954));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_80;
 		memset((&L_80), 0, sizeof(L_80));
 		MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C((&L_80), (0.0f), 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47954));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47955));
 		Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1(L_80, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47955));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47956));
 	}
 
 IL_0366:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47957));
 	}
 
 IL_0367:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47958));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47959));
 		goto IL_0404;
 	}
 
 IL_036d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:536>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47960));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_81 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture;
 		V_18 = (bool)((((int32_t)L_81) == ((int32_t)2))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47961));
 		bool L_82 = V_18;
 		if (!L_82)
 		{
@@ -2909,61 +2409,41 @@ IL_036d:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47962));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:538>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47963));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47964));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83;
 		L_83 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47964));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47965));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_84;
 		L_84 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47965));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47966));
 		float L_85;
 		L_85 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_83, L_84, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47966));
 		V_19 = L_85;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:539>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47967));
 		float L_86 = V_19;
 		float L_87 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_StartDistance;
 		V_20 = ((float)(L_86/L_87));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:540>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47968));
 		float L_88 = V_20;
 		float L_89 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastMag;
 		V_21 = ((float)il2cpp_codegen_subtract(L_88, L_89));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:541>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47969));
 		float L_90 = V_20;
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastMag = L_90;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:542>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47970));
 		float L_91 = V_21;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47971));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_92;
 		memset((&L_92), 0, sizeof(L_92));
 		MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C((&L_92), L_91, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47971));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47972));
 		Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1(L_92, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47972));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47973));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47974));
 		goto IL_0404;
 	}
 
 IL_03c3:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:544>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47975));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_93 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture;
 		V_22 = (bool)((((int32_t)L_93) == ((int32_t)1))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47976));
 		bool L_94 = V_22;
 		if (!L_94)
 		{
@@ -2971,52 +2451,36 @@ IL_03c3:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47977));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:546>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47978));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47979));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95;
 		L_95 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47979));
 		V_23 = L_95;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:547>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47980));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96 = V_23;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastPanPos;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47981));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_98;
 		L_98 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_96, L_97, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47981));
 		V_24 = L_98;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:548>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47982));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_99 = V_23;
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastPanPos = L_99;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:549>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47983));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_100 = V_23;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_101 = V_24;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47984));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_102;
 		memset((&L_102), 0, sizeof(L_102));
 		PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7((&L_102), L_100, L_101, 1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47984));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47985));
 		Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F(L_102, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47985));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47986));
 	}
 
 IL_0404:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47987));
 	}
 
 IL_0405:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:552>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47988));
 		return;
 	}
 }
@@ -3033,20 +2497,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA162EA71D7F265D2AA481F6E296305F6C92F6
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mFBFF9721B8FFE787B21D678EADA04ECFB12C99AF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mACAD535E3F0911075AD587F5E30CAF6763E8CC69_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_GetTrackpadTouches_mC09DD59C6886BE8EFB5E5C31DF8824099F8EEAFD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_GetTrackpadTouches_mC09DD59C6886BE8EFB5E5C31DF8824099F8EEAFD_RuntimeMethod_var);
 	bool V_0 = false;
 	PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -3069,28 +2525,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA162EA71D7F265D2AA481F6E296305F6C92F6
 	uint8_t V_12 = 0x0;
 	bool V_13 = false;
 	List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* V_14 = NULL;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_GetTrackpadTouches_mC09DD59C6886BE8EFB5E5C31DF8824099F8EEAFD_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47989));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 47990));
 	int32_t G_B4_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47991));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:563>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47992));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47993));
 		float L_0;
 		L_0 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47993));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastTime = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:564>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47994));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47995));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47995));
 		if (!L_1)
 		{
 			goto IL_001e;
@@ -3099,10 +2544,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA162EA71D7F265D2AA481F6E296305F6C92F6
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastFrame;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47996));
 		int32_t L_3;
 		L_3 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47996));
 		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
 		{
 			goto IL_0028;
@@ -3111,11 +2554,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA162EA71D7F265D2AA481F6E296305F6C92F6
 
 IL_001e:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47997));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47997));
 		G_B4_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		goto IL_0029;
 	}
@@ -3128,7 +2569,6 @@ IL_0028:
 IL_0029:
 	{
 		V_0 = (bool)G_B4_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47998));
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -3136,31 +2576,20 @@ IL_0029:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 47999));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:566>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48000));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48001));
 		int32_t L_6;
 		L_6 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48001));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastFrame = L_6;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:568>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48002));
 		Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA* L_7 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevTouches;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48003));
 		NullCheck(L_7);
 		Dictionary_2_Clear_mB9301CA4A43FEC71370750ADB99AE5B39B9797C2(L_7, Dictionary_2_Clear_mB9301CA4A43FEC71370750ADB99AE5B39B9797C2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48003));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48004));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:569>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48005));
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_8 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48006));
 		NullCheck(L_8);
 		Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B L_9;
 		L_9 = List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017(L_8, List_1_GetEnumerator_mD254A8B870CF8F8F6028143D02AE461AAC0C3017_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48006));
 		V_2 = L_9;
 	}
 	{
@@ -3169,56 +2598,37 @@ IL_0029:
 
 FINALLY_007c:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48017));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48018));
 				Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472((&V_2), Enumerator_Dispose_mA5046BB118AC1BD5025002019A7437C919D4E472_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48018));
 				return;
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48007));
 				goto IL_0071_1;
 			}
 
 IL_0054_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:569>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48008));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48009));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_10;
 				L_10 = Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_inline((&V_2), Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48009));
 				V_3 = L_10;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48010));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:571>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48011));
 				il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 				Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA* L_11 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevTouches;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48012));
 				int32_t L_12;
 				L_12 = TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline((&V_3), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48012));
 				TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_13 = V_3;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48013));
 				NullCheck(L_11);
 				Dictionary_2_set_Item_m9161CB56DAF0BB34BADAB0B28CBB4A1E2D6D3F1F(L_11, L_12, L_13, Dictionary_2_set_Item_m9161CB56DAF0BB34BADAB0B28CBB4A1E2D6D3F1F_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48013));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48014));
 			}
 
 IL_0071_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:569>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48015));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48016));
 				bool L_14;
 				L_14 = Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8((&V_2), Enumerator_MoveNext_m9291647569EC213CA0D210AA00BC3EE86FA3E6C8_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48016));
 				if (L_14)
 				{
 					goto IL_0054_1;
@@ -3237,66 +2647,44 @@ IL_0071_1:
 IL_008b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:574>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48019));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_15 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48020));
 		NullCheck(L_15);
 		List_1_Clear_mACAD535E3F0911075AD587F5E30CAF6763E8CC69_inline(L_15, List_1_Clear_mACAD535E3F0911075AD587F5E30CAF6763E8CC69_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48020));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:577>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48021));
 		(&V_1)->___touchId = (uint8_t)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:578>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48022));
 		(&V_1)->___phase = (uint8_t)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:579>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48023));
 		(&V_1)->___normalizedX = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:580>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48024));
 		(&V_1)->___normalizedY = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:581>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48025));
 		(&V_1)->___deviceWidth = (0.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:582>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48026));
 		(&V_1)->___deviceHeight = (0.0f);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48027));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48028));
 		goto IL_01a9;
 	}
 
 IL_00dc:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48029));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:595>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48030));
 		PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 L_16 = V_1;
 		float L_17 = L_16.___normalizedX;
 		PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 L_18 = V_1;
 		float L_19 = L_18.___normalizedY;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48031));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_4), L_17, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48031));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:596>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48032));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48033));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_5), (0.0f), (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48033));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:598>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48034));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA* L_20 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevTouches;
 		PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 L_21 = V_1;
 		uint8_t L_22 = L_21.___touchId;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48035));
 		NullCheck(L_20);
 		bool L_23;
 		L_23 = Dictionary_2_TryGetValue_m97CDB55E951691264079A0DF8D02526AE8436A2B(L_20, L_22, (&V_6), Dictionary_2_TryGetValue_m97CDB55E951691264079A0DF8D02526AE8436A2B_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48035));
 		V_10 = L_23;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48036));
 		bool L_24 = V_10;
 		if (!L_24)
 		{
@@ -3305,27 +2693,19 @@ IL_00dc:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:599>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48037));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48038));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26;
 		L_26 = TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline((&V_6), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48038));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48039));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
 		L_27 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_25, L_26, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48039));
 		V_5 = L_27;
 	}
 
 IL_0129:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:601>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48040));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48041));
 		float L_28;
 		L_28 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48041));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		float L_29 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastTime;
 		V_7 = ((float)il2cpp_codegen_subtract(L_28, L_29));
@@ -3338,7 +2718,6 @@ IL_0129:
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:608>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:609>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:610>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48042));
 		PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 L_30 = V_1;
 		uint8_t L_31 = L_30.___phase;
 		V_12 = L_31;
@@ -3348,12 +2727,10 @@ IL_0129:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48043));
 	}
 
 IL_0142:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48044));
 		uint8_t L_32 = V_12;
 		switch (L_32)
 		{
@@ -3386,7 +2763,6 @@ IL_0142:
 IL_015f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:604>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48045));
 		V_11 = 0;
 		goto IL_017d;
 	}
@@ -3394,7 +2770,6 @@ IL_015f:
 IL_0164:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:605>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48046));
 		V_11 = 1;
 		goto IL_017d;
 	}
@@ -3402,7 +2777,6 @@ IL_0164:
 IL_0169:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:606>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48047));
 		V_11 = 3;
 		goto IL_017d;
 	}
@@ -3410,7 +2784,6 @@ IL_0169:
 IL_016e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:607>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48048));
 		V_11 = 4;
 		goto IL_017d;
 	}
@@ -3418,7 +2791,6 @@ IL_016e:
 IL_0173:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:608>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48049));
 		V_11 = 2;
 		goto IL_017d;
 	}
@@ -3426,62 +2798,47 @@ IL_0173:
 IL_0178:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:609>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48050));
 		V_11 = 3;
 		goto IL_017d;
 	}
 
 IL_017d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48051));
 		if (1)
 		{
 			goto IL_0181;
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48052));
 	}
 
 IL_0181:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48053));
 		int32_t L_33 = V_11;
 		V_8 = L_33;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:611>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48054));
 		PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8 L_34 = V_1;
 		uint8_t L_35 = L_34.___touchId;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = V_5;
 		float L_38 = V_7;
 		int32_t L_39 = V_8;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48055));
 		TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F((&V_9), L_35, L_36, 1, L_37, L_38, L_39, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48055));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:612>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48056));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_40 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches;
 		TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_41 = V_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48057));
 		NullCheck(L_40);
 		List_1_Add_mFBFF9721B8FFE787B21D678EADA04ECFB12C99AF_inline(L_40, L_41, List_1_Add_mFBFF9721B8FFE787B21D678EADA04ECFB12C99AF_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48057));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48058));
 	}
 
 IL_01a9:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:593>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48059));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48060));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_42;
 		L_42 = Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A((&V_1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48060));
 		V_13 = L_42;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48061));
 		bool L_43 = V_13;
 		if (L_43)
 		{
@@ -3489,22 +2846,16 @@ IL_01a9:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48062));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:616>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48063));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48064));
 		float L_44;
 		L_44 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48064));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_LastTime = L_44;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48065));
 	}
 
 IL_01c5:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:619>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48066));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_45 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches;
 		V_14 = L_45;
@@ -3514,7 +2865,6 @@ IL_01c5:
 IL_01ce:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:620>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48067));
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_46 = V_14;
 		return L_46;
 	}
@@ -3522,22 +2872,9 @@ IL_01ce:
 // Method Definition Index: 54278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A (PlatformTouchEvent_tE77EC0A2F8D9D77EE6730E662486B91E597199A8* ___0_touch, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_touch));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_ReadTouch_m453690B996E54D8E39B75633830A51586B8FD05A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48068));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48069));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48070));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:630>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48071));
 		V_0 = (bool)0;
 		goto IL_0005;
 	}
@@ -3545,7 +2882,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_ReadTouch_m453690B996E54D8E39B7
 IL_0005:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:632>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48072));
 		bool L_0 = V_0;
 		return L_0;
 	}
@@ -3553,20 +2889,8 @@ IL_0005:
 // Method Definition Index: 54279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_SetupFocusedTrackingObject_mCD439E0E8701B77D1E3E9AE366D087E06A280E54 (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_SetupFocusedTrackingObject_mCD439E0E8701B77D1E3E9AE366D087E06A280E54_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_SetupFocusedTrackingObject_mCD439E0E8701B77D1E3E9AE366D087E06A280E54_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_SetupFocusedTrackingObject_mCD439E0E8701B77D1E3E9AE366D087E06A280E54_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48073));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48074));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48075));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:639>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48076));
 		return;
 	}
 }
@@ -3576,88 +2900,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_AbortGesture_m4E375309F10201915
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_phase));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_AbortGesture_m4E375309F10201915196ED28281263BEE1064EA4_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48077));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48078));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48079));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:643>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48080));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_TwoFingersUsed = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:644>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48081));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Gesture = 0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:645>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48082));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48083));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48083));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48084));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48084));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48085));
 		TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F((&L_2), (-1), L_0, 0, L_1, (0.0f), 4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48085));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch0 = L_2;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:646>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48086));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48087));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48087));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48088));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48088));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48089));
 		TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F((&L_5), (-1), L_3, 0, L_4, (0.0f), 4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48089));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_Touch1 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:647>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48090));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48091));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48091));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48092));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48092));
 		int32_t L_8 = ___0_phase;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48093));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7((&L_9), L_6, L_7, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48093));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48094));
 		Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F(L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48094));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:648>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48095));
 		int32_t L_10 = ___0_phase;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48096));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_11;
 		memset((&L_11), 0, sizeof(L_11));
 		MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C((&L_11), (0.0f), L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48096));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48097));
 		Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1(L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48097));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:649>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48098));
 		return;
 	}
 }
@@ -3668,16 +2954,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_panGestureChanged_m741E0129
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_add_panGestureChanged_m741E012963CFB1B78306248023D26EFBFCD7DB87_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_add_panGestureChanged_m741E012963CFB1B78306248023D26EFBFCD7DB87_RuntimeMethod_var);
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_0 = NULL;
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_1 = NULL;
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_add_panGestureChanged_m741E012963CFB1B78306248023D26EFBFCD7DB87_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___panGestureChanged;
@@ -3686,7 +2968,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_panGestureChanged_m741E0129
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_2 = V_1;
@@ -3718,16 +2999,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_panGestureChanged_mAF0E7
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_remove_panGestureChanged_mAF0E7003A28FAD8D21ED99E66DF0025E8AA01C34_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_remove_panGestureChanged_mAF0E7003A28FAD8D21ED99E66DF0025E8AA01C34_RuntimeMethod_var);
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_0 = NULL;
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_1 = NULL;
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_remove_panGestureChanged_mAF0E7003A28FAD8D21ED99E66DF0025E8AA01C34_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___panGestureChanged;
@@ -3736,7 +3013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_panGestureChanged_mAF0E7
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_2 = V_1;
@@ -3768,16 +3044,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_magnificationGestureChanged
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_add_magnificationGestureChanged_mA43F98FD446BF1A5D39B95B09F7A6F574D1D7E07_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_add_magnificationGestureChanged_mA43F98FD446BF1A5D39B95B09F7A6F574D1D7E07_RuntimeMethod_var);
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_0 = NULL;
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_1 = NULL;
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_add_magnificationGestureChanged_mA43F98FD446BF1A5D39B95B09F7A6F574D1D7E07_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___magnificationGestureChanged;
@@ -3786,7 +3058,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_magnificationGestureChanged
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_2 = V_1;
@@ -3818,16 +3089,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_magnificationGestureChan
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_remove_magnificationGestureChanged_m02BD9C4BB892586A30CEEEB7D4852A23FAF1BF85_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_remove_magnificationGestureChanged_m02BD9C4BB892586A30CEEEB7D4852A23FAF1BF85_RuntimeMethod_var);
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_0 = NULL;
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_1 = NULL;
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_remove_magnificationGestureChanged_m02BD9C4BB892586A30CEEEB7D4852A23FAF1BF85_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___magnificationGestureChanged;
@@ -3836,7 +3103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_magnificationGestureChan
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_2 = V_1;
@@ -3867,17 +3133,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_get_panGestureChangedThisFrame_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_panGestureChangedThisFrame_mC2E3B4AA7C5CD00DD9358E04BA3D7B98932FB465_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_panGestureChangedThisFrame_mC2E3B4AA7C5CD00DD9358E04BA3D7B98932FB465_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_panGestureChangedThisFrame_mC2E3B4AA7C5CD00DD9358E04BA3D7B98932FB465_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48099));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48100));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:667>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48101));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CpanGestureChangedThisFrameU3Ek__BackingField;
 		return L_0;
@@ -3889,18 +3149,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_panGestureChangedThisFrame_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48102));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48103));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:667>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48104));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CpanGestureChangedThisFrameU3Ek__BackingField = L_0;
@@ -3913,17 +3166,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_get_magnificationGestureChanged
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_magnificationGestureChangedThisFrame_mCB2CB3682B7B96D2FA73CBAE5127A9C77999DD16_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_magnificationGestureChangedThisFrame_mCB2CB3682B7B96D2FA73CBAE5127A9C77999DD16_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_magnificationGestureChangedThisFrame_mCB2CB3682B7B96D2FA73CBAE5127A9C77999DD16_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48105));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48106));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:673>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48107));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CmagnificationGestureChangedThisFrameU3Ek__BackingField;
 		return L_0;
@@ -3935,18 +3182,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_magnificationGestureChanged
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48108));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48109));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:673>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48110));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CmagnificationGestureChangedThisFrameU3Ek__BackingField = L_0;
@@ -3959,17 +3199,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_panGesture_mBC2EBDE70A94CF8C503C59CCCE0C34B5DE0F20D8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_panGesture_mBC2EBDE70A94CF8C503C59CCCE0C34B5DE0F20D8_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_panGesture_mBC2EBDE70A94CF8C503C59CCCE0C34B5DE0F20D8_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48111));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48112));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:681>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48113));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PanGesture;
 		return L_0;
@@ -3981,31 +3215,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_panGesture_m92E37F0C14F5144
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_panGesture_m92E37F0C14F514474505FED198ABB0023455813F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48114));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48115));
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* G_B3_0 = NULL;
 	Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* G_B2_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48116));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:684>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48117));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PanGesture;
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48118));
 		bool L_2;
 		L_2 = PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48118));
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48119));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -4013,19 +3236,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_panGesture_m92E37F0C14F5144
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48120));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:686>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48121));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PanGesture = L_4;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:687>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48122));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48123));
 		Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_inline((bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48123));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:688>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48124));
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_5 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___panGestureChanged;
 		Action_1_t66FE831A65746780CD9C999B0BE17E07CF94318E* L_6 = L_5;
 		if (L_6)
@@ -4042,21 +3259,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_panGesture_m92E37F0C14F5144
 IL_0029:
 	{
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_7 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48125));
 		NullCheck(G_B3_0);
 		Action_1_Invoke_m1738392D1BF694F33A22B1FC50FDC6E1D4197BB0_inline(G_B3_0, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48125));
 	}
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48126));
 	}
 
 IL_0031:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:690>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48127));
 		return;
 	}
 }
@@ -4066,17 +3279,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MagnificationGesture_t8DCB850118279CB026790D5
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_magnificationGesture_mA34C01FC6FB610C377A2CB497C9CD4C0744B8BD1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_magnificationGesture_mA34C01FC6FB610C377A2CB497C9CD4C0744B8BD1_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_magnificationGesture_mA34C01FC6FB610C377A2CB497C9CD4C0744B8BD1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48128));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48129));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:699>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48130));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_MagnificationGesture;
 		return L_0;
@@ -4088,31 +3295,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_magnificationGesture_m3D892
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_magnificationGesture_m3D8922A24702172C841CE3F147E956132769DEB1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48131));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48132));
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* G_B3_0 = NULL;
 	Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* G_B2_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48133));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:702>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48134));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_MagnificationGesture;
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_1 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48135));
 		bool L_2;
 		L_2 = MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48135));
 		V_0 = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48136));
 		bool L_3 = V_0;
 		if (!L_3)
 		{
@@ -4120,19 +3316,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_magnificationGesture_m3D892
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48137));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:704>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48138));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_MagnificationGesture = L_4;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:705>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48139));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48140));
 		Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_inline((bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48140));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:706>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48141));
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_5 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___magnificationGestureChanged;
 		Action_1_t9CA0B6763F01B1FA5D1B82E960B55626BCB97903* L_6 = L_5;
 		if (L_6)
@@ -4149,21 +3339,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_magnificationGesture_m3D892
 IL_0029:
 	{
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_7 = ___0_value;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48142));
 		NullCheck(G_B3_0);
 		Action_1_Invoke_mA534FBE44669BE32362CE42B211AAA4561FABAD8_inline(G_B3_0, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48142));
 	}
 
 IL_0030:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48143));
 	}
 
 IL_0031:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:708>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48144));
 		return;
 	}
 }
@@ -4173,17 +3359,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_get_isTouchGestureSupported_m5C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48145));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48146));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48147));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CisTouchGestureSupportedU3Ek__BackingField;
 		return L_0;
@@ -4195,18 +3375,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_set_isTouchGestureSupported_mFD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48148));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48149));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48150));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CisTouchGestureSupportedU3Ek__BackingField = L_0;
@@ -4220,37 +3393,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Platform_get_systemTheme_mA3F059508
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_systemTheme_mA3F05950806BBAE36AF9BC91E5D7C9A587D3198F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1057AAF5EE3CDF423CF6BCC588476E559687CDE6);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A0FCE43AD1F07E39896995A4489D8DE63519A57);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_systemTheme_mA3F05950806BBAE36AF9BC91E5D7C9A587D3198F_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_systemTheme_mA3F05950806BBAE36AF9BC91E5D7C9A587D3198F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48151));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48152));
 	String_t* G_B4_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48153));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:732>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48154));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48155));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48155));
 		if (!L_0)
 		{
 			goto IL_000f;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48156));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48156));
 		if (L_1)
 		{
 			goto IL_0016;
@@ -4277,7 +3439,6 @@ IL_001b:
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:738>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48157));
 		String_t* L_2 = V_0;
 		return L_2;
 	}
@@ -4289,25 +3450,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_RunHapticFeedback_m2B67614239E9
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_RunHapticFeedback_m2B67614239E984323082F2E5314DD972B5F6B295_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_RunHapticFeedback_m2B67614239E984323082F2E5314DD972B5F6B295_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_feedbackType));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_RunHapticFeedback_m2B67614239E984323082F2E5314DD972B5F6B295_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48158));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48159));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48160));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:750>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48161));
 		int32_t L_0 = ___0_feedbackType;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48162));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		AndroidAppUI_RunHapticFeedback_mF0A860249D47B13002C9691C0107D558A04068DA(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48162));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:757>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48163));
 		return;
 	}
 }
@@ -4318,16 +3468,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_scaleFactorChanged_m4855FD1
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_add_scaleFactorChanged_m4855FD13E96E7AF73A75C5F2AE04A3DD0F631E9A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_add_scaleFactorChanged_m4855FD13E96E7AF73A75C5F2AE04A3DD0F631E9A_RuntimeMethod_var);
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_add_scaleFactorChanged_m4855FD13E96E7AF73A75C5F2AE04A3DD0F631E9A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___scaleFactorChanged;
@@ -4336,7 +3482,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_add_scaleFactorChanged_m4855FD1
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
@@ -4368,16 +3513,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_scaleFactorChanged_m1ADB
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_remove_scaleFactorChanged_m1ADB5478F26A7E9268A9A05D486215ECBC061D70_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_remove_scaleFactorChanged_m1ADB5478F26A7E9268A9A05D486215ECBC061D70_RuntimeMethod_var);
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_0 = NULL;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_1 = NULL;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_remove_scaleFactorChanged_m1ADB5478F26A7E9268A9A05D486215ECBC061D70_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___scaleFactorChanged;
@@ -4386,7 +3527,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_remove_scaleFactorChanged_m1ADB
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_1 = V_0;
 		V_1 = L_1;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = V_1;
@@ -4417,43 +3557,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_Update_mA69C51BBA3469AD2F77A689
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_Update_mA69C51BBA3469AD2F77A689F8C50AA24D03D7D0A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_Update_mA69C51BBA3469AD2F77A689F8C50AA24D03D7D0A_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	bool V_1 = false;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_Update_mA69C51BBA3469AD2F77A689F8C50AA24D03D7D0A_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48164));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48165));
 	int32_t G_B3_0 = 0;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B6_0 = NULL;
 	Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* G_B5_0 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48166));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:764>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48167));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48168));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_PollSystemTheme_m126B020760BD103F67ACDDC7960821E96FAED887(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48168));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:765>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48169));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48170));
 		float L_0;
 		L_0 = Platform_get_mainScreenScale_m5DB779175B2454592F2B0BADFDBC404C5DA5FDF1(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48170));
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:766>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48171));
 		float L_1 = V_0;
 		float L_2 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousScaleFactor;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48172));
 		bool L_3;
 		L_3 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48172));
 		if (L_3)
 		{
 			goto IL_002a;
@@ -4461,10 +3585,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_Update_mA69C51BBA3469AD2F77A689
 	}
 	{
 		float L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48173));
 		bool L_5;
 		L_5 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_4, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48173));
 		G_B3_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		goto IL_002b;
 	}
@@ -4477,7 +3599,6 @@ IL_002a:
 IL_002b:
 	{
 		V_1 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48174));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -4485,14 +3606,11 @@ IL_002b:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48175));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:768>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48176));
 		float L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousScaleFactor = L_7;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:769>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48177));
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_8 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___scaleFactorChanged;
 		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_9 = L_8;
 		if (L_9)
@@ -4509,27 +3627,20 @@ IL_002b:
 IL_0041:
 	{
 		float L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48178));
 		NullCheck(G_B6_0);
 		Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline(G_B6_0, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48178));
 	}
 
 IL_0048:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48179));
 	}
 
 IL_0049:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:771>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48180));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48181));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		Platform_ReadNativeTouches_mF90D1BDAD7332CAC2ADEE112A79A6842A2358083(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48181));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:772>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48182));
 		return;
 	}
 }
@@ -4540,31 +3651,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_ReadNativeTouches_mF90D1BDAD733
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_ReadNativeTouches_mF90D1BDAD7332CAC2ADEE112A79A6842A2358083_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_ReadNativeTouches_mF90D1BDAD7332CAC2ADEE112A79A6842A2358083_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	bool V_2 = false;
 	bool V_3 = false;
 	int32_t V_4 = 0;
 	bool V_5 = false;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_ReadNativeTouches_mF90D1BDAD7332CAC2ADEE112A79A6842A2358083_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48183));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48184));
 	int32_t G_B4_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48185));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:794>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48186));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48187));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48187));
 		if (!L_0)
 		{
 			goto IL_0014;
@@ -4573,10 +3674,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_ReadNativeTouches_mF90D1BDAD733
 	{
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_LastUpdateFrame;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48188));
 		int32_t L_2;
 		L_2 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48188));
 		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
 		{
 			goto IL_001e;
@@ -4585,11 +3684,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_ReadNativeTouches_mF90D1BDAD733
 
 IL_0014:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48189));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48189));
 		G_B4_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 		goto IL_001f;
 	}
@@ -4602,7 +3699,6 @@ IL_001e:
 IL_001f:
 	{
 		V_0 = (bool)G_B4_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48190));
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -4610,32 +3706,23 @@ IL_001f:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48191));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:796>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48192));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48193));
 		int32_t L_5;
 		L_5 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48193));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_LastUpdateFrame = L_5;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:798>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48194));
 		V_1 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48195));
 		goto IL_005c;
 	}
 
 IL_0032:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48196));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:800>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48197));
 		int32_t L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_7 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_FrameTouchCount;
 		V_2 = (bool)((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48198));
 		bool L_8 = V_2;
 		if (!L_8)
 		{
@@ -4644,14 +3731,12 @@ IL_0032:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:801>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48199));
 		goto IL_0068;
 	}
 
 IL_0041:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:802>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48200));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_9 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevAppUITouches;
 		int32_t L_10 = V_1;
@@ -4662,9 +3747,7 @@ IL_0041:
 		AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71 L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71)L_14);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48201));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:798>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48202));
 		int32_t L_15 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
@@ -4672,10 +3755,8 @@ IL_0041:
 IL_005c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:798>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48203));
 		int32_t L_16 = V_1;
 		V_3 = (bool)((((int32_t)L_16) < ((int32_t)((int32_t)512)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48204));
 		bool L_17 = V_3;
 		if (L_17)
 		{
@@ -4686,26 +3767,19 @@ IL_005c:
 IL_0068:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:805>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48205));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		int32_t L_18 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_FrameTouchCount;
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_PrevTouchCount = L_18;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:806>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48206));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_FrameTouchCount = 0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:808>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48207));
 		V_4 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48208));
 		goto IL_0085;
 	}
 
 IL_007d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48209));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48210));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:808>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48211));
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
@@ -4713,10 +3787,8 @@ IL_007d:
 IL_0085:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:808>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48212));
 		int32_t L_20 = V_4;
 		V_5 = (bool)((((int32_t)L_20) < ((int32_t)((int32_t)512)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48213));
 		bool L_21 = V_5;
 		if (L_21)
 		{
@@ -4725,20 +3797,15 @@ IL_0085:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:833>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48214));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48215));
 		float L_22;
 		L_22 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48215));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_PollEventTime = L_22;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48216));
 	}
 
 IL_009f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:835>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48217));
 		return;
 	}
 }
@@ -4749,29 +3816,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlySpan_1_t7307623B0FD1F47FACEDBC7F9D576
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryExtensions_AsSpan_TisAppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_mC1E5FF4DEE93A3E729EBABFB2B9DD0D4AB8AAA1E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_touches_m252E1BC2BAE12B1D5C86D18C9B5BDEF74EC90A98_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Span_1_op_Implicit_mA155D3F84DB0E8D463798C5FA1690768120F9362_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform_get_touches_m252E1BC2BAE12B1D5C86D18C9B5BDEF74EC90A98_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_touches_m252E1BC2BAE12B1D5C86D18C9B5BDEF74EC90A98_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48218));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48219));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:837>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48220));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameAppUITouches;
 		int32_t L_1 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___m_FrameTouchCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48221));
 		Span_1_tA742EF44292CDF51DBDD8B051BCF7EAE5FB366EB L_2;
 		L_2 = MemoryExtensions_AsSpan_TisAppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_mC1E5FF4DEE93A3E729EBABFB2B9DD0D4AB8AAA1E_inline(L_0, 0, L_1, MemoryExtensions_AsSpan_TisAppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_mC1E5FF4DEE93A3E729EBABFB2B9DD0D4AB8AAA1E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48221));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48222));
 		ReadOnlySpan_1_t7307623B0FD1F47FACEDBC7F9D576F1167FED908 L_3;
 		L_3 = Span_1_op_Implicit_mA155D3F84DB0E8D463798C5FA1690768120F9362(L_2, Span_1_op_Implicit_mA155D3F84DB0E8D463798C5FA1690768120F9362_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48222));
 		return L_3;
 	}
 }
@@ -4786,47 +3843,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform__cctor_m04B6129EDB2665BF2106931
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m99EC740C8FA362A5B0F32394148442E24560657A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform__cctor_m04B6129EDB2665BF2106931DB9AC3AE21CCDB15D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(Platform__cctor_m04B6129EDB2665BF2106931DB9AC3AE21CCDB15D_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform__cctor_m04B6129EDB2665BF2106931DB9AC3AE21CCDB15D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48223));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48224));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:377>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48225));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_SystemThemePollingEnabled = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:391>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48226));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_ThemePollingDelta = 0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:557>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48227));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48228));
 		Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA* L_0 = (Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA*)il2cpp_codegen_object_new(Dictionary_2_t64D06787C287B80BFEECC89F4659E28C9D86F1DA_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m8E49222A15592C4F44E23BD20F91B0ED6A8BD2BA(L_0, Dictionary_2__ctor_m8E49222A15592C4F44E23BD20F91B0ED6A8BD2BA_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48228));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevTouches = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevTouches), (void*)L_0);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:558>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48229));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48230));
 		List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* L_1 = (List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9*)il2cpp_codegen_object_new(List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9_il2cpp_TypeInfo_var);
 		List_1__ctor_m99EC740C8FA362A5B0F32394148442E24560657A(L_1, List_1__ctor_m99EC740C8FA362A5B0F32394148442E24560657A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48230));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameTouches), (void*)L_1);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:759>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48231));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___s_PreviousScaleFactor = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:778>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48232));
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_2 = (AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88*)(AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88*)SZArrayNew(AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)512));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameAppUITouches = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_FrameAppUITouches), (void*)L_2);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:782>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48233));
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_3 = (AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88*)(AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88*)SZArrayNew(AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88_il2cpp_TypeInfo_var, (uint32_t)((int32_t)512));
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevAppUITouches = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___k_PrevAppUITouches), (void*)L_3);
@@ -4847,69 +3888,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI__cctor_mDC9B6B85EC006FC76D3
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI__cctor_mDC9B6B85EC006FC76D31DC30444016EA0C8CBA35_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral322AC8DD7D1354F26904FF9B729EA95116015692);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI__cctor_mDC9B6B85EC006FC76D31DC30444016EA0C8CBA35_RuntimeMethod_var);
 	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_0 = NULL;
 	bool V_1 = false;
 	Exception_t* V_2 = NULL;
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI__cctor_mDC9B6B85EC006FC76D31DC30444016EA0C8CBA35_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48234));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48235));
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	int32_t G_B3_0 = 0;
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48236));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CscaledDensityU3Ek__BackingField = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48237));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityU3Ek__BackingField = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48238));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityDPIU3Ek__BackingField = ((int32_t)600);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48239));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CfontScaleU3Ek__BackingField = (1.0f);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48240));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeEnabledU3Ek__BackingField = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48241));
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeDefinedU3Ek__BackingField = (bool)0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48242));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:22>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48243));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48244));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48244));
 		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
 		{
 			goto IL_0045;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48245));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48245));
 		G_B3_0 = ((int32_t)(L_1));
 		goto IL_0046;
 	}
@@ -4922,7 +3943,6 @@ IL_0045:
 IL_0046:
 	{
 		V_1 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48246));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -4931,18 +3951,14 @@ IL_0046:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:23>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48247));
 		goto IL_00af;
 	}
 
 IL_004c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:25>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48248));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48249));
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_3, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48249));
 		V_0 = L_3;
 	}
 	{
@@ -4951,9 +3967,7 @@ IL_004c:
 
 FINALLY_00a4:
 			{
-				STORE_TRY_ID(methodExecutionContext, -1);
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48267));
 					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_4 = V_0;
 					if (!L_4)
 					{
@@ -4962,54 +3976,38 @@ FINALLY_00a4:
 				}
 				{
 					AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5 = V_0;
-					STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48268));
 					NullCheck(L_5);
 					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_5);
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48268));
 				}
 
 IL_00ae:
 				{
-					CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48269));
 					return;
 				}
 			}
 		});
 		try
 		{
-			STORE_TRY_ID(methodExecutionContext, 0);
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:26>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48250));
 				AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_6 = V_0;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48251));
 				NullCheck(L_6);
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7;
 				L_7 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_6, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48251));
 				((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity = L_7;
 				Il2CppCodeGenWriteBarrier((void**)(&((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity), (void*)L_7);
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:29>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48252));
 				((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_IsCustomAppUiActivity = (bool)1;
 			}
 			try
 			{
-				STORE_TRY_ID(methodExecutionContext, 1);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48253));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:32>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48254));
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48255));
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9;
 				L_9 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48255));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48256));
 				NullCheck(L_8);
 				float L_10;
 				L_10 = AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1(L_8, _stringLiteral322AC8DD7D1354F26904FF9B729EA95116015692, L_9, AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48256));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48257));
 				goto IL_009c_1;
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -5024,24 +4022,16 @@ IL_00ae:
 
 CATCH_0086_1:
 			{
-				STORE_TRY_ID(methodExecutionContext, 0);
 				Exception_t* L_11 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:34>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48258));
 				V_2 = L_11;
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48259));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:36>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48260));
 				((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))))->___s_IsCustomAppUiActivity = (bool)0;
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:37>
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:38>
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:39>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48261));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48262));
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD26E988BE24D2D63128910CADC5D7D7CCFA9E733)), NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48262));
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48263));
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_009c_1;
 			}
@@ -5049,12 +4039,8 @@ CATCH_0086_1:
 IL_009c_1:
 			{
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:42>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48264));
-				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48265));
 				AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044(NULL);
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48265));
 				//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:43>
-				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48266));
 				goto IL_00af;
 			}
 		}
@@ -5067,7 +4053,6 @@ IL_009c_1:
 IL_00af:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:43>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48270));
 		return;
 	}
 }
@@ -5077,17 +4062,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidAppUI_get_scaledDensity_m6DCA7E6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48271));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48272));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48273));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		float L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CscaledDensityU3Ek__BackingField;
 		return L_0;
@@ -5099,18 +4078,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_scaledDensity_m6D94DEA0
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48274));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48275));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48276));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CscaledDensityU3Ek__BackingField = L_0;
@@ -5123,17 +4095,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidAppUI_get_density_mBEE75CFA1C01B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_density_mBEE75CFA1C01B22FABA2E4225B36024CEC571C8A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_density_mBEE75CFA1C01B22FABA2E4225B36024CEC571C8A_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_density_mBEE75CFA1C01B22FABA2E4225B36024CEC571C8A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48277));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48278));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48279));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		float L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityU3Ek__BackingField;
 		return L_0;
@@ -5145,18 +4111,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_density_m41A696EB8AA316
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48280));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48281));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48282));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityU3Ek__BackingField = L_0;
@@ -5169,17 +4128,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidAppUI_get_densityDPI_m3D22DE44
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_densityDPI_m3D22DE44C22C273F92A3024B35FBC1897D15B5CF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_densityDPI_m3D22DE44C22C273F92A3024B35FBC1897D15B5CF_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_densityDPI_m3D22DE44C22C273F92A3024B35FBC1897D15B5CF_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48283));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48284));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48285));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityDPIU3Ek__BackingField;
 		return L_0;
@@ -5191,18 +4144,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_densityDPI_mAAAEE0F9C8A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48286));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48287));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48288));
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityDPIU3Ek__BackingField = L_0;
@@ -5215,17 +4161,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidAppUI_get_fontScale_m03360085917
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_fontScale_m033600859174432F70C2ECE4AB080930B81AF456_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_fontScale_m033600859174432F70C2ECE4AB080930B81AF456_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_fontScale_m033600859174432F70C2ECE4AB080930B81AF456_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48289));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48290));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48291));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		float L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CfontScaleU3Ek__BackingField;
 		return L_0;
@@ -5237,18 +4177,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_fontScale_mC0C74AE69F77
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48292));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48293));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48294));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CfontScaleU3Ek__BackingField = L_0;
@@ -5261,17 +4194,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidAppUI_get_isNightModeEnabled_m1FE
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48295));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48296));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48297));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeEnabledU3Ek__BackingField;
 		return L_0;
@@ -5283,18 +4210,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_isNightModeEnabled_m8ED
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48298));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48299));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48300));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeEnabledU3Ek__BackingField = L_0;
@@ -5307,17 +4227,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidAppUI_get_isNightModeDefined_m0AF
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48301));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48302));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48303));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeDefinedU3Ek__BackingField;
 		return L_0;
@@ -5329,18 +4243,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_set_isNightModeDefined_m212
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48304));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48305));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48306));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeDefinedU3Ek__BackingField = L_0;
@@ -5353,26 +4260,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_RunHapticFeedback_mF0A86024
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_RunHapticFeedback_mF0A860249D47B13002C9691C0107D558A04068DA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB73D3161E7CB8CAA8DB42AF3E120BEC34F52D562);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_RunHapticFeedback_mF0A860249D47B13002C9691C0107D558A04068DA_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_feedbackType));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_RunHapticFeedback_mF0A860249D47B13002C9691C0107D558A04068DA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48307));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48308));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48309));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:59>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48310));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_IsCustomAppUiActivity;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48311));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -5381,14 +4279,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_RunHapticFeedback_mF0A86024
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:60>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48312));
 		goto IL_002e;
 	}
 
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:62>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48313));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
@@ -5399,16 +4295,13 @@ IL_000f:
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_7);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48314));
 		NullCheck(L_2);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteralB73D3161E7CB8CAA8DB42AF3E120BEC34F52D562, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48314));
 	}
 
 IL_002e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:63>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48315));
 		return;
 	}
 }
@@ -5418,7 +4311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_QueryConfiguration_m5D7353C
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
@@ -5432,19 +4324,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_QueryConfiguration_m5D7353C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF2CAAADB28EA5B7E4CC6C5F75D96DDAF43C7AABD);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_QueryConfiguration_m5D7353C38EE1BE01F721907C9099D3490E21E044_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48316));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48317));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48318));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:67>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48319));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_IsCustomAppUiActivity;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48320));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -5453,109 +4338,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAppUI_QueryConfiguration_m5D7353C
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:68>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48321));
 		goto IL_00ae;
 	}
 
 IL_0012:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:70>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48322));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48323));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
 		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48323));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48324));
 		NullCheck(L_2);
 		float L_4;
 		L_4 = AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1(L_2, _stringLiteral322AC8DD7D1354F26904FF9B729EA95116015692, L_3, AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48324));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48325));
 		AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_inline(L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48325));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48326));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48327));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6;
 		L_6 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48327));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48328));
 		NullCheck(L_5);
 		float L_7;
 		L_7 = AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1(L_5, _stringLiteral0E7BFC5068AC5208809C27DD2889945B23CF5CF8, L_6, AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48328));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48329));
 		AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_inline(L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48329));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:72>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48330));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48331));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9;
 		L_9 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48331));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48332));
 		NullCheck(L_8);
 		int32_t L_10;
 		L_10 = AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC(L_8, _stringLiteral0E6EDEB73F1D4BF7A66367AA2B9F3839E8E8CA4C, L_9, AndroidJavaObject_Call_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mDC5FD095AFC55DFE596907E5B055B5774DA5B5AC_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48332));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48333));
 		AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_inline(L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48333));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:73>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48334));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_11 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48335));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12;
 		L_12 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48335));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48336));
 		NullCheck(L_11);
 		float L_13;
 		L_13 = AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1(L_11, _stringLiteral06C6E5166AE33A4EB026676F37581FAE1B94C3DB, L_12, AndroidJavaObject_Call_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mC6CF02CBA2C4A23EF8CD0BF612F5759B8C26DFF1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48336));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48337));
 		AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_inline(L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48337));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:74>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48338));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_14 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48339));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15;
 		L_15 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48339));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48340));
 		NullCheck(L_14);
 		bool L_16;
 		L_16 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_14, _stringLiteralF2CAAADB28EA5B7E4CC6C5F75D96DDAF43C7AABD, L_15, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48340));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48341));
 		AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_inline(L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48341));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:75>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48342));
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_17 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___s_AppUiActivity;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48343));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18;
 		L_18 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48343));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48344));
 		NullCheck(L_17);
 		bool L_19;
 		L_19 = AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF(L_17, _stringLiteral7AB07A7DFAE3FB6440526E6B7C8C5471FE5DE502, L_18, AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48344));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48345));
 		AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_inline(L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48345));
 	}
 
 IL_00ae:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:76>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48346));
 		return;
 	}
 }
@@ -5578,21 +4419,8 @@ IL_00ae:
 // Method Definition Index: 54318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291 (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48347));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48348));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:16>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48349));
 		int32_t L_0 = __this->___U3CfingerIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -5609,22 +4437,8 @@ IL2CPP_EXTERN_C  int32_t AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A
 // Method Definition Index: 54319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48350));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48351));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:16>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48352));
 		int32_t L_0 = ___0_value;
 		__this->___U3CfingerIdU3Ek__BackingField = L_0;
 		return;
@@ -5640,21 +4454,8 @@ IL2CPP_EXTERN_C  void AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A11
 // Method Definition Index: 54320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48353));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48354));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:21>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48355));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -5671,22 +4472,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_ge
 // Method Definition Index: 54321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48356));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48357));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:21>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48358));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CpositionU3Ek__BackingField = L_0;
 		return;
@@ -5702,21 +4489,8 @@ IL2CPP_EXTERN_C  void AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B34
 // Method Definition Index: 54322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42 (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48359));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48360));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:26>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48361));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -5733,22 +4507,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_ge
 // Method Definition Index: 54323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7 (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48362));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48363));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:26>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48364));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CdeltaPosU3Ek__BackingField = L_0;
 		return;
@@ -5764,21 +4524,8 @@ IL2CPP_EXTERN_C  void AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CE
 // Method Definition Index: 54324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372 (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48365));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48366));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48367));
 		float L_0 = __this->___U3CdeltaTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -5795,22 +4542,8 @@ IL2CPP_EXTERN_C  float AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA
 // Method Definition Index: 54325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48369));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48370));
 		float L_0 = ___0_value;
 		__this->___U3CdeltaTimeU3Ek__BackingField = L_0;
 		return;
@@ -5826,21 +4559,8 @@ IL2CPP_EXTERN_C  void AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA6
 // Method Definition Index: 54326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48371));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48372));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48373));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -5857,22 +4577,8 @@ IL2CPP_EXTERN_C  int32_t AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32
 // Method Definition Index: 54327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350 (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48374));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48375));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48376));
 		int32_t L_0 = ___0_value;
 		__this->___U3CphaseU3Ek__BackingField = L_0;
 		return;
@@ -5888,53 +4594,23 @@ IL2CPP_EXTERN_C  void AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5
 // Method Definition Index: 54328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppUITouch__ctor_mFF02AA009E80BDF1E6F9B24D58A4378E59D0671A (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, int32_t ___0_fingerId, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_position, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_deltaPos, float ___3_deltaTime, int32_t ___4_phase, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch__ctor_mFF02AA009E80BDF1E6F9B24D58A4378E59D0671A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch__ctor_mFF02AA009E80BDF1E6F9B24D58A4378E59D0671A_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_fingerId), (&___1_position), (&___2_deltaPos), (&___3_deltaTime), (&___4_phase));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch__ctor_mFF02AA009E80BDF1E6F9B24D58A4378E59D0671A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48377));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48378));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48379));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48380));
 		int32_t L_0 = ___0_fingerId;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48381));
 		AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_inline(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48381));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:50>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48382));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_position;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48383));
 		AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_inline(__this, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48383));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48384));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___2_deltaPos;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48385));
 		AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_inline(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48385));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:52>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48386));
 		float L_3 = ___3_deltaTime;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48387));
 		AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_inline(__this, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48387));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48388));
 		int32_t L_4 = ___4_phase;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48389));
 		AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_inline(__this, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48389));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:54>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48390));
 		return;
 	}
 }
@@ -5951,79 +4627,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppUITouch_ToString_mFBD069948FB80A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_ToString_mFBD069948FB80AB2D13F0051D7DF00198C33172E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8EFCD8996FFED87B64BA4622D8DC28D4327DABD1);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(AppUITouch_ToString_mFBD069948FB80AB2D13F0051D7DF00198C33172E_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_ToString_mFBD069948FB80AB2D13F0051D7DF00198C33172E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48391));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48392));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48393));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:62>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48394));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48395));
 		int32_t L_2;
 		L_2 = AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48395));
 		int32_t L_3 = L_2;
 		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
 		NullCheck(L_1);
 		ArrayElementTypeCheck (L_1, L_4);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48396));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48396));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = L_6;
 		RuntimeObject* L_8 = Box(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var, &L_7);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_8);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48397));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
 		L_10 = AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48397));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = L_10;
 		RuntimeObject* L_12 = Box(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var, &L_11);
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_12);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_9;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48398));
 		float L_14;
 		L_14 = AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48398));
 		float L_15 = L_14;
 		RuntimeObject* L_16 = Box(il2cpp_defaults.single_class, &L_15);
 		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_16);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_16);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = L_13;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48399));
 		int32_t L_18;
 		L_18 = AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48399));
 		int32_t L_19 = L_18;
 		RuntimeObject* L_20 = Box(TouchPhase_t54E0A1AF80465997849420A72317B733E1D49A9E_il2cpp_TypeInfo_var, &L_19);
 		NullCheck(L_17);
 		ArrayElementTypeCheck (L_17, L_20);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_20);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48400));
 		String_t* L_21;
 		L_21 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral8EFCD8996FFED87B64BA4622D8DC28D4327DABD1, L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48400));
 		V_0 = L_21;
 		goto IL_005a;
 	}
@@ -6031,7 +4686,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppUITouch_ToString_mFBD069948FB80A
 IL_005a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:63>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48401));
 		String_t* L_22 = V_0;
 		return L_22;
 	}
@@ -6056,21 +4710,8 @@ IL2CPP_EXTERN_C  String_t* AppUITouch_ToString_mFBD069948FB80AB2D13F0051D7DF0019
 // Method Definition Index: 54330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902 (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48402));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48403));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:14>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48404));
 		float L_0 = __this->___U3CdeltaMagnificationU3Ek__BackingField;
 		return L_0;
 	}
@@ -6087,30 +4728,13 @@ IL2CPP_EXTERN_C  float PinchGesture_get_deltaMagnification_m8770646E7756E5795447
 // Method Definition Index: 54331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PinchGesture_get_scrollDelta_mCFC29520746362B85F31939039E48B3592E5AC14 (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_get_scrollDelta_mCFC29520746362B85F31939039E48B3592E5AC14_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_get_scrollDelta_mCFC29520746362B85F31939039E48B3592E5AC14_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_get_scrollDelta_mCFC29520746362B85F31939039E48B3592E5AC14_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48405));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48406));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:22>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48407));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48408));
 		float L_0;
 		L_0 = PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48408));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48409));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (0.0f), ((float)il2cpp_codegen_multiply(((-L_0)), (50.0f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48409));
 		return L_1;
 	}
 }
@@ -6126,21 +4750,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PinchGesture_
 // Method Definition Index: 54332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48410));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48411));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:27>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48412));
 		int32_t L_0 = __this->___U3CstateU3Ek__BackingField;
 		return L_0;
 	}
@@ -6157,31 +4768,14 @@ IL2CPP_EXTERN_C  int32_t PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214B
 // Method Definition Index: 54333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28FE (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, float ___0_deltaMagnification, int32_t ___1_state, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28FE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28FE_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_deltaMagnification), (&___1_state));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28FE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48413));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48414));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48415));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48416));
 		int32_t L_0 = ___1_state;
 		__this->___U3CstateU3Ek__BackingField = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:37>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48417));
 		float L_1 = ___0_deltaMagnification;
 		__this->___U3CdeltaMagnificationU3Ek__BackingField = L_1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48418));
 		return;
 	}
 }
@@ -6195,51 +4789,26 @@ IL2CPP_EXTERN_C  void PinchGesture__ctor_m33EB173398C050C2BCF89A57D7DDFD718E6D28
 // Method Definition Index: 54334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7 (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 ___0_other, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48419));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48420));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48421));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48422));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48423));
 		float L_0;
 		L_0 = PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48423));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48424));
 		float L_1;
 		L_1 = PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48424));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48425));
 		bool L_2;
 		L_2 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48425));
 		if (!L_2)
 		{
 			goto IL_0026;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48426));
 		int32_t L_3;
 		L_3 = PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48426));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48427));
 		int32_t L_4;
 		L_4 = PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48427));
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_4))? 1 : 0);
 		goto IL_0027;
 	}
@@ -6258,7 +4827,6 @@ IL_0027:
 IL_002a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:48>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48428));
 		bool L_5 = V_0;
 		return L_5;
 	}
@@ -6278,26 +4846,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_Equals_mE9D591C5571BE6101A9
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_Equals_mE9D591C5571BE6101A9ABAB44B2D599117DDA74B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_Equals_mE9D591C5571BE6101A9ABAB44B2D599117DDA74B_RuntimeMethod_var);
 	PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_Equals_mE9D591C5571BE6101A9ABAB44B2D599117DDA74B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48429));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48430));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48431));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:57>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48432));
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_il2cpp_TypeInfo_var)))
 		{
@@ -6308,10 +4865,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_Equals_mE9D591C5571BE6101A9
 		RuntimeObject* L_1 = ___0_obj;
 		V_0 = ((*(PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72*)UnBox(L_1, PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_il2cpp_TypeInfo_var)));
 		PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48433));
 		bool L_3;
 		L_3 = PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48433));
 		G_B3_0 = ((int32_t)(L_3));
 		goto IL_001a;
 	}
@@ -6330,7 +4885,6 @@ IL_001a:
 IL_001d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:58>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48434));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -6352,33 +4906,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PinchGesture_GetHashCode_m9BA915B910C
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_GetHashCode_m9BA915B910C67102FC1A3C1F24E07215DB5D950D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_GetHashCode_m9BA915B910C67102FC1A3C1F24E07215DB5D950D_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_GetHashCode_m9BA915B910C67102FC1A3C1F24E07215DB5D950D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48435));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48436));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48437));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:66>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48438));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48439));
 		float L_0;
 		L_0 = PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48439));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48440));
 		int32_t L_1;
 		L_1 = PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48440));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48441));
 		il2cpp_codegen_runtime_class_init_inline(HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1(L_0, L_1, HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48441));
 		V_0 = L_2;
 		goto IL_0015;
 	}
@@ -6386,7 +4925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PinchGesture_GetHashCode_m9BA915B910C
 IL_0015:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:67>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48442));
 		int32_t L_3 = V_0;
 		return L_3;
 	}
@@ -6403,27 +4941,12 @@ IL2CPP_EXTERN_C  int32_t PinchGesture_GetHashCode_m9BA915B910C67102FC1A3C1F24E07
 // Method Definition Index: 54337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_op_Equality_m86244286C40D12FE197859E4F691167CF22487C3 (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 ___0_left, PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_op_Equality_m86244286C40D12FE197859E4F691167CF22487C3_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_op_Equality_m86244286C40D12FE197859E4F691167CF22487C3_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_op_Equality_m86244286C40D12FE197859E4F691167CF22487C3_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48443));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48444));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48445));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:77>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48446));
 		PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48447));
 		bool L_1;
 		L_1 = PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48447));
 		V_0 = L_1;
 		goto IL_000c;
 	}
@@ -6431,7 +4954,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_op_Equality_m86244286C40D12
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:78>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48448));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -6439,27 +4961,12 @@ IL_000c:
 // Method Definition Index: 54338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_op_Inequality_m9888D158201DC9F5EC11CBA7793DECB8E2C18376 (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 ___0_left, PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_op_Inequality_m9888D158201DC9F5EC11CBA7793DECB8E2C18376_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_op_Inequality_m9888D158201DC9F5EC11CBA7793DECB8E2C18376_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_op_Inequality_m9888D158201DC9F5EC11CBA7793DECB8E2C18376_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48449));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48450));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48451));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:88>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48452));
 		PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72 L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48453));
 		bool L_1;
 		L_1 = PinchGesture_Equals_m8007823B2A6CE84DC3ECD1ABB77FEE70C91CA0B7((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48453));
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		goto IL_000f;
 	}
@@ -6467,7 +4974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PinchGesture_op_Inequality_m9888D158201D
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:89>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48454));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -6479,37 +4985,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PinchGesture_ToString_m2D947C0783E4
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GestureRecognizerState_tBA0A63BBD9EC8388C2E281EF87447DA63C505B40_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_ToString_m2D947C0783E4C4151E82C9756E5A73C997746CBC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral359ED085AD25A54769B72895D988A4163B61F680);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(PinchGesture_ToString_m2D947C0783E4C4151E82C9756E5A73C997746CBC_RuntimeMethod_var);
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_ToString_m2D947C0783E4C4151E82C9756E5A73C997746CBC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48455));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48456));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48457));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48458));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48459));
 		float L_0;
 		L_0 = PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48459));
 		float L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.single_class, &L_1);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48460));
 		int32_t L_3;
 		L_3 = PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48460));
 		int32_t L_4 = L_3;
 		RuntimeObject* L_5 = Box(GestureRecognizerState_tBA0A63BBD9EC8388C2E281EF87447DA63C505B40_il2cpp_TypeInfo_var, &L_4);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48461));
 		String_t* L_6;
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral359ED085AD25A54769B72895D988A4163B61F680, L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48461));
 		V_0 = L_6;
 		goto IL_0024;
 	}
@@ -6517,7 +5008,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PinchGesture_ToString_m2D947C0783E4
 IL_0024:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:98>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48462));
 		String_t* L_7 = V_0;
 		return L_7;
 	}
@@ -6550,21 +5040,8 @@ IL2CPP_EXTERN_C  String_t* PinchGesture_ToString_m2D947C0783E4C4151E82C9756E5A73
 // Method Definition Index: 54340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5 (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48463));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48464));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:61>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48465));
 		int32_t L_0 = __this->___U3CfingerIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -6581,21 +5058,8 @@ IL2CPP_EXTERN_C  int32_t TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F
 // Method Definition Index: 54341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69 (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48466));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48467));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:66>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48468));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -6612,21 +5076,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch
 // Method Definition Index: 54342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2 (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48469));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48470));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48471));
 		int32_t L_0 = __this->___U3CtapCountU3Ek__BackingField;
 		return L_0;
 	}
@@ -6643,21 +5094,8 @@ IL2CPP_EXTERN_C  int32_t TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DE
 // Method Definition Index: 54343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48472));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48473));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:76>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48474));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -6674,21 +5112,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch
 // Method Definition Index: 54344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48475));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48476));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:81>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48477));
 		float L_0 = __this->___U3CdeltaTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -6705,21 +5130,8 @@ IL2CPP_EXTERN_C  float TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9
 // Method Definition Index: 54345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5 (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48478));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48479));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:86>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48480));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -6736,47 +5148,26 @@ IL2CPP_EXTERN_C  int32_t TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C
 // Method Definition Index: 54346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, int32_t ___0_fingerId, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_position, int32_t ___2_tapCount, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_deltaPos, float ___4_deltaTime, int32_t ___5_phase, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_fingerId), (&___1_position), (&___2_tapCount), (&___3_deltaPos), (&___4_deltaTime), (&___5_phase));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D74F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48481));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48482));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48483));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:100>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48484));
 		int32_t L_0 = ___0_fingerId;
 		__this->___U3CfingerIdU3Ek__BackingField = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:101>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48485));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_position;
 		__this->___U3CpositionU3Ek__BackingField = L_1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:102>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48486));
 		int32_t L_2 = ___2_tapCount;
 		__this->___U3CtapCountU3Ek__BackingField = L_2;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:103>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48487));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___3_deltaPos;
 		__this->___U3CdeltaPosU3Ek__BackingField = L_3;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:104>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48488));
 		float L_4 = ___4_deltaTime;
 		__this->___U3CdeltaTimeU3Ek__BackingField = L_4;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:105>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48489));
 		int32_t L_5 = ___5_phase;
 		__this->___U3CphaseU3Ek__BackingField = L_5;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:106>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48490));
 		return;
 	}
 }
@@ -6798,21 +5189,8 @@ IL2CPP_EXTERN_C  void TrackPadTouch__ctor_m831794FE80511589C7BF78010A630CDDCD09D
 // Method Definition Index: 54347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05 (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48491));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48492));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:117>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48493));
 		float L_0 = __this->___U3CdeltaMagnificationU3Ek__BackingField;
 		return L_0;
 	}
@@ -6829,30 +5207,13 @@ IL2CPP_EXTERN_C  float MagnificationGesture_get_deltaMagnification_m0E06EB5B67B1
 // Method Definition Index: 54348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 MagnificationGesture_get_scrollDelta_m6E34116EA8B37DF9E7BAA0A79500CA65F39BCFA5 (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_get_scrollDelta_m6E34116EA8B37DF9E7BAA0A79500CA65F39BCFA5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_get_scrollDelta_m6E34116EA8B37DF9E7BAA0A79500CA65F39BCFA5_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_get_scrollDelta_m6E34116EA8B37DF9E7BAA0A79500CA65F39BCFA5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48494));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48495));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:125>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48496));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48497));
 		float L_0;
 		L_0 = MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48497));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48498));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (0.0f), ((float)il2cpp_codegen_multiply(((-L_0)), (50.0f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48498));
 		return L_1;
 	}
 }
@@ -6868,21 +5229,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Magnification
 // Method Definition Index: 54349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48499));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48500));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:130>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48501));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -6899,31 +5247,14 @@ IL2CPP_EXTERN_C  int32_t MagnificationGesture_get_phase_m002F3AE29A717EFD5827795
 // Method Definition Index: 54350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, float ___0_deltaMagnification, int32_t ___1_phase, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_deltaMagnification), (&___1_phase));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA9503FD6C8196C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48502));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48503));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48504));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:139>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48505));
 		int32_t L_0 = ___1_phase;
 		__this->___U3CphaseU3Ek__BackingField = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:140>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48506));
 		float L_1 = ___0_deltaMagnification;
 		__this->___U3CdeltaMagnificationU3Ek__BackingField = L_1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48507));
 		return;
 	}
 }
@@ -6937,51 +5268,26 @@ IL2CPP_EXTERN_C  void MagnificationGesture__ctor_m35F7C10656FA928E584A01C39BA950
 // Method Definition Index: 54351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 ___0_other, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48508));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48509));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48510));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48511));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48512));
 		float L_0;
 		L_0 = MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48512));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48513));
 		float L_1;
 		L_1 = MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48513));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48514));
 		bool L_2;
 		L_2 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48514));
 		if (!L_2)
 		{
 			goto IL_0026;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48515));
 		int32_t L_3;
 		L_3 = MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48515));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48516));
 		int32_t L_4;
 		L_4 = MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48516));
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)L_4))? 1 : 0);
 		goto IL_0027;
 	}
@@ -7000,7 +5306,6 @@ IL_0027:
 IL_002a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:151>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48517));
 		bool L_5 = V_0;
 		return L_5;
 	}
@@ -7020,26 +5325,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_Equals_mB70C966CD21
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_Equals_mB70C966CD21456BC6322FDE619F7B8239BF28BC3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_Equals_mB70C966CD21456BC6322FDE619F7B8239BF28BC3_RuntimeMethod_var);
 	MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_Equals_mB70C966CD21456BC6322FDE619F7B8239BF28BC3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48518));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48519));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48520));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:160>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48521));
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_il2cpp_TypeInfo_var)))
 		{
@@ -7050,10 +5344,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_Equals_mB70C966CD21
 		RuntimeObject* L_1 = ___0_obj;
 		V_0 = ((*(MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105*)UnBox(L_1, MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_il2cpp_TypeInfo_var)));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48522));
 		bool L_3;
 		L_3 = MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48522));
 		G_B3_0 = ((int32_t)(L_3));
 		goto IL_001a;
 	}
@@ -7072,7 +5364,6 @@ IL_001a:
 IL_001d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48523));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -7094,33 +5385,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MagnificationGesture_GetHashCode_mF6A
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_GetHashCode_mF6ADC3EBEB8D8810FCB4877422107971388EDC0C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_GetHashCode_mF6ADC3EBEB8D8810FCB4877422107971388EDC0C_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_GetHashCode_mF6ADC3EBEB8D8810FCB4877422107971388EDC0C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48524));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48525));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48526));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48527));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48528));
 		float L_0;
 		L_0 = MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48528));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48529));
 		int32_t L_1;
 		L_1 = MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48530));
 		il2cpp_codegen_runtime_class_init_inline(HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1(L_0, L_1, HashCode_Combine_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA5A51EC8F8B78DF54970CC40F5844E3958580AD1_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48530));
 		V_0 = L_2;
 		goto IL_0015;
 	}
@@ -7128,7 +5404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MagnificationGesture_GetHashCode_mF6A
 IL_0015:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:170>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48531));
 		int32_t L_3 = V_0;
 		return L_3;
 	}
@@ -7145,27 +5420,12 @@ IL2CPP_EXTERN_C  int32_t MagnificationGesture_GetHashCode_mF6ADC3EBEB8D8810FCB48
 // Method Definition Index: 54354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_op_Equality_m6252C87F897F9787BEAEC62B800454D5175C4EE1 (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 ___0_left, MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_op_Equality_m6252C87F897F9787BEAEC62B800454D5175C4EE1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_op_Equality_m6252C87F897F9787BEAEC62B800454D5175C4EE1_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_op_Equality_m6252C87F897F9787BEAEC62B800454D5175C4EE1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48532));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48533));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48534));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:180>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48535));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48536));
 		bool L_1;
 		L_1 = MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48536));
 		V_0 = L_1;
 		goto IL_000c;
 	}
@@ -7173,7 +5433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_op_Equality_m6252C8
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:181>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48537));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -7181,27 +5440,12 @@ IL_000c:
 // Method Definition Index: 54355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7 (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 ___0_left, MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_op_Inequality_mED494EB3E3EDFA3ADF3C4B8EDBD552193EC924C7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48538));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48539));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48540));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:191>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48541));
 		MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105 L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48542));
 		bool L_1;
 		L_1 = MagnificationGesture_Equals_mD64943901BC7097FD4A9076BFC3CD893349B22CF((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48542));
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		goto IL_000f;
 	}
@@ -7209,7 +5453,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MagnificationGesture_op_Inequality_mED49
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:192>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48543));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -7225,21 +5468,8 @@ IL_000f:
 // Method Definition Index: 54356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48544));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48545));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:203>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48546));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -7256,21 +5486,8 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_ge
 // Method Definition Index: 54357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1 (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48547));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48548));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:208>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48549));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -7287,21 +5504,8 @@ IL2CPP_EXTERN_C  int32_t PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D
 // Method Definition Index: 54358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48550));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48551));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:213>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48552));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -7318,35 +5522,17 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_ge
 // Method Definition Index: 54359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7 (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_deltaPos, int32_t ___2_phase, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_position), (&___1_deltaPos), (&___2_phase));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48553));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48554));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48555));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:223>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48556));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_position;
 		__this->___U3CpositionU3Ek__BackingField = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:224>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48557));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_deltaPos;
 		__this->___U3CdeltaPosU3Ek__BackingField = L_1;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48558));
 		int32_t L_2 = ___2_phase;
 		__this->___U3CphaseU3Ek__BackingField = L_2;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:226>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48559));
 		return;
 	}
 }
@@ -7360,74 +5546,42 @@ IL2CPP_EXTERN_C  void PanGesture__ctor_mC66CA85167760CFC9062E57774383994628B88C7
 // Method Definition Index: 54360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C ___0_other, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48560));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48561));
 	int32_t G_B4_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48562));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:235>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48563));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48564));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48564));
 		V_0 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48565));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48565));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48566));
 		bool L_2;
 		L_2 = Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline((&V_0), L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48566));
 		if (!L_2)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48567));
 		int32_t L_3;
 		L_3 = PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48567));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48568));
 		int32_t L_4;
 		L_4 = PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48568));
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48569));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48569));
 		V_0 = L_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48570));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_inline((&___0_other), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48570));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48571));
 		bool L_7;
 		L_7 = Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline((&V_0), L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48571));
 		G_B4_0 = ((int32_t)(L_7));
 		goto IL_003f;
 	}
@@ -7446,7 +5600,6 @@ IL_003f:
 IL_0042:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:236>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48572));
 		bool L_8 = V_1;
 		return L_8;
 	}
@@ -7466,26 +5619,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_Equals_m70D6888E770F031B4A1E2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_Equals_m70D6888E770F031B4A1E2356264CB31148006EB6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_Equals_m70D6888E770F031B4A1E2356264CB31148006EB6_RuntimeMethod_var);
 	PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_obj));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_Equals_m70D6888E770F031B4A1E2356264CB31148006EB6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48573));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48574));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48575));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:245>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48576));
 		RuntimeObject* L_0 = ___0_obj;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_il2cpp_TypeInfo_var)))
 		{
@@ -7496,10 +5638,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_Equals_m70D6888E770F031B4A1E2
 		RuntimeObject* L_1 = ___0_obj;
 		V_0 = ((*(PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C*)UnBox(L_1, PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_il2cpp_TypeInfo_var)));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48577));
 		bool L_3;
 		L_3 = PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48577));
 		G_B3_0 = ((int32_t)(L_3));
 		goto IL_001a;
 	}
@@ -7518,7 +5658,6 @@ IL_001a:
 IL_001d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:246>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48578));
 		bool L_4 = V_1;
 		return L_4;
 	}
@@ -7540,37 +5679,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PanGesture_GetHashCode_mBF06B407B6C86
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_Combine_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m74ACA935E33683CBCDFA661BA7354A64E9C70341_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_GetHashCode_mBF06B407B6C868C16AC7AF579B5A3F7A0682C7EC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_GetHashCode_mBF06B407B6C868C16AC7AF579B5A3F7A0682C7EC_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_GetHashCode_mBF06B407B6C868C16AC7AF579B5A3F7A0682C7EC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48579));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48580));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48581));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:254>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48582));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48583));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48583));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48584));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48584));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48585));
 		int32_t L_2;
 		L_2 = PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48585));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48586));
 		il2cpp_codegen_runtime_class_init_inline(HashCode_t9CF0E862CF73DB9FE67D8DBBD1F4C46330F88AE3_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = HashCode_Combine_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m74ACA935E33683CBCDFA661BA7354A64E9C70341(L_0, L_1, L_2, HashCode_Combine_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m74ACA935E33683CBCDFA661BA7354A64E9C70341_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48586));
 		V_0 = L_3;
 		goto IL_001b;
 	}
@@ -7578,7 +5700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PanGesture_GetHashCode_mBF06B407B6C86
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:255>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48587));
 		int32_t L_4 = V_0;
 		return L_4;
 	}
@@ -7595,27 +5716,12 @@ IL2CPP_EXTERN_C  int32_t PanGesture_GetHashCode_mBF06B407B6C868C16AC7AF579B5A3F7
 // Method Definition Index: 54363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_op_Equality_mA3B5C89DBA25D4A43B72AC6601F4C4DDBCCFFE65 (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C ___0_left, PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_op_Equality_mA3B5C89DBA25D4A43B72AC6601F4C4DDBCCFFE65_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_op_Equality_mA3B5C89DBA25D4A43B72AC6601F4C4DDBCCFFE65_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_op_Equality_mA3B5C89DBA25D4A43B72AC6601F4C4DDBCCFFE65_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48588));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48589));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48590));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:265>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48591));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48592));
 		bool L_1;
 		L_1 = PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48592));
 		V_0 = L_1;
 		goto IL_000c;
 	}
@@ -7623,7 +5729,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_op_Equality_mA3B5C89DBA25D4A4
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:266>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48593));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -7631,27 +5736,12 @@ IL_000c:
 // Method Definition Index: 54364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C ___0_left, PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C ___1_right, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_left), (&___1_right));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_op_Inequality_mB3CD5972E3B7D244D43A3229F038D98183197B2C_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48594));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48595));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48596));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:276>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48597));
 		PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C L_0 = ___1_right;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48598));
 		bool L_1;
 		L_1 = PanGesture_Equals_m5A4980E6F37DD49CF7715D49243462F4B7AEF3FF((&___0_left), L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48598));
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		goto IL_000f;
 	}
@@ -7659,7 +5749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PanGesture_op_Inequality_mB3CD5972E3B7D2
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:277>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48599));
 		bool L_2 = V_0;
 		return L_2;
 	}
@@ -7683,32 +5772,16 @@ IL_000f:
 // Method Definition Index: 54365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_Capitalize_mF64C50F86733C33C0210D3D70641DDC61D2773A3 (String_t* ___0_arg, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringExtensions_Capitalize_mF64C50F86733C33C0210D3D70641DDC61D2773A3_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(StringExtensions_Capitalize_mF64C50F86733C33C0210D3D70641DDC61D2773A3_RuntimeMethod_var);
 	bool V_0 = false;
 	String_t* V_1 = NULL;
 	Il2CppChar V_2 = 0x0;
 	String_t* V_3 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_arg));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StringExtensions_Capitalize_mF64C50F86733C33C0210D3D70641DDC61D2773A3_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48600));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48601));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48602));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/StringExtensions.cs:17>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48603));
 		String_t* L_0 = ___0_arg;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48604));
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48604));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48605));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -7717,7 +5790,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_Capitalize_mF64C50
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/StringExtensions.cs:18>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48606));
 		String_t* L_3 = ___0_arg;
 		V_1 = L_3;
 		goto IL_003c;
@@ -7726,42 +5798,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringExtensions_Capitalize_mF64C50
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/StringExtensions.cs:20>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48607));
 		String_t* L_4 = ___0_arg;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48608));
 		NullCheck(L_4);
 		Il2CppChar L_5;
 		L_5 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_4, 0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48608));
 		V_2 = L_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48609));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		String_t* L_6;
 		L_6 = Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C((&V_2), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48609));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48610));
 		NullCheck(L_6);
 		String_t* L_7;
 		L_7 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48610));
 		String_t* L_8 = ___0_arg;
 		V_3 = L_8;
 		String_t* L_9 = V_3;
 		String_t* L_10 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48611));
 		NullCheck(L_10);
 		int32_t L_11;
 		L_11 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48611));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48612));
 		NullCheck(L_9);
 		String_t* L_12;
 		L_12 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_9, 1, ((int32_t)il2cpp_codegen_subtract(L_11, 1)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48612));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48613));
 		String_t* L_13;
 		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48613));
 		V_1 = L_13;
 		goto IL_003c;
 	}
@@ -7769,7 +5828,6 @@ IL_000f:
 IL_003c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/StringExtensions.cs:21>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48614));
 		String_t* L_14 = V_1;
 		return L_14;
 	}
@@ -7791,22 +5849,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TimeUtils_GetCurrentTime_m17C208507A31C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var);
 	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float V_1 = 0.0f;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48615));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48616));
 	float G_B4_0 = 0.0f;
 	float G_B6_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48617));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:25>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:26>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:27>
@@ -7814,44 +5865,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TimeUtils_GetCurrentTime_m17C208507A31C
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:29>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:30>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48618));
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_0 = ((TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_StaticFields*)il2cpp_codegen_static_fields_for(TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_il2cpp_TypeInfo_var))->___timeOverride;
 		V_0 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48619));
 		bool L_1;
 		L_1 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&V_0), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48619));
 		if (L_1)
 		{
 			goto IL_0025;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48620));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48620));
 		if (L_2)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48621));
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48621));
 		G_B4_0 = L_3;
 		goto IL_0023;
 	}
 
 IL_001e:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48622));
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48622));
 		G_B4_0 = L_4;
 	}
 
@@ -7863,10 +5905,8 @@ IL_0023:
 
 IL_0025:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48623));
 		float L_5;
 		L_5 = Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_inline((&V_0), Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48623));
 		G_B6_0 = L_5;
 	}
 
@@ -7879,7 +5919,6 @@ IL_002c:
 IL_002f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:32>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48624));
 		float L_6 = V_1;
 		return L_6;
 	}
@@ -7887,41 +5926,22 @@ IL_002f:
 // Method Definition Index: 54367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 TimeUtils_GetCurrentTimeVector_mC91398EE865BFFA887CDA069AE045C7C69A0131D (const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeUtils_GetCurrentTimeVector_mC91398EE865BFFA887CDA069AE045C7C69A0131D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TimeUtils_GetCurrentTimeVector_mC91398EE865BFFA887CDA069AE045C7C69A0131D_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TimeUtils_GetCurrentTimeVector_mC91398EE865BFFA887CDA069AE045C7C69A0131D_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48625));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48626));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48627));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48628));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48629));
 		float L_0;
 		L_0 = TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48629));
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:50>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48630));
 		float L_1 = V_0;
 		float L_2 = V_0;
 		float L_3 = V_0;
 		float L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48631));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_5), ((float)(L_1/(20.0f))), L_2, ((float)il2cpp_codegen_multiply(L_3, (2.0f))), ((float)il2cpp_codegen_multiply(L_4, (3.0f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48631));
 		V_1 = L_5;
 		goto IL_0025;
 	}
@@ -7929,7 +5949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 IL_0025:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48632));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6 = V_1;
 		return L_6;
 	}
@@ -7951,42 +5970,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceUIDocument_OnEnable_m3736F9542
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisUIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77_m50669A283DE0DEFD0FFB1F42B965E6FCD460901F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_OnEnable_m3736F9542B4478A7B92621ACA6D9829F7553C962_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(WorldSpaceUIDocument_OnEnable_m3736F9542B4478A7B92621ACA6D9829F7553C962_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WorldSpaceUIDocument_OnEnable_m3736F9542B4478A7B92621ACA6D9829F7553C962_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48633));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48634));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48635));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48636));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48637));
 		UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* L_0;
 		L_0 = Component_GetComponent_TisUIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77_m50669A283DE0DEFD0FFB1F42B965E6FCD460901F(__this, Component_GetComponent_TisUIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77_m50669A283DE0DEFD0FFB1F42B965E6FCD460901F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48637));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48638));
 		NullCheck(L_0);
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_1;
 		L_1 = UIDocument_get_panelSettings_m0E2074906AFBB555AA8B96FD352252E3A43E7639(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48638));
 		__this->___m_PanelSettings = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PanelSettings), (void*)L_1);
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48639));
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_2 = __this->___m_PanelSettings;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48640));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48640));
 		V_0 = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48641));
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -7995,22 +5997,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceUIDocument_OnEnable_m3736F9542
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:46>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48642));
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_5 = __this->___m_PanelSettings;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48643));
 		Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA* L_6 = (Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA*)il2cpp_codegen_object_new(Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA_il2cpp_TypeInfo_var);
 		Func_2__ctor_mAB215938138B4DAC89DA24CC6B00066F2942477C(L_6, __this, (intptr_t)((void*)WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48643));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48644));
 		NullCheck(L_5);
 		PanelSettings_SetScreenToPanelSpaceFunction_mD50D5285FA3692C92D9072894FDAD36A5D320A57(L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48644));
 	}
 
 IL_0039:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48645));
 		return;
 	}
 }
@@ -8021,28 +6017,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceUIDocument_OnDisable_m1447EEE1
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_OnDisable_m1447EEE1713C38857C6476F103E718C5BF6E92BC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(WorldSpaceUIDocument_OnDisable_m1447EEE1713C38857C6476F103E718C5BF6E92BC_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WorldSpaceUIDocument_OnDisable_m1447EEE1713C38857C6476F103E718C5BF6E92BC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48646));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48647));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48648));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48649));
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_0 = __this->___m_PanelSettings;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48650));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48650));
 		V_0 = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48651));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -8051,18 +6035,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceUIDocument_OnDisable_m1447EEE1
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:52>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48652));
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_3 = __this->___m_PanelSettings;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48653));
 		NullCheck(L_3);
 		PanelSettings_SetScreenToPanelSpaceFunction_mD50D5285FA3692C92D9072894FDAD36A5D320A57(L_3, (Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA*)NULL, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48653));
 	}
 
 IL_001d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48654));
 		return;
 	}
 }
@@ -8073,18 +6053,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var);
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_1;
@@ -8100,12 +6072,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	memset((&V_7), 0, sizeof(V_7));
 	bool V_8 = false;
 	bool V_9 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_screenPosition));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WorldSpaceUIDocument_ScreenCoordinatesToRenderTexture_m29B44AD42B13D0E01C910DF1244AA75FC4C3CEAD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48655));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48656));
 	int32_t G_B3_0 = 0;
 	Func_1_t4E0564DFA4E458E59B98ED3FC0D7B208CF6EB2FF* G_B7_0 = NULL;
 	Func_1_t4E0564DFA4E458E59B98ED3FC0D7B208CF6EB2FF* G_B6_0 = NULL;
@@ -8113,14 +6079,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	memset((&G_B8_0), 0, sizeof(G_B8_0));
 	int32_t G_B14_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48657));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:57>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48658));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48659));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), (std::numeric_limits<float>::quiet_NaN()), (std::numeric_limits<float>::quiet_NaN()), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48659));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:59>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48660));
 		Func_1_t4E0564DFA4E458E59B98ED3FC0D7B208CF6EB2FF* L_0 = __this->___customRayFunc;
 		if (L_0)
 		{
@@ -8129,11 +6090,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = __this->___targetCamera;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48661));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48661));
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		goto IL_002b;
 	}
@@ -8146,7 +6105,6 @@ IL_002a:
 IL_002b:
 	{
 		V_6 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48662));
 		bool L_3 = V_6;
 		if (!L_3)
 		{
@@ -8155,7 +6113,6 @@ IL_002b:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:60>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48663));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 		V_7 = L_4;
 		goto IL_0132;
@@ -8164,16 +6121,12 @@ IL_002b:
 IL_0039:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:62>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48664));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48665));
 		int32_t L_5;
 		L_5 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48665));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_screenPosition;
 		float L_7 = L_6.___y;
 		(&___0_screenPosition)->___y = ((float)il2cpp_codegen_subtract(((float)L_5), L_7));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:63>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48666));
 		Func_1_t4E0564DFA4E458E59B98ED3FC0D7B208CF6EB2FF* L_8 = __this->___customRayFunc;
 		Func_1_t4E0564DFA4E458E59B98ED3FC0D7B208CF6EB2FF* L_9 = L_8;
 		if (L_9)
@@ -8186,26 +6139,20 @@ IL_0039:
 	{
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10 = __this->___targetCamera;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___0_screenPosition;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48667));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_11, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48667));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48668));
 		NullCheck(L_10);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_13;
 		L_13 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_10, L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48668));
 		G_B8_0 = L_13;
 		goto IL_006f;
 	}
 
 IL_006a:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48669));
 		NullCheck(G_B7_0);
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_14;
 		L_14 = Func_1_Invoke_m2EF715F9C42C6AA1C20516DB11BE3F382866D591_inline(G_B7_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48669));
 		G_B8_0 = L_14;
 	}
 
@@ -8213,21 +6160,15 @@ IL_006f:
 	{
 		V_1 = G_B8_0;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:65>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48670));
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_15 = V_1;
 		float L_16 = __this->___maxDistance;
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_17 = __this->___layerMask;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48671));
 		int32_t L_18;
 		L_18 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48671));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48672));
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_19;
 		L_19 = Physics_Raycast_m34AC1210E893A9EF969BD2C7104B10BE5B580025(L_15, (&V_2), L_16, L_18, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48672));
 		V_8 = (bool)((((int32_t)L_19) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48673));
 		bool L_20 = V_8;
 		if (!L_20)
 		{
@@ -8236,7 +6177,6 @@ IL_006f:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:66>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48674));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_0;
 		V_7 = L_21;
 		goto IL_0132;
@@ -8245,34 +6185,23 @@ IL_006f:
 IL_009a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:68>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48675));
 		PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* L_22 = __this->___m_PanelSettings;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48676));
 		NullCheck(L_22);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23;
 		L_23 = PanelSettings_get_targetTexture_m56D90849783146127F88DFE296ADD1B69AFB053C_inline(L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48676));
 		V_3 = L_23;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:69>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48677));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48678));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
 		L_24 = RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155((&V_2), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48678));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48679));
 		NullCheck(L_24);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_25;
 		L_25 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(L_24, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48679));
 		V_4 = L_25;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48680));
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_26 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48681));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_27;
 		L_27 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_26, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48681));
 		if (!L_27)
 		{
 			goto IL_00df;
@@ -8280,16 +6209,12 @@ IL_009a:
 	}
 	{
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_28 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48682));
 		NullCheck(L_28);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29;
 		L_29 = Renderer_get_sharedMaterial_mA2E0CA0A564617FFC3E0E50947C6300082C35F81(L_28, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48682));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48683));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
 		L_30 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_29, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48683));
 		if (!L_30)
 		{
 			goto IL_00df;
@@ -8297,22 +6222,16 @@ IL_009a:
 	}
 	{
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_31 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48684));
 		NullCheck(L_31);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_32;
 		L_32 = Renderer_get_sharedMaterial_mA2E0CA0A564617FFC3E0E50947C6300082C35F81(L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48684));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48685));
 		NullCheck(L_32);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_33;
 		L_33 = Material_get_mainTexture_mC6C6B860B44321F0342AEFA0DD7702384334F37D(L_32, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48685));
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_34 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48686));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
 		L_35 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_33, L_34, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48686));
 		G_B14_0 = ((int32_t)(L_35));
 		goto IL_00e0;
 	}
@@ -8325,7 +6244,6 @@ IL_00df:
 IL_00e0:
 	{
 		V_9 = (bool)G_B14_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48687));
 		bool L_36 = V_9;
 		if (!L_36)
 		{
@@ -8334,7 +6252,6 @@ IL_00e0:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:72>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48688));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = V_0;
 		V_7 = L_37;
 		goto IL_0132;
@@ -8343,43 +6260,32 @@ IL_00e0:
 IL_00eb:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:74>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48689));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48690));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
 		L_38 = RaycastHit_get_textureCoord_m71F12781E6A806033B42B2D6D1D42DDA2069FE6D((&V_2), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48690));
 		V_5 = L_38;
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:77>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48691));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = V_5;
 		float L_40 = L_39.___y;
 		(&V_5)->___y = ((float)il2cpp_codegen_subtract((1.0f), L_40));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:79>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48692));
 		float* L_41 = (float*)(&(&V_5)->___x);
 		float* L_42 = L_41;
 		float L_43 = *((float*)L_42);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_44 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48693));
 		NullCheck(L_44);
 		int32_t L_45;
 		L_45 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_44);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48693));
 		*((float*)L_42) = (float)((float)il2cpp_codegen_multiply(L_43, ((float)L_45)));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:80>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48694));
 		float* L_46 = (float*)(&(&V_5)->___y);
 		float* L_47 = L_46;
 		float L_48 = *((float*)L_47);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_49 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48695));
 		NullCheck(L_49);
 		int32_t L_50;
 		L_50 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_49);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48695));
 		*((float*)L_47) = (float)((float)il2cpp_codegen_multiply(L_48, ((float)L_50)));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:82>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48696));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51 = V_5;
 		V_7 = L_51;
 		goto IL_0132;
@@ -8388,7 +6294,6 @@ IL_00eb:
 IL_0132:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:83>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48697));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = V_7;
 		return L_52;
 	}
@@ -8396,25 +6301,10 @@ IL_0132:
 // Method Definition Index: 54371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldSpaceUIDocument__ctor_m104661CBFC7F17A274FEB37810275549C25BEE13 (WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument__ctor_m104661CBFC7F17A274FEB37810275549C25BEE13_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WorldSpaceUIDocument_tF8C9C54A217D771DE46D5BE952C7ED3BD58D4A5D_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(WorldSpaceUIDocument__ctor_m104661CBFC7F17A274FEB37810275549C25BEE13_RuntimeMethod_var);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WorldSpaceUIDocument__ctor_m104661CBFC7F17A274FEB37810275549C25BEE13_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48698));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48699));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/WorldSpaceUIDocument.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48700));
 		__this->___maxDistance = (1000.0f);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48701));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48701));
 		return;
 	}
 }
@@ -8459,16 +6349,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AndroidAppUI_get_scaledDens
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_scaledDensity_m6DCA7E63BC225974A635E21993AF240B6E4AB5BB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48271));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48272));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48273));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		float L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CscaledDensityU3Ek__BackingField;
 		return L_0;
@@ -8480,17 +6365,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Platform_set_panGestureChang
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_panGestureChangedThisFrame_m438FD28A1CB557C77E128D7EF02B09D45EE7DB31_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48102));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48103));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:667>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48104));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CpanGestureChangedThisFrameU3Ek__BackingField = L_0;
@@ -8503,17 +6382,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Platform_set_magnificationGe
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_magnificationGestureChangedThisFrame_mC9E7F5F76BD6E3F0134B683BC7EFC0D66F901DCA_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48108));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48109));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:673>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48110));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CmagnificationGestureChangedThisFrameU3Ek__BackingField = L_0;
@@ -8526,16 +6399,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Platform_get_isTouchGestureS
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_get_isTouchGestureSupported_m5C42718E4209173E63BF3C89C3D56A53F3DCA9BE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48145));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48146));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48147));
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		bool L_0 = ((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CisTouchGestureSupportedU3Ek__BackingField;
 		return L_0;
@@ -8547,17 +6415,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Platform_set_isTouchGestureS
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Platform_set_isTouchGestureSupported_mFD7260D69A8FD49A0876A874F5EDA1E3F94B94DB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48148));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48149));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48150));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var);
 		((Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_StaticFields*)il2cpp_codegen_static_fields_for(Platform_tDBAB0E0F74BA9451AB7E5B2BFC9ED3F127A4C987_il2cpp_TypeInfo_var))->___U3CisTouchGestureSupportedU3Ek__BackingField = L_0;
@@ -8567,20 +6429,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Platform_set_isTouchGestureS
 // Method Definition Index: 54345
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_phase_m37242C6387870B1D15A2155845123C1D3FE131F5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48478));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48479));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:86>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48480));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -8588,20 +6438,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_phase_m
 // Method Definition Index: 54340
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_fingerId_m74FF5A8361BDFE5E08587F04C4F093EE51229EA5_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48463));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48464));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:61>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48465));
 		int32_t L_0 = __this->___U3CfingerIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -8609,20 +6447,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_fingerI
 // Method Definition Index: 54341
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_position_mE18A52D6590B2F539FBDD1B46F8509C477BF7F69_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48466));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48467));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:66>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48468));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -8633,19 +6459,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12465));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12466));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12467));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12468));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
 		V_0 = L_0;
 		goto IL_0009;
@@ -8653,7 +6472,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0009:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12469));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
 		return L_1;
 	}
@@ -8661,22 +6479,9 @@ IL_0009:
 // Method Definition Index: 47676
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12398));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12399));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12400));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12401));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
@@ -8685,18 +6490,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
 		float L_7 = L_6.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12402));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12402));
 		V_0 = L_8;
 		goto IL_0023;
 	}
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12403));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_0;
 		return L_9;
 	}
@@ -8708,34 +6510,23 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12341));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12342));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12343));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12344));
 		float L_0 = __this->___x;
 		float L_1 = __this->___x;
 		float L_2 = __this->___y;
 		float L_3 = __this->___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12345));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_4;
 		L_4 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12345));
 		V_0 = ((float)L_4);
 		goto IL_0026;
 	}
 
 IL_0026:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12346));
 		float L_5 = V_0;
 		return L_5;
 	}
@@ -8747,48 +6538,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12352));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12353));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12354));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12355));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
 		float L_3 = L_2.___x;
 		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12356));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
 		float L_5 = L_4.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
 		float L_7 = L_6.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12357));
 		float L_8 = V_0;
 		float L_9 = V_0;
 		float L_10 = V_1;
 		float L_11 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12358));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_12;
 		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, L_9)), ((float)il2cpp_codegen_multiply(L_10, L_11))))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12358));
 		V_2 = ((float)L_12);
 		goto IL_002e;
 	}
 
 IL_002e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12359));
 		float L_13 = V_2;
 		return L_13;
 	}
@@ -8796,35 +6574,15 @@ IL_002e:
 // Method Definition Index: 47662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12283));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12284));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12285));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12286));
 		float L_0 = __this->___x;
 		float L_1 = __this->___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12287));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12287));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12288));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12289));
 		Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12289));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12290));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = V_0;
 		V_1 = L_2;
 		goto IL_0020;
@@ -8832,7 +6590,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 
 IL_0020:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12291));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = V_1;
 		return L_3;
 	}
@@ -8840,20 +6597,8 @@ IL_0020:
 // Method Definition Index: 47668
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12336));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12337));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12338));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12339));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_rhs;
@@ -8868,7 +6613,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462
 
 IL_001f:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12340));
 		float L_8 = V_0;
 		return L_8;
 	}
@@ -8876,27 +6620,11 @@ IL_001f:
 // Method Definition Index: 47656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12230));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12231));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12232));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12233));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12234));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12235));
 		return;
 	}
 }
@@ -8906,16 +6634,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AndroidAppUI_get_isNightMode
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_isNightModeDefined_m0AFA598144D6DE60EE1FA6F688CDAD83A11A193E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48301));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48302));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48303));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeDefinedU3Ek__BackingField;
 		return L_0;
@@ -8927,16 +6650,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AndroidAppUI_get_isNightMode
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_get_isNightModeEnabled_m1FE4F8040346FBF55A472E6DDA11212ACDBD6A3A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48295));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48296));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48297));
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		bool L_0 = ((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeEnabledU3Ek__BackingField;
 		return L_0;
@@ -8948,50 +6666,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD01
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12053));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12054));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12055));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12056));
 		float L_0 = ___1_b;
 		float L_1 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12057));
 		float L_2;
 		L_2 = fabsf(((float)il2cpp_codegen_subtract(L_0, L_1)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12057));
 		float L_3 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12058));
 		float L_4;
 		L_4 = fabsf(L_3);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12058));
 		float L_5 = ___1_b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12059));
 		float L_6;
 		L_6 = fabsf(L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12059));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12060));
 		float L_7;
 		L_7 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12060));
 		float L_8 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12061));
 		float L_9;
 		L_9 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_multiply((9.99999997E-07f), L_7)), ((float)il2cpp_codegen_multiply(L_8, (8.0f))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12061));
 		V_0 = (bool)((((float)L_2) < ((float)L_9))? 1 : 0);
 		goto IL_0035;
 	}
 
 IL_0035:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12062));
 		bool L_10 = V_0;
 		return L_10;
 	}
@@ -9002,17 +6702,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_scaledDensi
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_scaledDensity_m6D94DEA091EF76BB082A84ABBC1D871A40E900F0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48274));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48275));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48276));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CscaledDensityU3Ek__BackingField = L_0;
@@ -9025,17 +6719,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_density_m41
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_density_m41A696EB8AA3165DC1FE3519457F806BB2AB6190_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48280));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48281));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48282));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityU3Ek__BackingField = L_0;
@@ -9048,17 +6736,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_densityDPI_
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_densityDPI_mAAAEE0F9C8A15E92931A943C42172694E73AA708_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48286));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48287));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:49>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48288));
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CdensityDPIU3Ek__BackingField = L_0;
@@ -9071,17 +6753,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_fontScale_m
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_fontScale_mC0C74AE69F77EA1A023EE4E52565A0BFA280DC04_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48292));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48293));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:51>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48294));
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CfontScaleU3Ek__BackingField = L_0;
@@ -9094,17 +6770,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_isNightMode
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_isNightModeEnabled_m8ED974EBBBB06A3E55AF646C4AFC018EC66A9EF6_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48298));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48299));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:53>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48300));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeEnabledU3Ek__BackingField = L_0;
@@ -9117,17 +6787,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_isNightMode
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AndroidAppUI_set_isNightModeDefined_m21234CCD1595FE6DF075A9FB9E3E26384614EDDE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48304));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48305));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Android/Platform.cs:55>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48306));
 		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var);
 		((AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_StaticFields*)il2cpp_codegen_static_fields_for(AndroidAppUI_t7180B137312A542026504C409996E2BE0B0F083E_il2cpp_TypeInfo_var))->___U3CisNightModeDefinedU3Ek__BackingField = L_0;
@@ -9137,20 +6801,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidAppUI_set_isNightMode
 // Method Definition Index: 54318
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_fingerId_m64CE0B8B04B63F23DA92DE054CC22A24B34ED291_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48347));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48348));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:16>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48349));
 		int32_t L_0 = __this->___U3CfingerIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -9158,21 +6810,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AppUITouch_get_fingerId_m
 // Method Definition Index: 54319
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_fingerId_m54E3682A6AE6A4025EAB6596716E42A113548BAE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48350));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48351));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:16>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48352));
 		int32_t L_0 = ___0_value;
 		__this->___U3CfingerIdU3Ek__BackingField = L_0;
 		return;
@@ -9181,20 +6820,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_fingerId_m54E
 // Method Definition Index: 54320
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_position_m8C84DBC097CF7D0E92A9305399DC8308E1A036CE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48353));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48354));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:21>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48355));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -9202,21 +6829,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 // Method Definition Index: 54321
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_position_m707D70DD474B32B6825AD817B96CB1B3433CF4AB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48356));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48357));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:21>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48358));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CpositionU3Ek__BackingField = L_0;
 		return;
@@ -9225,20 +6839,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_position_m707
 // Method Definition Index: 54322
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_deltaPos_mC3A3DC44CAB3F6A91FEE4A433BCFAC4B4FC18E42_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48359));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48360));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:26>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48361));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -9246,21 +6848,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 // Method Definition Index: 54323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_deltaPos_m19A58EBE730CC6E9BF43DA4EC7D3DB0CEEBD63F7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48362));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48363));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:26>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48364));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		__this->___U3CdeltaPosU3Ek__BackingField = L_0;
 		return;
@@ -9269,20 +6858,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_deltaPos_m19A
 // Method Definition Index: 54324
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_deltaTime_m39FF6BA14422B2E0CE3B0242B37D2AA454C54372_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48365));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48366));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48367));
 		float L_0 = __this->___U3CdeltaTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -9290,21 +6867,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AppUITouch_get_deltaTime_m3
 // Method Definition Index: 54325
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_deltaTime_mECC3C8BDDE8232672CE9BD6249ED3EA647DD47FB_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48369));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48370));
 		float L_0 = ___0_value;
 		__this->___U3CdeltaTimeU3Ek__BackingField = L_0;
 		return;
@@ -9313,20 +6877,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_deltaTime_mEC
 // Method Definition Index: 54326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_get_phase_m54A39C08551071B2241020C91027DFB32C7C2B9B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48371));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48372));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48373));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -9334,21 +6886,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AppUITouch_get_phase_m54A
 // Method Definition Index: 54327
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_inline (AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AppUITouch_set_phase_m9BE1B3080C1AB468235D8DC5FB0EB64805B5C350_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48374));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48375));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/AppUITouch.cs:36>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48376));
 		int32_t L_0 = ___0_value;
 		__this->___U3CphaseU3Ek__BackingField = L_0;
 		return;
@@ -9357,20 +6896,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppUITouch_set_phase_m9BE1B3
 // Method Definition Index: 54330
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_inline (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_get_deltaMagnification_m8770646E7756E579544776CAD3E75D7E48B10902_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48402));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48403));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:14>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48404));
 		float L_0 = __this->___U3CdeltaMagnificationU3Ek__BackingField;
 		return L_0;
 	}
@@ -9378,20 +6905,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PinchGesture_get_deltaMagni
 // Method Definition Index: 54332
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_inline (PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PinchGesture_t49FCBD5308466C22616E044C95530F72E1F96E72_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PinchGesture_get_state_mD0BC01E7775BB3595614A53E89B214BA07FEA0AD_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48410));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48411));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/PinchGesture.cs:27>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48412));
 		int32_t L_0 = __this->___U3CstateU3Ek__BackingField;
 		return L_0;
 	}
@@ -9399,20 +6914,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PinchGesture_get_state_mD
 // Method Definition Index: 54342
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_tapCount_mF012F4CCAFFDE111A15CCDF60DED23518774D9F2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48469));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48470));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:71>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48471));
 		int32_t L_0 = __this->___U3CtapCountU3Ek__BackingField;
 		return L_0;
 	}
@@ -9420,20 +6923,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TrackPadTouch_get_tapCoun
 // Method Definition Index: 54343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_deltaPos_m123A2AE3022090992CA681DB6AE0DA9EE0C59F2A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48472));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48473));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:76>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48474));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -9441,20 +6932,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 // Method Definition Index: 54344
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_inline (TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TrackPadTouch_get_deltaTime_m0362E8F5BA056DF611DE09E7E8C9DB2BEEC762DF_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48475));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48476));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:81>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48477));
 		float L_0 = __this->___U3CdeltaTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -9462,20 +6941,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TrackPadTouch_get_deltaTime
 // Method Definition Index: 54347
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_inline (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_get_deltaMagnification_m0E06EB5B67B194F5ACE09098E29CD18345F20D05_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48491));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48492));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:117>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48493));
 		float L_0 = __this->___U3CdeltaMagnificationU3Ek__BackingField;
 		return L_0;
 	}
@@ -9483,20 +6950,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float MagnificationGesture_get_de
 // Method Definition Index: 54349
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_inline (MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MagnificationGesture_t8DCB850118279CB026790D50D8A78E49DC037105_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MagnificationGesture_get_phase_m002F3AE29A717EFD582779586537461871A1F00B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48499));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48500));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:130>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48501));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -9504,20 +6959,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MagnificationGesture_get_
 // Method Definition Index: 54356
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_inline (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_deltaPos_m374029A406C451E39E5FCD6B5795A414969A254F_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48544));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48545));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:203>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48546));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CdeltaPosU3Ek__BackingField;
 		return L_0;
 	}
@@ -9525,20 +6968,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 // Method Definition Index: 54357
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_inline (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_phase_m770DE2CC665FE2D9F7436FBB8F1ACEF1D51E37B1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48547));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48548));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:208>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48549));
 		int32_t L_0 = __this->___U3CphaseU3Ek__BackingField;
 		return L_0;
 	}
@@ -9546,20 +6977,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PanGesture_get_phase_m770
 // Method Definition Index: 54358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_inline (PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanGesture_t6A64AD3631DA977551A4AAFFA7260D1CD3A5693C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanGesture_get_position_m5EABB948E8C837AF31C4857D89324E4364DFE07B_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48550));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48551));
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/Platform/Platform.cs:213>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48552));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___U3CpositionU3Ek__BackingField;
 		return L_0;
 	}
@@ -9567,23 +6986,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 // Method Definition Index: 47667
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_other, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_other));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Equals_mDF84D5ED14E018609C6A9C9BAE016C1B33BCFF4C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12331));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12332));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12333));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12334));
 		float L_0 = __this->___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_other;
 		float L_2 = L_1.___x;
@@ -9613,7 +7018,6 @@ IL_0020:
 
 IL_0023:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12335));
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -9621,14 +7025,6 @@ IL_0023:
 // Method Definition Index: 429
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____stringLength;
 		return L_0;
@@ -9643,21 +7039,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TimeUtils_GetCurrentTime_m1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float V_1 = 0.0f;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TimeUtils_GetCurrentTime_m17C208507A31C270521EA70B0295A86E363C3D55_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48615));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_AppUI + 48616));
 	float G_B4_0 = 0.0f;
 	float G_B6_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48617));
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:25>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:26>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:27>
@@ -9665,44 +7055,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TimeUtils_GetCurrentTime_m1
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:29>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:30>
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:31>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48618));
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_0 = ((TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_StaticFields*)il2cpp_codegen_static_fields_for(TimeUtils_t67813E8876F5620923D8A7D45B4A3FAD43B013C1_il2cpp_TypeInfo_var))->___timeOverride;
 		V_0 = L_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48619));
 		bool L_1;
 		L_1 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&V_0), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48619));
 		if (L_1)
 		{
 			goto IL_0025;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48620));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48620));
 		if (L_2)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48621));
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48621));
 		G_B4_0 = L_3;
 		goto IL_0023;
 	}
 
 IL_001e:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48622));
 		float L_4;
 		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48622));
 		G_B4_0 = L_4;
 	}
 
@@ -9714,10 +7095,8 @@ IL_0023:
 
 IL_0025:
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48623));
 		float L_5;
 		L_5 = Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_inline((&V_0), Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48623));
 		G_B6_0 = L_5;
 	}
 
@@ -9730,7 +7109,6 @@ IL_002c:
 IL_002f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/Core/TimeUtils.cs:32>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_AppUI + 48624));
 		float L_6 = V_1;
 		return L_6;
 	}
@@ -9738,71 +7116,37 @@ IL_002f:
 // Method Definition Index: 47744
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z), (&___3_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12942));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12943));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12944));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12945));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12946));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12947));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12948));
 		float L_3 = ___3_w;
 		__this->___w = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12949));
 		return;
 	}
 }
 // Method Definition Index: 47686
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_v));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12459));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12460));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12461));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12462));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
 		float L_3 = L_2.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12463));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12463));
 		V_0 = L_4;
 		goto IL_001a;
 	}
 
 IL_001a:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12464));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		return L_5;
 	}
@@ -9810,19 +7154,7 @@ IL_001a:
 // Method Definition Index: 14473
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* PanelSettings_get_targetTexture_m56D90849783146127F88DFE296ADD1B69AFB053C_inline (PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanelSettings_get_targetTexture_m56D90849783146127F88DFE296ADD1B69AFB053C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PanelSettings_t0621207D5DD3BB89DB587440E8F9E07234283DEC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PanelSettings_get_targetTexture_m56D90849783146127F88DFE296ADD1B69AFB053C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UIElementsModule + 54013));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_UIElementsModule + 54014));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_UIElementsModule + 54015));
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = __this->___m_TargetTexture;
 		return L_0;
 	}
@@ -9836,8 +7168,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 // Method Definition Index: 9310
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m440971CE70F17644664F0FD54083B298429C1CDC_gshared_inline (List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____size;
 		return L_0;
@@ -9846,8 +7176,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m440971C
 // Method Definition Index: 9370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC Enumerator_get_Current_m979166A4764098912E0193F7A94D548C479F4BDE_gshared_inline (Enumerator_t6A5CC167A78E73B6A40C75860264F95941D8D40B* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_0 = __this->____current;
 		return L_0;
@@ -9857,8 +7185,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackPadTouch_tDAEC5FA1874BC1D60D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mACAD535E3F0911075AD587F5E30CAF6763E8CC69_gshared_inline (List_1_tA162EA71D7F265D2AA481F6E296305F6C92F61B9* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -9880,8 +7206,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mFBFF9721B8FFE787
 {
 	TrackPadTouchU5BU5D_t9BC118DBF5F2C89DBC8F80B0768E3AE8D17A765E* V_0 = NULL;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->____version;
 		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -9911,7 +7235,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mFBFF9721B8FFE787
 IL_0034:
 	{
 		TrackPadTouch_tDAEC5FA1874BC1D60DED41D9519BA30FF636DEFC L_9 = ___0_item;
-		List_1_AddWithResize_m8F5DFD4CE989FB78F2C6EDF569C8EA744774C596(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
+		List_1_AddWithResize_m8F5DFD4CE989FB78F2C6EDF569C8EA744774C596(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
 		return;
 	}
 }
@@ -9937,8 +7261,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Span_1_tA742EF44292CDF51DBDD8B051BCF7EAE5FB366EB MemoryExtensions_AsSpan_TisAppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71_mC1E5FF4DEE93A3E729EBABFB2B9DD0D4AB8AAA1E_gshared_inline (AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* ___0_array, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_0 = ___0_array;
 		int32_t L_1 = ___1_start;
@@ -9953,8 +7275,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Span_1_tA742EF44292CDF51DBDD8B051
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
@@ -9964,8 +7284,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD
 // Method Definition Index: 1771
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = __this->___hasValue;
 		return L_0;
@@ -9974,8 +7292,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mC14
 // Method Definition Index: 1773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Nullable_1_GetValueOrDefault_m068A148705ED1E215A5E85D18BA6852B192DA419_gshared_inline (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		float L_0 = __this->___value;
 		return L_0;
@@ -9990,32 +7306,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3
 // Method Definition Index: 47661
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_Normalize_m56DABCAB5967DF37A6B96710477D3660D800C652_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12270));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12271));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12272));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12273));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12274));
 		float L_0;
 		L_0 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(__this, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12274));
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12275));
 		float L_1 = V_0;
 		V_1 = (bool)((((float)L_1) > ((float)(9.99999975E-06f)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12276));
 		bool L_2 = V_1;
 		if (!L_2)
 		{
@@ -10023,52 +7321,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Normalize_m56DABCAB5
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12277));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this);
 		float L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12278));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12278));
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this = L_5;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12279));
 		goto IL_0033;
 	}
 
 IL_0028:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12280));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12281));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12281));
 		*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)__this = L_6;
 	}
 
 IL_0033:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12282));
 		return;
 	}
 }
 // Method Definition Index: 47618
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11898));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11899));
 	float G_B3_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11900));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11901));
 		float L_0 = ___0_a;
 		float L_1 = ___1_b;
 		if ((((float)L_0) > ((float)L_1)))
@@ -10096,7 +7374,6 @@ IL_0009:
 
 IL_000c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11902));
 		float L_4 = V_0;
 		return L_4;
 	}
@@ -10104,30 +7381,13 @@ IL_000c:
 // Method Definition Index: 47526
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11325));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11326));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11327));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11328));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11329));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11330));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 11331));
 		return;
 	}
 }
@@ -10136,8 +7396,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Span_1__ctor_m9C5ADABBA05142
 {
 	AppUITouch_tEB1E0F3CC81273D6D64011D5779E0F72F07EEE71 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		AppUITouchU5BU5D_tC5C0A61FF77C7E3F76DA83EC1D9CD5902C2D7C88* L_0 = ___0_array;
 		if (L_0)
@@ -10226,40 +7484,24 @@ IL_0055:
 // Method Definition Index: 47682
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12434));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12435));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12436));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12437));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_a;
 		float L_4 = L_3.___y;
 		float L_5 = ___1_d;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12438));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), ((float)(L_1/L_2)), ((float)(L_4/L_5)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12438));
 		V_0 = L_6;
 		goto IL_0019;
 	}
 
 IL_0019:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12439));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		return L_7;
 	}
@@ -10267,14 +7509,6 @@ IL_0019:
 // Method Definition Index: 2730
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t* Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_inline (RuntimeArray* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Array_GetRawSzArrayData_m2F8F5B2A381AEF971F12866D9C0A6C4FBA59F6BB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0* L_0;
 		L_0 = il2cpp_unsafe_as<RawData_t37CAF2D3F74B7723974ED7CEEE9B297D8FA64ED0*>(__this);

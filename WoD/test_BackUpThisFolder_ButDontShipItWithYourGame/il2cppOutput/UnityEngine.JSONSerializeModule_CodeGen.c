@@ -47,7 +47,6 @@ static const Il2CppRGCTXDefinition s_rgctxValues[2] =
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tB3191261F083EB0AE2454F736BF8A220615E222C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB3191261F083EB0AE2454F736BF8A220615E222C },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_JSONSerializeModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule = 
 {
@@ -63,7 +62,7 @@ const Il2CppCodeGenModule g_UnityEngine_JSONSerializeModule_CodeGenModule =
 	s_rgctxIndices,
 	2,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationUnityEngine_JSONSerializeModule,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

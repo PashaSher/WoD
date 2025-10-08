@@ -55,13 +55,8 @@ struct UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C;
 struct UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Burst[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Collections[];
 IL2CPP_EXTERN_C RuntimeClass* Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeType* StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -1906,48 +1901,32 @@ inline EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70* EqualityCom
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_ComputeStringLength_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m73215CC1A28F076B0D2472385756C7AF58CBA171_gshared (int8_t* ___0_ptr, int32_t ___1_max, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int8_t V_2 = 0x0;
 	int32_t V_3 = 0;
 	bool V_4 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_ptr), (&___1_max));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25418));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25419));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25420));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25421));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25422));
 		goto IL_0037;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25423));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:212>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25424));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		EqualityComparer_1_tE7F9CA4FFFE31F11BFD738023C1E489D3ECB371B* L_0;
 		L_0 = EqualityComparer_1_get_Default_m7F71AAC0046A3CB8C4CEB06A5A52A1269AF7023D_inline(il2cpp_rgctx_method(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		int8_t* L_1 = ___0_ptr;
 		int32_t L_2 = V_0;
 		uint32_t L_3 = sizeof(int8_t);
 		int8_t L_4 = (*(int8_t*)((int8_t*)il2cpp_codegen_add((intptr_t)L_1, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_2), (int32_t)L_3)))));
 		il2cpp_codegen_initobj((&V_2), sizeof(int8_t));
 		int8_t L_5 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		NullCheck(L_0);
 		bool L_6;
 		L_6 = VirtualFuncInvoker2< bool, int8_t, int8_t >::Invoke(8, L_0, L_4, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		V_1 = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25427));
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -1955,9 +1934,7 @@ IL_0005:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25428));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:214>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25429));
 		int32_t L_8 = V_0;
 		V_3 = L_8;
 		goto IL_0045;
@@ -1965,9 +1942,7 @@ IL_0005:
 
 IL_0032:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25430));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25431));
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
@@ -1975,11 +1950,9 @@ IL_0032:
 IL_0037:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25432));
 		int32_t L_10 = V_0;
 		int32_t L_11 = ___1_max;
 		V_4 = (bool)((((int32_t)L_10) < ((int32_t)L_11))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25433));
 		bool L_12 = V_4;
 		if (L_12)
 		{
@@ -1988,7 +1961,6 @@ IL_0037:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:217>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25434));
 		int32_t L_13 = ___1_max;
 		V_3 = L_13;
 		goto IL_0045;
@@ -1997,7 +1969,6 @@ IL_0037:
 IL_0045:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:218>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25435));
 		int32_t L_14 = V_3;
 		return L_14;
 	}
@@ -2006,48 +1977,32 @@ IL_0045:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_ComputeStringLength_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m000E8D7B908376D69E48EACF3E6811C4DEE7A05D_gshared (uint16_t* ___0_ptr, int32_t ___1_max, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	uint16_t V_2 = 0;
 	int32_t V_3 = 0;
 	bool V_4 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_ptr), (&___1_max));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25418));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25419));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25420));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25421));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25422));
 		goto IL_0037;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25423));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:212>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25424));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70* L_0;
 		L_0 = EqualityComparer_1_get_Default_m80EE5C179E01BB38904781592AC72F8137541D7E_inline(il2cpp_rgctx_method(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		uint16_t* L_1 = ___0_ptr;
 		int32_t L_2 = V_0;
 		uint32_t L_3 = sizeof(uint16_t);
 		uint16_t L_4 = (*(uint16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_1, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_2), (int32_t)L_3)))));
 		il2cpp_codegen_initobj((&V_2), sizeof(uint16_t));
 		uint16_t L_5 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		NullCheck(L_0);
 		bool L_6;
 		L_6 = VirtualFuncInvoker2< bool, uint16_t, uint16_t >::Invoke(8, L_0, L_4, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		V_1 = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25427));
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -2055,9 +2010,7 @@ IL_0005:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25428));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:214>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25429));
 		int32_t L_8 = V_0;
 		V_3 = L_8;
 		goto IL_0045;
@@ -2065,9 +2018,7 @@ IL_0005:
 
 IL_0032:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25430));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25431));
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
@@ -2075,11 +2026,9 @@ IL_0032:
 IL_0037:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25432));
 		int32_t L_10 = V_0;
 		int32_t L_11 = ___1_max;
 		V_4 = (bool)((((int32_t)L_10) < ((int32_t)L_11))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25433));
 		bool L_12 = V_4;
 		if (L_12)
 		{
@@ -2088,7 +2037,6 @@ IL_0037:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:217>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25434));
 		int32_t L_13 = ___1_max;
 		V_3 = L_13;
 		goto IL_0045;
@@ -2097,7 +2045,6 @@ IL_0037:
 IL_0045:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:218>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25435));
 		int32_t L_14 = V_3;
 		return L_14;
 	}
@@ -2109,49 +2056,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_ComputeStringLength_TisIl2CppF
 	const uint32_t SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 4));
 	const Il2CppFullySharedGenericStruct L_4 = alloca(SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
 	const Il2CppFullySharedGenericStruct L_5 = alloca(SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	Il2CppFullySharedGenericStruct V_2 = alloca(SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
 	memset(V_2, 0, SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
 	int32_t V_3 = 0;
 	bool V_4 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_ptr), (&___1_max));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25418));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25419));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25420));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25421));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25422));
 		goto IL_0037;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25423));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:212>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25424));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		EqualityComparer_1_t458C8DC3748A89A213F4738B57D3742C4896ABE9* L_0;
 		L_0 = ((  EqualityComparer_1_t458C8DC3748A89A213F4738B57D3742C4896ABE9* (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25425));
 		Il2CppFullySharedGenericStruct* L_1 = ___0_ptr;
 		int32_t L_2 = V_0;
 		uint32_t L_3 = SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64;
 		il2cpp_codegen_memcpy(L_4, ((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_1, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_2), (int32_t)L_3)))), SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericStruct*)V_2, SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
 		il2cpp_codegen_memcpy(L_5, V_2, SizeOf_T_t2125B686AA2A4D4755B95692CBE3C48B69824C64);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		NullCheck(L_0);
 		bool L_6;
 		L_6 = VirtualFuncInvoker2Invoker< bool, Il2CppFullySharedGenericStruct, Il2CppFullySharedGenericStruct >::Invoke(8, L_0, L_4, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25426));
 		V_1 = L_6;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25427));
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -2159,9 +2090,7 @@ IL_0005:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25428));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:214>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25429));
 		int32_t L_8 = V_0;
 		V_3 = L_8;
 		goto IL_0045;
@@ -2169,9 +2098,7 @@ IL_0005:
 
 IL_0032:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25430));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25431));
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
@@ -2179,11 +2106,9 @@ IL_0032:
 IL_0037:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25432));
 		int32_t L_10 = V_0;
 		int32_t L_11 = ___1_max;
 		V_4 = (bool)((((int32_t)L_10) < ((int32_t)L_11))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25433));
 		bool L_12 = V_4;
 		if (L_12)
 		{
@@ -2192,7 +2117,6 @@ IL_0037:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:217>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25434));
 		int32_t L_13 = ___1_max;
 		V_3 = L_13;
 		goto IL_0045;
@@ -2201,7 +2125,6 @@ IL_0037:
 IL_0045:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:218>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25435));
 		int32_t L_14 = V_3;
 		return L_14;
 	}
@@ -2209,12 +2132,6 @@ IL_0045:
 // Method Definition Index: 63307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Sse4_2_ComputeStrmOutput_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m1CC4D51DF3F513318DCC288B066D0018EAF9C235_gshared (int32_t ___0_len, int32_t ___1_imm8, uint8_t ___2_allOnesT, int32_t ___3_intRes2, const RuntimeMethod* method) 
 {
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -2224,21 +2141,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	bool V_5 = false;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_len), (&___1_imm8), (&___2_allOnesT), (&___3_intRes2));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25337));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25338));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25339));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25340));
 		il2cpp_codegen_initobj((&V_0), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25341));
 		int32_t L_0 = ___1_imm8;
 		V_1 = (bool)((!(((uint32_t)((int32_t)(L_0&((int32_t)64)))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25342));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -2246,27 +2154,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25343));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25344));
 		uint8_t* L_2 = (uint8_t*)(&(&V_0)->___Byte0);
 		V_2 = (uint8_t*)((uintptr_t)L_2);
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25345));
 		V_3 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25346));
 		goto IL_0061;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25347));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:148>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25348));
 		int32_t L_3 = ___3_intRes2;
 		int32_t L_4 = V_3;
 		V_4 = (bool)((!(((uint32_t)((int32_t)(L_3&((int32_t)(1<<((int32_t)(L_4&((int32_t)31)))))))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25349));
 		bool L_5 = V_4;
 		if (!L_5)
 		{
@@ -2274,36 +2175,27 @@ IL_0022:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25350));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25351));
 		uint8_t* L_6 = V_2;
 		int32_t L_7 = V_3;
 		uint32_t L_8 = sizeof(uint8_t);
 		uint8_t L_9 = ___2_allOnesT;
 		*(uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))) = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25352));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25353));
 		goto IL_005c;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25354));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25355));
 		uint8_t* L_10 = V_2;
 		int32_t L_11 = V_3;
 		uint32_t L_12 = sizeof(uint8_t);
 		il2cpp_codegen_initobj(((uint8_t*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), (int32_t)L_12)))), sizeof(uint8_t));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25356));
 	}
 
 IL_005c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25357));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25358));
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
@@ -2311,11 +2203,9 @@ IL_005c:
 IL_0061:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25359));
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___0_len;
 		V_5 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25360));
 		bool L_16 = V_5;
 		if (L_16)
 		{
@@ -2323,25 +2213,19 @@ IL_0061:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25361));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25362));
 		goto IL_0078;
 	}
 
 IL_006e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25363));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25364));
 		int32_t L_17 = ___3_intRes2;
 		(&V_0)->___SInt0 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25365));
 	}
 
 IL_0078:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25366));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_18 = V_0;
 		V_6 = L_18;
 		goto IL_007d;
@@ -2350,7 +2234,6 @@ IL_0078:
 IL_007d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25367));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_19 = V_6;
 		return L_19;
 	}
@@ -2358,12 +2241,6 @@ IL_007d:
 // Method Definition Index: 63307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Sse4_2_ComputeStrmOutput_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mE92FFA321425E5808CD20616DC308BA7B36886E8_gshared (int32_t ___0_len, int32_t ___1_imm8, int16_t ___2_allOnesT, int32_t ___3_intRes2, const RuntimeMethod* method) 
 {
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -2373,21 +2250,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	bool V_5 = false;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_len), (&___1_imm8), (&___2_allOnesT), (&___3_intRes2));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25337));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25338));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25339));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25340));
 		il2cpp_codegen_initobj((&V_0), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25341));
 		int32_t L_0 = ___1_imm8;
 		V_1 = (bool)((!(((uint32_t)((int32_t)(L_0&((int32_t)64)))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25342));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -2395,27 +2263,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25343));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25344));
 		uint8_t* L_2 = (uint8_t*)(&(&V_0)->___Byte0);
 		V_2 = (int16_t*)((uintptr_t)L_2);
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25345));
 		V_3 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25346));
 		goto IL_0061;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25347));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:148>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25348));
 		int32_t L_3 = ___3_intRes2;
 		int32_t L_4 = V_3;
 		V_4 = (bool)((!(((uint32_t)((int32_t)(L_3&((int32_t)(1<<((int32_t)(L_4&((int32_t)31)))))))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25349));
 		bool L_5 = V_4;
 		if (!L_5)
 		{
@@ -2423,36 +2284,27 @@ IL_0022:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25350));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25351));
 		int16_t* L_6 = V_2;
 		int32_t L_7 = V_3;
 		uint32_t L_8 = sizeof(int16_t);
 		int16_t L_9 = ___2_allOnesT;
 		*(int16_t*)((int16_t*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))) = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25352));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25353));
 		goto IL_005c;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25354));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25355));
 		int16_t* L_10 = V_2;
 		int32_t L_11 = V_3;
 		uint32_t L_12 = sizeof(int16_t);
 		il2cpp_codegen_initobj(((int16_t*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), (int32_t)L_12)))), sizeof(int16_t));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25356));
 	}
 
 IL_005c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25357));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25358));
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
@@ -2460,11 +2312,9 @@ IL_005c:
 IL_0061:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25359));
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___0_len;
 		V_5 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25360));
 		bool L_16 = V_5;
 		if (L_16)
 		{
@@ -2472,25 +2322,19 @@ IL_0061:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25361));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25362));
 		goto IL_0078;
 	}
 
 IL_006e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25363));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25364));
 		int32_t L_17 = ___3_intRes2;
 		(&V_0)->___SInt0 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25365));
 	}
 
 IL_0078:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25366));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_18 = V_0;
 		V_6 = L_18;
 		goto IL_007d;
@@ -2499,7 +2343,6 @@ IL_0078:
 IL_007d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25367));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_19 = V_6;
 		return L_19;
 	}
@@ -2507,12 +2350,6 @@ IL_007d:
 // Method Definition Index: 63307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Sse4_2_ComputeStrmOutput_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m5EFDDE5126FDB6BF9F9ED55B39751B517522C455_gshared (int32_t ___0_len, int32_t ___1_imm8, int8_t ___2_allOnesT, int32_t ___3_intRes2, const RuntimeMethod* method) 
 {
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -2522,21 +2359,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	bool V_5 = false;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_len), (&___1_imm8), (&___2_allOnesT), (&___3_intRes2));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25337));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25338));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25339));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25340));
 		il2cpp_codegen_initobj((&V_0), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25341));
 		int32_t L_0 = ___1_imm8;
 		V_1 = (bool)((!(((uint32_t)((int32_t)(L_0&((int32_t)64)))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25342));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -2544,27 +2372,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25343));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25344));
 		uint8_t* L_2 = (uint8_t*)(&(&V_0)->___Byte0);
 		V_2 = (int8_t*)((uintptr_t)L_2);
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25345));
 		V_3 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25346));
 		goto IL_0061;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25347));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:148>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25348));
 		int32_t L_3 = ___3_intRes2;
 		int32_t L_4 = V_3;
 		V_4 = (bool)((!(((uint32_t)((int32_t)(L_3&((int32_t)(1<<((int32_t)(L_4&((int32_t)31)))))))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25349));
 		bool L_5 = V_4;
 		if (!L_5)
 		{
@@ -2572,36 +2393,27 @@ IL_0022:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25350));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25351));
 		int8_t* L_6 = V_2;
 		int32_t L_7 = V_3;
 		uint32_t L_8 = sizeof(int8_t);
 		int8_t L_9 = ___2_allOnesT;
 		*(int8_t*)((int8_t*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))) = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25352));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25353));
 		goto IL_005c;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25354));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25355));
 		int8_t* L_10 = V_2;
 		int32_t L_11 = V_3;
 		uint32_t L_12 = sizeof(int8_t);
 		il2cpp_codegen_initobj(((int8_t*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), (int32_t)L_12)))), sizeof(int8_t));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25356));
 	}
 
 IL_005c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25357));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25358));
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
@@ -2609,11 +2421,9 @@ IL_005c:
 IL_0061:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25359));
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___0_len;
 		V_5 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25360));
 		bool L_16 = V_5;
 		if (L_16)
 		{
@@ -2621,25 +2431,19 @@ IL_0061:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25361));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25362));
 		goto IL_0078;
 	}
 
 IL_006e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25363));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25364));
 		int32_t L_17 = ___3_intRes2;
 		(&V_0)->___SInt0 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25365));
 	}
 
 IL_0078:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25366));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_18 = V_0;
 		V_6 = L_18;
 		goto IL_007d;
@@ -2648,7 +2452,6 @@ IL_0078:
 IL_007d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25367));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_19 = V_6;
 		return L_19;
 	}
@@ -2656,12 +2459,6 @@ IL_007d:
 // Method Definition Index: 63307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Sse4_2_ComputeStrmOutput_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mD44F4B084A230ACD38B4FCF13923F8986AFF0AB1_gshared (int32_t ___0_len, int32_t ___1_imm8, uint16_t ___2_allOnesT, int32_t ___3_intRes2, const RuntimeMethod* method) 
 {
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -2671,21 +2468,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	bool V_5 = false;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_len), (&___1_imm8), (&___2_allOnesT), (&___3_intRes2));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25337));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25338));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25339));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25340));
 		il2cpp_codegen_initobj((&V_0), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25341));
 		int32_t L_0 = ___1_imm8;
 		V_1 = (bool)((!(((uint32_t)((int32_t)(L_0&((int32_t)64)))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25342));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -2693,27 +2481,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25343));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25344));
 		uint8_t* L_2 = (uint8_t*)(&(&V_0)->___Byte0);
 		V_2 = (uint16_t*)((uintptr_t)L_2);
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25345));
 		V_3 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25346));
 		goto IL_0061;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25347));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:148>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25348));
 		int32_t L_3 = ___3_intRes2;
 		int32_t L_4 = V_3;
 		V_4 = (bool)((!(((uint32_t)((int32_t)(L_3&((int32_t)(1<<((int32_t)(L_4&((int32_t)31)))))))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25349));
 		bool L_5 = V_4;
 		if (!L_5)
 		{
@@ -2721,36 +2502,27 @@ IL_0022:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25350));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25351));
 		uint16_t* L_6 = V_2;
 		int32_t L_7 = V_3;
 		uint32_t L_8 = sizeof(uint16_t);
 		uint16_t L_9 = ___2_allOnesT;
 		*(uint16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))) = L_9;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25352));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25353));
 		goto IL_005c;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25354));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25355));
 		uint16_t* L_10 = V_2;
 		int32_t L_11 = V_3;
 		uint32_t L_12 = sizeof(uint16_t);
 		il2cpp_codegen_initobj(((uint16_t*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), (int32_t)L_12)))), sizeof(uint16_t));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25356));
 	}
 
 IL_005c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25357));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25358));
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
@@ -2758,11 +2530,9 @@ IL_005c:
 IL_0061:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25359));
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___0_len;
 		V_5 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25360));
 		bool L_16 = V_5;
 		if (L_16)
 		{
@@ -2770,25 +2540,19 @@ IL_0061:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25361));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25362));
 		goto IL_0078;
 	}
 
 IL_006e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25363));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25364));
 		int32_t L_17 = ___3_intRes2;
 		(&V_0)->___SInt0 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25365));
 	}
 
 IL_0078:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25366));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_18 = V_0;
 		V_6 = L_18;
 		goto IL_007d;
@@ -2797,7 +2561,6 @@ IL_0078:
 IL_007d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25367));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_19 = V_6;
 		return L_19;
 	}
@@ -2805,14 +2568,9 @@ IL_007d:
 // Method Definition Index: 63307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 Sse4_2_ComputeStrmOutput_TisIl2CppFullySharedGenericStruct_m64ADE71FB4B90FEC60799387186E249935DE041C_gshared (int32_t ___0_len, int32_t ___1_imm8, Il2CppFullySharedGenericStruct ___2_allOnesT, int32_t ___3_intRes2, const RuntimeMethod* method) 
 {
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
-		il2cpp_rgctx_method_init(method);
-	}
+	il2cpp_rgctx_method_init(method);
 	const uint32_t SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 0));
 	const Il2CppFullySharedGenericStruct L_9 = alloca(SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -2822,21 +2580,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	bool V_5 = false;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_len), (&___1_imm8), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 0)) ? ___2_allOnesT : &___2_allOnesT), (&___3_intRes2));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25337));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25338));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25339));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25340));
 		il2cpp_codegen_initobj((&V_0), sizeof(v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25341));
 		int32_t L_0 = ___1_imm8;
 		V_1 = (bool)((!(((uint32_t)((int32_t)(L_0&((int32_t)64)))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25342));
 		bool L_1 = V_1;
 		if (!L_1)
 		{
@@ -2844,27 +2593,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25343));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25344));
 		uint8_t* L_2 = (uint8_t*)(&(&V_0)->___Byte0);
 		V_2 = (Il2CppFullySharedGenericStruct*)((uintptr_t)L_2);
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25345));
 		V_3 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25346));
 		goto IL_0061;
 	}
 
 IL_0022:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25347));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:148>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25348));
 		int32_t L_3 = ___3_intRes2;
 		int32_t L_4 = V_3;
 		V_4 = (bool)((!(((uint32_t)((int32_t)(L_3&((int32_t)(1<<((int32_t)(L_4&((int32_t)31)))))))) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25349));
 		bool L_5 = V_4;
 		if (!L_5)
 		{
@@ -2872,37 +2614,28 @@ IL_0022:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25350));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:150>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25351));
 		Il2CppFullySharedGenericStruct* L_6 = V_2;
 		int32_t L_7 = V_3;
 		uint32_t L_8 = SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B;
 		il2cpp_codegen_memcpy(L_9, ___2_allOnesT, SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B);
 		il2cpp_codegen_memcpy((Il2CppFullySharedGenericStruct*)((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))), L_9, SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B);
 		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->rgctx_data, 0), (void**)(Il2CppFullySharedGenericStruct*)((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_6, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_7), (int32_t)L_8)))), (void*)L_9);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25352));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25353));
 		goto IL_005c;
 	}
 
 IL_0049:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25354));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25355));
 		Il2CppFullySharedGenericStruct* L_10 = V_2;
 		int32_t L_11 = V_3;
 		uint32_t L_12 = SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B;
 		il2cpp_codegen_initobj(((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_10, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_11), (int32_t)L_12)))), SizeOf_T_t4AB7E7218B07206B6D97D6E91CAC0F37510C246B);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25356));
 	}
 
 IL_005c:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25357));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25358));
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
@@ -2910,11 +2643,9 @@ IL_005c:
 IL_0061:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25359));
 		int32_t L_14 = V_3;
 		int32_t L_15 = ___0_len;
 		V_5 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25360));
 		bool L_16 = V_5;
 		if (L_16)
 		{
@@ -2922,25 +2653,19 @@ IL_0061:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25361));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25362));
 		goto IL_0078;
 	}
 
 IL_006e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25363));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25364));
 		int32_t L_17 = ___3_intRes2;
 		(&V_0)->___SInt0 = L_17;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25365));
 	}
 
 IL_0078:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25366));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_18 = V_0;
 		V_6 = L_18;
 		goto IL_007d;
@@ -2949,7 +2674,6 @@ IL_0078:
 IL_007d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25367));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_19 = V_6;
 		return L_19;
 	}
@@ -2962,18 +2686,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisByte_t94
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25378));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25379));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25380));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25381));
 		uint8_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		uint8_t* L_2 = ___2_b;
@@ -2981,21 +2697,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisByte_t94
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5D9BE946098FA4C7FC8CC23DEE63A0877E8D6C8B(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25383));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		V_1 = L_11;
 		goto IL_001e;
 	}
@@ -3003,7 +2714,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisByte_t94
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25385));
 		int32_t L_12 = V_1;
 		return L_12;
 	}
@@ -3016,18 +2726,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisInt16_tB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25378));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25379));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25380));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25381));
 		int16_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		int16_t* L_2 = ___2_b;
@@ -3035,21 +2737,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisInt16_tB
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mB3F9377B1A57D35D5514DEF77B3D9279A8622960(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25383));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		V_1 = L_11;
 		goto IL_001e;
 	}
@@ -3057,7 +2754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisInt16_tB
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25385));
 		int32_t L_12 = V_1;
 		return L_12;
 	}
@@ -3070,18 +2766,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisSByte_tF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25378));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25379));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25380));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25381));
 		int8_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		int8_t* L_2 = ___2_b;
@@ -3089,21 +2777,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisSByte_tF
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_mA23FD3A0C3B4448E4721DA31DA7B4B93A636A3FD(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25383));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		V_1 = L_11;
 		goto IL_001e;
 	}
@@ -3111,7 +2794,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisSByte_tF
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25385));
 		int32_t L_12 = V_1;
 		return L_12;
 	}
@@ -3124,18 +2806,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisUInt16_t
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25378));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25379));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25380));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25381));
 		uint16_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		uint16_t* L_2 = ___2_b;
@@ -3143,21 +2817,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisUInt16_t
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m331D979D640CF9DF04C505875F9FB702E217B2AB(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25383));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		V_1 = L_11;
 		goto IL_001e;
 	}
@@ -3165,7 +2834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisUInt16_t
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25385));
 		int32_t L_12 = V_1;
 		return L_12;
 	}
@@ -3178,18 +2846,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisIl2CppFu
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 2)) ? ___7_allOnesT : &___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25378));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25379));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25380));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25381));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		Il2CppFullySharedGenericStruct* L_2 = ___2_b;
@@ -3197,21 +2857,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisIl2CppFu
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, Il2CppFullySharedGenericStruct*, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25382));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25383));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25384));
 		V_1 = L_11;
 		goto IL_001e;
 	}
@@ -3219,7 +2874,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpestri_emulation_TisIl2CppFu
 IL_001e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25385));
 		int32_t L_12 = V_1;
 		return L_12;
 	}
@@ -3230,22 +2884,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25329));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25330));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25331));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25332));
 		uint8_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		uint8_t* L_2 = ___2_b;
@@ -3253,22 +2898,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5D9BE946098FA4C7FC8CC23DEE63A0877E8D6C8B(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25334));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		uint8_t L_10 = ___7_allOnesT;
 		int32_t L_11 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_12;
 		L_12 = Sse4_2_ComputeStrmOutput_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m1CC4D51DF3F513318DCC288B066D0018EAF9C235(L_8, L_9, L_10, L_11, il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		V_1 = L_12;
 		goto IL_0020;
 	}
@@ -3276,7 +2916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0020:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25336));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_13 = V_1;
 		return L_13;
 	}
@@ -3287,22 +2926,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25329));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25330));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25331));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25332));
 		int16_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		int16_t* L_2 = ___2_b;
@@ -3310,22 +2940,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mB3F9377B1A57D35D5514DEF77B3D9279A8622960(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25334));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int16_t L_10 = ___7_allOnesT;
 		int32_t L_11 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_12;
 		L_12 = Sse4_2_ComputeStrmOutput_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mE92FFA321425E5808CD20616DC308BA7B36886E8(L_8, L_9, L_10, L_11, il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		V_1 = L_12;
 		goto IL_0020;
 	}
@@ -3333,7 +2958,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0020:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25336));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_13 = V_1;
 		return L_13;
 	}
@@ -3344,22 +2968,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25329));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25330));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25331));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25332));
 		int8_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		int8_t* L_2 = ___2_b;
@@ -3367,22 +2982,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_mA23FD3A0C3B4448E4721DA31DA7B4B93A636A3FD(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25334));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		int8_t L_10 = ___7_allOnesT;
 		int32_t L_11 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_12;
 		L_12 = Sse4_2_ComputeStrmOutput_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m5EFDDE5126FDB6BF9F9ED55B39751B517522C455(L_8, L_9, L_10, L_11, il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		V_1 = L_12;
 		goto IL_0020;
 	}
@@ -3390,7 +3000,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0020:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25336));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_13 = V_1;
 		return L_13;
 	}
@@ -3401,22 +3010,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (&___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25329));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25330));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25331));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25332));
 		uint16_t* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		uint16_t* L_2 = ___2_b;
@@ -3424,22 +3024,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStrCmpIntRes2_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m331D979D640CF9DF04C505875F9FB702E217B2AB(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25334));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		uint16_t L_10 = ___7_allOnesT;
 		int32_t L_11 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_12;
 		L_12 = Sse4_2_ComputeStrmOutput_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mD44F4B084A230ACD38B4FCF13923F8986AFF0AB1(L_8, L_9, L_10, L_11, il2cpp_rgctx_method(method->rgctx_data, 3));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		V_1 = L_12;
 		goto IL_0020;
 	}
@@ -3447,7 +3042,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0020:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25336));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_13 = V_1;
 		return L_13;
 	}
@@ -3458,24 +3052,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
 	const uint32_t SizeOf_T_t42FC5CD236BFE90D4A941BFCE621367A7EA03BDC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 2));
 	const Il2CppFullySharedGenericStruct L_10 = alloca(SizeOf_T_t42FC5CD236BFE90D4A941BFCE621367A7EA03BDC);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_alen), (&___2_b), (&___3_blen), (&___4_len), (&___5_imm8), (&___6_allOnes), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 2)) ? ___7_allOnesT : &___7_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25329));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25330));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25331));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25332));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_a;
 		int32_t L_1 = ___1_alen;
 		Il2CppFullySharedGenericStruct* L_2 = ___2_b;
@@ -3483,22 +3068,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 		int32_t L_4 = ___4_len;
 		int32_t L_5 = ___5_imm8;
 		int32_t L_6 = ___6_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, Il2CppFullySharedGenericStruct*, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, L_1, L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25333));
 		V_0 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:135>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25334));
 		int32_t L_8 = ___4_len;
 		int32_t L_9 = ___5_imm8;
 		il2cpp_codegen_memcpy(L_10, ___7_allOnesT, SizeOf_T_t42FC5CD236BFE90D4A941BFCE621367A7EA03BDC);
 		int32_t L_11 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_12;
 		L_12 = InvokerFuncInvoker4< v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61, int32_t, int32_t, Il2CppFullySharedGenericStruct, int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), NULL, L_8, L_9, L_10, L_11);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25335));
 		V_1 = L_12;
 		goto IL_0020;
 	}
@@ -3506,7 +3086,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0020:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25336));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_13 = V_1;
 		return L_13;
 	}
@@ -3519,50 +3098,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisByte_t94
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25369));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25370));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25371));
 		uint8_t* L_0 = ___0_a;
 		uint8_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD30812062AA4852D166ABCDF3D79FDD1856F173A(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		uint8_t* L_4 = ___1_b;
 		uint8_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD30812062AA4852D166ABCDF3D79FDD1856F173A(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5D9BE946098FA4C7FC8CC23DEE63A0877E8D6C8B(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:171>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25375));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int32_t L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		int32_t L_15;
 		L_15 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		V_1 = L_15;
 		goto IL_0026;
 	}
@@ -3570,7 +3132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisByte_t94
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25377));
 		int32_t L_16 = V_1;
 		return L_16;
 	}
@@ -3583,50 +3144,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisInt16_tB
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25369));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25370));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25371));
 		int16_t* L_0 = ___0_a;
 		int16_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m3EBC75C6F39A7B1A5F62D88877C87C9F3B5617A3(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		int16_t* L_4 = ___1_b;
 		int16_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m3EBC75C6F39A7B1A5F62D88877C87C9F3B5617A3(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mB3F9377B1A57D35D5514DEF77B3D9279A8622960(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:171>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25375));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int32_t L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		int32_t L_15;
 		L_15 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		V_1 = L_15;
 		goto IL_0026;
 	}
@@ -3634,7 +3178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisInt16_tB
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25377));
 		int32_t L_16 = V_1;
 		return L_16;
 	}
@@ -3647,50 +3190,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisSByte_tF
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25369));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25370));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25371));
 		int8_t* L_0 = ___0_a;
 		int8_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m73215CC1A28F076B0D2472385756C7AF58CBA171(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		int8_t* L_4 = ___1_b;
 		int8_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m73215CC1A28F076B0D2472385756C7AF58CBA171(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_mA23FD3A0C3B4448E4721DA31DA7B4B93A636A3FD(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:171>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25375));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int32_t L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		int32_t L_15;
 		L_15 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		V_1 = L_15;
 		goto IL_0026;
 	}
@@ -3698,7 +3224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisSByte_tF
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25377));
 		int32_t L_16 = V_1;
 		return L_16;
 	}
@@ -3711,50 +3236,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisUInt16_t
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25369));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25370));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25371));
 		uint16_t* L_0 = ___0_a;
 		uint16_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m000E8D7B908376D69E48EACF3E6811C4DEE7A05D(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		uint16_t* L_4 = ___1_b;
 		uint16_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m000E8D7B908376D69E48EACF3E6811C4DEE7A05D(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m331D979D640CF9DF04C505875F9FB702E217B2AB(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:171>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25375));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int32_t L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		int32_t L_15;
 		L_15 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		V_1 = L_15;
 		goto IL_0026;
 	}
@@ -3762,7 +3270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisUInt16_t
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25377));
 		int32_t L_16 = V_1;
 		return L_16;
 	}
@@ -3775,50 +3282,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisIl2CppFu
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 3)) ? ___5_allOnesT : &___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25368));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25369));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25370));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:169>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25371));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_a;
 		Il2CppFullySharedGenericStruct* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25372));
 		Il2CppFullySharedGenericStruct* L_4 = ___1_b;
 		Il2CppFullySharedGenericStruct* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_7;
 		L_7 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25373));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		int32_t L_11;
 		L_11 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, Il2CppFullySharedGenericStruct*, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25374));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:171>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25375));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int32_t L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		int32_t L_15;
 		L_15 = Sse4_2_ComputeStriOutput_mC9EFEB2A2B9B95760CEE913DF4EF7F57BE662123(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25376));
 		V_1 = L_15;
 		goto IL_0026;
 	}
@@ -3826,7 +3316,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_cmpistri_emulation_TisIl2CppFu
 IL_0026:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:172>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25377));
 		int32_t L_16 = V_1;
 		return L_16;
 	}
@@ -3837,55 +3326,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25319));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25321));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25322));
 		uint8_t* L_0 = ___0_a;
 		uint8_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD30812062AA4852D166ABCDF3D79FDD1856F173A(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		uint8_t* L_4 = ___1_b;
 		uint8_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mD30812062AA4852D166ABCDF3D79FDD1856F173A(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m5D9BE946098FA4C7FC8CC23DEE63A0877E8D6C8B(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:128>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25326));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		uint8_t L_14 = ___5_allOnesT;
 		int32_t L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_16;
 		L_16 = Sse4_2_ComputeStrmOutput_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m1CC4D51DF3F513318DCC288B066D0018EAF9C235(L_12, L_13, L_14, L_15, il2cpp_rgctx_method(method->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		V_1 = L_16;
 		goto IL_0028;
 	}
@@ -3893,7 +3364,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0028:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:129>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25328));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_17 = V_1;
 		return L_17;
 	}
@@ -3904,55 +3374,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25319));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25321));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25322));
 		int16_t* L_0 = ___0_a;
 		int16_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m3EBC75C6F39A7B1A5F62D88877C87C9F3B5617A3(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		int16_t* L_4 = ___1_b;
 		int16_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_m3EBC75C6F39A7B1A5F62D88877C87C9F3B5617A3(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mB3F9377B1A57D35D5514DEF77B3D9279A8622960(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:128>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25326));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int16_t L_14 = ___5_allOnesT;
 		int32_t L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_16;
 		L_16 = Sse4_2_ComputeStrmOutput_TisInt16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_mE92FFA321425E5808CD20616DC308BA7B36886E8(L_12, L_13, L_14, L_15, il2cpp_rgctx_method(method->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		V_1 = L_16;
 		goto IL_0028;
 	}
@@ -3960,7 +3412,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0028:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:129>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25328));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_17 = V_1;
 		return L_17;
 	}
@@ -3971,55 +3422,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25319));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25321));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25322));
 		int8_t* L_0 = ___0_a;
 		int8_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m73215CC1A28F076B0D2472385756C7AF58CBA171(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		int8_t* L_4 = ___1_b;
 		int8_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m73215CC1A28F076B0D2472385756C7AF58CBA171(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_mA23FD3A0C3B4448E4721DA31DA7B4B93A636A3FD(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:128>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25326));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		int8_t L_14 = ___5_allOnesT;
 		int32_t L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_16;
 		L_16 = Sse4_2_ComputeStrmOutput_TisSByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_m5EFDDE5126FDB6BF9F9ED55B39751B517522C455(L_12, L_13, L_14, L_15, il2cpp_rgctx_method(method->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		V_1 = L_16;
 		goto IL_0028;
 	}
@@ -4027,7 +3460,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0028:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:129>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25328));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_17 = V_1;
 		return L_17;
 	}
@@ -4038,55 +3470,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (&___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25319));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25321));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25322));
 		uint16_t* L_0 = ___0_a;
 		uint16_t* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Sse4_2_ComputeStringLength_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m000E8D7B908376D69E48EACF3E6811C4DEE7A05D(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		uint16_t* L_4 = ___1_b;
 		uint16_t* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_7;
 		L_7 = Sse4_2_ComputeStringLength_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m000E8D7B908376D69E48EACF3E6811C4DEE7A05D(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		int32_t L_11;
 		L_11 = Sse4_2_ComputeStrCmpIntRes2_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m331D979D640CF9DF04C505875F9FB702E217B2AB(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:128>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25326));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		uint16_t L_14 = ___5_allOnesT;
 		int32_t L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_16;
 		L_16 = Sse4_2_ComputeStrmOutput_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mD44F4B084A230ACD38B4FCF13923F8986AFF0AB1(L_12, L_13, L_14, L_15, il2cpp_rgctx_method(method->rgctx_data, 4));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		V_1 = L_16;
 		goto IL_0028;
 	}
@@ -4094,7 +3508,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0028:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:129>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25328));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_17 = V_1;
 		return L_17;
 	}
@@ -4105,57 +3518,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61_0_0_0_var);
 		il2cpp_rgctx_method_init(method);
 	}
 	const uint32_t SizeOf_T_tC319464E6946647CC7BFD95709030A0B11A82E13 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 3));
 	const Il2CppFullySharedGenericStruct L_14 = alloca(SizeOf_T_tC319464E6946647CC7BFD95709030A0B11A82E13);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t V_0 = 0;
 	v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_len), (&___3_imm8), (&___4_allOnes), (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->rgctx_data, 3)) ? ___5_allOnesT : &___5_allOnesT));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25319));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Burst + 25320));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25321));
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:126>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25322));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_a;
 		Il2CppFullySharedGenericStruct* L_1 = ___0_a;
 		int32_t L_2 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		il2cpp_codegen_runtime_class_init_inline(Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_1, L_2, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25323));
 		Il2CppFullySharedGenericStruct* L_4 = ___1_b;
 		Il2CppFullySharedGenericStruct* L_5 = ___1_b;
 		int32_t L_6 = ___2_len;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_7;
 		L_7 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25324));
 		int32_t L_8 = ___2_len;
 		int32_t L_9 = ___3_imm8;
 		int32_t L_10 = ___4_allOnes;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		int32_t L_11;
 		L_11 = ((  int32_t (*) (Il2CppFullySharedGenericStruct*, int32_t, Il2CppFullySharedGenericStruct*, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_0, L_3, L_4, L_7, L_8, L_9, L_10, il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25325));
 		V_0 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:128>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25326));
 		int32_t L_12 = ___2_len;
 		int32_t L_13 = ___3_imm8;
 		il2cpp_codegen_memcpy(L_14, ___5_allOnesT, SizeOf_T_tC319464E6946647CC7BFD95709030A0B11A82E13);
 		int32_t L_15 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_16;
 		L_16 = InvokerFuncInvoker4< v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61, int32_t, int32_t, Il2CppFullySharedGenericStruct, int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)), il2cpp_rgctx_method(method->rgctx_data, 4), NULL, L_12, L_13, L_14, L_15);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25327));
 		V_1 = L_16;
 		goto IL_0028;
 	}
@@ -4163,7 +3558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B6
 IL_0028:
 	{
 		//<source_info:./Library/PackageCache/com.unity.burst@f7a407abf4d5/Runtime/Intrinsics/x86/Sse4_2.cs:129>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Burst + 25328));
 		v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61 L_17 = V_1;
 		return L_17;
 	}
@@ -4173,35 +3567,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingState_Update_TisIl2CppFullyShar
 {
 	if (!il2cpp_rgctx_is_initialized(method))
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_il2cpp_TypeInfo_var);
 		il2cpp_rgctx_method_init(method);
 	}
-	ProfilerMethodSentry _profilerMethodSentry(method);
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30588));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 30589));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30590));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/xxHash3.StreamingState.cs:145>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30591));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_input;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30592));
 		void* L_1;
 		L_1 = ((  void* (*) (Il2CppFullySharedGenericStruct*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30592));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30593));
 		int32_t L_2;
 		L_2 = ((  int32_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30593));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30594));
 		il2cpp_codegen_runtime_class_init_inline(StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_il2cpp_TypeInfo_var);
 		StreamingState_Update_mD0C172FBC9AB99BC72DF8CC3665ABB61658AB9E5(__this, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30594));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/xxHash3.StreamingState.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 30595));
 		return;
 	}
 }
@@ -4216,22 +3594,13 @@ IL2CPP_EXTERN_C  void StreamingState_Update_TisIl2CppFullySharedGenericStruct_m3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Array_Allocate_TisIl2CppFullySharedGenericStruct_m472C3AE183E3C768741B28481DD1F012013B13A6_gshared (int64_t ___0_count, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___1_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	Il2CppFullySharedGenericStruct* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_count), (&___1_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20533));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20534));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20535));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:103>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20536));
 		int64_t L_0 = ___0_count;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_1 = ___1_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20537));
 		Il2CppFullySharedGenericStruct* L_2;
 		L_2 = ((  Il2CppFullySharedGenericStruct* (*) (Il2CppFullySharedGenericStruct*, int64_t, int64_t, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))((Il2CppFullySharedGenericStruct*)((uintptr_t)0), ((int64_t)0), L_0, L_1, il2cpp_rgctx_method(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20537));
 		V_0 = L_2;
 		goto IL_000f;
 	}
@@ -4239,7 +3608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Array_Allocat
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:104>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20538));
 		Il2CppFullySharedGenericStruct* L_3 = V_0;
 		return L_3;
 	}
@@ -4248,22 +3616,13 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* Array_Allocate_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_mCDBD1381CA662F016D4B6003D9BA89FE592EB6D8_gshared (int64_t ___0_count, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___1_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_count), (&___1_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20533));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20534));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20535));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:103>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20536));
 		int64_t L_0 = ___0_count;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_1 = ___1_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20537));
 		MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* L_2;
 		L_2 = Array_Resize_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_m66D39A0700C852DFD578157D9E4862A8230233F3((MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84*)((uintptr_t)0), ((int64_t)0), L_0, L_1, il2cpp_rgctx_method(method->rgctx_data, 0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20537));
 		V_0 = L_2;
 		goto IL_000f;
 	}
@@ -4271,7 +3630,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C
 IL_000f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:104>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20538));
 		MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* L_3 = V_0;
 		return L_3;
 	}
@@ -4280,19 +3638,11 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Free_TisIl2CppFullySharedGenericStruct_m6AA7597FA98F8020ABEFACEA0A1D00A384716627_gshared (Il2CppFullySharedGenericStruct* ___0_pointer, int64_t ___1_count, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___2_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_pointer), (&___1_count), (&___2_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20539));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20540));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20541));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:110>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20542));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_pointer;
 		V_0 = (bool)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20543));
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -4301,27 +3651,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Free_TisIl2CppFullySharedGenericSt
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:111>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20544));
 		goto IL_0017;
 	}
 
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:112>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20545));
 		Il2CppFullySharedGenericStruct* L_2 = ___0_pointer;
 		int64_t L_3 = ___1_count;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_4 = ___2_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20546));
 		Il2CppFullySharedGenericStruct* L_5;
 		L_5 = ((  Il2CppFullySharedGenericStruct* (*) (Il2CppFullySharedGenericStruct*, int64_t, int64_t, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(L_2, L_3, ((int64_t)0), L_4, il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20546));
 	}
 
 IL_0017:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:113>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20547));
 		return;
 	}
 }
@@ -4329,32 +3674,19 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B* Array_Resize_TisHashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B_m3411CCE45309DF743A524C406531532C4FC8CD72_gshared (HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisHashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B_m8058188B2884F5674C5A4C9C7AFC0A59000CC56F_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisHashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B_m9D33FAB445EBAAEAB91BED2D158B3290B610D47E(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B*)L_6;
 		goto IL_0018;
 	}
@@ -4362,7 +3694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B* L_7 = V_0;
 		return L_7;
 	}
@@ -4371,32 +3702,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258* Array_Resize_TisUnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258_m87C047C9A0252B77CBF08B5DDEF1D493A14DD276_gshared (UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258_m9DD3BAE2675B37478EA2C9AA9DAFD2C6C1F5BF4E_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258_m796E3C1D5F3A55A9EFFD1AA98C09AB788198C7A1(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258*)L_6;
 		goto IL_0018;
 	}
@@ -4404,7 +3722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t0323897433D8F18174111DB978F6D9
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258* L_7 = V_0;
 		return L_7;
 	}
@@ -4413,32 +3730,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD* Array_Resize_TisUnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD_mFF71C2DBFEFF6594159B5324E0EC19D878450E2E_gshared (UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD_m201D21D3AC9187C9EFEF16F0B593FAC6BE19EE72_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD_m70E5F2C375F3B4039114929EBDF86DFCBF1EF99C(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD*)L_6;
 		goto IL_0018;
 	}
@@ -4446,7 +3750,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F32
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD* L_7 = V_0;
 		return L_7;
 	}
@@ -4455,32 +3758,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515* Array_Resize_TisUnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515_mCFE5759D51678924C8C9E90B0A2ABA0AEF5AB6F6_gshared (UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515_m067749C993CAF4A3AA0673C46673216D995516DE_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515_m756E0E44BD2515C8949896575600531B61F5B16B(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515*)L_6;
 		goto IL_0018;
 	}
@@ -4488,7 +3778,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515* L_7 = V_0;
 		return L_7;
 	}
@@ -4497,32 +3786,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6* Array_Resize_TisUnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6_mCA2193874571CACB1B8D75FBD095B8AD29C6403A_gshared (UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6_m9108AF5F196154FF71AD62376A7411B92391F000_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6_m219DC3BB1EF8E9E18A66470555A9974E2C7D9EC6(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6*)L_6;
 		goto IL_0018;
 	}
@@ -4530,7 +3806,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6* L_7 = V_0;
 		return L_7;
 	}
@@ -4539,32 +3814,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* Array_Resize_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m1767423622567D1059537F40EF99A5522126FBD0_gshared (uint8_t* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	uint8_t* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		uint8_t* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m97C7D5E5DE74DC60A0ECAA914830BEDF2C46ACAA_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mB152D3C658FB48DEDB6E662EEB0C91018E7F2857(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (uint8_t*)L_6;
 		goto IL_0018;
 	}
@@ -4572,7 +3834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* Array_Resize_TisByte_t94D9231AC217BE
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		uint8_t* L_7 = V_0;
 		return L_7;
 	}
@@ -4581,32 +3842,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t* Array_Resize_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEE512F558B8B16B19497E4DF8445518F289534BE_gshared (int32_t* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	int32_t* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		int32_t* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m274F833CD001C63E56A22D8F42C76CE8C6CC39DF(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (int32_t*)L_6;
 		goto IL_0018;
 	}
@@ -4614,7 +3862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t* Array_Resize_TisInt32_t680FF22E76F6E
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		int32_t* L_7 = V_0;
 		return L_7;
 	}
@@ -4623,32 +3870,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t* Array_Resize_TisIntPtr_t_mE1CA5D0262B2B8D4C9453D51DF34A94A0CF3556F_gshared (intptr_t* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	intptr_t* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		intptr_t* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisIntPtr_t_mB17C6C168D8CA088879EDD0D5B9923F70F5269B8(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (intptr_t*)L_6;
 		goto IL_0018;
 	}
@@ -4656,7 +3890,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t* Array_Resize_TisIntPtr_t_mE1CA5D026
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		intptr_t* L_7 = V_0;
 		return L_7;
 	}
@@ -4665,32 +3898,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t* Array_Resize_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_mD3BD6186C5C7D5B3952897C2602B7C5BEA1A7E81_gshared (uint64_t* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	uint64_t* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		uint64_t* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m6C198B51ACD7B8EC62D5E0E75433C12BE9D65A58_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m8127223B00E08567EC09EF1D992F89C74F248AB0(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (uint64_t*)L_6;
 		goto IL_0018;
 	}
@@ -4698,7 +3918,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t* Array_Resize_TisUInt64_t8F12534CC8F
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		uint64_t* L_7 = V_0;
 		return L_7;
 	}
@@ -4707,32 +3926,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4* Array_Resize_TisUnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4_m61718F1D9CCF897E5BE50BB484C8D816C988DF6F_gshared (UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4_mCCA7CED28D808054F7C94E1BF58205316AEE194F_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4_m56B5B812224539B0C633BABE891ADDE1973580F6(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4*)L_6;
 		goto IL_0018;
 	}
@@ -4740,7 +3946,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeBitArray_t74DFECCCA980372B6F29B9AA508AC
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4* L_7 = V_0;
 		return L_7;
 	}
@@ -4749,32 +3954,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* Array_Resize_TisUnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926_m1576AD06CC03F6E9D06FC13A0F280519B1666726_gshared (UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926_mB6FE4CAF35894EF5E357881DA5A0EAE9EDAD3754_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926_mC1EBD5161294EF95B8AC378DDF616869D287DC36(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926*)L_6;
 		goto IL_0018;
 	}
@@ -4782,7 +3974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeParallelHashMapData_t43CAB3170FBB624A9C
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926* L_7 = V_0;
 		return L_7;
 	}
@@ -4791,32 +3982,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* Array_Resize_TisUnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C_mF6857EF793C9156A611EAA1E63A02352EFE46784_gshared (UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C_mEBEAA7CA1C71A37FA5CBCF89A0C9B78ABAD5C8C7_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C_m3DF404928C7038CCD5C05BBBA41C4B2FD35A4253(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C*)L_6;
 		goto IL_0018;
 	}
@@ -4824,7 +4002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A0
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C* L_7 = V_0;
 		return L_7;
 	}
@@ -4833,32 +4010,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2* Array_Resize_TisUnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2_m1082D56F32F50ECA3CFFDB87DB3512F2CE7544F4_gshared (UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2_m25193E03B20C96400F243B7A682AF5BB8F030297_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2_mD84C2AFFB4ED036B913CEAD2FBF8A60E9C3A017D(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2*)L_6;
 		goto IL_0018;
 	}
@@ -4866,7 +4030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeQueueData_t43073ABB3262F6905C43F9180FCB
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2* L_7 = V_0;
 		return L_7;
 	}
@@ -4875,32 +4038,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* Array_Resize_TisUnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67_m520F16927035702AB0DF9C30EE88686BDC346F21_gshared (UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisUnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67_m79CAC169FC4593612624CB619E7D6F6FD7447517_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisUnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67_m5892DF1B875736B0E3612716E560A4E4AD5F6591(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67*)L_6;
 		goto IL_0018;
 	}
@@ -4908,7 +4058,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67* L_7 = V_0;
 		return L_7;
 	}
@@ -4917,32 +4066,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Array_Resize_TisIl2CppFullySharedGenericStruct_m07039200651D43DBB7FBC0CB244761DA34C164FD_gshared (Il2CppFullySharedGenericStruct* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	Il2CppFullySharedGenericStruct* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		Il2CppFullySharedGenericStruct* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = ((  int32_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = ((  int32_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (Il2CppFullySharedGenericStruct*)L_6;
 		goto IL_0018;
 	}
@@ -4950,7 +4086,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Array_Resize_
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		Il2CppFullySharedGenericStruct* L_7 = V_0;
 		return L_7;
 	}
@@ -4959,32 +4094,19 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* Array_Resize_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_m66D39A0700C852DFD578157D9E4862A8230233F3_gshared (MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	ProfilerMethodSentry _profilerMethodSentry(method);
 	MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* V_0 = NULL;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_oldPointer), (&___1_oldCount), (&___2_newCount), (&___3_allocator));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20525));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Collections + 20526));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20527));
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20528));
 		MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* L_0 = ___0_oldPointer;
 		int64_t L_1 = ___1_oldCount;
 		int64_t L_2 = ___2_newCount;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___3_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
 		int32_t L_4;
 		L_4 = UnsafeUtility_SizeOf_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_m4A0947EA519A2614EC19544513888A4DC5F42919_inline(il2cpp_rgctx_method(method->rgctx_data, 1));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20529));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
 		int32_t L_5;
 		L_5 = UnsafeUtility_AlignOf_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_m6AD8B4EF31CDD94CA734378B1443806DAFE68A05(il2cpp_rgctx_method(method->rgctx_data, 2));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20530));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		void* L_6;
 		L_6 = Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380((void*)L_0, L_1, L_2, L_3, ((int64_t)L_4), L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20531));
 		V_0 = (MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84*)L_6;
 		goto IL_0018;
 	}
@@ -4992,7 +4114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections/Memory.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Collections + 20532));
 		MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84* L_7 = V_0;
 		return L_7;
 	}
@@ -5001,8 +4122,6 @@ IL_0018:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EqualityComparer_1_tE7F9CA4FFFE31F11BFD738023C1E489D3ECB371B* EqualityComparer_1_get_Default_m7F71AAC0046A3CB8C4CEB06A5A52A1269AF7023D_gshared_inline (const RuntimeMethod* method) 
 {
 	EqualityComparer_1_tE7F9CA4FFFE31F11BFD738023C1E489D3ECB371B* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_tE7F9CA4FFFE31F11BFD738023C1E489D3ECB371B* L_0 = ((EqualityComparer_1_tE7F9CA4FFFE31F11BFD738023C1E489D3ECB371B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer;
 		il2cpp_codegen_memory_barrier();
@@ -5033,8 +4152,6 @@ IL_0019:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70* EqualityComparer_1_get_Default_m80EE5C179E01BB38904781592AC72F8137541D7E_gshared_inline (const RuntimeMethod* method) 
 {
 	EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70* L_0 = ((EqualityComparer_1_t8B3F40C676CD330DB13D396DB81564A00E2B7C70_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___defaultComparer;
 		il2cpp_codegen_memory_barrier();
@@ -5064,11 +4181,7 @@ IL_0019:
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisHashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B_m8058188B2884F5674C5A4C9C7AFC0A59000CC56F_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(HashMapHelper_1_t51F726D16732CD16EFBBB3DE324B481A05388D2B);
 		return (int32_t)L_0;
 	}
@@ -5076,11 +4189,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisH
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258_m9DD3BAE2675B37478EA2C9AA9DAFD2C6C1F5BF4E_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeQueue_1_t0323897433D8F18174111DB978F6D9EB951CB258);
 		return (int32_t)L_0;
 	}
@@ -5088,11 +4197,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD_m201D21D3AC9187C9EFEF16F0B593FAC6BE19EE72_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeQueue_1_t0F79CBE5DEA60DE3AE33082C3F7F324FE9066ECD);
 		return (int32_t)L_0;
 	}
@@ -5100,11 +4205,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515_m067749C993CAF4A3AA0673C46673216D995516DE_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeQueue_1_t927BA8F9B687AB3656D5A6FFCD1AEE5BE72A5515);
 		return (int32_t)L_0;
 	}
@@ -5112,11 +4213,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6_m9108AF5F196154FF71AD62376A7411B92391F000_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeRingQueue_1_tAF3191C06795E5D904223D7CA3372A4D56B5B5B6);
 		return (int32_t)L_0;
 	}
@@ -5124,11 +4221,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m97C7D5E5DE74DC60A0ECAA914830BEDF2C46ACAA_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(uint8_t);
 		return (int32_t)L_0;
 	}
@@ -5136,11 +4229,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisB
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mED481D505BF43CBD96972069EDD4E3509BE84931_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(int32_t);
 		return (int32_t)L_0;
 	}
@@ -5148,11 +4237,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisI
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisIntPtr_t_mB2B3CFF1CB804C99734D4E2F5D8A8C9DB0D209A8_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(intptr_t);
 		return (int32_t)L_0;
 	}
@@ -5160,11 +4245,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisI
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m6C198B51ACD7B8EC62D5E0E75433C12BE9D65A58_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(uint64_t);
 		return (int32_t)L_0;
 	}
@@ -5172,11 +4253,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4_mCCA7CED28D808054F7C94E1BF58205316AEE194F_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeBitArray_t74DFECCCA980372B6F29B9AA508ACC77A3D6B8D4);
 		return (int32_t)L_0;
 	}
@@ -5184,11 +4261,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926_mB6FE4CAF35894EF5E357881DA5A0EAE9EDAD3754_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeParallelHashMapData_t43CAB3170FBB624A9CCB6F30C0EC1BB820D57926);
 		return (int32_t)L_0;
 	}
@@ -5196,11 +4269,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C_mEBEAA7CA1C71A37FA5CBCF89A0C9B78ABAD5C8C7_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeQueueBlockHeader_t93BDD5BE3C4A0486BE2A07B68862CFF1F5870D9C);
 		return (int32_t)L_0;
 	}
@@ -5208,11 +4277,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2_m25193E03B20C96400F243B7A682AF5BB8F030297_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeQueueData_t43073ABB3262F6905C43F9180FCBB71E301597C2);
 		return (int32_t)L_0;
 	}
@@ -5220,11 +4285,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67_m79CAC169FC4593612624CB619E7D6F6FD7447517_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(UnsafeText_t93F5D82C1FF7AB12B0E621B9D0EC9855D005FF67);
 		return (int32_t)L_0;
 	}
@@ -5232,11 +4293,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 // Method Definition Index: 45593
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisMemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84_m4A0947EA519A2614EC19544513888A4DC5F42919_gshared_inline (const RuntimeMethod* method) 
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2115));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2116));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 2117));
 		uint32_t L_0 = sizeof(MemoryBlock_t83C4AD217E04686899AC67FBD8D14A7C9AAC6E84);
 		return (int32_t)L_0;
 	}

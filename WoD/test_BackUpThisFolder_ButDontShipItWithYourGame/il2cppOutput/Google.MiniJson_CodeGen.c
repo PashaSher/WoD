@@ -88,7 +88,6 @@ static const int32_t s_InvokerIndices[25] =
 	11978,
 	11978,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationGoogle_MiniJson;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Google_MiniJson_CodeGenModule;
 const Il2CppCodeGenModule g_Google_MiniJson_CodeGenModule = 
 {
@@ -104,7 +103,7 @@ const Il2CppCodeGenModule g_Google_MiniJson_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationGoogle_MiniJson,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

@@ -14,118 +14,22 @@ struct String_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct CommandBuilder_tA2E5D7A513FE45173EA395D67B25DB94E42CCA84;
 
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_Mathematics[];
-IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime[];
 IL2CPP_EXTERN_C RuntimeClass* BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlanarGraph_t7364A81B5C32124D53251D8FD1135CC16793E6E0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* DelaEdgeCompare_Compare_m4AE4388767DAE729E5F497C66009C5DEB796B61A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IntersectionCompare_Compare_m47AF21131D95CE78ACD63B1848834162EE5FB582_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_BuildTrianglesAndEdges_m27E981150B7C706432B2B0289D171292848DD602_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_BuildTriangles_m6234B1C0C2B49C85551535F8CD0805845C03CAAC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_BuildTriangles_mD6A98AB9B2DD595D042196B675EFBD00A8CA2DFC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_ConvexQuad_m7D9BC4D23333081D14A8044E77AED5FBF01DDFF4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_CopyGeometry_mBB391F8676ADD633B9B0A4F64001B689F055B3D0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_CopyGraph_mD2417E59077CE579091AC05BEC315E4FBD802054_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_GraphConditioner_m322541485AFCB09F1FDF3609BECCB093D0DA138E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_IsInsideCircle_m562EC09950582F76A3070E0C20CE7A5FDCC490CD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_IsInsideCircle_m5DB9909A76433AC967E655FA2FE550020079D780_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_IsInsideTriangleApproximate_m857F51A8532FE7F8F81A1439E79F3A11D5BF0CD6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_IsInsideTriangle_mE5E0727E61408F6660F8523E486B325CD14D028A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_OrientFastDouble_m22FA5D345F2DE849281B3A4FD34A094C241FAC2F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_Tessellate_m6AE06111AB2B0B09EC2C846DEF23C1AAA61B968E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_TransferOutput_mE769E946634074513DB462A6E244FD843ED2135C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle_VertexCleanupConditioner_m6AC0853FEBD2826F41C6C3115F33D927867676A6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ModuleHandle__cctor_mBE35D3D252C3BA83B20D8EC431BE1589A144E03D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessEventCompare_Compare_mCB358637173C49F5385C5C10E6EF7FB2998FEF40_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD9289AB335D4350F13_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessLink_CreateLink_m29A2928ED0ECDA9EE29A29E2EC92D6678F10FF05_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessLink_DestroyLink_m8AE3E6F07F5695531C7712DC0777B62A7494AF1F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC240B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082F49_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A97CB3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestHullPointL_Test_mD67B5326AED143E216C7DC238637E8E0B3131ECC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* TestHullPointU_Test_m3AF0A2CD6162B20C77771850BF94DC7A2D8ED9C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U24BurstDirectCallInitializer_Initialize_m15347CE4997B95D8D58B24CEC10BDB0ACB562281_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XCompare_Compare_mC591D9D097659ECE784A849856E80AB4D5E2C11A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* DelaEdgeCompare_tE7F76464E799DE60A8BF6D3237C394A4D423F094_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* DoubleU2A_t9DEA8057D4167127307A79A63E86140AA20AA99A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* IntersectionCompare_t21DEE51F23F51CD0CF9E47899B170D40ED174839_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TessEventCompare_tB4F5A87DBF6DD41F6314F35043C5BA5898448F50_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TessJunctionCompare_t1B2A4587D20ABADA991833A85B52100303B9539C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestCellE_t0F8BBDD3840E1308A945CF738127F1842790CD20_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestEdgePointE_t5D1D1312698D906FEA6A04880C83D7AAF75B71D8_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestHullEventE_t91CCCB62CEA34865B529A1AEF9C7C933A3E3D4F0_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestHullEventLe_t428A4856E8BA71EA857A13595B81271483FF55B8_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestHullPointL_t66B59732E84CD8B8F0A35BD81BEC20971C1608A2_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TestHullPointU_tEB7A8E96D653DF22C78B1363A319E645F05C2D16_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* int4_tBA77D4945786DE82C3A487B33955EA1004996052_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -732,35 +636,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointL_Test_mD67B5326AED143E216C
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullPointL_Test_mD67B5326AED143E216C7DC238637E8E0B3131ECC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullPointL_t66B59732E84CD8B8F0A35BD81BEC20971C1608A2_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TestHullPointL_Test_mD67B5326AED143E216C7DC238637E8E0B3131ECC_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestHullPointL_Test_mD67B5326AED143E216C7DC238637E8E0B3131ECC_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20528));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20529));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20530));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:37>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20531));
 		float* L_0 = ___2_t;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_1 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___a;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_3 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = L_3.___b;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20532));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		float L_6;
 		L_6 = ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06(L_2, L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20532));
 		*((float*)L_0) = (float)L_6;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20533));
 		float* L_7 = ___2_t;
 		float L_8 = *((float*)L_7);
 		V_0 = (bool)((((float)L_8) < ((float)(0.0f)))? 1 : 0);
@@ -770,7 +661,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointL_Test_mD67B5326AED143E216C
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20534));
 		bool L_9 = V_0;
 		return L_9;
 	}
@@ -799,35 +689,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointU_Test_m3AF0A2CD6162B20C777
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullPointU_Test_m3AF0A2CD6162B20C77771850BF94DC7A2D8ED9C2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullPointU_tEB7A8E96D653DF22C78B1363A319E645F05C2D16_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TestHullPointU_Test_m3AF0A2CD6162B20C77771850BF94DC7A2D8ED9C2_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestHullPointU_Test_m3AF0A2CD6162B20C77771850BF94DC7A2D8ED9C2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20535));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20536));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20537));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:46>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20538));
 		float* L_0 = ___2_t;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_1 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___a;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_3 = ___0_h;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = L_3.___b;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20539));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		float L_6;
 		L_6 = ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06(L_2, L_4, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20539));
 		*((float*)L_0) = (float)L_6;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20540));
 		float* L_7 = ___2_t;
 		float L_8 = *((float*)L_7);
 		V_0 = (bool)((((float)L_8) > ((float)(0.0f)))? 1 : 0);
@@ -837,7 +714,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullPointU_Test_m3AF0A2CD6162B20C777
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:48>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20541));
 		bool L_9 = V_0;
 		return L_9;
 	}
@@ -862,34 +738,16 @@ IL2CPP_EXTERN_C  bool TestHullPointU_Test_m3AF0A2CD6162B20C77771850BF94DC7A2D8ED
 // Method Definition Index: 66368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A97CB3 (TestHullEventLe_t428A4856E8BA71EA857A13595B81271483FF55B8* __this, UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 ___0_h, UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A97CB3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullEventLe_t428A4856E8BA71EA857A13595B81271483FF55B8_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A97CB3_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A97CB3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20542));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20543));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20544));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:88>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20545));
 		float* L_0 = ___2_t;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_1 = ___0_h;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_2 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20546));
 		float L_3;
 		L_3 = Tessellator_FindSplit_m10B801FE843957B0D014E7867373EAF6AA2CF1FD(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20546));
 		*((float*)L_0) = (float)L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:89>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20547));
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		V_0 = (bool)((((int32_t)((!(((float)L_5) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -899,7 +757,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventLe_Test_m4FE651114100DE7E07
 IL_0019:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:90>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20548));
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -924,34 +781,16 @@ IL2CPP_EXTERN_C  bool TestHullEventLe_Test_m4FE651114100DE7E07DBADE520E75FC168A9
 // Method Definition Index: 66369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082F49 (TestHullEventE_t91CCCB62CEA34865B529A1AEF9C7C933A3E3D4F0* __this, UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 ___0_h, UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082F49_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestHullEventE_t91CCCB62CEA34865B529A1AEF9C7C933A3E3D4F0_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082F49_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082F49_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20549));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20550));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20551));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20552));
 		float* L_0 = ___2_t;
 		UHull_t4B21C0DB3D81E27C2BF60852E612499E598472B5 L_1 = ___0_h;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_2 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20553));
 		float L_3;
 		L_3 = Tessellator_FindSplit_m10B801FE843957B0D014E7867373EAF6AA2CF1FD(L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20553));
 		*((float*)L_0) = (float)L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:98>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20554));
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		V_0 = (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -961,7 +800,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestHullEventE_Test_mD7344227B61F43A6A02
 IL_0016:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:99>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20555));
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -986,41 +824,20 @@ IL2CPP_EXTERN_C  bool TestHullEventE_Test_mD7344227B61F43A6A023EBC2F1C13140FD082
 // Method Definition Index: 66370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC240B (TestEdgePointE_t5D1D1312698D906FEA6A04880C83D7AAF75B71D8* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_h, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC240B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestEdgePointE_t5D1D1312698D906FEA6A04880C83D7AAF75B71D8_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC240B_RuntimeMethod_var);
 	TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC240B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20556));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20557));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20558));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:311>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20559));
 		il2cpp_codegen_initobj((&V_0), sizeof(TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:312>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20560));
 		float* L_0 = ___2_t;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1 = ___0_h;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20561));
 		int32_t L_3;
 		L_3 = TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97((&V_0), L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20561));
 		*((float*)L_0) = (float)((float)L_3);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:313>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20562));
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		V_1 = (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -1030,7 +847,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestEdgePointE_Test_m1405C8998CF580F4681
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:314>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20563));
 		bool L_6 = V_1;
 		return L_6;
 	}
@@ -1055,41 +871,20 @@ IL2CPP_EXTERN_C  bool TestEdgePointE_Test_m1405C8998CF580F46817D5D0F33BBC98B4CC2
 // Method Definition Index: 66371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E (TestCellE_t0F8BBDD3840E1308A945CF738127F1842790CD20* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_h, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_p, float* ___2_t, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TestCellE_t0F8BBDD3840E1308A945CF738127F1842790CD20_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E_RuntimeMethod_var);
 	TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_h), (&___1_p), (&___2_t));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20564));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20565));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20566));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:544>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20567));
 		il2cpp_codegen_initobj((&V_0), sizeof(TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:545>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20568));
 		float* L_0 = ___2_t;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_1 = ___0_h;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_2 = ___1_p;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20569));
 		int32_t L_3;
 		L_3 = TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108((&V_0), L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20569));
 		*((float*)L_0) = (float)((float)L_3);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:546>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20570));
 		float* L_4 = ___2_t;
 		float L_5 = *((float*)L_4);
 		V_1 = (bool)((((float)L_5) == ((float)(0.0f)))? 1 : 0);
@@ -1099,7 +894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TestCellE_Test_m41B697E52090E8C53B5FF1AB
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/Tessellator.cs:547>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20571));
 		bool L_6 = V_1;
 		return L_6;
 	}
@@ -1188,25 +982,10 @@ IL2CPP_EXTERN_C  bool TestCellE_Test_m41B697E52090E8C53B5FF1ABE7981AAFB2E48C3E_A
 // Method Definition Index: 66373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XCompare_Compare_mC591D9D097659ECE784A849856E80AB4D5E2C11A (XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E* __this, double ___0_a, double ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XCompare_Compare_mC591D9D097659ECE784A849856E80AB4D5E2C11A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(XCompare_Compare_mC591D9D097659ECE784A849856E80AB4D5E2C11A_RuntimeMethod_var);
 	int32_t V_0 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XCompare_Compare_mC591D9D097659ECE784A849856E80AB4D5E2C11A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20572));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20573));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20574));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:82>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20575));
 		double L_0 = ___0_a;
 		double L_1 = ___1_b;
 		if ((((double)L_0) < ((double)L_1)))
@@ -1233,7 +1012,6 @@ IL_0009:
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:83>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20576));
 		int32_t L_2 = V_0;
 		return L_2;
 	}
@@ -1261,16 +1039,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_m47AF2113
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DoubleU2A_t9DEA8057D4167127307A79A63E86140AA20AA99A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntersectionCompare_Compare_m47AF21131D95CE78ACD63B1848834162EE5FB582_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntersectionCompare_t21DEE51F23F51CD0CF9E47899B170D40ED174839_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(IntersectionCompare_Compare_m47AF21131D95CE78ACD63B1848834162EE5FB582_RuntimeMethod_var);
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A V_1;
@@ -1289,210 +1061,150 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntersectionCompare_Compare_m47AF2113
 	bool V_10 = false;
 	int32_t V_11 = 0;
 	bool V_12 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_7), (&V_9));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IntersectionCompare_Compare_m47AF21131D95CE78ACD63B1848834162EE5FB582_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20577));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20578));
 	int32_t G_B5_0 = 0;
 	int32_t G_B11_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20579));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:96>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20580));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_0 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_1 = ___0_a;
 		int32_t L_2 = L_1.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20581));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_0)->___m_Buffer, L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20581));
 		V_0 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:97>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20582));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_4 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_5 = ___0_a;
 		int32_t L_6 = L_5.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20583));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_4)->___m_Buffer, L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20583));
 		V_1 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:98>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20584));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_8 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_9 = ___1_b;
 		int32_t L_10 = L_9.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20585));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_8)->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20585));
 		V_2 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:99>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20586));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_12 = (NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)(&__this->___edges);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_13 = ___1_b;
 		int32_t L_14 = L_13.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20587));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_15;
 		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_12)->___m_Buffer, L_14);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20587));
 		V_3 = L_15;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:101>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20588));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_16 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_17 = (double*)(&L_16->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_18 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_19 = V_0;
 		int32_t L_20 = L_19.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20589));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_21;
 		L_21 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_18)->___m_Buffer, L_20);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20589));
 		double L_22 = L_21.___x;
 		*((double*)L_17) = (double)L_22;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:102>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20590));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_23 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_24 = (double*)(&L_23->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_25 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_26 = V_0;
 		int32_t L_27 = L_26.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20591));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_28;
 		L_28 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_25)->___m_Buffer, L_27);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20591));
 		double L_29 = L_28.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_24, 8))) = (double)L_29;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:103>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20592));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_30 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_31 = (double*)(&L_30->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_32 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_33 = V_1;
 		int32_t L_34 = L_33.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20593));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_35;
 		L_35 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_32)->___m_Buffer, L_34);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20593));
 		double L_36 = L_35.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_31, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 8))))) = (double)L_36;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:104>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20594));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_37 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_38 = (double*)(&L_37->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_39 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_40 = V_1;
 		int32_t L_41 = L_40.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20595));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_42;
 		L_42 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_39)->___m_Buffer, L_41);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20595));
 		double L_43 = L_42.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_38, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), 8))))) = (double)L_43;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:106>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20596));
 		U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD* L_44 = (U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD*)(&__this->___xvbsort);
 		double* L_45 = (double*)(&L_44->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_46 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_47 = V_2;
 		int32_t L_48 = L_47.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20597));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_49;
 		L_49 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_46)->___m_Buffer, L_48);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20597));
 		double L_50 = L_49.___x;
 		*((double*)L_45) = (double)L_50;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:107>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20598));
 		U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD* L_51 = (U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD*)(&__this->___xvbsort);
 		double* L_52 = (double*)(&L_51->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_53 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_54 = V_2;
 		int32_t L_55 = L_54.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20599));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_56;
 		L_56 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_53)->___m_Buffer, L_55);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20599));
 		double L_57 = L_56.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_52, 8))) = (double)L_57;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:108>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20600));
 		U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD* L_58 = (U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD*)(&__this->___xvbsort);
 		double* L_59 = (double*)(&L_58->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_60 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_61 = V_3;
 		int32_t L_62 = L_61.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20601));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_63;
 		L_63 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_60)->___m_Buffer, L_62);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20601));
 		double L_64 = L_63.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_59, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 8))))) = (double)L_64;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:109>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20602));
 		U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD* L_65 = (U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD*)(&__this->___xvbsort);
 		double* L_66 = (double*)(&L_65->___FixedElementField);
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_67 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_68 = V_3;
 		int32_t L_69 = L_68.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20603));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_70;
 		L_70 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_67)->___m_Buffer, L_69);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20603));
 		double L_71 = L_70.___x;
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_66, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), 8))))) = (double)L_71;
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_72 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_73 = (double*)(&L_72->___FixedElementField);
 		V_5 = L_73;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:111>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20604));
 		double* L_74 = V_5;
 		V_4 = (double*)((uintptr_t)L_74);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20605));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:113>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20606));
 		double* L_75 = V_4;
 		il2cpp_codegen_initobj((&V_6), sizeof(XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E));
 		XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E L_76 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20607));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C((void*)L_75, 0, 3, L_76, ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20607));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20608));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20609));
 		V_5 = (double*)((uintptr_t)0);
 		U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD* L_77 = (U3CxvbsortU3Ee__FixedBuffer_t2B4FE4EECBE0F32E4E7F9C0E31065512A62783FD*)(&__this->___xvbsort);
 		double* L_78 = (double*)(&L_77->___FixedElementField);
 		V_8 = L_78;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:116>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20610));
 		double* L_79 = V_8;
 		V_7 = (double*)((uintptr_t)L_79);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20611));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:118>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20612));
 		double* L_80 = V_7;
 		il2cpp_codegen_initobj((&V_6), sizeof(XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E));
 		XCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E L_81 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20613));
 		ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C((void*)L_80, 0, 3, L_81, ModuleHandle_InsertionSort_TisDouble_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_TisXCompare_tA4217D83836668585CB503D8C16C62FFDE0DC50E_m6491FF3686DFF10132910921E97A729DF591029C_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20613));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20614));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20615));
 		V_8 = (double*)((uintptr_t)0);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:121>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20616));
 		V_9 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20617));
 		goto IL_023b;
 	}
 
 IL_01ce:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:122>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20618));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_82 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_83 = (double*)(&L_82->___FixedElementField);
 		int32_t L_84 = V_9;
@@ -1502,7 +1214,6 @@ IL_01ce:
 		int32_t L_88 = V_9;
 		double L_89 = *((double*)((double*)il2cpp_codegen_add((intptr_t)L_87, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_88), 8)))));
 		V_10 = (bool)((((int32_t)((((double)((double)il2cpp_codegen_subtract(L_85, L_89))) == ((double)(0.0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20619));
 		bool L_90 = V_10;
 		if (!L_90)
 		{
@@ -1511,7 +1222,6 @@ IL_01ce:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:123>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20620));
 		U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088* L_91 = (U3CxvasortU3Ee__FixedBuffer_t6D55D69851347CAF88CD71F4A5DF01BBC4DE7088*)(&__this->___xvasort);
 		double* L_92 = (double*)(&L_91->___FixedElementField);
 		int32_t L_93 = V_9;
@@ -1544,7 +1254,6 @@ IL_0231:
 IL_0235:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:121>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20621));
 		int32_t L_99 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_99, 1));
 	}
@@ -1552,10 +1261,8 @@ IL_0235:
 IL_023b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:121>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20622));
 		int32_t L_100 = V_9;
 		V_12 = (bool)((((int32_t)L_100) < ((int32_t)4))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20623));
 		bool L_101 = V_12;
 		if (L_101)
 		{
@@ -1564,22 +1271,17 @@ IL_023b:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:124>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20624));
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_102 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_103 = V_0;
 		int32_t L_104 = L_103.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20625));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_105;
 		L_105 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_102)->___m_Buffer, L_104);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20625));
 		double L_106 = L_105.___y;
 		NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7* L_107 = (NativeArray_1_tC5C4512CB4AB460748938A48BEBFEE21884292B7*)(&__this->___points);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_108 = V_0;
 		int32_t L_109 = L_108.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20626));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_110;
 		L_110 = IL2CPP_NATIVEARRAY_GET_ITEM(double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA, (L_107)->___m_Buffer, L_109);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20626));
 		double L_111 = L_110.___y;
 		if ((((double)L_106) < ((double)L_111)))
 		{
@@ -1605,7 +1307,6 @@ IL_0278:
 IL_027c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:125>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20627));
 		int32_t L_112 = V_11;
 		return L_112;
 	}
@@ -1650,11 +1351,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mCB358637173
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessEventCompare_Compare_mCB358637173C49F5385C5C10E6EF7FB2998FEF40_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessEventCompare_tB4F5A87DBF6DD41F6314F35043C5BA5898448F50_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TessEventCompare_Compare_mCB358637173C49F5385C5C10E6EF7FB2998FEF40_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	int32_t V_1 = 0;
 	bool V_2 = false;
@@ -1664,19 +1362,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mCB358637173
 	bool V_6 = false;
 	float V_7 = 0.0f;
 	bool V_8 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_7));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessEventCompare_Compare_mCB358637173C49F5385C5C10E6EF7FB2998FEF40_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20628));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20629));
 	int32_t G_B4_0 = 0;
 	int32_t G_B9_0 = 0;
 	int32_t G_B17_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20630));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:132>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20631));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_0 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___a;
 		float L_2 = L_1.___x;
@@ -1685,10 +1375,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mCB358637173
 		float L_5 = L_4.___x;
 		V_0 = ((float)il2cpp_codegen_subtract(L_2, L_5));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:133>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20632));
 		float L_6 = V_0;
 		V_2 = (bool)((((int32_t)((((float)(0.0f)) == ((float)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20633));
 		bool L_7 = V_2;
 		if (!L_7)
 		{
@@ -1697,7 +1385,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEventCompare_Compare_mCB358637173
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:134>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20634));
 		float L_8 = V_0;
 		if ((((float)L_8) > ((float)(0.0f))))
 		{
@@ -1723,7 +1410,6 @@ IL_0034:
 IL_003a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:136>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20635));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_9 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = L_9.___a;
 		float L_11 = L_10.___y;
@@ -1732,10 +1418,8 @@ IL_003a:
 		float L_14 = L_13.___y;
 		V_0 = ((float)il2cpp_codegen_subtract(L_11, L_14));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:137>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20636));
 		float L_15 = V_0;
 		V_4 = (bool)((((int32_t)((((float)(0.0f)) == ((float)L_15))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20637));
 		bool L_16 = V_4;
 		if (!L_16)
 		{
@@ -1744,7 +1428,6 @@ IL_003a:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:138>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20638));
 		float L_17 = V_0;
 		if ((((float)L_17) > ((float)(0.0f))))
 		{
@@ -1770,17 +1453,14 @@ IL_006f:
 IL_0072:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:140>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20639));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_18 = ___0_a;
 		int32_t L_19 = L_18.___type;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_20 = ___1_b;
 		int32_t L_21 = L_20.___type;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_19, L_21));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:141>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20640));
 		int32_t L_22 = V_1;
 		V_5 = (bool)((!(((uint32_t)L_22) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20641));
 		bool L_23 = V_5;
 		if (!L_23)
 		{
@@ -1789,7 +1469,6 @@ IL_0072:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:142>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20642));
 		int32_t L_24 = V_1;
 		V_3 = L_24;
 		goto IL_00eb;
@@ -1798,11 +1477,9 @@ IL_0072:
 IL_008e:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:144>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20643));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_25 = ___0_a;
 		int32_t L_26 = L_25.___type;
 		V_6 = (bool)((!(((uint32_t)L_26) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20644));
 		bool L_27 = V_6;
 		if (!L_27)
 		{
@@ -1810,26 +1487,20 @@ IL_008e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20645));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:146>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20646));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_28 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_29 = L_28.___a;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_30 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_31 = L_30.___b;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_32 = ___1_b;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_33 = L_32.___b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20647));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		float L_34;
 		L_34 = ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06(L_29, L_31, L_33, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20647));
 		V_7 = L_34;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:147>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20648));
 		float L_35 = V_7;
 		V_8 = (bool)((((int32_t)((((float)(0.0f)) == ((float)L_35))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20649));
 		bool L_36 = V_8;
 		if (!L_36)
 		{
@@ -1837,9 +1508,7 @@ IL_008e:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20650));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:149>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20651));
 		float L_37 = V_7;
 		if ((((float)L_37) > ((float)(0.0f))))
 		{
@@ -1864,13 +1533,11 @@ IL_00d7:
 
 IL_00da:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20652));
 	}
 
 IL_00db:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:153>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20653));
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_38 = ___0_a;
 		int32_t L_39 = L_38.___idx;
 		UEvent_t1351EDA8B088C3656BB512CCC64AE973C92D53BE L_40 = ___1_b;
@@ -1882,7 +1549,6 @@ IL_00db:
 IL_00eb:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:154>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20654));
 		int32_t L_42 = V_3;
 		return L_42;
 	}
@@ -1907,37 +1573,19 @@ IL2CPP_EXTERN_C  int32_t TessEventCompare_Compare_mCB358637173C49F5385C5C10E6EF7
 // Method Definition Index: 66376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97 (TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_a, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessEdgeCompare_t9888F234DB636B348B6EFEF0ACC15E87F4930FCA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C0826122EBB34E97_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20655));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20656));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20657));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:161>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20658));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:162>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20659));
 		int32_t L_4 = V_0;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20660));
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -1946,7 +1594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEdgeCompare_Compare_mE3BC27F4E0F9
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:163>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20661));
 		int32_t L_6 = V_0;
 		V_2 = L_6;
 		goto IL_002d;
@@ -1955,14 +1602,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessEdgeCompare_Compare_mE3BC27F4E0F9
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:164>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20662));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_7 = ___0_a;
 		int32_t L_8 = L_7.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_9 = ___1_b;
 		int32_t L_10 = L_9.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, L_10));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:165>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20663));
 		int32_t L_11 = V_0;
 		V_2 = L_11;
 		goto IL_002d;
@@ -1971,7 +1616,6 @@ IL_001b:
 IL_002d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:166>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20664));
 		int32_t L_12 = V_2;
 		return L_12;
 	}
@@ -1996,38 +1640,20 @@ IL2CPP_EXTERN_C  int32_t TessEdgeCompare_Compare_mE3BC27F4E0F907DADA5C2B96C08261
 // Method Definition Index: 66377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108 (TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45* __this, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___0_a, int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessCellCompare_tDFD8A432135A4DF55B78E2CCC74A93D3EB09DB45_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	bool V_3 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F1A789B4108_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20665));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20666));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20667));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:173>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20668));
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:174>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20669));
 		int32_t L_4 = V_0;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20670));
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -2036,7 +1662,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessCellCompare_Compare_m33DEA3199CA3
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:175>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20671));
 		int32_t L_6 = V_0;
 		V_2 = L_6;
 		goto IL_0047;
@@ -2045,17 +1670,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessCellCompare_Compare_m33DEA3199CA3
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:176>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20672));
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_7 = ___0_a;
 		int32_t L_8 = L_7.___y;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_9 = ___1_b;
 		int32_t L_10 = L_9.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, L_10));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:177>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20673));
 		int32_t L_11 = V_0;
 		V_3 = (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20674));
 		bool L_12 = V_3;
 		if (!L_12)
 		{
@@ -2064,7 +1686,6 @@ IL_001b:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:178>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20675));
 		int32_t L_13 = V_0;
 		V_2 = L_13;
 		goto IL_0047;
@@ -2073,14 +1694,12 @@ IL_001b:
 IL_0035:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:179>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20676));
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_14 = ___0_a;
 		int32_t L_15 = L_14.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_16 = ___1_b;
 		int32_t L_17 = L_16.___z;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_15, L_17));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:180>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20677));
 		int32_t L_18 = V_0;
 		V_2 = L_18;
 		goto IL_0047;
@@ -2089,7 +1708,6 @@ IL_0035:
 IL_0047:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:181>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20678));
 		int32_t L_19 = V_2;
 		return L_19;
 	}
@@ -2114,37 +1732,19 @@ IL2CPP_EXTERN_C  int32_t TessCellCompare_Compare_m33DEA3199CA382144A3B0376035D2F
 // Method Definition Index: 66378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD9289AB335D4350F13 (TessJunctionCompare_t1B2A4587D20ABADA991833A85B52100303B9539C* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_a, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD9289AB335D4350F13_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessJunctionCompare_t1B2A4587D20ABADA991833A85B52100303B9539C_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD9289AB335D4350F13_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD9289AB335D4350F13_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20679));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20680));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20681));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:188>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20682));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:189>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20683));
 		int32_t L_4 = V_0;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20684));
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -2153,7 +1753,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessJunctionCompare_Compare_m28B7673A
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:190>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20685));
 		int32_t L_6 = V_0;
 		V_2 = L_6;
 		goto IL_002d;
@@ -2162,14 +1761,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessJunctionCompare_Compare_m28B7673A
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:191>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20686));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_7 = ___0_a;
 		int32_t L_8 = L_7.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_9 = ___1_b;
 		int32_t L_10 = L_9.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, L_10));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:192>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20687));
 		int32_t L_11 = V_0;
 		V_2 = L_11;
 		goto IL_002d;
@@ -2178,7 +1775,6 @@ IL_001b:
 IL_002d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:193>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20688));
 		int32_t L_12 = V_2;
 		return L_12;
 	}
@@ -2203,39 +1799,21 @@ IL2CPP_EXTERN_C  int32_t TessJunctionCompare_Compare_m28B7673AAA0AD8D3EAFE0DD928
 // Method Definition Index: 66379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelaEdgeCompare_Compare_m4AE4388767DAE729E5F497C66009C5DEB796B61A (DelaEdgeCompare_tE7F76464E799DE60A8BF6D3237C394A4D423F094* __this, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___0_a, int4_tBA77D4945786DE82C3A487B33955EA1004996052 ___1_b, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DelaEdgeCompare_Compare_m4AE4388767DAE729E5F497C66009C5DEB796B61A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DelaEdgeCompare_tE7F76464E799DE60A8BF6D3237C394A4D423F094_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(DelaEdgeCompare_Compare_m4AE4388767DAE729E5F497C66009C5DEB796B61A_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	bool V_3 = false;
 	bool V_4 = false;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DelaEdgeCompare_Compare_m4AE4388767DAE729E5F497C66009C5DEB796B61A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20689));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20690));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20691));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:200>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20692));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_0 = ___0_a;
 		int32_t L_1 = L_0.___x;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_2 = ___1_b;
 		int32_t L_3 = L_2.___x;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, L_3));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:201>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20693));
 		int32_t L_4 = V_0;
 		V_1 = (bool)((!(((uint32_t)L_4) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20694));
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -2244,7 +1822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelaEdgeCompare_Compare_m4AE4388767DA
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:202>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20695));
 		int32_t L_6 = V_0;
 		V_2 = L_6;
 		goto IL_0063;
@@ -2253,17 +1830,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelaEdgeCompare_Compare_m4AE4388767DA
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:203>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20696));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_7 = ___0_a;
 		int32_t L_8 = L_7.___y;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_9 = ___1_b;
 		int32_t L_10 = L_9.___y;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_8, L_10));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:204>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20697));
 		int32_t L_11 = V_0;
 		V_3 = (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20698));
 		bool L_12 = V_3;
 		if (!L_12)
 		{
@@ -2272,7 +1846,6 @@ IL_001b:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:205>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20699));
 		int32_t L_13 = V_0;
 		V_2 = L_13;
 		goto IL_0063;
@@ -2281,17 +1854,14 @@ IL_001b:
 IL_0035:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:206>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20700));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_14 = ___0_a;
 		int32_t L_15 = L_14.___z;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_16 = ___1_b;
 		int32_t L_17 = L_16.___z;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_15, L_17));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:207>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20701));
 		int32_t L_18 = V_0;
 		V_4 = (bool)((!(((uint32_t)L_18) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20702));
 		bool L_19 = V_4;
 		if (!L_19)
 		{
@@ -2300,7 +1870,6 @@ IL_0035:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:208>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20703));
 		int32_t L_20 = V_0;
 		V_2 = L_20;
 		goto IL_0063;
@@ -2309,14 +1878,12 @@ IL_0035:
 IL_0051:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:209>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20704));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_21 = ___0_a;
 		int32_t L_22 = L_21.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_23 = ___1_b;
 		int32_t L_24 = L_23.___w;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_22, L_24));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:210>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20705));
 		int32_t L_25 = V_0;
 		V_2 = L_25;
 		goto IL_0063;
@@ -2325,7 +1892,6 @@ IL_0051:
 IL_0063:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:211>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20706));
 		int32_t L_26 = V_2;
 		return L_26;
 	}
@@ -2354,75 +1920,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B9
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_CreateLink_m29A2928ED0ECDA9EE29A29E2EC92D6678F10FF05_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TessLink_CreateLink_m29A2928ED0ECDA9EE29A29E2EC92D6678F10FF05_RuntimeMethod_var);
 	TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	bool V_2 = false;
 	TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893 V_3;
 	memset((&V_3), 0, sizeof(V_3));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_count), (&___1_allocator));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessLink_CreateLink_m29A2928ED0ECDA9EE29A29E2EC92D6678F10FF05_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20707));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20708));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20709));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:221>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20710));
 		il2cpp_codegen_initobj((&V_0), sizeof(TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:222>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20711));
 		int32_t L_0 = ___0_count;
 		int32_t L_1 = ___1_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20712));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_2), L_0, L_1, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20712));
 		(&V_0)->___roots = L_2;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:223>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20713));
 		int32_t L_3 = ___0_count;
 		int32_t L_4 = ___1_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20714));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_5), L_3, L_4, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20714));
 		(&V_0)->___ranks = L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20715));
 		V_1 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20716));
 		goto IL_004f;
 	}
 
 IL_002b:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20717));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:227>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20718));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_6 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&V_0)->___roots);
 		int32_t L_7 = V_1;
 		int32_t L_8 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20719));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_6)->___m_Buffer, L_7, (L_8));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20719));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:228>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20720));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&V_0)->___ranks);
 		int32_t L_10 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20721));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_9)->___m_Buffer, L_10, (0));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20721));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20722));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20723));
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
@@ -2430,11 +1969,9 @@ IL_002b:
 IL_004f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:225>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20724));
 		int32_t L_12 = V_1;
 		int32_t L_13 = ___0_count;
 		V_2 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20725));
 		bool L_14 = V_2;
 		if (L_14)
 		{
@@ -2443,7 +1980,6 @@ IL_004f:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20726));
 		TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893 L_15 = V_0;
 		V_3 = L_15;
 		goto IL_005b;
@@ -2452,7 +1988,6 @@ IL_004f:
 IL_005b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:231>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20727));
 		TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893 L_16 = V_3;
 		return L_16;
 	}
@@ -2464,93 +1999,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_DestroyLink_m8AE3E6F07F5695531C
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_DestroyLink_m8AE3E6F07F5695531C7712DC0777B62A7494AF1F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(TessLink_DestroyLink_m8AE3E6F07F5695531C7712DC0777B62A7494AF1F_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_link));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessLink_DestroyLink_m8AE3E6F07F5695531C7712DC0777B62A7494AF1F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20728));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20729));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20730));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:235>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20731));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&___0_link)->___ranks);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20732));
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_0, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20732));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:236>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20733));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&(&___0_link)->___roots);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20734));
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_1, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20734));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:237>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20735));
 		return;
 	}
 }
 // Method Definition Index: 66382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08 (TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893* __this, int32_t ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	bool V_3 = false;
 	int32_t V_4 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20736));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20737));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20738));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:241>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20739));
 		int32_t L_0 = ___0_x;
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20740));
 		goto IL_0015;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20741));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:244>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20742));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_2 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20743));
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_1)->___m_Buffer, L_2);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20743));
 		___0_x = L_3;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20744));
 	}
 
 IL_0015:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:242>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20745));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_4 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_5 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20746));
 		int32_t L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_4)->___m_Buffer, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20746));
 		int32_t L_7 = ___0_x;
 		V_1 = (bool)((((int32_t)((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20747));
 		bool L_8 = V_1;
 		if (L_8)
 		{
@@ -2558,50 +2053,36 @@ IL_0015:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20748));
 		goto IL_004c;
 	}
 
 IL_002d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20749));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:248>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20750));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_10 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20751));
 		int32_t L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_9)->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20751));
 		V_2 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:249>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20752));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_12 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_13 = V_0;
 		int32_t L_14 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20753));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_12)->___m_Buffer, L_13, (L_14));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20753));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:250>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20754));
 		int32_t L_15 = V_2;
 		V_0 = L_15;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20755));
 	}
 
 IL_004c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:246>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20756));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_16 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_17 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20757));
 		int32_t L_18;
 		L_18 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_16)->___m_Buffer, L_17);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20757));
 		int32_t L_19 = ___0_x;
 		V_3 = (bool)((((int32_t)((((int32_t)L_18) == ((int32_t)L_19))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20758));
 		bool L_20 = V_3;
 		if (L_20)
 		{
@@ -2610,7 +2091,6 @@ IL_004c:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:252>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20759));
 		int32_t L_21 = ___0_x;
 		V_4 = L_21;
 		goto IL_0067;
@@ -2619,7 +2099,6 @@ IL_004c:
 IL_0067:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:253>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20760));
 		int32_t L_22 = V_4;
 		return L_22;
 	}
@@ -2636,14 +2115,6 @@ IL2CPP_EXTERN_C  int32_t TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08
 // Method Definition Index: 66383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B (TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TessLink_tFC9AFE3D440AE2D5D4C348DEA1E0736B3B983893_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
@@ -2653,36 +2124,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m371C8A216AFD9AC8BCD5F015C
 	bool V_6 = false;
 	int32_t V_7 = 0;
 	int32_t V_8 = 0;
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20761));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20762));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20763));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:257>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20764));
 		int32_t L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20765));
 		int32_t L_1;
 		L_1 = TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08(__this, L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20765));
 		V_0 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:258>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20766));
 		int32_t L_2 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20767));
 		int32_t L_3;
 		L_3 = TessLink_Find_mEFBB6D30AF8D5CCDD565E36A2EAD62534AC52D08(__this, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20767));
 		V_1 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:259>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20768));
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_1;
 		V_4 = (bool)((((int32_t)L_4) == ((int32_t)L_5))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20769));
 		bool L_6 = V_4;
 		if (!L_6)
 		{
@@ -2690,38 +2146,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TessLink_Link_m371C8A216AFD9AC8BCD5F015C
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20770));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:261>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20771));
 		goto IL_00a2;
 	}
 
 IL_0021:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:263>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20772));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_7 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_8 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20773));
 		int32_t L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_7)->___m_Buffer, L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20773));
 		V_2 = L_9;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:264>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20774));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_10 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_11 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20775));
 		int32_t L_12;
 		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_10)->___m_Buffer, L_11);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20775));
 		V_3 = L_12;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:265>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20776));
 		int32_t L_13 = V_2;
 		int32_t L_14 = V_3;
 		V_5 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20777));
 		bool L_15 = V_5;
 		if (!L_15)
 		{
@@ -2729,28 +2175,20 @@ IL_0021:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20778));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:267>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20779));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_16 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_17 = V_0;
 		int32_t L_18 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20780));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_16)->___m_Buffer, L_17, (L_18));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20780));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20781));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20782));
 		goto IL_00a2;
 	}
 
 IL_0057:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:269>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20783));
 		int32_t L_19 = V_3;
 		int32_t L_20 = V_2;
 		V_6 = (bool)((((int32_t)L_19) < ((int32_t)L_20))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20784));
 		bool L_21 = V_6;
 		if (!L_21)
 		{
@@ -2758,55 +2196,38 @@ IL_0057:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20785));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:271>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20786));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_22 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_23 = V_1;
 		int32_t L_24 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20787));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_22)->___m_Buffer, L_23, (L_24));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20787));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20788));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20789));
 		goto IL_00a2;
 	}
 
 IL_0073:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20790));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:275>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20791));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_25 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___roots);
 		int32_t L_26 = V_1;
 		int32_t L_27 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20792));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_25)->___m_Buffer, L_26, (L_27));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20792));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:276>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20793));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_28 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___ranks);
 		int32_t L_29 = V_0;
 		V_7 = L_29;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_30 = L_28;
 		int32_t L_31 = V_7;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20794));
 		int32_t L_32;
 		L_32 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_30)->___m_Buffer, L_31);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20794));
 		V_8 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 		int32_t L_33 = V_7;
 		int32_t L_34 = V_8;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20795));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_30)->___m_Buffer, L_33, (L_34));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20795));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20796));
 	}
 
 IL_00a2:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:278>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20797));
 		return;
 	}
 }
@@ -2828,29 +2249,14 @@ IL2CPP_EXTERN_C  void TessLink_Link_m371C8A216AFD9AC8BCD5F015C59DD926F8088B8B_Ad
 // Method Definition Index: 66390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	bool V_2 = false;
 	float V_3 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_c));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_OrientFast_m5AE5B276A51F924CB72CC43E05BED8D0C7FF6A06_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20921));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20922));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20923));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:402>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20924));
 		V_0 = (1.11022302E-16f);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:403>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20925));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_b;
 		float L_1 = L_0.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_a;
@@ -2869,15 +2275,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m5AE5B276A51F92
 		float L_15 = L_14.___y;
 		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_9, L_11)), ((float)il2cpp_codegen_subtract(L_13, L_15))))));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:404>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20926));
 		float L_16 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20927));
 		float L_17;
 		L_17 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20927));
 		float L_18 = V_0;
 		V_2 = (bool)((((float)L_17) < ((float)L_18))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20928));
 		bool L_19 = V_2;
 		if (!L_19)
 		{
@@ -2886,7 +2288,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m5AE5B276A51F92
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:404>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20929));
 		V_3 = (0.0f);
 		goto IL_0058;
 	}
@@ -2894,7 +2295,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_OrientFast_m5AE5B276A51F92
 IL_0054:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:405>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20930));
 		float L_20 = V_1;
 		V_3 = L_20;
 		goto IL_0058;
@@ -2903,7 +2303,6 @@ IL_0054:
 IL_0058:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:406>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20931));
 		float L_21 = V_3;
 		return L_21;
 	}
@@ -2911,29 +2310,14 @@ IL_0058:
 // Method Definition Index: 66391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_m22FA5D345F2DE849281B3A4FD34A094C241FAC2F (double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___0_a, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___1_b, double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA ___2_c, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_OrientFastDouble_m22FA5D345F2DE849281B3A4FD34A094C241FAC2F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_OrientFastDouble_m22FA5D345F2DE849281B3A4FD34A094C241FAC2F_RuntimeMethod_var);
 	double V_0 = 0.0;
 	double V_1 = 0.0;
 	bool V_2 = false;
 	double V_3 = 0.0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_c));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_OrientFastDouble_m22FA5D345F2DE849281B3A4FD34A094C241FAC2F_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20932));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20933));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20934));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:411>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20935));
 		V_0 = (1.1102230246251565E-16);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:412>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20936));
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_0 = ___1_b;
 		double L_1 = L_0.___y;
 		double2_t0A9854C934D0BBE9DD41F2B318B64F830D7253FA L_2 = ___0_a;
@@ -2952,15 +2336,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_m22FA5D3
 		double L_15 = L_14.___y;
 		V_1 = ((double)il2cpp_codegen_subtract(((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_1, L_3)), ((double)il2cpp_codegen_subtract(L_5, L_7)))), ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_9, L_11)), ((double)il2cpp_codegen_subtract(L_13, L_15))))));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:413>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20937));
 		double L_16 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20938));
 		double L_17;
 		L_17 = math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline(L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20938));
 		double L_18 = V_0;
 		V_2 = (bool)((((double)L_17) < ((double)L_18))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20939));
 		bool L_19 = V_2;
 		if (!L_19)
 		{
@@ -2969,7 +2349,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_m22FA5D3
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:413>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20940));
 		V_3 = (0.0);
 		goto IL_0060;
 	}
@@ -2977,7 +2356,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double ModuleHandle_OrientFastDouble_m22FA5D3
 IL_005c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:414>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20941));
 		double L_20 = V_1;
 		V_3 = L_20;
 		goto IL_0060;
@@ -2986,7 +2364,6 @@ IL_005c:
 IL_0060:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:415>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20942));
 		double L_21 = V_3;
 		return L_21;
 	}
@@ -2994,14 +2371,6 @@ IL_0060:
 // Method Definition Index: 66392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F (UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 ___0_tri, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -3017,15 +2386,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 	memset((&V_11), 0, sizeof(V_11));
 	UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC V_12;
 	memset((&V_12), 0, sizeof(V_12));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_tri));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20943));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20944));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20945));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:419>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20946));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_0 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = L_0.___va;
 		float L_2 = L_1.___x;
@@ -3034,7 +2396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_5 = L_4.___x;
 		V_0 = ((float)il2cpp_codegen_multiply(L_2, L_5));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:420>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20947));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_6 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = L_6.___vb;
 		float L_8 = L_7.___x;
@@ -3043,7 +2404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_11 = L_10.___x;
 		V_1 = ((float)il2cpp_codegen_multiply(L_8, L_11));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:421>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20948));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_12 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = L_12.___vc;
 		float L_14 = L_13.___x;
@@ -3052,7 +2412,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_17 = L_16.___x;
 		V_2 = ((float)il2cpp_codegen_multiply(L_14, L_17));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:422>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20949));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_18 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = L_18.___va;
 		float L_20 = L_19.___y;
@@ -3061,7 +2420,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_23 = L_22.___y;
 		V_3 = ((float)il2cpp_codegen_multiply(L_20, L_23));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:423>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20950));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_24 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_25 = L_24.___vb;
 		float L_26 = L_25.___y;
@@ -3070,7 +2428,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_29 = L_28.___y;
 		V_4 = ((float)il2cpp_codegen_multiply(L_26, L_29));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:424>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20951));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_30 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_31 = L_30.___vc;
 		float L_32 = L_31.___y;
@@ -3079,7 +2436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_35 = L_34.___y;
 		V_5 = ((float)il2cpp_codegen_multiply(L_32, L_35));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:425>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20952));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_36 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_37 = L_36.___vb;
 		float L_38 = L_37.___x;
@@ -3106,7 +2462,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_59 = L_58.___x;
 		V_6 = ((float)il2cpp_codegen_multiply((2.0f), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_38, L_41)), ((float)il2cpp_codegen_subtract(L_44, L_47)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_50, L_53)), ((float)il2cpp_codegen_subtract(L_56, L_59))))))));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:426>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20953));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_60 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_61 = L_60.___vc;
 		float L_62 = L_61.___y;
@@ -3130,7 +2485,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_80 = V_6;
 		V_7 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_62, L_65)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_66, L_67)), L_68)), L_69)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_72, L_75)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_76, L_77)), L_78)), L_79))))))/L_80));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:427>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20954));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_81 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_82 = L_81.___va;
 		float L_83 = L_82.___x;
@@ -3154,38 +2508,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 		float L_101 = V_6;
 		V_8 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_83, L_86)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_87, L_88)), L_89)), L_90)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_93, L_96)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(L_97, L_98)), L_99)), L_100))))))/L_101));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:428>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20955));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_102 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_103 = L_102.___va;
 		float L_104 = L_103.___x;
 		float L_105 = V_7;
 		V_9 = ((float)il2cpp_codegen_subtract(L_104, L_105));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:429>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20956));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_106 = ___0_tri;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_107 = L_106.___va;
 		float L_108 = L_107.___y;
 		float L_109 = V_8;
 		V_10 = ((float)il2cpp_codegen_subtract(L_108, L_109));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:430>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20957));
 		il2cpp_codegen_initobj((&V_11), sizeof(UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC));
 		float L_110 = V_7;
 		float L_111 = V_8;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20958));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_112;
 		memset((&L_112), 0, sizeof(L_112));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_112), L_110, L_111, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20958));
 		(&V_11)->___center = L_112;
 		float L_113 = V_9;
 		float L_114 = V_9;
 		float L_115 = V_10;
 		float L_116 = V_10;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20959));
 		float L_117;
 		L_117 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_113, L_114)), ((float)il2cpp_codegen_multiply(L_115, L_116)))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20959));
 		(&V_11)->___radius = L_117;
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_118 = V_11;
 		V_12 = L_118;
@@ -3195,7 +2542,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E
 IL_01db:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:431>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20960));
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_119 = V_12;
 		return L_119;
 	}
@@ -3203,29 +2549,14 @@ IL_01db:
 // Method Definition Index: 66393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m562EC09950582F76A3070E0C20CE7A5FDCC490CD (UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC ___0_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_v, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_IsInsideCircle_m562EC09950582F76A3070E0C20CE7A5FDCC490CD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_IsInsideCircle_m562EC09950582F76A3070E0C20CE7A5FDCC490CD_RuntimeMethod_var);
 	bool V_0 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_c), (&___1_v));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_IsInsideCircle_m562EC09950582F76A3070E0C20CE7A5FDCC490CD_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20961));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20962));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20963));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:435>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20964));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_v;
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_1 = ___0_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = L_1.___center;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20965));
 		float L_3;
 		L_3 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_0, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20965));
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_4 = ___0_c;
 		float L_5 = L_4.___radius;
 		V_0 = (bool)((((float)L_3) < ((float)L_5))? 1 : 0);
@@ -3235,7 +2566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m562EC099505
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:436>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20966));
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -3243,14 +2573,6 @@ IL_0018:
 // Method Definition Index: 66394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_va, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_vb, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_vc, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4_RuntimeMethod_var);
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
@@ -3260,67 +2582,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_mB975E204C824
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	float V_4 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_va), (&___1_vb), (&___2_vc));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20967));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20968));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20969));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:440>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20970));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_va;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___0_va;
 		float L_3 = L_2.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20971));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_0), L_1, L_3, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20971));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:441>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20972));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_vb;
 		float L_5 = L_4.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___1_vb;
 		float L_7 = L_6.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20973));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_1), L_5, L_7, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20973));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:442>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20974));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___2_vc;
 		float L_9 = L_8.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___2_vc;
 		float L_11 = L_10.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20975));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&V_2), L_9, L_11, (0.0f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20975));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:443>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20976));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20977));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_14;
 		L_14 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_12, L_13, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20977));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_15 = V_0;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_16 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20978));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_17;
 		L_17 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_15, L_16, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20978));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20979));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_18;
 		L_18 = math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline(L_14, L_17, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20979));
 		V_3 = L_18;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:444>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20980));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_19 = V_3;
 		float L_20 = L_19.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20981));
 		float L_21;
 		L_21 = math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline(L_20, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20981));
 		V_4 = ((float)il2cpp_codegen_multiply(L_21, (0.5f)));
 		goto IL_0072;
 	}
@@ -3328,7 +2625,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_TriangleArea_mB975E204C824
 IL_0072:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:445>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20982));
 		float L_22 = V_4;
 		return L_22;
 	}
@@ -3336,22 +2632,9 @@ IL_0072:
 // Method Definition Index: 66395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_p1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_p2, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_p3, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1_RuntimeMethod_var);
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_p1), (&___1_p2), (&___2_p3));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20983));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20984));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20985));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:449>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20986));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_p1;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_p3;
@@ -3375,7 +2658,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ModuleHandle_Sign_m2A3FE8C13958F68CA76C
 IL_003b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:450>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20987));
 		float L_16 = V_0;
 		return L_16;
 	}
@@ -3386,59 +2668,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangle_mE5E0727E6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_IsInsideTriangle_mE5E0727E61408F6660F8523E486B325CD14D028A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_IsInsideTriangle_mE5E0727E61408F6660F8523E486B325CD14D028A_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_pt), (&___1_v1), (&___2_v2), (&___3_v3));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_IsInsideTriangle_mE5E0727E61408F6660F8523E486B325CD14D028A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20988));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20989));
 	int32_t G_B4_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20990));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:457>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20991));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___2_v2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20992));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1(L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20992));
 		V_0 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:458>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20993));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___3_v3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20994));
 		float L_7;
 		L_7 = ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1(L_4, L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20994));
 		V_1 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:459>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20995));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___3_v3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___1_v1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20996));
 		float L_11;
 		L_11 = ModuleHandle_Sign_m2A3FE8C13958F68CA76C2F1A510C4B90ED9168F1(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20996));
 		V_2 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:461>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20997));
 		float L_12 = V_0;
 		if ((((float)L_12) < ((float)(0.0f))))
 		{
@@ -3467,7 +2731,6 @@ IL_0037:
 	{
 		V_3 = (bool)G_B4_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:462>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20998));
 		float L_15 = V_0;
 		if ((((float)L_15) > ((float)(0.0f))))
 		{
@@ -3496,7 +2759,6 @@ IL_0053:
 	{
 		V_4 = (bool)G_B8_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:464>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 20999));
 		bool L_18 = V_3;
 		bool L_19 = V_4;
 		V_5 = (bool)((((int32_t)((int32_t)((int32_t)L_18&(int32_t)L_19))) == ((int32_t)0))? 1 : 0);
@@ -3506,7 +2768,6 @@ IL_0053:
 IL_0060:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:465>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21000));
 		bool L_20 = V_5;
 		return L_20;
 	}
@@ -3517,78 +2778,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangleApproximate
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_IsInsideTriangleApproximate_m857F51A8532FE7F8F81A1439E79F3A11D5BF0CD6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_IsInsideTriangleApproximate_m857F51A8532FE7F8F81A1439E79F3A11D5BF0CD6_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	bool V_5 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_pt), (&___1_v1), (&___2_v2), (&___3_v3));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_IsInsideTriangleApproximate_m857F51A8532FE7F8F81A1439E79F3A11D5BF0CD6_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21001));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21002));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21003));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:470>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21004));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___3_v3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21005));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		float L_3;
 		L_3 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21005));
 		V_0 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:471>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21006));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___1_v1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___2_v2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21007));
 		float L_7;
 		L_7 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_4, L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21007));
 		V_1 = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:472>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21008));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___2_v2;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10 = ___3_v3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21009));
 		float L_11;
 		L_11 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_8, L_9, L_10, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21009));
 		V_2 = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:473>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21010));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_12 = ___0_pt;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = ___3_v3;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = ___1_v1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21011));
 		float L_15;
 		L_15 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_12, L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21011));
 		V_3 = L_15;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:474>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21012));
 		V_4 = (1.11022302E-16f);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:475>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21013));
 		float L_16 = V_0;
 		float L_17 = V_1;
 		float L_18 = V_2;
 		float L_19 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21014));
 		float L_20;
 		L_20 = fabsf(((float)il2cpp_codegen_subtract(L_16, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_17, L_18)), L_19)))));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21014));
 		float L_21 = V_4;
 		V_5 = (bool)((((float)L_20) < ((float)L_21))? 1 : 0);
 		goto IL_0040;
@@ -3597,7 +2834,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideTriangleApproximate
 IL_0040:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:476>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21015));
 		bool L_22 = V_5;
 		return L_22;
 	}
@@ -3605,14 +2841,6 @@ IL_0040:
 // Method Definition Index: 66398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m5DB9909A76433AC967E655FA2FE550020079D780 (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_a, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_b, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___2_c, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___3_p, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_IsInsideCircle_m5DB9909A76433AC967E655FA2FE550020079D780_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_IsInsideCircle_m5DB9909A76433AC967E655FA2FE550020079D780_RuntimeMethod_var);
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
@@ -3629,73 +2857,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m5DB9909A764
 	float V_12 = 0.0f;
 	float V_13 = 0.0f;
 	bool V_14 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b), (&___2_c), (&___3_p));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7), (&V_8), (&V_9), (&V_10), (&V_11), (&V_12), (&V_13));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_IsInsideCircle_m5DB9909A76433AC967E655FA2FE550020079D780_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21016));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21017));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21018));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:480>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21019));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_a;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21020));
 		float L_2;
 		L_2 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21020));
 		V_0 = L_2;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:481>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21021));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___1_b;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___1_b;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21022));
 		float L_5;
 		L_5 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21022));
 		V_1 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:482>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21023));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___2_c;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___2_c;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21024));
 		float L_8;
 		L_8 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_6, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21024));
 		V_2 = L_8;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:484>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21025));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = ___0_a;
 		float L_10 = L_9.___x;
 		V_3 = L_10;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:485>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21026));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11 = ___0_a;
 		float L_12 = L_11.___y;
 		V_4 = L_12;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:486>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21027));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = ___1_b;
 		float L_14 = L_13.___x;
 		V_5 = L_14;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:487>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21028));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = ___1_b;
 		float L_16 = L_15.___y;
 		V_6 = L_16;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:488>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21029));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = ___2_c;
 		float L_18 = L_17.___x;
 		V_7 = L_18;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:489>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21030));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = ___2_c;
 		float L_20 = L_19.___y;
 		V_8 = L_20;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:491>
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:492>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21031));
 		float L_21 = V_0;
 		float L_22 = V_8;
 		float L_23 = V_6;
@@ -3717,7 +2923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m5DB9909A764
 		V_9 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_21, ((float)il2cpp_codegen_subtract(L_22, L_23)))), ((float)il2cpp_codegen_multiply(L_24, ((float)il2cpp_codegen_subtract(L_25, L_26)))))), ((float)il2cpp_codegen_multiply(L_27, ((float)il2cpp_codegen_subtract(L_28, L_29))))))/((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_30, ((float)il2cpp_codegen_subtract(L_31, L_32)))), ((float)il2cpp_codegen_multiply(L_33, ((float)il2cpp_codegen_subtract(L_34, L_35)))))), ((float)il2cpp_codegen_multiply(L_36, ((float)il2cpp_codegen_subtract(L_37, L_38))))))));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:493>
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:494>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21032));
 		float L_39 = V_0;
 		float L_40 = V_7;
 		float L_41 = V_5;
@@ -3738,36 +2943,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m5DB9909A764
 		float L_56 = V_3;
 		V_10 = ((float)(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_39, ((float)il2cpp_codegen_subtract(L_40, L_41)))), ((float)il2cpp_codegen_multiply(L_42, ((float)il2cpp_codegen_subtract(L_43, L_44)))))), ((float)il2cpp_codegen_multiply(L_45, ((float)il2cpp_codegen_subtract(L_46, L_47))))))/((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_48, ((float)il2cpp_codegen_subtract(L_49, L_50)))), ((float)il2cpp_codegen_multiply(L_51, ((float)il2cpp_codegen_subtract(L_52, L_53)))))), ((float)il2cpp_codegen_multiply(L_54, ((float)il2cpp_codegen_subtract(L_55, L_56))))))));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:496>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21033));
 		il2cpp_codegen_initobj((&V_11), sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:497>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21034));
 		float L_57 = V_9;
 		(&V_11)->___x = ((float)(L_57/(2.0f)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:498>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21035));
 		float L_58 = V_10;
 		(&V_11)->___y = ((float)(L_58/(2.0f)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:499>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21036));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_59 = ___0_a;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_60 = V_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21037));
 		float L_61;
 		L_61 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_59, L_60, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21037));
 		V_12 = L_61;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:500>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21038));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_62 = ___3_p;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_63 = V_11;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21039));
 		float L_64;
 		L_64 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_62, L_63, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21039));
 		V_13 = L_64;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:501>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21040));
 		float L_65 = V_12;
 		float L_66 = V_13;
 		V_14 = (bool)((((float)((float)il2cpp_codegen_subtract(L_65, L_66))) > ((float)(9.99999975E-06f)))? 1 : 0);
@@ -3777,7 +2972,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ModuleHandle_IsInsideCircle_m5DB9909A764
 IL_00f5:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:502>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21041));
 		bool L_67 = V_14;
 		return L_67;
 	}
@@ -3788,12 +2982,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mD6A98AB9B2D
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_BuildTriangles_mD6A98AB9B2DD595D042196B675EFBD00A8CA2DFC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_BuildTriangles_mD6A98AB9B2DD595D042196B675EFBD00A8CA2DFC_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -3802,122 +2993,81 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_mD6A98AB9B2D
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	bool V_6 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_vertices), (&___1_vertexCount), (&___2_indices), (&___3_indexCount), (&___4_triangles), (&___5_triangleCount), (&___6_maxArea), (&___7_avgArea), (&___8_minArea));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_BuildTriangles_mD6A98AB9B2DD595D042196B675EFBD00A8CA2DFC_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21042));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21043));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21044));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:507>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21045));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21046));
 		goto IL_00d5;
 	}
 
 IL_0008:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21047));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:509>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21048));
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:510>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21049));
 		int32_t L_0 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21050));
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21050));
 		V_2 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:511>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21051));
 		int32_t L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21052));
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21052));
 		V_3 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:512>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21053));
 		int32_t L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21054));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21054));
 		V_4 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:513>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21055));
 		int32_t L_6 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21056));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21056));
 		(&V_1)->___va = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:514>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21057));
 		int32_t L_8 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21058));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21058));
 		(&V_1)->___vb = L_9;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:515>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21059));
 		int32_t L_10 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21060));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21060));
 		(&V_1)->___vc = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:516>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21061));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_12 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21062));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_13;
 		L_13 = ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21062));
 		(&V_1)->___c = L_13;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:517>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21063));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_16 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = L_16.___vb;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_18 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = L_18.___vc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21064));
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_15, L_17, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21064));
 		(&V_1)->___area = L_20;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:518>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21065));
 		float* L_21 = ___6_maxArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_22 = V_1;
 		float L_23 = L_22.___area;
 		float* L_24 = ___6_maxArea;
 		float L_25 = *((float*)L_24);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21066));
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21066));
 		*((float*)L_21) = (float)L_26;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:519>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21067));
 		float* L_27 = ___8_minArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_28 = V_1;
 		float L_29 = L_28.___area;
 		float* L_30 = ___8_minArea;
 		float L_31 = *((float*)L_30);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21068));
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21068));
 		*((float*)L_27) = (float)L_32;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:520>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21069));
 		float* L_33 = ___7_avgArea;
 		float* L_34 = ___7_avgArea;
 		float L_35 = *((float*)L_34);
@@ -3925,7 +3075,6 @@ IL_0008:
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:521>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21070));
 		NativeArray_1_t3FECF0DA96110F272EFBED08317E94C449DE9123* L_38 = ___4_triangles;
 		int32_t* L_39 = ___5_triangleCount;
 		int32_t* L_40 = ___5_triangleCount;
@@ -3935,12 +3084,8 @@ IL_0008:
 		*((int32_t*)L_39) = (int32_t)((int32_t)il2cpp_codegen_add(L_42, 1));
 		int32_t L_43 = V_5;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_44 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21071));
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547, (L_38)->___m_Buffer, L_43, (L_44));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21071));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21072));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:507>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21073));
 		int32_t L_45 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_45, 3));
 	}
@@ -3948,11 +3093,9 @@ IL_0008:
 IL_00d5:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:507>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21074));
 		int32_t L_46 = V_0;
 		int32_t L_47 = ___3_indexCount;
 		V_6 = (bool)((((int32_t)L_46) < ((int32_t)L_47))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21075));
 		bool L_48 = V_6;
 		if (L_48)
 		{
@@ -3961,7 +3104,6 @@ IL_00d5:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:523>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21076));
 		float* L_49 = ___7_avgArea;
 		float* L_50 = ___7_avgArea;
 		float L_51 = *((float*)L_50);
@@ -3969,7 +3111,6 @@ IL_00d5:
 		int32_t L_53 = *((int32_t*)L_52);
 		*((float*)L_49) = (float)((float)(L_51/((float)L_53)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:524>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21077));
 		return;
 	}
 }
@@ -3979,12 +3120,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_m6234B1C0C2B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_BuildTriangles_m6234B1C0C2B49C85551535F8CD0805845C03CAAC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_BuildTriangles_m6234B1C0C2B49C85551535F8CD0805845C03CAAC_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -3996,122 +3134,81 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTriangles_m6234B1C0C2B
 	float V_7 = 0.0f;
 	int32_t V_8 = 0;
 	bool V_9 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_vertices), (&___1_vertexCount), (&___2_indices), (&___3_indexCount), (&___4_triangles), (&___5_triangleCount), (&___6_maxArea), (&___7_avgArea), (&___8_minArea), (&___9_maxEdge), (&___10_avgEdge), (&___11_minEdge));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_7));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_BuildTriangles_m6234B1C0C2B49C85551535F8CD0805845C03CAAC_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21078));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21079));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21080));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:529>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21081));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21082));
 		goto IL_0177;
 	}
 
 IL_0008:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21083));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:531>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21084));
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:532>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21085));
 		int32_t L_0 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21086));
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21086));
 		V_2 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:533>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21087));
 		int32_t L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21088));
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21088));
 		V_3 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:534>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21089));
 		int32_t L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21090));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21090));
 		V_4 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:535>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21091));
 		int32_t L_6 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21092));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21092));
 		(&V_1)->___va = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:536>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21093));
 		int32_t L_8 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21094));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21094));
 		(&V_1)->___vb = L_9;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:537>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21095));
 		int32_t L_10 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21096));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21096));
 		(&V_1)->___vc = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:538>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21097));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_12 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21098));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_13;
 		L_13 = ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21098));
 		(&V_1)->___c = L_13;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:540>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21099));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_16 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = L_16.___vb;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_18 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = L_18.___vc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21100));
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_15, L_17, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21100));
 		(&V_1)->___area = L_20;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:541>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21101));
 		float* L_21 = ___6_maxArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_22 = V_1;
 		float L_23 = L_22.___area;
 		float* L_24 = ___6_maxArea;
 		float L_25 = *((float*)L_24);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21102));
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21102));
 		*((float*)L_21) = (float)L_26;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:542>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21103));
 		float* L_27 = ___8_minArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_28 = V_1;
 		float L_29 = L_28.___area;
 		float* L_30 = ___8_minArea;
 		float L_31 = *((float*)L_30);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21104));
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21104));
 		*((float*)L_27) = (float)L_32;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:543>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21105));
 		float* L_33 = ___7_avgArea;
 		float* L_34 = ___7_avgArea;
 		float L_35 = *((float*)L_34);
@@ -4119,127 +3216,96 @@ IL_0008:
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:545>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21106));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_38 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_39 = L_38.___va;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_40 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_41 = L_40.___vb;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21107));
 		float L_42;
 		L_42 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_39, L_41, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21107));
 		V_5 = L_42;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:546>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21108));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_43 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_44 = L_43.___vb;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_45 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_46 = L_45.___vc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21109));
 		float L_47;
 		L_47 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_44, L_46, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21109));
 		V_6 = L_47;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:547>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21110));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_48 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_49 = L_48.___vc;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_50 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_51 = L_50.___va;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21111));
 		float L_52;
 		L_52 = math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline(L_49, L_51, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21111));
 		V_7 = L_52;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:548>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21112));
 		float* L_53 = ___9_maxEdge;
 		float L_54 = V_5;
 		float* L_55 = ___9_maxEdge;
 		float L_56 = *((float*)L_55);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21113));
 		float L_57;
 		L_57 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_54, L_56, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21113));
 		*((float*)L_53) = (float)L_57;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:549>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21114));
 		float* L_58 = ___9_maxEdge;
 		float L_59 = V_6;
 		float* L_60 = ___9_maxEdge;
 		float L_61 = *((float*)L_60);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21115));
 		float L_62;
 		L_62 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_59, L_61, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21115));
 		*((float*)L_58) = (float)L_62;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:550>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21116));
 		float* L_63 = ___9_maxEdge;
 		float L_64 = V_7;
 		float* L_65 = ___9_maxEdge;
 		float L_66 = *((float*)L_65);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21117));
 		float L_67;
 		L_67 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_64, L_66, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21117));
 		*((float*)L_63) = (float)L_67;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:551>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21118));
 		float* L_68 = ___11_minEdge;
 		float L_69 = V_5;
 		float* L_70 = ___11_minEdge;
 		float L_71 = *((float*)L_70);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21119));
 		float L_72;
 		L_72 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_69, L_71, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21119));
 		*((float*)L_68) = (float)L_72;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:552>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21120));
 		float* L_73 = ___11_minEdge;
 		float L_74 = V_6;
 		float* L_75 = ___11_minEdge;
 		float L_76 = *((float*)L_75);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21121));
 		float L_77;
 		L_77 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_74, L_76, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21121));
 		*((float*)L_73) = (float)L_77;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:553>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21122));
 		float* L_78 = ___11_minEdge;
 		float L_79 = V_7;
 		float* L_80 = ___11_minEdge;
 		float L_81 = *((float*)L_80);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21123));
 		float L_82;
 		L_82 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_79, L_81, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21123));
 		*((float*)L_78) = (float)L_82;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:555>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21124));
 		float* L_83 = ___10_avgEdge;
 		float* L_84 = ___10_avgEdge;
 		float L_85 = *((float*)L_84);
 		float L_86 = V_5;
 		*((float*)L_83) = (float)((float)il2cpp_codegen_add(L_85, L_86));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:556>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21125));
 		float* L_87 = ___10_avgEdge;
 		float* L_88 = ___10_avgEdge;
 		float L_89 = *((float*)L_88);
 		float L_90 = V_6;
 		*((float*)L_87) = (float)((float)il2cpp_codegen_add(L_89, L_90));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:557>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21126));
 		float* L_91 = ___10_avgEdge;
 		float* L_92 = ___10_avgEdge;
 		float L_93 = *((float*)L_92);
 		float L_94 = V_7;
 		*((float*)L_91) = (float)((float)il2cpp_codegen_add(L_93, L_94));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:558>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21127));
 		NativeArray_1_t3FECF0DA96110F272EFBED08317E94C449DE9123* L_95 = ___4_triangles;
 		int32_t* L_96 = ___5_triangleCount;
 		int32_t* L_97 = ___5_triangleCount;
@@ -4249,12 +3315,8 @@ IL_0008:
 		*((int32_t*)L_96) = (int32_t)((int32_t)il2cpp_codegen_add(L_99, 1));
 		int32_t L_100 = V_8;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_101 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21128));
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547, (L_95)->___m_Buffer, L_100, (L_101));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21128));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21129));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:529>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21130));
 		int32_t L_102 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_102, 3));
 	}
@@ -4262,11 +3324,9 @@ IL_0008:
 IL_0177:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:529>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21131));
 		int32_t L_103 = V_0;
 		int32_t L_104 = ___3_indexCount;
 		V_9 = (bool)((((int32_t)L_103) < ((int32_t)L_104))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21132));
 		bool L_105 = V_9;
 		if (L_105)
 		{
@@ -4275,7 +3335,6 @@ IL_0177:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:560>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21133));
 		float* L_106 = ___7_avgArea;
 		float* L_107 = ___7_avgArea;
 		float L_108 = *((float*)L_107);
@@ -4283,14 +3342,12 @@ IL_0177:
 		int32_t L_110 = *((int32_t*)L_109);
 		*((float*)L_106) = (float)((float)(L_108/((float)L_110)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:561>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21134));
 		float* L_111 = ___10_avgEdge;
 		float* L_112 = ___10_avgEdge;
 		float L_113 = *((float*)L_112);
 		int32_t L_114 = ___3_indexCount;
 		*((float*)L_111) = (float)((float)(L_113/((float)L_114)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:562>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21135));
 		return;
 	}
 }
@@ -4300,12 +3357,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTrianglesAndEdges_m27E
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_BuildTrianglesAndEdges_m27E981150B7C706432B2B0289D171292848DD602_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_BuildTrianglesAndEdges_m27E981150B7C706432B2B0289D171292848DD602_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 V_1;
 	memset((&V_1), 0, sizeof(V_1));
@@ -4314,122 +3368,81 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_BuildTrianglesAndEdges_m27E
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	bool V_6 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_vertices), (&___1_vertexCount), (&___2_indices), (&___3_indexCount), (&___4_triangles), (&___5_triangleCount), (&___6_delaEdges), (&___7_delaEdgeCount), (&___8_maxArea), (&___9_avgArea), (&___10_minArea));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_BuildTrianglesAndEdges_m27E981150B7C706432B2B0289D171292848DD602_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21136));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21137));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21138));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:567>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21139));
 		V_0 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21140));
 		goto IL_0170;
 	}
 
 IL_0008:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21141));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:569>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21142));
 		il2cpp_codegen_initobj((&V_1), sizeof(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:570>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21143));
 		int32_t L_0 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21144));
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, L_0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21144));
 		V_2 = L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:571>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21145));
 		int32_t L_2 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21146));
 		int32_t L_3;
 		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_2, 1)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21146));
 		V_3 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:572>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21147));
 		int32_t L_4 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21148));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, ((&___2_indices))->___m_Buffer, ((int32_t)il2cpp_codegen_add(L_4, 2)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21148));
 		V_4 = L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:573>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21149));
 		int32_t L_6 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21150));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_6);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21150));
 		(&V_1)->___va = L_7;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:574>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21151));
 		int32_t L_8 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21152));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_8);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21152));
 		(&V_1)->___vb = L_9;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:575>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21153));
 		int32_t L_10 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21154));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_vertices))->___m_Buffer, L_10);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21154));
 		(&V_1)->___vc = L_11;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:576>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21155));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_12 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21156));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		UCircle_t3F55D3F02B7E6987B939EB2283AE4ED0800E6CFC L_13;
 		L_13 = ModuleHandle_CircumCircle_m74CD844316D22901FA11DDFA9880D477AAA0722F(L_12, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21156));
 		(&V_1)->___c = L_13;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:577>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21157));
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_14 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15 = L_14.___va;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_16 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17 = L_16.___vb;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_18 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_19 = L_18.___vc;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21158));
 		float L_20;
 		L_20 = ModuleHandle_TriangleArea_mB975E204C8246F28F6D0FFC2816EA77071094CD4(L_15, L_17, L_19, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21158));
 		(&V_1)->___area = L_20;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:578>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21159));
 		float* L_21 = ___8_maxArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_22 = V_1;
 		float L_23 = L_22.___area;
 		float* L_24 = ___8_maxArea;
 		float L_25 = *((float*)L_24);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21160));
 		float L_26;
 		L_26 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_23, L_25, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21160));
 		*((float*)L_21) = (float)L_26;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:579>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21161));
 		float* L_27 = ___10_minArea;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_28 = V_1;
 		float L_29 = L_28.___area;
 		float* L_30 = ___10_minArea;
 		float L_31 = *((float*)L_30);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21162));
 		float L_32;
 		L_32 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_29, L_31, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21162));
 		*((float*)L_27) = (float)L_32;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:580>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21163));
 		float* L_33 = ___9_avgArea;
 		float* L_34 = ___9_avgArea;
 		float L_35 = *((float*)L_34);
@@ -4437,18 +3450,14 @@ IL_0008:
 		float L_37 = L_36.___area;
 		*((float*)L_33) = (float)((float)il2cpp_codegen_add(L_35, L_37));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:581>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21164));
 		int32_t L_38 = V_2;
 		int32_t L_39 = V_3;
 		int32_t L_40 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21165));
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_41;
 		memset((&L_41), 0, sizeof(L_41));
 		int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_inline((&L_41), L_38, L_39, L_40, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21165));
 		(&V_1)->___indices = L_41;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:584>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21166));
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_42 = ___6_delaEdges;
 		int32_t* L_43 = ___7_delaEdgeCount;
 		int32_t* L_44 = ___7_delaEdgeCount;
@@ -4459,28 +3468,19 @@ IL_0008:
 		int32_t L_47 = V_5;
 		int32_t L_48 = V_2;
 		int32_t L_49 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21167));
 		int32_t L_50;
 		L_50 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_48, L_49, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21167));
 		int32_t L_51 = V_2;
 		int32_t L_52 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21168));
 		int32_t L_53;
 		L_53 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_51, L_52, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21168));
 		int32_t* L_54 = ___5_triangleCount;
 		int32_t L_55 = *((int32_t*)L_54);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21169));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_56;
 		memset((&L_56), 0, sizeof(L_56));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_56), L_50, L_53, L_55, (-1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21169));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21170));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_42)->___m_Buffer, L_47, (L_56));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21170));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:585>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21171));
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_57 = ___6_delaEdges;
 		int32_t* L_58 = ___7_delaEdgeCount;
 		int32_t* L_59 = ___7_delaEdgeCount;
@@ -4491,28 +3491,19 @@ IL_0008:
 		int32_t L_62 = V_5;
 		int32_t L_63 = V_3;
 		int32_t L_64 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21172));
 		int32_t L_65;
 		L_65 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_63, L_64, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21172));
 		int32_t L_66 = V_3;
 		int32_t L_67 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21173));
 		int32_t L_68;
 		L_68 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_66, L_67, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21173));
 		int32_t* L_69 = ___5_triangleCount;
 		int32_t L_70 = *((int32_t*)L_69);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21174));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_71;
 		memset((&L_71), 0, sizeof(L_71));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_71), L_65, L_68, L_70, (-1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21174));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21175));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_57)->___m_Buffer, L_62, (L_71));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21175));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:586>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21176));
 		NativeArray_1_tBCDB44165F65D6BEE48CAD34C04286D158C1A200* L_72 = ___6_delaEdges;
 		int32_t* L_73 = ___7_delaEdgeCount;
 		int32_t* L_74 = ___7_delaEdgeCount;
@@ -4523,28 +3514,19 @@ IL_0008:
 		int32_t L_77 = V_5;
 		int32_t L_78 = V_4;
 		int32_t L_79 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21177));
 		int32_t L_80;
 		L_80 = math_min_m02D43DF516544C279AF660EA4731449C82991849_inline(L_78, L_79, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21177));
 		int32_t L_81 = V_4;
 		int32_t L_82 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21178));
 		int32_t L_83;
 		L_83 = math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline(L_81, L_82, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21178));
 		int32_t* L_84 = ___5_triangleCount;
 		int32_t L_85 = *((int32_t*)L_84);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21179));
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_86;
 		memset((&L_86), 0, sizeof(L_86));
 		int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline((&L_86), L_80, L_83, L_85, (-1), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21179));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21180));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int4_tBA77D4945786DE82C3A487B33955EA1004996052, (L_72)->___m_Buffer, L_77, (L_86));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21180));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:587>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21181));
 		NativeArray_1_t3FECF0DA96110F272EFBED08317E94C449DE9123* L_87 = ___4_triangles;
 		int32_t* L_88 = ___5_triangleCount;
 		int32_t* L_89 = ___5_triangleCount;
@@ -4554,12 +3536,8 @@ IL_0008:
 		*((int32_t*)L_88) = (int32_t)((int32_t)il2cpp_codegen_add(L_91, 1));
 		int32_t L_92 = V_5;
 		UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547 L_93 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21182));
 		IL2CPP_NATIVEARRAY_SET_ITEM(UTriangle_t4AE58A93753064D88E46927E12725F5BCD799547, (L_87)->___m_Buffer, L_92, (L_93));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21182));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21183));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:567>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21184));
 		int32_t L_94 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_94, 3));
 	}
@@ -4567,11 +3545,9 @@ IL_0008:
 IL_0170:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:567>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21185));
 		int32_t L_95 = V_0;
 		int32_t L_96 = ___3_indexCount;
 		V_6 = (bool)((((int32_t)L_95) < ((int32_t)L_96))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21186));
 		bool L_97 = V_6;
 		if (L_97)
 		{
@@ -4580,7 +3556,6 @@ IL_0170:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:589>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21187));
 		float* L_98 = ___9_avgArea;
 		float* L_99 = ___9_avgArea;
 		float L_100 = *((float*)L_99);
@@ -4588,7 +3563,6 @@ IL_0170:
 		int32_t L_102 = *((int32_t*)L_101);
 		*((float*)L_98) = (float)((float)(L_100/((float)L_102)));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:590>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21188));
 		return;
 	}
 }
@@ -4598,50 +3572,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGraph_mD2417E59077CE579
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_CopyGraph_mD2417E59077CE579091AC05BEC315E4FBD802054_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_CopyGraph_mD2417E59077CE579091AC05BEC315E4FBD802054_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_srcPoints), (&___1_srcPointCount), (&___2_dstPoints), (&___3_dstPointCount), (&___4_srcEdges), (&___5_srcEdgeCount), (&___6_dstEdges), (&___7_dstEdgeCount));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_CopyGraph_mD2417E59077CE579091AC05BEC315E4FBD802054_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21189));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21190));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21191));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:594>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21192));
 		int32_t* L_0 = ___7_dstEdgeCount;
 		int32_t L_1 = ___5_srcEdgeCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:595>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21193));
 		int32_t* L_2 = ___3_dstPointCount;
 		int32_t L_3 = ___1_srcPointCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:596>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21194));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_4 = ___4_srcEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_5 = ___6_dstEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_6 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_5);
 		int32_t L_7 = ___5_srcEdgeCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21195));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856(L_4, L_6, L_7, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21195));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:597>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21196));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_8 = ___0_srcPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___2_dstPoints;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9);
 		int32_t L_11 = ___1_srcPointCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21197));
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5(L_8, L_10, L_11, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21197));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:598>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21198));
 		return;
 	}
 }
@@ -4651,50 +3609,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_CopyGeometry_mBB391F8676ADD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_CopyGeometry_mBB391F8676ADD633B9B0A4F64001B689F055B3D0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_CopyGeometry_mBB391F8676ADD633B9B0A4F64001B689F055B3D0_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_srcIndices), (&___1_srcIndexCount), (&___2_dstIndices), (&___3_dstIndexCount), (&___4_srcVertices), (&___5_srcVertexCount), (&___6_dstVertices), (&___7_dstVertexCount));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_CopyGeometry_mBB391F8676ADD633B9B0A4F64001B689F055B3D0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21199));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21200));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21201));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:602>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21202));
 		int32_t* L_0 = ___3_dstIndexCount;
 		int32_t L_1 = ___1_srcIndexCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:603>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21203));
 		int32_t* L_2 = ___7_dstVertexCount;
 		int32_t L_3 = ___5_srcVertexCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:604>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21204));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_4 = ___0_srcIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_5 = ___2_dstIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_6 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_5);
 		int32_t L_7 = ___1_srcIndexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21205));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2(L_4, L_6, L_7, ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21205));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:605>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21206));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_8 = ___4_srcVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___6_dstVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9);
 		int32_t L_11 = ___5_srcVertexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21207));
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5(L_8, L_10, L_11, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21207));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:606>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21208));
 		return;
 	}
 }
@@ -4707,62 +3649,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_TransferOutput_mE769E946634
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_TransferOutput_mE769E946634074513DB462A6E244FD843ED2135C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_TransferOutput_mE769E946634074513DB462A6E244FD843ED2135C_RuntimeMethod_var);
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_srcEdges), (&___1_srcEdgeCount), (&___2_dstEdges), (&___3_dstEdgeCount), (&___4_srcIndices), (&___5_srcIndexCount), (&___6_dstIndices), (&___7_dstIndexCount), (&___8_srcVertices), (&___9_srcVertexCount), (&___10_dstVertices), (&___11_dstVertexCount));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_TransferOutput_mE769E946634074513DB462A6E244FD843ED2135C_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21209));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21210));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21211));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:610>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21212));
 		int32_t* L_0 = ___3_dstEdgeCount;
 		int32_t L_1 = ___1_srcEdgeCount;
 		*((int32_t*)L_0) = (int32_t)L_1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:611>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21213));
 		int32_t* L_2 = ___7_dstIndexCount;
 		int32_t L_3 = ___5_srcIndexCount;
 		*((int32_t*)L_2) = (int32_t)L_3;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:612>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21214));
 		int32_t* L_4 = ___11_dstVertexCount;
 		int32_t L_5 = ___9_srcVertexCount;
 		*((int32_t*)L_4) = (int32_t)L_5;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:613>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21215));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_6 = ___0_srcEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_7 = ___2_dstEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_8 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_7);
 		int32_t L_9 = ___1_srcEdgeCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21216));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856(L_6, L_8, L_9, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21216));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:614>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21217));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_10 = ___4_srcIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_11 = ___6_dstIndices;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_12 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_11);
 		int32_t L_13 = ___5_srcIndexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21218));
 		ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2(L_10, L_12, L_13, ModuleHandle_Copy_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mEC29D78A711D5A6B69C7A531ABAA5DE9BAF9BAB2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21218));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:615>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21219));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_14 = ___8_srcVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_15 = ___10_dstVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_16 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_15);
 		int32_t L_17 = ___9_srcVertexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21220));
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5(L_14, L_16, L_17, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21220));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:616>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21221));
 		return;
 	}
 }
@@ -4772,12 +3694,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GraphConditioner_m322541485
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_GraphConditioner_m322541485AFCB09F1FDF3609BECCB093D0DA138E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_GraphConditioner_m322541485AFCB09F1FDF3609BECCB093D0DA138E_RuntimeMethod_var);
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_1;
@@ -4791,65 +3710,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_GraphConditioner_m322541485
 	int32_t V_6 = 0;
 	bool V_7 = false;
 	int32_t V_8 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_points), (&___1_pgPoints), (&___2_pgPointCount), (&___3_pgEdges), (&___4_pgEdgeCount), (&___5_resetTopology));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_GraphConditioner_m322541485AFCB09F1FDF3609BECCB093D0DA138E_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21222));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21223));
 	int32_t* G_B5_0 = NULL;
 	int32_t* G_B4_0 = NULL;
 	int32_t G_B6_0 = 0;
 	int32_t* G_B6_1 = NULL;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21224));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:620>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21225));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21226));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&V_0), (std::numeric_limits<float>::infinity()), (std::numeric_limits<float>::infinity()), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21226));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:621>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21227));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ((float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_StaticFields*)il2cpp_codegen_static_fields_for(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_il2cpp_TypeInfo_var))->___zero;
 		V_1 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:622>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21228));
 		V_6 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21229));
 		goto IL_0045;
 	}
 
 IL_001d:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21230));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:624>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21231));
 		int32_t L_1 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21232));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21232));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21233));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4;
 		L_4 = math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_inline(L_2, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21233));
 		V_0 = L_4;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:625>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21234));
 		int32_t L_5 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21235));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6;
 		L_6 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&___0_points))->___m_Buffer, L_5);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21235));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21236));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8;
 		L_8 = math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_inline(L_6, L_7, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21236));
 		V_1 = L_8;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21237));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:622>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21238));
 		int32_t L_9 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
@@ -4857,14 +3751,10 @@ IL_001d:
 IL_0045:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:622>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21239));
 		int32_t L_10 = V_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21240));
 		int32_t L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21240));
 		V_7 = (bool)((((int32_t)L_10) < ((int32_t)L_11))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21241));
 		bool L_12 = V_7;
 		if (L_12)
 		{
@@ -4873,27 +3763,19 @@ IL_0045:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:628>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21242));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_13 = V_1;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = V_0;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21243));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_15;
 		L_15 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_13, L_14, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21243));
 		V_2 = L_15;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:629>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21244));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_16 = V_2;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21245));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_17;
 		L_17 = float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline(L_16, (0.5f), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21245));
 		V_3 = L_17;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:630>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21246));
 		V_4 = (9.99999975E-05f);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:633>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21247));
 		int32_t* L_18 = ___2_pgPointCount;
 		bool L_19 = ___5_resetTopology;
 		if (L_19)
@@ -4921,12 +3803,10 @@ IL_007b:
 	{
 		*((int32_t*)G_B6_1) = (int32_t)G_B6_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:634>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21248));
 		int32_t* L_22 = ___2_pgPointCount;
 		int32_t L_23 = *((int32_t*)L_22);
 		V_5 = L_23;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:635>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21249));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_24 = ___1_pgPoints;
 		int32_t* L_25 = ___2_pgPointCount;
 		int32_t* L_26 = ___2_pgPointCount;
@@ -4939,16 +3819,11 @@ IL_007b:
 		float L_31 = L_30.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_32 = V_0;
 		float L_33 = L_32.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21250));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_34;
 		memset((&L_34), 0, sizeof(L_34));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_34), L_31, L_33, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21250));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21251));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_24)->___m_Buffer, L_29, (L_34));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21251));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:635>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21252));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_35 = ___1_pgPoints;
 		int32_t* L_36 = ___2_pgPointCount;
 		int32_t* L_37 = ___2_pgPointCount;
@@ -4964,16 +3839,11 @@ IL_007b:
 		float L_45 = L_44.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_46 = V_3;
 		float L_47 = L_46.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21253));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_48;
 		memset((&L_48), 0, sizeof(L_48));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_48), ((float)il2cpp_codegen_subtract(L_42, L_43)), ((float)il2cpp_codegen_add(L_45, L_47)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21253));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21254));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_35)->___m_Buffer, L_40, (L_48));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21254));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:635>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21255));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_49 = ___1_pgPoints;
 		int32_t* L_50 = ___2_pgPointCount;
 		int32_t* L_51 = ___2_pgPointCount;
@@ -4986,16 +3856,11 @@ IL_007b:
 		float L_56 = L_55.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_57 = V_1;
 		float L_58 = L_57.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21256));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_59;
 		memset((&L_59), 0, sizeof(L_59));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_59), L_56, L_58, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21256));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21257));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_49)->___m_Buffer, L_54, (L_59));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21257));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:635>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21258));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_60 = ___1_pgPoints;
 		int32_t* L_61 = ___2_pgPointCount;
 		int32_t* L_62 = ___2_pgPointCount;
@@ -5011,16 +3876,11 @@ IL_007b:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_70 = V_1;
 		float L_71 = L_70.___y;
 		float L_72 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21259));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_73;
 		memset((&L_73), 0, sizeof(L_73));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_73), ((float)il2cpp_codegen_add(L_67, L_69)), ((float)il2cpp_codegen_add(L_71, L_72)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21259));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21260));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_60)->___m_Buffer, L_65, (L_73));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21260));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:636>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21261));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_74 = ___1_pgPoints;
 		int32_t* L_75 = ___2_pgPointCount;
 		int32_t* L_76 = ___2_pgPointCount;
@@ -5033,16 +3893,11 @@ IL_007b:
 		float L_81 = L_80.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_82 = V_1;
 		float L_83 = L_82.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21262));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_84;
 		memset((&L_84), 0, sizeof(L_84));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_84), L_81, L_83, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21262));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21263));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_74)->___m_Buffer, L_79, (L_84));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21263));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:636>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21264));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_85 = ___1_pgPoints;
 		int32_t* L_86 = ___2_pgPointCount;
 		int32_t* L_87 = ___2_pgPointCount;
@@ -5058,16 +3913,11 @@ IL_007b:
 		float L_95 = L_94.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_96 = V_3;
 		float L_97 = L_96.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21265));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_98;
 		memset((&L_98), 0, sizeof(L_98));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_98), ((float)il2cpp_codegen_add(L_92, L_93)), ((float)il2cpp_codegen_add(L_95, L_97)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21265));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21266));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_85)->___m_Buffer, L_90, (L_98));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21266));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:636>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21267));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_99 = ___1_pgPoints;
 		int32_t* L_100 = ___2_pgPointCount;
 		int32_t* L_101 = ___2_pgPointCount;
@@ -5080,16 +3930,11 @@ IL_007b:
 		float L_106 = L_105.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_107 = V_0;
 		float L_108 = L_107.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21268));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_109;
 		memset((&L_109), 0, sizeof(L_109));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_109), L_106, L_108, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21268));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21269));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_99)->___m_Buffer, L_104, (L_109));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21269));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:636>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21270));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_110 = ___1_pgPoints;
 		int32_t* L_111 = ___2_pgPointCount;
 		int32_t* L_112 = ___2_pgPointCount;
@@ -5105,137 +3950,84 @@ IL_007b:
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_120 = V_0;
 		float L_121 = L_120.___y;
 		float L_122 = V_4;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21271));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_123;
 		memset((&L_123), 0, sizeof(L_123));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_123), ((float)il2cpp_codegen_add(L_117, L_119)), ((float)il2cpp_codegen_subtract(L_121, L_122)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21271));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21272));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_110)->___m_Buffer, L_115, (L_123));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21272));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:638>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21273));
 		int32_t* L_124 = ___4_pgEdgeCount;
 		*((int32_t*)L_124) = (int32_t)8;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:639>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21274));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_125 = ___3_pgEdges;
 		int32_t L_126 = V_5;
 		int32_t L_127 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21275));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_128;
 		memset((&L_128), 0, sizeof(L_128));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_128), L_126, ((int32_t)il2cpp_codegen_add(L_127, 1)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21275));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21276));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_125)->___m_Buffer, 0, (L_128));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21276));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:639>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21277));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_129 = ___3_pgEdges;
 		int32_t L_130 = V_5;
 		int32_t L_131 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21278));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_132;
 		memset((&L_132), 0, sizeof(L_132));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_132), ((int32_t)il2cpp_codegen_add(L_130, 1)), ((int32_t)il2cpp_codegen_add(L_131, 2)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21278));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21279));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_129)->___m_Buffer, 1, (L_132));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21279));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:639>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21280));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_133 = ___3_pgEdges;
 		int32_t L_134 = V_5;
 		int32_t L_135 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21281));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_136;
 		memset((&L_136), 0, sizeof(L_136));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_136), ((int32_t)il2cpp_codegen_add(L_134, 2)), ((int32_t)il2cpp_codegen_add(L_135, 3)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21281));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21282));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_133)->___m_Buffer, 2, (L_136));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21282));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:639>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21283));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_137 = ___3_pgEdges;
 		int32_t L_138 = V_5;
 		int32_t L_139 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21284));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_140;
 		memset((&L_140), 0, sizeof(L_140));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_140), ((int32_t)il2cpp_codegen_add(L_138, 3)), ((int32_t)il2cpp_codegen_add(L_139, 4)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21284));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21285));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_137)->___m_Buffer, 3, (L_140));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21285));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:640>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21286));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_141 = ___3_pgEdges;
 		int32_t L_142 = V_5;
 		int32_t L_143 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21287));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_144;
 		memset((&L_144), 0, sizeof(L_144));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_144), ((int32_t)il2cpp_codegen_add(L_142, 4)), ((int32_t)il2cpp_codegen_add(L_143, 5)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21287));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21288));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_141)->___m_Buffer, 4, (L_144));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21288));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:640>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21289));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_145 = ___3_pgEdges;
 		int32_t L_146 = V_5;
 		int32_t L_147 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21290));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_148;
 		memset((&L_148), 0, sizeof(L_148));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_148), ((int32_t)il2cpp_codegen_add(L_146, 5)), ((int32_t)il2cpp_codegen_add(L_147, 6)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21290));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21291));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_145)->___m_Buffer, 5, (L_148));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21291));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:640>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21292));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_149 = ___3_pgEdges;
 		int32_t L_150 = V_5;
 		int32_t L_151 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21293));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_152;
 		memset((&L_152), 0, sizeof(L_152));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_152), ((int32_t)il2cpp_codegen_add(L_150, 6)), ((int32_t)il2cpp_codegen_add(L_151, 7)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21293));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21294));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_149)->___m_Buffer, 6, (L_152));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21294));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:640>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21295));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_153 = ___3_pgEdges;
 		int32_t L_154 = V_5;
 		int32_t L_155 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21296));
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_156;
 		memset((&L_156), 0, sizeof(L_156));
 		int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline((&L_156), ((int32_t)il2cpp_codegen_add(L_154, 7)), L_155, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21296));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21297));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A, (L_153)->___m_Buffer, 7, (L_156));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21297));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:641>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21298));
 		return;
 	}
 }
 // Method Definition Index: 66406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF (int32_t ___0_startVertexCount, int32_t ___1_index, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_indices, int32_t* ___3_indexCount, NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___4_vertices, int32_t* ___5_vertexCount, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF_RuntimeMethod_var);
 	bool V_0 = false;
 	int32_t V_1 = 0;
 	bool V_2 = false;
@@ -5244,37 +4036,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_Reorder_m40FFFB135A6763AE1E
 	int32_t V_5 = 0;
 	bool V_6 = false;
 	bool V_7 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_startVertexCount), (&___1_index), (&___2_indices), (&___3_indexCount), (&___4_vertices), (&___5_vertexCount));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_5));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21299));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21300));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21301));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:646>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21302));
 		V_0 = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:648>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21303));
 		V_1 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21304));
 		goto IL_0023;
 	}
 
 IL_0007:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21305));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:650>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21306));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___2_indices;
 		int32_t L_1 = V_1;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21307));
 		int32_t L_2;
 		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_0)->___m_Buffer, L_1);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21307));
 		int32_t L_3 = ___1_index;
 		V_2 = (bool)((((int32_t)((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21308));
 		bool L_4 = V_2;
 		if (!L_4)
 		{
@@ -5283,24 +4061,20 @@ IL_0007:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:650>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21309));
 		goto IL_001f;
 	}
 
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:651>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21310));
 		V_0 = (bool)1;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:652>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21311));
 		goto IL_002c;
 	}
 
 IL_001f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:648>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21312));
 		int32_t L_5 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
@@ -5308,12 +4082,10 @@ IL_001f:
 IL_0023:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:648>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21313));
 		int32_t L_6 = V_1;
 		int32_t* L_7 = ___3_indexCount;
 		int32_t L_8 = *((int32_t*)L_7);
 		V_3 = (bool)((((int32_t)L_6) < ((int32_t)L_8))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21314));
 		bool L_9 = V_3;
 		if (L_9)
 		{
@@ -5324,10 +4096,8 @@ IL_0023:
 IL_002c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:655>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21315));
 		bool L_10 = V_0;
 		V_4 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21316));
 		bool L_11 = V_4;
 		if (!L_11)
 		{
@@ -5335,48 +4105,35 @@ IL_002c:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21317));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:657>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21318));
 		int32_t* L_12 = ___5_vertexCount;
 		int32_t* L_13 = ___5_vertexCount;
 		int32_t L_14 = *((int32_t*)L_13);
 		*((int32_t*)L_12) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_14, 1));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:658>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21319));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_15 = ___4_vertices;
 		int32_t L_16 = ___1_index;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_17 = ___4_vertices;
 		int32_t* L_18 = ___5_vertexCount;
 		int32_t L_19 = *((int32_t*)L_18);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21320));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_20;
 		L_20 = IL2CPP_NATIVEARRAY_GET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_17)->___m_Buffer, L_19);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21320));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21321));
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, (L_15)->___m_Buffer, L_16, (L_20));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21321));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:659>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21322));
 		V_5 = 0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21323));
 		goto IL_007a;
 	}
 
 IL_0057:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:660>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21324));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_21 = ___2_indices;
 		int32_t L_22 = V_5;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21325));
 		int32_t L_23;
 		L_23 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_21)->___m_Buffer, L_22);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21325));
 		int32_t* L_24 = ___5_vertexCount;
 		int32_t L_25 = *((int32_t*)L_24);
 		V_6 = (bool)((((int32_t)L_23) == ((int32_t)L_25))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21326));
 		bool L_26 = V_6;
 		if (!L_26)
 		{
@@ -5385,19 +4142,15 @@ IL_0057:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:661>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21327));
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_27 = ___2_indices;
 		int32_t L_28 = V_5;
 		int32_t L_29 = ___1_index;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21328));
 		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_27)->___m_Buffer, L_28, (L_29));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21328));
 	}
 
 IL_0074:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:659>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21329));
 		int32_t L_30 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_30, 1));
 	}
@@ -5405,12 +4158,10 @@ IL_0074:
 IL_007a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:659>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21330));
 		int32_t L_31 = V_5;
 		int32_t* L_32 = ___3_indexCount;
 		int32_t L_33 = *((int32_t*)L_32);
 		V_7 = (bool)((((int32_t)L_31) < ((int32_t)L_33))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21331));
 		bool L_34 = V_7;
 		if (L_34)
 		{
@@ -5418,13 +4169,11 @@ IL_007a:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21332));
 	}
 
 IL_0087:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:663>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21333));
 		return;
 	}
 }
@@ -5434,46 +4183,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle_VertexCleanupConditioner_m6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_VertexCleanupConditioner_m6AC0853FEBD2826F41C6C3115F33D927867676A6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_VertexCleanupConditioner_m6AC0853FEBD2826F41C6C3115F33D927867676A6_RuntimeMethod_var);
 	int32_t V_0 = 0;
 	bool V_1 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_startVertexCount), (&___1_indices), (&___2_indexCount), (&___3_vertices), (&___4_vertexCount));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_VertexCleanupConditioner_m6AC0853FEBD2826F41C6C3115F33D927867676A6_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21334));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21335));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21336));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:668>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21337));
 		int32_t L_0 = ___0_startVertexCount;
 		V_0 = L_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21338));
 		goto IL_0018;
 	}
 
 IL_0005:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21339));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:670>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21340));
 		int32_t L_1 = ___0_startVertexCount;
 		int32_t L_2 = V_0;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_3 = ___1_indices;
 		int32_t* L_4 = ___2_indexCount;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_5 = ___3_vertices;
 		int32_t* L_6 = ___4_vertexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21341));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_Reorder_m40FFFB135A6763AE1ED04125D4AC161FFE65ABFF(L_1, L_2, L_3, L_4, L_5, L_6, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21341));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21342));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:668>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21343));
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
@@ -5481,12 +4214,10 @@ IL_0005:
 IL_0018:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:668>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21344));
 		int32_t L_8 = V_0;
 		int32_t* L_9 = ___4_vertexCount;
 		int32_t L_10 = *((int32_t*)L_9);
 		V_1 = (bool)((((int32_t)L_8) < ((int32_t)L_10))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21345));
 		bool L_11 = V_1;
 		if (L_11)
 		{
@@ -5495,7 +4226,6 @@ IL_0018:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:672>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21346));
 		return;
 	}
 }
@@ -5505,19 +4235,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_ConvexQuad_m7D9BC4D23333081D14A8044E77AED5FBF01DDFF4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_ConvexQuad_m7D9BC4D23333081D14A8044E77AED5FBF01DDFF4_RuntimeMethod_var);
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
@@ -5529,46 +4254,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	bool V_5 = false;
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_allocator), (&___1_points), (&___2_edges), (&___3_outVertices), (&___4_outVertexCount), (&___5_outIndices), (&___6_outIndexCount), (&___7_outEdges), (&___8_outEdgeCount));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_ConvexQuad_m7D9BC4D23333081D14A8044E77AED5FBF01DDFF4_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21347));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21348));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21349));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:677>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21350));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ((float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields*)il2cpp_codegen_static_fields_for(float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var))->___zero;
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:678>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21351));
 		int32_t* L_1 = ___8_outEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:678>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21352));
 		int32_t* L_2 = ___6_outIndexCount;
 		*((int32_t*)L_2) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:678>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21353));
 		int32_t* L_3 = ___4_outVertexCount;
 		*((int32_t*)L_3) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:679>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21354));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21355));
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21355));
 		if ((((int32_t)L_4) < ((int32_t)3)))
 		{
 			goto IL_0030;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21356));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21356));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		G_B3_0 = ((((int32_t)((((int32_t)L_5) < ((int32_t)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -5583,7 +4293,6 @@ IL_0030:
 IL_0031:
 	{
 		V_5 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21357));
 		bool L_7 = V_5;
 		if (!L_7)
 		{
@@ -5592,7 +4301,6 @@ IL_0031:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:680>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21358));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = V_0;
 		V_6 = L_8;
 		goto IL_0094;
@@ -5601,34 +4309,22 @@ IL_0031:
 IL_003c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:683>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21359));
 		V_1 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:683>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21360));
 		V_2 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:684>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21361));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		int32_t L_9 = ((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxEdgeCount;
 		int32_t L_10 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21362));
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_3), L_9, L_10, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21362));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:685>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21363));
 		int32_t L_11 = ((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		int32_t L_12 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21364));
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_4), L_11, L_12, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21364));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:688>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21365));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_13 = ___1_points;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21366));
 		ModuleHandle_GraphConditioner_m322541485AFCB09F1FDF3609BECCB093D0DA138E(L_13, (&V_4), (&V_2), (&V_3), (&V_1), (bool)1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21366));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:689>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21367));
 		int32_t L_14 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_15 = V_4;
 		int32_t L_16 = V_2;
@@ -5638,22 +4334,13 @@ IL_003c:
 		int32_t* L_20 = ___4_outVertexCount;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_21 = ___5_outIndices;
 		int32_t* L_22 = ___6_outIndexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21368));
 		bool L_23;
 		L_23 = Tessellator_Tessellate_mE45146D6B03B63F8D23C19B8B3FAF0047300B1AC(L_14, L_15, L_16, L_17, L_18, L_19, L_20, L_21, L_22, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21368));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:692>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21369));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21370));
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_4), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21370));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:693>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21371));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21372));
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_3), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21372));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:694>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21373));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_24 = V_0;
 		V_6 = L_24;
 		goto IL_0094;
@@ -5662,7 +4349,6 @@ IL_003c:
 IL_0094:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:695>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21374));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_25 = V_6;
 		return L_25;
 	}
@@ -5675,7 +4361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_Tessellate_m6AE06111AB2B0B09EC2C846DEF23C1AAA61B968E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
@@ -5683,15 +4368,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlanarGraph_t7364A81B5C32124D53251D8FD1135CC16793E6E0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle_Tessellate_m6AE06111AB2B0B09EC2C846DEF23C1AAA61B968E_RuntimeMethod_var);
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
@@ -5716,47 +4396,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD186545085329585
 	int32_t V_15 = 0;
 	bool V_16 = false;
 	bool V_17 = false;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_allocator), (&___1_points), (&___2_edges), (&___3_outVertices), (&___4_outVertexCount), (&___5_outIndices), (&___6_outIndexCount), (&___7_outEdges), (&___8_outEdgeCount));
-	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3), (&V_4), (&V_5), (&V_6), (&V_12), (&V_13), (&V_14), (&V_15));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle_Tessellate_m6AE06111AB2B0B09EC2C846DEF23C1AAA61B968E_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21375));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21376));
 	int32_t G_B3_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21377));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:700>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21378));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ((float4_t89D9A294E7A79BD81BFBDD18654508532958555E_StaticFields*)il2cpp_codegen_static_fields_for(float4_t89D9A294E7A79BD81BFBDD18654508532958555E_il2cpp_TypeInfo_var))->___zero;
 		V_0 = L_0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:701>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21379));
 		int32_t* L_1 = ___8_outEdgeCount;
 		*((int32_t*)L_1) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:701>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21380));
 		int32_t* L_2 = ___6_outIndexCount;
 		*((int32_t*)L_2) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:701>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21381));
 		int32_t* L_3 = ___4_outVertexCount;
 		*((int32_t*)L_3) = (int32_t)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:702>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21382));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21383));
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21383));
 		if ((((int32_t)L_4) < ((int32_t)3)))
 		{
 			goto IL_0030;
 		}
 	}
 	{
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21384));
 		int32_t L_5;
 		L_5 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21384));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxVertexCount;
 		G_B3_0 = ((((int32_t)((((int32_t)L_5) < ((int32_t)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -5771,7 +4436,6 @@ IL_0030:
 IL_0031:
 	{
 		V_7 = (bool)G_B3_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21385));
 		bool L_7 = V_7;
 		if (!L_7)
 		{
@@ -5780,7 +4444,6 @@ IL_0031:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:703>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21386));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_8 = V_0;
 		V_8 = L_8;
 		goto IL_0185;
@@ -5789,45 +4452,27 @@ IL_0031:
 IL_003f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:706>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21387));
 		V_1 = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:706>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21388));
 		V_2 = (bool)0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:707>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21389));
 		V_3 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:707>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21390));
 		V_4 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:708>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21391));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21392));
 		int32_t L_9;
 		L_9 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21392));
 		int32_t L_10 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21393));
 		NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13((&V_5), ((int32_t)il2cpp_codegen_multiply(L_9, 8)), L_10, 1, NativeArray_1__ctor_m3CB679B1B77F99FC5CF890F75C914E22555A1F13_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21393));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:709>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21394));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21395));
 		int32_t L_11;
 		L_11 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21395));
 		int32_t L_12 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21396));
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_6), ((int32_t)il2cpp_codegen_multiply(L_11, 4)), L_12, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21396));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:712>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21397));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21398));
 		int32_t L_13;
 		L_13 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21398));
 		V_9 = (bool)((!(((uint32_t)L_13) <= ((uint32_t)0)))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21399));
 		bool L_14 = V_9;
 		if (!L_14)
 		{
@@ -5835,36 +4480,25 @@ IL_003f:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21400));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21401));
 		int32_t L_15 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_16 = ___1_points;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21402));
 		int32_t L_17;
 		L_17 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21402));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_18 = ___2_edges;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21403));
 		int32_t L_19;
 		L_19 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21403));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21404));
 		il2cpp_codegen_runtime_class_init_inline(PlanarGraph_t7364A81B5C32124D53251D8FD1135CC16793E6E0_il2cpp_TypeInfo_var);
 		bool L_20;
 		L_20 = PlanarGraph_Validate_m55816BC6804855F94178B5FDEC284BB63C0ACC88(L_15, L_16, L_17, L_18, L_19, (&V_6), (&V_4), (&V_5), (&V_3), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21404));
 		V_1 = L_20;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21405));
 	}
 
 IL_009d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:729>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21406));
 		bool L_21 = V_1;
 		V_10 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21407));
 		bool L_22 = V_10;
 		if (!L_22)
 		{
@@ -5872,55 +4506,36 @@ IL_009d:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21408));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:731>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21409));
 		int32_t* L_23 = ___8_outEdgeCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21410));
 		int32_t L_24;
 		L_24 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21410));
 		*((int32_t*)L_23) = (int32_t)L_24;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:732>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21411));
 		int32_t* L_25 = ___4_outVertexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21412));
 		int32_t L_26;
 		L_26 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21412));
 		*((int32_t*)L_25) = (int32_t)L_26;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:733>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21413));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_27 = ___2_edges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_28 = ___7_outEdges;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_29 = (*(NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2*)L_28);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21414));
 		int32_t L_30;
 		L_30 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___2_edges))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21414));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21415));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856(L_27, L_29, L_30, ModuleHandle_Copy_Tisint2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_mF35997F769CB8B8D97D360DE0ABEA3248B876856_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21415));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:734>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21416));
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_31 = ___1_points;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_32 = ___3_outVertices;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_33 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_32);
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21417));
 		int32_t L_34;
 		L_34 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_points))->___m_Length);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21417));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21418));
 		ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5(L_31, L_33, L_34, ModuleHandle_Copy_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m24B74CC1C60CA9F746E96A345E83BDFC58FC41E5_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21418));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21419));
 	}
 
 IL_00e6:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:738>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21420));
 		int32_t L_35 = V_4;
 		if ((((int32_t)L_35) <= ((int32_t)2)))
 		{
@@ -5941,7 +4556,6 @@ IL_00f1:
 IL_00f2:
 	{
 		V_11 = (bool)G_B12_0;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21421));
 		bool L_37 = V_11;
 		if (!L_37)
 		{
@@ -5949,44 +4563,30 @@ IL_00f2:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21422));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:741>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21423));
 		int32_t L_38 = V_4;
 		int32_t L_39 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21424));
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_12), ((int32_t)il2cpp_codegen_multiply(L_38, 8)), L_39, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21424));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:742>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21425));
 		int32_t L_40 = V_4;
 		int32_t L_41 = ___0_allocator;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21426));
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_13), ((int32_t)il2cpp_codegen_multiply(L_40, 4)), L_41, 1, NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21426));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:743>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21427));
 		V_14 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:743>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21428));
 		V_15 = 0;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:744>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21429));
 		int32_t L_42 = ___0_allocator;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_43 = V_6;
 		int32_t L_44 = V_4;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_45 = V_5;
 		int32_t L_46 = V_3;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21430));
 		bool L_47;
 		L_47 = Tessellator_Tessellate_mE45146D6B03B63F8D23C19B8B3FAF0047300B1AC(L_42, L_43, L_44, L_45, L_46, (&V_13), (&V_15), (&V_12), (&V_14), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21430));
 		V_1 = L_47;
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:745>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21431));
 		bool L_48 = V_1;
 		V_16 = L_48;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21432));
 		bool L_49 = V_16;
 		if (!L_49)
 		{
@@ -5994,9 +4594,7 @@ IL_00f2:
 		}
 	}
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21433));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:748>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21434));
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2 L_50 = V_5;
 		int32_t L_51 = V_3;
 		NativeArray_1_tE86585F07CF10FCD01AA2652A104B149336F7EC2* L_52 = ___7_outEdges;
@@ -6009,15 +4607,11 @@ IL_00f2:
 		int32_t L_59 = V_15;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_60 = ___3_outVertices;
 		int32_t* L_61 = ___4_outVertexCount;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21435));
 		il2cpp_codegen_runtime_class_init_inline(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		ModuleHandle_TransferOutput_mE769E946634074513DB462A6E244FD843ED2135C(L_50, L_51, L_52, L_53, L_54, L_55, L_56, L_57, L_58, L_59, L_60, L_61, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21435));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:749>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21436));
 		bool L_62 = V_2;
 		V_17 = L_62;
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21437));
 		bool L_63 = V_17;
 		if (!L_63)
 		{
@@ -6026,45 +4620,29 @@ IL_00f2:
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:750>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21438));
 		int32_t* L_64 = ___8_outEdgeCount;
 		*((int32_t*)L_64) = (int32_t)0;
 	}
 
 IL_015e:
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21439));
 	}
 
 IL_015f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:752>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21440));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21441));
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_13), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21441));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:753>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21442));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21443));
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E((&V_12), NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21443));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21444));
 	}
 
 IL_0170:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:757>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21445));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21446));
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F((&V_6), NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21446));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:758>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21447));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21448));
 		NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2((&V_5), NativeArray_1_Dispose_m3135DCFBA5DDC3D2CAA20FB2666F3A996856F2F2_RuntimeMethod_var);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21448));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:759>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21449));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_65 = V_0;
 		V_8 = L_65;
 		goto IL_0185;
@@ -6073,7 +4651,6 @@ IL_0170:
 IL_0185:
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:760>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21450));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_66 = V_8;
 		return L_66;
 	}
@@ -6084,39 +4661,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleHandle__cctor_mBE35D3D252C3BA83B20
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle__cctor_mBE35D3D252C3BA83B20D8EC431BE1589A144E03D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(ModuleHandle__cctor_mBE35D3D252C3BA83B20D8EC431BE1589A144E03D_RuntimeMethod_var);
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ModuleHandle__cctor_mBE35D3D252C3BA83B20D8EC431BE1589A144E03D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21451));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21452));
 	{
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:285>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21453));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxArea = ((int32_t)65536);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:286>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21454));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxEdgeCount = ((int32_t)65536);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:287>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21455));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxIndexCount = ((int32_t)65536);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:288>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21456));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxVertexCount = ((int32_t)65536);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:289>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21457));
 		int32_t L_0 = ((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxIndexCount;
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxTriangleCount = ((int32_t)(L_0/3));
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:290>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21458));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxRefineIterations = ((int32_t)48);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:291>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21459));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kMaxSmoothenIterations = ((int32_t)256);
 		//<source_info:./Library/PackageCache/com.unity.render-pipelines.universal@facf525283ae/Runtime/2D/UTess2D/UTess.cs:292>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_RenderPipelines_Universal_2D_Runtime + 21460));
 		((ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_StaticFields*)il2cpp_codegen_static_fields_for(ModuleHandle_t254D8E54134BB66FFC346DA3898C7A23C1F4C499_il2cpp_TypeInfo_var))->___kIncrementAreaFactor = (1.20000005f);
 		return;
 	}
@@ -6160,13 +4724,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U24BurstDirectCallInitializer_Initialize_m15347CE4997B95D8D58B24CEC10BDB0ACB562281_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ProfilerMethodSentry _profilerMethodSentry(U24BurstDirectCallInitializer_Initialize_m15347CE4997B95D8D58B24CEC10BDB0ACB562281_RuntimeMethod_var);
 	BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, U24BurstDirectCallInitializer_Initialize_m15347CE4997B95D8D58B24CEC10BDB0ACB562281_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_runtime_class_init_inline(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var);
 		BurstCompilerOptions_t5F93118F305E1B0C950C6F9AF8BCA74033DA01C9* L_0 = ((BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_StaticFields*)il2cpp_codegen_static_fields_for(BurstCompiler_t2715484E1FF256726FC4D4D8E17C35A4C8DFA2B8_il2cpp_TypeInfo_var))->___Options;
@@ -6180,30 +4740,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U24BurstDirectCallInitializer_Initialize
 // Method Definition Index: 33491
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_inline (float ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_abs_m3D9508B36B045BFE7B89C6C69AD34596264E4FE1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7444));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7445));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7446));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1844>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7447));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7448));
 		uint32_t L_1;
 		L_1 = math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7448));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7449));
 		float L_2;
 		L_2 = math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline(((int32_t)((int32_t)L_1&((int32_t)2147483647LL))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7449));
 		V_0 = L_2;
 		goto IL_0015;
 	}
@@ -6211,7 +4755,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_abs_m3D9508B36B045BFE7
 IL_0015:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1844>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7450));
 		float L_3 = V_0;
 		return L_3;
 	}
@@ -6219,30 +4762,14 @@ IL_0015:
 // Method Definition Index: 33495
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_inline (double ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	double V_0 = 0.0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_abs_mDF669CF3AF2C60713E8E118578461CDA050DAFD0_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7475));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7476));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7477));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1869>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7478));
 		double L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7479));
 		uint64_t L_1;
 		L_1 = math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7479));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7480));
 		double L_2;
 		L_2 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)((int64_t)L_1&((int64_t)(std::numeric_limits<int64_t>::max)()))), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7480));
 		V_0 = L_2;
 		goto IL_0019;
 	}
@@ -6250,7 +4777,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_abs_mDF669CF3AF2C6071
 IL_0019:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1869>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7481));
 		double L_3 = V_0;
 		return L_3;
 	}
@@ -6258,30 +4784,14 @@ IL_0019:
 // Method Definition Index: 36743
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33247));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33248));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33249));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33250));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33251));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:40>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33252));
 		return;
 	}
 }
@@ -6292,24 +4802,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9288));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9289));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9290));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3382>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9291));
 		float L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = sqrt(((double)((float)L_0)));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9292));
 		V_0 = ((float)L_1);
 		goto IL_000d;
 	}
@@ -6317,7 +4818,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_sqrt_mEF31DE7BD0179009
 IL_000d:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3382>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9293));
 		float L_2 = V_0;
 		return L_2;
 	}
@@ -6325,31 +4825,15 @@ IL_000d:
 // Method Definition Index: 33772
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_distance_mE5E0FFDD103E710A4CB23360BFCAFD0AF2E1EFA9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9622));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9623));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9624));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9625));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___1_y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9626));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2;
 		L_2 = float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9626));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9627));
 		float L_3;
 		L_3 = math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9627));
 		V_0 = L_3;
 		goto IL_0010;
 	}
@@ -6357,7 +4841,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distance_mE5E0FFDD103E
 IL_0010:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3714>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9628));
 		float L_4 = V_0;
 		return L_4;
 	}
@@ -6365,57 +4848,27 @@ IL_0010:
 // Method Definition Index: 37038
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35547));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35548));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35549));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:41>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35550));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:42>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35551));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:43>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35552));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35553));
 		return;
 	}
 }
 // Method Definition Index: 37070
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35760));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35761));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35762));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:305>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35763));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -6428,11 +4881,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35764));
 		V_0 = L_12;
 		goto IL_0030;
 	}
@@ -6440,7 +4891,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL_0030:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:305>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35765));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
 		return L_13;
 	}
@@ -6448,52 +4898,27 @@ IL_0030:
 // Method Definition Index: 33787
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_x, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_cross_m4CA2DAE150C6381B0D05E8AA9E48E88CF6157180_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9722));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9723));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9724));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3823>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9725));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9726));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1;
 		L_1 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___1_y), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9726));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9727));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2;
 		L_2 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9727));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		L_3 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&___0_x), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9729));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5;
 		L_5 = float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline(L_3, L_4, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9729));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9730));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6;
 		L_6 = float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2_inline(L_2, L_5, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9730));
 		V_0 = L_6;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9731));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7;
 		L_7 = float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline((&V_0), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9731));
 		V_1 = L_7;
 		goto IL_002b;
 	}
@@ -6501,7 +4926,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL_002b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3823>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9732));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = V_1;
 		return L_8;
 	}
@@ -6509,21 +4933,9 @@ IL_002b:
 // Method Definition Index: 33508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7563));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7564));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7565));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1960>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7566));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
@@ -6539,7 +4951,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_dot_mF673D3E5B7D267C0A
 IL_001f:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1960>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 7567));
 		float L_8 = V_0;
 		return L_8;
 	}
@@ -6547,27 +4958,13 @@ IL_001f:
 // Method Definition Index: 33404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6825));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6826));
 	float G_B4_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6827));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1061>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6828));
 		float L_0 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6829));
 		if (L_1)
 		{
 			goto IL_0010;
@@ -6602,7 +4999,6 @@ IL_0011:
 IL_0014:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1061>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6830));
 		float L_6 = V_0;
 		return L_6;
 	}
@@ -6610,27 +5006,13 @@ IL_0014:
 // Method Definition Index: 33386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6685));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6686));
 	float G_B4_0 = 0.0f;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6687));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:929>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6688));
 		float L_0 = ___1_y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6689));
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6689));
 		if (L_1)
 		{
 			goto IL_0010;
@@ -6665,7 +5047,6 @@ IL_0011:
 IL_0014:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:929>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6690));
 		float L_6 = V_0;
 		return L_6;
 	}
@@ -6673,56 +5054,27 @@ IL_0014:
 // Method Definition Index: 39145
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_inline (int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, int3__ctor_mE478318DE4CA648614FEF2C1DD438C0455284BF2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50595));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50596));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50597));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int3.gen.cs:41>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50598));
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int3.gen.cs:42>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50599));
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int3.gen.cs:43>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50600));
 		int32_t L_2 = ___2_z;
 		__this->___z = L_2;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int3.gen.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 50601));
 		return;
 	}
 }
 // Method Definition Index: 33376
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_min_m02D43DF516544C279AF660EA4731449C82991849_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_min_m02D43DF516544C279AF660EA4731449C82991849_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6611));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6612));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6613));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:855>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6614));
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -6751,7 +5103,6 @@ IL_0009:
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:855>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6615));
 		int32_t L_4 = V_0;
 		return L_4;
 	}
@@ -6759,22 +5110,10 @@ IL_000c:
 // Method Definition Index: 33394
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_inline (int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_m9083201D37A8ED0157B127B5878D9B7F3A2A40BE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6751));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6752));
 	int32_t G_B3_0 = 0;
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6753));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:987>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6754));
 		int32_t L_0 = ___0_x;
 		int32_t L_1 = ___1_y;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
@@ -6803,7 +5142,6 @@ IL_0009:
 IL_000c:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:987>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6755));
 		int32_t L_4 = V_0;
 		return L_4;
 	}
@@ -6811,82 +5149,45 @@ IL_000c:
 // Method Definition Index: 39579
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_inline (int4_tBA77D4945786DE82C3A487B33955EA1004996052* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_z, int32_t ___3_w, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int4_tBA77D4945786DE82C3A487B33955EA1004996052_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z), (&___3_w));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, int4__ctor_m4E8D71A09721E26F7FCCE82EA8AD699062EE6216_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53861));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53862));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53863));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int4.gen.cs:44>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53864));
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int4.gen.cs:45>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53865));
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int4.gen.cs:46>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53866));
 		int32_t L_2 = ___2_z;
 		__this->___z = L_2;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int4.gen.cs:47>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53867));
 		int32_t L_3 = ___3_w;
 		__this->___w = L_3;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int4.gen.cs:48>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 53868));
 		return;
 	}
 }
 // Method Definition Index: 33387
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_min_m68ED612C41E325FA3446050EA04D0AC0CD191558_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6691));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6692));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6693));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:936>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6694));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
 		float L_3 = L_2.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6695));
 		float L_4;
 		L_4 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_1, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6695));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___0_x;
 		float L_6 = L_5.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___1_y;
 		float L_8 = L_7.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6696));
 		float L_9;
 		L_9 = math_min_m54FD010BEF505D2BA1F79FC793BEB0723C329C3B_inline(L_6, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6696));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6697));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_10), L_4, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6697));
 		V_0 = L_10;
 		goto IL_002b;
 	}
@@ -6894,7 +5195,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL_002b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:936>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6698));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11 = V_0;
 		return L_11;
 	}
@@ -6902,44 +5202,25 @@ IL_002b:
 // Method Definition Index: 33405
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_max_mFD64D6399932C2D91018BA7895C06FD055E1361B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6831));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6832));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6833));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1068>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6834));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_y;
 		float L_3 = L_2.___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6835));
 		float L_4;
 		L_4 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_1, L_3, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6835));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___0_x;
 		float L_6 = L_5.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___1_y;
 		float L_8 = L_7.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6836));
 		float L_9;
 		L_9 = math_max_m4B454A91AE8827997609E74C4C24036BBD3CC496_inline(L_6, L_8, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6836));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6837));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_10), L_4, L_9, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6837));
 		V_0 = L_10;
 		goto IL_002b;
 	}
@@ -6947,7 +5228,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL_002b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:1068>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6838));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_11 = V_0;
 		return L_11;
 	}
@@ -6955,23 +5235,10 @@ IL_002b:
 // Method Definition Index: 36773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float2_op_Subtraction_m28172675A65BCFFBC8C9023BE815019E668B8380_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33431));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33432));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33433));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:267>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33434));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_2 = ___1_rhs;
@@ -6980,11 +5247,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 		float L_5 = L_4.___y;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = ___1_rhs;
 		float L_7 = L_6.___y;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33435));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_8), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33435));
 		V_0 = L_8;
 		goto IL_0023;
 	}
@@ -6992,7 +5257,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL_0023:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:267>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33436));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_9 = V_0;
 		return L_9;
 	}
@@ -7000,34 +5264,19 @@ IL_0023:
 // Method Definition Index: 36768
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_lhs, float ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float2_op_Multiply_m34D03129CE0D7AD665A914DE83CB749585B2455F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33401));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33402));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33403));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33404));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float L_2 = ___1_rhs;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___0_lhs;
 		float L_4 = L_3.___y;
 		float L_5 = ___1_rhs;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33405));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_inline((&L_6), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33405));
 		V_0 = L_6;
 		goto IL_0019;
 	}
@@ -7035,7 +5284,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC
 IL_0019:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float2.gen.cs:230>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 33406));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = V_0;
 		return L_7;
 	}
@@ -7043,52 +5291,23 @@ IL_0019:
 // Method Definition Index: 38812
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, int2__ctor_m452D21510717D0961119C89A72BBB8D84DCD49F4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47965));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47966));
-	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47967));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int2.gen.cs:38>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47968));
 		int32_t L_0 = ___0_x;
 		__this->___x = L_0;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int2.gen.cs:39>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47969));
 		int32_t L_1 = ___1_y;
 		__this->___y = L_1;
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/int2.gen.cs:40>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 47970));
 		return;
 	}
 }
 // Method Definition Index: 33325
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_inline (float ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asuint_m503D1ABF19E4BA615FD8AE1BF1A2E103BBED6139_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6252));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6253));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6254));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6255));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:351>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6256));
 		int32_t L_0 = *((uint32_t*)((uintptr_t)(&___0_x)));
 		V_0 = L_0;
 		goto IL_0009;
@@ -7097,7 +5316,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t math_asuint_m503D1ABF19E
 IL_0009:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:353>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6257));
 		uint32_t L_1 = V_0;
 		return L_1;
 	}
@@ -7105,22 +5323,9 @@ IL_0009:
 // Method Definition Index: 33337
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_inline (uint32_t ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asfloat_m20D259DAAB46464B59BD8BF5678F9D59800F70A9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6322));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6323));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6324));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6325));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:483>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6326));
 		float L_0 = *((float*)((uintptr_t)(&___0_x)));
 		V_0 = L_0;
 		goto IL_0009;
@@ -7129,7 +5334,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_asfloat_m20D259DAAB464
 IL_0009:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:485>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6327));
 		float L_1 = V_0;
 		return L_1;
 	}
@@ -7137,22 +5341,9 @@ IL_0009:
 // Method Definition Index: 33332
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_inline (double ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asulong_m2CF160E23B5FF618A85C3C29B2FB1C000E40290F_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6292));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6293));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6294));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6295));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:423>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6296));
 		int64_t L_0 = *((int64_t*)((uintptr_t)(&___0_x)));
 		V_0 = L_0;
 		goto IL_0009;
@@ -7161,7 +5352,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t math_asulong_m2CF160E23B
 IL_0009:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:425>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6297));
 		uint64_t L_1 = V_0;
 		return L_1;
 	}
@@ -7169,22 +5359,9 @@ IL_0009:
 // Method Definition Index: 33343
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline (uint64_t ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	double V_0 = 0.0;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6370));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6371));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6372));
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6373));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:564>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6374));
 		double L_0 = *((double*)((uintptr_t)(&___0_x)));
 		V_0 = L_0;
 		goto IL_0009;
@@ -7193,7 +5370,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double math_asdouble_m3E7BC790C74
 IL_0009:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:566>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 6375));
 		double L_1 = V_0;
 		return L_1;
 	}
@@ -7201,31 +5377,15 @@ IL_0009:
 // Method Definition Index: 33756
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_inline (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_x, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float V_0 = 0.0f;
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, math_length_m3DB47D254C8544FBB740A892B4AE2143E8F45634_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9522));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9523));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9524));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3612>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9525));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_x;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___0_x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9526));
 		float L_2;
 		L_2 = math_dot_mF673D3E5B7D267C0A8569B678D05BDCCB667D04D_inline(L_0, L_1, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9526));
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9527));
 		float L_3;
 		L_3 = math_sqrt_mEF31DE7BD0179009683C5D7B0C58E6571B30CF4A_inline(L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9527));
 		V_0 = L_3;
 		goto IL_0010;
 	}
@@ -7233,7 +5393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_length_m3DB47D254C8544
 IL_0010:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/math.cs:3612>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 9528));
 		float L_4 = V_0;
 		return L_4;
 	}
@@ -7241,31 +5400,16 @@ IL_0010:
 // Method Definition Index: 37200
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36543));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36544));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36545));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:1403>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36546));
 		float L_0 = __this->___y;
 		float L_1 = __this->___z;
 		float L_2 = __this->___x;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36547));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_3), L_0, L_1, L_2, NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36547));
 		V_0 = L_3;
 		goto IL_001b;
 	}
@@ -7273,7 +5417,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL_001b:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:1403>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 36548));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = V_0;
 		return L_4;
 	}
@@ -7281,23 +5424,10 @@ IL_001b:
 // Method Definition Index: 37064
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_inline (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_lhs, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_rhs, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_0_0_0_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
-	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35724));
-	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35725));
 	{
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35726));
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:261>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35727));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_lhs;
 		float L_1 = L_0.___x;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_2 = ___1_rhs;
@@ -7310,11 +5440,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 		float L_9 = L_8.___z;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10 = ___1_rhs;
 		float L_11 = L_10.___z;
-		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35728));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_12;
 		memset((&L_12), 0, sizeof(L_12));
 		float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), ((float)il2cpp_codegen_multiply(L_9, L_11)), NULL);
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35728));
 		V_0 = L_12;
 		goto IL_0030;
 	}
@@ -7322,7 +5450,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793
 IL_0030:
 	{
 		//<source_info:./Library/PackageCache/com.unity.mathematics@8017b507cc74/Unity.Mathematics/float3.gen.cs:261>
-		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_Mathematics + 35729));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_13 = V_0;
 		return L_13;
 	}
@@ -7330,14 +5457,6 @@ IL_0030:
 // Method Definition Index: 2018
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		float L_0 = ___0_f;
 		int32_t L_1;
@@ -7348,14 +5467,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 // Method Definition Index: 733
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = *((int32_t*)((uintptr_t)(&___0_value)));
 		return L_0;

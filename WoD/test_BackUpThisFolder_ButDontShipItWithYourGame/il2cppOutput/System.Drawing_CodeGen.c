@@ -131,7 +131,6 @@ static const int32_t s_InvokerIndices[29] =
 	8135,
 	15903,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSystem_Drawing;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Drawing_CodeGenModule;
 const Il2CppCodeGenModule g_System_Drawing_CodeGenModule = 
 {
@@ -147,7 +146,7 @@ const Il2CppCodeGenModule g_System_Drawing_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationSystem_Drawing,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

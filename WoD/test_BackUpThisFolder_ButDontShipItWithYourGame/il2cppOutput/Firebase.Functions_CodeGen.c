@@ -513,7 +513,6 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[16] =
 	{ 0x06000082, 116,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_m977EB9947A66334C23A3A8CE7EDC069C4FA72C1C_RuntimeMethod_var, 0 },
 	{ 0x06000093, 127,  (void**)&SWIGStringHelper_CreateString_m47F45E608CDBB943EB4A18F7925618AF66B50916_RuntimeMethod_var, 0 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFirebase_Functions;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Functions_CodeGenModule;
 const Il2CppCodeGenModule g_Firebase_Functions_CodeGenModule = 
 {
@@ -529,7 +528,7 @@ const Il2CppCodeGenModule g_Firebase_Functions_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationFirebase_Functions,
+	NULL,
 	NULL,
 	NULL,
 	NULL,

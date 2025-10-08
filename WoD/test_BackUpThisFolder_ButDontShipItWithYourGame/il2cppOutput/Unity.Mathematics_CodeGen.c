@@ -37281,7 +37281,6 @@ static const int32_t s_InvokerIndices[9427] =
 	27252,
 	16188,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnity_Mathematics;
 static TypeDefinitionIndex s_staticConstructorsToRunAtStartup[74] = 
 {
 	4463,
@@ -37374,7 +37373,7 @@ const Il2CppCodeGenModule g_Unity_Mathematics_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnity_Mathematics,
+	NULL,
 	NULL,
 	s_staticConstructorsToRunAtStartup,
 	NULL,

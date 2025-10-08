@@ -220,7 +220,6 @@ extern void ValueChangedEventArgs_get_DatabaseError_m60546FE44C0504634CAF170C875
 extern void ValueChangedEventArgs_set_DatabaseError_m289AF8CCA253CF21C307135423350D1BE212169E (void);
 extern void Future_InternalDataSnapshot__ctor_m94A6E26951332FD46E16A3962BF7ECA782959B6C (void);
 extern void Future_InternalDataSnapshot_getCPtr_m300A16CDD3CB066E652D8A9A4F49C6E6AEEC4712 (void);
-extern void Future_InternalDataSnapshot_swigRelease_mE8E8314162066CC5AA27E26F9678E0902BCDC49C (void);
 extern void Future_InternalDataSnapshot_Dispose_m1B925C075E8430087BC8B404D9F9ECABDE2CD136 (void);
 extern void Future_InternalDataSnapshot_GetTask_m1090C78F556C35E670B74B2968C8CDC384E5E196 (void);
 extern void Future_InternalDataSnapshot_ThrowIfDisposed_m30E2B463AC06313078F644896B453ED1937642ED (void);
@@ -240,11 +239,10 @@ extern void SWIG_CompletionDelegate__ctor_mAA1C87AAB261AA0227140B239FDCC11396B00
 extern void SWIG_CompletionDelegate_Invoke_m8BDF75E8953F67D4644F56D8FDB49E8A73FA4C76 (void);
 extern void SWIG_CompletionDelegate_BeginInvoke_m2AB635E272EE5CEE6B61A8EB81CFF34D5BFCC98F (void);
 extern void SWIG_CompletionDelegate_EndInvoke_m566C47DEF7115396D50744E853E41F6A761F4625 (void);
-extern void U3CU3Ec__DisplayClass5_0__ctor_mD0599D179BE401E0A2DFD2EBA181066E72EF8637 (void);
-extern void U3CU3Ec__DisplayClass5_0_U3CGetTaskU3Eb__0_mD0A55AE835C9AF48FE7E69DBA3DE84E3CD445E2B (void);
+extern void U3CU3Ec__DisplayClass4_0__ctor_m4CF296C9F0B1F60A13B6C3EA2723C671F9D51C71 (void);
+extern void U3CU3Ec__DisplayClass4_0_U3CGetTaskU3Eb__0_m30D1DF4D0AF7CD2271CF7B28969709D1319D6607 (void);
 extern void InternalDataSnapshotList__ctor_mD16610B33FDDE7C04C6FE0884256F37567E7F816 (void);
 extern void InternalDataSnapshotList_getCPtr_m06CEB75667CA1A8384F587A535249D59ABEB93C6 (void);
-extern void InternalDataSnapshotList_swigRelease_m2268A6C3CDD4004B65362DE2B6CF02F58C594C57 (void);
 extern void InternalDataSnapshotList_Finalize_m2B42AF60B3B95075073BC0EAD9CA92142B9E9778 (void);
 extern void InternalDataSnapshotList_Dispose_m6D8CD259FF2F4E3AE2AB4B7C7F2356C18C253746 (void);
 extern void InternalDataSnapshotList_Dispose_mE8DE7CE2B22A7ADB66A7876963C078FFDE488588 (void);
@@ -256,7 +254,6 @@ extern void InternalDataSnapshotList_get_Item_m88279E9B79D1EAEA754DAD96097B5468D
 extern void InternalDataSnapshotList_set_Item_mBD74A32FEC06F2F2B2A682D58DE75A0298234900 (void);
 extern void InternalDataSnapshotList_get_Capacity_m52D9DF3534EE4F9EEE6A71CB355DD3A7E2A0BE7F (void);
 extern void InternalDataSnapshotList_set_Capacity_m4770F9BB5A47A8C9569F3444A872799FA5FB948D (void);
-extern void InternalDataSnapshotList_get_IsEmpty_mDE8CC586D14043568C10C97E89862391F1A7A8F2 (void);
 extern void InternalDataSnapshotList_get_Count_m2E88043B77C8B21DBA003C77666CB2C7AF087BFF (void);
 extern void InternalDataSnapshotList_get_IsSynchronized_m9CE799522342BA2C480BE14DFB07FAB09161E7C6 (void);
 extern void InternalDataSnapshotList_CopyTo_mFCF2CE70558BBB4589DDB398688FCE81EE9FC060 (void);
@@ -266,14 +263,13 @@ extern void InternalDataSnapshotList_ToArray_m7DF009AFE80A4A035B355EB825032EAFE7
 extern void InternalDataSnapshotList_globalU3AU3ASystem_Collections_Generic_IEnumerableU3CFirebase_Database_InternalDataSnapshotU3E_GetEnumerator_mBA4D6B112DE8C433E0A664C1F043C04A0348A2AE (void);
 extern void InternalDataSnapshotList_globalU3AU3ASystem_Collections_IEnumerable_GetEnumerator_m9BBDFBD9E3A3D1FFEF7CAEDBFA2A953134DA3282 (void);
 extern void InternalDataSnapshotList_GetEnumerator_m0CBEADF352F37469F85C9CDB8662826EA8BE43AF (void);
-extern void InternalDataSnapshotList__ctor_m3FEA9B0E83E58EE548E31A7F69A89DC87E805F4E (void);
-extern void InternalDataSnapshotList__ctor_m9A46485F6A583EDEE1D2ADD6B91F968D60F9EEF7 (void);
 extern void InternalDataSnapshotList_Clear_m33CB882048CAE7A878D820BD76A1F3E7F3601792 (void);
 extern void InternalDataSnapshotList_Add_mDE3B44A712C1223F18F813DF62A0465EF268E6C4 (void);
 extern void InternalDataSnapshotList_size_mBB78C0890324DD87BDD373972B40C50F6E7982AD (void);
-extern void InternalDataSnapshotList_empty_m4326FA81D4AD347F222BAF6DDC498CAC804B8B48 (void);
 extern void InternalDataSnapshotList_capacity_mAC2A1F2C5AC2D8DF014A3AE396957A6504BC1C18 (void);
 extern void InternalDataSnapshotList_reserve_m7ACA7615F84220CF73DE4775CA8F8C111B72F94A (void);
+extern void InternalDataSnapshotList__ctor_m3FEA9B0E83E58EE548E31A7F69A89DC87E805F4E (void);
+extern void InternalDataSnapshotList__ctor_m9A46485F6A583EDEE1D2ADD6B91F968D60F9EEF7 (void);
 extern void InternalDataSnapshotList__ctor_m606D66B57A332EF5E3D3C55F70EC39B72AB2B2C5 (void);
 extern void InternalDataSnapshotList_getitemcopy_mE234C523966779F4C422D8C1A9C90F206E3A4D23 (void);
 extern void InternalDataSnapshotList_getitem_mF717A70C10BA07D65DBBFE0554766ED6836DEFDB (void);
@@ -296,7 +292,6 @@ extern void InternalDataSnapshotListEnumerator_Reset_m1008EBC5905106D2DE41C01C08
 extern void InternalDataSnapshotListEnumerator_Dispose_m2778261887EE1C442707AB354660771B976F14C5 (void);
 extern void MutableDataChildrenEnumerator__ctor_m5B309F53FC783652E4E09487E7D8B193A33C2AE1 (void);
 extern void MutableDataChildrenEnumerator_getCPtr_m6644B27220DD85C5343E2648571D62F567FA2D62 (void);
-extern void MutableDataChildrenEnumerator_swigRelease_m3B0068D854AF0BD61C766773428EFF6DCE8C6E69 (void);
 extern void MutableDataChildrenEnumerator_Finalize_m5CE95D5632D83CAE86108698337A59EFE9569462 (void);
 extern void MutableDataChildrenEnumerator_Dispose_m9D94A8B065B87AA65A2A710240CAE700722BA369 (void);
 extern void MutableDataChildrenEnumerator_Dispose_mA5DE79CC4293AD47395B194A41E5F9DA76264B96 (void);
@@ -305,7 +300,6 @@ extern void MutableDataChildrenEnumerator_MoveNext_m0F3BB70C0F908680D3AF9EA69BE2
 extern void MutableDataChildrenEnumerator_Reset_mDAAE976677370761C5751CB18EAF01CC91EDA8F4 (void);
 extern void InternalFirebaseDatabase__ctor_mE61FE74E49CF311EC4D87ED24A7C243D62FE9856 (void);
 extern void InternalFirebaseDatabase_getCPtr_m227152CAAADEC9E1CDDAC559F5168E1180090D8B (void);
-extern void InternalFirebaseDatabase_swigRelease_m8A95242D9C824E3313AA137C76BA51054075BF51 (void);
 extern void InternalFirebaseDatabase_Finalize_mBEDB124376E6E6CA5874A6F9E85EA991ACD06F0E (void);
 extern void InternalFirebaseDatabase_Dispose_m32270C5F86D65B3E544A5FCBF9B6A2B6F1D648FC (void);
 extern void InternalFirebaseDatabase_Dispose_m2849542730DED52B649BB90D2B18A62CD8E4DB55 (void);
@@ -327,7 +321,6 @@ extern void InternalFirebaseDatabase_GetInstanceInternal_m398BDDEDC7D96F575D89B8
 extern void InternalFirebaseDatabase_ReleaseReferenceInternal_m7F475749AB105348EAE69F618A39E88CDD38D0E1 (void);
 extern void DisconnectionHandler__ctor_mBB9B0BFB053D582D2074807189FC85FE9D1E7B86 (void);
 extern void DisconnectionHandler_getCPtr_m6D8AD40658C70EEDEB4D1C9D3C018C067D76BAE5 (void);
-extern void DisconnectionHandler_swigRelease_m11F9FB39961E4E5D89D49B18C7847EB3874E18B1 (void);
 extern void DisconnectionHandler_Finalize_m6D79100E16CCF51DF0790200BE90B85DF7002FFB (void);
 extern void DisconnectionHandler_Dispose_m920E91AB9BB13C985A04D84273D5CA9C58E4D1C4 (void);
 extern void DisconnectionHandler_Dispose_m01CCDC64F5F922974F380ADABA5A5155F7A5D07E (void);
@@ -338,7 +331,6 @@ extern void DisconnectionHandler_SetValueAndPriorityAsync_m050674D3526B0BEA1C26E
 extern void DisconnectionHandler_UpdateChildrenAsync_m22D5609708D65E8A444D173EAC33F8A688B084F8 (void);
 extern void InternalDataSnapshot__ctor_m697E1A225D18E76664CE7B7FCAFFFE9358B7EDF3 (void);
 extern void InternalDataSnapshot_getCPtr_m1E10798A07EE601F129661E669BD4AE2ABA7BC1E (void);
-extern void InternalDataSnapshot_swigRelease_m013C67A7224B1C7275262AE2541E8491E3C26FA0 (void);
 extern void InternalDataSnapshot_Finalize_m15488C10D816F4CDC2BE17E08100A99DB0C29DC2 (void);
 extern void InternalDataSnapshot_Dispose_mECA22BB52D5699902D9297AA71E8CEE322A794EB (void);
 extern void InternalDataSnapshot_Dispose_m78E93244105D6E9E6A076B15BAD361DAB440204C (void);
@@ -358,7 +350,6 @@ extern void InternalDataSnapshot_HasChild_m148B6CF69755F207FD2D2CB4029790E718D30
 extern void InternalDataSnapshot_is_valid_m35793D0A49321CEED7B7A329B0AD23A7B31EFEC3 (void);
 extern void ValueListener__ctor_m547C57CAF723BFD3FE6933F4109F2FFF90980EB9 (void);
 extern void ValueListener_getCPtr_m492FE801896664EDF0676FC959D83310B97424BD (void);
-extern void ValueListener_swigRelease_m4C7AF599D76A10370C4FDF8E75D3921BFD8E76EB (void);
 extern void ValueListener_Finalize_mAC24DB23A8159196A997188815C5B9F97FE16CF8 (void);
 extern void ValueListener_Dispose_mB242AA71716D85657FE07D620A1DB3D02C0CC0A8 (void);
 extern void ValueListener_Dispose_m4242DD765AFCA3F2D2C450CFFC2EE6FE73594D1F (void);
@@ -366,7 +357,6 @@ extern void ValueListener_OnValueChanged_m3BA247E14B654D8B7165EB5AD2B127D3A13735
 extern void ValueListener_OnCancelled_m703215A925D746E752F76182F238D7C049547B4A (void);
 extern void ChildListener__ctor_mE92799CA29B9E4A81F5414919D6002568B4D3ECD (void);
 extern void ChildListener_getCPtr_m69DACBFE96AFD177535449CE05704CB887427BE7 (void);
-extern void ChildListener_swigRelease_m22047619912E92EC3669C15F914BD6E8EEBDB80A (void);
 extern void ChildListener_Finalize_m255253BBAF67A1F21F4E40E03092419060CDB25C (void);
 extern void ChildListener_Dispose_mDDA726EF4835A05B7A65E261AFC2650C68AC7EF3 (void);
 extern void ChildListener_Dispose_m8D13688A923C5D7824420914A721BAEB36F53F47 (void);
@@ -377,7 +367,6 @@ extern void ChildListener_OnChildRemoved_mC194826713490196536D4A26CE5B411BB4A60C
 extern void ChildListener_OnCancelled_m1124908E89891C4E997A57E88E47C998E7B6D0A6 (void);
 extern void InternalQuery__ctor_mF168588E6A99DDC51DBB08761DD9EC5897B67CD7 (void);
 extern void InternalQuery_getCPtr_mE47892FA699D9B6D19F697F881EF503940A21DAD (void);
-extern void InternalQuery_swigRelease_m308780B5ED8D1BF909C1DF56A428B615871B5F51 (void);
 extern void InternalQuery_Finalize_m6E808A2FFDDF01B544353487E4EFF3C065101051 (void);
 extern void InternalQuery_Dispose_m1407C0C2AAD78369D28204EF35E436F90084E0E1 (void);
 extern void InternalQuery_Dispose_mEC96604AADD48C41DB4720653EA62507D38106E5 (void);
@@ -413,7 +402,6 @@ extern void InternalQuery_DestroyChildListener_m2EF3D7ACFD479D8CEFE32FCA22A1817E
 extern void InternalQuery_RegisterChildListenerCallbacks_m163BDACD7E477F4E52E07CCC737152EC484BC0F3 (void);
 extern void InternalDatabaseReference__ctor_mFA0925524043CB4A6CF05D1077A001F4DD42465E (void);
 extern void InternalDatabaseReference_getCPtr_m2A3C748BFAB3642A56BA4B56AC3477F294CF3F11 (void);
-extern void InternalDatabaseReference_swigRelease_m3C53CE048B00003A6B1299337821002AA5AF654C (void);
 extern void InternalDatabaseReference_Dispose_m942BC4FEA012E6D528C49584CD3B0BF7F9717E94 (void);
 extern void InternalDatabaseReference__ctor_m2BCE5263366189E5C48F9DD671E00BB4397D1FD8 (void);
 extern void InternalDatabaseReference__ctor_m0F4634A883A186AA366FBB50F5EAD1509B126FA6 (void);
@@ -439,7 +427,6 @@ extern void InternalDatabaseReference_RegisterTransactionCallback_m7FB237CEAC98D
 extern void InternalDatabaseReference_RunTransactionAsync_m09C741B3110802958794578A26F6AC18AC59B1A3 (void);
 extern void InternalMutableData__ctor_m8016F1D172C20641FDBDF19D06EFFBEAF387FB09 (void);
 extern void InternalMutableData_getCPtr_m7E7F4AFD79A7B0DC3A86174CA038DB683CB1B4BF (void);
-extern void InternalMutableData_swigRelease_m0FD6008CC71A097ED8BE10706BCA4E556A04E9A0 (void);
 extern void InternalMutableData_Finalize_m3D7F3FC15D4BD49BBE89C0C154EBB29C36E1F97B (void);
 extern void InternalMutableData_Dispose_m7267DC240AB59F554802AC6029A3F80C50CAE1B6 (void);
 extern void InternalMutableData_Dispose_mD1C283AE1C6C0B8A66586E462D32D6BD592CBD64 (void);
@@ -459,14 +446,13 @@ extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_OnCompletio
 extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_FreeCompletionData_mA65246594101DAB3487C5946A4BBAB1BF511945D (void);
 extern void DatabaseInternalPINVOKE_Future_InternalDataSnapshot_GetResult_mFE66424CFF346ADACE64F9B8CD6CCFF1495F989E (void);
 extern void DatabaseInternalPINVOKE_delete_Future_InternalDataSnapshot_m3265978851D3C9EC5D2E8167DFAFF0427ED0BA10 (void);
-extern void DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_0_mE49C3D2E75C7A2924DD1E12BD862C8DA481380AE (void);
-extern void DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_1_m58261993C3971EE78749F53744B23D2C880F6A31 (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_Clear_m51C52D56DCB85CA04203E3A9D1E686B3ADBDEA30 (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_Add_mF66FA8ED21FC7BB28408D1B2313CDDFADD8964AA (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_size_m95C6D77F3649EA67310C787E546A208E64BD3557 (void);
-extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_empty_mD6269A7927B540639F117C8AAE45B03049253DF0 (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_capacity_m9FEBF6285885F9C6D983340B0B89E89CA5FEB4DA (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_reserve_m1739E7A92DDBC75FB4129C77B9DAC921929CF5CD (void);
+extern void DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_0_mE49C3D2E75C7A2924DD1E12BD862C8DA481380AE (void);
+extern void DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_1_m58261993C3971EE78749F53744B23D2C880F6A31 (void);
 extern void DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_2_m08CDC6AE56641D71563F0CE7D0B2670E25631421 (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_getitemcopy_m0E3E678FC08F29042CD66BB0FD35B6030C8AC12E (void);
 extern void DatabaseInternalPINVOKE_InternalDataSnapshotList_getitem_m3E4EBA02964DA7056E69D54DF68B357C02A6EFF4 (void);
@@ -733,7 +719,7 @@ extern void U3CU3Ec__DisplayClass4_0__ctor_mEFA4AD4328B629C396FDAA9929191B23FAFB
 extern void U3CU3Ec__DisplayClass4_0_U3COnCancelledHandlerU3Eb__0_m44D7F07A2651825C7119B1EE94E470F09DE93EDD (void);
 extern void Utilities_MakeVariant_mAD868620EF30F894C9B34AFC0F58897705DCED78 (void);
 extern void Utilities_MakePriorityVariant_mF30A37EEA768427D349DF58AC23548A776C58180 (void);
-static Il2CppMethodPointer s_methodPointers[708] = 
+static Il2CppMethodPointer s_methodPointers[694] = 
 {
 	ChildChangedEventArgs__ctor_m8D4FB933484AE04658CA020AA78973B8D417A013,
 	ChildChangedEventArgs__ctor_mCE05C1743B7236D84ADFC50D1DC746D205C7E4CC,
@@ -927,7 +913,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	ValueChangedEventArgs_set_DatabaseError_m289AF8CCA253CF21C307135423350D1BE212169E,
 	Future_InternalDataSnapshot__ctor_m94A6E26951332FD46E16A3962BF7ECA782959B6C,
 	Future_InternalDataSnapshot_getCPtr_m300A16CDD3CB066E652D8A9A4F49C6E6AEEC4712,
-	Future_InternalDataSnapshot_swigRelease_mE8E8314162066CC5AA27E26F9678E0902BCDC49C,
 	Future_InternalDataSnapshot_Dispose_m1B925C075E8430087BC8B404D9F9ECABDE2CD136,
 	Future_InternalDataSnapshot_GetTask_m1090C78F556C35E670B74B2968C8CDC384E5E196,
 	Future_InternalDataSnapshot_ThrowIfDisposed_m30E2B463AC06313078F644896B453ED1937642ED,
@@ -947,11 +932,10 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	SWIG_CompletionDelegate_Invoke_m8BDF75E8953F67D4644F56D8FDB49E8A73FA4C76,
 	SWIG_CompletionDelegate_BeginInvoke_m2AB635E272EE5CEE6B61A8EB81CFF34D5BFCC98F,
 	SWIG_CompletionDelegate_EndInvoke_m566C47DEF7115396D50744E853E41F6A761F4625,
-	U3CU3Ec__DisplayClass5_0__ctor_mD0599D179BE401E0A2DFD2EBA181066E72EF8637,
-	U3CU3Ec__DisplayClass5_0_U3CGetTaskU3Eb__0_mD0A55AE835C9AF48FE7E69DBA3DE84E3CD445E2B,
+	U3CU3Ec__DisplayClass4_0__ctor_m4CF296C9F0B1F60A13B6C3EA2723C671F9D51C71,
+	U3CU3Ec__DisplayClass4_0_U3CGetTaskU3Eb__0_m30D1DF4D0AF7CD2271CF7B28969709D1319D6607,
 	InternalDataSnapshotList__ctor_mD16610B33FDDE7C04C6FE0884256F37567E7F816,
 	InternalDataSnapshotList_getCPtr_m06CEB75667CA1A8384F587A535249D59ABEB93C6,
-	InternalDataSnapshotList_swigRelease_m2268A6C3CDD4004B65362DE2B6CF02F58C594C57,
 	InternalDataSnapshotList_Finalize_m2B42AF60B3B95075073BC0EAD9CA92142B9E9778,
 	InternalDataSnapshotList_Dispose_m6D8CD259FF2F4E3AE2AB4B7C7F2356C18C253746,
 	InternalDataSnapshotList_Dispose_mE8DE7CE2B22A7ADB66A7876963C078FFDE488588,
@@ -963,7 +947,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalDataSnapshotList_set_Item_mBD74A32FEC06F2F2B2A682D58DE75A0298234900,
 	InternalDataSnapshotList_get_Capacity_m52D9DF3534EE4F9EEE6A71CB355DD3A7E2A0BE7F,
 	InternalDataSnapshotList_set_Capacity_m4770F9BB5A47A8C9569F3444A872799FA5FB948D,
-	InternalDataSnapshotList_get_IsEmpty_mDE8CC586D14043568C10C97E89862391F1A7A8F2,
 	InternalDataSnapshotList_get_Count_m2E88043B77C8B21DBA003C77666CB2C7AF087BFF,
 	InternalDataSnapshotList_get_IsSynchronized_m9CE799522342BA2C480BE14DFB07FAB09161E7C6,
 	InternalDataSnapshotList_CopyTo_mFCF2CE70558BBB4589DDB398688FCE81EE9FC060,
@@ -973,14 +956,13 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalDataSnapshotList_globalU3AU3ASystem_Collections_Generic_IEnumerableU3CFirebase_Database_InternalDataSnapshotU3E_GetEnumerator_mBA4D6B112DE8C433E0A664C1F043C04A0348A2AE,
 	InternalDataSnapshotList_globalU3AU3ASystem_Collections_IEnumerable_GetEnumerator_m9BBDFBD9E3A3D1FFEF7CAEDBFA2A953134DA3282,
 	InternalDataSnapshotList_GetEnumerator_m0CBEADF352F37469F85C9CDB8662826EA8BE43AF,
-	InternalDataSnapshotList__ctor_m3FEA9B0E83E58EE548E31A7F69A89DC87E805F4E,
-	InternalDataSnapshotList__ctor_m9A46485F6A583EDEE1D2ADD6B91F968D60F9EEF7,
 	InternalDataSnapshotList_Clear_m33CB882048CAE7A878D820BD76A1F3E7F3601792,
 	InternalDataSnapshotList_Add_mDE3B44A712C1223F18F813DF62A0465EF268E6C4,
 	InternalDataSnapshotList_size_mBB78C0890324DD87BDD373972B40C50F6E7982AD,
-	InternalDataSnapshotList_empty_m4326FA81D4AD347F222BAF6DDC498CAC804B8B48,
 	InternalDataSnapshotList_capacity_mAC2A1F2C5AC2D8DF014A3AE396957A6504BC1C18,
 	InternalDataSnapshotList_reserve_m7ACA7615F84220CF73DE4775CA8F8C111B72F94A,
+	InternalDataSnapshotList__ctor_m3FEA9B0E83E58EE548E31A7F69A89DC87E805F4E,
+	InternalDataSnapshotList__ctor_m9A46485F6A583EDEE1D2ADD6B91F968D60F9EEF7,
 	InternalDataSnapshotList__ctor_m606D66B57A332EF5E3D3C55F70EC39B72AB2B2C5,
 	InternalDataSnapshotList_getitemcopy_mE234C523966779F4C422D8C1A9C90F206E3A4D23,
 	InternalDataSnapshotList_getitem_mF717A70C10BA07D65DBBFE0554766ED6836DEFDB,
@@ -1003,7 +985,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalDataSnapshotListEnumerator_Dispose_m2778261887EE1C442707AB354660771B976F14C5,
 	MutableDataChildrenEnumerator__ctor_m5B309F53FC783652E4E09487E7D8B193A33C2AE1,
 	MutableDataChildrenEnumerator_getCPtr_m6644B27220DD85C5343E2648571D62F567FA2D62,
-	MutableDataChildrenEnumerator_swigRelease_m3B0068D854AF0BD61C766773428EFF6DCE8C6E69,
 	MutableDataChildrenEnumerator_Finalize_m5CE95D5632D83CAE86108698337A59EFE9569462,
 	MutableDataChildrenEnumerator_Dispose_m9D94A8B065B87AA65A2A710240CAE700722BA369,
 	MutableDataChildrenEnumerator_Dispose_mA5DE79CC4293AD47395B194A41E5F9DA76264B96,
@@ -1012,7 +993,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	MutableDataChildrenEnumerator_Reset_mDAAE976677370761C5751CB18EAF01CC91EDA8F4,
 	InternalFirebaseDatabase__ctor_mE61FE74E49CF311EC4D87ED24A7C243D62FE9856,
 	InternalFirebaseDatabase_getCPtr_m227152CAAADEC9E1CDDAC559F5168E1180090D8B,
-	InternalFirebaseDatabase_swigRelease_m8A95242D9C824E3313AA137C76BA51054075BF51,
 	InternalFirebaseDatabase_Finalize_mBEDB124376E6E6CA5874A6F9E85EA991ACD06F0E,
 	InternalFirebaseDatabase_Dispose_m32270C5F86D65B3E544A5FCBF9B6A2B6F1D648FC,
 	InternalFirebaseDatabase_Dispose_m2849542730DED52B649BB90D2B18A62CD8E4DB55,
@@ -1034,7 +1014,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalFirebaseDatabase_ReleaseReferenceInternal_m7F475749AB105348EAE69F618A39E88CDD38D0E1,
 	DisconnectionHandler__ctor_mBB9B0BFB053D582D2074807189FC85FE9D1E7B86,
 	DisconnectionHandler_getCPtr_m6D8AD40658C70EEDEB4D1C9D3C018C067D76BAE5,
-	DisconnectionHandler_swigRelease_m11F9FB39961E4E5D89D49B18C7847EB3874E18B1,
 	DisconnectionHandler_Finalize_m6D79100E16CCF51DF0790200BE90B85DF7002FFB,
 	DisconnectionHandler_Dispose_m920E91AB9BB13C985A04D84273D5CA9C58E4D1C4,
 	DisconnectionHandler_Dispose_m01CCDC64F5F922974F380ADABA5A5155F7A5D07E,
@@ -1045,7 +1024,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	DisconnectionHandler_UpdateChildrenAsync_m22D5609708D65E8A444D173EAC33F8A688B084F8,
 	InternalDataSnapshot__ctor_m697E1A225D18E76664CE7B7FCAFFFE9358B7EDF3,
 	InternalDataSnapshot_getCPtr_m1E10798A07EE601F129661E669BD4AE2ABA7BC1E,
-	InternalDataSnapshot_swigRelease_m013C67A7224B1C7275262AE2541E8491E3C26FA0,
 	InternalDataSnapshot_Finalize_m15488C10D816F4CDC2BE17E08100A99DB0C29DC2,
 	InternalDataSnapshot_Dispose_mECA22BB52D5699902D9297AA71E8CEE322A794EB,
 	InternalDataSnapshot_Dispose_m78E93244105D6E9E6A076B15BAD361DAB440204C,
@@ -1065,7 +1043,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalDataSnapshot_is_valid_m35793D0A49321CEED7B7A329B0AD23A7B31EFEC3,
 	ValueListener__ctor_m547C57CAF723BFD3FE6933F4109F2FFF90980EB9,
 	ValueListener_getCPtr_m492FE801896664EDF0676FC959D83310B97424BD,
-	ValueListener_swigRelease_m4C7AF599D76A10370C4FDF8E75D3921BFD8E76EB,
 	ValueListener_Finalize_mAC24DB23A8159196A997188815C5B9F97FE16CF8,
 	ValueListener_Dispose_mB242AA71716D85657FE07D620A1DB3D02C0CC0A8,
 	ValueListener_Dispose_m4242DD765AFCA3F2D2C450CFFC2EE6FE73594D1F,
@@ -1073,7 +1050,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	ValueListener_OnCancelled_m703215A925D746E752F76182F238D7C049547B4A,
 	ChildListener__ctor_mE92799CA29B9E4A81F5414919D6002568B4D3ECD,
 	ChildListener_getCPtr_m69DACBFE96AFD177535449CE05704CB887427BE7,
-	ChildListener_swigRelease_m22047619912E92EC3669C15F914BD6E8EEBDB80A,
 	ChildListener_Finalize_m255253BBAF67A1F21F4E40E03092419060CDB25C,
 	ChildListener_Dispose_mDDA726EF4835A05B7A65E261AFC2650C68AC7EF3,
 	ChildListener_Dispose_m8D13688A923C5D7824420914A721BAEB36F53F47,
@@ -1084,7 +1060,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	ChildListener_OnCancelled_m1124908E89891C4E997A57E88E47C998E7B6D0A6,
 	InternalQuery__ctor_mF168588E6A99DDC51DBB08761DD9EC5897B67CD7,
 	InternalQuery_getCPtr_mE47892FA699D9B6D19F697F881EF503940A21DAD,
-	InternalQuery_swigRelease_m308780B5ED8D1BF909C1DF56A428B615871B5F51,
 	InternalQuery_Finalize_m6E808A2FFDDF01B544353487E4EFF3C065101051,
 	InternalQuery_Dispose_m1407C0C2AAD78369D28204EF35E436F90084E0E1,
 	InternalQuery_Dispose_mEC96604AADD48C41DB4720653EA62507D38106E5,
@@ -1120,7 +1095,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalQuery_RegisterChildListenerCallbacks_m163BDACD7E477F4E52E07CCC737152EC484BC0F3,
 	InternalDatabaseReference__ctor_mFA0925524043CB4A6CF05D1077A001F4DD42465E,
 	InternalDatabaseReference_getCPtr_m2A3C748BFAB3642A56BA4B56AC3477F294CF3F11,
-	InternalDatabaseReference_swigRelease_m3C53CE048B00003A6B1299337821002AA5AF654C,
 	InternalDatabaseReference_Dispose_m942BC4FEA012E6D528C49584CD3B0BF7F9717E94,
 	InternalDatabaseReference__ctor_m2BCE5263366189E5C48F9DD671E00BB4397D1FD8,
 	InternalDatabaseReference__ctor_m0F4634A883A186AA366FBB50F5EAD1509B126FA6,
@@ -1146,7 +1120,6 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	InternalDatabaseReference_RunTransactionAsync_m09C741B3110802958794578A26F6AC18AC59B1A3,
 	InternalMutableData__ctor_m8016F1D172C20641FDBDF19D06EFFBEAF387FB09,
 	InternalMutableData_getCPtr_m7E7F4AFD79A7B0DC3A86174CA038DB683CB1B4BF,
-	InternalMutableData_swigRelease_m0FD6008CC71A097ED8BE10706BCA4E556A04E9A0,
 	InternalMutableData_Finalize_m3D7F3FC15D4BD49BBE89C0C154EBB29C36E1F97B,
 	InternalMutableData_Dispose_m7267DC240AB59F554802AC6029A3F80C50CAE1B6,
 	InternalMutableData_Dispose_mD1C283AE1C6C0B8A66586E462D32D6BD592CBD64,
@@ -1166,14 +1139,13 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_SWIG_FreeCompletionData_mA65246594101DAB3487C5946A4BBAB1BF511945D,
 	DatabaseInternalPINVOKE_Future_InternalDataSnapshot_GetResult_mFE66424CFF346ADACE64F9B8CD6CCFF1495F989E,
 	DatabaseInternalPINVOKE_delete_Future_InternalDataSnapshot_m3265978851D3C9EC5D2E8167DFAFF0427ED0BA10,
-	DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_0_mE49C3D2E75C7A2924DD1E12BD862C8DA481380AE,
-	DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_1_m58261993C3971EE78749F53744B23D2C880F6A31,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_Clear_m51C52D56DCB85CA04203E3A9D1E686B3ADBDEA30,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_Add_mF66FA8ED21FC7BB28408D1B2313CDDFADD8964AA,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_size_m95C6D77F3649EA67310C787E546A208E64BD3557,
-	DatabaseInternalPINVOKE_InternalDataSnapshotList_empty_mD6269A7927B540639F117C8AAE45B03049253DF0,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_capacity_m9FEBF6285885F9C6D983340B0B89E89CA5FEB4DA,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_reserve_m1739E7A92DDBC75FB4129C77B9DAC921929CF5CD,
+	DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_0_mE49C3D2E75C7A2924DD1E12BD862C8DA481380AE,
+	DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_1_m58261993C3971EE78749F53744B23D2C880F6A31,
 	DatabaseInternalPINVOKE_new_InternalDataSnapshotList__SWIG_2_m08CDC6AE56641D71563F0CE7D0B2670E25631421,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_getitemcopy_m0E3E678FC08F29042CD66BB0FD35B6030C8AC12E,
 	DatabaseInternalPINVOKE_InternalDataSnapshotList_getitem_m3E4EBA02964DA7056E69D54DF68B357C02A6EFF4,
@@ -1444,7 +1416,7 @@ static Il2CppMethodPointer s_methodPointers[708] =
 	Utilities_MakeVariant_mAD868620EF30F894C9B34AFC0F58897705DCED78,
 	Utilities_MakePriorityVariant_mF30A37EEA768427D349DF58AC23548A776C58180,
 };
-static const int32_t s_InvokerIndices[708] = 
+static const int32_t s_InvokerIndices[694] = 
 {
 	5836,
 	11978,
@@ -1638,7 +1610,6 @@ static const int32_t s_InvokerIndices[708] =
 	11978,
 	5755,
 	26364,
-	26364,
 	11789,
 	26573,
 	16188,
@@ -1662,7 +1633,6 @@ static const int32_t s_InvokerIndices[708] =
 	16188,
 	5755,
 	26364,
-	26364,
 	16188,
 	16188,
 	11789,
@@ -1674,7 +1644,6 @@ static const int32_t s_InvokerIndices[708] =
 	5380,
 	15903,
 	11916,
-	15777,
 	15903,
 	15777,
 	11978,
@@ -1686,12 +1655,11 @@ static const int32_t s_InvokerIndices[708] =
 	15966,
 	16188,
 	11978,
-	16188,
-	11978,
 	16163,
-	15777,
 	16163,
 	12169,
+	16188,
+	11978,
 	11916,
 	9949,
 	9949,
@@ -1714,7 +1682,6 @@ static const int32_t s_InvokerIndices[708] =
 	16188,
 	5755,
 	26364,
-	26364,
 	16188,
 	16188,
 	11789,
@@ -1722,7 +1689,6 @@ static const int32_t s_InvokerIndices[708] =
 	15777,
 	16188,
 	5755,
-	26364,
 	26364,
 	16188,
 	16188,
@@ -1745,7 +1711,6 @@ static const int32_t s_InvokerIndices[708] =
 	26946,
 	5755,
 	26364,
-	26364,
 	16188,
 	16188,
 	11789,
@@ -1755,7 +1720,6 @@ static const int32_t s_InvokerIndices[708] =
 	4458,
 	9957,
 	5755,
-	26364,
 	26364,
 	16188,
 	16188,
@@ -1776,14 +1740,12 @@ static const int32_t s_InvokerIndices[708] =
 	15777,
 	5755,
 	26364,
-	26364,
 	16188,
 	16188,
 	11789,
 	11978,
 	5380,
 	5755,
-	26364,
 	26364,
 	16188,
 	16188,
@@ -1794,7 +1756,6 @@ static const int32_t s_InvokerIndices[708] =
 	11978,
 	5380,
 	5755,
-	26364,
 	26364,
 	16188,
 	16188,
@@ -1831,7 +1792,6 @@ static const int32_t s_InvokerIndices[708] =
 	21296,
 	5755,
 	26364,
-	26364,
 	11789,
 	16188,
 	11978,
@@ -1857,7 +1817,6 @@ static const int32_t s_InvokerIndices[708] =
 	4438,
 	5755,
 	26364,
-	26364,
 	16188,
 	16188,
 	11789,
@@ -1877,14 +1836,13 @@ static const int32_t s_InvokerIndices[708] =
 	26943,
 	26468,
 	26937,
-	28300,
-	26468,
 	26937,
 	23540,
 	26775,
-	26235,
 	26775,
 	23544,
+	28300,
+	26468,
 	26470,
 	22689,
 	22689,
@@ -2157,28 +2115,28 @@ static const int32_t s_InvokerIndices[708] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[22] = 
 {
-	{ 0x060000C7, 14,  (void**)&Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m207504FA1000EF0BD7832B183D80014021D26A0B_RuntimeMethod_var, 0 },
-	{ 0x06000241, 98,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_mC00FC1080D4B7ACCA73425E9F4CFD711A425396F_RuntimeMethod_var, 0 },
-	{ 0x06000242, 102,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_mBA043F290EE08502EC632E3E5F2B45194793F91E_RuntimeMethod_var, 0 },
-	{ 0x06000243, 103,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_m377FFF99FAB396800F30BFE8A7DD758BAF06F2AC_RuntimeMethod_var, 0 },
-	{ 0x06000244, 105,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m186709ECD9C1432E633A146E0A0BE9B27A0B0FCF_RuntimeMethod_var, 0 },
-	{ 0x06000245, 106,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_m9B53F0D753F9D0084B0A098F3A06372BEF88BBC5_RuntimeMethod_var, 0 },
-	{ 0x06000246, 107,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_m7718782C1E9A9A3B13A63BC991DBF557CE6BB84F_RuntimeMethod_var, 0 },
-	{ 0x06000247, 104,  (void**)&SWIGExceptionHelper_SetPendingIOException_m21BD2976DC85588FD4B0AE11042A9BF962774CF6_RuntimeMethod_var, 0 },
-	{ 0x06000248, 108,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m19DBC9CDB96739AF984498CCB4A5697EEEEC7D30_RuntimeMethod_var, 0 },
-	{ 0x06000249, 109,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_mE151CCDC422D04D6B718DA55C627F0F496F7C995_RuntimeMethod_var, 0 },
-	{ 0x0600024A, 110,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m01B698BBF46D7129825119F5F5C79237FF172A00_RuntimeMethod_var, 0 },
-	{ 0x0600024B, 111,  (void**)&SWIGExceptionHelper_SetPendingSystemException_m26D600DFFBB9789EEE2E75DE261A8AA48A2773A6_RuntimeMethod_var, 0 },
-	{ 0x0600024C, 99,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_m751E631864FDF20467E3BF8DDD39751D085C7EE8_RuntimeMethod_var, 0 },
-	{ 0x0600024D, 100,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_m8052362115CB69B05B59DE95B0DD7626E58ED4C3_RuntimeMethod_var, 0 },
-	{ 0x0600024E, 101,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA8CB9DDD630EE287A396E5D06E805B8AA5EF8BF6_RuntimeMethod_var, 0 },
-	{ 0x0600025F, 112,  (void**)&SWIGStringHelper_CreateString_mFCEF2F2C6C95F8378679E9EF5753E3B42065457C_RuntimeMethod_var, 0 },
-	{ 0x0600026B, 27,  (void**)&InternalChildListener_OnChildChangeHandler_m8095E9DE76B1928F9BC80950EB01834E481DC20D_RuntimeMethod_var, 0 },
-	{ 0x0600026C, 28,  (void**)&InternalChildListener_OnChildRemovedHandler_m594BBE968EF6D2838A00A1FD6D9636A8C8826B12_RuntimeMethod_var, 0 },
-	{ 0x0600026D, 26,  (void**)&InternalChildListener_OnCancelledHandler_m9AB5FF95793990985428D19F313ACBC24E72D851_RuntimeMethod_var, 0 },
-	{ 0x060002A1, 29,  (void**)&InternalTransactionHandler_DoTransaction_mDBB8F1912205F1542C943A71FF083931243698D6_RuntimeMethod_var, 0 },
-	{ 0x060002AC, 31,  (void**)&InternalValueListener_OnValueChangedHandler_mB87BCD8900157B34D77C3D719E94A05FC2D5B5A2_RuntimeMethod_var, 0 },
-	{ 0x060002AD, 30,  (void**)&InternalValueListener_OnCancelledHandler_m488ACD2B13095C11B53C435167BF0EF21DBDAFE6_RuntimeMethod_var, 0 },
+	{ 0x060000C6, 14,  (void**)&Future_InternalDataSnapshot_SWIG_CompletionDispatcher_m207504FA1000EF0BD7832B183D80014021D26A0B_RuntimeMethod_var, 0 },
+	{ 0x06000233, 98,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_mC00FC1080D4B7ACCA73425E9F4CFD711A425396F_RuntimeMethod_var, 0 },
+	{ 0x06000234, 102,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_mBA043F290EE08502EC632E3E5F2B45194793F91E_RuntimeMethod_var, 0 },
+	{ 0x06000235, 103,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_m377FFF99FAB396800F30BFE8A7DD758BAF06F2AC_RuntimeMethod_var, 0 },
+	{ 0x06000236, 105,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_m186709ECD9C1432E633A146E0A0BE9B27A0B0FCF_RuntimeMethod_var, 0 },
+	{ 0x06000237, 106,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_m9B53F0D753F9D0084B0A098F3A06372BEF88BBC5_RuntimeMethod_var, 0 },
+	{ 0x06000238, 107,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_m7718782C1E9A9A3B13A63BC991DBF557CE6BB84F_RuntimeMethod_var, 0 },
+	{ 0x06000239, 104,  (void**)&SWIGExceptionHelper_SetPendingIOException_m21BD2976DC85588FD4B0AE11042A9BF962774CF6_RuntimeMethod_var, 0 },
+	{ 0x0600023A, 108,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m19DBC9CDB96739AF984498CCB4A5697EEEEC7D30_RuntimeMethod_var, 0 },
+	{ 0x0600023B, 109,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_mE151CCDC422D04D6B718DA55C627F0F496F7C995_RuntimeMethod_var, 0 },
+	{ 0x0600023C, 110,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m01B698BBF46D7129825119F5F5C79237FF172A00_RuntimeMethod_var, 0 },
+	{ 0x0600023D, 111,  (void**)&SWIGExceptionHelper_SetPendingSystemException_m26D600DFFBB9789EEE2E75DE261A8AA48A2773A6_RuntimeMethod_var, 0 },
+	{ 0x0600023E, 99,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_m751E631864FDF20467E3BF8DDD39751D085C7EE8_RuntimeMethod_var, 0 },
+	{ 0x0600023F, 100,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_m8052362115CB69B05B59DE95B0DD7626E58ED4C3_RuntimeMethod_var, 0 },
+	{ 0x06000240, 101,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mA8CB9DDD630EE287A396E5D06E805B8AA5EF8BF6_RuntimeMethod_var, 0 },
+	{ 0x06000251, 112,  (void**)&SWIGStringHelper_CreateString_mFCEF2F2C6C95F8378679E9EF5753E3B42065457C_RuntimeMethod_var, 0 },
+	{ 0x0600025D, 27,  (void**)&InternalChildListener_OnChildChangeHandler_m8095E9DE76B1928F9BC80950EB01834E481DC20D_RuntimeMethod_var, 0 },
+	{ 0x0600025E, 28,  (void**)&InternalChildListener_OnChildRemovedHandler_m594BBE968EF6D2838A00A1FD6D9636A8C8826B12_RuntimeMethod_var, 0 },
+	{ 0x0600025F, 26,  (void**)&InternalChildListener_OnCancelledHandler_m9AB5FF95793990985428D19F313ACBC24E72D851_RuntimeMethod_var, 0 },
+	{ 0x06000293, 29,  (void**)&InternalTransactionHandler_DoTransaction_mDBB8F1912205F1542C943A71FF083931243698D6_RuntimeMethod_var, 0 },
+	{ 0x0600029E, 31,  (void**)&InternalValueListener_OnValueChangedHandler_mB87BCD8900157B34D77C3D719E94A05FC2D5B5A2_RuntimeMethod_var, 0 },
+	{ 0x0600029F, 30,  (void**)&InternalValueListener_OnCancelledHandler_m488ACD2B13095C11B53C435167BF0EF21DBDAFE6_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -2193,12 +2151,11 @@ static const Il2CppRGCTXDefinition s_rgctxValues[3] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskCompletionSource_1_SetException_m94DFC82296646FE919C0393AEC62DD62E0AFEA71 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_TaskCompletionSource_1_SetCanceled_mE9E21413998CB934874E07AD264D0F9788010F51 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationFirebase_Database;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Database_CodeGenModule;
 const Il2CppCodeGenModule g_Firebase_Database_CodeGenModule = 
 {
 	"Firebase.Database.dll",
-	708,
+	694,
 	s_methodPointers,
 	0,
 	NULL,
@@ -2209,7 +2166,7 @@ const Il2CppCodeGenModule g_Firebase_Database_CodeGenModule =
 	s_rgctxIndices,
 	3,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationFirebase_Database,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
