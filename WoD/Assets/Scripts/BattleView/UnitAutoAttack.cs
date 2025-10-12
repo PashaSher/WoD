@@ -161,6 +161,8 @@ public class UnitAutoAttack : MonoBehaviour
             ["damage"] = unit.projectileStats.damage,
             ["penetration"] = unit.projectileStats.penetration,
             ["splash"] = (double)unit.projectileStats.splashRadius,
+            ["scaleX"] = (double)unit.projectileStats.scale.x,
+            ["scaleY"] = (double)unit.projectileStats.scale.y,
             ["createdAt"] = ServerValue.Timestamp
         };
         newRef.SetValueAsync(payload);

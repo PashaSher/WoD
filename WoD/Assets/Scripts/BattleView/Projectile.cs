@@ -39,6 +39,15 @@ public class Projectile : MonoBehaviour
         if (stats && stats.sprite)
             spriteRenderer.sprite = stats.sprite;
 
+        // применим маштаб, если задан
+        if (stats != null)
+        {
+            if (stats.scale == Vector2.zero)
+                transform.localScale = Vector3.one;
+            else
+                transform.localScale = new Vector3(stats.scale.x, stats.scale.y, 1f);
+        }
+
         transform.position = start;
         initialized = true;
     }

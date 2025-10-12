@@ -11,7 +11,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burs
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
 --debug=Full
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -128,7 +128,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burs
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
 --debug=Full
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -157,7 +157,7 @@ Library: C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burs
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\projects\WoD\WoD\Temp\Burst
 --debug=Full
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.2.1f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\projects\WoD\WoD\Library\Burst
 --output=C:\projects\WoD\WoD\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

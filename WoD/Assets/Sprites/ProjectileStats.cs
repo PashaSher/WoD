@@ -14,6 +14,7 @@ public class ProjectileStats : ScriptableObject
 
     [Header("Visual")]
     public Sprite sprite;                // заглушка, позже заменим анимацией
+	public Vector2 scale = new Vector2(1f, 1f); // маштаб спрайта (1,1 по умолчанию)
 }
 
 

@@ -19,6 +19,9 @@ public class UnitStats : ScriptableObject
     public Sprite sprite; 
     public AnimatorOverrideController animatorOverride;
 
+    [Header("Prefab (optional)")]
+    public GameObject unitPrefab; // Если задан — спавним этот префаб вместо базового Unit_Root
+
     [Header("Projectile")]
     public ProjectileStats projectileStats; // настройки снаряда для этого юнита
 

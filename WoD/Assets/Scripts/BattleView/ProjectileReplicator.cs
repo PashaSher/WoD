@@ -88,6 +88,8 @@ public class ProjectileReplicator : MonoBehaviour
         int damage = ToInt(s.Child("damage").Value, 10);
         int penetration = ToInt(s.Child("penetration").Value, 0);
         float splash = ToFloat(s.Child("splash").Value, 0f);
+        float scaleX = ToFloat(s.Child("scaleX").Value, 1f);
+        float scaleY = ToFloat(s.Child("scaleY").Value, 1f);
 
         // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
         var ownerUnit = FindOwnerUnit(s.Child("ownerKey").Value?.ToString());
@@ -97,6 +99,7 @@ public class ProjectileReplicator : MonoBehaviour
         // сконструируем временный ProjectileStats
         var ps = ScriptableObject.CreateInstance<ProjectileStats>();
         ps.speed = speed; ps.damage = damage; ps.penetration = penetration; ps.splashRadius = splash;
+        ps.scale = new Vector2(scaleX, scaleY);
         // Назначим спрайт из настроек владельца, иначе на удалённом клиенте снаряд будет невидим
         if (ownerUnit != null && ownerUnit.projectileStats != null)
         {

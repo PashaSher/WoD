@@ -145,6 +145,9 @@ public class Unit : MonoBehaviour
         }
     }
 
+    // Read-only access for animation and UI
+    public bool IsAttacking => attacking;
+
     /// <summary>Явленно изменить maxHP и отправить в RTDB (редкий случай).</summary>
     public void SetMaxHP(int newMax)
     {

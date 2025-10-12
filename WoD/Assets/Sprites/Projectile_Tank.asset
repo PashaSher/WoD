@@ -18,3 +18,4 @@ MonoBehaviour:
   speed: 9
   maxLifetime: 6
   sprite: {fileID: 2208703988740019828, guid: 18cb2cb6ec6d55743a99f44d0447ea83, type: 3}
+  scale: {x: 0.1, y: 0.1}

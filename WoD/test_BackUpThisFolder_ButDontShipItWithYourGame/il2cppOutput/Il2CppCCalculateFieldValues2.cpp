@@ -28113,6 +28113,7 @@ struct ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC  : public Scrip
 	float ___speed;
 	float ___maxLifetime;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___sprite;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scale;
 };
 struct PropertyPath_tA523CA2740853534DF6C009C588464B45A6D0A79 
 {
@@ -43951,9 +43952,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8180[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8181[3] = 
 {
 	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass0_1_tC3E833DBC8D41E5C89B33E692667C2B9C7717283, ___path)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass0_1_tC3E833DBC8D41E5C89B33E692667C2B9C7717283, ___stamp)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass0_1_tC3E833DBC8D41E5C89B33E692667C2B9C7717283, ___db)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8183[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8183[7] = 
 {
-	static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___damage)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___penetration)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___splashRadius)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___speed)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___maxLifetime)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___sprite)),};
+	static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___damage)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___penetration)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___splashRadius)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___speed)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___maxLifetime)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___sprite)),static_cast<int32_t>(offsetof(ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC, ___scale)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8184[3] = 
 {
 	static_cast<int32_t>(offsetof(CombatSnapshot_tEDB4BAE70EBEADE3F5A1F5BF9F892A9BE6A2C224, ___hp)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(CombatSnapshot_tEDB4BAE70EBEADE3F5A1F5BF9F892A9BE6A2C224, ___facing)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(CombatSnapshot_tEDB4BAE70EBEADE3F5A1F5BF9F892A9BE6A2C224, ___attacking)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

@@ -178,7 +178,8 @@ public class ArmySpawner : MonoBehaviour
 
             // Позиция и инстанс
             Vector3 pos = new Vector3(x, y, 0f);
-            var go = Instantiate(unitRootPrefab, pos, Quaternion.identity, unitsParent);
+            var prefabToUse = GetPrefabForType(type);
+            var go = Instantiate(prefabToUse, pos, Quaternion.identity, unitsParent);
 
             // --- ВИЗУАЛ И СТАТЫ ---
             var visualTr = go.transform.Find("Visual");
@@ -219,7 +220,8 @@ public class ArmySpawner : MonoBehaviour
 
             // гарантируем видимость поверх фона
             sr.enabled = true;
-            sr.color = Color.white;
+            // Цвет по стороне: хост — чёрный, клиент — синий
+            sr.color = isHostBranch ? Color.black : Color.blue;
             if (sr.sortingOrder < 5) sr.sortingOrder = 5;
 
             // Зеркалим ТОЛЬКО визуал (арт), не корень с коллайдерами
@@ -236,6 +238,9 @@ public class ArmySpawner : MonoBehaviour
                     unitMeta.SetFirebaseContextAndPush(sessionId, isHostBranch, key);
                     // гарантируем кликабельность
                      EnsureClickable(go);
+                    // Аниматор-синхронизатор (подтянет Animator из Visual)
+                    if (!go.GetComponent<UnitAnimator>())
+                        go.AddComponent<UnitAnimator>();
                 }
 
                 catch (Exception ex) { Debug.LogWarning($"[ArmySpawner] meta write skip for '{key}': {ex.Message}"); }
@@ -294,6 +299,21 @@ public class ArmySpawner : MonoBehaviour
 
 
     // ---------- helpers ----------
+    private GameObject GetPrefabForType(UnitType type)
+    {
+        // 1) Префаб из UnitStats, если указан
+        if (statsByType.TryGetValue(type, out var s) && s != null && s.unitPrefab != null)
+            return s.unitPrefab;
+
+        // 2) Fallback: Resources/Units/{Type} или {Type}_Prefab
+        var res = Resources.Load<GameObject>($"Units/{type}");
+        if (res != null) return res;
+        res = Resources.Load<GameObject>($"Units/{type}_Prefab");
+        if (res != null) return res;
+
+        // 3) Базовый префаб
+        return unitRootPrefab;
+    }
     private void SafeLog(string msg)
     {
         if (verboseLogs)
