@@ -10,7 +10,9 @@
         "dependencies": [
           {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/BattleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

@@ -1,12 +1,12 @@
 # ninja log v5
-1	5846	7818222496494702	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9a59f7c959bb873d
-630	5855	7818222504396685	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1ea22dff98e30fd5
-1278	5856	7818222509722103	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7b0177087ede31a7
-1941	5857	7818222516844218	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ff255ffda4ef178c
-2589	5859	7818222522429470	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7890baeaa6c4858d
-3242	5861	7818222529131847	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	1546f846fa7b1e6f
-3896	5862	7818222535931228	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b124932d3ab1ac4d
-4547	5863	7818222542075306	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2c84ce9f9b831b63
-5194	5915	7818222543504061	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	a83f22d90f38b1ea
-5864	6964	7818222553922942	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libgame.so	d9065561fe4e584f
-5916	7034	7818222554544524	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libswappywrapper.so	af46454724fc65ad
+0	5826	7820996078489583	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4ec8c8d7e98bd7c
+633	5833	7820996084068319	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	498faeb94facf6e8
+1292	5834	7820996090244730	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	79d1520793bac572
+1922	5835	7820996096597329	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c324ec38d70f9b7
+2575	5836	7820996103019560	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	38d083840c9f94a
+3214	5838	7820996110464077	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8e4e4658649c4775
+3861	5839	7820996116640004	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5f208a1edbcc963
+4514	5841	7820996122781689	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4e30afa15dbd3977
+5171	5900	7820996124155906	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e1f5be7ab7ba8c77
+5841	6984	7820996134941305	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libgame.so	609f4b001cde6c46
+5900	7061	7820996135635881	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libswappywrapper.so	75ef11e862294769
