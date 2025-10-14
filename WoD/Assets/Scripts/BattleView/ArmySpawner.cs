@@ -190,9 +190,20 @@ public class ArmySpawner : MonoBehaviour
                 continue;
             }
 
-            // гарантируем наличие SpriteRenderer
-            var sr   = visualTr.GetComponent<SpriteRenderer>() ?? visualTr.gameObject.AddComponent<SpriteRenderer>();
+            // Гарантируем наличие рендереров на визуале
             var anim = visualTr.GetComponent<Animator>(); // может быть null
+            var renderers = visualTr.GetComponentsInChildren<SpriteRenderer>(true);
+            SpriteRenderer sr = null;
+            if (renderers != null && renderers.Length > 0)
+            {
+                sr = renderers[0];
+            }
+            else
+            {
+                // ни одного рендера внутри Visual — добавим на сам Visual
+                sr = visualTr.GetComponent<SpriteRenderer>() ?? visualTr.gameObject.AddComponent<SpriteRenderer>();
+                renderers = new SpriteRenderer[] { sr };
+            }
 
             Sprite appliedSprite = null;
             if (statsByType.TryGetValue(type, out var stats) && stats != null)
@@ -205,8 +216,24 @@ public class ArmySpawner : MonoBehaviour
                 }
                 else
                 {
-                    if (anim != null) { anim.runtimeAnimatorController = null; anim.enabled = false; }
-                    if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
+                    // Нет override из UnitStats. Если у префаба уже назначен контроллер — оставляем его работать.
+                    if (anim != null)
+                    {
+                        if (anim.runtimeAnimatorController != null)
+                        {
+                            anim.enabled = true; // использовать контроллер, заданный в префабе
+                        }
+                        else
+                        {
+                            // Контроллера нет — используем статический спрайт, если задан
+                            anim.enabled = false;
+                            if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
+                        }
+                    }
+                    else
+                    {
+                        if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
+                    }
                 }
 
                 // Инициализировать компонент Unit статами
@@ -218,15 +245,19 @@ public class ArmySpawner : MonoBehaviour
                 Debug.LogWarning($"[ArmySpawner] No stats for type={type} (key={key}). Visual will stay NONE.");
             }
 
-            // гарантируем видимость поверх фона
-            sr.enabled = true;
-            // Цвет по стороне: хост — чёрный, клиент — синий
-            sr.color = isHostBranch ? Color.black : Color.blue;
-            if (sr.sortingOrder < 5) sr.sortingOrder = 5;
+            // Гарантируем видимость поверх фона + цвет на ВСЕХ рендерах в Visual
+            var tint = isHostBranch ? Color.black : Color.blue;
+            foreach (var r in renderers)
+            {
+                if (r == null) continue;
+                r.enabled = true;
+                r.color = tint;
+                if (r.sortingOrder < 5) r.sortingOrder = 5;
+            }
 
             // Зеркалим ТОЛЬКО визуал (арт), не корень с коллайдерами
             var s = visualTr.localScale;
-            s.x = Mathf.Abs(s.x) * (side == Side.Right ? -1f : 1f);
+            s.x = Mathf.Abs(s.x) * (side == Side.Right ? 1f : -1f);
             visualTr.localScale = s;
 
             // Метаданные в RTDB (best-effort)

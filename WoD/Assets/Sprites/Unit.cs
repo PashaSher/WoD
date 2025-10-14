@@ -32,6 +32,7 @@ public class Unit : MonoBehaviour
     [Header("Refs (optional)")]
     [SerializeField] private Transform   visual;   // child "Visual"
     [SerializeField] private Rigidbody2D rb;       // optional
+    [SerializeField] private bool        invertFacingX = false; // tick on prefabs that face left by default
 
     // ===== Firebase =====
     private DatabaseReference unitRef;   // .../sessions/{sid}/{branch}/{unitKey}
@@ -53,6 +54,9 @@ public class Unit : MonoBehaviour
     private bool  _forceCombatPush;
     private bool  _maxHpDirty;                 // push maxHP once at start or on explicit change
     private const float COMBAT_SYNC_INTERVAL = 0.10f; // push at most 10 Hz
+
+    // ===== Animation/RTDB flags =====
+    private bool _movingFromRtdb;              // последний принятый из RTDB флаг "moving"
 
     // ====== Public API ======
     public void Init(string type, UnitStats stats)
@@ -147,6 +151,7 @@ public class Unit : MonoBehaviour
 
     // Read-only access for animation and UI
     public bool IsAttacking => attacking;
+    public bool IsMovingFromRTDB => _movingFromRtdb;
 
     /// <summary>Явленно изменить maxHP и отправить в RTDB (редкий случай).</summary>
     public void SetMaxHP(int newMax)
@@ -224,14 +229,16 @@ public class Unit : MonoBehaviour
         if (visual != null)
         {
             var ls = visual.localScale;
-            ls.x = Mathf.Abs(ls.x) * (facing >= 0 ? 1f : -1f);
+            float sign = (facing >= 0 ? 1f : -1f);
+            if (invertFacingX) sign = -sign;
+            ls.x = Mathf.Abs(ls.x) * sign;
             visual.localScale = ls;
         }
 
         // Движение воспроизводим только если ЭТО устройство не владелец юнита
         if (!IsThisDeviceOwner())
         {
-            bool moving = ToBool(s.Child("moving").Value, false);
+            bool moving = ToBool(s.Child("moving").Value, _movingFromRtdb);
             float x = ToFloat(s.Child("x").Value, transform.position.x);
             float y = ToFloat(s.Child("y").Value, transform.position.y);
             Vector3 target = new Vector3(x, y, transform.position.z);
@@ -247,6 +254,9 @@ public class Unit : MonoBehaviour
                 moveCo = null;
                 transform.position = target; // фиксация позиции
             }
+
+            // хранить флаг для синхронизации анимации
+            _movingFromRtdb = moving;
         }
 
         // обновляем локальный combat-снимок, чтобы не слать обратно то же самое
@@ -273,7 +283,9 @@ public class Unit : MonoBehaviour
     {
         var vis = visual != null ? visual : transform.Find("Visual");
         if (vis == null) return 1;
-        return (vis.localScale.x >= 0f) ? 1 : -1;
+        int sign = (vis.localScale.x >= 0f) ? 1 : -1;
+        if (invertFacingX) sign = -sign;
+        return sign;
     }
 
     private Vector2 RBVel()
@@ -312,7 +324,10 @@ public class Unit : MonoBehaviour
         get
         {
             var vis = visual != null ? visual : transform.Find("Visual");
-            return (vis != null && vis.localScale.x < 0f) ? -1 : 1;
+            if (vis == null) return 1;
+            int sign = (vis.localScale.x < 0f) ? -1 : 1;
+            if (invertFacingX) sign = -sign;
+            return sign;
         }
     }
 }
