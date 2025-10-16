@@ -110,6 +110,14 @@ public class ProjectileReplicator : MonoBehaviour
         proj.BindRef(s.Reference);
 
         spawned[dictKey] = proj;
+
+        // Триггерим муцзл-флэш только на стороне владельца этого юнита
+        var ownerCtrl = ownerUnit ? ownerUnit.GetComponent<MuzzleFlashController>() : null;
+        bool thisSideOwnsOwner = ownerUnit != null && Globalflags.ifHost == ownerUnit.host;
+        if (thisSideOwnsOwner && ownerCtrl != null)
+        {
+            ownerCtrl.PlayFlash(0.5f);
+        }
     }
 
     private void OnChildRemoved(object sender, ChildChangedEventArgs e)
