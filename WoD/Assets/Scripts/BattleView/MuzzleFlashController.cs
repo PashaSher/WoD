@@ -9,6 +9,7 @@ public class MuzzleFlashController : MonoBehaviour
 {
 	[SerializeField] private GameObject muzzleFlashObject;
 	[SerializeField] private float defaultDurationSeconds = 0.5f;
+	[SerializeField] private Color flashColor = new Color(1f, 0.5f, 0f, 1f); // orange
 
 	private Coroutine flashCoroutine;
 
@@ -36,6 +37,10 @@ public class MuzzleFlashController : MonoBehaviour
 	{
 		float d = durationSeconds.HasValue ? Mathf.Max(0f, durationSeconds.Value) : Mathf.Max(0f, defaultDurationSeconds);
 		if (muzzleFlashObject == null || d <= 0f) return;
+
+		// ensure orange tint
+		var sr = muzzleFlashObject.GetComponent<SpriteRenderer>();
+		if (sr != null) sr.color = flashColor;
 
 		if (flashCoroutine != null) StopCoroutine(flashCoroutine);
 		flashCoroutine = StartCoroutine(FlashRoutine(d));

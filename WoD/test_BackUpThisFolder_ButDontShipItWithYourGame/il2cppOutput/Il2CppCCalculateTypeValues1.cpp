@@ -4919,7 +4919,7 @@ struct ChildrenEnumerator_tB3D84B20C0A87B1CA3C0E9922AD04A3293A17C7D  : public Ru
 	MutableDataChildrenEnumerator_tEFB2E3D47451CB1C66553EF21DDDE8E4C8044048* ___internalEnumerator;
 	FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* ___database;
 };
-struct U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468  : public RuntimeObject
+struct U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -44756,6 +44756,7 @@ struct MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938  : public
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___muzzleFlashObject;
 	float ___defaultDurationSeconds;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___flashColor;
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___flashCoroutine;
 };
 struct NativeStreamDisposeJob_tF5229172BA7C2ACF21392FB6493F9D47BA16D001 
@@ -58486,7 +58487,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8136 = { sizeof(U3CTryUpdate
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8137;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8137 = { sizeof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8138;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8138 = { sizeof(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8138 = { sizeof(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8139;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8139 = { sizeof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8140;

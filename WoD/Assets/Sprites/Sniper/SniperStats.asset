@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 2
   health: 100
-  damage: 10
-  attackRange: 4
-  moveSpeed: 2.5
+  damage: 0
+  attackRange: 6
+  moveSpeed: 1
   fireRate: 1
   accuracy: 0.9
   accuracySpread: 0.3

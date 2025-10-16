@@ -278,7 +278,7 @@ struct U3CGetEnemyCountsAsyncU3Ed__21_t3BEBAC676243FF32D5C197811091DC872D1E07A2;
 struct U3CRemoveUnitAsyncU3Ed__23_t271DF4B262970E641D4019E745F521E4159A3147;
 struct U3CUpdateUpdatedAtU3Ed__26_t702351452D0A254E91006E46109B9F95DA4558E9;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
-struct U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468;
+struct U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF;
 struct U3COnArrivedU3Ed__12_t546B00DDAC07AB1C72B72BDB1699E9CCBF3F4BF0;
 struct U3CArmOnDisconnectCleanupU3Ed__32_tA50AD15757D395B544B04682E868BF69651F1A88;
 struct U3CCancelOnDisconnectU3Ed__33_tA44E49F56F5E241B05AFAE9C41B5694A4D0AF6B2;
@@ -336,7 +336,7 @@ IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9
 IL2CPP_EXTERN_C RuntimeClass* U3CAddUnitAsyncU3Ed__20_t3C81E2D25A06F34485E04C21C43E86E12A54CF11_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CArmOnDisconnectCleanupU3Ed__32_tA50AD15757D395B544B04682E868BF69651F1A88_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CCancelOnDisconnectU3Ed__33_tA44E49F56F5E241B05AFAE9C41B5694A4D0AF6B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetCountsAsyncU3Ed__24_t2CEA6058AE7B98B70A67BB0EBECAE3C32FA0B848_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetEnemyCountsAsyncU3Ed__21_t3BEBAC676243FF32D5C197811091DC872D1E07A2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CLoadAndSpawnU3Ed__11_tB58585437DBFBA0A5093E79B6D3DF571BD9D5F9B_il2cpp_TypeInfo_var;
@@ -600,6 +600,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisProjectile_tA727
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_m879607EE2C020B9C0ABFB7EE9D1DF95971540998_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisUnitDragMover_t74E1F1CC4C80FA09D49F69E427EED405A1BE3D86_mCE3424F7A19B32DE4F3B51E1844D3DF5622A9178_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m4E55076EEF01E4032CD67ED37A440189B16F811E_RuntimeMethod_var;
@@ -634,7 +635,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_m7727657658441E9D4CE9D3F8
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mF6195269DE37F3E13B68DDA76380C990AD67D31E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mFF750BAAB6D922072911ABD5B75D0B3063F12C2F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1_get_Result_m36681BFC0C18C5D4B5E4AE484AFE932D7669887C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_Reset_m6A6BC22E5357E7C28212CE994752118C61B747DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CFlashRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m60FF3CA066871DD520AF9488A554A7F3FB70E47C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CStartU3Ed__13_System_Collections_IEnumerator_Reset_mEB85605FA26CABEDE25A8C36D16454CC1DD5081E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CTryUpdateWinsU3Eb__13_0_mF4C65872B4331D36439D738AC963786BA6E93BBD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass25_0_U3CListenArmyChangesU3Eb__0_m822A4D4F5FE7E971CEDD5F38C48909BBA6F8494D_RuntimeMethod_var;
@@ -851,7 +852,7 @@ struct U3CU3Ec__DisplayClass29_0_tD643DBBBE2991ADDB9F826276458B651EC6D55B5  : pu
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onChanged;
 };
-struct U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468  : public RuntimeObject
+struct U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -2518,6 +2519,7 @@ struct MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938  : public
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___muzzleFlashObject;
 	float ___defaultDurationSeconds;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___flashColor;
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___flashCoroutine;
 };
 struct PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E  : public Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52
@@ -4128,11 +4130,16 @@ inline float Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA (Nul
 {
 	return ((  float (*) (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75*, const RuntimeMethod*))Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_gshared)(__this, method);
 }
+inline SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MuzzleFlashController_FlashRoutine_m991CDF5E3F05E68FEF29A65A7842E75FE3E7236A (MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* __this, float ___0_duration, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__5__ctor_m1B0C91787AA8BA5557FB75797AAEBBDC3DFB2EC3 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__6__ctor_m61A52754BE9DE2CE8B48D54FA2CB092653DCC264 (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
@@ -4309,7 +4316,6 @@ inline DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* Task_1_get_Result
 {
 	return ((  DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* (*) (Task_1_tEF384421AF949B7843F34F35E8C31D2400026E50*, const RuntimeMethod*))Task_1_get_Result_m6897AA7D4A583F9E81EC01C1BF788372D64C5A26_gshared)(__this, method);
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
 inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
@@ -19744,7 +19750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController_Awake_m0C80CCC0E84
 	bool V_4 = false;
 	int32_t G_B5_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:17>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:18>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___muzzleFlashObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19757,18 +19763,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController_Awake_m0C80CCC0E84
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:20>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:21>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_3;
 		L_3 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837(__this, (bool)1, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
 		V_1 = L_3;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:21>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:22>
 		V_2 = 0;
 		goto IL_0059;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:23>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:24>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = V_1;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -19812,7 +19818,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:25>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:26>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_16 = V_1;
 		int32_t L_17 = V_2;
 		NullCheck(L_16);
@@ -19823,20 +19829,20 @@ IL_003f:
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
 		__this->___muzzleFlashObject = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___muzzleFlashObject), (void*)L_20);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:26>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:27>
 		goto IL_0065;
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:21>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:22>
 		int32_t L_21 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_0059:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:21>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:22>
 		int32_t L_22 = V_2;
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_23 = V_1;
 		NullCheck(L_23);
@@ -19854,9 +19860,9 @@ IL_0065:
 
 IL_0066:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:32>
-		MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A(__this, (bool)0, NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:33>
+		MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A(__this, (bool)0, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:34>
 		return;
 	}
 }
@@ -19866,18 +19872,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController_PlayFlash_mBBE4AF6
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	bool V_1 = false;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_1 = NULL;
 	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
 	float G_B3_0 = 0.0f;
 	int32_t G_B6_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:37>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:38>
 		bool L_0;
 		L_0 = Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_inline((&___0_durationSeconds), Nullable_1_get_HasValue_mC149B1C717AF506BBE8932F2C1DC86C378D17EA8_RuntimeMethod_var);
 		if (L_0)
@@ -19905,7 +19914,7 @@ IL_001c:
 IL_002d:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:38>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:39>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___muzzleFlashObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -19928,50 +19937,78 @@ IL_0049:
 
 IL_004a:
 	{
-		V_1 = (bool)G_B6_0;
-		bool L_8 = V_1;
+		V_2 = (bool)G_B6_0;
+		bool L_8 = V_2;
 		if (!L_8)
 		{
 			goto IL_0050;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:38>
-		goto IL_007d;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:39>
+		goto IL_00a3;
 	}
 
 IL_0050:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:40>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9 = __this->___flashCoroutine;
-		V_2 = (bool)((!(((RuntimeObject*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)L_9) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_10 = V_2;
-		if (!L_10)
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:42>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___muzzleFlashObject;
+		NullCheck(L_9);
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_10;
+		L_10 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_9, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
+		V_1 = L_10;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:43>
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_11 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_12;
+		bool L_13 = V_3;
+		if (!L_13)
 		{
-			goto IL_006a;
+			goto IL_0074;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:40>
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11 = __this->___flashCoroutine;
-		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_11, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:43>
+		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_14 = V_1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = __this->___flashColor;
+		NullCheck(L_14);
+		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_14, L_15, NULL);
 	}
 
-IL_006a:
+IL_0074:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:41>
-		float L_12 = V_0;
-		RuntimeObject* L_13;
-		L_13 = MuzzleFlashController_FlashRoutine_m991CDF5E3F05E68FEF29A65A7842E75FE3E7236A(__this, L_12, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
-		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_13, NULL);
-		__this->___flashCoroutine = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___flashCoroutine), (void*)L_14);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:45>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16 = __this->___flashCoroutine;
+		V_4 = (bool)((!(((RuntimeObject*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)L_16) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_17 = V_4;
+		if (!L_17)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:45>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_18 = __this->___flashCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_18, NULL);
 	}
 
-IL_007d:
+IL_0090:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:42>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:46>
+		float L_19 = V_0;
+		RuntimeObject* L_20;
+		L_20 = MuzzleFlashController_FlashRoutine_m991CDF5E3F05E68FEF29A65A7842E75FE3E7236A(__this, L_19, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_21;
+		L_21 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_20, NULL);
+		__this->___flashCoroutine = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___flashCoroutine), (void*)L_21);
+	}
+
+IL_00a3:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:47>
 		return;
 	}
 }
@@ -19981,17 +20018,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MuzzleFlashController_FlashRou
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* L_0 = (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468*)il2cpp_codegen_object_new(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468_il2cpp_TypeInfo_var);
-		U3CFlashRoutineU3Ed__5__ctor_m1B0C91787AA8BA5557FB75797AAEBBDC3DFB2EC3(L_0, 0, NULL);
-		U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* L_1 = L_0;
+		U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* L_0 = (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF*)il2cpp_codegen_object_new(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF_il2cpp_TypeInfo_var);
+		U3CFlashRoutineU3Ed__6__ctor_m61A52754BE9DE2CE8B48D54FA2CB092653DCC264(L_0, 0, NULL);
+		U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* L_2 = L_1;
+		U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* L_2 = L_1;
 		float L_3 = ___0_duration;
 		NullCheck(L_2);
 		L_2->___duration = L_3;
@@ -20010,7 +20047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController_SetActiveSafe_m0E3
 	bool V_0 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:54>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:59>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___muzzleFlashObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20045,7 +20082,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:55>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___muzzleFlashObject;
 		bool L_7 = ___0_value;
 		NullCheck(L_6);
@@ -20054,7 +20091,7 @@ IL_0023:
 
 IL_0034:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:56>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:61>
 		return;
 	}
 }
@@ -20064,6 +20101,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController__ctor_mBE5DAAA755D
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:11>
 		__this->___defaultDurationSeconds = (0.5f);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:12>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.5f), (0.0f), (1.0f), NULL);
+		__this->___flashColor = L_0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -20077,7 +20119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MuzzleFlashController__ctor_mBE5DAAA755D
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 69440
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__5__ctor_m1B0C91787AA8BA5557FB75797AAEBBDC3DFB2EC3 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__6__ctor_m61A52754BE9DE2CE8B48D54FA2CB092653DCC264 (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -20087,14 +20129,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__5__ctor_m1B0C91787A
 	}
 }
 // Method Definition Index: 69441
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__5_System_IDisposable_Dispose_mCCE6AB3095C58988A35229AD9C4764A322D002C2 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__6_System_IDisposable_Dispose_mF13E3F5DA7769EC42F1F3ABBB7C3306DE85100BD (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
 // Method Definition Index: 69442
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlashRoutineU3Ed__5_MoveNext_m0AD10EA8888E04E6AAA0F72AD66648B528245BA4 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlashRoutineU3Ed__6_MoveNext_mC47EAE24B2627F19A3B90B9BF7CF2B7F2EBBE212 (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20146,11 +20188,11 @@ IL_0016:
 IL_0018:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:46>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:51>
 		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A(L_3, (bool)1, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:47>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:52>
 		float L_4 = __this->___duration;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_5 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_5, L_4, NULL);
@@ -20163,21 +20205,21 @@ IL_0018:
 IL_0047:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:48>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:53>
 		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_6 = __this->___U3CU3E4__this;
 		NullCheck(L_6);
 		MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A(L_6, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:49>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:54>
 		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_7 = __this->___U3CU3E4__this;
 		NullCheck(L_7);
 		L_7->___flashCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___flashCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:50>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/MuzzleFlashController.cs:55>
 		return (bool)0;
 	}
 }
 // Method Definition Index: 69443
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashRoutineU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD8EF80350E43123FC00DB2B25C2DC5B61D9933B2 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m47B224163BCF9786FE529376E037FA18E77A6EF7 (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -20185,16 +20227,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashRoutineU3Ed__5_System_
 	}
 }
 // Method Definition Index: 69444
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_Reset_m6A6BC22E5357E7C28212CE994752118C61B747DA (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CFlashRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m60FF3CA066871DD520AF9488A554A7F3FB70E47C (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_Reset_m6A6BC22E5357E7C28212CE994752118C61B747DA_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CFlashRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m60FF3CA066871DD520AF9488A554A7F3FB70E47C_RuntimeMethod_var)));
 	}
 }
 // Method Definition Index: 69445
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_get_Current_m6EE30F107FD72F1DD946B5081EDA9563AD39AAF4 (U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CFlashRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_mB7C235FD309F39508256F5D7F071466319018EB8 (U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -26181,6 +26223,21 @@ IL_000c:
 		return L_4;
 	}
 }
+// Method Definition Index: 47408
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
 // Method Definition Index: 47714
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
@@ -26925,21 +26982,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m2E9
 	{
 		bool L_0 = __this->___hasValue;
 		return L_0;
-	}
-}
-// Method Definition Index: 47408
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___0_r;
-		__this->___r = L_0;
-		float L_1 = ___1_g;
-		__this->___g = L_1;
-		float L_2 = ___2_b;
-		__this->___b = L_2;
-		float L_3 = ___3_a;
-		__this->___a = L_3;
-		return;
 	}
 }
 // Method Definition Index: 47580

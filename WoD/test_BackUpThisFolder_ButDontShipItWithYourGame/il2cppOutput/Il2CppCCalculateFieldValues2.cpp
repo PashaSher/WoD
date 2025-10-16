@@ -2924,7 +2924,7 @@ struct GetFirstUnusedIndex_0000008BU24BurstDirectCall_t0B5855F1AEAF1E15438E5B6DD
 struct SortEdges_0000008AU24BurstDirectCall_t8AC0DD651CD8CDB13FACE2BA8057989B8F79F3E3  : public RuntimeObject
 {
 };
-struct U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468  : public RuntimeObject
+struct U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -32320,6 +32320,7 @@ struct MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938  : public
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___muzzleFlashObject;
 	float ___defaultDurationSeconds;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___flashColor;
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___flashCoroutine;
 };
 struct NativeStreamDisposeJob_tF5229172BA7C2ACF21392FB6493F9D47BA16D001 
@@ -44347,10 +44348,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8137[9] =
 	static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___resultPanel)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___resultText)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___toMenuButton)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___checkIntervalSeconds)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___sessionsPath)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___nextCheckTime)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___finished)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___hadAnyUnits)),static_cast<int32_t>(offsetof(BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C, ___auth)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8138[4] = 
 {
-	static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468, ___duration)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__5_t6413E9ECA91955C74E0A900549AB67655201C468, ___U3CU3E4__this)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8139[3] = 
+	static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF, ___duration)),static_cast<int32_t>(offsetof(U3CFlashRoutineU3Ed__6_t603E5B58BE6D31C241DC31BAE6A099B4D7FB5EFF, ___U3CU3E4__this)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8139[4] = 
 {
-	static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___muzzleFlashObject)),static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___defaultDurationSeconds)),static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___flashCoroutine)),};
+	static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___muzzleFlashObject)),static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___defaultDurationSeconds)),static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___flashColor)),static_cast<int32_t>(offsetof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938, ___flashCoroutine)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8140[4] = 
 {
 	static_cast<int32_t>(offsetof(U3COnArrivedU3Ed__12_t546B00DDAC07AB1C72B72BDB1699E9CCBF3F4BF0, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3COnArrivedU3Ed__12_t546B00DDAC07AB1C72B72BDB1699E9CCBF3F4BF0, ___U3CU3Et__builder)),static_cast<int32_t>(offsetof(U3COnArrivedU3Ed__12_t546B00DDAC07AB1C72B72BDB1699E9CCBF3F4BF0, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3COnArrivedU3Ed__12_t546B00DDAC07AB1C72B72BDB1699E9CCBF3F4BF0, ___U3CU3Eu__1)),};
