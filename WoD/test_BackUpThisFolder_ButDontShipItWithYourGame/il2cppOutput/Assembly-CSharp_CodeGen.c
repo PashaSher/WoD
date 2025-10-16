@@ -177,6 +177,17 @@ extern void U3CU3Ec_U3CTryUpdateWinsU3Eb__13_0_mF4C65872B4331D36439D738AC963786B
 extern void U3CTryUpdateWinsU3Ed__13__ctor_m29147E0DD1FE8133A2554042C1830FE6E203C40C (void);
 extern void U3CTryUpdateWinsU3Ed__13_MoveNext_m4B6A951DB95921BCBC14F47BB5FC34362CA5EA84 (void);
 extern void U3CTryUpdateWinsU3Ed__13_SetStateMachine_m3F67C5E087F932BAC261A5C3C29DAC47CCA154F0 (void);
+extern void MuzzleFlashController_Awake_m0C80CCC0E8491A27E90DF394B1D5E141C83096C8 (void);
+extern void MuzzleFlashController_PlayFlash_mBBE4AF60C25E2A4AFF84988FD46A6AE505733F07 (void);
+extern void MuzzleFlashController_FlashRoutine_m991CDF5E3F05E68FEF29A65A7842E75FE3E7236A (void);
+extern void MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A (void);
+extern void MuzzleFlashController__ctor_mBE5DAAA755D308B2E68DB53727FE060AA5F9A5B4 (void);
+extern void U3CFlashRoutineU3Ed__5__ctor_m1B0C91787AA8BA5557FB75797AAEBBDC3DFB2EC3 (void);
+extern void U3CFlashRoutineU3Ed__5_System_IDisposable_Dispose_mCCE6AB3095C58988A35229AD9C4764A322D002C2 (void);
+extern void U3CFlashRoutineU3Ed__5_MoveNext_m0AD10EA8888E04E6AAA0F72AD66648B528245BA4 (void);
+extern void U3CFlashRoutineU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD8EF80350E43123FC00DB2B25C2DC5B61D9933B2 (void);
+extern void U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_Reset_m6A6BC22E5357E7C28212CE994752118C61B747DA (void);
+extern void U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_get_Current_m6EE30F107FD72F1DD946B5081EDA9563AD39AAF4 (void);
 extern void Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF (void);
 extern void Projectile_BindRef_mED1788ACF69C1DD42E41B7AE9EE22C9BEDC169B8 (void);
 extern void Projectile_Update_m6E056CDE2DC25EDBA5DA3F4D9B9B9A69EC656737 (void);
@@ -720,7 +731,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[713] = 
+static Il2CppMethodPointer s_methodPointers[724] = 
 {
 	ArmyShopController_Awake_m001C01A157550D2A2C8E46D5EEF2A9EB4AAD3B40,
 	ArmyShopController_Start_m07E53D70D24B337792CD1B90EE11A78F83C0A99F,
@@ -892,6 +903,17 @@ static Il2CppMethodPointer s_methodPointers[713] =
 	U3CTryUpdateWinsU3Ed__13__ctor_m29147E0DD1FE8133A2554042C1830FE6E203C40C,
 	U3CTryUpdateWinsU3Ed__13_MoveNext_m4B6A951DB95921BCBC14F47BB5FC34362CA5EA84,
 	U3CTryUpdateWinsU3Ed__13_SetStateMachine_m3F67C5E087F932BAC261A5C3C29DAC47CCA154F0,
+	MuzzleFlashController_Awake_m0C80CCC0E8491A27E90DF394B1D5E141C83096C8,
+	MuzzleFlashController_PlayFlash_mBBE4AF60C25E2A4AFF84988FD46A6AE505733F07,
+	MuzzleFlashController_FlashRoutine_m991CDF5E3F05E68FEF29A65A7842E75FE3E7236A,
+	MuzzleFlashController_SetActiveSafe_m0E3475F46EF909FAD259FD6EB4329CA91FB7185A,
+	MuzzleFlashController__ctor_mBE5DAAA755D308B2E68DB53727FE060AA5F9A5B4,
+	U3CFlashRoutineU3Ed__5__ctor_m1B0C91787AA8BA5557FB75797AAEBBDC3DFB2EC3,
+	U3CFlashRoutineU3Ed__5_System_IDisposable_Dispose_mCCE6AB3095C58988A35229AD9C4764A322D002C2,
+	U3CFlashRoutineU3Ed__5_MoveNext_m0AD10EA8888E04E6AAA0F72AD66648B528245BA4,
+	U3CFlashRoutineU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD8EF80350E43123FC00DB2B25C2DC5B61D9933B2,
+	U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_Reset_m6A6BC22E5357E7C28212CE994752118C61B747DA,
+	U3CFlashRoutineU3Ed__5_System_Collections_IEnumerator_get_Current_m6EE30F107FD72F1DD946B5081EDA9563AD39AAF4,
 	Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF,
 	Projectile_BindRef_mED1788ACF69C1DD42E41B7AE9EE22C9BEDC169B8,
 	Projectile_Update_m6E056CDE2DC25EDBA5DA3F4D9B9B9A69EC656737,
@@ -1436,7 +1458,7 @@ static Il2CppMethodPointer s_methodPointers[713] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[713] = 
+static const int32_t s_InvokerIndices[724] = 
 {
 	16585,
 	16352,
@@ -1608,6 +1630,17 @@ static const int32_t s_InvokerIndices[713] =
 	16585,
 	16585,
 	12274,
+	16585,
+	11438,
+	10194,
+	12075,
+	16585,
+	12207,
+	16585,
+	16160,
+	16352,
+	16585,
+	16352,
 	458,
 	12274,
 	16585,
@@ -2156,7 +2189,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	713,
+	724,
 	s_methodPointers,
 	0,
 	NULL,

@@ -140,6 +140,13 @@ public class UnitAutoAttack : MonoBehaviour
             target += new Vector3(UnityEngine.Random.Range(-spreadFactor, spreadFactor), UnityEngine.Random.Range(-spreadFactor, spreadFactor), 0f);
         }
 
+        // визуальный эффект выстрела (короткая вспышка у дула)
+        var flashCtrl = unit != null ? unit.GetComponent<MuzzleFlashController>() : null;
+        if (flashCtrl != null)
+        {
+            flashCtrl.PlayFlash(0.5f);
+        }
+
         // создаём ноду снаряда в RTDB: /sessions/{sid}/{branch}/projectiles/{autoKey}
         string branch = unit.host ? "hostArmy" : "clientArmy";
         var root = FirebaseDatabase.DefaultInstance.RootReference;
