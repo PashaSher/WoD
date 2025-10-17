@@ -278,6 +278,16 @@ extern void U3CTryCommitMoveU3Ed__22_MoveNext_m293EE1D8A96B7DA9984D88F9F07D481C7
 extern void U3CTryCommitMoveU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9FA6BE0447606D0F4897517F965D8FD6E40BBE93 (void);
 extern void U3CTryCommitMoveU3Ed__22_System_Collections_IEnumerator_Reset_mD0216857F9746B0F6A37753386C51359FCB317E3 (void);
 extern void U3CTryCommitMoveU3Ed__22_System_Collections_IEnumerator_get_Current_m9D8D0FC675082939898AFBA2045A2C00D5EE316F (void);
+extern void UnitHPText_Awake_m13C536390A48AF3B44D0FCD7C737B2E0D539F1C9 (void);
+extern void UnitHPText_Reset_mD941E9618332F7C5167A551ACCE9628FFF344AD2 (void);
+extern void UnitHPText_OnEnable_m3A0187FFDD6495BDC1BF7432BC882AA07F2336BD (void);
+extern void UnitHPText_OnValidate_mF583203F8B87A4873E4B0AAEACE3BDA94942B10F (void);
+extern void UnitHPText_Update_m3A0C32601DF1740169818E15951DC9804FA253F0 (void);
+extern void UnitHPText_EnsureComponents_m43FD463CFC69C12E7548DB3AEDCF770D6FE2D95C (void);
+extern void UnitHPText_ApplyStaticAppearance_mAB53F02D8133B9B5587D894A11D57744CB916E1C (void);
+extern void UnitHPText_ResolveColor_m11B5325569B5EE63D51050ADC9E7AD7C5436F3C5 (void);
+extern void UnitHPText_UpdateText_mDE9D004F9B8CC12F9FB93C6E8190611A727250DF (void);
+extern void UnitHPText__ctor_m4D1A90E522C6E7B5690044B363DCDBB31B996A62 (void);
 extern void UnitPointer_Awake_mFF6CCCBC550F29CE6150CD75FCDA4CEC124CF125 (void);
 extern void UnitPointer_OnPointerDown_m7241F03E096AF886F5B3FBF30310D72035ADC89F (void);
 extern void UnitPointer__ctor_m2EAA7C199F642B7DED5ADD226B953D12A20CBED5 (void);
@@ -731,7 +741,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[724] = 
+static Il2CppMethodPointer s_methodPointers[734] = 
 {
 	ArmyShopController_Awake_m001C01A157550D2A2C8E46D5EEF2A9EB4AAD3B40,
 	ArmyShopController_Start_m07E53D70D24B337792CD1B90EE11A78F83C0A99F,
@@ -1004,6 +1014,16 @@ static Il2CppMethodPointer s_methodPointers[724] =
 	U3CTryCommitMoveU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9FA6BE0447606D0F4897517F965D8FD6E40BBE93,
 	U3CTryCommitMoveU3Ed__22_System_Collections_IEnumerator_Reset_mD0216857F9746B0F6A37753386C51359FCB317E3,
 	U3CTryCommitMoveU3Ed__22_System_Collections_IEnumerator_get_Current_m9D8D0FC675082939898AFBA2045A2C00D5EE316F,
+	UnitHPText_Awake_m13C536390A48AF3B44D0FCD7C737B2E0D539F1C9,
+	UnitHPText_Reset_mD941E9618332F7C5167A551ACCE9628FFF344AD2,
+	UnitHPText_OnEnable_m3A0187FFDD6495BDC1BF7432BC882AA07F2336BD,
+	UnitHPText_OnValidate_mF583203F8B87A4873E4B0AAEACE3BDA94942B10F,
+	UnitHPText_Update_m3A0C32601DF1740169818E15951DC9804FA253F0,
+	UnitHPText_EnsureComponents_m43FD463CFC69C12E7548DB3AEDCF770D6FE2D95C,
+	UnitHPText_ApplyStaticAppearance_mAB53F02D8133B9B5587D894A11D57744CB916E1C,
+	UnitHPText_ResolveColor_m11B5325569B5EE63D51050ADC9E7AD7C5436F3C5,
+	UnitHPText_UpdateText_mDE9D004F9B8CC12F9FB93C6E8190611A727250DF,
+	UnitHPText__ctor_m4D1A90E522C6E7B5690044B363DCDBB31B996A62,
 	UnitPointer_Awake_mFF6CCCBC550F29CE6150CD75FCDA4CEC124CF125,
 	UnitPointer_OnPointerDown_m7241F03E096AF886F5B3FBF30310D72035ADC89F,
 	UnitPointer__ctor_m2EAA7C199F642B7DED5ADD226B953D12A20CBED5,
@@ -1458,7 +1478,7 @@ static Il2CppMethodPointer s_methodPointers[724] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[724] = 
+static const int32_t s_InvokerIndices[734] = 
 {
 	16585,
 	16352,
@@ -1731,6 +1751,16 @@ static const int32_t s_InvokerIndices[724] =
 	16352,
 	16585,
 	16352,
+	16585,
+	16585,
+	16585,
+	16585,
+	16585,
+	16585,
+	16585,
+	16166,
+	12075,
+	16585,
 	16585,
 	12274,
 	16585,
@@ -2189,7 +2219,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	724,
+	734,
 	s_methodPointers,
 	0,
 	NULL,

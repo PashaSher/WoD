@@ -589,7 +589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_GetHashCode_m87358396DFDAE1F143
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76894
+// Method Definition Index: 76904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9977F23B838724F9DA04223E0762B7AEA3AA91FC (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	{
@@ -608,7 +608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9977F23B838724F9DA04223E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76895
+// Method Definition Index: 76905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_mB8E75AA81F7543BB0B05069416C485A4B8E692D8 (int32_t ___0_h1, int32_t ___1_h2, const RuntimeMethod* method) 
 {
 	{
@@ -619,7 +619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_mB8E75AA81F7543BB
 		return ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)(L_0<<5))|((int32_t)((uint32_t)L_1>>((int32_t)27))))), L_2))^L_3));
 	}
 }
-// Method Definition Index: 76896
+// Method Definition Index: 76906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mA1680F8D1B4E1C62B6660FF8F4CB5852ED393F99 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -656,7 +656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashHelpers__cctor_mA1680F8D1B4E1C62B666
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76897
+// Method Definition Index: 76907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_EnsureColorTable_mDA6E15087C13F589AE3A2038B16F2D7DBAF3FA83 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -681,7 +681,7 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 76898
+// Method Definition Index: 76908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorTable_mC6E537EF5340F0DE473FD4D8A168D0631C38CD10 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1123,7 +1123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorTable_mC6E537EF
 		return;
 	}
 }
-// Method Definition Index: 76899
+// Method Definition Index: 76909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_EnsureColorNameTable_m7D1BDA884F19A4F1AFEDA4B4CF3C59F20F612303 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1148,7 +1148,7 @@ IL_000c:
 		return;
 	}
 }
-// Method Definition Index: 76900
+// Method Definition Index: 76910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorNameTable_mB77CC6E7FACE77180DAA58884E6EAF11865C3D83 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1861,7 +1861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_InitColorNameTable_mB77C
 		return;
 	}
 }
-// Method Definition Index: 76901
+// Method Definition Index: 76911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KnownColorTable_KnownColorToArgb_m0979478F1E425ECEA80341F48B9C24AA50B36E97 (int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1880,7 +1880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KnownColorTable_KnownColorToArgb_m097
 		return L_3;
 	}
 }
-// Method Definition Index: 76902
+// Method Definition Index: 76912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KnownColorTable_KnownColorToName_mEFAED2FFD4EFF6A60FA921AE11C3894880DD63BE (int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1899,7 +1899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KnownColorTable_KnownColorToName_mE
 		return L_3;
 	}
 }
-// Method Definition Index: 76903
+// Method Definition Index: 76913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KnownColorTable_UpdateSystemColors_mE162F51D4EB7E8842CFC3B1678801F3E3DB5DAD0 (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_colorTable, const RuntimeMethod* method) 
 {
 	{
@@ -2065,7 +2065,7 @@ IL2CPP_EXTERN_C void Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661_marshal_com
 	il2cpp_codegen_marshal_free_bstring(marshaled.___name);
 	marshaled.___name = NULL;
 }
-// Method Definition Index: 76904
+// Method Definition Index: 76914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, int64_t ___0_value, int16_t ___1_state, String_t* ___2_name, int32_t ___3_knownColor, const RuntimeMethod* method) 
 {
 	{
@@ -2088,7 +2088,7 @@ IL2CPP_EXTERN_C  void Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970_Adju
 	_thisAdjusted = reinterpret_cast<Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661*>(__this + _offset);
 	Color__ctor_m19020CC887E9C4F7C63526E49D6895683FA56970(_thisAdjusted, ___0_value, ___1_state, ___2_name, ___3_knownColor, method);
 }
-// Method Definition Index: 76905
+// Method Definition Index: 76915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2106,7 +2106,7 @@ IL2CPP_EXTERN_C  uint8_t Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951_A
 	_returnValue = Color_get_R_mA69925F53F4EF7AC1A3B4A94B9F4ABEA72662951(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76906
+// Method Definition Index: 76916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2124,7 +2124,7 @@ IL2CPP_EXTERN_C  uint8_t Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA_A
 	_returnValue = Color_get_G_m8BBF290336C0D938F2546AB296B002C9995B3BAA(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76907
+// Method Definition Index: 76917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2142,7 +2142,7 @@ IL2CPP_EXTERN_C  uint8_t Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61_A
 	_returnValue = Color_get_B_mC668C85173CDC211AC0E2FEB3E6C36E9C57DCC61(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76908
+// Method Definition Index: 76918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2160,7 +2160,7 @@ IL2CPP_EXTERN_C  uint8_t Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230_A
 	_returnValue = Color_get_A_m20373E97C1E01A1B27CD551E4FB1CB62DD381230(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76909
+// Method Definition Index: 76919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2177,7 +2177,7 @@ IL2CPP_EXTERN_C  bool Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6
 	_returnValue = Color_get_IsKnownColor_mDE5232E7F4367FD7055F468772188EC1C6576198(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76910
+// Method Definition Index: 76920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2241,7 +2241,7 @@ IL2CPP_EXTERN_C  String_t* Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD
 	_returnValue = Color_get_NameAndARGBValue_m95C91B9588C731AC546868DBD1F1C4F2B95D44AF(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76911
+// Method Definition Index: 76921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2296,7 +2296,7 @@ IL2CPP_EXTERN_C  String_t* Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B
 	_returnValue = Color_get_Name_m82B674D6BA69AE386BB798DD78DB116307F3B876(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76912
+// Method Definition Index: 76922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2341,7 +2341,7 @@ IL2CPP_EXTERN_C  int64_t Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA0777125
 	_returnValue = Color_get_Value_mEC0390B65E6E1ADA7963CDDE6ADB0AA077712574(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76913
+// Method Definition Index: 76923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Color_CheckByte_mAEC90FAB7CD6D1AB42685B47E3EDDCDD13D2FBE7 (int32_t ___0_value, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	{
@@ -2398,7 +2398,7 @@ IL_0045:
 		return;
 	}
 }
-// Method Definition Index: 76914
+// Method Definition Index: 76924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_MakeArgb_mCFECEF91CF3C17C3992AAF04A0216E01954E3E2E (uint8_t ___0_alpha, uint8_t ___1_red, uint8_t ___2_green, uint8_t ___3_blue, const RuntimeMethod* method) 
 {
 	{
@@ -2409,7 +2409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Color_MakeArgb_mCFECEF91CF3C17C3992AA
 		return ((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)(((int32_t)((int32_t)L_0<<((int32_t)16)))|((int32_t)((int32_t)L_1<<8))))|(int32_t)L_2))|((int32_t)((int32_t)L_3<<((int32_t)24)))))))&((int64_t)(uint64_t)((uint32_t)(-1)))));
 	}
 }
-// Method Definition Index: 76915
+// Method Definition Index: 76925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 Color_FromArgb_m6044885AA1B22440D932301C32CA28CC70FA937C (int32_t ___0_argb, const RuntimeMethod* method) 
 {
 	{
@@ -2420,7 +2420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD716916
 		return L_1;
 	}
 }
-// Method Definition Index: 76916
+// Method Definition Index: 76926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 Color_FromArgb_m7855D60AB3843525C91FB2174D10238B44F2320C (int32_t ___0_alpha, int32_t ___1_red, int32_t ___2_green, int32_t ___3_blue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2453,7 +2453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t677510AC0B9290AFBF973DC2AD88ABBD716916
 		return L_9;
 	}
 }
-// Method Definition Index: 76917
+// Method Definition Index: 76927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2471,7 +2471,7 @@ IL2CPP_EXTERN_C  int32_t Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC_
 	_returnValue = Color_ToArgb_m1782C7D79C856B95679C601C8A2AB40C8B90AFFC(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76918
+// Method Definition Index: 76928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2588,7 +2588,7 @@ IL2CPP_EXTERN_C  String_t* Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD0525
 	_returnValue = Color_ToString_m5C7D9DB036E127D264B17FA528580B7BD052513F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76919
+// Method Definition Index: 76929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_op_Equality_m5BD270427D7DA9AF8F2C004ACA2F43F734F2EE57 (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___0_left, Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___1_right, const RuntimeMethod* method) 
 {
 	{
@@ -2636,7 +2636,7 @@ IL_003c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76920
+// Method Definition Index: 76930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2673,7 +2673,7 @@ IL2CPP_EXTERN_C  bool Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A_Adj
 	_returnValue = Color_Equals_m0AECC84D788C0CB1B1FB44C945705AD7BAFF603A(_thisAdjusted, ___0_obj, method);
 	return _returnValue;
 }
-// Method Definition Index: 76921
+// Method Definition Index: 76931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661 ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -2693,7 +2693,7 @@ IL2CPP_EXTERN_C  bool Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA_Adj
 	_returnValue = Color_Equals_mCC06EC6FD579073BFC35481FA94461A70DA7B7BA(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 76922
+// Method Definition Index: 76932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Color_GetHashCode_m87358396DFDAE1F14332D3AC10A83ED1060FC9BB (Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

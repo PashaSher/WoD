@@ -319,6 +319,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
+              "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
             "dependencyType": 0,
