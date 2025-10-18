@@ -25,6 +25,7 @@ public class Projectile : MonoBehaviour
     private bool initialized;
     private bool createdByLocal;  // чтобы только создатель удалял узел
     private Vector3 _prevPos;
+    private bool _hitApplied;     // единичное нанесение урона этим снарядом
 
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
@@ -62,6 +63,7 @@ public class Projectile : MonoBehaviour
     private void Update()
     {
         if (!initialized || stats == null) return;
+        if (_hitApplied) return; // уже нанесли урон — ждём уничтожения
 
         float step = stats.speed * Time.deltaTime;
 
@@ -84,6 +86,7 @@ public class Projectile : MonoBehaviour
                     if (owner != null && unitHit.host == owner.host) continue; // ignore friendlies
 
                     // Apply damage and destroy projectile
+                    _hitApplied = true; // помечаем до нанесения, чтобы исключить двойное срабатывание
                     unitHit.TakeDamage(Mathf.Max(1, stats.damage));
                     OnLocalHitCleanup();
                     return;
@@ -113,7 +116,10 @@ public class Projectile : MonoBehaviour
     {
         if (createdByLocal)
         {
-            TryApplyDamageAtPoint(target);
+            if (!_hitApplied)
+            {
+                TryApplyDamageAtPoint(target);
+            }
             if (projRef != null)
             {
                 await projRef.RemoveValueAsync();
@@ -130,6 +136,7 @@ public class Projectile : MonoBehaviour
     private void TryApplyDamageAtPoint(Vector2 point)
     {
         if (owner == null || stats == null) return;
+        if (_hitApplied) return; // уже нанесли урон ранее
 
         // простая проверка попадания: найти ближайший вражеский Unit в небольшом радиусе
         float hitRadius = Mathf.Max(0.1f, stats.splashRadius > 0 ? stats.splashRadius : 0.3f);
@@ -149,6 +156,7 @@ public class Projectile : MonoBehaviour
 
         if (best != null && bestSqr <= hitRadius * hitRadius)
         {
+            _hitApplied = true;
             best.TakeDamage(Mathf.Max(1, stats.damage));
         }
     }

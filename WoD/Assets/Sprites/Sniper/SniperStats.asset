@@ -15,11 +15,11 @@ MonoBehaviour:
   unitType: 2
   health: 100
   damage: 0
-  attackRange: 6
+  attackRange: 10
   moveSpeed: 1
-  fireRate: 1
-  accuracy: 0.9
-  accuracySpread: 0.3
+  fireRate: 0.1
+  accuracy: 1
+  accuracySpread: 0
   sprite: {fileID: 0}
   animatorOverride: {fileID: 0}
   unitPrefab: {fileID: 5958190626903498121, guid: 55e2ac0d8dd92354ab0d6fde8048800b, type: 3}

@@ -37432,14 +37432,14 @@ struct MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154  : public 
 	int32_t ___buttonState;
 	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___buttonData;
 };
-struct U3COnArrivedU3Ed__14_t45A48A9B0A2DD0987EFDFFA758D276320E0BD0D6  : public RuntimeObject
+struct U3COnArrivedU3Ed__15_t9AD87E3CC419062B1658B37F6D776A96356DE6EB  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder;
 	Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* ___U3CU3E4__this;
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1;
 };
-struct U3COnLocalHitCleanupU3Ed__13_tB689301C07083B2B79235281FF35C2F6FE1E35E4  : public RuntimeObject
+struct U3COnLocalHitCleanupU3Ed__14_tBE07803E0E3302066124DFCBB51FDBD2396E9EFC  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder;
@@ -44821,6 +44821,7 @@ struct Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6  : public MonoBehavi
 	bool ___initialized;
 	bool ___createdByLocal;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____prevPos;
+	bool ____hitApplied;
 };
 struct ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -58519,9 +58520,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8138 = { sizeof(U3CFlashRout
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8139;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8139 = { sizeof(MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8140;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8140 = { sizeof(U3COnArrivedU3Ed__14_t45A48A9B0A2DD0987EFDFFA758D276320E0BD0D6), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8140 = { sizeof(U3COnArrivedU3Ed__15_t9AD87E3CC419062B1658B37F6D776A96356DE6EB), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8141;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8141 = { sizeof(U3COnLocalHitCleanupU3Ed__13_tB689301C07083B2B79235281FF35C2F6FE1E35E4), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8141 = { sizeof(U3COnLocalHitCleanupU3Ed__14_tBE07803E0E3302066124DFCBB51FDBD2396E9EFC), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8142;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8142 = { sizeof(Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8143;

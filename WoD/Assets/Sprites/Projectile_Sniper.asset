@@ -15,7 +15,7 @@ MonoBehaviour:
   damage: 5
   penetration: 2
   splashRadius: 0
-  speed: 14
+  speed: 7
   maxLifetime: 4
-  sprite: {fileID: 2208703988740019828, guid: 18cb2cb6ec6d55743a99f44d0447ea83, type: 3}
-  scale: {x: 0.1, y: 0.1}
+  sprite: {fileID: -2071717904496075581, guid: 34420d44266559b468e059926f3522e3, type: 3}
+  scale: {x: 0.03, y: 0.03}

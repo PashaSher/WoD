@@ -90,7 +90,7 @@ public class UnitHPText : MonoBehaviour
 			case HpColorMode.AutoByOwner:
 				// Host -> black, Client -> blue (cyan for visibility)
 				if (unit != null)
-					return unit.host ? Color.black : Color.cyan;
+					return unit.host ? Color.black : Color.blue;
 				return Color.black;
 			case HpColorMode.Blue: return Color.cyan;
 			case HpColorMode.Custom: return customColor;

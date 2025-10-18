@@ -226,6 +226,14 @@ public class Unit : MonoBehaviour
         maxHP     = (rMaxHP > 0) ? rMaxHP : maxHP;
         attacking = rAtk;
 
+        // Если HP упало до нуля на любом клиенте — удалим объект локально,
+        // чтобы не оставались "висящие" юниты без взаимодействия
+        if (health == 0)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         if (visual != null)
         {
             var ls = visual.localScale;
