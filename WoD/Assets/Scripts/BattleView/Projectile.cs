@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour
     private Vector3 target;
     private bool initialized;
     private bool createdByLocal;  // чтобы только создатель удалял узел
+    private Vector3 _prevPos;
 
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
@@ -49,6 +50,7 @@ public class Projectile : MonoBehaviour
         }
 
         transform.position = start;
+        _prevPos = start;
         initialized = true;
     }
 
@@ -62,12 +64,49 @@ public class Projectile : MonoBehaviour
         if (!initialized || stats == null) return;
 
         float step = stats.speed * Time.deltaTime;
-        transform.position = Vector2.MoveTowards(transform.position, target, step);
+
+        // Continuous collision check along movement path
+        Vector2 from = _prevPos;
+        Vector2 to   = Vector2.MoveTowards((Vector2)transform.position, (Vector2)target, step);
+
+        if (createdByLocal)
+        {
+            // Sweep linecast from previous to next pos; check any enemy Unit collider
+            var hits = Physics2D.LinecastAll(from, to);
+            if (hits != null && hits.Length > 0)
+            {
+                for (int i = 0; i < hits.Length; i++)
+                {
+                    var go = hits[i].collider ? hits[i].collider.gameObject : null;
+                    if (!go) continue;
+                    var unitHit = go.GetComponentInParent<Unit>();
+                    if (!unitHit) continue;
+                    if (owner != null && unitHit.host == owner.host) continue; // ignore friendlies
+
+                    // Apply damage and destroy projectile
+                    unitHit.TakeDamage(Mathf.Max(1, stats.damage));
+                    OnLocalHitCleanup();
+                    return;
+                }
+            }
+        }
+
+        transform.position = to;
+        _prevPos = transform.position;
 
         if (Vector2.Distance(transform.position, target) <= 0.02f)
         {
             OnArrived();
         }
+    }
+
+    private async void OnLocalHitCleanup()
+    {
+        if (projRef != null)
+        {
+            await projRef.RemoveValueAsync();
+        }
+        if (this) Destroy(gameObject);
     }
 
     private async void OnArrived()
