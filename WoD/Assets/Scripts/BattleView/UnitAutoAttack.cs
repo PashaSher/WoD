@@ -20,6 +20,7 @@ public class UnitAutoAttack : MonoBehaviour
     private Unit unit;                                // владелец (ищем в родителях)
     private float nextScanTime;
     private float nextShotTime;
+    private bool  wasAttacking;                       // для детекта начала атаки
 
     // RTDB moving state for THIS unit
     private DatabaseReference stateRef;               // .../sessions/{sid}/{branch}/{unitKey}/state
@@ -94,14 +95,16 @@ public class UnitAutoAttack : MonoBehaviour
             }
         }
 
-        if (closestEnemy != null && closestSqr <= range * range)
+        bool shouldAttack = (closestEnemy != null && closestSqr <= range * range);
+
+        // При начале атаки разворачиваемся лицом к цели
+        if (shouldAttack && !wasAttacking && closestEnemy != null)
         {
-            SetAttacking(true);
+            unit.FaceTowardsX(closestEnemy.transform.position.x);
         }
-        else
-        {
-            SetAttacking(false);
-        }
+
+        SetAttacking(shouldAttack);
+        wasAttacking = shouldAttack;
     }
 
     private void SetAttacking(bool value)
@@ -131,6 +134,8 @@ public class UnitAutoAttack : MonoBehaviour
         // цель — ближайший враг в радиусе attackRange, с разбросом по accuracy
         Unit targetUnit = FindClosestEnemyWithin(unit.attackRange);
         if (!targetUnit) return;
+        // Перед выстрелом разворачиваемся к цели
+        unit.FaceTowardsX(targetUnit.transform.position.x);
         Vector3 target = targetUnit.transform.position;
 
         // применим разброс: чем ниже accuracy, тем выше отклонение

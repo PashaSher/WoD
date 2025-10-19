@@ -149,6 +149,26 @@ public class Unit : MonoBehaviour
         }
     }
 
+    // === Facing control ===
+    public void FaceTowardsX(float targetX)
+    {
+        var vis = visual != null ? visual : transform.Find("Visual");
+        if (vis == null) return;
+        float dir = (targetX >= transform.position.x) ? 1f : -1f; // 1 -> right, -1 -> left
+        var ls = vis.localScale;
+        float required = dir;
+        if (invertFacingX) required = -required;
+        float absX = Mathf.Abs(ls.x);
+        float newSign = required >= 0f ? 1f : -1f;
+        float curSign = ls.x >= 0f ? 1f : -1f;
+        if (curSign != newSign)
+        {
+            ls.x = absX * newSign;
+            vis.localScale = ls;
+            _forceCombatPush = true; // push facing via combat snapshot
+        }
+    }
+
     // Read-only access for animation and UI
     public bool IsAttacking => attacking;
     public bool IsMovingFromRTDB => _movingFromRtdb;

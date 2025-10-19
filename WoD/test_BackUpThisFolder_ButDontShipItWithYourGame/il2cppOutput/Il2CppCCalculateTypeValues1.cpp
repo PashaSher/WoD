@@ -30334,7 +30334,7 @@ struct EventHandlerTypes_tC49219B144BB969FFE00B440819F976BD894BF16
 {
 	int32_t ___value__;
 };
-struct U3CMoveToU3Ed__46_t500841982D5C3192B14B65492670CA3FCBA89C14  : public RuntimeObject
+struct U3CMoveToU3Ed__47_t85F94E10B6A21AB5544FF2F68177A697711822D4  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -37606,7 +37606,7 @@ struct U3CU3Ec__DisplayClass10_0_t30962D0136916B2BBA7925D41B1EE36CE3D5623E  : pu
 	Tray_t9F86BC64CF1726CEB73D582CD601983AAEB0986F* ___U3CU3E4__this;
 	int32_t ___reason;
 };
-struct U3CPushCombatStateU3Ed__43_t5531635755E0C48B3F5499E62857C4E4F819CCC6  : public RuntimeObject
+struct U3CPushCombatStateU3Ed__44_t7FE919A05E6C32B6E5E440D9A230BEBF51566E3D  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder;
@@ -45465,6 +45465,7 @@ struct UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF  : public MonoBe
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* ___unit;
 	float ___nextScanTime;
 	float ___nextShotTime;
+	bool ___wasAttacking;
 	DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* ___stateRef;
 	bool ___hasMovingCache;
 	bool ___movingCache;
@@ -58634,9 +58635,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8195 = { sizeof(ProjectileSt
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8196;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8196 = { sizeof(CombatSnapshot_tEDB4BAE70EBEADE3F5A1F5BF9F892A9BE6A2C224)+ sizeof(RuntimeObject), sizeof(CombatSnapshot_tEDB4BAE70EBEADE3F5A1F5BF9F892A9BE6A2C224_marshaled_pinvoke), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8197;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8197 = { sizeof(U3CMoveToU3Ed__46_t500841982D5C3192B14B65492670CA3FCBA89C14), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8197 = { sizeof(U3CMoveToU3Ed__47_t85F94E10B6A21AB5544FF2F68177A697711822D4), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8198;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8198 = { sizeof(U3CPushCombatStateU3Ed__43_t5531635755E0C48B3F5499E62857C4E4F819CCC6), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8198 = { sizeof(U3CPushCombatStateU3Ed__44_t7FE919A05E6C32B6E5E440D9A230BEBF51566E3D), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8199;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8199 = { sizeof(U3CSetFirebaseContextAndPushU3Ed__27_t687AD2FE0DFF2D487441C69544CBD87CC4F16F16), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8200;
