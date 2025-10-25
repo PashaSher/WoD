@@ -325,3 +325,4 @@ MonoBehaviour:
   projectileStats: {fileID: 0}
   visual: {fileID: 7845388935370068328}
   rb: {fileID: 0}
+  invertFacingX: 0
