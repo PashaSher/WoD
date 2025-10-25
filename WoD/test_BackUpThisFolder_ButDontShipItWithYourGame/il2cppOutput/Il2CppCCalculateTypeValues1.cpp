@@ -45462,6 +45462,9 @@ struct UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF  : public MonoBe
 {
 	float ___scanIntervalSeconds;
 	bool ___drawDebugGizmos;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___projectileSpawn;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startOffset;
+	float ___firstShotDelaySeconds;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* ___unit;
 	float ___nextScanTime;
 	float ___nextShotTime;

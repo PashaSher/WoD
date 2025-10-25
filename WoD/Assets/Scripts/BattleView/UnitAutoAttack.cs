@@ -17,6 +17,13 @@ public class UnitAutoAttack : MonoBehaviour
     [SerializeField] private float scanIntervalSeconds = 0.25f;
     [SerializeField] private bool  drawDebugGizmos = false;
 
+    [Header("Projectile")]
+    [SerializeField] private Transform projectileSpawn; // опциональная точка вылета (Inspector)
+    [SerializeField] private Vector3 startOffset = new Vector3(0.25f, 0.1f, 0f); // fallback оффсет
+
+    [Header("Cadence")]
+    [SerializeField] private float firstShotDelaySeconds = 0.2f; // задержка перед первым выстрелом при начале атаки
+
     private Unit unit;                                // владелец (ищем в родителях)
     private float nextScanTime;
     private float nextShotTime;
@@ -57,17 +64,20 @@ public class UnitAutoAttack : MonoBehaviour
         {
             // пока движется — гарантированно не атакуем
             SetAttacking(false);
+            // сбрасываем флаг локального состояния, чтобы при окончании движения сработала задержка первого выстрела
+            wasAttacking = false;
             return;
         }
 
-        // Если уже атакуем и пора стрелять — создаём снаряд (и реплицируем в RTDB)
+        // Сначала сканируем и обновляем состояние (включая установку задержки первого выстрела)
+        TryScanAndAttack();
+
+        // Затем, если уже пора стрелять — создаём снаряд (и реплицируем в RTDB)
         if (IsAttacking() && Time.time >= nextShotTime)
         {
             nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit.fireRate));
             TryFireProjectile();
         }
-
-        TryScanAndAttack();
     }
 
     private void TryScanAndAttack()
@@ -101,6 +111,8 @@ public class UnitAutoAttack : MonoBehaviour
         if (shouldAttack && !wasAttacking && closestEnemy != null)
         {
             unit.FaceTowardsX(closestEnemy.transform.position.x);
+            // при входе в атаку даём время на анимацию/изготовку
+            nextShotTime = Time.time + Mathf.Max(0f, firstShotDelaySeconds);
         }
 
         SetAttacking(shouldAttack);
@@ -125,11 +137,36 @@ public class UnitAutoAttack : MonoBehaviour
         if (unit == null || unit.projectileStats == null) return;
         if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey)) return;
 
-        // вычисляем старт по facing: чуть правее/левее центра визуала
-        var vis = unit.transform.Find("Visual");
-        Vector3 basePos = vis ? vis.position : unit.transform.position;
+        // Точка вылета: приоритет — заданная в Inspector, затем авто-поиск "MuzzleFlash", затем fallback к Visual с оффсетом по facing
+        Transform muzzle = projectileSpawn;
+        if (!muzzle)
+        {
+            // пробуем найти любой дочерний Transform с названием "MuzzleFlash" (включая неактивные)
+            var allChildren = unit.transform.GetComponentsInChildren<Transform>(true);
+            for (int i = 0; i < allChildren.Length; i++)
+            {
+                var t = allChildren[i];
+                if (t != null && t.name == "MuzzleFlash") { muzzle = t; break; }
+            }
+        }
+
+        Vector3 basePos;
+        if (muzzle)
+        {
+            basePos = muzzle.position;
+        }
+        else
+        {
+            var vis = unit.transform.Find("Visual");
+            basePos = vis ? vis.position : unit.transform.position;
+        }
+
         int facing = unit.FacingDebug >= 0 ? 1 : -1;
-        Vector3 start = basePos + new Vector3(0.25f * facing, 0.1f, 0);
+        Vector3 start = basePos;
+        if (!muzzle)
+        {
+            start += new Vector3(startOffset.x * facing, startOffset.y, startOffset.z);
+        }
 
         // цель — ближайший враг в радиусе attackRange, с разбросом по accuracy
         Unit targetUnit = FindClosestEnemyWithin(unit.attackRange);

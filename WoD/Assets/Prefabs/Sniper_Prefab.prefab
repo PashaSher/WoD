@@ -173,6 +173,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scanIntervalSeconds: 0.25
   drawDebugGizmos: 0
+  projectileSpawn: {fileID: 0}
+  startOffset: {x: 0.25, y: 0.1, z: 0}
+  firstShotDelaySeconds: 10
 --- !u!1 &2873557470743602306
 GameObject:
   m_ObjectHideFlags: 0
