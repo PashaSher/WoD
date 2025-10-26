@@ -28,6 +28,7 @@ public class Projectile : MonoBehaviour
     private bool _hitApplied;     // единичное нанесение урона этим снарядом
     private bool _dying;          // запущена анимация уничтожения
     private Coroutine _deathRoutine;
+    private SpriteRenderer _explosionRenderer;
 
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
@@ -176,10 +177,28 @@ public class Projectile : MonoBehaviour
         if (_dying) return;
         _dying = true;
 
-        // поменяем спрайт на разрушение, если задан
-        if (spriteRenderer != null && stats != null && stats.destroySprite != null)
+        // отключаем спрайт снаряда сразу
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
+
+        // рисуем спрайт взрыва отдельным рендерером, если задан
+        if (stats != null && stats.destroySprite != null)
         {
-            spriteRenderer.sprite = stats.destroySprite;
+            if (_explosionRenderer == null)
+            {
+                var go = new GameObject("Explosion");
+                go.transform.SetParent(transform, false);
+                _explosionRenderer = go.AddComponent<SpriteRenderer>();
+                if (spriteRenderer != null)
+                {
+                    _explosionRenderer.sortingLayerID = spriteRenderer.sortingLayerID;
+                    _explosionRenderer.sortingOrder = spriteRenderer.sortingOrder + 1;
+                    _explosionRenderer.color = spriteRenderer.color;
+                    _explosionRenderer.flipX = spriteRenderer.flipX;
+                    _explosionRenderer.flipY = spriteRenderer.flipY;
+                }
+            }
+            _explosionRenderer.sprite = stats.destroySprite;
+            _explosionRenderer.enabled = true;
         }
 
         // применим маштаб вспышки, если задан
