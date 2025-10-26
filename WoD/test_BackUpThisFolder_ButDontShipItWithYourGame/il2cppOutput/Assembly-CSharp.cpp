@@ -4240,6 +4240,8 @@ inline Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* GameObject_GetComponentIn
 {
 	return ((  Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B (RaycastHit2D_t3EAAA06E6603C6BC61AC1291DD881C5C1E23BDFA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_TryApplyDamageAtPoint_m62AB235ED68B0F59A4B195C6C3EF86CD0BB98C30 (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_point, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnLocalHitCleanup_m499316B2DAFE4356D08E060F83CA13E0C28938DE (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, const RuntimeMethod* method) ;
@@ -4256,6 +4258,8 @@ inline void AsyncVoidMethodBuilder_Start_TisU3COnArrivedU3Ed__18_t8D0C6BF9CAE1B6
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, U3COnArrivedU3Ed__18_t8D0C6BF9CAE1B6018D9641AEFF71CFD978E3370B**, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisRuntimeObject_m3CA145CBB6CFE8B4ADD6148BF98E85899F95DCEA_gshared)(__this, ___0_stateMachine, method);
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, bool ___1_worldPositionStays, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Renderer_get_sortingLayerID_m3D7AE74F1B87099810CF969CB4520C85F9AE5F92 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_sortingLayerID_m289E44FD06B6692C7B2ADD1189FE4FC013180C49 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, int32_t ___0_value, const RuntimeMethod* method) ;
@@ -4267,7 +4271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_flipY_mB3B2BF1BF87C6B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Projectile_DeathRoutine_m3E5F785FE5DE1036EC76B731F9317DB918C97905 (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeathRoutineU3Ed__21__ctor_m9C2D5993A7088C87B5D5A111D60EE3D75223F0C6 (U3CDeathRoutineU3Ed__21_t469994D1FD8648A4097097671C490DB589ACCBAE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_TryApplyDamageAtPoint_m62AB235ED68B0F59A4B195C6C3EF86CD0BB98C30 (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_point, const RuntimeMethod* method) ;
 inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3COnArrivedU3Ed__18_t8D0C6BF9CAE1B6018D9641AEFF71CFD978E3370B_m99B55EFC1703A462F9DA1FBF2383E595D0B6CE4A (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* __this, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* ___0_awaiter, U3COnArrivedU3Ed__18_t8D0C6BF9CAE1B6018D9641AEFF71CFD978E3370B** ___1_stateMachine, const RuntimeMethod* method)
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3COnArrivedU3Ed__18_t8D0C6BF9CAE1B6018D9641AEFF71CFD978E3370B**, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisRuntimeObject_mA1922A937C96CD00CF28F4FA407EDC0C6C133959_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
@@ -4405,7 +4408,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unit_SetAttacking_mA0DC9102A5265790D913F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Unit_get_FacingDebug_m1B09B78CBF4D888ECC9D2E790248A3BE23C4DF7D (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* UnitAutoAttack_FindClosestEnemyWithin_m641DADB3AAF08A8C4060CFF3C58C6920621014BA (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, float ___0_range, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* DatabaseReference_Push_m167EAF33521AB5504DDF4F6315AFADE24506C7D2 (DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DatabaseReference_get_Key_m73254E3F2780DC8B3027FB26054EAC73EAD88EE8 (DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* __this, const RuntimeMethod* method) ;
@@ -20620,11 +20622,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Update_m6E056CDE2DC25EDBA5DA3
 	int32_t V_11 = 0;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_12 = NULL;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_13 = NULL;
-	bool V_14 = false;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_14;
+	memset((&V_14), 0, sizeof(V_14));
 	bool V_15 = false;
 	bool V_16 = false;
 	bool V_17 = false;
 	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
 	int32_t G_B3_0 = 0;
 	int32_t G_B8_0 = 0;
 	int32_t G_B16_0 = 0;
@@ -20663,7 +20668,7 @@ IL_0018:
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:68>
-		goto IL_023b;
+		goto IL_026b;
 	}
 
 IL_0023:
@@ -20697,7 +20702,7 @@ IL_0034:
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:69>
-		goto IL_023b;
+		goto IL_026b;
 	}
 
 IL_003f:
@@ -20780,7 +20785,7 @@ IL_00dd:
 		bool L_36 = V_8;
 		if (!L_36)
 		{
-			goto IL_01df;
+			goto IL_020f;
 		}
 	}
 	{
@@ -20816,13 +20821,13 @@ IL_0103:
 		bool L_42 = V_10;
 		if (!L_42)
 		{
-			goto IL_01de;
+			goto IL_020e;
 		}
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:91>
 		V_11 = 0;
-		goto IL_01cc;
+		goto IL_01fc;
 	}
 
 IL_0115:
@@ -20867,19 +20872,19 @@ IL_0141:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_52;
 		L_52 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_51, NULL);
-		V_14 = (bool)((((int32_t)L_52) == ((int32_t)0))? 1 : 0);
-		bool L_53 = V_14;
+		V_15 = (bool)((((int32_t)L_52) == ((int32_t)0))? 1 : 0);
+		bool L_53 = V_15;
 		if (!L_53)
 		{
-			goto IL_0155;
+			goto IL_0158;
 		}
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:94>
-		goto IL_01c6;
+		goto IL_01f6;
 	}
 
-IL_0155:
+IL_0158:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:95>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = V_12;
@@ -20892,19 +20897,19 @@ IL_0155:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_57;
 		L_57 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_56, NULL);
-		V_15 = (bool)((((int32_t)L_57) == ((int32_t)0))? 1 : 0);
-		bool L_58 = V_15;
+		V_16 = (bool)((((int32_t)L_57) == ((int32_t)0))? 1 : 0);
+		bool L_58 = V_16;
 		if (!L_58)
 		{
-			goto IL_0170;
+			goto IL_0176;
 		}
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:96>
-		goto IL_01c6;
+		goto IL_01f6;
 	}
 
-IL_0170:
+IL_0176:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:97>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_59 = __this->___owner;
@@ -20913,7 +20918,7 @@ IL_0170:
 		L_60 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_59, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_60)
 		{
-			goto IL_0194;
+			goto IL_019a;
 		}
 	}
 	{
@@ -20924,63 +20929,87 @@ IL_0170:
 		NullCheck(L_63);
 		bool L_64 = L_63->___host;
 		G_B28_0 = ((((int32_t)L_62) == ((int32_t)L_64))? 1 : 0);
-		goto IL_0195;
+		goto IL_019b;
 	}
 
-IL_0194:
+IL_019a:
 	{
 		G_B28_0 = 0;
 	}
 
-IL_0195:
+IL_019b:
 	{
-		V_16 = (bool)G_B28_0;
-		bool L_65 = V_16;
+		V_17 = (bool)G_B28_0;
+		bool L_65 = V_17;
 		if (!L_65)
 		{
-			goto IL_019d;
+			goto IL_01a3;
 		}
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:97>
-		goto IL_01c6;
+		goto IL_01f6;
 	}
 
-IL_019d:
+IL_01a3:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:100>
-		__this->____hitApplied = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:101>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_66 = V_13;
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_67 = __this->___stats;
-		NullCheck(L_67);
-		int32_t L_68 = L_67->___damage;
-		int32_t L_69;
-		L_69 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_68, NULL);
+		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_66 = V_9;
+		int32_t L_67 = V_11;
 		NullCheck(L_66);
-		Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA(L_66, L_69, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_68;
+		L_68 = RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B(((L_66)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_67))), NULL);
+		V_14 = L_68;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:101>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = V_14;
+		Projectile_TryApplyDamageAtPoint_m62AB235ED68B0F59A4B195C6C3EF86CD0BB98C30(__this, L_69, NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:102>
-		Projectile_OnLocalHitCleanup_m499316B2DAFE4356D08E060F83CA13E0C28938DE(__this, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:103>
-		goto IL_023b;
+		bool L_70 = __this->____hitApplied;
+		V_18 = (bool)((((int32_t)L_70) == ((int32_t)0))? 1 : 0);
+		bool L_71 = V_18;
+		if (!L_71)
+		{
+			goto IL_01ed;
+		}
 	}
-
-IL_01c6:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:91>
-		int32_t L_70 = V_11;
-		V_11 = ((int32_t)il2cpp_codegen_add(L_70, 1));
-	}
-
-IL_01cc:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:91>
-		int32_t L_71 = V_11;
-		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_72 = V_9;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:104>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_72 = V_13;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_73 = __this->___stats;
+		NullCheck(L_73);
+		int32_t L_74 = L_73->___damage;
+		int32_t L_75;
+		L_75 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_74, NULL);
 		NullCheck(L_72);
-		V_17 = (bool)((((int32_t)L_71) < ((int32_t)((int32_t)(((RuntimeArray*)L_72)->max_length))))? 1 : 0);
-		bool L_73 = V_17;
-		if (L_73)
+		Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA(L_72, L_75, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:105>
+		__this->____hitApplied = (bool)1;
+	}
+
+IL_01ed:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:107>
+		Projectile_OnLocalHitCleanup_m499316B2DAFE4356D08E060F83CA13E0C28938DE(__this, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:108>
+		goto IL_026b;
+	}
+
+IL_01f6:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:91>
+		int32_t L_76 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01fc:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:91>
+		int32_t L_77 = V_11;
+		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_78 = V_9;
+		NullCheck(L_78);
+		V_19 = (bool)((((int32_t)L_77) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length))))? 1 : 0);
+		bool L_79 = V_19;
+		if (L_79)
 		{
 			goto IL_0115;
 		}
@@ -20988,55 +21017,55 @@ IL_01cc:
 	{
 	}
 
-IL_01de:
+IL_020e:
 	{
 	}
 
-IL_01df:
+IL_020f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:108>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74;
-		L_74 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_75 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76;
-		L_76 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_75, NULL);
-		NullCheck(L_74);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_74, L_76, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:109>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_77;
-		L_77 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_77);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78;
-		L_78 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_77, NULL);
-		__this->____prevPos = L_78;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:111>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79;
-		L_79 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_79);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_80;
-		L_80 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_79, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_81;
-		L_81 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_80, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = __this->___target;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83;
-		L_83 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_82, NULL);
-		float L_84;
-		L_84 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_81, L_83, NULL);
-		V_18 = (bool)((((int32_t)((!(((float)L_84) <= ((float)(0.0199999996f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_85 = V_18;
-		if (!L_85)
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:113>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_80;
+		L_80 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_81 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
+		L_82 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_81, NULL);
+		NullCheck(L_80);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_80, L_82, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:114>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_83;
+		L_83 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_83);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84;
+		L_84 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_83, NULL);
+		__this->____prevPos = L_84;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:116>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_85;
+		L_85 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_85);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86;
+		L_86 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_85, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_87;
+		L_87 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_86, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88 = __this->___target;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_89;
+		L_89 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_88, NULL);
+		float L_90;
+		L_90 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_87, L_89, NULL);
+		V_20 = (bool)((((int32_t)((!(((float)L_90) <= ((float)(0.0199999996f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_91 = V_20;
+		if (!L_91)
 		{
-			goto IL_023b;
+			goto IL_026b;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:113>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:118>
 		Projectile_OnArrived_mE3D6A6445E8A076D71B6B8F4C47EFCFD25B98D4D(__this, NULL);
 	}
 
-IL_023b:
+IL_026b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:115>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:120>
 		return;
 	}
 }
@@ -21138,30 +21167,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_TryApplyDamageAtPoint_m62AB23
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
-	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_1 = NULL;
+	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_0 = NULL;
+	float V_1 = 0.0f;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_2 = NULL;
 	float V_3 = 0.0f;
 	bool V_4 = false;
 	bool V_5 = false;
-	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_6 = NULL;
-	int32_t V_7 = 0;
-	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_8 = NULL;
-	float V_9 = 0.0f;
-	bool V_10 = false;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_11;
-	memset((&V_11), 0, sizeof(V_11));
-	bool V_12 = false;
-	bool V_13 = false;
+	bool V_6 = false;
+	float V_7 = 0.0f;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_10 = NULL;
+	int32_t V_11 = 0;
+	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_12 = NULL;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	int32_t V_15 = 0;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_20 = NULL;
+	int32_t V_21 = 0;
+	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_22 = NULL;
+	float V_23 = 0.0f;
+	bool V_24 = false;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_25;
+	memset((&V_25), 0, sizeof(V_25));
+	bool V_26 = false;
+	bool V_27 = false;
 	int32_t G_B3_0 = 0;
-	float G_B9_0 = 0.0f;
-	float G_B8_0 = 0.0f;
-	float G_B10_0 = 0.0f;
-	float G_B10_1 = 0.0f;
-	int32_t G_B14_0 = 0;
-	int32_t G_B24_0 = 0;
+	int32_t G_B12_0 = 0;
+	int32_t G_B28_0 = 0;
+	int32_t G_B38_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:149>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:154>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0 = __this->___owner;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21195,13 +21235,13 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:149>
-		goto IL_0132;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:154>
+		goto IL_0221;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:150>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:155>
 		bool L_5 = __this->____hitApplied;
 		V_5 = L_5;
 		bool L_6 = V_5;
@@ -21211,217 +21251,384 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:150>
-		goto IL_0132;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:155>
+		goto IL_0221;
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:153>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_7 = __this->___stats;
-		NullCheck(L_7);
-		float L_8 = L_7->___splashRadius;
-		if ((((float)L_8) > ((float)(0.0f))))
-		{
-			G_B9_0 = (0.100000001f);
-			goto IL_0058;
-		}
-		G_B8_0 = (0.100000001f);
-	}
-	{
-		G_B10_0 = (0.300000012f);
-		G_B10_1 = G_B8_0;
-		goto IL_0063;
-	}
-
-IL_0058:
-	{
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_9 = __this->___stats;
-		NullCheck(L_9);
-		float L_10 = L_9->___splashRadius;
-		G_B10_0 = L_10;
-		G_B10_1 = G_B9_0;
-	}
-
-IL_0063:
-	{
-		float L_11;
-		L_11 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(G_B10_1, G_B10_0, NULL);
-		V_0 = L_11;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:155>
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_12;
-		L_12 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
-		V_1 = L_12;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:156>
-		V_2 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:157>
-		V_3 = (std::numeric_limits<float>::infinity());
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:158>
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_13 = V_1;
-		V_6 = L_13;
-		V_7 = 0;
-		goto IL_00ee;
-	}
-
-IL_0082:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:158>
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_14 = V_6;
-		int32_t L_15 = V_7;
-		NullCheck(L_14);
-		int32_t L_16 = L_15;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		V_8 = L_17;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:160>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_18 = V_8;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_18, NULL);
-		if (!L_19)
-		{
-			goto IL_00a9;
-		}
-	}
-	{
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_20 = V_8;
-		NullCheck(L_20);
-		bool L_21 = L_20->___host;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_22 = __this->___owner;
-		NullCheck(L_22);
-		bool L_23 = L_22->___host;
-		G_B14_0 = ((((int32_t)L_21) == ((int32_t)L_23))? 1 : 0);
-		goto IL_00aa;
-	}
-
-IL_00a9:
-	{
-		G_B14_0 = 1;
-	}
-
-IL_00aa:
-	{
-		V_10 = (bool)G_B14_0;
-		bool L_24 = V_10;
-		if (!L_24)
-		{
-			goto IL_00b2;
-		}
-	}
-	{
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_7;
+		L_7 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
+		V_0 = L_7;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:160>
-		goto IL_00e8;
-	}
-
-IL_00b2:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:161>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_25 = V_8;
-		NullCheck(L_25);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
-		L_26 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_25, NULL);
-		NullCheck(L_26);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
-		L_27 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_26, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
-		L_28 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_27, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = ___0_point;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30;
-		L_30 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_28, L_29, NULL);
-		V_11 = L_30;
-		float L_31;
-		L_31 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_11), NULL);
-		V_9 = L_31;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:162>
-		float L_32 = V_9;
-		float L_33 = V_3;
-		V_12 = (bool)((((float)L_32) < ((float)L_33))? 1 : 0);
-		bool L_34 = V_12;
-		if (!L_34)
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_8 = __this->___stats;
+		NullCheck(L_8);
+		float L_9 = L_8->___splashRadius;
+		V_6 = (bool)((((float)L_9) > ((float)(0.0f)))? 1 : 0);
+		bool L_10 = V_6;
+		if (!L_10)
 		{
-			goto IL_00e7;
+			goto IL_0150;
 		}
 	}
 	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:162>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_11 = __this->___stats;
+		NullCheck(L_11);
+		float L_12 = L_11->___splashRadius;
+		float L_13;
+		L_13 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00999999978f), L_12, NULL);
+		V_7 = L_13;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:163>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_14 = __this->___stats;
+		NullCheck(L_14);
+		int32_t L_15 = L_14->___damage;
+		int32_t L_16;
+		L_16 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_15, NULL);
+		V_8 = L_16;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:164>
-		float L_35 = V_9;
-		V_3 = L_35;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:164>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_36 = V_8;
-		V_2 = L_36;
+		V_9 = (bool)0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:165>
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_17 = V_0;
+		V_10 = L_17;
+		V_11 = 0;
+		goto IL_0131;
 	}
 
-IL_00e7:
+IL_0097:
 	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:165>
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_18 = V_10;
+		int32_t L_19 = V_11;
+		NullCheck(L_18);
+		int32_t L_20 = L_19;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		V_12 = L_21;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:167>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_22 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_23;
+		L_23 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_22, NULL);
+		if (!L_23)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_24 = V_12;
+		NullCheck(L_24);
+		bool L_25 = L_24->___host;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_26 = __this->___owner;
+		NullCheck(L_26);
+		bool L_27 = L_26->___host;
+		G_B12_0 = ((((int32_t)L_25) == ((int32_t)L_27))? 1 : 0);
+		goto IL_00bf;
 	}
 
-IL_00e8:
+IL_00be:
 	{
-		int32_t L_37 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+		G_B12_0 = 1;
+	}
+
+IL_00bf:
+	{
+		V_16 = (bool)G_B12_0;
+		bool L_28 = V_16;
+		if (!L_28)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:167>
+		goto IL_012b;
+	}
+
+IL_00c7:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:168>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_29 = V_12;
+		NullCheck(L_29);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_29, NULL);
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
+		L_32 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_31, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = ___0_point;
+		float L_34;
+		L_34 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_32, L_33, NULL);
+		V_13 = L_34;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:169>
+		float L_35 = V_13;
+		float L_36 = V_7;
+		V_17 = (bool)((((float)L_35) > ((float)L_36))? 1 : 0);
+		bool L_37 = V_17;
+		if (!L_37)
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:169>
+		goto IL_012b;
 	}
 
 IL_00ee:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:158>
-		int32_t L_38 = V_7;
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_39 = V_6;
-		NullCheck(L_39);
-		if ((((int32_t)L_38) < ((int32_t)((int32_t)(((RuntimeArray*)L_39)->max_length)))))
-		{
-			goto IL_0082;
-		}
-	}
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:168>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_40 = V_2;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_41;
-		L_41 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_41)
-		{
-			goto IL_010a;
-		}
-	}
-	{
-		float L_42 = V_3;
-		float L_43 = V_0;
-		float L_44 = V_0;
-		G_B24_0 = ((((int32_t)((!(((float)L_42) <= ((float)((float)il2cpp_codegen_multiply(L_43, L_44)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_010b;
-	}
-
-IL_010a:
-	{
-		G_B24_0 = 0;
-	}
-
-IL_010b:
-	{
-		V_13 = (bool)G_B24_0;
-		bool L_45 = V_13;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:170>
+		float L_38 = V_13;
+		float L_39 = V_7;
+		V_14 = ((float)il2cpp_codegen_subtract((1.0f), ((float)(L_38/L_39))));
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:171>
+		int32_t L_40 = V_8;
+		float L_41 = V_14;
+		float L_42;
+		L_42 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_41, NULL);
+		int32_t L_43;
+		L_43 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)il2cpp_codegen_multiply(((float)L_40), L_42)), NULL);
+		V_15 = L_43;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:172>
+		int32_t L_44 = V_15;
+		V_18 = (bool)((((int32_t)((((int32_t)L_44) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_45 = V_18;
 		if (!L_45)
 		{
-			goto IL_0132;
+			goto IL_011d;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:170>
-		__this->____hitApplied = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:171>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_46 = V_2;
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_47 = __this->___stats;
-		NullCheck(L_47);
-		int32_t L_48 = L_47->___damage;
-		int32_t L_49;
-		L_49 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_48, NULL);
-		NullCheck(L_46);
-		Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA(L_46, L_49, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:172>
+		goto IL_012b;
 	}
 
-IL_0132:
+IL_011d:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:173>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_46 = V_12;
+		int32_t L_47 = V_15;
+		NullCheck(L_46);
+		Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA(L_46, L_47, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:174>
+		V_9 = (bool)1;
+	}
+
+IL_012b:
+	{
+		int32_t L_48 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_48, 1));
+	}
+
+IL_0131:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:165>
+		int32_t L_49 = V_11;
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_50 = V_10;
+		NullCheck(L_50);
+		if ((((int32_t)L_49) < ((int32_t)((int32_t)(((RuntimeArray*)L_50)->max_length)))))
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:176>
+		bool L_51 = V_9;
+		V_19 = L_51;
+		bool L_52 = V_19;
+		if (!L_52)
+		{
+			goto IL_014b;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:176>
+		__this->____hitApplied = (bool)1;
+	}
+
+IL_014b:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:177>
+		goto IL_0221;
+	}
+
+IL_0150:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:181>
+		float L_53;
+		L_53 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.100000001f), (0.300000012f), NULL);
+		V_1 = L_53;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:182>
+		V_2 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:183>
+		V_3 = (std::numeric_limits<float>::infinity());
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:184>
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_54 = V_0;
+		V_20 = L_54;
+		V_21 = 0;
+		goto IL_01dd;
+	}
+
+IL_0171:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:184>
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_55 = V_20;
+		int32_t L_56 = V_21;
+		NullCheck(L_55);
+		int32_t L_57 = L_56;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		V_22 = L_58;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:186>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_59 = V_22;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_60;
+		L_60 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_59, NULL);
+		if (!L_60)
+		{
+			goto IL_0198;
+		}
+	}
+	{
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_61 = V_22;
+		NullCheck(L_61);
+		bool L_62 = L_61->___host;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_63 = __this->___owner;
+		NullCheck(L_63);
+		bool L_64 = L_63->___host;
+		G_B28_0 = ((((int32_t)L_62) == ((int32_t)L_64))? 1 : 0);
+		goto IL_0199;
+	}
+
+IL_0198:
+	{
+		G_B28_0 = 1;
+	}
+
+IL_0199:
+	{
+		V_24 = (bool)G_B28_0;
+		bool L_65 = V_24;
+		if (!L_65)
+		{
+			goto IL_01a1;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:186>
+		goto IL_01d7;
+	}
+
+IL_01a1:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:187>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_66 = V_22;
+		NullCheck(L_66);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
+		L_67 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_66, NULL);
+		NullCheck(L_67);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
+		L_68 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_67, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69;
+		L_69 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_68, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_70 = ___0_point;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71;
+		L_71 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_69, L_70, NULL);
+		V_25 = L_71;
+		float L_72;
+		L_72 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_25), NULL);
+		V_23 = L_72;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:188>
+		float L_73 = V_23;
+		float L_74 = V_3;
+		V_26 = (bool)((((float)L_73) < ((float)L_74))? 1 : 0);
+		bool L_75 = V_26;
+		if (!L_75)
+		{
+			goto IL_01d6;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:190>
+		float L_76 = V_23;
+		V_3 = L_76;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:190>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_77 = V_22;
+		V_2 = L_77;
+	}
+
+IL_01d6:
+	{
+	}
+
+IL_01d7:
+	{
+		int32_t L_78 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_01dd:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:184>
+		int32_t L_79 = V_21;
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_80 = V_20;
+		NullCheck(L_80);
+		if ((((int32_t)L_79) < ((int32_t)((int32_t)(((RuntimeArray*)L_80)->max_length)))))
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:193>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_81 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_82;
+		L_82 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_81, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_82)
+		{
+			goto IL_01f9;
+		}
+	}
+	{
+		float L_83 = V_3;
+		float L_84 = V_1;
+		float L_85 = V_1;
+		G_B38_0 = ((((int32_t)((!(((float)L_83) <= ((float)((float)il2cpp_codegen_multiply(L_84, L_85)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_01fa;
+	}
+
+IL_01f9:
+	{
+		G_B38_0 = 0;
+	}
+
+IL_01fa:
+	{
+		V_27 = (bool)G_B38_0;
+		bool L_86 = V_27;
+		if (!L_86)
+		{
+			goto IL_0221;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:195>
+		__this->____hitApplied = (bool)1;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:196>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_87 = V_2;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_88 = __this->___stats;
+		NullCheck(L_88);
+		int32_t L_89 = L_88->___damage;
+		int32_t L_90;
+		L_90 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_89, NULL);
+		NullCheck(L_87);
+		Unit_TakeDamage_m19BB469DBC712D6CBED2D266494FDAE411B473AA(L_87, L_90, NULL);
+	}
+
+IL_0221:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:198>
 		return;
 	}
 }
@@ -21448,7 +21655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_BeginDeath_mD9EF4081CD377314D
 	int32_t G_B7_0 = 0;
 	int32_t G_B16_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:177>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:202>
 		bool L_0 = __this->____dying;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -21458,15 +21665,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_BeginDeath_mD9EF4081CD377314D
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:177>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:202>
 		goto IL_01e0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:178>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:203>
 		__this->____dying = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:181>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:206>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_2 = __this->___spriteRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -21479,7 +21686,7 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:181>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:206>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_5 = __this->___spriteRenderer;
 		NullCheck(L_5);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)0, NULL);
@@ -21487,7 +21694,7 @@ IL_0010:
 
 IL_0034:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:184>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:209>
 		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_6 = __this->___stats;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -21523,7 +21730,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:186>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:211>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_12 = __this->____explosionRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -21536,11 +21743,11 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:188>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:213>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_15, _stringLiteral1C6A610C9202C827AC40C209FCB0201E72DE223A, NULL);
 		V_4 = L_15;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:189>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:214>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_4;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -21549,14 +21756,14 @@ IL_0056:
 		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_17);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_17, L_18, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:190>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:215>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_4;
 		NullCheck(L_19);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_20;
 		L_20 = GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4(L_19, GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4_RuntimeMethod_var);
 		__this->____explosionRenderer = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____explosionRenderer), (void*)L_20);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:191>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:216>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_21 = __this->___spriteRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_22;
@@ -21569,7 +21776,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:193>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:218>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_24 = __this->____explosionRenderer;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_25 = __this->___spriteRenderer;
 		NullCheck(L_25);
@@ -21577,7 +21784,7 @@ IL_0056:
 		L_26 = Renderer_get_sortingLayerID_m3D7AE74F1B87099810CF969CB4520C85F9AE5F92(L_25, NULL);
 		NullCheck(L_24);
 		Renderer_set_sortingLayerID_m289E44FD06B6692C7B2ADD1189FE4FC013180C49(L_24, L_26, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:194>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:219>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_27 = __this->____explosionRenderer;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_28 = __this->___spriteRenderer;
 		NullCheck(L_28);
@@ -21585,7 +21792,7 @@ IL_0056:
 		L_29 = Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA(L_28, NULL);
 		NullCheck(L_27);
 		Renderer_set_sortingOrder_m4C67F002AD68CA0D55D20D6B78CDED3DB24467DA(L_27, ((int32_t)il2cpp_codegen_add(L_29, 1)), NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:195>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:220>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_30 = __this->____explosionRenderer;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_31 = __this->___spriteRenderer;
 		NullCheck(L_31);
@@ -21593,7 +21800,7 @@ IL_0056:
 		L_32 = SpriteRenderer_get_color_mF19DA1B83ABD9A825127D4FBED9A111FE52F1F52(L_31, NULL);
 		NullCheck(L_30);
 		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_30, L_32, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:196>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:221>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_33 = __this->____explosionRenderer;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_34 = __this->___spriteRenderer;
 		NullCheck(L_34);
@@ -21601,7 +21808,7 @@ IL_0056:
 		L_35 = SpriteRenderer_get_flipX_mFD4FA98A1DA2943820C21B3B345A42F1CD2DDC76(L_34, NULL);
 		NullCheck(L_33);
 		SpriteRenderer_set_flipX_m83BEEE8D1241ED712298B171E2AA972875E30A0B(L_33, L_35, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:197>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:222>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_36 = __this->____explosionRenderer;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_37 = __this->___spriteRenderer;
 		NullCheck(L_37);
@@ -21617,14 +21824,14 @@ IL_0128:
 
 IL_0129:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:200>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:225>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_39 = __this->____explosionRenderer;
 		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_40 = __this->___stats;
 		NullCheck(L_40);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_41 = L_40->___destroySprite;
 		NullCheck(L_39);
 		SpriteRenderer_set_sprite_m7B176E33955108C60CAE21DFC153A0FAC674CB53(L_39, L_41, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:201>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:226>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_42 = __this->____explosionRenderer;
 		NullCheck(L_42);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_42, (bool)1, NULL);
@@ -21632,7 +21839,7 @@ IL_0129:
 
 IL_014e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:205>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:230>
 		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_43 = __this->___stats;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_44;
@@ -21669,7 +21876,7 @@ IL_0174:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:207>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:232>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
 		L_50 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_51 = __this->___stats;
@@ -21689,7 +21896,7 @@ IL_0174:
 
 IL_01b2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:210>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:235>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_58 = __this->____deathRoutine;
 		V_7 = (bool)((!(((RuntimeObject*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)L_58) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_59 = V_7;
@@ -21699,14 +21906,14 @@ IL_01b2:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:210>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:235>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_60 = __this->____deathRoutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_60, NULL);
 	}
 
 IL_01ce:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:211>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:236>
 		RuntimeObject* L_61;
 		L_61 = Projectile_DeathRoutine_m3E5F785FE5DE1036EC76B731F9317DB918C97905(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_62;
@@ -21717,7 +21924,7 @@ IL_01ce:
 
 IL_01e0:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:212>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:237>
 		return;
 	}
 }
@@ -21833,7 +22040,7 @@ IL_0016:
 IL_0018:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:216>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:241>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_4 = L_3->___stats;
@@ -21883,7 +22090,7 @@ IL_0062:
 	{
 		NullCheck(G_B11_1);
 		G_B11_1->___U3CdurU3E5__1 = G_B11_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:217>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:242>
 		float L_12 = __this->___U3CdurU3E5__1;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_13 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_13, L_12, NULL);
@@ -21896,7 +22103,7 @@ IL_0062:
 IL_0081:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:218>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:243>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_14 = __this->___U3CU3E4__this;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -21909,7 +22116,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:218>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:243>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_17 = __this->___U3CU3E4__this;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
@@ -21920,7 +22127,7 @@ IL_0081:
 
 IL_00a8:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:219>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:244>
 		return (bool)0;
 	}
 }
@@ -22007,7 +22214,7 @@ IL_000c_1:
 
 IL_0011_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:128>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:133>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_2 = __this->___U3CU3E4__this;
 			NullCheck(L_2);
 			bool L_3 = L_2->___createdByLocal;
@@ -22019,7 +22226,7 @@ IL_0011_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:130>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:135>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_5 = __this->___U3CU3E4__this;
 			NullCheck(L_5);
 			bool L_6 = L_5->____hitApplied;
@@ -22031,7 +22238,7 @@ IL_0011_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:132>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:137>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_8 = __this->___U3CU3E4__this;
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_9 = __this->___U3CU3E4__this;
 			NullCheck(L_9);
@@ -22044,7 +22251,7 @@ IL_0011_1:
 
 IL_0055_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:134>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:139>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_12 = __this->___U3CU3E4__this;
 			NullCheck(L_12);
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_13 = L_12->___projRef;
@@ -22056,7 +22263,7 @@ IL_0055_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:136>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:141>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_15 = __this->___U3CU3E4__this;
 			NullCheck(L_15);
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_16 = L_15->___projRef;
@@ -22105,7 +22312,7 @@ IL_00cb_1:
 
 IL_00d4_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:138>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:143>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_26 = __this->___U3CU3E4__this;
 			NullCheck(L_26);
 			Projectile_BeginDeath_mD9EF4081CD377314D71D0E7D32D11CF535E3D584(L_26, NULL);
@@ -22114,7 +22321,7 @@ IL_00d4_1:
 
 IL_00e3_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:143>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:148>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_27 = __this->___U3CU3E4__this;
 			NullCheck(L_27);
 			Projectile_BeginDeath_mD9EF4081CD377314D71D0E7D32D11CF535E3D584(L_27, NULL);
@@ -22149,7 +22356,7 @@ CATCH_00f3:
 
 IL_010d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:145>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:150>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_31 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_31, NULL);
@@ -22223,7 +22430,7 @@ IL_000c_1:
 
 IL_000e_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:119>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:124>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_2 = __this->___U3CU3E4__this;
 			NullCheck(L_2);
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_3 = L_2->___projRef;
@@ -22235,7 +22442,7 @@ IL_000e_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:121>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:126>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_5 = __this->___U3CU3E4__this;
 			NullCheck(L_5);
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_6 = L_5->___projRef;
@@ -22284,7 +22491,7 @@ IL_0081_1:
 
 IL_008a_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:123>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:128>
 			Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_16 = __this->___U3CU3E4__this;
 			NullCheck(L_16);
 			Projectile_BeginDeath_mD9EF4081CD377314D71D0E7D32D11CF535E3D584(L_16, NULL);
@@ -22315,7 +22522,7 @@ CATCH_0098:
 
 IL_00b2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:124>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/Projectile.cs:129>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_20 = (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*)(&__this->___U3CU3Et__builder);
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_20, NULL);
@@ -28144,6 +28351,79 @@ IL_002e:
 		return L_13;
 	}
 }
+// Method Definition Index: 47666
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 47662
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = bankers_round(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
 // Method Definition Index: 47717
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
@@ -28416,54 +28696,6 @@ IL_0030:
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		return L_13;
-	}
-}
-// Method Definition Index: 47666
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	float V_1 = 0.0f;
-	bool V_2 = false;
-	{
-		float L_0 = ___0_value;
-		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		V_1 = (0.0f);
-		goto IL_002d;
-	}
-
-IL_0015:
-	{
-		float L_2 = ___0_value;
-		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
-		bool L_3 = V_2;
-		if (!L_3)
-		{
-			goto IL_0029;
-		}
-	}
-	{
-		V_1 = (1.0f);
-		goto IL_002d;
-	}
-
-IL_0029:
-	{
-		float L_4 = ___0_value;
-		V_1 = L_4;
-		goto IL_002d;
-	}
-
-IL_002d:
-	{
-		float L_5 = V_1;
-		return L_5;
 	}
 }
 // Method Definition Index: 47449

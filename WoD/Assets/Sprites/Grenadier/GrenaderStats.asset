@@ -15,8 +15,8 @@ MonoBehaviour:
   unitType: 1
   health: 100
   damage: 10
-  attackRange: 4
-  moveSpeed: 2.5
+  attackRange: 20
+  moveSpeed: 5
   fireRate: 1
   accuracy: 0.9
   accuracySpread: 0.3

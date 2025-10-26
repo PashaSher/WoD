@@ -85,7 +85,7 @@ public class Projectile : MonoBehaviour
         if (createdByLocal)
         {
             // Sweep linecast from previous to next pos; check any enemy Unit collider
-            var hits = Physics2D.LinecastAll(from, to);
+			var hits = Physics2D.LinecastAll(from, to);
             if (hits != null && hits.Length > 0)
             {
                 for (int i = 0; i < hits.Length; i++)
@@ -96,10 +96,15 @@ public class Projectile : MonoBehaviour
                     if (!unitHit) continue;
                     if (owner != null && unitHit.host == owner.host) continue; // ignore friendlies
 
-                    // Apply damage and destroy projectile
-                    _hitApplied = true; // помечаем до нанесения, чтобы исключить двойное срабатывание
-                    unitHit.TakeDamage(Mathf.Max(1, stats.damage));
-                    OnLocalHitCleanup();
+					// Apply damage centered at impact point; if AoE didn't hit anyone, ensure direct hit gets damage
+					Vector2 impactPoint = hits[i].point;
+					TryApplyDamageAtPoint(impactPoint);
+					if (!_hitApplied)
+					{
+						unitHit.TakeDamage(Mathf.Max(1, stats.damage));
+						_hitApplied = true;
+					}
+					OnLocalHitCleanup();
                     return;
                 }
             }
@@ -144,32 +149,52 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    private void TryApplyDamageAtPoint(Vector2 point)
+	private void TryApplyDamageAtPoint(Vector2 point)
     {
         if (owner == null || stats == null) return;
         if (_hitApplied) return; // уже нанесли урон ранее
 
-        // простая проверка попадания: найти ближайший вражеский Unit в небольшом радиусе
-        float hitRadius = Mathf.Max(0.1f, stats.splashRadius > 0 ? stats.splashRadius : 0.3f);
+		var all = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
 
-        var all = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
-        Unit best = null;
-        float bestSqr = float.PositiveInfinity;
-        foreach (var u in all)
-        {
-            if (!u || u.host == owner.host) continue; // только враги
-            float sqr = ((Vector2)u.transform.position - point).sqrMagnitude;
-            if (sqr < bestSqr)
-            {
-                bestSqr = sqr; best = u;
-            }
-        }
+		// Если splashRadius > 0 — наносим урон всем врагам в радиусе с линейным затуханием
+		if (stats.splashRadius > 0f)
+		{
+			float radius = Mathf.Max(0.01f, stats.splashRadius);
+			int baseDamage = Mathf.Max(1, stats.damage);
+			bool anyHit = false;
+			foreach (var u in all)
+			{
+				if (!u || u.host == owner.host) continue;
+				float dist = Vector2.Distance((Vector2)u.transform.position, point);
+				if (dist > radius) continue;
+				float t = 1f - (dist / radius); // 1 в центре, 0 на краю
+				int dmg = Mathf.RoundToInt(baseDamage * Mathf.Clamp01(t));
+				if (dmg <= 0) continue;
+				u.TakeDamage(dmg);
+				anyHit = true;
+			}
+			if (anyHit) _hitApplied = true;
+			return;
+		}
 
-        if (best != null && bestSqr <= hitRadius * hitRadius)
-        {
-            _hitApplied = true;
-            best.TakeDamage(Mathf.Max(1, stats.damage));
-        }
+		// Иначе — поведение как раньше: один ближайший в малом радиусе
+		float hitRadius = Mathf.Max(0.1f, 0.3f);
+		Unit best = null;
+		float bestSqr = float.PositiveInfinity;
+		foreach (var u in all)
+		{
+			if (!u || u.host == owner.host) continue; // только враги
+			float sqr = ((Vector2)u.transform.position - point).sqrMagnitude;
+			if (sqr < bestSqr)
+			{
+				bestSqr = sqr; best = u;
+			}
+		}
+		if (best != null && bestSqr <= hitRadius * hitRadius)
+		{
+			_hitApplied = true;
+			best.TakeDamage(Mathf.Max(1, stats.damage));
+		}
     }
 
     public void BeginDeath()
