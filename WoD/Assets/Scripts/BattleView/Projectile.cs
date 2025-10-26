@@ -26,6 +26,8 @@ public class Projectile : MonoBehaviour
     private bool createdByLocal;  // чтобы только создатель удалял узел
     private Vector3 _prevPos;
     private bool _hitApplied;     // единичное нанесение урона этим снарядом
+    private bool _dying;          // запущена анимация уничтожения
+    private Coroutine _deathRoutine;
 
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
@@ -63,13 +65,21 @@ public class Projectile : MonoBehaviour
     private void Update()
     {
         if (!initialized || stats == null) return;
-        if (_hitApplied) return; // уже нанесли урон — ждём уничтожения
+        if (_hitApplied || _dying) return; // уже нанесли урон/умираем — не двигаемся
 
         float step = stats.speed * Time.deltaTime;
 
         // Continuous collision check along movement path
         Vector2 from = _prevPos;
         Vector2 to   = Vector2.MoveTowards((Vector2)transform.position, (Vector2)target, step);
+
+        // Поворот по направлению движения
+        Vector2 dir = to - (Vector2)transform.position;
+        if (dir.sqrMagnitude > 0.0001f)
+        {
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
 
         if (createdByLocal)
         {
@@ -109,7 +119,7 @@ public class Projectile : MonoBehaviour
         {
             await projRef.RemoveValueAsync();
         }
-        if (this) Destroy(gameObject);
+        BeginDeath();
     }
 
     private async void OnArrived()
@@ -124,12 +134,12 @@ public class Projectile : MonoBehaviour
             {
                 await projRef.RemoveValueAsync();
             }
-            if (this) Destroy(gameObject);
+            BeginDeath();
         }
         else
         {
             // Не владелец: ждём удаление с RTDB, но если уже прибыли — просто уничтожим локально
-            if (this) Destroy(gameObject);
+            BeginDeath();
         }
     }
 
@@ -159,6 +169,34 @@ public class Projectile : MonoBehaviour
             _hitApplied = true;
             best.TakeDamage(Mathf.Max(1, stats.damage));
         }
+    }
+
+    public void BeginDeath()
+    {
+        if (_dying) return;
+        _dying = true;
+
+        // поменяем спрайт на разрушение, если задан
+        if (spriteRenderer != null && stats != null && stats.destroySprite != null)
+        {
+            spriteRenderer.sprite = stats.destroySprite;
+        }
+
+        // применим маштаб вспышки, если задан
+        if (stats != null && stats.destroyScale != Vector2.zero)
+        {
+            transform.localScale = new Vector3(stats.destroyScale.x, stats.destroyScale.y, 1f);
+        }
+
+        if (_deathRoutine != null) StopCoroutine(_deathRoutine);
+        _deathRoutine = StartCoroutine(DeathRoutine());
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        float dur = (stats != null && stats.destroyDuration > 0f) ? stats.destroyDuration : 1f;
+        yield return new WaitForSeconds(dur);
+        if (this) Destroy(gameObject);
     }
 }
 

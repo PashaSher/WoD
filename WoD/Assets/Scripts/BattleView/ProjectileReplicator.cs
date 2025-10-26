@@ -104,6 +104,9 @@ public class ProjectileReplicator : MonoBehaviour
         if (ownerUnit != null && ownerUnit.projectileStats != null)
         {
             ps.sprite = ownerUnit.projectileStats.sprite;
+            ps.destroySprite = ownerUnit.projectileStats.destroySprite;
+            ps.destroyDuration = ownerUnit.projectileStats.destroyDuration;
+            ps.destroyScale = ownerUnit.projectileStats.destroyScale;
         }
         proj.Init(ownerUnit, ps, key, start, target, createdByLocal: false);
         // Привяжем ссылку прямо к снапшоту, чтобы корректно удалять из нужной ветки
@@ -128,7 +131,7 @@ public class ProjectileReplicator : MonoBehaviour
         string dictKey = branchMark + ":" + key;
         if (spawned.TryGetValue(dictKey, out var proj) && proj)
         {
-            Destroy(proj.gameObject);
+            proj.BeginDeath();
         }
         spawned.Remove(dictKey);
     }

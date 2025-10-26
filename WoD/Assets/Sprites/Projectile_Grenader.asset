@@ -17,5 +17,8 @@ MonoBehaviour:
   splashRadius: 1.2
   speed: 6
   maxLifetime: 5
-  sprite: {fileID: 2208703988740019828, guid: 18cb2cb6ec6d55743a99f44d0447ea83, type: 3}
+  sprite: {fileID: -9158349384845336690, guid: d00d643fe52150c458fd523aad147e04, type: 3}
   scale: {x: 0.1, y: 0.1}
+  destroySprite: {fileID: 7664296598191266847, guid: 83a60068f62517144823b724a6682a87, type: 3}
+  destroyDuration: 1
+  destroyScale: {x: 3, y: 3}
