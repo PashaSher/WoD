@@ -72,6 +72,8 @@ struct Func_2_tAD0F67F96B644A88BC636D784945F464F6BCFBD0;
 struct Func_2_tACBF5A1656250800CE861707354491F0611F6624;
 struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
 struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
 struct IDictionary_2_t79D4ADB15B238AC117DF72982FEA3C42EF5AFA19;
 struct IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
@@ -104,6 +106,7 @@ struct EntryU5BU5D_t233BB24ED01E2D8D65B0651D54B8E3AD125CAF96;
 struct EntryU5BU5D_t18E79DAF7B7BB9FEFC0A92340264DA3A14E78928;
 struct EntryU5BU5D_tE979F36435D2C2F6995C4BAEF9FFDDC288E5B1DF;
 struct EntryU5BU5D_t3692EF5672C5B9F9679D183FDBF6E9A15209145F;
+struct SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01;
 struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
 struct AnimatorControllerParameterU5BU5D_tAB05125F5DC0D98F59351CD7D8C9880DFFA8EA21;
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
@@ -217,6 +220,7 @@ struct Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F;
 struct RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B;
 struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
@@ -321,6 +325,7 @@ IL2CPP_EXTERN_C RuntimeClass* Func_2_tAD0F67F96B644A88BC636D784945F464F6BCFBD0_i
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameSession_t6C93A96218B360AC6AFFE5E83F30689A335EACD8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var;
@@ -331,6 +336,7 @@ IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ServerValue_tD8EF977A99440BD3EEFECB8B210861E48969EF0D_il2cpp_TypeInfo_var;
@@ -613,6 +619,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInParent_TisUnit_tCA
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m4E55076EEF01E4032CD67ED37A440189B16F811E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m009953BF1EF11DA402DBE7D7AF656029634DEC4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
@@ -732,6 +742,17 @@ struct Dictionary_2_tEB1B60F54785D5FB7FF29965DEAB9C7C238A6658  : public RuntimeO
 	ValueCollection_t451F4238C4D0D3E22B15F3F76579D2443D804684* ____values;
 	RuntimeObject* ____syncRoot;
 };
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	SlotU5BU5D_t8B8EE191EEC1575F1F0CAC91A208DBFDF2821D01* ____slots;
+	int32_t ____count;
+	int32_t ____lastIndex;
+	int32_t ____freeList;
+	RuntimeObject* ____comparer;
+	int32_t ____version;
+	SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ____siInfo;
+};
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
@@ -789,6 +810,9 @@ struct MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C  : public RuntimeOb
 struct OnDisconnect_tB41435AF10CF427F7806035DE048E2A878B3530C  : public RuntimeObject
 {
 	DisconnectionHandler_t4B4887C6D038D143D1771CBC625DA938CF5781F7* ___internalHandler;
+};
+struct ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637  : public RuntimeObject
+{
 };
 struct Query_tA5BE8BD73821BF548F4FC7A3E4BE684B0CCC31ED  : public RuntimeObject
 {
@@ -3026,6 +3050,11 @@ struct Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields
 {
 	bool ___ifHost;
 };
+struct ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields
+{
+	Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* ____byKey;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ____createdLocally;
+};
 struct ServerValue_tD8EF977A99440BD3EEFECB8B210861E48969EF0D_StaticFields
 {
 	RuntimeObject* ___Timestamp;
@@ -3511,11 +3540,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mC14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Nullable_1_get_Value_mE3B978271FFA8D9DEE17BFB34320A3C67BE148EA_gshared (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInParent_TisRuntimeObject_mDD9FD68B12361AC472D4A83310CAD793C02C6654_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptableObject_CreateInstance_TisRuntimeObject_mC07BE383F5EF546F4191035A679930852BC19BDA_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_mF1D84C0A2829DDA2A0CEE1D82A5B999B5F6627CB_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptableObject_CreateInstance_TisRuntimeObject_mC07BE383F5EF546F4191035A679930852BC19BDA_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_gshared (Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75* __this, float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_gshared_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Nullable_1_get_Value_m47B6E93739E8A6B3D44D7C08DC7D385D35F0D1F7_gshared (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) ;
@@ -4280,6 +4313,38 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661A
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3COnLocalHitCleanupU3Ed__17_tB4BB859401FDAD8C59F69784A7F97D7D4E00D781**, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisRuntimeObject_mA1922A937C96CD00CF28F4FA407EDC0C6C133959_gshared)(__this, ___0_awaiter, ___1_stateMachine, method);
 }
+inline bool Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+inline void Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___0_item, method);
+}
+inline bool HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___0_item, method);
+}
+inline bool Dictionary_2_Remove_mC02315C9D827F480B2ECA60232E34336C7E2BA4E (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
+}
+inline bool HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Remove_mF1D84C0A2829DDA2A0CEE1D82A5B999B5F6627CB_gshared)(__this, ___0_item, method);
+}
+inline void Dictionary_2__ctor_m6F13F02833FEB149D2033CD455837974F4059897 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
+{
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_TryResolveSession_m2766957FEF81F98A7994F9A9ED5C4EAA5C57ADE4 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Attach_m7A14B4DAC015C32A4842DC514879ADED0E6BB1D0 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Detach_mC69D13936BB765FB3E78F941D5EA02975C19A8F7 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) ;
@@ -4292,10 +4357,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Query_add_ChildRemoved_m2CE4C2E5AE20B78B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Query_remove_ChildAdded_mC9A4253858DD7FC68F2A63736DA2F77399C8BFEA (Query_tA5BE8BD73821BF548F4FC7A3E4BE684B0CCC31ED* __this, EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Query_remove_ChildRemoved_m6CF252AC8F4AD2C39DEDA588447E788E3AB11A3F (Query_tA5BE8BD73821BF548F4FC7A3E4BE684B0CCC31ED* __this, EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ChildChangedEventArgs_get_Snapshot_m100ACE866E445C613AEC004CF99B9EED54C6F270_inline (ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* __this, const RuntimeMethod* method) ;
-inline bool Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProjectileReplicator_ToFloat_m1A3C3425BB9B34717940CB7C41D7AD0FA88949AE (RuntimeObject* ___0_v, float ___1_def, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProjectileReplicator_ToInt_m9C04C1AC855AB617EF0656309D119118D6A65D48 (RuntimeObject* ___0_v, int32_t ___1_def, const RuntimeMethod* method) ;
@@ -4311,10 +4372,6 @@ inline ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* ScriptableObje
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* ___0_owner, ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* ___1_stats, String_t* ___2_key, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_startPos, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___4_targetPos, bool ___5_createdByLocal, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* DataSnapshot_get_Reference_m7B8241546F69D94F9F60B5AEC9E78F1EA621F442 (DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_BindRef_mED1788ACF69C1DD42E41B7AE9EE22C9BEDC169B8 (Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* __this, DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* ___0_projRef, const RuntimeMethod* method) ;
-inline void Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* ___1_value, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
-}
 inline MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* Component_GetComponent_TisMuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938_m1CA14876860F75F5E44ABDA609F9596FE5BC18CA (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -4328,16 +4385,8 @@ inline bool Dictionary_2_TryGetValue_m97E71823A3738B3F496D3A8BA1CF770D39F389C2 (
 {
 	return ((  bool (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6**, const RuntimeMethod*))Dictionary_2_TryGetValue_mD15380A4ED7CDEE99EA45881577D26BA9CE1B849_gshared)(__this, ___0_key, ___1_value, method);
 }
-inline bool Dictionary_2_Remove_mC02315C9D827F480B2ECA60232E34336C7E2BA4E (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, String_t* ___0_key, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Convert_ToSingle_m6B47C78A7DFD7825B4361BCA8AB6748FC82165E9 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_m9FEA65DB96264479B5268014F10754787382D297 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
-inline void Dictionary_2__ctor_m6F13F02833FEB149D2033CD455837974F4059897 (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* __this, const RuntimeMethod* method)
-{
-	((  void (*) (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
-}
 inline Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
@@ -22549,6 +22598,282 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnLocalHitCleanupU3Ed__17_SetStateMac
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 69473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProjectileRegistry_Contains_m936A29B79ABAE0EC732EF6B52D46FA1A2EE284FC (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:10>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_2 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____byKey;
+		String_t* L_3 = ___0_key;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8(L_2, L_3, Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8_RuntimeMethod_var);
+		G_B3_0 = ((int32_t)(L_4));
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:11>
+		bool L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 69474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileRegistry_Register_mCE288FF58982C55DA196AC64E9AC1F5236516087 (String_t* ___0_key, Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* ___1_projectile, bool ___2_createdLocally, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:15>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_2 = ___1_projectile;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0013;
+	}
+
+IL_0012:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0013:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:15>
+		goto IL_0037;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:16>
+		il2cpp_codegen_runtime_class_init_inline(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_5 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____byKey;
+		String_t* L_6 = ___0_key;
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_7 = ___1_projectile;
+		NullCheck(L_5);
+		Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694(L_5, L_6, L_7, Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694_RuntimeMethod_var);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:17>
+		bool L_8 = ___2_createdLocally;
+		V_1 = L_8;
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:17>
+		il2cpp_codegen_runtime_class_init_inline(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_10 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____createdLocally;
+		String_t* L_11 = ___0_key;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_10, L_11, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 69475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProjectileRegistry_WasCreatedLocally_m2AF541E986285C7F13325AE57CB0FC6AF705BB36 (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:22>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_2 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____createdLocally;
+		String_t* L_3 = ___0_key;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853(L_2, L_3, HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
+		G_B3_0 = ((int32_t)(L_4));
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:23>
+		bool L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 69476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileRegistry_Unregister_mB3F790B237ACF3741B9B0A88FF54F39523A8D75A (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_mC02315C9D827F480B2ECA60232E34336C7E2BA4E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:27>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:27>
+		goto IL_0025;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:28>
+		il2cpp_codegen_runtime_class_init_inline(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_3 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____byKey;
+		String_t* L_4 = ___0_key;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_Remove_mC02315C9D827F480B2ECA60232E34336C7E2BA4E(L_3, L_4, Dictionary_2_Remove_mC02315C9D827F480B2ECA60232E34336C7E2BA4E_RuntimeMethod_var);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:29>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_6 = ((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____createdLocally;
+		String_t* L_7 = ___0_key;
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA(L_6, L_7, HashSet_1_Remove_m97303C08928AB7A9364E7908F34670D92348D9DA_RuntimeMethod_var);
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 69477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileRegistry__cctor_m731AC17D0F657BBA6DF93412A0C13572A89F5F96 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m6F13F02833FEB149D2033CD455837974F4059897_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:5>
+		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_0 = (Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683*)il2cpp_codegen_object_new(Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m6F13F02833FEB149D2033CD455837974F4059897(L_0, Dictionary_2__ctor_m6F13F02833FEB149D2033CD455837974F4059897_RuntimeMethod_var);
+		((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____byKey = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____byKey), (void*)L_0);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileRegistry.cs:6>
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_1, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
+		((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____createdLocally = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields*)il2cpp_codegen_static_fields_for(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_il2cpp_TypeInfo_var))->____createdLocally), (void*)L_1);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 69478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Awake_mCD1B611BACB457EDBA5C4391D97AE30596AA5D3E (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22558,7 +22883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Awake_mCD1B611BACB4
 		return;
 	}
 }
-// Method Definition Index: 69474
+// Method Definition Index: 69479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnEnable_mEE4FB86E723CEDA85918FBBE18E861B81BFA4974 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22568,7 +22893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnEnable_mEE4FB86E7
 		return;
 	}
 }
-// Method Definition Index: 69475
+// Method Definition Index: 69480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnDisable_mF0F4D9DA26C1C06AD402B188F345D9234DCF082C (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22578,7 +22903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnDisable_mF0F4D9DA
 		return;
 	}
 }
-// Method Definition Index: 69476
+// Method Definition Index: 69481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_TryResolveSession_m2766957FEF81F98A7994F9A9ED5C4EAA5C57ADE4 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22643,7 +22968,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 69477
+// Method Definition Index: 69482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Attach_m7A14B4DAC015C32A4842DC514879ADED0E6BB1D0 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22748,7 +23073,7 @@ IL_00cb:
 		return;
 	}
 }
-// Method Definition Index: 69478
+// Method Definition Index: 69483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_Detach_mC69D13936BB765FB3E78F941D5EA02975C19A8F7 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22824,7 +23149,7 @@ IL_008d:
 		return;
 	}
 }
-// Method Definition Index: 69479
+// Method Definition Index: 69484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildAdded_m9E88DC900E98B8319B9CB235EC3DE1603383655E (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, RuntimeObject* ___0_sender, ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* ___1_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22872,15 +23197,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildAdded_m9E88D
 	float V_10 = 0.0f;
 	float V_11 = 0.0f;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_12 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_13 = NULL;
-	Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* V_14 = NULL;
-	ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* V_15 = NULL;
-	MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* V_16 = NULL;
-	bool V_17 = false;
+	bool V_13 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_14 = NULL;
+	Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* V_15 = NULL;
+	ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* V_16 = NULL;
+	MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* V_17 = NULL;
 	bool V_18 = false;
 	bool V_19 = false;
 	bool V_20 = false;
 	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
 	int32_t G_B3_0 = 0;
 	String_t* G_B9_0 = NULL;
 	String_t* G_B11_0 = NULL;
@@ -22891,9 +23218,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildAdded_m9E88D
 	String_t* G_B16_0 = NULL;
 	ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* G_B16_1 = NULL;
 	int32_t G_B19_0 = 0;
-	MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* G_B24_0 = NULL;
-	int32_t G_B27_0 = 0;
-	int32_t G_B30_0 = 0;
+	int32_t G_B24_0 = 0;
+	MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* G_B29_0 = NULL;
+	int32_t G_B32_0 = 0;
+	int32_t G_B35_0 = 0;
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:78>
 		ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* L_0 = ___1_e;
@@ -22924,8 +23252,8 @@ IL_0016:
 
 IL_0017:
 	{
-		V_18 = (bool)G_B3_0;
-		bool L_5 = V_18;
+		V_19 = (bool)G_B3_0;
+		bool L_5 = V_19;
 		if (!L_5)
 		{
 			goto IL_0022;
@@ -22933,7 +23261,7 @@ IL_0017:
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:78>
-		goto IL_02fc;
+		goto IL_0327;
 	}
 
 IL_0022:
@@ -22996,8 +23324,8 @@ IL_004e:
 		NullCheck(L_15);
 		bool L_17;
 		L_17 = Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8(L_15, L_16, Dictionary_2_ContainsKey_m1869089F9AC7B75BE93D2B8239C036447389F1C8_RuntimeMethod_var);
-		V_19 = L_17;
-		bool L_18 = V_19;
+		V_20 = L_17;
+		bool L_18 = V_20;
 		if (!L_18)
 		{
 			goto IL_0073;
@@ -23005,7 +23333,7 @@ IL_004e:
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:82>
-		goto IL_02fc;
+		goto IL_0327;
 	}
 
 IL_0073:
@@ -23155,254 +23483,297 @@ IL_01a7:
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_64;
 		L_64 = ProjectileReplicator_FindOwnerUnit_m60B23C321B1F2FB5CAA469E2EAD9BE9E6B6CB2B0(G_B16_1, G_B16_0, NULL);
 		V_12 = L_64;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:96>
-		String_t* L_65 = V_1;
-		String_t* L_66;
-		L_66 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral14394A2E99DD0A5CF19DD42D9EFA65E6F275BCFC, L_65, NULL);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
-		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_67, L_66, NULL);
-		V_13 = L_67;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:97>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = V_13;
-		NullCheck(L_68);
-		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_69;
-		L_69 = GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141(L_68, GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141_RuntimeMethod_var);
-		V_14 = L_69;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:100>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_70;
-		L_70 = ScriptableObject_CreateInstance_TisProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC_mC992C326647E6C9731EEEB94FA016089F2C4C27E(ScriptableObject_CreateInstance_TisProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC_mC992C326647E6C9731EEEB94FA016089F2C4C27E_RuntimeMethod_var);
-		V_15 = L_70;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:101>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_71 = V_15;
-		float L_72 = V_6;
-		NullCheck(L_71);
-		L_71->___speed = L_72;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:101>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_73 = V_15;
-		int32_t L_74 = V_7;
-		NullCheck(L_73);
-		L_73->___damage = L_74;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:101>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_75 = V_15;
-		int32_t L_76 = V_8;
-		NullCheck(L_75);
-		L_75->___penetration = L_76;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:101>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_77 = V_15;
-		float L_78 = V_9;
-		NullCheck(L_77);
-		L_77->___splashRadius = L_78;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:102>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_79 = V_15;
-		float L_80 = V_10;
-		float L_81 = V_11;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_82;
-		memset((&L_82), 0, sizeof(L_82));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_82), L_80, L_81, NULL);
-		NullCheck(L_79);
-		L_79->___scale = L_82;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:104>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_83 = V_12;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:99>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_65 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_84;
-		L_84 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_83, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_84)
+		bool L_66;
+		L_66 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_65, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_66)
 		{
-			goto IL_021d;
+			goto IL_01c8;
 		}
 	}
 	{
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_85 = V_12;
-		NullCheck(L_85);
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_86 = L_85->___projectileStats;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_87;
-		L_87 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_86, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		G_B19_0 = ((int32_t)(L_87));
-		goto IL_021e;
+		bool L_67 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_68 = V_12;
+		NullCheck(L_68);
+		bool L_69 = L_68->___host;
+		G_B19_0 = ((((int32_t)L_67) == ((int32_t)L_69))? 1 : 0);
+		goto IL_01c9;
 	}
 
-IL_021d:
+IL_01c8:
 	{
 		G_B19_0 = 0;
 	}
 
-IL_021e:
+IL_01c9:
 	{
-		V_20 = (bool)G_B19_0;
-		bool L_88 = V_20;
-		if (!L_88)
+		V_13 = (bool)G_B19_0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:100>
+		bool L_70 = V_13;
+		V_21 = L_70;
+		bool L_71 = V_21;
+		if (!L_71)
 		{
-			goto IL_0272;
+			goto IL_01d9;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:106>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_89 = V_15;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_90 = V_12;
-		NullCheck(L_90);
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_91 = L_90->___projectileStats;
-		NullCheck(L_91);
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_92 = L_91->___sprite;
-		NullCheck(L_89);
-		L_89->___sprite = L_92;
-		Il2CppCodeGenWriteBarrier((void**)(&L_89->___sprite), (void*)L_92);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:107>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_93 = V_15;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_94 = V_12;
-		NullCheck(L_94);
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_95 = L_94->___projectileStats;
-		NullCheck(L_95);
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_96 = L_95->___destroySprite;
-		NullCheck(L_93);
-		L_93->___destroySprite = L_96;
-		Il2CppCodeGenWriteBarrier((void**)(&L_93->___destroySprite), (void*)L_96);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:102>
+		goto IL_0327;
+	}
+
+IL_01d9:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:104>
+		String_t* L_72 = V_1;
+		String_t* L_73;
+		L_73 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral14394A2E99DD0A5CF19DD42D9EFA65E6F275BCFC, L_72, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_74 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_74, L_73, NULL);
+		V_14 = L_74;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:105>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = V_14;
+		NullCheck(L_75);
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_76;
+		L_76 = GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141(L_75, GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141_RuntimeMethod_var);
+		V_15 = L_76;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:108>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_97 = V_15;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_98 = V_12;
-		NullCheck(L_98);
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_99 = L_98->___projectileStats;
-		NullCheck(L_99);
-		float L_100 = L_99->___destroyDuration;
-		NullCheck(L_97);
-		L_97->___destroyDuration = L_100;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_77;
+		L_77 = ScriptableObject_CreateInstance_TisProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC_mC992C326647E6C9731EEEB94FA016089F2C4C27E(ScriptableObject_CreateInstance_TisProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC_mC992C326647E6C9731EEEB94FA016089F2C4C27E_RuntimeMethod_var);
+		V_16 = L_77;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:109>
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_101 = V_15;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_102 = V_12;
-		NullCheck(L_102);
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_103 = L_102->___projectileStats;
-		NullCheck(L_103);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_104 = L_103->___destroyScale;
-		NullCheck(L_101);
-		L_101->___destroyScale = L_104;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_78 = V_16;
+		float L_79 = V_6;
+		NullCheck(L_78);
+		L_78->___speed = L_79;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:109>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_80 = V_16;
+		int32_t L_81 = V_7;
+		NullCheck(L_80);
+		L_80->___damage = L_81;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:109>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_82 = V_16;
+		int32_t L_83 = V_8;
+		NullCheck(L_82);
+		L_82->___penetration = L_83;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:109>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_84 = V_16;
+		float L_85 = V_9;
+		NullCheck(L_84);
+		L_84->___splashRadius = L_85;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:110>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_86 = V_16;
+		float L_87 = V_10;
+		float L_88 = V_11;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_89;
+		memset((&L_89), 0, sizeof(L_89));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_89), L_87, L_88, NULL);
+		NullCheck(L_86);
+		L_86->___scale = L_89;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:112>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_90 = V_12;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_91;
+		L_91 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_90, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_91)
+		{
+			goto IL_0248;
+		}
+	}
+	{
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_92 = V_12;
+		NullCheck(L_92);
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_93 = L_92->___projectileStats;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_94;
+		L_94 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_93, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B24_0 = ((int32_t)(L_94));
+		goto IL_0249;
 	}
 
-IL_0272:
+IL_0248:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:111>
-		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_105 = V_14;
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_106 = V_12;
-		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_107 = V_15;
-		String_t* L_108 = V_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_109 = V_4;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_110 = V_5;
-		NullCheck(L_105);
-		Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF(L_105, L_106, L_107, L_108, L_109, L_110, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:113>
-		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_111 = V_14;
-		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_112 = V_0;
-		NullCheck(L_112);
-		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_113;
-		L_113 = DataSnapshot_get_Reference_m7B8241546F69D94F9F60B5AEC9E78F1EA621F442(L_112, NULL);
-		NullCheck(L_111);
-		Projectile_BindRef_mED1788ACF69C1DD42E41B7AE9EE22C9BEDC169B8(L_111, L_113, NULL);
+		G_B24_0 = 0;
+	}
+
+IL_0249:
+	{
+		V_22 = (bool)G_B24_0;
+		bool L_95 = V_22;
+		if (!L_95)
+		{
+			goto IL_029d;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:114>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_96 = V_16;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_97 = V_12;
+		NullCheck(L_97);
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_98 = L_97->___projectileStats;
+		NullCheck(L_98);
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_99 = L_98->___sprite;
+		NullCheck(L_96);
+		L_96->___sprite = L_99;
+		Il2CppCodeGenWriteBarrier((void**)(&L_96->___sprite), (void*)L_99);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:115>
-		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_114 = __this->___spawned;
-		String_t* L_115 = V_3;
-		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_116 = V_14;
-		NullCheck(L_114);
-		Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694(L_114, L_115, L_116, Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694_RuntimeMethod_var);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:118>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_117 = V_12;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_118;
-		L_118 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_117, NULL);
-		if (L_118)
-		{
-			goto IL_02ad;
-		}
-	}
-	{
-		G_B24_0 = ((MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938*)(NULL));
-		goto IL_02b4;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_100 = V_16;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_101 = V_12;
+		NullCheck(L_101);
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_102 = L_101->___projectileStats;
+		NullCheck(L_102);
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_103 = L_102->___destroySprite;
+		NullCheck(L_100);
+		L_100->___destroySprite = L_103;
+		Il2CppCodeGenWriteBarrier((void**)(&L_100->___destroySprite), (void*)L_103);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:116>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_104 = V_16;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_105 = V_12;
+		NullCheck(L_105);
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_106 = L_105->___projectileStats;
+		NullCheck(L_106);
+		float L_107 = L_106->___destroyDuration;
+		NullCheck(L_104);
+		L_104->___destroyDuration = L_107;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:117>
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_108 = V_16;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_109 = V_12;
+		NullCheck(L_109);
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_110 = L_109->___projectileStats;
+		NullCheck(L_110);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_111 = L_110->___destroyScale;
+		NullCheck(L_108);
+		L_108->___destroyScale = L_111;
 	}
 
-IL_02ad:
+IL_029d:
 	{
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_119 = V_12;
-		NullCheck(L_119);
-		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_120;
-		L_120 = Component_GetComponent_TisMuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938_m1CA14876860F75F5E44ABDA609F9596FE5BC18CA(L_119, Component_GetComponent_TisMuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938_m1CA14876860F75F5E44ABDA609F9596FE5BC18CA_RuntimeMethod_var);
-		G_B24_0 = L_120;
-	}
-
-IL_02b4:
-	{
-		V_16 = G_B24_0;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:119>
-		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_121 = V_12;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_122;
-		L_122 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_121, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_122)
-		{
-			goto IL_02d0;
-		}
-	}
-	{
-		bool L_123 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_112 = V_15;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_113 = V_12;
+		ProjectileStats_t4A125B70BBCA044A201F4209C6D30E3C5D9E69CC* L_114 = V_16;
+		String_t* L_115 = V_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_116 = V_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_117 = V_5;
+		NullCheck(L_112);
+		Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF(L_112, L_113, L_114, L_115, L_116, L_117, (bool)0, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:121>
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_118 = V_15;
+		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_119 = V_0;
+		NullCheck(L_119);
+		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_120;
+		L_120 = DataSnapshot_get_Reference_m7B8241546F69D94F9F60B5AEC9E78F1EA621F442(L_119, NULL);
+		NullCheck(L_118);
+		Projectile_BindRef_mED1788ACF69C1DD42E41B7AE9EE22C9BEDC169B8(L_118, L_120, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:123>
+		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_121 = __this->___spawned;
+		String_t* L_122 = V_3;
+		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_123 = V_15;
+		NullCheck(L_121);
+		Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694(L_121, L_122, L_123, Dictionary_2_set_Item_mA18EF4FC2D6EA8B7ECD88B942CC45ADE9D1EF694_RuntimeMethod_var);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:126>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_124 = V_12;
-		NullCheck(L_124);
-		bool L_125 = L_124->___host;
-		G_B27_0 = ((((int32_t)L_123) == ((int32_t)L_125))? 1 : 0);
-		goto IL_02d1;
-	}
-
-IL_02d0:
-	{
-		G_B27_0 = 0;
-	}
-
-IL_02d1:
-	{
-		V_17 = (bool)G_B27_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:120>
-		bool L_126 = V_17;
-		if (!L_126)
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_125;
+		L_125 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_124, NULL);
+		if (L_125)
 		{
-			goto IL_02e1;
+			goto IL_02d8;
 		}
 	}
 	{
-		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_127 = V_16;
+		G_B29_0 = ((MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938*)(NULL));
+		goto IL_02df;
+	}
+
+IL_02d8:
+	{
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_126 = V_12;
+		NullCheck(L_126);
+		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_127;
+		L_127 = Component_GetComponent_TisMuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938_m1CA14876860F75F5E44ABDA609F9596FE5BC18CA(L_126, Component_GetComponent_TisMuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938_m1CA14876860F75F5E44ABDA609F9596FE5BC18CA_RuntimeMethod_var);
+		G_B29_0 = L_127;
+	}
+
+IL_02df:
+	{
+		V_17 = G_B29_0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:127>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_128 = V_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_128;
-		L_128 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_127, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		G_B30_0 = ((int32_t)(L_128));
-		goto IL_02e2;
-	}
-
-IL_02e1:
-	{
-		G_B30_0 = 0;
-	}
-
-IL_02e2:
-	{
-		V_21 = (bool)G_B30_0;
-		bool L_129 = V_21;
+		bool L_129;
+		L_129 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_128, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_129)
 		{
-			goto IL_02fc;
+			goto IL_02fb;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:122>
-		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_130 = V_16;
-		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_131;
-		memset((&L_131), 0, sizeof(L_131));
-		Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420((&L_131), (0.5f), Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var);
-		NullCheck(L_130);
-		MuzzleFlashController_PlayFlash_mBBE4AF60C25E2A4AFF84988FD46A6AE505733F07(L_130, L_131, NULL);
+		bool L_130 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_131 = V_12;
+		NullCheck(L_131);
+		bool L_132 = L_131->___host;
+		G_B32_0 = ((((int32_t)L_130) == ((int32_t)L_132))? 1 : 0);
+		goto IL_02fc;
+	}
+
+IL_02fb:
+	{
+		G_B32_0 = 0;
 	}
 
 IL_02fc:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:124>
+		V_18 = (bool)G_B32_0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:128>
+		bool L_133 = V_18;
+		if (L_133)
+		{
+			goto IL_030c;
+		}
+	}
+	{
+		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_134 = V_17;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_135;
+		L_135 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_134, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B35_0 = ((int32_t)(L_135));
+		goto IL_030d;
+	}
+
+IL_030c:
+	{
+		G_B35_0 = 0;
+	}
+
+IL_030d:
+	{
+		V_23 = (bool)G_B35_0;
+		bool L_136 = V_23;
+		if (!L_136)
+		{
+			goto IL_0327;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:130>
+		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_137 = V_17;
+		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_138;
+		memset((&L_138), 0, sizeof(L_138));
+		Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420((&L_138), (0.5f), Nullable_1__ctor_mF3D65C30ACED71826A2F8078A5D10F3CC827E420_RuntimeMethod_var);
+		NullCheck(L_137);
+		MuzzleFlashController_PlayFlash_mBBE4AF60C25E2A4AFF84988FD46A6AE505733F07(L_137, L_138, NULL);
+	}
+
+IL_0327:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:132>
 		return;
 	}
 }
-// Method Definition Index: 69480
+// Method Definition Index: 69485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildRemoved_m1F51B67BD7E4C1D8D2853F67C2EB361496B993B7 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, RuntimeObject* ___0_sender, ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* ___1_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23428,13 +23799,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildRemoved_m1F5
 	String_t* G_B8_0 = NULL;
 	int32_t G_B11_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:128>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:136>
 		ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* L_0 = ___1_e;
 		NullCheck(L_0);
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_1;
 		L_1 = ChildChangedEventArgs_get_Snapshot_m100ACE866E445C613AEC004CF99B9EED54C6F270_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:128>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:136>
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_2 = V_0;
 		V_5 = (bool)((((RuntimeObject*)(DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A*)L_2) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_3 = V_5;
@@ -23444,19 +23815,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator_OnChildRemoved_m1F5
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:128>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:136>
 		goto IL_0085;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:129>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:137>
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_4 = V_0;
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = DataSnapshot_get_Key_m71F6DF80BFBCFA8C9C2F2368AD5F6A44F5E70908(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:130>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:138>
 		RuntimeObject* L_6 = ___0_sender;
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_7 = __this->___projRootHost;
 		if ((((RuntimeObject*)(RuntimeObject*)L_6) == ((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_7)))
@@ -23496,13 +23867,13 @@ IL_003b:
 IL_0040:
 	{
 		V_2 = G_B8_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:131>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:139>
 		String_t* L_10 = V_2;
 		String_t* L_11 = V_1;
 		String_t* L_12;
 		L_12 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_10, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_11, NULL);
 		V_3 = L_12;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:132>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:140>
 		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_13 = __this->___spawned;
 		String_t* L_14 = V_3;
 		NullCheck(L_13);
@@ -23537,7 +23908,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:134>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:142>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_19 = V_4;
 		NullCheck(L_19);
 		Projectile_BeginDeath_mD9EF4081CD377314D71D0E7D32D11CF535E3D584(L_19, NULL);
@@ -23545,7 +23916,7 @@ IL_0068:
 
 IL_0078:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:136>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:144>
 		Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683* L_20 = __this->___spawned;
 		String_t* L_21 = V_3;
 		NullCheck(L_20);
@@ -23555,11 +23926,11 @@ IL_0078:
 
 IL_0085:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:137>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:145>
 		return;
 	}
 }
-// Method Definition Index: 69481
+// Method Definition Index: 69486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProjectileReplicator_ToFloat_m1A3C3425BB9B34717940CB7C41D7AD0FA88949AE (RuntimeObject* ___0_v, float ___1_def, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23576,7 +23947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ProjectileReplicator_ToFloat_m1A3C3425B
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:141>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:149>
 			RuntimeObject* L_0 = ___0_v;
 			if (!L_0)
 			{
@@ -23617,8 +23988,8 @@ IL_000e_1:
 CATCH_0011:
 	{
 		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:141>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:141>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:149>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:149>
 		float L_5 = ___1_def;
 		V_0 = L_5;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -23627,12 +23998,12 @@ CATCH_0011:
 
 IL_0017:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:142>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:150>
 		float L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 69482
+// Method Definition Index: 69487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProjectileReplicator_ToInt_m9C04C1AC855AB617EF0656309D119118D6A65D48 (RuntimeObject* ___0_v, int32_t ___1_def, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23649,7 +24020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProjectileReplicator_ToInt_m9C04C1AC8
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:145>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:153>
 			RuntimeObject* L_0 = ___0_v;
 			if (!L_0)
 			{
@@ -23690,8 +24061,8 @@ IL_000e_1:
 CATCH_0011:
 	{
 		RuntimeObject* L_4 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:145>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:145>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:153>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:153>
 		int32_t L_5 = ___1_def;
 		V_0 = L_5;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -23700,12 +24071,12 @@ CATCH_0011:
 
 IL_0017:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:146>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:154>
 		int32_t L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 69483
+// Method Definition Index: 69488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* ProjectileReplicator_FindOwnerUnit_m60B23C321B1F2FB5CAA469E2EAD9BE9E6B6CB2B0 (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, String_t* ___0_ownerKey, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23724,7 +24095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA86
 	bool V_6 = false;
 	int32_t G_B6_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:150>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:158>
 		String_t* L_0 = ___0_ownerKey;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -23736,19 +24107,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA86
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:150>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:158>
 		V_2 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
 		goto IL_005c;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:151>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:159>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_3;
 		L_3 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:152>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:160>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_4 = V_0;
 		V_3 = L_4;
 		V_4 = 0;
@@ -23757,14 +24128,14 @@ IL_000f:
 
 IL_001f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:152>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:160>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_5 = V_3;
 		int32_t L_6 = V_4;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_5 = L_8;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:154>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:162>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -23800,7 +24171,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:154>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:162>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_16 = V_5;
 		V_2 = L_16;
 		goto IL_005c;
@@ -23814,7 +24185,7 @@ IL_004a:
 
 IL_0051:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:152>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:160>
 		int32_t L_18 = V_4;
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_19 = V_3;
 		NullCheck(L_19);
@@ -23824,19 +24195,19 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:156>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:164>
 		V_2 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
 		goto IL_005c;
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:157>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ProjectileReplicator.cs:165>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_20 = V_2;
 		return L_20;
 	}
 }
-// Method Definition Index: 69484
+// Method Definition Index: 69489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator__ctor_m32365F5CA7A0BAA3BACCFCC4BABD73D34DA10ABA (ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23864,7 +24235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileReplicator__ctor_m32365F5CA7A0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 69485
+// Method Definition Index: 69490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_Awake_m3685ACAF2A0793DB832BD3B6605C3B27C89CEA56 (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23889,7 +24260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_Awake_m3685ACAF2A0793DB832BD
 		return;
 	}
 }
-// Method Definition Index: 69486
+// Method Definition Index: 69491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnitAgent2D_GetSpeed_m73C64CC75B5053F647D11FA6B1E04518F41AD1EE (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23967,7 +24338,7 @@ IL_0050:
 		return L_9;
 	}
 }
-// Method Definition Index: 69487
+// Method Definition Index: 69492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_Update_m2CDF3F89E7A1C9C6353637612316DCA334F44382 (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24254,7 +24625,7 @@ IL_0192:
 		return;
 	}
 }
-// Method Definition Index: 69488
+// Method Definition Index: 69493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_SetDestination_mC4BAAE85B28A372BC76DDE3AE60C61190CCBCD8D (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_world, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24274,7 +24645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_SetDestination_mC4BAAE85B28A
 		return;
 	}
 }
-// Method Definition Index: 69489
+// Method Definition Index: 69494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_StopRB_m6B9C60F745DCDC8017BD9082C4A43E9C2356289D (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24318,7 +24689,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 69490
+// Method Definition Index: 69495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_PushMoving_m88E5BA34498FCE7EC082772E5D1706C94556CB77 (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, bool ___0_moving, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_at, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24370,7 +24741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D_PushMoving_m88E5BA34498FCE7E
 		return;
 	}
 }
-// Method Definition Index: 69491
+// Method Definition Index: 69496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D__ctor_m5DB686718F46E474945C1B35603F38CAFE69D522 (UnitAgent2D_t6ABA3F6363558EF63DB1A8C47412C4B22D1D9432* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24390,7 +24761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAgent2D__ctor_m5DB686718F46E474945C1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 69492
+// Method Definition Index: 69497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPushMovingU3Ed__11__ctor_m7364D70D372D0F1BAB1AEB7816716C43E664A165 (U3CPushMovingU3Ed__11_t2224F3549147E40C7EB3A9A53E48AA61E98897CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24398,7 +24769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPushMovingU3Ed__11__ctor_m7364D70D372
 		return;
 	}
 }
-// Method Definition Index: 69493
+// Method Definition Index: 69498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPushMovingU3Ed__11_MoveNext_mEEA2B12BC5634ABC464F30DFD685E26181935255 (U3CPushMovingU3Ed__11_t2224F3549147E40C7EB3A9A53E48AA61E98897CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24781,7 +25152,7 @@ IL_0290:
 		return;
 	}
 }
-// Method Definition Index: 69494
+// Method Definition Index: 69499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPushMovingU3Ed__11_SetStateMachine_m81E73D2D7C5B6A11FBA9FB5D32514159D4DC6525 (U3CPushMovingU3Ed__11_t2224F3549147E40C7EB3A9A53E48AA61E98897CB* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	{
@@ -24796,7 +25167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPushMovingU3Ed__11_SetStateMachine_m8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 69495
+// Method Definition Index: 69500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAnimator_HasParam_m7E4B7E0A2B073EDCAD3245CAF9A5BE50426977C5 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_a, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24947,7 +25318,7 @@ IL_0059:
 		return L_23;
 	}
 }
-// Method Definition Index: 69496
+// Method Definition Index: 69501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAnimator_Awake_m2BA2E7BF3417A6E1B5CB8A9585F3A5D7F30E086D (UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25045,7 +25416,7 @@ IL_00aa:
 		return;
 	}
 }
-// Method Definition Index: 69497
+// Method Definition Index: 69502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAnimator_Update_m0CFCDFB1989A92062A63546ED27A4C98D3436FEB (UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25277,7 +25648,7 @@ IL_0123:
 		return;
 	}
 }
-// Method Definition Index: 69498
+// Method Definition Index: 69503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAnimator__ctor_mA6834377521775DB90FABDC94B7E897D0EA2405E (UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25310,36 +25681,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAnimator__ctor_mA6834377521775DB90FA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 69499
+// Method Definition Index: 69504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_Awake_mB278A326FA4E4CC22991A0B1503FCBCD9BE823E0 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:39>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0;
 		L_0 = Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A(__this, Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A_RuntimeMethod_var);
 		__this->___unit = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___unit), (void*)L_0);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:40>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:41>
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_1 = __this->___unit;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		bool L_3 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
+		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_4 = __this->___unit;
+		NullCheck(L_4);
+		bool L_5 = L_4->___host;
+		G_B3_0 = ((((int32_t)((((int32_t)L_3) == ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0033;
+	}
+
+IL_0032:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0033:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:43>
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:44>
+		goto IL_0042;
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 69500
+// Method Definition Index: 69505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnEnable_mBDFB5D12141A2310B0F7197E17762A7EB88573EE (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:44>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:50>
 		UnitAutoAttack_TryAttachMovingListener_m45FDCFA8AA31B5F4074424ACDD6C615960F80835(__this, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:45>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 69501
+// Method Definition Index: 69506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDisable_m6F0396D319A260D9CB61A35ACB21986E443EF957 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25352,7 +25769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDisable_m6F0396D319A260
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:49>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:55>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_0 = __this->___stateRef;
 		V_0 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
@@ -25362,7 +25779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDisable_m6F0396D319A260
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:51>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:57>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_2 = __this->___stateRef;
 		NullCheck(L_2);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_3;
@@ -25375,11 +25792,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDisable_m6F0396D319A260
 
 IL_0032:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:53>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 69502
+// Method Definition Index: 69507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_Update_mDEC0C3CD8DFE16D35AD2219B1BC24889B70B76E1 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -25389,7 +25806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_Update_mDEC0C3CD8DFE16D35
 	int32_t G_B7_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:57>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:63>
 		float L_0;
 		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_1 = __this->___nextScanTime;
@@ -25401,18 +25818,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_Update_mDEC0C3CD8DFE16D35
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:57>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:63>
 		goto IL_00c2;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:58>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:64>
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_4 = __this->___scanIntervalSeconds;
 		__this->___nextScanTime = ((float)il2cpp_codegen_add(L_3, L_4));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:60>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:66>
 		bool L_5;
 		L_5 = UnitAutoAttack_EnsureStateRef_m9ACCF4E7874366A28B96BA578C0D625D5CB6A985(__this, NULL);
 		V_1 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
@@ -25423,13 +25840,13 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:60>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:66>
 		goto IL_00c2;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:63>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:69>
 		bool L_7 = __this->___hasMovingCache;
 		if (!L_7)
 		{
@@ -25457,19 +25874,19 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:66>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:72>
 		UnitAutoAttack_SetAttacking_m246CF003DBA68EC78621674ADFE75C6A91BD5DAE(__this, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:68>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:74>
 		__this->___wasAttacking = (bool)0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:69>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:75>
 		goto IL_00c2;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:73>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:79>
 		UnitAutoAttack_TryScanAndAttack_m332C3A1D0EA684CFAEC41A1D2387EE588FB97441(__this, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:76>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:82>
 		bool L_10;
 		L_10 = UnitAutoAttack_IsAttacking_m2E9295707B1E33692A670965EF350DEB98FD4674(__this, NULL);
 		if (!L_10)
@@ -25500,7 +25917,7 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:78>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:84>
 		float L_14;
 		L_14 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_15 = __this->___unit;
@@ -25511,17 +25928,17 @@ IL_0084:
 		float L_18;
 		L_18 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.00999999978f), ((float)((1.0f)/L_17)), NULL);
 		__this->___nextShotTime = ((float)il2cpp_codegen_add(L_14, L_18));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:79>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:85>
 		UnitAutoAttack_TryFireProjectile_m3440A5127BF0FF01F98D37C25D885094414328A3(__this, NULL);
 	}
 
 IL_00c2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:81>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 69503
+// Method Definition Index: 69508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryScanAndAttack_m332C3A1D0EA684CFAEC41A1D2387EE588FB97441 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25558,7 +25975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryScanAndAttack_m332C3A1
 	int32_t G_B21_0 = 0;
 	int32_t G_B25_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:85>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:91>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25571,13 +25988,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryScanAndAttack_m332C3A1
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:85>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:91>
 		goto IL_017a;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:86>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:92>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_3 = __this->___unit;
 		NullCheck(L_3);
 		float L_4 = L_3->___attackRange;
@@ -25608,16 +26025,16 @@ IL_0041:
 		float L_7;
 		L_7 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(G_B5_1, G_B5_0, NULL);
 		V_0 = L_7;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:88>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:94>
 		V_1 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:89>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:95>
 		V_2 = (std::numeric_limits<float>::infinity());
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:91>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:97>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_8;
 		L_8 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
 		V_3 = L_8;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:92>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:98>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = __this->___unit;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -25626,12 +26043,12 @@ IL_0041:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
 		V_4 = L_11;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:93>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:99>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_12 = __this->___unit;
 		NullCheck(L_12);
 		bool L_13 = L_12->___host;
 		V_5 = L_13;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:95>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:101>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_14 = V_3;
 		V_8 = L_14;
 		V_9 = 0;
@@ -25640,14 +26057,14 @@ IL_0041:
 
 IL_007f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:95>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:101>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_15 = V_8;
 		int32_t L_16 = V_9;
 		NullCheck(L_15);
 		int32_t L_17 = L_16;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		V_10 = L_18;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:97>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:103>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_19 = V_10;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -25682,13 +26099,13 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:97>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:103>
 		goto IL_00ee;
 	}
 
 IL_00a9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:98>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:104>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_25 = V_10;
 		NullCheck(L_25);
 		bool L_26 = L_25->___host;
@@ -25701,13 +26118,13 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:98>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:104>
 		goto IL_00ee;
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:100>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:106>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_29 = V_10;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -25722,7 +26139,7 @@ IL_00bc:
 		float L_34;
 		L_34 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_14), NULL);
 		V_11 = L_34;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:101>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:107>
 		float L_35 = V_11;
 		float L_36 = V_2;
 		V_15 = (bool)((((float)L_35) < ((float)L_36))? 1 : 0);
@@ -25733,10 +26150,10 @@ IL_00bc:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:103>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:109>
 		float L_38 = V_11;
 		V_2 = L_38;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:104>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:110>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_39 = V_10;
 		V_1 = L_39;
 	}
@@ -25753,7 +26170,7 @@ IL_00ee:
 
 IL_00f4:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:95>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:101>
 		int32_t L_41 = V_9;
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_42 = V_8;
 		NullCheck(L_42);
@@ -25763,7 +26180,7 @@ IL_00f4:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:108>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:114>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_43 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_44;
@@ -25789,7 +26206,7 @@ IL_0110:
 IL_0111:
 	{
 		V_6 = (bool)G_B21_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:111>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:117>
 		bool L_48 = V_6;
 		if (!L_48)
 		{
@@ -25827,7 +26244,7 @@ IL_0129:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:113>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:119>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_53 = __this->___unit;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_54 = V_1;
 		NullCheck(L_54);
@@ -25839,7 +26256,7 @@ IL_0129:
 		float L_57 = L_56.___x;
 		NullCheck(L_53);
 		Unit_FaceTowardsX_mC716B3328A577F927626DA47076A560CCFFCE378(L_53, L_57, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:115>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:121>
 		float L_58;
 		L_58 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_59 = __this->___firstShotDelaySeconds;
@@ -25850,21 +26267,21 @@ IL_0129:
 
 IL_0169:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:118>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:124>
 		bool L_61 = V_6;
 		UnitAutoAttack_SetAttacking_m246CF003DBA68EC78621674ADFE75C6A91BD5DAE(__this, L_61, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:119>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:125>
 		bool L_62 = V_6;
 		__this->___wasAttacking = L_62;
 	}
 
 IL_017a:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:120>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 69504
+// Method Definition Index: 69509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_SetAttacking_m246CF003DBA68EC78621674ADFE75C6A91BD5DAE (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25875,7 +26292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_SetAttacking_m246CF003DBA
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:124>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:130>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25888,13 +26305,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_SetAttacking_m246CF003DBA
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:124>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:130>
 		goto IL_0020;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:125>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:131>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_3 = __this->___unit;
 		bool L_4 = ___0_value;
 		NullCheck(L_3);
@@ -25903,28 +26320,28 @@ IL_0013:
 
 IL_0020:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:126>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:132>
 		return;
 	}
 }
-// Method Definition Index: 69505
+// Method Definition Index: 69510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_IsAttacking_m2E9295707B1E33692A670965EF350DEB98FD4674 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:132>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:138>
 		V_0 = (bool)1;
 		goto IL_0005;
 	}
 
 IL_0005:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:133>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:139>
 		bool L_0 = V_0;
 		return L_0;
 	}
 }
-// Method Definition Index: 69506
+// Method Definition Index: 69511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryFireProjectile_m3440A5127BF0FF01F98D37C25D885094414328A3 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26002,7 +26419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryFireProjectile_m3440A5
 	MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* G_B38_0 = NULL;
 	String_t* G_B43_0 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:137>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:143>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26038,13 +26455,13 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:137>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:143>
 		goto IL_04a6;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:138>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:144>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_6 = __this->___unit;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___sessionId;
@@ -26080,16 +26497,16 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:138>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:144>
 		goto IL_04a6;
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:141>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:147>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___projectileSpawn;
 		V_0 = L_13;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:142>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:148>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -26102,7 +26519,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:145>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:151>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_17 = __this->___unit;
 		NullCheck(L_17);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
@@ -26111,21 +26528,21 @@ IL_005e:
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_19;
 		L_19 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837(L_18, (bool)1, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
 		V_17 = L_19;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:146>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:152>
 		V_18 = 0;
 		goto IL_00c6;
 	}
 
 IL_008d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:148>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:154>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_20 = V_17;
 		int32_t L_21 = V_18;
 		NullCheck(L_20);
 		int32_t L_22 = L_21;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
 		V_19 = L_23;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:149>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:155>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -26161,23 +26578,23 @@ IL_00b3:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:149>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:155>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = V_19;
 		V_0 = L_30;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:149>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:155>
 		goto IL_00d4;
 	}
 
 IL_00bf:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:146>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:152>
 		int32_t L_31 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_31, 1));
 	}
 
 IL_00c6:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:146>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:152>
 		int32_t L_32 = V_18;
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_33 = V_17;
 		NullCheck(L_33);
@@ -26195,7 +26612,7 @@ IL_00d4:
 
 IL_00d5:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:154>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:160>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -26208,7 +26625,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:156>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:162>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = V_0;
 		NullCheck(L_38);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
@@ -26219,7 +26636,7 @@ IL_00d5:
 
 IL_00ec:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:160>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:166>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_40 = __this->___unit;
 		NullCheck(L_40);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41;
@@ -26228,7 +26645,7 @@ IL_00ec:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
 		L_42 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_41, _stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC, NULL);
 		V_23 = L_42;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:161>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:167>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = V_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_44;
@@ -26266,7 +26683,7 @@ IL_0126:
 
 IL_0128:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:164>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:170>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_50 = __this->___unit;
 		NullCheck(L_50);
 		int32_t L_51;
@@ -26289,10 +26706,10 @@ IL_0139:
 IL_013a:
 	{
 		V_2 = G_B29_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:165>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:171>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_1;
 		V_3 = L_52;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:166>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:172>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_53 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_54;
@@ -26305,7 +26722,7 @@ IL_013a:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:168>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:174>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_57 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___startOffset);
 		float L_58 = L_57->___x;
@@ -26324,14 +26741,14 @@ IL_013a:
 
 IL_017e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:172>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:178>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_66 = __this->___unit;
 		NullCheck(L_66);
 		float L_67 = L_66->___attackRange;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_68;
 		L_68 = UnitAutoAttack_FindClosestEnemyWithin_m641DADB3AAF08A8C4060CFF3C58C6920621014BA(__this, L_67, NULL);
 		V_4 = L_68;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:173>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:179>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_69 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_70;
@@ -26344,13 +26761,13 @@ IL_017e:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:173>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:179>
 		goto IL_04a6;
 	}
 
 IL_01a6:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:175>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:181>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_72 = __this->___unit;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_73 = V_4;
 		NullCheck(L_73);
@@ -26362,7 +26779,7 @@ IL_01a6:
 		float L_76 = L_75.___x;
 		NullCheck(L_72);
 		Unit_FaceTowardsX_mC716B3328A577F927626DA47076A560CCFFCE378(L_72, L_76, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:176>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:182>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_77 = V_4;
 		NullCheck(L_77);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78;
@@ -26371,7 +26788,7 @@ IL_01a6:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
 		L_79 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_78, NULL);
 		V_5 = L_79;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:179>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:185>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_80 = __this->___unit;
 		NullCheck(L_80);
 		float L_81 = L_80->___accuracy;
@@ -26383,7 +26800,7 @@ IL_01a6:
 		float L_85;
 		L_85 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_84, NULL);
 		V_6 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract((1.0f), L_82)), L_85));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:180>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:186>
 		float L_86 = V_6;
 		V_26 = (bool)((((float)L_86) > ((float)(0.0f)))? 1 : 0);
 		bool L_87 = V_26;
@@ -26393,7 +26810,7 @@ IL_01a6:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:182>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:188>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_88 = V_5;
 		float L_89 = V_6;
 		float L_90 = V_6;
@@ -26413,7 +26830,7 @@ IL_01a6:
 
 IL_0237:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:186>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:192>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_97 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_98;
@@ -26440,7 +26857,7 @@ IL_0248:
 IL_0253:
 	{
 		V_7 = G_B38_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:187>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:193>
 		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_101 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_102;
@@ -26453,7 +26870,7 @@ IL_0253:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:189>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:195>
 		MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938* L_104 = V_7;
 		Nullable_1_t3D746CBB6123D4569FF4DEA60BC4240F32C6FE75 L_105;
 		memset((&L_105), 0, sizeof(L_105));
@@ -26464,7 +26881,7 @@ IL_0253:
 
 IL_0277:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:193>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:199>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_106 = __this->___unit;
 		NullCheck(L_106);
 		bool L_107 = L_106->___host;
@@ -26486,7 +26903,7 @@ IL_028b:
 IL_0290:
 	{
 		V_8 = G_B43_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:194>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:200>
 		il2cpp_codegen_runtime_class_init_inline(FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var);
 		FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* L_108;
 		L_108 = FirebaseDatabase_get_DefaultInstance_m5D2694D707EAE163776CC0FF92B92537BDD59118(NULL);
@@ -26494,7 +26911,7 @@ IL_0290:
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_109;
 		L_109 = FirebaseDatabase_get_RootReference_m169B2E998E82228A8CD898E5CBDB20524281B434(L_108, NULL);
 		V_9 = L_109;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:195>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:201>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_110 = V_9;
 		NullCheck(L_110);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_111;
@@ -26513,24 +26930,18 @@ IL_0290:
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_117;
 		L_117 = DatabaseReference_Child_mC08F6692D99BAC7D3BCF83BDE3B8F9A947A0809E(L_116, _stringLiteral23215CF48B783E160C41E12E1B7EA58FDB82961A, NULL);
 		V_10 = L_117;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:196>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:202>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_118 = V_10;
 		NullCheck(L_118);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_119;
 		L_119 = DatabaseReference_Push_m167EAF33521AB5504DDF4F6315AFADE24506C7D2(L_118, NULL);
 		V_11 = L_119;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:197>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:203>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_120 = V_11;
 		NullCheck(L_120);
 		String_t* L_121;
 		L_121 = DatabaseReference_get_Key_m73254E3F2780DC8B3027FB26054EAC73EAD88EE8(L_120, NULL);
 		V_12 = L_121;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:199>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:200>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:201>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:202>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:203>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:204>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:205>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:206>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:207>
@@ -26543,6 +26954,12 @@ IL_0290:
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:214>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:215>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:216>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:217>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:218>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:219>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:220>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:221>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:222>
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_122 = (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)il2cpp_codegen_object_new(Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9(L_122, Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var);
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_123 = L_122;
@@ -26665,13 +27082,13 @@ IL_0290:
 		NullCheck(L_194);
 		Dictionary_2_set_Item_m7CCA97075B48AFB2B97E5A072B94BC7679374341(L_194, _stringLiteralB51CC78C3D2CA46C7908ADABFE6D181CDD11BE60, L_195, Dictionary_2_set_Item_m7CCA97075B48AFB2B97E5A072B94BC7679374341_RuntimeMethod_var);
 		V_13 = L_194;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:217>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:223>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_196 = V_11;
 		Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_197 = V_13;
 		NullCheck(L_196);
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_198;
 		L_198 = DatabaseReference_SetValueAsync_m4BF66416AA9AD3C1022FAC34FB3E7B22F355DC00(L_196, L_197, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:220>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:226>
 		String_t* L_199 = V_12;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_200 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_201;
@@ -26684,11 +27101,11 @@ IL_0290:
 
 IL_04a6:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:221>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:227>
 		return;
 	}
 }
-// Method Definition Index: 69507
+// Method Definition Index: 69512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* UnitAutoAttack_FindClosestEnemyWithin_m641DADB3AAF08A8C4060CFF3C58C6920621014BA (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, float ___0_range, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26716,16 +27133,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA86
 	int32_t G_B4_0 = 0;
 	int32_t G_B14_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:225>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:231>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_0;
 		L_0 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:226>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:232>
 		V_1 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:227>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:233>
 		V_2 = (std::numeric_limits<float>::infinity());
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:228>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:234>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_1 = __this->___unit;
 		NullCheck(L_1);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -26734,7 +27151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA86
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
 		V_3 = L_3;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:229>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:235>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_4 = V_0;
 		V_4 = L_4;
 		V_5 = 0;
@@ -26743,14 +27160,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA86
 
 IL_002b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:229>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:235>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_5 = V_4;
 		int32_t L_6 = V_5;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_6 = L_8;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:231>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:237>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -26786,13 +27203,13 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:231>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:237>
 		goto IL_008c;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:232>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:238>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_16 = V_6;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -26807,7 +27224,7 @@ IL_005b:
 		float L_21;
 		L_21 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_9), NULL);
 		V_7 = L_21;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:233>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:239>
 		float L_22 = V_7;
 		float L_23 = V_2;
 		V_10 = (bool)((((float)L_22) < ((float)L_23))? 1 : 0);
@@ -26818,10 +27235,10 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:235>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:241>
 		float L_25 = V_7;
 		V_2 = L_25;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:235>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:241>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_26 = V_6;
 		V_1 = L_26;
 	}
@@ -26838,7 +27255,7 @@ IL_008c:
 
 IL_0092:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:229>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:235>
 		int32_t L_28 = V_5;
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_29 = V_4;
 		NullCheck(L_29);
@@ -26848,7 +27265,7 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:238>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:244>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_30 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_31;
@@ -26881,7 +27298,7 @@ IL_00ae:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:238>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:244>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_36 = V_1;
 		V_12 = L_36;
 		goto IL_00be;
@@ -26889,19 +27306,19 @@ IL_00ae:
 
 IL_00b9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:239>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:245>
 		V_12 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
 		goto IL_00be;
 	}
 
 IL_00be:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:240>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:246>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_37 = V_12;
 		return L_37;
 	}
 }
-// Method Definition Index: 69508
+// Method Definition Index: 69513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_SpawnLocalProjectile_m3BDBB26D9B50ACA8D3AABDB9C92A399D1D2243A4 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, String_t* ___0_key, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_start, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_target, bool ___3_createdByLocal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26928,7 +27345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_SpawnLocalProjectile_m3BD
 	String_t* G_B8_0 = NULL;
 	DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* G_B8_1 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:244>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:250>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_0 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26964,20 +27381,20 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:244>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:250>
 		goto IL_00ce;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:245>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:251>
 		String_t* L_6 = ___0_key;
 		String_t* L_7;
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral14394A2E99DD0A5CF19DD42D9EFA65E6F275BCFC, L_6, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_8, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:246>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:252>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_0;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -26987,13 +27404,13 @@ IL_002c:
 		L_12 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_11, NULL);
 		NullCheck(L_10);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_12, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:247>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:253>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_0;
 		NullCheck(L_13);
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_14;
 		L_14 = GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141(L_13, GameObject_AddComponent_TisProjectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6_m56BF7773886B86746C7EA11CE40A4C0192DAA141_RuntimeMethod_var);
 		V_1 = L_14;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:248>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:254>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_15 = V_1;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_16 = __this->___unit;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_17 = __this->___unit;
@@ -27005,10 +27422,10 @@ IL_002c:
 		bool L_22 = ___3_createdByLocal;
 		NullCheck(L_15);
 		Projectile_Init_mC30C79F138BEA5259C6E7F148A91A869C10C26DF(L_15, L_16, L_18, L_19, L_20, L_21, L_22, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:251>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:252>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:253>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:254>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:257>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:258>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:259>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:260>
 		il2cpp_codegen_runtime_class_init_inline(FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var);
 		FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* L_23;
 		L_23 = FirebaseDatabase_get_DefaultInstance_m5D2694D707EAE163776CC0FF92B92537BDD59118(NULL);
@@ -27059,7 +27476,7 @@ IL_00b0:
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_34;
 		L_34 = DatabaseReference_Child_mC08F6692D99BAC7D3BCF83BDE3B8F9A947A0809E(L_32, L_33, NULL);
 		V_2 = L_34;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:255>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:261>
 		Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* L_35 = V_1;
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_36 = V_2;
 		NullCheck(L_35);
@@ -27068,11 +27485,11 @@ IL_00b0:
 
 IL_00ce:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:256>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 69509
+// Method Definition Index: 69514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryAttachMovingListener_m45FDCFA8AA31B5F4074424ACDD6C615960F80835 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27088,7 +27505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryAttachMovingListener_m
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:260>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:266>
 		bool L_0;
 		L_0 = UnitAutoAttack_EnsureStateRef_m9ACCF4E7874366A28B96BA578C0D625D5CB6A985(__this, NULL);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
@@ -27099,13 +27516,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_TryAttachMovingListener_m
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:260>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:266>
 		goto IL_007b;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:261>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:267>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_2 = __this->___stateRef;
 		NullCheck(L_2);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_3;
@@ -27114,7 +27531,7 @@ IL_0010:
 		EventHandler_1__ctor_m09F9EFE1D275327510A955631DE2DB061028D8F1(L_4, __this, (intptr_t)((void*)UnitAutoAttack_OnMovingValueChanged_m8A1E0086CD8275DC6E26EEDA5CF06E861B30AD26_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		Query_remove_ValueChanged_m173E11B447473540B3C660B7D3F7E42B8D7ED86D(L_3, L_4, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:262>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:268>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_5 = __this->___stateRef;
 		NullCheck(L_5);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_6;
@@ -27123,14 +27540,14 @@ IL_0010:
 		EventHandler_1__ctor_m09F9EFE1D275327510A955631DE2DB061028D8F1(L_7, __this, (intptr_t)((void*)UnitAutoAttack_OnMovingValueChanged_m8A1E0086CD8275DC6E26EEDA5CF06E861B30AD26_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		Query_add_ValueChanged_m6A764CA6965D73A12A4B8600DD2C578486BAE705(L_6, L_7, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:265>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:266>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:267>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:268>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:269>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:270>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:271>
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:272>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:273>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:274>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:275>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:276>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:277>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:278>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_8 = __this->___stateRef;
 		NullCheck(L_8);
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_9;
@@ -27147,11 +27564,11 @@ IL_0010:
 
 IL_007b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:273>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:279>
 		return;
 	}
 }
-// Method Definition Index: 69510
+// Method Definition Index: 69515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnMovingValueChanged_m8A1E0086CD8275DC6E26EEDA5CF06E861B30AD26 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, RuntimeObject* ___0_sender, ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* ___1_e, const RuntimeMethod* method) 
 {
 	DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* G_B2_0 = NULL;
@@ -27161,9 +27578,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnMovingValueChanged_m8A1
 	RuntimeObject* G_B3_0 = NULL;
 	UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* G_B3_1 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:277>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:283>
 		__this->___hasMovingCache = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:278>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:284>
 		ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* L_0 = ___1_e;
 		NullCheck(L_0);
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_1;
@@ -27199,11 +27616,11 @@ IL_001b:
 		L_4 = UnitAutoAttack_ParseBool_mEEAC01247B0D985E5EDFDA06E8F835DF7E53C42F(G_B3_0, NULL);
 		NullCheck(G_B3_1);
 		G_B3_1->___movingCache = L_4;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:279>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:285>
 		return;
 	}
 }
-// Method Definition Index: 69511
+// Method Definition Index: 69516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_EnsureStateRef_m9ACCF4E7874366A28B96BA578C0D625D5CB6A985 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27225,7 +27642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_EnsureStateRef_m9ACCF4E78
 	int32_t G_B7_0 = 0;
 	String_t* G_B12_0 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:283>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:289>
 		DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_0 = __this->___stateRef;
 		V_1 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_1;
@@ -27235,14 +27652,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_EnsureStateRef_m9ACCF4E78
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:283>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:289>
 		V_2 = (bool)1;
 		goto IL_00ca;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:284>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:290>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_2 = __this->___unit;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -27255,14 +27672,14 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:284>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:290>
 		V_2 = (bool)0;
 		goto IL_00ca;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:285>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:291>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_5 = __this->___unit;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___sessionId;
@@ -27298,14 +27715,14 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:285>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:291>
 		V_2 = (bool)0;
 		goto IL_00ca;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:287>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:293>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_12 = __this->___unit;
 		NullCheck(L_12);
 		bool L_13 = L_12->___host;
@@ -27327,9 +27744,9 @@ IL_006f:
 IL_0074:
 	{
 		V_0 = G_B12_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:288>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:289>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:290>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:294>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:295>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:296>
 		il2cpp_codegen_runtime_class_init_inline(FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var);
 		FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* L_14;
 		L_14 = FirebaseDatabase_get_DefaultInstance_m5D2694D707EAE163776CC0FF92B92537BDD59118(NULL);
@@ -27360,21 +27777,21 @@ IL_0074:
 		L_25 = DatabaseReference_Child_mC08F6692D99BAC7D3BCF83BDE3B8F9A947A0809E(L_24, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, NULL);
 		__this->___stateRef = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___stateRef), (void*)L_25);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:292>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:298>
 		UnitAutoAttack_TryAttachMovingListener_m45FDCFA8AA31B5F4074424ACDD6C615960F80835(__this, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:293>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:299>
 		V_2 = (bool)1;
 		goto IL_00ca;
 	}
 
 IL_00ca:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:294>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:300>
 		bool L_26 = V_2;
 		return L_26;
 	}
 }
-// Method Definition Index: 69512
+// Method Definition Index: 69517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_ParseBool_mEEAC01247B0D985E5EDFDA06E8F835DF7E53C42F (RuntimeObject* ___0_v, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -27394,7 +27811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnitAutoAttack_ParseBool_mEEAC01247B0D98
 	int32_t G_B8_0 = 0;
 	int32_t G_B13_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:298>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:304>
 		RuntimeObject* L_0 = ___0_v;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_0, il2cpp_defaults.boolean_class)))
 		{
@@ -27423,7 +27840,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:298>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:304>
 		bool L_3 = V_0;
 		V_5 = L_3;
 		goto IL_00a9;
@@ -27431,7 +27848,7 @@ IL_0014:
 
 IL_0022:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:299>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:305>
 		RuntimeObject* L_4 = ___0_v;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_4, il2cpp_defaults.int64_class)))
 		{
@@ -27460,7 +27877,7 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:299>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:305>
 		int64_t L_7 = V_1;
 		V_5 = (bool)((!(((uint64_t)L_7) <= ((uint64_t)((int64_t)0))))? 1 : 0);
 		goto IL_00a9;
@@ -27468,7 +27885,7 @@ IL_0035:
 
 IL_0044:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:300>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:306>
 		RuntimeObject* L_8 = ___0_v;
 		if (!((RuntimeObject*)IsInstSealed((RuntimeObject*)L_8, il2cpp_defaults.int32_class)))
 		{
@@ -27497,7 +27914,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:300>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:306>
 		int32_t L_11 = V_2;
 		V_5 = (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
 		goto IL_00a9;
@@ -27505,7 +27922,7 @@ IL_0057:
 
 IL_0065:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:301>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:307>
 		RuntimeObject* L_12 = ___0_v;
 		V_3 = ((String_t*)IsInstSealed((RuntimeObject*)L_12, il2cpp_defaults.string_class));
 		String_t* L_13 = V_3;
@@ -27517,7 +27934,7 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:303>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:309>
 		String_t* L_15 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.boolean_class);
 		bool L_16;
@@ -27530,7 +27947,7 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:303>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:309>
 		bool L_18 = V_9;
 		V_5 = L_18;
 		goto IL_00a9;
@@ -27538,7 +27955,7 @@ IL_0065:
 
 IL_008b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:304>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:310>
 		String_t* L_19 = V_3;
 		bool L_20;
 		L_20 = Int64_TryParse_m3FC0128C89CC2331239FC2A0A749BF33455F03D2(L_19, (&V_10), NULL);
@@ -27550,7 +27967,7 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:304>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:310>
 		int64_t L_22 = V_10;
 		V_5 = (bool)((!(((uint64_t)L_22) <= ((uint64_t)((int64_t)0))))? 1 : 0);
 		goto IL_00a9;
@@ -27562,19 +27979,19 @@ IL_00a3:
 
 IL_00a4:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:306>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:312>
 		V_5 = (bool)0;
 		goto IL_00a9;
 	}
 
 IL_00a9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:307>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:313>
 		bool L_23 = V_5;
 		return L_23;
 	}
 }
-// Method Definition Index: 69513
+// Method Definition Index: 69518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDrawGizmosSelected_m0273A66A7B503240E0580341331291548AD7BC94 (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27588,7 +28005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDrawGizmosSelected_m027
 	bool V_1 = false;
 	bool V_2 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:311>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:317>
 		bool L_0 = __this->___drawDebugGizmos;
 		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_1;
@@ -27598,17 +28015,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_OnDrawGizmosSelected_m027
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:311>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:317>
 		goto IL_0052;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:312>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:318>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_2;
 		L_2 = Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A(__this, Component_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m8330E0FA14398E9D8FC8C7D2FAE0946FB87C406A_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:313>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:319>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -27621,17 +28038,17 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:313>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:319>
 		goto IL_0052;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:314>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:320>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
 		L_6 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
 		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_6, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:315>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:321>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_7 = V_0;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -27649,11 +28066,11 @@ IL_0026:
 
 IL_0052:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:316>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:322>
 		return;
 	}
 }
-// Method Definition Index: 69514
+// Method Definition Index: 69519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack__ctor_m456C21D990A10B4E5B6AB86D8DF6CFBFF77E11BB (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27672,7 +28089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack__ctor_m456C21D990A10B4E5B
 		return;
 	}
 }
-// Method Definition Index: 69515
+// Method Definition Index: 69520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_U3CTryAttachMovingListenerU3Eb__22_0_mF7459DB27E33A244ED930B67FDBE7963735E7D5E (UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* __this, Task_1_tEF384421AF949B7843F34F35E8C31D2400026E50* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27689,7 +28106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_U3CTryAttachMovingListene
 	RuntimeObject* G_B4_0 = NULL;
 	UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF* G_B4_1 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:267>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:273>
 		Task_1_tEF384421AF949B7843F34F35E8C31D2400026E50* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -27702,9 +28119,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitAutoAttack_U3CTryAttachMovingListene
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:269>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:275>
 		__this->___hasMovingCache = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:270>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:276>
 		Task_1_tEF384421AF949B7843F34F35E8C31D2400026E50* L_3 = ___0_t;
 		NullCheck(L_3);
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_4;
@@ -27744,7 +28161,7 @@ IL_0026:
 
 IL_0031:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:272>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/UnitAutoAttack.cs:278>
 		return;
 	}
 }
@@ -27769,7 +28186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FirebaseArmyService_get_IfHo
 		return L_0;
 	}
 }
-// Method Definition Index: 69604
+// Method Definition Index: 69609
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA* FirebaseSessionManager_get_Instance_m7FB3E6B1F914D5750ADA15927A76F2AAB246D3EA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27805,7 +28222,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FirebaseArmyService_set_IfHo
 		return;
 	}
 }
-// Method Definition Index: 75659
+// Method Definition Index: 75664
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ValueChangedEventArgs_get_Snapshot_mBCD854B17AC08A3720E4CEE6333AD156514B3885_inline (ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28443,7 +28860,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 75475
+// Method Definition Index: 75480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ChildChangedEventArgs_get_Snapshot_m100ACE866E445C613AEC004CF99B9EED54C6F270_inline (ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28628,7 +29045,7 @@ IL_0034:
 		return L_7;
 	}
 }
-// Method Definition Index: 69723
+// Method Definition Index: 69728
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Unit_get_IsMovingFromRTDB_m3B5D5B81C39A0F4B75CE50BB9769F2BCC88133CE_inline (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28637,7 +29054,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Unit_get_IsMovingFromRTDB_m3
 		return L_0;
 	}
 }
-// Method Definition Index: 69722
+// Method Definition Index: 69727
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Unit_get_IsAttacking_m4F41C2D159F9BA2CF70AAB7ADEDFD0B52C93092A_inline (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* __this, const RuntimeMethod* method) 
 {
 	{

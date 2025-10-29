@@ -93,6 +93,14 @@ public class ProjectileReplicator : MonoBehaviour
 
         // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
         var ownerUnit = FindOwnerUnit(s.Child("ownerKey").Value?.ToString());
+
+        // Если этот снаряд принадлежит нашей стороне, то локально он уже создан логикой выстрела.
+        // Репликацию собственного снаряда пропускаем, чтобы не плодить двойные объекты.
+        bool belongsToThisSide = ownerUnit != null && Globalflags.ifHost == ownerUnit.host;
+        if (belongsToThisSide)
+        {
+            return;
+        }
         var go = new GameObject($"Projectile_{key}");
         var proj = go.AddComponent<Projectile>();
 
@@ -114,10 +122,10 @@ public class ProjectileReplicator : MonoBehaviour
 
         spawned[dictKey] = proj;
 
-        // Триггерим муцзл-флэш только на стороне владельца этого юнита
+        // Триггерим муцзл-флэш на удалённой стороне (у владельца вспышка уже сыграна локально)
         var ownerCtrl = ownerUnit ? ownerUnit.GetComponent<MuzzleFlashController>() : null;
         bool thisSideOwnsOwner = ownerUnit != null && Globalflags.ifHost == ownerUnit.host;
-        if (thisSideOwnsOwner && ownerCtrl != null)
+        if (!thisSideOwnsOwner && ownerCtrl != null)
         {
             ownerCtrl.PlayFlash(0.5f);
         }

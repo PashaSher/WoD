@@ -209,6 +209,11 @@ extern void U3COnArrivedU3Ed__18_SetStateMachine_m1E0D757A8B8AA07BC0320C3CF767DD
 extern void U3COnLocalHitCleanupU3Ed__17__ctor_m5EF9A6D56EEC42E5CCFEE18B7E8A93D37C5A5774 (void);
 extern void U3COnLocalHitCleanupU3Ed__17_MoveNext_mBD37CF69B7A7DA22586EC759F2BB5E16454F3696 (void);
 extern void U3COnLocalHitCleanupU3Ed__17_SetStateMachine_m8423550C15A7278ECD575749E0683BEA59CF6D7D (void);
+extern void ProjectileRegistry_Contains_m936A29B79ABAE0EC732EF6B52D46FA1A2EE284FC (void);
+extern void ProjectileRegistry_Register_mCE288FF58982C55DA196AC64E9AC1F5236516087 (void);
+extern void ProjectileRegistry_WasCreatedLocally_m2AF541E986285C7F13325AE57CB0FC6AF705BB36 (void);
+extern void ProjectileRegistry_Unregister_mB3F790B237ACF3741B9B0A88FF54F39523A8D75A (void);
+extern void ProjectileRegistry__cctor_m731AC17D0F657BBA6DF93412A0C13572A89F5F96 (void);
 extern void ProjectileReplicator_Awake_mCD1B611BACB457EDBA5C4391D97AE30596AA5D3E (void);
 extern void ProjectileReplicator_OnEnable_mEE4FB86E723CEDA85918FBBE18E861B81BFA4974 (void);
 extern void ProjectileReplicator_OnDisable_mF0F4D9DA26C1C06AD402B188F345D9234DCF082C (void);
@@ -757,7 +762,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[750] = 
+static Il2CppMethodPointer s_methodPointers[755] = 
 {
 	ArmyShopController_Awake_m001C01A157550D2A2C8E46D5EEF2A9EB4AAD3B40,
 	ArmyShopController_Start_m07E53D70D24B337792CD1B90EE11A78F83C0A99F,
@@ -961,6 +966,11 @@ static Il2CppMethodPointer s_methodPointers[750] =
 	U3COnLocalHitCleanupU3Ed__17__ctor_m5EF9A6D56EEC42E5CCFEE18B7E8A93D37C5A5774,
 	U3COnLocalHitCleanupU3Ed__17_MoveNext_mBD37CF69B7A7DA22586EC759F2BB5E16454F3696,
 	U3COnLocalHitCleanupU3Ed__17_SetStateMachine_m8423550C15A7278ECD575749E0683BEA59CF6D7D,
+	ProjectileRegistry_Contains_m936A29B79ABAE0EC732EF6B52D46FA1A2EE284FC,
+	ProjectileRegistry_Register_mCE288FF58982C55DA196AC64E9AC1F5236516087,
+	ProjectileRegistry_WasCreatedLocally_m2AF541E986285C7F13325AE57CB0FC6AF705BB36,
+	ProjectileRegistry_Unregister_mB3F790B237ACF3741B9B0A88FF54F39523A8D75A,
+	ProjectileRegistry__cctor_m731AC17D0F657BBA6DF93412A0C13572A89F5F96,
 	ProjectileReplicator_Awake_mCD1B611BACB457EDBA5C4391D97AE30596AA5D3E,
 	ProjectileReplicator_OnEnable_mEE4FB86E723CEDA85918FBBE18E861B81BFA4974,
 	ProjectileReplicator_OnDisable_mF0F4D9DA26C1C06AD402B188F345D9234DCF082C,
@@ -1510,7 +1520,7 @@ static Il2CppMethodPointer s_methodPointers[750] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[750] = 
+static const int32_t s_InvokerIndices[755] = 
 {
 	16585,
 	16352,
@@ -1714,6 +1724,11 @@ static const int32_t s_InvokerIndices[750] =
 	16585,
 	16585,
 	12274,
+	26916,
+	21840,
+	26916,
+	27631,
+	29108,
 	16585,
 	16585,
 	16585,
@@ -2267,7 +2282,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	750,
+	755,
 	s_methodPointers,
 	0,
 	NULL,

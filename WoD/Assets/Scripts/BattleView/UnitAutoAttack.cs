@@ -37,6 +37,12 @@ public class UnitAutoAttack : MonoBehaviour
     private void Awake()
     {
         unit = GetComponentInParent<Unit>();
+        // Стреляем только на стороне владельца юнита, чтобы не создавать дубликаты урона
+        if (unit != null && Globalflags.ifHost != unit.host)
+        {
+            enabled = false;
+            return;
+        }
     }
 
     private void OnEnable()
