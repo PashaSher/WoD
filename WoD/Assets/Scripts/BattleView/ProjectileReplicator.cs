@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using Firebase.Database;
 using UnityEngine;
@@ -81,6 +82,10 @@ public class ProjectileReplicator : MonoBehaviour
         string dictKey = branchMark + ":" + key;
         if (spawned.ContainsKey(dictKey)) return;
 
+        // Если это наша ветка (hostArmy на хосте, clientArmy на клиенте) — локальный снаряд уже создан стрелком
+        bool ourBranch = (sender == (object)projRootHost && Globalflags.ifHost) || (sender == (object)projRootClient && !Globalflags.ifHost);
+        if (ourBranch) return;
+
         // прочитаем требуемые поля
         Vector2 start = new Vector2(ToFloat(s.Child("startX").Value), ToFloat(s.Child("startY").Value));
         Vector2 target = new Vector2(ToFloat(s.Child("targetX").Value), ToFloat(s.Child("targetY").Value));
@@ -90,17 +95,21 @@ public class ProjectileReplicator : MonoBehaviour
         float splash = ToFloat(s.Child("splash").Value, 0f);
         float scaleX = ToFloat(s.Child("scaleX").Value, 1f);
         float scaleY = ToFloat(s.Child("scaleY").Value, 1f);
+        bool ownerIsHost = ToBool(s.Child("host").Value, false);
+        string ownerKey = s.Child("ownerKey").Value?.ToString();
 
-        // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
-        var ownerUnit = FindOwnerUnit(s.Child("ownerKey").Value?.ToString());
-
-        // Если этот снаряд принадлежит нашей стороне, то локально он уже создан логикой выстрела.
-        // Репликацию собственного снаряда пропускаем, чтобы не плодить двойные объекты.
-        bool belongsToThisSide = ownerUnit != null && Globalflags.ifHost == ownerUnit.host;
-        if (belongsToThisSide)
+        // Если этот снаряд принадлежит нашей стороне по данным снапшота — пропускаем локальное создание,
+        // т.к. владелец уже отрисовал его локально.
+        bool snapshotSaysOwn = Globalflags.ifHost == ownerIsHost;
+        if (snapshotSaysOwn)
         {
             return;
         }
+
+        // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
+        var ownerUnit = FindOwnerUnit(ownerKey);
+
+		// ownerUnit может отсутствовать при ленивой подгрузке визуалов — решение о своей/чужой стороне уже принято выше
         var go = new GameObject($"Projectile_{key}");
         var proj = go.AddComponent<Projectile>();
 
@@ -123,11 +132,14 @@ public class ProjectileReplicator : MonoBehaviour
         spawned[dictKey] = proj;
 
         // Триггерим муцзл-флэш на удалённой стороне (у владельца вспышка уже сыграна локально)
-        var ownerCtrl = ownerUnit ? ownerUnit.GetComponent<MuzzleFlashController>() : null;
-        bool thisSideOwnsOwner = ownerUnit != null && Globalflags.ifHost == ownerUnit.host;
-        if (!thisSideOwnsOwner && ownerCtrl != null)
+        var ownerCtrl = ownerUnit ? ownerUnit.GetComponentInChildren<MuzzleFlashController>(true) : null;
+        if (ownerCtrl != null)
         {
             ownerCtrl.PlayFlash(0.5f);
+        }
+        else if (!string.IsNullOrEmpty(ownerKey))
+        {
+            StartCoroutine(TryPlayFlashLater(ownerKey, 0.5f));
         }
     }
 
@@ -153,6 +165,23 @@ public class ProjectileReplicator : MonoBehaviour
         try { return v == null ? def : Convert.ToInt32(v); } catch { return def; }
     }
 
+    private static bool ToBool(object v, bool def = false)
+    {
+        try
+        {
+            if (v is bool b) return b;
+            if (v is long l) return l != 0;
+            if (v is int i) return i != 0;
+            if (v is string s)
+            {
+                if (bool.TryParse(s, out var bs)) return bs;
+                if (long.TryParse(s, out var ls)) return ls != 0;
+            }
+            return def;
+        }
+        catch { return def; }
+    }
+
     private Unit FindOwnerUnit(string ownerKey)
     {
         if (string.IsNullOrEmpty(ownerKey)) return null;
@@ -162,6 +191,25 @@ public class ProjectileReplicator : MonoBehaviour
             if (u && u.unitKey == ownerKey) return u;
         }
         return null;
+    }
+
+    private IEnumerator TryPlayFlashLater(string ownerKey, float timeoutSeconds)
+    {
+        float deadline = Time.time + Mathf.Max(0.05f, timeoutSeconds);
+        while (Time.time < deadline)
+        {
+            var u = FindOwnerUnit(ownerKey);
+            if (u)
+            {
+                var ctrl = u.GetComponentInChildren<MuzzleFlashController>(true);
+                if (ctrl != null)
+                {
+                    ctrl.PlayFlash(0.5f);
+                    yield break;
+                }
+            }
+            yield return null;
+        }
     }
 }
 

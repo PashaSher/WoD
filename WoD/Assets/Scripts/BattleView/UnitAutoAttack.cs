@@ -37,16 +37,12 @@ public class UnitAutoAttack : MonoBehaviour
     private void Awake()
     {
         unit = GetComponentInParent<Unit>();
-        // Стреляем только на стороне владельца юнита, чтобы не создавать дубликаты урона
-        if (unit != null && Globalflags.ifHost != unit.host)
-        {
-            enabled = false;
-            return;
-        }
     }
 
     private void OnEnable()
     {
+        // Подписки включаем только для владельца юнита
+        if (unit != null && Globalflags.ifHost != unit.host) return;
         TryAttachMovingListener();
     }
 
@@ -60,6 +56,8 @@ public class UnitAutoAttack : MonoBehaviour
 
     private void Update()
     {
+        // Исполняем логику только на стороне владельца, чтобы не дублировать снаряды
+        if (unit != null && Globalflags.ifHost != unit.host) return;
         if (Time.time < nextScanTime) return;
         nextScanTime = Time.time + scanIntervalSeconds;
 
