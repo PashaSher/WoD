@@ -17,12 +17,43 @@ public class ProjectileReplicator : MonoBehaviour
     private DatabaseReference projRootClient;
     private readonly Dictionary<string, Projectile> spawned = new();
 	private static readonly Dictionary<string, float> recentLocalFireByOwner = new();
+    private class PendingVisual
+    {
+        public Projectile projectile;
+        public Vector2 start;
+        public Vector2 target;
+        public float timestamp;
+    }
+    private static readonly Dictionary<string, List<PendingVisual>> pendingVisualsByOwner = new();
 
 	// Вызывается на клиенте в момент события анимации для подавления дублирования визуала
 	public static void MarkLocalFire(string ownerKey)
 	{
 		if (string.IsNullOrEmpty(ownerKey)) return;
 		recentLocalFireByOwner[ownerKey] = Time.time;
+	}
+
+	// Регистрируется локальный визуальный снаряд, чтобы при приходе RTDB записи не создавать дубликат, а привязать ref
+    public static void RegisterLocalVisual(string ownerKey, Projectile projectile, Vector2 start, Vector2 target)
+	{
+		if (string.IsNullOrEmpty(ownerKey) || projectile == null) return;
+        if (!pendingVisualsByOwner.TryGetValue(ownerKey, out var list))
+        {
+            list = new List<PendingVisual>();
+            pendingVisualsByOwner[ownerKey] = list;
+        }
+        list.Add(new PendingVisual { projectile = projectile, start = start, target = target, timestamp = Time.time });
+        recentLocalFireByOwner[ownerKey] = Time.time; // тоже отметим время для подстраховки
+
+        // Очистим сильно старые записи
+        float cutoff = Time.time - 2f;
+        for (int i = list.Count - 1; i >= 0; i--)
+        {
+            if (list[i] == null || !list[i].projectile || list[i].timestamp < cutoff)
+            {
+                list.RemoveAt(i);
+            }
+        }
 	}
 
     private void Awake()
@@ -106,7 +137,7 @@ public class ProjectileReplicator : MonoBehaviour
         bool ownerIsHost = ToBool(s.Child("host").Value, false);
         string ownerKey = s.Child("ownerKey").Value?.ToString();
 
-        // Если этот снаряд принадлежит нашей стороне по данным снапшота — пропускаем локальное создание,
+		// Если этот снаряд принадлежит нашей стороне по данным снапшота — пропускаем локальное создание,
         // т.к. владелец уже отрисовал его локально.
         bool snapshotSaysOwn = Globalflags.ifHost == ownerIsHost;
 		if (snapshotSaysOwn)
@@ -114,54 +145,46 @@ public class ProjectileReplicator : MonoBehaviour
 			return;
 		}
 
-		// Если только что был локальный ивент выстрела (на этом клиенте для не-владельца) — не создаём дублирующий визуал.
-		// Визуал уже отрисован мгновенно, а этот снапшот нужен лишь для авторитетной стороны.
-		if (!string.IsNullOrEmpty(ownerKey))
-		{
-			if (recentLocalFireByOwner.TryGetValue(ownerKey, out var t) && (Time.time - t) <= 0.35f)
-			{
-				// сбросим отметку, чтобы не подавлять последующие выстрелы
-				recentLocalFireByOwner.Remove(ownerKey);
-				return;
-			}
-		}
-
-        // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
-        var ownerUnit = FindOwnerUnit(ownerKey);
-
-		// ownerUnit может отсутствовать при ленивой подгрузке визуалов — решение о своей/чужой стороне уже принято выше
-        var go = new GameObject($"Projectile_{key}");
-        var proj = go.AddComponent<Projectile>();
-
-        // сконструируем временный ProjectileStats
-        var ps = ScriptableObject.CreateInstance<ProjectileStats>();
-        ps.speed = speed; ps.damage = damage; ps.penetration = penetration; ps.splashRadius = splash;
-        ps.scale = new Vector2(scaleX, scaleY);
-        // Назначим спрайт из настроек владельца, иначе на удалённом клиенте снаряд будет невидим
-        if (ownerUnit != null && ownerUnit.projectileStats != null)
+        // Если есть локальные визуалы у этого владельца — найдём лучший матч по стартовой позиции/времени и привяжем RTDB к нему
+        if (!string.IsNullOrEmpty(ownerKey) && pendingVisualsByOwner.TryGetValue(ownerKey, out var candidates) && candidates != null && candidates.Count > 0)
         {
-            ps.sprite = ownerUnit.projectileStats.sprite;
-            ps.destroySprite = ownerUnit.projectileStats.destroySprite;
-            ps.destroyDuration = ownerUnit.projectileStats.destroyDuration;
-            ps.destroyScale = ownerUnit.projectileStats.destroyScale;
+            int bestIndex = -1;
+            float bestScore = float.PositiveInfinity;
+            for (int i = 0; i < candidates.Count; i++)
+            {
+                var pv = candidates[i];
+                if (pv == null || !pv.projectile) continue;
+                float dist = Vector2.Distance(pv.start, start);
+                // Простой скоринг: расстояние + небольшой штраф за время
+                float timePenalty = Mathf.Abs(Time.time - pv.timestamp) * 0.1f;
+                float score = dist + timePenalty;
+                if (score < bestScore)
+                {
+                    bestScore = score; bestIndex = i;
+                }
+            }
+            if (bestIndex >= 0)
+            {
+                var chosen = candidates[bestIndex];
+                chosen.projectile.BindRef(s.Reference);
+                string existingKey = branchMark + ":" + key;
+                spawned[existingKey] = chosen.projectile;
+                candidates.RemoveAt(bestIndex);
+                // Вспышка уже проиграна локально
+                return;
+            }
+            // Если кандидаты были, но все мёртвые — почистим список
+            candidates.RemoveAll(pv => pv == null || !pv.projectile);
         }
-		// Реплика всегда визуальная (авторитет создаёт у себя локально)
-		proj.Init(ownerUnit, ps, key, start, target, createdByLocal: false);
-        // Привяжем ссылку прямо к снапшоту, чтобы корректно удалять из нужной ветки
-        proj.BindRef(s.Reference);
 
-        spawned[dictKey] = proj;
+        // Как запасной вариант: если очень недавно был локальный ивент — не создавать второй визуал
+        if (!string.IsNullOrEmpty(ownerKey) && recentLocalFireByOwner.TryGetValue(ownerKey, out var t2) && (Time.time - t2) <= 0.4f)
+        {
+            return;
+        }
 
-        // Триггерим муцзл-флэш на удалённой стороне (у владельца вспышка уже сыграна локально)
-        var ownerCtrl = ownerUnit ? ownerUnit.GetComponentInChildren<MuzzleFlashController>(true) : null;
-        if (ownerCtrl != null)
-        {
-            ownerCtrl.PlayFlash(0.5f);
-        }
-        else if (!string.IsNullOrEmpty(ownerKey))
-        {
-            StartCoroutine(TryPlayFlashLater(ownerKey, 0.5f));
-        }
+        // На стороне не-владельца не создаём снаряды из RTDB — визуал приходит от анимационного события
+        return;
     }
 
     private void OnChildRemoved(object sender, ChildChangedEventArgs e)

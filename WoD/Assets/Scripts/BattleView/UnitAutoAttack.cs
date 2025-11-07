@@ -275,7 +275,9 @@ public class UnitAutoAttack : MonoBehaviour
 		var proj = go.AddComponent<Projectile>();
 		// createdByLocal=false, чтобы исключить любую попытку локального урономоделирования
 		proj.Init(unit, unit.projectileStats, key, start, target, createdByLocal: false);
-		// Без BindRef — чисто локальная визуализация, умрёт по достижению цели
+		// Регистрируем визуал у репликатора, чтобы при приходе RTDB он привязал ref и не создавал дубликат
+		try { ProjectileReplicator.RegisterLocalVisual(unit.unitKey, proj, start, target); } catch {}
+		// Без BindRef сейчас — привяжется при приходе узла RTDB
 	}
 
 	// Метод для Animation Event
