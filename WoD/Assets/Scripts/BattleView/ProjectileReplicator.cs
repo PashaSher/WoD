@@ -16,6 +16,14 @@ public class ProjectileReplicator : MonoBehaviour
     private DatabaseReference projRootHost;
     private DatabaseReference projRootClient;
     private readonly Dictionary<string, Projectile> spawned = new();
+	private static readonly Dictionary<string, float> recentLocalFireByOwner = new();
+
+	// Вызывается на клиенте в момент события анимации для подавления дублирования визуала
+	public static void MarkLocalFire(string ownerKey)
+	{
+		if (string.IsNullOrEmpty(ownerKey)) return;
+		recentLocalFireByOwner[ownerKey] = Time.time;
+	}
 
     private void Awake()
     {
@@ -101,10 +109,22 @@ public class ProjectileReplicator : MonoBehaviour
         // Если этот снаряд принадлежит нашей стороне по данным снапшота — пропускаем локальное создание,
         // т.к. владелец уже отрисовал его локально.
         bool snapshotSaysOwn = Globalflags.ifHost == ownerIsHost;
-        if (snapshotSaysOwn)
-        {
-            return;
-        }
+		if (snapshotSaysOwn)
+		{
+			return;
+		}
+
+		// Если только что был локальный ивент выстрела (на этом клиенте для не-владельца) — не создаём дублирующий визуал.
+		// Визуал уже отрисован мгновенно, а этот снапшот нужен лишь для авторитетной стороны.
+		if (!string.IsNullOrEmpty(ownerKey))
+		{
+			if (recentLocalFireByOwner.TryGetValue(ownerKey, out var t) && (Time.time - t) <= 0.35f)
+			{
+				// сбросим отметку, чтобы не подавлять последующие выстрелы
+				recentLocalFireByOwner.Remove(ownerKey);
+				return;
+			}
+		}
 
         // сделаем простые Projectiles без отдельного SO, т.к. не знаем тип — скорость уже пришла
         var ownerUnit = FindOwnerUnit(ownerKey);
@@ -125,7 +145,8 @@ public class ProjectileReplicator : MonoBehaviour
             ps.destroyDuration = ownerUnit.projectileStats.destroyDuration;
             ps.destroyScale = ownerUnit.projectileStats.destroyScale;
         }
-        proj.Init(ownerUnit, ps, key, start, target, createdByLocal: false);
+		// Реплика всегда визуальная (авторитет создаёт у себя локально)
+		proj.Init(ownerUnit, ps, key, start, target, createdByLocal: false);
         // Привяжем ссылку прямо к снапшоту, чтобы корректно удалять из нужной ветки
         proj.BindRef(s.Reference);
 

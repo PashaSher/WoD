@@ -203,6 +203,7 @@ struct Dictionary_2_tEFC8016EC28460E6CE058A5F413FAB656883AA5F;
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 struct Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710;
 struct Dictionary_2_tDF5101606B275279E5ECB88E01AD1FA1D151F683;
+struct Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9;
 struct Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83;
 struct Dictionary_2_t645C7B1DAE2D839B52A5E387C165CE13D5465B00;
 struct Dictionary_2_t42B08F27E32EDAA06A656F208F4F64F212F66238;
@@ -5012,7 +5013,7 @@ struct U3CDeathRoutineU3Ed__21_t469994D1FD8648A4097097671C490DB589ACCBAE  : publ
 	Projectile_tA72765CF412643B7253F62ADB6EDDCC9C3803BA6* ___U3CU3E4__this;
 	float ___U3CdurU3E5__1;
 };
-struct U3CTryPlayFlashLaterU3Ed__16_t17B6BB7D208CF5344E22D08A67AF72A372159179  : public RuntimeObject
+struct U3CTryPlayFlashLaterU3Ed__18_t4CF15E4217FC19D4F8A1234301C1EE97809A0D17  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -52073,6 +52074,10 @@ struct FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA_StaticFi
 {
 	FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA* ___U3CInstanceU3Ek__BackingField;
 };
+struct ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE_StaticFields
+{
+	Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* ___recentLocalFireByOwner;
+};
 struct Renderer2D_t330E5DE82E10BDC32D253ECE949F978E993915D6_StaticFields
 {
 	ProfilingSampler_t420D4672EDB44E0EF980B31ADFD9E5747200FECE* ___m_ProfilingSampler;
@@ -58567,9 +58572,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8143 = { sizeof(Projectile_t
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8144;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8144 = { sizeof(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637), -1, sizeof(ProjectileRegistry_tF84839930A594D23F0844859933FA42596A3B637_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8145;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8145 = { sizeof(U3CTryPlayFlashLaterU3Ed__16_t17B6BB7D208CF5344E22D08A67AF72A372159179), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8145 = { sizeof(U3CTryPlayFlashLaterU3Ed__18_t4CF15E4217FC19D4F8A1234301C1EE97809A0D17), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8146;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8146 = { sizeof(ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8146 = { sizeof(ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE), -1, sizeof(ProjectileReplicator_t7AE99F0493724BE374CAA30B3E17899A95BC74CE_StaticFields), 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8147;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8147 = { sizeof(U3CPushMovingU3Ed__11_t2224F3549147E40C7EB3A9A53E48AA61E98897CB), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize8148;

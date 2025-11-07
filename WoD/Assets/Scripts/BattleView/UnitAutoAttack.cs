@@ -57,7 +57,7 @@ public class UnitAutoAttack : MonoBehaviour
     private void Update()
     {
         // Исполняем логику только на стороне владельца, чтобы не дублировать снаряды
-        if (unit != null && Globalflags.ifHost != unit.host) return;
+		if (unit != null && Globalflags.ifHost != unit.host) return;
         if (Time.time < nextScanTime) return;
         nextScanTime = Time.time + scanIntervalSeconds;
 
@@ -75,13 +75,7 @@ public class UnitAutoAttack : MonoBehaviour
 
         // Сначала сканируем и обновляем состояние (включая установку задержки первого выстрела)
         TryScanAndAttack();
-
-        // Затем, если уже пора стрелять — создаём снаряд (и реплицируем в RTDB)
-        if (IsAttacking() && Time.time >= nextShotTime)
-        {
-            nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit.fireRate));
-            TryFireProjectile();
-        }
+		// Далее стрельба осуществляется строго через событие анимации (Animation Event)
     }
 
     private void TryScanAndAttack()
@@ -138,8 +132,8 @@ public class UnitAutoAttack : MonoBehaviour
 
     private void TryFireProjectile()
     {
-        if (unit == null || unit.projectileStats == null) return;
-        if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey)) return;
+		if (unit == null || unit.projectileStats == null) return;
+		if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey)) return;
 
         // Точка вылета: приоритет — заданная в Inspector, затем авто-поиск "MuzzleFlash", затем fallback к Visual с оффсетом по facing
         Transform muzzle = projectileSpawn;
@@ -193,35 +187,47 @@ public class UnitAutoAttack : MonoBehaviour
             flashCtrl.PlayFlash(0.5f);
         }
 
-        // создаём ноду снаряда в RTDB: /sessions/{sid}/{branch}/projectiles/{autoKey}
-        string branch = unit.host ? "hostArmy" : "clientArmy";
-        var root = FirebaseDatabase.DefaultInstance.RootReference;
-        var projRoot = root.Child("sessions").Child(unit.sessionId).Child(branch).Child("projectiles");
-        var newRef = projRoot.Push();
-        string key = newRef.Key;
+		// Host-авторитет: только HOST создаёт реальный снаряд и реплицирует его
+		bool iAmOwner = (Globalflags.ifHost == unit.host);
+		if (iAmOwner)
+		{
+			// создаём ноду снаряда в RTDB: /sessions/{sid}/{branch}/projectiles/{autoKey}
+			string branch = unit.host ? "hostArmy" : "clientArmy";
+			var root = FirebaseDatabase.DefaultInstance.RootReference;
+			var projRoot = root.Child("sessions").Child(unit.sessionId).Child(branch).Child("projectiles");
+			var newRef = projRoot.Push();
+			string key = newRef.Key;
 
-        var payload = new Dictionary<string, object>
-        {
-            ["ownerKey"] = unit.unitKey,
-            ["ownerBranch"] = branch,
-            ["host"] = unit.host,
-            ["type"] = unit.unitType,
-            ["startX"] = (double)start.x,
-            ["startY"] = (double)start.y,
-            ["targetX"] = (double)target.x,
-            ["targetY"] = (double)target.y,
-            ["speed"] = (double)unit.projectileStats.speed,
-            ["damage"] = unit.projectileStats.damage,
-            ["penetration"] = unit.projectileStats.penetration,
-            ["splash"] = (double)unit.projectileStats.splashRadius,
-            ["scaleX"] = (double)unit.projectileStats.scale.x,
-            ["scaleY"] = (double)unit.projectileStats.scale.y,
-            ["createdAt"] = ServerValue.Timestamp
-        };
-        newRef.SetValueAsync(payload);
+			var payload = new Dictionary<string, object>
+			{
+				["ownerKey"] = unit.unitKey,
+				["ownerBranch"] = branch,
+				["host"] = unit.host,
+				["type"] = unit.unitType,
+				["startX"] = (double)start.x,
+				["startY"] = (double)start.y,
+				["targetX"] = (double)target.x,
+				["targetY"] = (double)target.y,
+				["speed"] = (double)unit.projectileStats.speed,
+				["damage"] = unit.projectileStats.damage,
+				["penetration"] = unit.projectileStats.penetration,
+				["splash"] = (double)unit.projectileStats.splashRadius,
+				["scaleX"] = (double)unit.projectileStats.scale.x,
+				["scaleY"] = (double)unit.projectileStats.scale.y,
+				["createdAt"] = ServerValue.Timestamp
+			};
+			newRef.SetValueAsync(payload);
 
-        // Локально отрисуем снаряд
-        SpawnLocalProjectile(key, start, target, createdByLocal: true);
+			// Локально отрисуем снаряд (авторитетный на HOST)
+			SpawnLocalProjectile(key, start, target, createdByLocal: true);
+		}
+		else
+		{
+			// Не владелец данного юнита на этом клиенте: только визуал снаряда без записи в БД и без нанесения урона.
+			// Помечаем локальный выстрел, чтобы репликатор не дублировал визуал, когда прилетит запись от владельца.
+			try { ProjectileReplicator.MarkLocalFire(unit.unitKey); } catch { }
+			SpawnVisualOnly(start, target);
+		}
     }
 
     private Unit FindClosestEnemyWithin(float range)
@@ -258,6 +264,30 @@ public class UnitAutoAttack : MonoBehaviour
             .Child("projectiles").Child(key);
         proj.BindRef(refPath);
     }
+
+	// Визуальный снаряд без БД/ключа и без нанесения урона (используется на клиенте)
+	private void SpawnVisualOnly(Vector2 start, Vector2 target)
+	{
+		if (unit == null || unit.projectileStats == null) return;
+		var key = $"local_{unit.unitKey}_{DateTime.UtcNow.Ticks}";
+		var go = new GameObject($"Projectile_{key}");
+		go.transform.position = start;
+		var proj = go.AddComponent<Projectile>();
+		// createdByLocal=false, чтобы исключить любую попытку локального урономоделирования
+		proj.Init(unit, unit.projectileStats, key, start, target, createdByLocal: false);
+		// Без BindRef — чисто локальная визуализация, умрёт по достижению цели
+	}
+
+	// Метод для Animation Event
+	public void AnimEvent_Fire()
+	{
+		// Чтобы не стрелять вне режима атаки — уважаем cadence из сканирования
+		if (!IsAttacking()) return;
+		// Переносим каденс на анимацию: ограничим частоту по fireRate, чтобы дизайнер мог ставить частые события
+		if (Time.time < nextShotTime) return;
+		nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit != null ? unit.fireRate : 1f));
+		TryFireProjectile();
+	}
 
     private void TryAttachMovingListener()
     {

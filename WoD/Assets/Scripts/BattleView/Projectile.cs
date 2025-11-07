@@ -82,7 +82,8 @@ public class Projectile : MonoBehaviour
             transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }
 
-        if (createdByLocal)
+		// Нанесение урона выполняется только на HOST, независимо от того, кто создавал локально объект
+		if (Globalflags.ifHost)
         {
             // Sweep linecast from previous to next pos; check any enemy Unit collider
 			var hits = Physics2D.LinecastAll(from, to);
@@ -121,7 +122,8 @@ public class Projectile : MonoBehaviour
 
     private async void OnLocalHitCleanup()
     {
-        if (projRef != null)
+		// Удаление узла БД — только на HOST (источник авторитетного состояния)
+		if (Globalflags.ifHost && projRef != null)
         {
             await projRef.RemoveValueAsync();
         }
@@ -130,13 +132,13 @@ public class Projectile : MonoBehaviour
 
     private async void OnArrived()
     {
-        if (createdByLocal)
+		if (Globalflags.ifHost)
         {
             if (!_hitApplied)
             {
                 TryApplyDamageAtPoint(target);
             }
-            if (projRef != null)
+			if (projRef != null)
             {
                 await projRef.RemoveValueAsync();
             }
@@ -144,7 +146,7 @@ public class Projectile : MonoBehaviour
         }
         else
         {
-            // Не владелец: ждём удаление с RTDB, но если уже прибыли — просто уничтожим локально
+			// Не HOST: ждём удаление с RTDB, но если уже прибыли — просто уничтожим локально
             BeginDeath();
         }
     }
