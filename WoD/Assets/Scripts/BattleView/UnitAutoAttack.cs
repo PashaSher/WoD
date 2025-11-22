@@ -90,25 +90,37 @@ public class UnitAutoAttack : MonoBehaviour
         Vector3 myPos = unit.transform.position;
         bool myHost = unit.host;
 
-        foreach (var other in allUnits)
+		foreach (var other in allUnits)
         {
-            if (other == null || other == unit) continue;
-            if (other.host == myHost) continue; // ищем только противоположную сторону
+			try
+			{
+				if (other == null || other == unit) continue;
+				// может быть уничтожен между проверками — повторная проверка ниже
+				if (other == null) continue;
+				if (other.host == myHost) continue; // ищем только противоположную сторону
 
-            float sqr = (other.transform.position - myPos).sqrMagnitude;
-            if (sqr < closestSqr)
-            {
-                closestSqr = sqr;
-                closestEnemy = other;
-            }
+				Vector3 pos;
+				try { pos = other.transform.position; } catch { continue; }
+				float sqr = (pos - myPos).sqrMagnitude;
+				if (sqr < closestSqr)
+				{
+					closestSqr = sqr;
+					closestEnemy = other;
+				}
+			}
+			catch { /* объект мог быть уничтожен в этот кадр */ }
         }
 
         bool shouldAttack = (closestEnemy != null && closestSqr <= range * range);
 
         // При начале атаки разворачиваемся лицом к цели
-        if (shouldAttack && !wasAttacking && closestEnemy != null)
+		if (shouldAttack && !wasAttacking && closestEnemy != null)
         {
-            unit.FaceTowardsX(closestEnemy.transform.position.x);
+			// цель могла быть уничтожена — безопасно читаем позицию
+			float tx;
+			try { tx = closestEnemy.transform.position.x; }
+			catch { tx = unit.transform.position.x; }
+			unit.FaceTowardsX(tx);
             // при входе в атаку даём время на анимацию/изготовку
             nextShotTime = Time.time + Mathf.Max(0f, firstShotDelaySeconds);
         }
@@ -236,16 +248,22 @@ public class UnitAutoAttack : MonoBehaviour
         Unit best = null;
         float bestSqr = float.PositiveInfinity;
         Vector3 my = unit.transform.position;
-        foreach (var u in all)
+		foreach (var u in all)
         {
-            if (!u || u.host == unit.host) continue;
-            float sqr = (u.transform.position - my).sqrMagnitude;
-            if (sqr < bestSqr)
-            {
-                bestSqr = sqr; best = u;
-            }
+			try
+			{
+				if (!u || u.host == unit.host) continue;
+				Vector3 pos;
+				try { pos = u.transform.position; } catch { continue; }
+				float sqr = (pos - my).sqrMagnitude;
+				if (sqr < bestSqr)
+				{
+					bestSqr = sqr; best = u;
+				}
+			}
+			catch { }
         }
-        if (best && bestSqr <= range * range) return best;
+		if (best && bestSqr <= range * range) return best;
         return null;
     }
 

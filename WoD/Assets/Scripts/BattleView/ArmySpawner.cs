@@ -29,6 +29,9 @@ public class ArmySpawner : MonoBehaviour
 
     private DatabaseReference root;
     private readonly Dictionary<UnitType, UnitStats> statsByType = new();
+    private DatabaseReference hostArmyRef;
+    private DatabaseReference clientArmyRef;
+    private readonly Dictionary<string, GameObject> unitByKey = new(); // ключ формата "host:{key}" / "client:{key}"
 
     private enum Side { Left, Right }
 
@@ -76,6 +79,11 @@ public class ArmySpawner : MonoBehaviour
         SafeLog($"Start() | sessionId='{sessionId}', prefab='{(unitRootPrefab ? unitRootPrefab.name : "NULL")}', stats={statsByType.Count}");
 
         root = FirebaseDatabase.DefaultInstance.RootReference;
+        if (!string.IsNullOrEmpty(sessionId))
+        {
+            hostArmyRef = root.Child("sessions").Child(sessionId).Child("hostArmy");
+            clientArmyRef = root.Child("sessions").Child(sessionId).Child("clientArmy");
+        }
 
         if (unitRootPrefab == null)
         {
@@ -95,6 +103,8 @@ public class ArmySpawner : MonoBehaviour
         }
 
         await LoadAndSpawn();
+        // Подпишемся только после первичной загрузки, чтобы обработать удаления в реальном времени
+        AttachRemovalListeners();
     }
 
     // ---------- main flow ----------
@@ -285,6 +295,13 @@ public class ArmySpawner : MonoBehaviour
             go.name = $"{type}_{key}";
             SafeLog($"  + {go.name} at {pos} (sprite='{appliedSprite?.name}')");
 
+            // Привяжем к карте для быстрых удалений по событию RTDB
+            string mapKey = (isHostBranch ? "host" : "client") + ":" + key;
+            if (!unitByKey.ContainsKey(mapKey))
+                unitByKey.Add(mapKey, go);
+            else
+                unitByKey[mapKey] = go;
+
             // Следующее место
             y -= 1.5f;
             if (y < -halfH + 1f)
@@ -349,5 +366,60 @@ public class ArmySpawner : MonoBehaviour
     {
         if (verboseLogs)
             Debug.Log($"[ArmySpawner] {msg}");
+    }
+
+    // ---------- RTDB listeners for deletions ----------
+    private void AttachRemovalListeners()
+    {
+        try
+        {
+            if (hostArmyRef != null)
+            {
+                hostArmyRef.ChildRemoved -= OnHostUnitRemoved;
+                hostArmyRef.ChildRemoved += OnHostUnitRemoved;
+            }
+            if (clientArmyRef != null)
+            {
+                clientArmyRef.ChildRemoved -= OnClientUnitRemoved;
+                clientArmyRef.ChildRemoved += OnClientUnitRemoved;
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"[ArmySpawner] AttachRemovalListeners exception: {ex.Message}");
+        }
+    }
+
+    private void OnDestroy()
+    {
+        try
+        {
+            if (hostArmyRef != null) hostArmyRef.ChildRemoved -= OnHostUnitRemoved;
+            if (clientArmyRef != null) clientArmyRef.ChildRemoved -= OnClientUnitRemoved;
+        }
+        catch { }
+    }
+
+    private void OnHostUnitRemoved(object sender, ChildChangedEventArgs e) => HandleUnitRemoved("host", e);
+    private void OnClientUnitRemoved(object sender, ChildChangedEventArgs e) => HandleUnitRemoved("client", e);
+
+    private void HandleUnitRemoved(string branch, ChildChangedEventArgs e)
+    {
+        try
+        {
+            var key = e?.Snapshot?.Key;
+            if (string.IsNullOrEmpty(key)) return;
+            string mapKey = $"{branch}:{key}";
+            if (unitByKey.TryGetValue(mapKey, out var go))
+            {
+                if (go) Destroy(go);
+                unitByKey.Remove(mapKey);
+                SafeLog($"Removed unit '{mapKey}' by RTDB delete.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"[ArmySpawner] HandleUnitRemoved exception: {ex.Message}");
+        }
     }
 }

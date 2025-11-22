@@ -31,6 +31,20 @@ public class Projectile : MonoBehaviour
     private SpriteRenderer _explosionRenderer;
 	private GameObject _explosionGo;
 
+	// Цель-юнит может исчезнуть к моменту столкновения (умер/удалён).
+	// В таком случае снаряд просто летит до точки и исчезает — без урона и без ошибок.
+	private static bool IsAlive(Unit u)
+	{
+		try
+		{
+			if (u == null) return false;
+			if (!u) return false; // Unity destroyed check
+			if (!u.isActiveAndEnabled) return false;
+			return u.health > 0;
+		}
+		catch { return false; }
+	}
+
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
         this.owner = owner;
@@ -92,22 +106,33 @@ public class Projectile : MonoBehaviour
             {
                 for (int i = 0; i < hits.Length; i++)
                 {
-                    var go = hits[i].collider ? hits[i].collider.gameObject : null;
-                    if (!go) continue;
-                    var unitHit = go.GetComponentInParent<Unit>();
-                    if (!unitHit) continue;
-                    if (owner != null && unitHit.host == owner.host) continue; // ignore friendlies
+                    try
+                    {
+                        var go = hits[i].collider ? hits[i].collider.gameObject : null;
+                        if (!go) continue;
+                        var unitHit = go.GetComponentInParent<Unit>();
+                        if (!unitHit) continue;
+						// Если цель уже умерла/удалена — игнорируем попадание и летим дальше
+						if (!IsAlive(unitHit)) continue;
+                        // мог быть уничтожен между кадрами
+                        bool sameSide;
+                        try { sameSide = (owner != null && unitHit.host == owner.host); } catch { continue; }
+                        if (sameSide) continue; // ignore friendlies
 
-					// Apply damage centered at impact point; if AoE didn't hit anyone, ensure direct hit gets damage
-					Vector2 impactPoint = hits[i].point;
-					TryApplyDamageAtPoint(impactPoint);
-					if (!_hitApplied)
-					{
-						unitHit.TakeDamage(Mathf.Max(1, stats.damage));
-						_hitApplied = true;
-					}
-					OnLocalHitCleanup();
-                    return;
+					    // Apply damage centered at impact point; if AoE didn't hit anyone, ensure direct hit gets damage
+					    Vector2 impactPoint = hits[i].point;
+					    TryApplyDamageAtPoint(impactPoint);
+					    if (!_hitApplied)
+					    {
+							// Ещё раз проверим, что цель жива непосредственно перед нанесением урона
+							if (IsAlive(unitHit))
+								unitHit.TakeDamage(Mathf.Max(1, stats.damage));
+						    _hitApplied = true;
+					    }
+					    OnLocalHitCleanup();
+                        return;
+                    }
+                    catch { /* цель могла исчезнуть в этот же кадр */ }
                 }
             }
         }
@@ -165,16 +190,23 @@ public class Projectile : MonoBehaviour
 			float radius = Mathf.Max(0.01f, stats.splashRadius);
 			int baseDamage = Mathf.Max(1, stats.damage);
 			bool anyHit = false;
-			foreach (var u in all)
+		foreach (var u in all)
 			{
+				try
+				{
 				if (!u || u.host == owner.host) continue;
-				float dist = Vector2.Distance((Vector2)u.transform.position, point);
-				if (dist > radius) continue;
-				float t = 1f - (dist / radius); // 1 в центре, 0 на краю
-				int dmg = Mathf.RoundToInt(baseDamage * Mathf.Clamp01(t));
-				if (dmg <= 0) continue;
-				u.TakeDamage(dmg);
-				anyHit = true;
+				if (!IsAlive(u)) continue;
+					Vector2 pos;
+					try { pos = (Vector2)u.transform.position; } catch { continue; }
+					float dist = Vector2.Distance(pos, point);
+					if (dist > radius) continue;
+					float t = 1f - (dist / radius); // 1 в центре, 0 на краю
+					int dmg = Mathf.RoundToInt(baseDamage * Mathf.Clamp01(t));
+					if (dmg <= 0) continue;
+				if (IsAlive(u)) u.TakeDamage(dmg);
+					anyHit = true;
+				}
+				catch { }
 			}
 			if (anyHit) _hitApplied = true;
 			return;
@@ -186,17 +218,25 @@ public class Projectile : MonoBehaviour
 		float bestSqr = float.PositiveInfinity;
 		foreach (var u in all)
 		{
-			if (!u || u.host == owner.host) continue; // только враги
-			float sqr = ((Vector2)u.transform.position - point).sqrMagnitude;
-			if (sqr < bestSqr)
+			try
 			{
-				bestSqr = sqr; best = u;
+				if (!u || u.host == owner.host) continue; // только враги
+				if (!IsAlive(u)) continue;
+				Vector2 pos;
+				try { pos = (Vector2)u.transform.position; } catch { continue; }
+				float sqr = (pos - point).sqrMagnitude;
+				if (sqr < bestSqr)
+				{
+					bestSqr = sqr; best = u;
+				}
 			}
+			catch { }
 		}
 		if (best != null && bestSqr <= hitRadius * hitRadius)
 		{
 			_hitApplied = true;
-			best.TakeDamage(Mathf.Max(1, stats.damage));
+			if (IsAlive(best))
+				best.TakeDamage(Mathf.Max(1, stats.damage));
 		}
     }
 

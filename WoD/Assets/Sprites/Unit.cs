@@ -54,6 +54,7 @@ public class Unit : MonoBehaviour
     private bool  _forceCombatPush;
     private bool  _maxHpDirty;                 // push maxHP once at start or on explicit change
     private const float COMBAT_SYNC_INTERVAL = 0.10f; // push at most 10 Hz
+    private bool  _isDying;                    // предотвращает двойной вызов Die()
 
     // ===== Animation/RTDB flags =====
     private bool _movingFromRtdb;              // последний принятый из RTDB флаг "moving"
@@ -108,11 +109,13 @@ public class Unit : MonoBehaviour
         await unitRef.UpdateChildrenAsync(meta);
 
         // первичный боевой state (включая maxHP один раз)
-        PushCombatState(includeMaxHP: _maxHpDirty);
+        if (this != null) // объект мог быть уничтожен, пока ждали await
+            await PushCombatState(includeMaxHP: _maxHpDirty);
         _maxHpDirty = false;
 
         // подписка на состояние
-        stateRef.ValueChanged += OnRemoteStateChanged;
+        if (this != null && stateRef != null)
+            stateRef.ValueChanged += OnRemoteStateChanged;
     }
 
     private void OnDestroy()
@@ -128,8 +131,8 @@ public class Unit : MonoBehaviour
         health = Mathf.Max(0, health - Mathf.Abs(amount));
         _forceCombatPush = true;
         // Сразу отправим в RTDB фактическое HP, чтобы оба клиента увидели обновление до уничтожения
-        PushCombatState(includeMaxHP: false);
-        if (health == 0) Destroy(gameObject);
+        _ = PushCombatState(includeMaxHP: false);
+        if (health == 0) Die();
     }
 
     public void Heal(int amount)
@@ -181,7 +184,7 @@ public class Unit : MonoBehaviour
         if (health > maxHP) health = maxHP;
         _maxHpDirty = true;
         _forceCombatPush = true;
-        PushCombatState(includeMaxHP: true);
+        _ = PushCombatState(includeMaxHP: true);
         _maxHpDirty = false;
     }
 
@@ -195,7 +198,7 @@ public class Unit : MonoBehaviour
 
         if (_forceCombatPush || (changed && Time.time >= _nextCombatSyncTime))
         {
-            PushCombatState(includeMaxHP: false); // maxHP не шлём тут
+            _ = PushCombatState(includeMaxHP: false); // maxHP не шлём тут
             _combatLast = cur;
             _nextCombatSyncTime = Time.time + COMBAT_SYNC_INTERVAL;
             _forceCombatPush = false;
@@ -212,26 +215,48 @@ public class Unit : MonoBehaviour
     private static bool HasCombatChanged(CombatSnapshot a, CombatSnapshot b) =>
         a.hp != b.hp || a.facing != b.facing || a.attacking != b.attacking;
 
-    private async void PushCombatState(bool includeMaxHP)
+    private async System.Threading.Tasks.Task PushCombatState(bool includeMaxHP)
     {
+        // Если объект уже уничтожен — выходим, чтобы избежать MissingReferenceException
+        if (this == null) return;
         if (stateRef == null) return;
 
         var dict = new Dictionary<string, object>
         {
             ["hp"]        = health,
-            ["facing"]    = GetFacing(),
+            // Не вычисляем facing, если объект уже уничтожается
+            ["facing"]    = (this != null) ? GetFacing() : 1,
             ["attacking"] = attacking,
             ["updatedAt"] = ServerValue.Timestamp
         };
         if (includeMaxHP) dict["maxHP"] = maxHP;
 
-        await stateRef.UpdateChildrenAsync(dict);
-        await unitRef.Child("updatedAt").SetValueAsync(ServerValue.Timestamp);
+        try { await stateRef.UpdateChildrenAsync(dict); } catch { }
+        try { await unitRef.Child("updatedAt").SetValueAsync(ServerValue.Timestamp); } catch { }
+    }
+
+    private async void Die()
+    {
+        if (_isDying) return;
+        _isDying = true;
+        // Кэшируем ссылку на GameObject до await — объект может быть уничтожен по событию RTDB
+        var go = this ? this.gameObject : null;
+        // Удаляем узел юнита в RTDB — это событие услышит другой клиент и удалит у себя объект
+        try
+        {
+            if (unitRef != null)
+                await unitRef.RemoveValueAsync();
+        }
+        catch { /* best-effort */ }
+        // Локально уничтожаем объект (не ждём обратной подписки)
+        if (go) Destroy(go);
     }
 
     // ====== Inbound sync: consume movement + combat ======
     private void OnRemoteStateChanged(object sender, ValueChangedEventArgs e)
     {
+        // Объект мог быть уже уничтожен по событию RTDB удаления — просто игнорируем колбэк
+        if (this == null) return;
         if (e.DatabaseError != null || e.Snapshot == null || !e.Snapshot.Exists) return;
 
         var s = e.Snapshot;
@@ -246,13 +271,8 @@ public class Unit : MonoBehaviour
         maxHP     = (rMaxHP > 0) ? rMaxHP : maxHP;
         attacking = rAtk;
 
-        // Если HP упало до нуля на любом клиенте — удалим объект локально,
-        // чтобы не оставались "висящие" юниты без взаимодействия
-        if (health == 0)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        // Если HP == 0 — ожидаем удаление узла RTDB и обработку через ArmySpawner.ChildRemoved
+        if (health == 0) return;
 
         if (visual != null)
         {

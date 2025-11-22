@@ -58,11 +58,20 @@ public class BattleEndManager : MonoBehaviour
 		var allUnits = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
 		foreach (var u in allUnits)
 		{
-			if (u == null) continue;
-			if (u.health > 0)
+			try
 			{
-				if (u.host) hostAlive++; else clientAlive++;
+				if (u == null) continue;
+				// может быть уничтожен между проверкой и чтением свойства — ловим и игнорируем
+				int hp;
+				try { hp = u.health; } catch { continue; }
+				if (hp > 0)
+				{
+					bool isHost;
+					try { isHost = u.host; } catch { continue; }
+					if (isHost) hostAlive++; else clientAlive++;
+				}
 			}
+			catch { }
 		}
 
 		// Запомним, что юниты в принципе были в сцене (чтобы не показывать ничью при старте)
