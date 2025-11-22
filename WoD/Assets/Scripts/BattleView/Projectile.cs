@@ -29,6 +29,7 @@ public class Projectile : MonoBehaviour
     private bool _dying;          // запущена анимация уничтожения
     private Coroutine _deathRoutine;
     private SpriteRenderer _explosionRenderer;
+	private GameObject _explosionGo;
 
     public void Init(Unit owner, ProjectileStats stats, string key, Vector2 startPos, Vector2 targetPos, bool createdByLocal)
     {
@@ -210,28 +211,46 @@ public class Projectile : MonoBehaviour
         // рисуем спрайт взрыва отдельным рендерером, если задан
         if (stats != null && stats.destroySprite != null)
         {
-            if (_explosionRenderer == null)
-            {
-                var go = new GameObject("Explosion");
-                go.transform.SetParent(transform, false);
-                _explosionRenderer = go.AddComponent<SpriteRenderer>();
-                if (spriteRenderer != null)
-                {
-                    _explosionRenderer.sortingLayerID = spriteRenderer.sortingLayerID;
-                    _explosionRenderer.sortingOrder = spriteRenderer.sortingOrder + 1;
-                    _explosionRenderer.color = spriteRenderer.color;
-                    _explosionRenderer.flipX = spriteRenderer.flipX;
-                    _explosionRenderer.flipY = spriteRenderer.flipY;
-                }
-            }
-            _explosionRenderer.sprite = stats.destroySprite;
-            _explosionRenderer.enabled = true;
+			// Создаём обособленный объект взрыва в мировых координатах, чтобы он всегда был "вверх" (без поворотов и флипов)
+			if (_explosionRenderer == null)
+			{
+				_explosionGo = new GameObject("Explosion");
+				_explosionGo.transform.position = transform.position;
+				_explosionGo.transform.rotation = Quaternion.identity; // всегда смотрит вверх
+				_explosionGo.transform.localScale = Vector3.one;       // без наследования флипа
+				_explosionRenderer = _explosionGo.AddComponent<SpriteRenderer>();
+				if (spriteRenderer != null)
+				{
+					_explosionRenderer.sortingLayerID = spriteRenderer.sortingLayerID;
+					_explosionRenderer.sortingOrder = spriteRenderer.sortingOrder + 1;
+					_explosionRenderer.color = spriteRenderer.color;
+				}
+				// Явно отключаем флипы, чтобы не переворачивался
+				_explosionRenderer.flipX = false;
+				_explosionRenderer.flipY = false;
+			}
+			else
+			{
+				// Обновим позицию на случай, если BeginDeath вызван при движении
+				_explosionGo.transform.position = transform.position;
+				_explosionGo.transform.rotation = Quaternion.identity;
+				_explosionRenderer.flipX = false;
+				_explosionRenderer.flipY = false;
+			}
+			_explosionRenderer.sprite = stats.destroySprite;
+			_explosionRenderer.enabled = true;
         }
 
         // применим маштаб вспышки, если задан
         if (stats != null && stats.destroyScale != Vector2.zero)
         {
-            transform.localScale = new Vector3(stats.destroyScale.x, stats.destroyScale.y, 1f);
+			// Положительный масштаб для избежания переворотов
+			float sx = Mathf.Abs(stats.destroyScale.x);
+			float sy = Mathf.Abs(stats.destroyScale.y);
+			if (_explosionGo != null)
+				_explosionGo.transform.localScale = new Vector3(sx, sy, 1f);
+			else
+				transform.localScale = new Vector3(sx, sy, 1f);
         }
 
         if (_deathRoutine != null) StopCoroutine(_deathRoutine);
@@ -242,6 +261,7 @@ public class Projectile : MonoBehaviour
     {
         float dur = (stats != null && stats.destroyDuration > 0f) ? stats.destroyDuration : 1f;
         yield return new WaitForSeconds(dur);
+		if (_explosionGo) Destroy(_explosionGo);
         if (this) Destroy(gameObject);
     }
 }

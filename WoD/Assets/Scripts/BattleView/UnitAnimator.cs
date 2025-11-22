@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 /// <summary>
 /// Bridges Unit gameplay state to Animator parameters on child "Visual".
@@ -32,6 +33,45 @@ public class UnitAnimator : MonoBehaviour
         return false;
     }
 
+	// Try to resolve an animator parameter name:
+	// 1) exact match for preferred
+	// 2) exact match for any alias
+	// 3) case-insensitive match vs preferred/aliases among existing parameters
+	private static string ResolveAnimatorParam(Animator a, string preferred, params string[] aliases)
+	{
+		if (!a) return null;
+		if (HasParam(a, preferred)) return preferred;
+		if (aliases != null)
+		{
+			for (int i = 0; i < aliases.Length; i++)
+			{
+				var alias = aliases[i];
+				if (!string.IsNullOrEmpty(alias) && HasParam(a, alias)) return alias;
+			}
+		}
+
+		// case-insensitive scan
+		var candidates = new List<string>();
+		candidates.Add(preferred);
+		if (aliases != null) candidates.AddRange(aliases);
+
+		var ps = a.parameters;
+		for (int i = 0; i < ps.Length; i++)
+		{
+			var p = ps[i];
+			if (p == null || string.IsNullOrEmpty(p.name)) continue;
+			for (int c = 0; c < candidates.Count; c++)
+			{
+				if (!string.IsNullOrEmpty(candidates[c]) &&
+					string.Equals(p.name, candidates[c], System.StringComparison.OrdinalIgnoreCase))
+				{
+					return p.name; // use actual casing from controller
+				}
+			}
+		}
+		return null;
+	}
+
     private void Awake()
     {
         unit = GetComponent<Unit>();
@@ -42,8 +82,15 @@ public class UnitAnimator : MonoBehaviour
 
         if (animator)
         {
-            hasMovingParam = HasParam(animator, movingParam);
-            hasAttackParam = HasParam(animator, attackParam);
+			// Auto-detect parameter names to tolerate controller variants (e.g., "Moving", "Atacing")
+			string resolvedMoving = ResolveAnimatorParam(animator, movingParam, "Moving");
+			if (!string.IsNullOrEmpty(resolvedMoving)) movingParam = resolvedMoving;
+
+			string resolvedAttack = ResolveAnimatorParam(animator, attackParam, "Attack", "Attacking", "Atacing");
+			if (!string.IsNullOrEmpty(resolvedAttack)) attackParam = resolvedAttack;
+
+			hasMovingParam = HasParam(animator, movingParam);
+			hasAttackParam = HasParam(animator, attackParam);
             hasSpeedParam  = HasParam(animator, speedParam);
         }
     }

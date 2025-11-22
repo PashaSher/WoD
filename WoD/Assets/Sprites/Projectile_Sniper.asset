@@ -19,3 +19,6 @@ MonoBehaviour:
   maxLifetime: 4
   sprite: {fileID: -2071717904496075581, guid: 34420d44266559b468e059926f3522e3, type: 3}
   scale: {x: 0.03, y: 0.03}
+  destroySprite: {fileID: -8030570891474961867, guid: bea0d709f45692046a386a45108b69e3, type: 3}
+  destroyDuration: 1
+  destroyScale: {x: 0.5, y: 0.5}

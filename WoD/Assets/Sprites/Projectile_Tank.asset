@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12dbac6bfac7f4458eeca16ac0c838d, type: 3}
   m_Name: Projectile_Tank
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileStats
-  damage: 5
+  damage: 75
   penetration: 3
   splashRadius: 1.8
   speed: 9
   maxLifetime: 6
-  sprite: {fileID: 2208703988740019828, guid: 18cb2cb6ec6d55743a99f44d0447ea83, type: 3}
+  sprite: {fileID: 7034660610512690298, guid: 8c3e35c7ecc34e349a41d0385684f995, type: 3}
   scale: {x: 0.1, y: 0.1}
+  destroySprite: {fileID: -8030570891474961867, guid: 3a2b8657cec21e240b954520188a2cac, type: 3}
+  destroyDuration: 1
+  destroyScale: {x: 0.5, y: 0.5}
