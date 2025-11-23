@@ -78,7 +78,26 @@ public class FirebaseSessionManager : MonoBehaviour
                 SceneManager.LoadScene(mainMenuSceneName);
             });
         }
-        if (remoteClosedPanel != null) remoteClosedPanel.SetActive(false);
+        if (remoteClosedPanel != null)
+        {
+            // Ensure the modal is always above other UI (e.g., shop ScrollView)
+            var c = remoteClosedPanel.GetComponent<Canvas>();
+            if (c == null) c = remoteClosedPanel.AddComponent<Canvas>();
+            c.overrideSorting = true;
+            c.sortingOrder = 5000; // put on top of typical UI
+            // ensure it can receive raycasts
+            if (remoteClosedPanel.GetComponent<GraphicRaycaster>() == null)
+                remoteClosedPanel.AddComponent<GraphicRaycaster>();
+            // optional transparent blocker so clicks don't pass through
+            var img = remoteClosedPanel.GetComponent<Image>();
+            if (img == null) img = remoteClosedPanel.AddComponent<Image>();
+            if (img != null)
+            {
+                if (img.color.a < 0.05f) img.color = new Color(0, 0, 0, 0.5f);
+                img.raycastTarget = true;
+            }
+            remoteClosedPanel.SetActive(false);
+        }
     }
 
     private void OnSessionChanged(object sender, ValueChangedEventArgs e)
@@ -118,6 +137,8 @@ public class FirebaseSessionManager : MonoBehaviour
         modalShown = true;
 
         if (remoteClosedPanel == null) return; // В этой сцене нет модалки — просто игнор.
+        // bring to front inside its parent hierarchy as well
+        remoteClosedPanel.transform.SetAsLastSibling();
         remoteClosedPanel.SetActive(true);
         if (remoteClosedText != null) remoteClosedText.text = message;
     }
