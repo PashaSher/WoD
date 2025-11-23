@@ -56,6 +56,10 @@ public class UnitAutoAttack : MonoBehaviour
 
     private void Update()
     {
+		// Во время расстановки — не сканируем и не стреляем
+		if (BattlePlacementState.IsPlacementActive) return;
+		// Пока менеджер боя не активен или оба игрока не готовы — стоим
+		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return;
         // Исполняем логику только на стороне владельца, чтобы не дублировать снаряды
 		if (unit != null && Globalflags.ifHost != unit.host) return;
         if (Time.time < nextScanTime) return;
@@ -63,8 +67,10 @@ public class UnitAutoAttack : MonoBehaviour
 
         if (!EnsureStateRef()) return;
 
-        // Сканируем, только если наш юнит НЕ в движении по мнению RTDB
-        if (!hasMovingCache || movingCache)
+        // Сканируем, только если наш юнит НЕ в движении по мнению RTDB.
+        // Если кеш ещё не прогрет (hasMovingCache == false) — считаем, что НЕ движется, чтобы не блокировать старт боя.
+        bool isMoving = hasMovingCache ? movingCache : false;
+        if (isMoving)
         {
             // пока движется — гарантированно не атакуем
             SetAttacking(false);

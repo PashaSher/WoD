@@ -106,6 +106,8 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
     public void OnPointerDown(PointerEventData e)
     {
+        // Во время расстановки и до момента, пока оба игрока не готовы — запретить управление
+        if (BattlePlacementState.IsPlacementActive || !BattleReadyManager.BothReady) return;
         if (!CanControl()) return;
         if (!EnsureStateRef())
         {
@@ -146,6 +148,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
     public void OnDrag(PointerEventData e)
     {
+        if (BattlePlacementState.IsPlacementActive || !BattleReadyManager.BothReady) return;
         if (!dragging) return;
         currWorld = ScreenToWorld(e.position);
 
@@ -155,6 +158,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
     public void OnPointerUp(PointerEventData e)
     {
+        if (BattlePlacementState.IsPlacementActive || !BattleReadyManager.BothReady) return;
         if (!dragging) return;
         dragging = false;
         line.enabled = false;

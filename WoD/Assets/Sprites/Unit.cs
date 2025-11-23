@@ -271,8 +271,17 @@ public class Unit : MonoBehaviour
         maxHP     = (rMaxHP > 0) ? rMaxHP : maxHP;
         attacking = rAtk;
 
-        // Если HP == 0 — ожидаем удаление узла RTDB и обработку через ArmySpawner.ChildRemoved
-        if (health == 0) return;
+        // Если HP == 0:
+        // - на НЕ-владельце сразу удалим объект локально, чтобы избежать "фантома"
+        // - на владельце ждём удаление узла RTDB (обрабатывается отдельно)
+        if (health == 0)
+        {
+            if (!IsThisDeviceOwner())
+            {
+                Destroy(gameObject);
+            }
+            return;
+        }
 
         if (visual != null)
         {
