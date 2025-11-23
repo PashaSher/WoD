@@ -1,10 +1,11 @@
 // ArmyShopController.cs
- // ArmyShopController.cs
+// ArmyShopController.cs
 using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class ArmyShopController : MonoBehaviour
 {
@@ -18,11 +19,16 @@ public class ArmyShopController : MonoBehaviour
     [Header("Status (errors only)")]
     [SerializeField] private TextMeshProUGUI statusText;
 
-    [Header("Tiles (per unit)")]
+    [Header("Legacy tiles (optional)")]
     [SerializeField] private UnitTile riflemanTile;
     [SerializeField] private UnitTile grenaderTile;
     [SerializeField] private UnitTile sniperTile;
     [SerializeField] private UnitTile tankTile;
+
+    [Header("Scroll layout (optional)")]
+    [SerializeField] private ScrollRect scrollRect;
+    [SerializeField] private RectTransform tilesContent;   // content under ScrollRect
+    [SerializeField] private UnitTile tilePrefab;          // template tile to clone
 
     [Header("Enemy summary (live)")]
     [SerializeField] private TextMeshProUGUI enemyPickedText;
@@ -30,6 +36,7 @@ public class ArmyShopController : MonoBehaviour
     private int _points;
     private readonly Dictionary<UnitType, int> _counts = new();
     private readonly Dictionary<UnitType, int> _enemyCounts = new();
+    private readonly Dictionary<UnitType, UnitTile> _tileByType = new();
 
     private void Awake()
     {
@@ -45,14 +52,79 @@ public class ArmyShopController : MonoBehaviour
         _points = startingPoints;
         foreach (UnitType t in Enum.GetValues(typeof(UnitType))) _counts[t] = 0;
 
-        riflemanTile.Init(this, UnitType.Rifleman);
-        grenaderTile.Init(this, UnitType.Grenader);
-        sniperTile.Init(this, UnitType.Sniper);
-        tankTile.Init(this, UnitType.Tank);
+        // ensure scroll rect exists
+        EnsureScrollLayout();
 
+        // Use given prefab or fallback to riflemanTile as template
+        if (tilePrefab == null) tilePrefab = riflemanTile;
+
+        BuildTiles();
         RedrawPoints();
     }
 
+    private void EnsureScrollLayout()
+    {
+        if (scrollRect != null && tilesContent != null) return;
+        // Try to find in children
+        if (scrollRect == null) scrollRect = GetComponentInChildren<ScrollRect>(true);
+        if (scrollRect != null && tilesContent == null) tilesContent = scrollRect.content;
+        if (scrollRect != null && tilesContent != null) return;
+
+        // Auto-create minimal ScrollRect
+        var goScroll = new GameObject("ShopScroll", typeof(RectTransform), typeof(Image), typeof(Mask), typeof(ScrollRect));
+        var rtScroll = (RectTransform)goScroll.transform;
+        rtScroll.SetParent(transform, false);
+        rtScroll.anchorMin = new Vector2(0.05f, 0.25f);
+        rtScroll.anchorMax = new Vector2(0.95f, 0.85f);
+        rtScroll.offsetMin = Vector2.zero; rtScroll.offsetMax = Vector2.zero;
+        var sr = goScroll.GetComponent<ScrollRect>();
+        sr.horizontal = true; sr.vertical = false;
+        sr.viewport = rtScroll;
+        goScroll.GetComponent<Image>().color = new Color(1,1,1,0); // transparent
+        goScroll.GetComponent<Mask>().showMaskGraphic = false;
+
+        var content = new GameObject("Content", typeof(RectTransform), typeof(HorizontalLayoutGroup));
+        var rtContent = (RectTransform)content.transform;
+        rtContent.SetParent(goScroll.transform, false);
+        var h = content.GetComponent<HorizontalLayoutGroup>();
+        h.spacing = 20; h.childForceExpandHeight = false; h.childForceExpandWidth = false;
+        sr.content = rtContent;
+
+        scrollRect = sr;
+        tilesContent = rtContent;
+    }
+
+    private void BuildTiles()
+    {
+        // If legacy tiles exist, reparent them into scroll and register
+        RegisterTile(riflemanTile, UnitType.Rifleman);
+        RegisterTile(grenaderTile, UnitType.Grenader);
+        RegisterTile(sniperTile, UnitType.Sniper);
+        RegisterTile(tankTile, UnitType.Tank);
+
+        // Create tiles for all remaining unit types dynamically
+        foreach (UnitType t in Enum.GetValues(typeof(UnitType)))
+        {
+            if (_tileByType.ContainsKey(t)) continue;
+            if (tilePrefab == null)
+            {
+                Debug.LogWarning("[ASC] tilePrefab not set; cannot create tile for " + t);
+                continue;
+            }
+            var tile = Instantiate(tilePrefab, tilesContent);
+            tile.gameObject.name = $"Tile_{t}";
+            tile.Init(this, t);
+            _tileByType[t] = tile;
+        }
+    }
+
+    private void RegisterTile(UnitTile tile, UnitType type)
+    {
+        if (!tile) return;
+        tile.transform.SetParent(tilesContent, false);
+        tile.Init(this, type);
+        _tileByType[type] = tile;
+    }
 
     private IEnumerator Start()
     {
@@ -119,10 +191,14 @@ private void OnDisable()
 
     private void RedrawAllTiles()
     {
-        riflemanTile.SetCount(_counts[UnitType.Rifleman]);
-        grenaderTile.SetCount(_counts[UnitType.Grenader]);
-        sniperTile.SetCount(_counts[UnitType.Sniper]);
-        tankTile.SetCount(_counts[UnitType.Tank]);
+        foreach (var kv in _tileByType)
+        {
+            var type = kv.Key;
+            var tile = kv.Value;
+            if (!tile) continue;
+            int count = _counts.TryGetValue(type, out var c) ? c : 0;
+            tile.SetCount(count);
+        }
     }
 
     private void RedrawPoints()
@@ -197,14 +273,7 @@ private void OnDisable()
     }
 
     private UnitTile GetTile(UnitType t) =>
-        t switch
-        {
-            UnitType.Rifleman => riflemanTile,
-            UnitType.Grenader => grenaderTile,
-            UnitType.Sniper   => sniperTile,
-            UnitType.Tank     => tankTile,
-            _ => null
-        };
+        _tileByType.TryGetValue(t, out var tile) ? tile : null;
 
     // --- статус только для "не хватает очков"
     private void ShowOnlyNotEnoughPoints(UnitType type, int price)
