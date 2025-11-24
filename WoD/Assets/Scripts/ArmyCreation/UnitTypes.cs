@@ -1,5 +1,5 @@
 // UnitTypes.cs
-public enum UnitType { Rifleman, Grenader, Sniper, Tank, Turret, Wall, BarbedWire, TankTrap, Sandbags }
+public enum UnitType { Rifleman, Grenader, Sniper, Tank, Turret, Wall, BarbedWire, TankTrap, Sandbags, Cannon }
 
 public static class UnitPrices
 {
@@ -15,6 +15,7 @@ public static class UnitPrices
             { UnitType.BarbedWire, 12 }, // slows / decorative cover
             { UnitType.TankTrap, 25 },   // anti-tank hedgehog
             { UnitType.Sandbags, 18 },   // sandbag cover
+            { UnitType.Cannon,   50 }    // artillery
         };
 }
 
