@@ -20,7 +20,7 @@ MonoBehaviour:
   fireRate: 1.2
   accuracy: 0.85
   accuracySpread: 0.2
-  sprite: {fileID: 3668938499985076069, guid: 0ec8daf2b63a5d44fafc5192d7f7f126, type: 3}
+  sprite: {fileID: 4352984433705679853, guid: f3343a5f6d4708241ba02319b2915f61, type: 3}
   animatorOverride: {fileID: 0}
   unitPrefab: {fileID: 0}
   projectileStats: {fileID: 0}

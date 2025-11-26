@@ -226,23 +226,16 @@ public class ArmySpawner : MonoBehaviour
                 }
                 else
                 {
-                    // Нет override из UnitStats. Если у префаба уже назначен контроллер — оставляем его работать.
-                    if (anim != null)
+                    // Нет override из UnitStats. В бою оставляем визуал из ПРЕФАБА.
+                    // Если у префаба уже назначен контроллер — используем его;
+                    // иначе ничего не подменяем спрайтом из UnitStats (sprite используется только в магазине).
+                    if (anim != null && anim.runtimeAnimatorController != null)
                     {
-                        if (anim.runtimeAnimatorController != null)
-                        {
-                            anim.enabled = true; // использовать контроллер, заданный в префабе
-                        }
-                        else
-                        {
-                            // Контроллера нет — используем статический спрайт, если задан
-                            anim.enabled = false;
-                            if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
-                        }
+                        anim.enabled = true;
                     }
-                    else
+                    else if (anim != null)
                     {
-                        if (stats.sprite != null) { sr.sprite = stats.sprite; appliedSprite = stats.sprite; }
+                        anim.enabled = false;
                     }
                 }
 

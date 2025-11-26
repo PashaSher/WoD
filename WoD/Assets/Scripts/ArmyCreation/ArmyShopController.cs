@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 public class ArmyShopController : MonoBehaviour
 {
@@ -28,12 +29,26 @@ public class ArmyShopController : MonoBehaviour
     [Tooltip("Optional explicit parent for auto-created tiles. If null, will use the parent of Rifleman tile.")]
     [SerializeField] private RectTransform tilesParent;
 
+    [Header("Previews (optional)")]
+    [Tooltip("Shop-only previews: if set, these sprites will be shown on tiles (does NOT affect battle visuals).")]
+    [SerializeField] private PreviewSpriteEntry[] previewSprites;
+    [Tooltip("Alternative source for previews: UnitStats (uses UnitStats.sprite only for shop).")]
+    [SerializeField] private UnitStats[] previewStats;
+
+    [System.Serializable]
+    public struct PreviewSpriteEntry
+    {
+        public UnitType type;
+        public Sprite sprite;
+    }
+
     [Header("Enemy summary (live)")]
     [SerializeField] private TextMeshProUGUI enemyPickedText;
 
     private int _points;
     private readonly Dictionary<UnitType, int> _counts = new();
     private readonly Dictionary<UnitType, int> _enemyCounts = new();
+    private readonly Dictionary<UnitType, UnitStats> _previewByType = new();
 
     private void Awake()
     {
@@ -49,10 +64,18 @@ public class ArmyShopController : MonoBehaviour
         _points = startingPoints;
         foreach (UnitType t in Enum.GetValues(typeof(UnitType))) _counts[t] = 0;
 
-        if (riflemanTile) riflemanTile.Init(this, UnitType.Rifleman);
-        if (grenaderTile) grenaderTile.Init(this, UnitType.Grenader);
-        if (sniperTile)   sniperTile.Init(this, UnitType.Sniper);
-        if (tankTile)     tankTile.Init(this, UnitType.Tank);
+        // build preview map (UnitStats fallback)
+        _previewByType.Clear();
+        if (previewStats != null)
+        {
+            foreach (var s in previewStats)
+                if (s != null) _previewByType[s.unitType] = s;
+        }
+
+        if (riflemanTile) { riflemanTile.Init(this, UnitType.Rifleman); ApplyPreview(riflemanTile, UnitType.Rifleman); }
+        if (grenaderTile) { grenaderTile.Init(this, UnitType.Grenader); ApplyPreview(grenaderTile, UnitType.Grenader); }
+        if (sniperTile)   { sniperTile.Init(this, UnitType.Sniper);     ApplyPreview(sniperTile,   UnitType.Sniper); }
+        if (tankTile)     { tankTile.Init(this, UnitType.Tank);         ApplyPreview(tankTile,     UnitType.Tank); }
 
         // Авто‑добавление недостающих плиток (не трогаем существующие)
         TryCreateMissingTiles();
@@ -83,6 +106,28 @@ public class ArmyShopController : MonoBehaviour
             var tile = Instantiate(tilePrefab, parent);
             tile.gameObject.name = $"Tile_{t}";
             tile.Init(this, t);
+            ApplyPreview(tile, t);
+        }
+    }
+
+    private void ApplyPreview(UnitTile tile, UnitType type)
+    {
+        // 1) explicit sprite mapping
+        if (previewSprites != null)
+        {
+            for (int i = 0; i < previewSprites.Length; i++)
+            {
+                if (previewSprites[i].type == type && previewSprites[i].sprite != null)
+                {
+                    tile.SetPreview(previewSprites[i].sprite);
+                    return;
+                }
+            }
+        }
+        // 2) fallback to UnitStats sprite (shop-only)
+        if (_previewByType.TryGetValue(type, out var stats) && stats != null && stats.sprite != null)
+        {
+            tile.SetPreview(stats.sprite);
         }
     }
 

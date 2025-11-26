@@ -107,11 +107,11 @@ public class Projectile : MonoBehaviour
                 for (int i = 0; i < hits.Length; i++)
                 {
                     try
-                    {
-                        var go = hits[i].collider ? hits[i].collider.gameObject : null;
-                        if (!go) continue;
-                        var unitHit = go.GetComponentInParent<Unit>();
-                        if (!unitHit) continue;
+                {
+                    var go = hits[i].collider ? hits[i].collider.gameObject : null;
+                    if (!go) continue;
+                    var unitHit = go.GetComponentInParent<Unit>();
+                    if (!unitHit) continue;
 						// Если цель уже умерла/удалена — игнорируем попадание и летим дальше
 						if (!IsAlive(unitHit)) continue;
                         // мог быть уничтожен между кадрами
@@ -119,18 +119,18 @@ public class Projectile : MonoBehaviour
                         try { sameSide = (owner != null && unitHit.host == owner.host); } catch { continue; }
                         if (sameSide) continue; // ignore friendlies
 
-					    // Apply damage centered at impact point; if AoE didn't hit anyone, ensure direct hit gets damage
-					    Vector2 impactPoint = hits[i].point;
-					    TryApplyDamageAtPoint(impactPoint);
-					    if (!_hitApplied)
-					    {
+					// Apply damage centered at impact point; if AoE didn't hit anyone, ensure direct hit gets damage
+					Vector2 impactPoint = hits[i].point;
+					TryApplyDamageAtPoint(impactPoint);
+					if (!_hitApplied)
+					{
 							// Ещё раз проверим, что цель жива непосредственно перед нанесением урона
 							if (IsAlive(unitHit))
-								unitHit.TakeDamage(Mathf.Max(1, stats.damage));
-						    _hitApplied = true;
-					    }
-					    OnLocalHitCleanup();
-                        return;
+						unitHit.TakeDamage(Mathf.Max(1, stats.damage));
+						_hitApplied = true;
+					}
+					OnLocalHitCleanup();
+                    return;
                     }
                     catch { /* цель могла исчезнуть в этот же кадр */ }
                 }
@@ -190,21 +190,21 @@ public class Projectile : MonoBehaviour
 			float radius = Mathf.Max(0.01f, stats.splashRadius);
 			int baseDamage = Mathf.Max(1, stats.damage);
 			bool anyHit = false;
-		foreach (var u in all)
+			foreach (var u in all)
 			{
 				try
-				{
+			{
 				if (!u || u.host == owner.host) continue;
 				if (!IsAlive(u)) continue;
 					Vector2 pos;
 					try { pos = (Vector2)u.transform.position; } catch { continue; }
 					float dist = Vector2.Distance(pos, point);
-					if (dist > radius) continue;
-					float t = 1f - (dist / radius); // 1 в центре, 0 на краю
-					int dmg = Mathf.RoundToInt(baseDamage * Mathf.Clamp01(t));
-					if (dmg <= 0) continue;
+				if (dist > radius) continue;
+				float t = 1f - (dist / radius); // 1 в центре, 0 на краю
+				int dmg = Mathf.RoundToInt(baseDamage * Mathf.Clamp01(t));
+				if (dmg <= 0) continue;
 				if (IsAlive(u)) u.TakeDamage(dmg);
-					anyHit = true;
+				anyHit = true;
 				}
 				catch { }
 			}
@@ -219,16 +219,16 @@ public class Projectile : MonoBehaviour
 		foreach (var u in all)
 		{
 			try
-			{
-				if (!u || u.host == owner.host) continue; // только враги
+		{
+			if (!u || u.host == owner.host) continue; // только враги
 				if (!IsAlive(u)) continue;
 				Vector2 pos;
 				try { pos = (Vector2)u.transform.position; } catch { continue; }
 				float sqr = (pos - point).sqrMagnitude;
-				if (sqr < bestSqr)
-				{
-					bestSqr = sqr; best = u;
-				}
+			if (sqr < bestSqr)
+			{
+				bestSqr = sqr; best = u;
+			}
 			}
 			catch { }
 		}
@@ -236,7 +236,7 @@ public class Projectile : MonoBehaviour
 		{
 			_hitApplied = true;
 			if (IsAlive(best))
-				best.TakeDamage(Mathf.Max(1, stats.damage));
+			best.TakeDamage(Mathf.Max(1, stats.damage));
 		}
     }
 

@@ -115,7 +115,7 @@ public class Unit : MonoBehaviour
 
         // подписка на состояние
         if (this != null && stateRef != null)
-            stateRef.ValueChanged += OnRemoteStateChanged;
+        stateRef.ValueChanged += OnRemoteStateChanged;
     }
 
     private void OnDestroy()
@@ -277,8 +277,8 @@ public class Unit : MonoBehaviour
         if (health == 0)
         {
             if (!IsThisDeviceOwner())
-            {
-                Destroy(gameObject);
+        {
+            Destroy(gameObject);
             }
             return;
         }

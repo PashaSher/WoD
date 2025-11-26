@@ -10,6 +10,8 @@ public class UnitTile : MonoBehaviour
     [SerializeField] private TextMeshProUGUI countText;
     [SerializeField] private Button plusBtn;
     [SerializeField] private Button minusBtn;
+    [Header("Preview (optional)")]
+    [SerializeField] private Image previewImage; // картинка юнита в магазине (необязательно)
 
     private UnitType _type;
     private ArmyShopController _shop;
@@ -25,6 +27,14 @@ public class UnitTile : MonoBehaviour
 
         if (titleText) titleText.text = type.ToString();
         if (priceText) priceText.text = UnitPrices.Cost[type].ToString();
+
+        // Сбрасываем превью, чтобы спрайт по умолчанию из префаба (например, Rifleman)
+        // не «просачивался» на все остальные плитки.
+        if (previewImage)
+        {
+            previewImage.sprite = null;
+            previewImage.enabled = false;
+        }
 
         // ПОЛНЫЙ СБРОС подписчиков (включая те, что в Инспекторе)
         if (plusBtn != null)
@@ -42,5 +52,12 @@ public class UnitTile : MonoBehaviour
     public void SetCount(int value)
     {
         if (countText) countText.text = value.ToString();
+    }
+
+    public void SetPreview(Sprite sprite)
+    {
+        if (!previewImage) return;
+        previewImage.sprite = sprite;
+        previewImage.enabled = sprite != null;
     }
 }
