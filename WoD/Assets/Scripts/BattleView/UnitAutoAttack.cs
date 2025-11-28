@@ -95,6 +95,7 @@ public class UnitAutoAttack : MonoBehaviour
         var allUnits = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
         Vector3 myPos = unit.transform.position;
         bool myHost = unit.host;
+        int myFacing = unit != null ? (unit.FacingDebug >= 0 ? 1 : -1) : 1;
 
         foreach (var other in allUnits)
         {
@@ -104,6 +105,14 @@ public class UnitAutoAttack : MonoBehaviour
 				// может быть уничтожен между проверками — повторная проверка ниже
 				if (other == null) continue;
             if (other.host == myHost) continue; // ищем только противоположную сторону
+            // Для стационарных — цели только впереди по направлению взгляда
+            if (unit != null && unit.isStationary)
+            {
+                float dx;
+                try { dx = other.transform.position.x - myPos.x; } catch { dx = 0f; }
+                if (myFacing > 0 && dx < 0f) continue;
+                if (myFacing < 0 && dx > 0f) continue;
+            }
 
 				Vector3 pos;
 				try { pos = other.transform.position; } catch { continue; }

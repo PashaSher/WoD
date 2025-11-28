@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: TurretStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 4
-  health: 60
+  kind: 2
+  health: 400
   damage: 0
   attackRange: 6
   moveSpeed: 0
   fireRate: 1.2
   accuracy: 0.85
   accuracySpread: 0.2
-  sprite: {fileID: 4352984433705679853, guid: f3343a5f6d4708241ba02319b2915f61, type: 3}
+  sprite: {fileID: -539579915749326718, guid: 21c59394e98c6824ea58efe625e2440e, type: 3}
   animatorOverride: {fileID: 0}
-  unitPrefab: {fileID: 0}
-  projectileStats: {fileID: 0}
+  unitPrefab: {fileID: 1684952237624007102, guid: f069a41778476a04aa26df3cc377af60, type: 3}
+  projectileStats: {fileID: 11400000, guid: 4e2b0e2a8f1a4e78a5f0b7cb6f1e2c1a, type: 2}

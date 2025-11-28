@@ -4,7 +4,18 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "UnitStats", menuName = "Units/Unit Stats", order = 0)]
 public class UnitStats : ScriptableObject
 {
+    public enum UnitKind
+    {
+        Normal,
+        Vehicle,
+        Stationary, // не двигается, не поворачивается, стреляет только вперёд
+        Passive     // не атакует (на будущее)
+    }
+
     public UnitType unitType;     // из UnitTypes.cs
+    [Header("Classification")]
+    public UnitKind kind = UnitKind.Normal;
+
     public int health = 100;
     public int damage = 10;
     public float attackRange = 4f;

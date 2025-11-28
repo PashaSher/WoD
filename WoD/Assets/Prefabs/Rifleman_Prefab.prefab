@@ -664,7 +664,7 @@ MonoBehaviour:
   drawDebugGizmos: 0
   projectileSpawn: {fileID: 0}
   startOffset: {x: 0.25, y: 0.1, z: 0}
-  firstShotDelaySeconds: 0.2
+  firstShotDelaySeconds: 0
 --- !u!114 &5663555390300209440
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -95,9 +95,9 @@ public class ArmyShopController : MonoBehaviour
         if (tankTile)     existing.Add(UnitType.Tank);
 
         // Определяем родителя для новых плиток
-        var parent = tilesParent != null
-            ? tilesParent
-            : (riflemanTile != null ? riflemanTile.transform.parent as RectTransform : null);
+		var parent = tilesParent != null
+			? tilesParent
+			: (tankTile != null ? tankTile.transform.parent as RectTransform : null);
         if (parent == null) return;
 
         foreach (UnitType t in Enum.GetValues(typeof(UnitType)))
@@ -204,9 +204,9 @@ private void OnDisable()
 
         // Обновим авто‑созданные плитки (если есть)
         // Пробежимся по всем UnitTile у родителя и обновим их
-        var parent = tilesParent != null
-            ? tilesParent
-            : (riflemanTile != null ? riflemanTile.transform.parent as RectTransform : null);
+		var parent = tilesParent != null
+			? tilesParent
+			: (tankTile != null ? tankTile.transform.parent as RectTransform : null);
         if (parent != null)
         {
             var tiles = parent.GetComponentsInChildren<UnitTile>(true);
@@ -304,9 +304,9 @@ private void OnDisable()
             case UnitType.Tank:     return tankTile;
             default:
                 // попытка найти авто‑созданный Tile_<Type> под родителем
-                var parent = tilesParent != null
-                    ? tilesParent
-                    : (riflemanTile != null ? riflemanTile.transform.parent as RectTransform : null);
+				var parent = tilesParent != null
+					? tilesParent
+					: (tankTile != null ? tankTile.transform.parent as RectTransform : null);
                 if (parent != null)
                 {
                     var name = $"Tile_{t}";

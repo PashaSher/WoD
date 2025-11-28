@@ -20,6 +20,8 @@ public class Unit : MonoBehaviour
     public float  attackRange;
     public float  moveSpeed;
     public int    maxHP;
+        [SerializeField] public bool   isStationary;   // из UnitStats.kind == Stationary
+        [SerializeField] public bool   isPassive;      // из UnitStats.kind == Passive
 
     // ===== Firing/Projectile =====
     [Header("Firing")]
@@ -65,11 +67,15 @@ public class Unit : MonoBehaviour
         unitType = type;
         if (stats != null)
         {
+                // классификация
+                isStationary = (stats.kind == UnitStats.UnitKind.Stationary);
+                isPassive    = (stats.kind == UnitStats.UnitKind.Passive);
+
             health      = stats.health;
             maxHP       = stats.health;
             damage      = stats.damage;
             attackRange = stats.attackRange;
-            moveSpeed   = stats.moveSpeed;
+                moveSpeed   = isStationary ? 0f : stats.moveSpeed;
             fireRate    = Mathf.Max(0.01f, stats.fireRate);
             accuracy    = Mathf.Clamp01(stats.accuracy);
             accuracySpread = Mathf.Max(0f, stats.accuracySpread);
@@ -155,6 +161,7 @@ public class Unit : MonoBehaviour
     // === Facing control ===
     public void FaceTowardsX(float targetX)
     {
+        if (isStationary) return; // стационарные не поворачиваются
         var vis = visual != null ? visual : transform.Find("Visual");
         if (vis == null) return;
         float dir = (targetX >= transform.position.x) ? 1f : -1f; // 1 -> right, -1 -> left
@@ -293,7 +300,7 @@ public class Unit : MonoBehaviour
         }
 
         // Движение воспроизводим только если ЭТО устройство не владелец юнита
-        if (!IsThisDeviceOwner())
+        if (!IsThisDeviceOwner() && !isStationary) // стационарные игнорируют удалённые команды движения
         {
             bool moving = ToBool(s.Child("moving").Value, _movingFromRtdb);
             float x = ToFloat(s.Child("x").Value, transform.position.x);

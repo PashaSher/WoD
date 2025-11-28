@@ -188,9 +188,13 @@ public class BattleReadyManager : MonoBehaviour
 		// 2) Если оба готовы — убираем оверлей и разрешаем бой
 		if (myReadyPosted && enemyReady && !BothReady)
 		{
+			// Перед стартом боя один раз насильно синхронизируем позиции из RTDB,
+			// чтобы учесть последнюю расстановку у обоих игроков.
+			_ = ResyncAllUnitsPositionsAsync();
+
 			BothReady = true;
 			if (canvas) canvas.enabled = false;
-			Debug.Log("[BRM] Both players ready → battle starts");
+			Debug.Log("[BRM] Both players ready → battle starts (positions resync requested)");
 			return;
 		}
 
@@ -236,6 +240,78 @@ public class BattleReadyManager : MonoBehaviour
 		{
 			UpdateCenterText();
 		}
+	}
+
+	/// <summary>
+	/// Один раз при старте боя принудительно применяем координаты из RTDB state/x,y для всех юнитов.
+	/// Это страхует случаи, когда один клиент не успел обработать события ValueChanged во время расстановки.
+	/// </summary>
+	private async Task ResyncAllUnitsPositionsAsync()
+	{
+		try
+		{
+			if (string.IsNullOrEmpty(sessionId)) return;
+			var baseRef = FirebaseDatabase.DefaultInstance.RootReference.Child("sessions").Child(sessionId);
+			var hostTask = baseRef.Child("hostArmy").GetValueAsync();
+			var clientTask = baseRef.Child("clientArmy").GetValueAsync();
+			await System.Threading.Tasks.Task.WhenAll(hostTask, clientTask);
+
+			ApplyArmySnapshot(hostTask.Result, isHostBranch: true);
+			ApplyArmySnapshot(clientTask.Result, isHostBranch: false);
+			Debug.Log("[BRM] ResyncAllUnitsPositionsAsync: applied");
+		}
+		catch (Exception ex)
+		{
+			Debug.LogWarning($"[BRM] ResyncAllUnitsPositionsAsync failed: {ex.Message}");
+		}
+	}
+
+	private void ApplyArmySnapshot(DataSnapshot armySnap, bool isHostBranch)
+	{
+		if (armySnap == null || !armySnap.Exists) return;
+#if UNITY_2022_2_OR_NEWER
+		var units = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
+#else
+		var units = UnityEngine.Object.FindObjectsOfType<Unit>(true);
+#endif
+		foreach (var child in armySnap.Children)
+		{
+			if (!child.HasChild("state")) continue;
+			string key = child.Key;
+			var state = child.Child("state");
+			double x = ToDouble(state.Child("x").Value, double.NaN);
+			double y = ToDouble(state.Child("y").Value, double.NaN);
+			int facing = ToInt(state.Child("facing").Value, 1);
+			if (double.IsNaN(x) || double.IsNaN(y)) continue;
+
+			// найдём локальный объект по (host,key)
+			for (int i = 0; i < units.Length; i++)
+			{
+				var u = units[i];
+				if (!u) continue;
+				if (u.host != isHostBranch) continue;
+				if (!string.Equals(u.unitKey, key, StringComparison.Ordinal)) continue;
+
+				try
+				{
+					u.transform.position = new UnityEngine.Vector3((float)x, (float)y, u.transform.position.z);
+					// Применим facing, если задан
+					float lookDir = facing >= 0 ? +1f : -1f;
+					u.FaceTowardsX(u.transform.position.x + lookDir);
+				}
+				catch { /* ignore */ }
+				break;
+			}
+		}
+	}
+
+	private static int ToInt(object v, int def)
+	{
+		try { return v == null ? def : Convert.ToInt32(v); } catch { return def; }
+	}
+	private static double ToDouble(object v, double def)
+	{
+		try { return v == null ? def : Convert.ToDouble(v); } catch { return def; }
 	}
 
 	private async Task PostMyReadyAsync()

@@ -216,7 +216,10 @@ public class ArmySpawner : MonoBehaviour
             }
 
             Sprite appliedSprite = null;
-            if (statsByType.TryGetValue(type, out var stats) && stats != null)
+            UnitStats stats = null;
+            statsByType.TryGetValue(type, out stats);
+
+            if (stats != null)
             {
                 // если есть override-контроллер — используем анимации
                 if (anim != null && stats.animatorOverride != null)
@@ -238,14 +241,19 @@ public class ArmySpawner : MonoBehaviour
                         anim.enabled = false;
                     }
                 }
-
-                // Инициализировать компонент Unit статами
-                var unit = go.GetComponent<Unit>();
-                if (unit != null) unit.Init(type.ToString(), stats);
             }
             else
             {
-                Debug.LogWarning($"[ArmySpawner] No stats for type={type} (key={key}). Visual will stay NONE.");
+                Debug.LogWarning($"[ArmySpawner] No stats for type={type} (key={key}). Using prefab-only defaults.");
+            }
+
+            // Инициализировать компонент Unit: всегда проставляем unitType,
+            // а если есть статсы — прокинем их, чтобы HP/урон корректно инициализировались.
+            var unit = go.GetComponent<Unit>();
+            if (unit != null)
+            {
+                if (stats != null) unit.Init(type.ToString(), stats);
+                else               unit.unitType = type.ToString(); // хотя бы корректный meta.type в RTDB
             }
 
             // Гарантируем видимость поверх фона + цвет на ВСЕХ рендерах в Visual
@@ -333,9 +341,14 @@ public class ArmySpawner : MonoBehaviour
         if (box)  box.isTrigger  = true;
     }
 
-    // Обработчик перетаскивания/записи конечной точки
-    if (!visualTr.GetComponent<UnitDragMover>())
-        visualTr.gameObject.AddComponent<UnitDragMover>();
+        // Обработчик перетаскивания/записи конечной точки — только для НЕ стационарных
+        var u = go.GetComponent<Unit>();
+        bool allowDrag = (u != null && !u.isStationary && u.moveSpeed > 0.01f);
+        if (allowDrag)
+        {
+            if (!visualTr.GetComponent<UnitDragMover>())
+                visualTr.gameObject.AddComponent<UnitDragMover>();
+        }
 }
 
 

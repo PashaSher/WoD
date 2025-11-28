@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f3343a5f6d4708241ba02319b2915f61
+guid: fd977de79192cff4aadc31b4afa240cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4352984433705679853
-    second: Polinasgunner2Black_0
+      213: 5807664816570927321
+    second: Tank2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Polinasgunner2Black_0
+      name: Tank2_0
       rect:
         serializedVersion: 2
-        x: 58
-        y: 8
-        width: 262
-        height: 711
+        x: 83
+        y: 103
+        width: 884
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: debf4d38748e86c30800000000000000
-      internalID: 4352984433705679853
+      spriteID: 9d88e3e5168f89050800000000000000
+      internalID: 5807664816570927321
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Polinasgunner2Black_0: 4352984433705679853
+      Tank2_0: 5807664816570927321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
