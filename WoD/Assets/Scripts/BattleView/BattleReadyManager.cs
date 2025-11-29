@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase.Database;
@@ -87,6 +88,13 @@ public class BattleReadyManager : MonoBehaviour
 	[SerializeField] private Color        timerColor = Color.white;
 	[SerializeField] private int          timerFontSize = 48;
 
+	[Header("Role toast")]
+	[SerializeField] private float        roleToastSeconds = 2.0f;
+	[SerializeField] private TMP_FontAsset roleFont;
+	[SerializeField] private Color        roleColor = Color.yellow;
+	[SerializeField] private int          roleFontSize = 36;
+	private TextMeshProUGUI roleToast;
+
 	private DatabaseReference myReadyRef;
 	private DatabaseReference enemyReadyRef;
 	private DatabaseReference enemyBranchRef;
@@ -123,6 +131,7 @@ public class BattleReadyManager : MonoBehaviour
 		Debug.Log($"[BRM] Session='{sessionId}', role={role}, timeout={timeoutSeconds}s");
 		BindRefs();
 		BuildOverlay();
+		ShowRoleToastOnce();
 		BothReady = false; // сброс на всякий случай
 		countdown = timeoutSeconds;
 	}
@@ -173,6 +182,41 @@ public class BattleReadyManager : MonoBehaviour
 
 		UpdateCenterText();
 		Debug.Log("[BRM] Overlay created");
+	}
+
+	private void ShowRoleToastOnce()
+	{
+		try
+		{
+			if (!canvas) return;
+			var go = new GameObject("RoleToast");
+			go.transform.SetParent(canvas.transform, false);
+			roleToast = go.AddComponent<TextMeshProUGUI>();
+			roleToast.alignment = TextAlignmentOptions.Center;
+			roleToast.fontSize = Mathf.Max(10, roleFontSize);
+			// Цвет по роли: HOST -> чёрный, CLIENT -> синий
+			roleToast.color = Globalflags.ifHost ? Color.black : Color.blue;
+			// Шрифт: берём из Timer Font, если Role Font не задан
+			var effectiveFont = roleFont != null ? roleFont : timerFont;
+			if (effectiveFont != null) roleToast.font = effectiveFont;
+			roleToast.raycastTarget = false;
+			var rt = (RectTransform)roleToast.transform;
+			rt.anchorMin = new Vector2(0.25f, 0.82f);
+			rt.anchorMax = new Vector2(0.75f, 0.92f);
+			rt.offsetMin = Vector2.zero;
+			rt.offsetMax = Vector2.zero;
+
+			string text = Globalflags.ifHost ? "You are Black" : "You are Blue";
+			roleToast.text = text;
+			StartCoroutine(HideRoleToastAfter(roleToastSeconds));
+		}
+		catch { /* best-effort */ }
+	}
+
+	private IEnumerator HideRoleToastAfter(float seconds)
+	{
+		yield return new WaitForSeconds(Mathf.Max(0.1f, seconds));
+		if (roleToast) roleToast.enabled = false;
 	}
 
 	private void Update()

@@ -231,7 +231,7 @@ public class UnitAutoAttack : MonoBehaviour
 
         // Перед выстрелом разворачиваемся к цели
         unit.FaceTowardsX(targetUnit.transform.position.x);
-        Vector3 target = targetUnit.transform.position;
+        Vector3 target = GetTargetPoint(targetUnit);
 
         // применим разброс: чем ниже accuracy, тем выше отклонение
         float spreadFactor = (1f - Mathf.Clamp01(unit.accuracy)) * Mathf.Max(0f, unit.accuracySpread);
@@ -283,10 +283,9 @@ public class UnitAutoAttack : MonoBehaviour
 		}
 		else
 		{
-			// Не владелец данного юнита на этом клиенте: только визуал снаряда без записи в БД и без нанесения урона.
-			// Помечаем локальный выстрел, чтобы репликатор не дублировал визуал, когда прилетит запись от владельца.
-			try { ProjectileReplicator.MarkLocalFire(unit.unitKey); } catch { }
-			SpawnVisualOnly(start, target);
+			// Не владелец данного юнита на этом клиенте:
+			// НИЧЕГО не спауним локально — ждём авторитетную запись снаряда из RTDB от владельца.
+			// Это устраняет рассинхрон направления (разные цели на разных клиентах).
 		}
     }
 
@@ -358,6 +357,38 @@ public class UnitAutoAttack : MonoBehaviour
 		if (Time.time < nextShotTime) return;
 		nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit != null ? unit.fireRate : 1f));
 		TryFireProjectile();
+	}
+
+	private Vector3 GetTargetPoint(Unit target)
+	{
+		if (target == null) return Vector3.zero;
+		// Пытаемся взять центр коллайдера Visual; иначе центр спрайта; иначе позицию корня
+		Transform vis = target.transform.Find("Visual");
+		Collider2D bestCol = null;
+		if (vis)
+		{
+			bestCol = vis.GetComponent<Collider2D>();
+			if (!bestCol)
+			{
+				var cols = vis.GetComponentsInChildren<Collider2D>(true);
+				if (cols != null && cols.Length > 0) bestCol = cols[0];
+			}
+			if (!bestCol)
+			{
+				var sr = vis.GetComponent<SpriteRenderer>();
+				if (sr && sr.sprite)
+				{
+					var b = sr.bounds;
+					return new Vector3(b.center.x, b.center.y, target.transform.position.z);
+				}
+			}
+		}
+		if (bestCol != null)
+		{
+			var b = bestCol.bounds;
+			return new Vector3(b.center.x, b.center.y, target.transform.position.z);
+		}
+		return target.transform.position;
 	}
 
 	private bool IsLineBlockedByPassive(Vector3 a, Vector3 b)

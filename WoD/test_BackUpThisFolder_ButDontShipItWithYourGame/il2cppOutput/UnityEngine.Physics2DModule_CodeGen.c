@@ -84,6 +84,7 @@ extern void Collider2D_GetShapeHash_m21660247FB3386589F9CB5EADA20A3566DCECB6D (v
 extern void Collider2D_GetShapes_mB57DDDF72DD1734177B93CED52D1C2D0E43E67E8 (void);
 extern void Collider2D_GetShapes_Internal_mAA13A485C136388B87323C54CB3CE4909AA565EF (void);
 extern void Collider2D_GetShapeBounds_m86F2E13B4817E53B88C190739DE5BCB6D895BD1B (void);
+extern void Collider2D_get_bounds_m74F65CE702BA9D9EED05B870325B4FE3B2401B5E (void);
 extern void Collider2D__ctor_mC4E4C5F6A2093B4902A09B312D1E832F12DE0B4B (void);
 extern void Collider2D_set_isTrigger_Injected_m931DDAAFC9A622C187CA2838845BEEE5F2DC7EEA (void);
 extern void Collider2D_set_offset_Injected_m8D937B5B0055DD3AB0333ECC76750E0182A51701 (void);
@@ -92,6 +93,7 @@ extern void Collider2D_get_shapeCount_Injected_m86A4F27A7DDEAE1DF509BA48829837D8
 extern void Collider2D_GetShapeHash_Injected_m8DD0A4DE2F43628D0203D67DD3C58E1E0FB4FA3C (void);
 extern void Collider2D_GetShapes_Internal_Injected_m6853E8AD8B1B19C60624D2FEF500943291589703 (void);
 extern void Collider2D_GetShapeBounds_Injected_m7B5D62A2EC01D7B4709B787520E1476FFAC34C60 (void);
+extern void Collider2D_get_bounds_Injected_m35CD539AC1C370203EE68F7E75BB1BB25076DB2B (void);
 extern void EdgeCollider2D_set_points_mFF49E39867F376E313D50F57531C28A1F715D02F (void);
 extern void EdgeCollider2D__ctor_mEFFC70C11EFA43456B9A41CEFFACD61A4D1B71DE (void);
 extern void EdgeCollider2D_set_points_Injected_mC2DF25143164FEEC55615FD677BDD7337B7E55BB (void);
@@ -101,7 +103,7 @@ extern void BoxCollider2D_set_size_Injected_m79A7E66B110DC4CFBDA5F586096110B8987
 extern void PolygonCollider2D_set_points_m74A433CEBC5A6A460EC2852CDEDEED2D4E261462 (void);
 extern void PolygonCollider2D__ctor_mC2255D56CD93945AD9E72E196BF5168F7A13A538 (void);
 extern void PolygonCollider2D_set_points_Injected_mC6F9C9FB711CCA5EFC4F399FCF0F5EE59650B0F0 (void);
-static Il2CppMethodPointer s_methodPointers[94] = 
+static Il2CppMethodPointer s_methodPointers[96] = 
 {
 	PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307,
 	PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E,
@@ -180,6 +182,7 @@ static Il2CppMethodPointer s_methodPointers[94] =
 	Collider2D_GetShapes_mB57DDDF72DD1734177B93CED52D1C2D0E43E67E8,
 	Collider2D_GetShapes_Internal_mAA13A485C136388B87323C54CB3CE4909AA565EF,
 	Collider2D_GetShapeBounds_m86F2E13B4817E53B88C190739DE5BCB6D895BD1B,
+	Collider2D_get_bounds_m74F65CE702BA9D9EED05B870325B4FE3B2401B5E,
 	Collider2D__ctor_mC4E4C5F6A2093B4902A09B312D1E832F12DE0B4B,
 	Collider2D_set_isTrigger_Injected_m931DDAAFC9A622C187CA2838845BEEE5F2DC7EEA,
 	Collider2D_set_offset_Injected_m8D937B5B0055DD3AB0333ECC76750E0182A51701,
@@ -188,6 +191,7 @@ static Il2CppMethodPointer s_methodPointers[94] =
 	Collider2D_GetShapeHash_Injected_m8DD0A4DE2F43628D0203D67DD3C58E1E0FB4FA3C,
 	Collider2D_GetShapes_Internal_Injected_m6853E8AD8B1B19C60624D2FEF500943291589703,
 	Collider2D_GetShapeBounds_Injected_m7B5D62A2EC01D7B4709B787520E1476FFAC34C60,
+	Collider2D_get_bounds_Injected_m35CD539AC1C370203EE68F7E75BB1BB25076DB2B,
 	EdgeCollider2D_set_points_mFF49E39867F376E313D50F57531C28A1F715D02F,
 	EdgeCollider2D__ctor_mEFFC70C11EFA43456B9A41CEFFACD61A4D1B71DE,
 	EdgeCollider2D_set_points_Injected_mC2DF25143164FEEC55615FD677BDD7337B7E55BB,
@@ -245,7 +249,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[22] =
 	{ 0x0600003D, RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613_AdjustorThunk },
 	{ 0x0600003E, RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[94] = 
+static const int32_t s_InvokerIndices[96] = 
 {
 	16360,
 	16297,
@@ -324,6 +328,7 @@ static const int32_t s_InvokerIndices[94] =
 	9678,
 	2160,
 	1969,
+	16165,
 	16593,
 	24186,
 	24185,
@@ -332,6 +337,7 @@ static const int32_t s_InvokerIndices[94] =
 	27472,
 	19172,
 	18616,
+	24185,
 	12280,
 	16593,
 	24185,
@@ -346,7 +352,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenM
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	94,
+	96,
 	s_methodPointers,
 	22,
 	s_adjustorThunks,

@@ -307,15 +307,18 @@ public class Unit : MonoBehaviour
             visual.localScale = ls;
         }
 
-        // Движение воспроизводим только если ЭТО устройство не владелец юнита
-        if (!IsThisDeviceOwner() && !isStationary) // стационарные игнорируют удалённые команды движения
+        // Движение/позиция для НЕ-владельца:
+        // - обычные юниты: воспроизводим плавное движение при moving=true
+        // - стационарные: игнорируем плавное движение, но ВСЕГДА применяем фиксацию позиции (телепорт),
+        //   чтобы корректно обновлять результат расстановки соперника
+        if (!IsThisDeviceOwner())
         {
             bool moving = ToBool(s.Child("moving").Value, _movingFromRtdb);
             float x = ToFloat(s.Child("x").Value, transform.position.x);
             float y = ToFloat(s.Child("y").Value, transform.position.y);
             Vector3 target = new Vector3(x, y, transform.position.z);
 
-            if (moving)
+            if (!isStationary && moving)
             {
                 if (moveCo != null) StopCoroutine(moveCo);
                 moveCo = StartCoroutine(MoveTo(target, moveSpeed)); // скорость из статов
@@ -324,7 +327,7 @@ public class Unit : MonoBehaviour
             {
                 if (moveCo != null) StopCoroutine(moveCo);
                 moveCo = null;
-                transform.position = target; // фиксация позиции
+                transform.position = target; // фиксация позиции (для стационарных или moving=false)
             }
 
             // хранить флаг для синхронизации анимации

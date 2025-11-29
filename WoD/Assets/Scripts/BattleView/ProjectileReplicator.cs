@@ -61,6 +61,29 @@ public class ProjectileReplicator : MonoBehaviour
         TryResolveSession();
     }
 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    private static void AutoBootstrap()
+    {
+        try
+        {
+            var sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name ?? "";
+            bool isBattle = sceneName.IndexOf("Battle", StringComparison.OrdinalIgnoreCase) >= 0;
+#if UNITY_2023_1_OR_NEWER || UNITY_6000_0_OR_NEWER
+            var hasSpawner = UnityEngine.Object.FindFirstObjectByType<ArmySpawner>() != null;
+            var existing = UnityEngine.Object.FindFirstObjectByType<ProjectileReplicator>();
+#else
+            var hasSpawner = UnityEngine.Object.FindObjectOfType<ArmySpawner>() != null;
+            var existing = UnityEngine.Object.FindObjectOfType<ProjectileReplicator>();
+#endif
+            if ((isBattle || hasSpawner) && existing == null)
+            {
+                var go = new GameObject("ProjectileReplicator(Auto)");
+                go.AddComponent<ProjectileReplicator>();
+            }
+        }
+        catch { /* best-effort */ }
+    }
+
     private void OnEnable()
     {
         Attach();
@@ -183,8 +206,64 @@ public class ProjectileReplicator : MonoBehaviour
             return;
         }
 
-        // На стороне не-владельца не создаём снаряды из RTDB — визуал приходит от анимационного события
-        return;
+        // Создаём снаряд на стороне НЕ-владельца по данным RTDB.
+        // Это нужно, чтобы HOST просчитывал урон (Projectile.Update делает damage только на HOST),
+        // а CLIENT видел корректный визуал от выстрела HOST.
+        try
+        {
+            // найдём владельца по ключу (для определения стороны/ally checks)
+#if UNITY_2022_2_OR_NEWER
+            var units = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
+#else
+            var units = UnityEngine.Object.FindObjectsOfType<Unit>(true);
+#endif
+            Unit ownerUnit = null;
+            for (int i = 0; i < units.Length; i++)
+            {
+                var u = units[i];
+                if (!u) continue;
+                if (!string.Equals(u.unitKey, ownerKey, StringComparison.Ordinal)) continue;
+                if (u.host == ownerIsHost) { ownerUnit = u; break; }
+            }
+
+            // Сконструируем временный ProjectileStats из снапшота
+            var stats = ScriptableObject.CreateInstance<ProjectileStats>();
+            stats.speed = speed;
+            stats.damage = damage;
+            stats.penetration = penetration;
+            stats.splashRadius = splash;
+            stats.scale = new Vector2(scaleX, scaleY);
+            // Визуальные поля берём из статов владельца, если доступны
+            if (ownerUnit != null && ownerUnit.projectileStats != null)
+            {
+                try
+                {
+                    var os = ownerUnit.projectileStats;
+                    stats.sprite = os.sprite;
+                    stats.destroySprite = os.destroySprite;
+                    stats.destroyDuration = os.destroyDuration;
+                    stats.destroyScale = os.destroyScale;
+                    // если в снапшоте scale не задан (0), используем визуальный scale из ос
+                    if (Mathf.Approximately(stats.scale.x, 0f) && Mathf.Approximately(stats.scale.y, 0f))
+                        stats.scale = os.scale;
+                }
+                catch { }
+            }
+
+            // Создаём объект и инициализируем
+            var go = new GameObject($"Projectile_{key}_RTDB");
+            go.transform.position = start;
+            var proj = go.AddComponent<Projectile>();
+            proj.Init(ownerUnit, stats, key, start, target, createdByLocal: false);
+            proj.BindRef(s.Reference);
+
+            // Запомним, чтобы корректно обработать удаление
+            spawned[dictKey] = proj;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning($"[ProjectileReplicator] Spawn from RTDB failed: {ex.Message}");
+        }
     }
 
     private void OnChildRemoved(object sender, ChildChangedEventArgs e)

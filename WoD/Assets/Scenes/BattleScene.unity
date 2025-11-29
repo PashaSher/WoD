@@ -1189,10 +1189,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8e0fd680886e4046808e4150703696d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BattleReadyManager
-  timeoutSeconds: 15
+  timeoutSeconds: 30
   timerFont: {fileID: 11400000, guid: fd65eb6c1e086994c9245cf9d0dd59d2, type: 2}
   timerColor: {r: 0, g: 0, b: 0, a: 1}
   timerFontSize: 48
+  roleToastSeconds: 1
+  roleFont: {fileID: 0}
+  roleColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  roleFontSize: 36
 --- !u!1 &2082891546
 GameObject:
   m_ObjectHideFlags: 0
