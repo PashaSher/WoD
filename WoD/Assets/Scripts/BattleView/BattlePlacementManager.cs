@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using Firebase.Database;
 using UnityEngine;
@@ -173,11 +174,19 @@ public class BattlePlacementManager : MonoBehaviour
 		myUnits.Clear();
 		var all = UnityEngine.Object.FindObjectsByType<Unit>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
 		bool iAmHost = Globalflags.ifHost;
+		// Сначала собираем пассивные как препятствия, затем остальные — чтобы располагались первыми
+		var passives = new List<Unit>();
+		var others   = new List<Unit>();
 		foreach (var u in all)
 		{
 			if (!u) continue;
-			if (u.host == iAmHost) myUnits.Add(u);
+			if (u.host != iAmHost) continue;
+			bool isPassive = false;
+			try { isPassive = u.isPassive; } catch { isPassive = false; }
+			if (isPassive) passives.Add(u); else others.Add(u);
 		}
+		myUnits.AddRange(passives);
+		myUnits.AddRange(others);
 		placeIndex = 0;
 		isPlacing = true;
 
@@ -308,10 +317,76 @@ public class BattlePlacementManager : MonoBehaviour
 		return pos;
 	}
 
+	// Быстрый «тост» на 1 секунду
+	private GameObject toastGo;
+	private Text toastText;
+	private Coroutine toastCo;
+	private void ShowToast(string msg, float seconds = 1f)
+	{
+		EnsureHelperOverlay(true);
+		if (!toastGo)
+		{
+			toastGo = new GameObject("Toast");
+			toastGo.transform.SetParent(helper.transform, false);
+			toastText = toastGo.AddComponent<Text>();
+			toastText.alignment = TextAnchor.MiddleCenter;
+			toastText.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+			toastText.fontSize = 28;
+			toastText.color = Color.red;
+			var rt = (RectTransform)toastGo.transform;
+			rt.anchorMin = new Vector2(0.2f, 0.80f);
+			rt.anchorMax = new Vector2(0.8f, 0.90f);
+			rt.offsetMin = Vector2.zero;
+			rt.offsetMax = Vector2.zero;
+		}
+		toastText.text = msg;
+		if (toastCo != null) StopCoroutine(toastCo);
+		toastCo = StartCoroutine(HideToastAfter(seconds));
+	}
+	private IEnumerator HideToastAfter(float s)
+	{
+		yield return new WaitForSeconds(Mathf.Max(0.1f, s));
+		if (toastText) toastText.text = "";
+	}
+
+	private bool IsPlacementBlockedFor(Unit placing, Vector3 world, out string reason)
+	{
+		// Простая проверка пересечения: не позволяем ставить в ту же точку, что и другой юнит
+		// и не позволяем ставить поверх пассивных препятствий.
+		const float minSpacing = 0.6f;
+		reason = null;
+#if UNITY_2022_2_OR_NEWER
+		var all = UnityEngine.Object.FindObjectsByType<Unit>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+#else
+		var all = UnityEngine.Object.FindObjectsOfType<Unit>(true);
+#endif
+		for (int i = 0; i < all.Length; i++)
+		{
+			var u = all[i];
+			if (!u) continue;
+			if (u == placing) continue;
+			Vector3 pos;
+			try { pos = u.transform.position; } catch { continue; }
+			if (Vector2.Distance(pos, world) < minSpacing)
+			{
+				reason = "Cannot place units at the same spot";
+				return true;
+			}
+		}
+		return false;
+	}
+
 	private async void TryPlaceCurrentAt(Vector3 world)
 	{
 		var u = myUnits[placeIndex];
 		if (!u) { placeIndex++; UpdateHelperText(); return; }
+
+		// Валидируем позицию — запретить стаканье/перекрытия
+		if (IsPlacementBlockedFor(u, world, out var whyBlocked))
+		{
+			ShowToast(whyBlocked ?? "Invalid placement");
+			return;
+		}
 
 		Debug.Log($"[Placement] Place {u.unitKey} at {world} (index {placeIndex+1}/{myUnits.Count})");
 

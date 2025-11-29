@@ -29433,7 +29433,7 @@ IL_0085:
 		return;
 	}
 }
-// Method Definition Index: 69993
+// Method Definition Index: 70008
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LinkedListNode_1_get_Value_m8F67264DC98EF442B34CE4947044BCE18BF26053_gshared_inline (LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* __this, const RuntimeMethod* method) 
 {
 	{

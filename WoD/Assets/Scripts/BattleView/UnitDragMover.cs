@@ -102,7 +102,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         return true;
     }
 
-    private bool CanControl() => unit && Globalflags.ifHost == unit.host;
+	private bool CanControl() => unit && Globalflags.ifHost == unit.host && unit.moveSpeed > 0.01f;
 
     public void OnPointerDown(PointerEventData e)
     {
@@ -146,14 +146,43 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         line.SetPosition(1, unit.transform.position);
     }
 
-    public void OnDrag(PointerEventData e)
+	// вспомогательное состояние блокировки линией препятствия
+	private bool _blocked;
+	private Vector3 _blockedPoint;
+
+	public void OnDrag(PointerEventData e)
     {
         if (BattlePlacementState.IsPlacementActive || !BattleReadyManager.BothReady) return;
         if (!dragging) return;
-        currWorld = ScreenToWorld(e.position);
+		currWorld = ScreenToWorld(e.position);
 
-        line.SetPosition(0, unit.transform.position);
-        line.SetPosition(1, new Vector3(currWorld.x, currWorld.y, unit.transform.position.z));
+		_blocked = false;
+		_blockedPoint = currWorld;
+		// Проверим, не пересекает ли линия пассивное препятствие
+		var hits = Physics2D.LinecastAll(unit.transform.position, currWorld);
+		if (hits != null && hits.Length > 0)
+		{
+			for (int i = 0; i < hits.Length; i++)
+			{
+				try
+				{
+					var go = hits[i].collider ? hits[i].collider.gameObject : null;
+					if (!go) continue;
+					var u = go.GetComponentInParent<Unit>();
+					if (u != null && u.isPassive)
+					{
+						_blocked = true;
+						_blockedPoint = hits[i].point;
+						break;
+					}
+				}
+				catch { }
+			}
+		}
+
+		line.SetPosition(0, unit.transform.position);
+		var end = _blocked ? _blockedPoint : new Vector3(currWorld.x, currWorld.y, unit.transform.position.z);
+		line.SetPosition(1, new Vector3(end.x, end.y, unit.transform.position.z));
     }
 
     public void OnPointerUp(PointerEventData e)
@@ -168,7 +197,9 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         // If someone set moving in RTDB while we were dragging — abort.
         if (hasMovingCache && movingCache) return;
 
-        var target = ScreenToWorld(e.position);
+		var target = ScreenToWorld(e.position);
+		// Если линия была заблокирована препятствием — не даём пройти «сквозь», используем ближайшую точку
+		if (_blocked) target = _blockedPoint;
         if (Vector2.Distance(target, unit.transform.position) < minDragDistance) return;
 
         // Re-check before write to avoid race
@@ -214,10 +245,39 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
         while (Vector2.Distance(unit.transform.position, target) > stopDist)
         {
-            unit.transform.position = Vector2.MoveTowards(unit.transform.position, target, speed * Time.deltaTime);
+            var cur  = unit.transform.position;
+            var next = (Vector3)Vector2.MoveTowards(cur, target, speed * Time.deltaTime);
+
+            // Блокируем движение, если на пути пассивное препятствие (стена и т.п.)
+            bool blocked = false;
+            var hits = Physics2D.LinecastAll(cur, next);
+            if (hits != null && hits.Length > 0)
+            {
+                for (int i = 0; i < hits.Length; i++)
+                {
+                    try
+                    {
+                        var go = hits[i].collider ? hits[i].collider.gameObject : null;
+                        if (!go) continue;
+                        var u = go.GetComponentInParent<Unit>();
+                        if (u != null && u.isPassive)
+                        {
+                            // останавливаемся чуть раньше точки столкновения
+                            Vector3 dir = (next - cur).normalized;
+                            unit.transform.position = hits[i].point - (Vector2)(dir * 0.02f);
+                            blocked = true;
+                            break;
+                        }
+                    }
+                    catch { }
+                }
+            }
+            if (blocked) break;
+
+            unit.transform.position = next;
             yield return null;
         }
-        unit.transform.position = target;
+        // Не принуждаем к точке target — могли упереться в стену
 
         if (stateRef != null)
         {

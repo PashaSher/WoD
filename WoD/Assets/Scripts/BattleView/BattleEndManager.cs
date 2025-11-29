@@ -52,7 +52,7 @@ public class BattleEndManager : MonoBehaviour
 
 	private void EvaluateBattleState()
 	{
-		// Count alive units by host flag
+		// Count alive units by host flag (exclude passive obstacles)
 		int hostAlive = 0;
 		int clientAlive = 0;
 		var allUnits = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
@@ -61,6 +61,10 @@ public class BattleEndManager : MonoBehaviour
 			try
 			{
 				if (u == null) continue;
+				// препятствия не учитываются в условиях победы/поражения
+				bool isPassive;
+				try { isPassive = u.isPassive; } catch { isPassive = false; }
+				if (isPassive) continue;
 				// может быть уничтожен между проверкой и чтением свойства — ловим и игнорируем
 				int hp;
 				try { hp = u.health; } catch { continue; }

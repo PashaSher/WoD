@@ -57,9 +57,19 @@ public class UnitAutoAttack : MonoBehaviour
     private void Update()
     {
 		// Во время расстановки — не сканируем и не стреляем
-		if (BattlePlacementState.IsPlacementActive) return;
+		if (BattlePlacementState.IsPlacementActive)
+		{
+			SetAttacking(false);
+			wasAttacking = false;
+			return;
+		}
 		// Пока менеджер боя не активен или оба игрока не готовы — стоим
-		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return;
+		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady)
+		{
+			SetAttacking(false);
+			wasAttacking = false;
+			return;
+		}
         // Исполняем логику только на стороне владельца, чтобы не дублировать снаряды
 		if (unit != null && Globalflags.ifHost != unit.host) return;
         if (Time.time < nextScanTime) return;
@@ -84,6 +94,9 @@ public class UnitAutoAttack : MonoBehaviour
 		// Далее стрельба осуществляется строго через событие анимации (Animation Event)
     }
 
+	// Текущая выбранная цель (с проверкой LOS)
+	private Unit currentTarget;
+
     private void TryScanAndAttack()
     {
         if (unit == null) return;
@@ -105,6 +118,8 @@ public class UnitAutoAttack : MonoBehaviour
 				// может быть уничтожен между проверками — повторная проверка ниже
 				if (other == null) continue;
             if (other.host == myHost) continue; // ищем только противоположную сторону
+			// пассивные объекты не являются целями
+			if (other.isPassive) continue;
             // Для стационарных — цели только впереди по направлению взгляда
             if (unit != null && unit.isStationary)
             {
@@ -116,6 +131,9 @@ public class UnitAutoAttack : MonoBehaviour
 
 				Vector3 pos;
 				try { pos = other.transform.position; } catch { continue; }
+			// Линия видимости: если между нами пассивное препятствие — цель недоступна
+			if (IsLineBlockedByPassive(myPos, pos)) continue;
+
 				float sqr = (pos - myPos).sqrMagnitude;
             if (sqr < closestSqr)
             {
@@ -142,6 +160,7 @@ public class UnitAutoAttack : MonoBehaviour
 
         SetAttacking(shouldAttack);
         wasAttacking = shouldAttack;
+		currentTarget = shouldAttack ? closestEnemy : null;
     }
 
     private void SetAttacking(bool value)
@@ -152,15 +171,32 @@ public class UnitAutoAttack : MonoBehaviour
 
     private bool IsAttacking()
     {
-        // Используем внутреннее состояние Unit через отражение недоступно; полагаемся на публичный флаг через CombatSnapshot
-        // Здесь считаем, что Unit.PushCombatState пошлёт актуальный флаг, а мы просто повторяем каденс
-        return true; // каденс управляется TryScanAndAttack -> SetAttacking(true)/false
+		// Стреляем ТОЛЬКО если бой действительно активен и юнит в атакующем состоянии
+		if (BattlePlacementState.IsPlacementActive) return false;
+		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return false;
+		return unit != null && unit.IsAttacking;
     }
 
     private void TryFireProjectile()
     {
+		// Доп. защита от выстрелов во время расстановки/ожидания
+		if (BattlePlacementState.IsPlacementActive) return;
+		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return;
 		if (unit == null || unit.projectileStats == null) return;
 		if (string.IsNullOrEmpty(unit.sessionId) || string.IsNullOrEmpty(unit.unitKey)) return;
+
+        // Выбор цели: сохраняем приоритет юнитов над стенами — никогда не целимся в пассивные
+		Unit targetUnit = null;
+		if (currentTarget != null && IsValidTarget(currentTarget, unit.attackRange))
+		{
+			targetUnit = currentTarget;
+		}
+		else
+		{
+			targetUnit = FindPreferredEnemyWithinLOS(unit.attackRange);
+			currentTarget = targetUnit;
+		}
+		if (!targetUnit) return;
 
         // Точка вылета: приоритет — заданная в Inspector, затем авто-поиск "MuzzleFlash", затем fallback к Visual с оффсетом по facing
         Transform muzzle = projectileSpawn;
@@ -193,9 +229,6 @@ public class UnitAutoAttack : MonoBehaviour
             start += new Vector3(startOffset.x * facing, startOffset.y, startOffset.z);
         }
 
-        // цель — ближайший враг в радиусе attackRange, с разбросом по accuracy
-        Unit targetUnit = FindClosestEnemyWithin(unit.attackRange);
-        if (!targetUnit) return;
         // Перед выстрелом разворачиваемся к цели
         unit.FaceTowardsX(targetUnit.transform.position.x);
         Vector3 target = targetUnit.transform.position;
@@ -316,12 +349,90 @@ public class UnitAutoAttack : MonoBehaviour
 	// Метод для Animation Event
 	public void AnimEvent_Fire()
 	{
+		// Во время расстановки/ожидания — не стреляем
+		if (BattlePlacementState.IsPlacementActive) return;
+		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return;
 		// Чтобы не стрелять вне режима атаки — уважаем cadence из сканирования
 		if (!IsAttacking()) return;
 		// Переносим каденс на анимацию: ограничим частоту по fireRate, чтобы дизайнер мог ставить частые события
 		if (Time.time < nextShotTime) return;
 		nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit != null ? unit.fireRate : 1f));
 		TryFireProjectile();
+	}
+
+	private bool IsLineBlockedByPassive(Vector3 a, Vector3 b)
+	{
+		var hits = Physics2D.LinecastAll(a, b);
+		if (hits == null || hits.Length == 0) return false;
+		for (int i = 0; i < hits.Length; i++)
+		{
+			try
+			{
+				var go = hits[i].collider ? hits[i].collider.gameObject : null;
+				if (!go) continue;
+				var u = go.GetComponentInParent<Unit>();
+				if (u != null && u.isPassive) return true;
+			}
+			catch { }
+		}
+		return false;
+	}
+
+	private bool IsValidTarget(Unit other, float range)
+	{
+		if (!other) return false;
+		if (other.host == unit.host) return false;
+		if (other.isPassive) return false;
+		Vector3 myPos = unit.transform.position;
+		Vector3 pos;
+		try { pos = other.transform.position; } catch { return false; }
+		if ((pos - myPos).sqrMagnitude > range * range) return false;
+		// для стационарных — только вперёд
+		if (unit.isStationary)
+		{
+			int myFacing = unit.FacingDebug >= 0 ? 1 : -1;
+			float dx = pos.x - myPos.x;
+			if (myFacing > 0 && dx < 0f) return false;
+			if (myFacing < 0 && dx > 0f) return false;
+		}
+		// не выбираем цель, если между нами пассивное препятствие
+		if (IsLineBlockedByPassive(myPos, pos)) return false;
+		return true;
+	}
+
+	private Unit FindPreferredEnemyWithinLOS(float range)
+	{
+		var all = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
+		Unit best = null;
+		float bestSqr = float.PositiveInfinity;
+		Vector3 my = unit.transform.position;
+		int myFacing = unit.FacingDebug >= 0 ? 1 : -1;
+		for (int i = 0; i < all.Length; i++)
+		{
+			var u = all[i];
+			try
+			{
+				if (!u || u.host == unit.host) continue;
+				if (u.isPassive) continue;
+				Vector3 pos;
+				try { pos = u.transform.position; } catch { continue; }
+				if (IsLineBlockedByPassive(my, pos)) continue;
+				if (unit.isStationary)
+				{
+					float dx = pos.x - my.x;
+					if (myFacing > 0 && dx < 0f) continue;
+					if (myFacing < 0 && dx > 0f) continue;
+				}
+				float sqr = (pos - my).sqrMagnitude;
+				if (sqr < bestSqr && sqr <= range * range)
+				{
+					bestSqr = sqr;
+					best = u;
+				}
+			}
+			catch { }
+		}
+		return best;
 	}
 
     private void TryAttachMovingListener()

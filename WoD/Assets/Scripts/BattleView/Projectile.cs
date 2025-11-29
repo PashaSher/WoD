@@ -114,6 +114,12 @@ public class Projectile : MonoBehaviour
                     if (!unitHit) continue;
 						// Если цель уже умерла/удалена — игнорируем попадание и летим дальше
 						if (!IsAlive(unitHit)) continue;
+						// Пассивные объекты блокируют снаряд, но не получают урон
+						if (unitHit.isPassive)
+						{
+							OnLocalHitCleanup();
+							return;
+						}
                         // мог быть уничтожен между кадрами
                         bool sameSide;
                         try { sameSide = (owner != null && unitHit.host == owner.host); } catch { continue; }
@@ -221,6 +227,7 @@ public class Projectile : MonoBehaviour
 			try
 		{
 			if (!u || u.host == owner.host) continue; // только враги
+				if (u.isPassive) continue; // препятствия не получают урон
 				if (!IsAlive(u)) continue;
 				Vector2 pos;
 				try { pos = (Vector2)u.transform.position; } catch { continue; }

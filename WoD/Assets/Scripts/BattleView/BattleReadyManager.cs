@@ -363,6 +363,27 @@ public class BattleReadyManager : MonoBehaviour
 
 	private async Task AwardLocalWinAndCloseAsync()
 	{
+		// Ещё раз перепроверим, что соперник не стал READY в последний момент
+		try
+		{
+			if (enemyReadyKnown && enemyReady)
+			{
+				Debug.Log("[BRM] Abort timeout: enemy became ready (cached)");
+				return;
+			}
+			if (enemyReadyRef != null)
+			{
+				var snap = await enemyReadyRef.GetValueAsync();
+				bool rtReady = (snap != null && snap.Exists && snap.Value is bool b && b);
+				if (rtReady)
+				{
+					Debug.Log("[BRM] Abort timeout: enemy is ready per RTDB");
+					return;
+				}
+			}
+		}
+		catch { /* ignore: best-effort */ }
+
 		// Чтобы не вызывалось повторно
 		if (BothReady) return;
 		BothReady = true;

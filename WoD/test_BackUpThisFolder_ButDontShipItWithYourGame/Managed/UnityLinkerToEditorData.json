@@ -11,7 +11,6 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 0,
@@ -20,7 +19,6 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 0,
@@ -29,7 +27,6 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 1,
@@ -322,7 +319,6 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/RegistrationWindow.unity"
             ],
@@ -519,7 +515,6 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 0,
@@ -1073,7 +1068,6 @@
           {
             "name": "Collider2D",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 0,
@@ -1094,7 +1088,6 @@
           {
             "name": "PolygonCollider2D",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity"
             ],
             "dependencyType": 0,
@@ -1487,7 +1480,6 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/ArmyCreationScene.unity",
               "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/RegistrationWindow.unity"

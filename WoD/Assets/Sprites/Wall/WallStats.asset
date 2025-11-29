@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: WallStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 5
+  kind: 3
   health: 60
   damage: 0
   attackRange: 0
@@ -20,7 +21,7 @@ MonoBehaviour:
   fireRate: 0
   accuracy: 0.85
   accuracySpread: 0
-  sprite: {fileID: 3668938499985076069, guid: 0ec8daf2b63a5d44fafc5192d7f7f126, type: 3}
+  sprite: {fileID: -5356574185940491189, guid: 3e5db0ea5e010444387d8804a64a2baf, type: 3}
   animatorOverride: {fileID: 0}
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 2395814458728254601, guid: a8344d822b205bb4e9cdc4a58073d6e6, type: 3}
   projectileStats: {fileID: 0}

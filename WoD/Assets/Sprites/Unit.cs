@@ -260,7 +260,7 @@ public class Unit : MonoBehaviour
     }
 
     // ====== Inbound sync: consume movement + combat ======
-    private void OnRemoteStateChanged(object sender, ValueChangedEventArgs e)
+    private async void OnRemoteStateChanged(object sender, ValueChangedEventArgs e)
     {
         // Объект мог быть уже уничтожен по событию RTDB удаления — просто игнорируем колбэк
         if (this == null) return;
@@ -283,10 +283,18 @@ public class Unit : MonoBehaviour
         // - на владельце ждём удаление узла RTDB (обрабатывается отдельно)
         if (health == 0)
         {
-            if (!IsThisDeviceOwner())
-        {
-            Destroy(gameObject);
+            try
+            {
+                // Владелец отвечает за удаление узла RTDB, чтобы не оставался "призрак"
+                if (IsThisDeviceOwner() && stateRef != null)
+                {
+                    // Удаляем весь юнит, не только state
+                    if (unitRef != null)
+                        await unitRef.RemoveValueAsync();
+                }
             }
+            catch { /* best-effort */ }
+            try { Destroy(gameObject); } catch { }
             return;
         }
 
@@ -332,10 +340,38 @@ public class Unit : MonoBehaviour
     private IEnumerator MoveTo(Vector3 target, float speed)
     {
         const float stopDist = 0.02f;
-        while (Vector2.Distance(transform.position, target) > stopDist)
+		while (Vector2.Distance(transform.position, target) > stopDist)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-            yield return null;
+			var cur  = transform.position;
+			var next = (Vector3)Vector2.MoveTowards(cur, target, speed * Time.deltaTime);
+
+			// Уважать пассивные препятствия: не позволяем проходить сквозь стены
+			bool blocked = false;
+			var hits = Physics2D.LinecastAll(cur, next);
+			if (hits != null && hits.Length > 0)
+			{
+				for (int i = 0; i < hits.Length; i++)
+				{
+					try
+					{
+						var go = hits[i].collider ? hits[i].collider.gameObject : null;
+						if (!go) continue;
+						var u = go.GetComponentInParent<Unit>();
+						if (u != null && u.isPassive)
+						{
+							Vector3 dir = (next - cur).normalized;
+							transform.position = hits[i].point - (Vector2)(dir * 0.02f);
+							blocked = true;
+							break;
+						}
+					}
+					catch { }
+				}
+			}
+			if (blocked) break;
+
+			transform.position = next;
+			yield return null;
         }
         transform.position = target;
         moveCo = null;
