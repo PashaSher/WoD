@@ -33,12 +33,29 @@ public class BattleEndManager : MonoBehaviour
 	private void Awake()
 	{
 		auth = FirebaseAuth.DefaultInstance;
+		// Keep result panel hidden by default
 		if (resultPanel) resultPanel.SetActive(false);
 		if (toMenuButton != null)
 		{
 			toMenuButton.onClick.RemoveAllListeners();
 			toMenuButton.onClick.AddListener(OnGoToMenuClicked);
 		}
+	}
+
+	/// <summary>
+	/// Public finish entry used by BattleTimerManager when time runs out.
+	/// </summary>
+	public void FinishByTimeoutHp(bool localWins, bool isDraw)
+	{
+		if (finished) return;
+		finished = true;
+		if (isDraw)
+		{
+			ShowResult("Ничья");
+			return;
+		}
+		ShowResult(localWins ? "Ты победил" : "Ты проиграл");
+		_ = TryUpdateWins(localWins);
 	}
 
 	private void Update()

@@ -237,6 +237,20 @@ public class BattleReadyManager : MonoBehaviour
 			_ = ResyncAllUnitsPositionsAsync();
 
 			BothReady = true;
+			// Создаём (или активируем) таймер боя
+#if UNITY_6000_0_OR_NEWER || UNITY_2023_1_OR_NEWER
+			var timer = UnityEngine.Object.FindFirstObjectByType<BattleTimerManager>();
+#else
+			var timer = UnityEngine.Object.FindObjectOfType<BattleTimerManager>();
+#endif
+			if (timer == null)
+			{
+				var goT = new GameObject("BattleTimerManager(Auto)");
+				timer = goT.AddComponent<BattleTimerManager>();
+			}
+			// Прокинем стиль из этого инспектора, если задан
+			try { timer.SetStyle(timerFont, timerFontSize); } catch { /* best-effort */ }
+
 			if (canvas) canvas.enabled = false;
 			Debug.Log("[BRM] Both players ready → battle starts (positions resync requested)");
 			return;

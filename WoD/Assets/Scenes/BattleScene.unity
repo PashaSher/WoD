@@ -1195,7 +1195,7 @@ MonoBehaviour:
   timerFontSize: 48
   roleToastSeconds: 1
   roleFont: {fileID: 0}
-  roleColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  roleColor: {r: 0, g: 0, b: 0, a: 1}
   roleFontSize: 36
 --- !u!1 &2082891546
 GameObject:
