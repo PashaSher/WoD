@@ -1,5 +1,5 @@
 // ArmyShopController.cs
-// ArmyShopController.cs
+ // ArmyShopController.cs
 using System;
 using System.Collections.Generic;
 using TMPro;

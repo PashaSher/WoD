@@ -233,9 +233,9 @@ public class ArmySpawner : MonoBehaviour
                     // Если у префаба уже назначен контроллер — используем его;
                     // иначе ничего не подменяем спрайтом из UnitStats (sprite используется только в магазине).
                     if (anim != null && anim.runtimeAnimatorController != null)
-                    {
+                        {
                         anim.enabled = true;
-                    }
+                        }
                     else if (anim != null)
                     {
                         anim.enabled = false;
@@ -346,8 +346,8 @@ public class ArmySpawner : MonoBehaviour
         bool allowDrag = (u != null && !u.isStationary && u.moveSpeed > 0.01f);
         if (allowDrag)
         {
-            if (!visualTr.GetComponent<UnitDragMover>())
-                visualTr.gameObject.AddComponent<UnitDragMover>();
+    if (!visualTr.GetComponent<UnitDragMover>())
+        visualTr.gameObject.AddComponent<UnitDragMover>();
         }
 }
 

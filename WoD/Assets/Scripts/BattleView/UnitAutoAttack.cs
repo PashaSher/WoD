@@ -91,11 +91,67 @@ public class UnitAutoAttack : MonoBehaviour
 
         // Сначала сканируем и обновляем состояние (включая установку задержки первого выстрела)
         TryScanAndAttack();
-		// Далее стрельба осуществляется строго через событие анимации (Animation Event)
+		// Обычно стрельба вызывается событием анимации (Animation Event).
+		// Если валидного события нет — используем программный фолбэк по каденсу.
+		if (useCadenceFallback && IsAttacking() && Time.time >= nextShotTime)
+		{
+			nextShotTime = Time.time + Mathf.Max(0.01f, 1f / Mathf.Max(0.01f, unit != null ? unit.fireRate : 1f));
+			TryFireProjectile();
+		}
     }
 
 	// Текущая выбранная цель (с проверкой LOS)
 	private Unit currentTarget;
+	private bool useCadenceFallback; // если нет валидного AnimationEvent("AnimEvent_Fire")
+	private bool animEventsSanitized;
+
+	private void Start()
+	{
+		TryDetectOrSanitizeAnimEvents();
+	}
+
+	private void TryDetectOrSanitizeAnimEvents()
+	{
+		if (animEventsSanitized) return;
+		animEventsSanitized = true;
+		try
+		{
+			if (unit == null) unit = GetComponentInParent<Unit>();
+			if (unit == null) return;
+			Animator animator = null;
+			var vis = unit.transform.Find("Visual");
+			if (vis) animator = vis.GetComponent<Animator>();
+			if (!animator) animator = unit.GetComponentInChildren<Animator>(true);
+			if (!animator || animator.runtimeAnimatorController == null) { useCadenceFallback = true; return; }
+			bool hasFireEvent = false;
+			var clips = animator.runtimeAnimatorController.animationClips;
+			if (clips == null || clips.Length == 0) { useCadenceFallback = true; return; }
+			for (int i = 0; i < clips.Length; i++)
+			{
+				var clip = clips[i];
+				if (!clip) continue;
+				var events = clip.events;
+				if (events == null || events.Length == 0) continue;
+				var filtered = new List<AnimationEvent>(events.Length);
+				for (int j = 0; j < events.Length; j++)
+				{
+					var ev = events[j];
+					if (string.IsNullOrEmpty(ev.functionName)) continue; // выбрасываем пустые, чтобы не было ошибки в редакторе
+					if (string.Equals(ev.functionName, "AnimEvent_Fire", StringComparison.Ordinal)) hasFireEvent = true;
+					filtered.Add(ev);
+				}
+				if (filtered.Count != events.Length)
+				{
+					try { clip.events = filtered.ToArray(); } catch { }
+				}
+			}
+			useCadenceFallback = !hasFireEvent;
+		}
+		catch
+		{
+			useCadenceFallback = true;
+		}
+	}
 
     private void TryScanAndAttack()
     {
@@ -230,7 +286,15 @@ public class UnitAutoAttack : MonoBehaviour
         }
 
         // Перед выстрелом разворачиваемся к цели
-        unit.FaceTowardsX(targetUnit.transform.position.x);
+		try
+		{
+			unit.FaceTowardsX(targetUnit.transform.position.x);
+		}
+		catch
+		{
+			// цель могла исчезнуть — отменяем выстрел
+			return;
+		}
         Vector3 target = GetTargetPoint(targetUnit);
 
         // применим разброс: чем ниже accuracy, тем выше отклонение

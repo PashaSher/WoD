@@ -225,6 +225,11 @@ public class ProjectileReplicator : MonoBehaviour
                 if (!string.Equals(u.unitKey, ownerKey, StringComparison.Ordinal)) continue;
                 if (u.host == ownerIsHost) { ownerUnit = u; break; }
             }
+            if (ownerUnit == null)
+            {
+                Debug.LogWarning($"[PR] Owner unit '{ownerKey}' not found for projectile '{key}'. Skipping spawn.");
+                return;
+            }
 
             // Сконструируем временный ProjectileStats из снапшота
             var stats = ScriptableObject.CreateInstance<ProjectileStats>();

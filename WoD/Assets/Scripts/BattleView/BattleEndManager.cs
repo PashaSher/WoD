@@ -59,8 +59,8 @@ public class BattleEndManager : MonoBehaviour
 		foreach (var u in allUnits)
 		{
 			try
-			{
-				if (u == null) continue;
+		{
+			if (u == null) continue;
 				// препятствия не учитываются в условиях победы/поражения
 				bool isPassive;
 				try { isPassive = u.isPassive; } catch { isPassive = false; }
@@ -69,11 +69,11 @@ public class BattleEndManager : MonoBehaviour
 				int hp;
 				try { hp = u.health; } catch { continue; }
 				if (hp > 0)
-				{
+			{
 					bool isHost;
 					try { isHost = u.host; } catch { continue; }
 					if (isHost) hostAlive++; else clientAlive++;
-				}
+			}
 			}
 			catch { }
 		}

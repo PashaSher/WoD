@@ -91,7 +91,7 @@ public class BattlePlacementManager : MonoBehaviour
 		titleGo.transform.SetParent(panel.transform, false);
 		titleText = titleGo.AddComponent<Text>();
 		titleText.alignment = TextAnchor.MiddleCenter;
-		titleText.font = uiFont != null ? uiFont : Resources.GetBuiltinResource<Font>("Arial.ttf");
+		titleText.font = uiFont != null ? uiFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 		titleText.fontSize = Mathf.Max(10, titleFontSize);
 		titleText.color = titleColor;
 		var rtTitle = (RectTransform)titleGo.transform;
@@ -127,7 +127,7 @@ public class BattlePlacementManager : MonoBehaviour
 		var label = labelGo.AddComponent<Text>();
 		label.text = text;
 		label.alignment = TextAnchor.MiddleCenter;
-		label.font = uiFont != null ? uiFont : Resources.GetBuiltinResource<Font>("Arial.ttf");
+		label.font = uiFont != null ? uiFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 		label.color = buttonTextColor;
 		label.fontSize = Mathf.Max(10, buttonFontSize);
 		var rtLabel = (RectTransform)labelGo.transform;
@@ -216,7 +216,7 @@ public class BattlePlacementManager : MonoBehaviour
 			tgo.transform.SetParent(helper.transform, false);
 			helperText = tgo.AddComponent<Text>();
 			helperText.alignment = TextAnchor.MiddleCenter;
-			helperText.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+			helperText.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 			helperText.color = Color.yellow;
 			helperText.fontSize = 28;
 			var rt = (RectTransform)tgo.transform;
@@ -330,7 +330,7 @@ public class BattlePlacementManager : MonoBehaviour
 			toastGo.transform.SetParent(helper.transform, false);
 			toastText = toastGo.AddComponent<Text>();
 			toastText.alignment = TextAnchor.MiddleCenter;
-			toastText.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+			toastText.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 			toastText.fontSize = 28;
 			toastText.color = Color.red;
 			var rt = (RectTransform)toastGo.transform;

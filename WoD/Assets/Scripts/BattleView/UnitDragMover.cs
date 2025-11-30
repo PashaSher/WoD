@@ -150,11 +150,11 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 	private bool _blocked;
 	private Vector3 _blockedPoint;
 
-	public void OnDrag(PointerEventData e)
+    public void OnDrag(PointerEventData e)
     {
         if (BattlePlacementState.IsPlacementActive || !BattleReadyManager.BothReady) return;
         if (!dragging) return;
-		currWorld = ScreenToWorld(e.position);
+        currWorld = ScreenToWorld(e.position);
 
 		_blocked = false;
 		_blockedPoint = currWorld;
@@ -180,7 +180,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 			}
 		}
 
-		line.SetPosition(0, unit.transform.position);
+        line.SetPosition(0, unit.transform.position);
 		var end = _blocked ? _blockedPoint : new Vector3(currWorld.x, currWorld.y, unit.transform.position.z);
 		line.SetPosition(1, new Vector3(end.x, end.y, unit.transform.position.z));
     }
@@ -197,7 +197,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         // If someone set moving in RTDB while we were dragging — abort.
         if (hasMovingCache && movingCache) return;
 
-		var target = ScreenToWorld(e.position);
+        var target = ScreenToWorld(e.position);
 		// Если линия была заблокирована препятствием — не даём пройти «сквозь», используем ближайшую точку
 		if (_blocked) target = _blockedPoint;
         if (Vector2.Distance(target, unit.transform.position) < minDragDistance) return;

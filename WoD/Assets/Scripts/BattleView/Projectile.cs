@@ -51,8 +51,12 @@ public class Projectile : MonoBehaviour
         this.stats = stats;
         this.projectileKey = key;
         this.createdByLocal = createdByLocal;
-        start = new Vector3(startPos.x, startPos.y, owner.transform.position.z);
-        target = new Vector3(targetPos.x, targetPos.y, owner.transform.position.z);
+		// Если владелец неизвестен (например, на стороне не-владельца не нашли юнита),
+		// используем z=0, чтобы избежать NRE и безопасно отрисовать визуал.
+		float z = 0f;
+		try { if (owner != null) z = owner.transform.position.z; } catch { z = 0f; }
+		start = new Vector3(startPos.x, startPos.y, z);
+		target = new Vector3(targetPos.x, targetPos.y, z);
 
         if (!spriteRenderer)
             spriteRenderer = gameObject.AddComponent<SpriteRenderer>();

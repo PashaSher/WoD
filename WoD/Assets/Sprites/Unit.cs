@@ -343,7 +343,7 @@ public class Unit : MonoBehaviour
     private IEnumerator MoveTo(Vector3 target, float speed)
     {
         const float stopDist = 0.02f;
-		while (Vector2.Distance(transform.position, target) > stopDist)
+        while (Vector2.Distance(transform.position, target) > stopDist)
         {
 			var cur  = transform.position;
 			var next = (Vector3)Vector2.MoveTowards(cur, target, speed * Time.deltaTime);
@@ -374,7 +374,7 @@ public class Unit : MonoBehaviour
 			if (blocked) break;
 
 			transform.position = next;
-			yield return null;
+            yield return null;
         }
         transform.position = target;
         moveCo = null;

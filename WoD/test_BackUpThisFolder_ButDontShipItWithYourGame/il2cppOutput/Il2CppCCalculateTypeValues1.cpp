@@ -45750,6 +45750,8 @@ struct UnitAutoAttack_tFB675953537E8C76A6858F08BB26E74715EC12CF  : public MonoBe
 	bool ___hasMovingCache;
 	bool ___movingCache;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* ___currentTarget;
+	bool ___useCadenceFallback;
+	bool ___animEventsSanitized;
 };
 struct UnitCleaner_tC1BFB6D6936F41D85490D69027B2BDB1623C067E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
