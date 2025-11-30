@@ -49,6 +49,7 @@ public class ArmyShopController : MonoBehaviour
     private readonly Dictionary<UnitType, int> _counts = new();
     private readonly Dictionary<UnitType, int> _enemyCounts = new();
     private readonly Dictionary<UnitType, UnitStats> _previewByType = new();
+    private readonly HashSet<UnitType> _plusPending = new();
 
     private void Awake()
     {
@@ -247,12 +248,18 @@ private void OnDisable()
 
     public async void OnPlus(UnitType type)
    {
+       if (_plusPending.Contains(type)) return; // защита от быстрого двойного клика
+
        int price = UnitPrices.Cost[type];
        if (_points < price)
        {
          ShowOnlyNotEnoughPoints(type, price);
          return;
        }
+
+       var tile = GetTile(type);
+       _plusPending.Add(type);
+       if (tile != null) tile.SetPlusInteractable(false);
 
       try
        {
@@ -267,6 +274,11 @@ private void OnDisable()
        catch (Exception e)
        {
           Debug.LogWarning($"Add {type} failed: {e.Message}");
+       }
+       finally
+       {
+           _plusPending.Remove(type);
+           if (tile != null) tile.SetPlusInteractable(true);
        }
     }
 

@@ -60,4 +60,9 @@ public class UnitTile : MonoBehaviour
         previewImage.sprite = sprite;
         previewImage.enabled = sprite != null;
     }
+
+    public void SetPlusInteractable(bool enabled)
+    {
+        if (plusBtn) plusBtn.interactable = enabled;
+    }
 }
