@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Projectile_Sniper
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileStats
   damage: 50
-  penetration: 2
+  penetration: 0
   splashRadius: 0
   speed: 7
   maxLifetime: 4

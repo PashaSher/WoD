@@ -351,9 +351,11 @@ public class BattlePlacementManager : MonoBehaviour
 
 	private bool IsPlacementBlockedFor(Unit placing, Vector3 world, out string reason)
 	{
-		// Простая проверка пересечения: не позволяем ставить в ту же точку, что и другой юнит
-		// и не позволяем ставить поверх пассивных препятствий.
-		const float minSpacing = 0.6f;
+		// Проверяем:
+		// 1) Не кладём в ту же точку, что и другой юнит
+		// 2) Не кладём поверх пассивных препятствий (стен и т.п.)
+		const float minSpacing = 0.6f;   // минимальная дистанция до других юнитов
+		const float obstaclePad = 0.5f;  // отступ от пассивных препятствий
 		reason = null;
 #if UNITY_2022_2_OR_NEWER
 		var all = UnityEngine.Object.FindObjectsByType<Unit>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
@@ -367,10 +369,46 @@ public class BattlePlacementManager : MonoBehaviour
 			if (u == placing) continue;
 			Vector3 pos;
 			try { pos = u.transform.position; } catch { continue; }
-			if (Vector2.Distance(pos, world) < minSpacing)
+			float dist = Vector2.Distance(pos, world);
+			bool isPassive = false;
+			try { isPassive = u.isPassive; } catch { isPassive = false; }
+			if (isPassive)
+			{
+				// Блокируем размещение на стенах/препятствиях с небольшим полем безопасности
+				if (dist < obstaclePad)
+				{
+					reason = "Cannot place on obstacles";
+					return true;
+				}
+				continue;
+			}
+			if (dist < minSpacing)
 			{
 				reason = "Cannot place units at the same spot";
 				return true;
+			}
+		}
+
+		// Дополнительная страховка: если в точке клика есть коллайдер пассивного объекта, тоже запрещаем
+		var hits = Physics2D.OverlapPointAll(new Vector2(world.x, world.y));
+		if (hits != null && hits.Length > 0)
+		{
+			for (int i = 0; i < hits.Length; i++)
+			{
+				try
+				{
+					var go = hits[i].gameObject;
+					if (!go) continue;
+					var u = go.GetComponentInParent<Unit>();
+					bool isPassive = false;
+					try { isPassive = (u != null && u.isPassive); } catch { isPassive = false; }
+					if (isPassive)
+					{
+						reason = "Cannot place on obstacles";
+						return true;
+					}
+				}
+				catch { /* ignore */ }
 			}
 		}
 		return false;

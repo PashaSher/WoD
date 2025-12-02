@@ -475,6 +475,25 @@ public class BattleReadyManager : MonoBehaviour
 		// Закрываем/удаляем сессию и уходим в меню
 		try
 		{
+			// Пометим победителя в сессии, чтобы второму игроку показать корректный итог
+			try
+			{
+				if (!string.IsNullOrEmpty(sessionId))
+				{
+					string winRole = isHost ? "host" : "client";
+					var baseRef = FirebaseDatabase.DefaultInstance.RootReference
+						.Child("sessions").Child(sessionId);
+					var updates = new System.Collections.Generic.Dictionary<string, object>
+					{
+						["winnerRole"] = winRole,
+						["endReason"] = "ready_timeout_enemy",
+						["sessionOpen"] = false
+					};
+					await baseRef.UpdateChildrenAsync(updates);
+				}
+			}
+			catch { /* best-effort */ }
+
 			Debug.Log("[BRM] Closing session as winner");
 			if (FirebaseSessionManager.Instance != null)
 				await FirebaseSessionManager.Instance.LeaveSessionAndGoToMenuAsync();
@@ -488,6 +507,25 @@ public class BattleReadyManager : MonoBehaviour
 		BothReady = true;
 		try
 		{
+			// Пометим победителя как противоположную сторону
+			try
+			{
+				if (!string.IsNullOrEmpty(sessionId))
+				{
+					string winRole = isHost ? "client" : "host";
+					var baseRef = FirebaseDatabase.DefaultInstance.RootReference
+						.Child("sessions").Child(sessionId);
+					var updates = new System.Collections.Generic.Dictionary<string, object>
+					{
+						["winnerRole"] = winRole,
+						["endReason"] = "ready_timeout_me",
+						["sessionOpen"] = false
+					};
+					await baseRef.UpdateChildrenAsync(updates);
+				}
+			}
+			catch { /* best-effort */ }
+
 			Debug.Log("[BRM] Leaving session as timeout loser");
 			if (FirebaseSessionManager.Instance != null)
 				await FirebaseSessionManager.Instance.LeaveSessionAndGoToMenuAsync();

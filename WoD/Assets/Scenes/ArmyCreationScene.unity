@@ -806,6 +806,16 @@ MonoBehaviour:
   readyButton: {fileID: 668351642}
   waitPanel: {fileID: 1256783580}
   waitLabel: {fileID: 32998751}
+  enemyArmyRoot: {fileID: 0}
+  hideEnemyArmyOnStart: 1
+  showEnemyNickInsteadOfArmy: 1
+  enemyNickFont: {fileID: 11400000, guid: fd65eb6c1e086994c9245cf9d0dd59d2, type: 2}
+  enemyNickFontSize: 42
+  enemyNickColor: {r: 0, g: 0, b: 0, a: 1}
+  enemyNickWorldOffset: {x: 0, y: 1.2, z: 0}
+  readyTimeoutSeconds: 60
+  timerFont: {fileID: 11400000, guid: fd65eb6c1e086994c9245cf9d0dd59d2, type: 2}
+  timerFontSize: 48
   nextSceneName: BattleScene
   backSceneName: MainMenu
 --- !u!1 &231602440
@@ -2392,9 +2402,9 @@ RectTransform:
   - {fileID: 1097193546}
   m_Father: {fileID: 397268002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 170, y: -150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729416657
@@ -3082,9 +3092,9 @@ RectTransform:
   - {fileID: 231602441}
   m_Father: {fileID: 397268002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 277.6191, y: -150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 75.2382, y: 64.5305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &952636561
@@ -4707,9 +4717,9 @@ RectTransform:
   - {fileID: 1153227467}
   m_Father: {fileID: 397268002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 480.98843, y: -150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 291.5005, y: 136.0193}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522254728
@@ -6834,9 +6844,9 @@ RectTransform:
   - {fileID: 1097451893}
   m_Father: {fileID: 397268002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -150}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2086237425

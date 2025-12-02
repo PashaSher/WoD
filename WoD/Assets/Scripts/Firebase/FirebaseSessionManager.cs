@@ -109,6 +109,7 @@ public class FirebaseSessionManager : MonoBehaviour
         // Узел удалён — показать сообщение
         if (!snap.Exists)
         {
+            // Когда узел уже удалён, результата может не быть. Покажем нейтральное сообщение.
             ShowRemoteClosed(isHost ? "Client left the session" : "Host closed the session");
             return;
         }
@@ -117,6 +118,15 @@ public class FirebaseSessionManager : MonoBehaviour
         var openChild = snap.Child("sessionOpen");
         if (openChild.Exists && openChild.Value != null)
             open = Convert.ToBoolean(openChild.Value);
+
+        // Если в сессии проставлен победитель — показываем исход («ты победил/проиграл»)
+        string winnerRole = snap.Child("winnerRole").Value?.ToString();
+        if (!string.IsNullOrEmpty(winnerRole))
+        {
+            bool localWins = (winnerRole == (isHost ? "host" : "client"));
+            ShowRemoteClosed(localWins ? "Ты победил" : "Ты проиграл");
+            return;
+        }
 
         string closedByUid  = snap.Child("closedByUid").Value?.ToString();
         string closedByRole = snap.Child("closedByRole").Value?.ToString();
