@@ -208,7 +208,6 @@ public class BattleReadyManager : MonoBehaviour
 
 			string text = Globalflags.ifHost ? "You are Black" : "You are Blue";
 			roleToast.text = text;
-			StartCoroutine(HideRoleToastAfter(roleToastSeconds));
 		}
 		catch { /* best-effort */ }
 	}
