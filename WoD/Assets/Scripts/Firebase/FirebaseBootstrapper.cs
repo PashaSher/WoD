@@ -23,8 +23,16 @@ public static class FirebaseBootstrapper
         if (deps != DependencyStatus.Available)
             throw new Exception($"Firebase dependencies not available: {deps}");
 
-        // Если нужно — раскомментируй и перенеси сюда настройки ДО первого доступа к DefaultInstance:
-        // using Firebase.Database;
-        // Firebase.Database.FirebaseDatabase.GetInstance(FirebaseApp.DefaultInstance).SetPersistenceEnabled(false);
+        // Максимальный уровень логирования Firebase (поможет понять сетевые подвисания)
+        try { FirebaseApp.LogLevel = LogLevel.Debug; } catch { /* ignore */ }
+
+        // В Editor отключаем офлайн‑персистентность RTDB, чтобы избежать "липких" таймаутов/гонок при перезапусках сцен.
+#if UNITY_EDITOR
+        try
+        {
+            Firebase.Database.FirebaseDatabase.GetInstance(FirebaseApp.DefaultInstance).SetPersistenceEnabled(false);
+        }
+        catch { /* best-effort */ }
+#endif
     }
 }

@@ -659,11 +659,13 @@ extern void DefaultTraceListener_WriteLogFile_m1B03BFECAD957FB2CEF7B9D4A4A8A0D7B
 extern void DefaultTraceListener_Write_m2C77CF6C1459080523FE7213B8854A9B7FFDCEF9 (void);
 extern void DefaultTraceListener_WriteLine_m457B4152407B96D84AF638EF07A79550652FB049 (void);
 extern void Stopwatch_GetTimestamp_mA3BDF219C573A34751D6A792E86C825B74D2CEB7 (void);
+extern void Stopwatch_StartNew_mF813F15E68604C7734FECC301B7042A521041259 (void);
 extern void Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A (void);
 extern void Stopwatch_get_Elapsed_mF16CCA2F9B7E2EAEFCAF8D81F44370DBAC1B2178 (void);
 extern void Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF (void);
 extern void Stopwatch_get_ElapsedTicks_m3F4040FBF8C7CCDC69E0E04824019DEBB25AA410 (void);
 extern void Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915 (void);
+extern void Stopwatch_Restart_m9CE82CCD811EE12C2E4FDFF708B5529D1CE6DA58 (void);
 extern void Stopwatch__cctor_mF9BBC572803E232BF2D323301E90A6AFDB496FB9 (void);
 extern void ExcludeFromCodeCoverageAttribute__ctor_m2CB8196E20519167E842D03BE4CFBCC84BEFC9E2 (void);
 extern void Oid__ctor_m4AF81B9D51BED48AE505251E0874EC654BA07B72 (void);
@@ -853,7 +855,7 @@ extern void WebRequestModuleElementCollection__ctor_m62C156D78336B2E37EA6F10D477
 extern void DiagnosticsConfigurationHandler__ctor_mDFB0000E6218840F66D21BB6C9BF3F647CCBC5A3 (void);
 extern void DiagnosticsConfigurationHandler_Create_mF21B1CC68B87DE078690B2B493FCDC5F728CBAAB (void);
 extern void ThrowStub_ThrowNotSupportedException_m14168B43936EF78B7B8AC08BD815254DAA1D9FA2 (void);
-static Il2CppMethodPointer s_methodPointers[1015] = 
+static Il2CppMethodPointer s_methodPointers[1017] = 
 {
 	OidLookup_ToOid_m084AE2948BA1D784EAC148B97B6D5EF94F0D58B0,
 	OidLookup_ShouldUseCache_mAF605BA00A22EA400B99D24286837F6904C84ED0,
@@ -1515,11 +1517,13 @@ static Il2CppMethodPointer s_methodPointers[1015] =
 	DefaultTraceListener_Write_m2C77CF6C1459080523FE7213B8854A9B7FFDCEF9,
 	DefaultTraceListener_WriteLine_m457B4152407B96D84AF638EF07A79550652FB049,
 	Stopwatch_GetTimestamp_mA3BDF219C573A34751D6A792E86C825B74D2CEB7,
+	Stopwatch_StartNew_mF813F15E68604C7734FECC301B7042A521041259,
 	Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A,
 	Stopwatch_get_Elapsed_mF16CCA2F9B7E2EAEFCAF8D81F44370DBAC1B2178,
 	Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF,
 	Stopwatch_get_ElapsedTicks_m3F4040FBF8C7CCDC69E0E04824019DEBB25AA410,
 	Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915,
+	Stopwatch_Restart_m9CE82CCD811EE12C2E4FDFF708B5529D1CE6DA58,
 	Stopwatch__cctor_mF9BBC572803E232BF2D323301E90A6AFDB496FB9,
 	ExcludeFromCodeCoverageAttribute__ctor_m2CB8196E20519167E842D03BE4CFBCC84BEFC9E2,
 	Oid__ctor_m4AF81B9D51BED48AE505251E0874EC654BA07B72,
@@ -1892,13 +1896,13 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] =
 	{ 0x06000227, RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6_AdjustorThunk },
 	{ 0x06000229, RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[1015] = 
+static const int32_t s_InvokerIndices[1017] = 
 {
 	20872,
 	26978,
 	20872,
-	29176,
-	29176,
+	29177,
+	29177,
 	16622,
 	10171,
 	10171,
@@ -1953,8 +1957,8 @@ static const int32_t s_InvokerIndices[1015] =
 	16389,
 	16197,
 	26981,
-	29089,
-	29176,
+	29090,
+	29177,
 	16326,
 	16389,
 	16197,
@@ -2021,7 +2025,7 @@ static const int32_t s_InvokerIndices[1015] =
 	10203,
 	4533,
 	12300,
-	29176,
+	29177,
 	16622,
 	16622,
 	16622,
@@ -2039,7 +2043,7 @@ static const int32_t s_InvokerIndices[1015] =
 	26993,
 	26993,
 	26993,
-	29176,
+	29177,
 	16389,
 	16326,
 	16389,
@@ -2048,7 +2052,7 @@ static const int32_t s_InvokerIndices[1015] =
 	2227,
 	8514,
 	29036,
-	29176,
+	29177,
 	16326,
 	8454,
 	8454,
@@ -2133,7 +2137,7 @@ static const int32_t s_InvokerIndices[1015] =
 	-1,
 	1861,
 	16197,
-	29176,
+	29177,
 	16622,
 	16197,
 	16326,
@@ -2173,7 +2177,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16622,
 	16622,
 	426,
-	29089,
+	29090,
 	840,
 	16389,
 	6698,
@@ -2185,7 +2189,7 @@ static const int32_t s_InvokerIndices[1015] =
 	9643,
 	9643,
 	12233,
-	29176,
+	29177,
 	16622,
 	266,
 	16389,
@@ -2207,9 +2211,9 @@ static const int32_t s_InvokerIndices[1015] =
 	18030,
 	4551,
 	1627,
-	29176,
+	29177,
 	27711,
-	29163,
+	29164,
 	16622,
 	12300,
 	5971,
@@ -2270,11 +2274,11 @@ static const int32_t s_InvokerIndices[1015] =
 	13023,
 	16622,
 	20869,
-	29176,
+	29177,
 	1917,
 	16622,
 	4424,
-	29176,
+	29177,
 	6118,
 	90,
 	26978,
@@ -2442,12 +2446,12 @@ static const int32_t s_InvokerIndices[1015] =
 	16596,
 	10543,
 	16326,
-	29176,
+	29177,
 	5955,
 	16197,
-	29119,
+	29120,
 	16389,
-	29176,
+	29177,
 	2599,
 	17334,
 	16389,
@@ -2496,16 +2500,16 @@ static const int32_t s_InvokerIndices[1015] =
 	5981,
 	27683,
 	24206,
-	29089,
+	29090,
 	29036,
 	29036,
-	29070,
-	29070,
+	29071,
+	29071,
 	27683,
 	24206,
 	27697,
-	29176,
-	29176,
+	29177,
+	29177,
 	12300,
 	16197,
 	16622,
@@ -2539,7 +2543,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16389,
 	16197,
 	5971,
-	29176,
+	29177,
 	23444,
 	16622,
 	16389,
@@ -2553,13 +2557,15 @@ static const int32_t s_InvokerIndices[1015] =
 	5981,
 	12300,
 	12300,
-	29071,
+	29072,
+	29090,
 	16622,
 	16571,
 	16327,
 	16327,
 	16622,
-	29176,
+	16622,
+	29177,
 	16622,
 	12300,
 	5981,
@@ -2596,7 +2602,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16389,
 	16389,
 	16389,
-	29176,
+	29177,
 	16622,
 	5955,
 	1714,
@@ -2653,7 +2659,7 @@ static const int32_t s_InvokerIndices[1015] =
 	12300,
 	8514,
 	16326,
-	29176,
+	29177,
 	16622,
 	12300,
 	2568,
@@ -2666,7 +2672,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16197,
 	8514,
 	16326,
-	29176,
+	29177,
 	16622,
 	16622,
 	16622,
@@ -2679,7 +2685,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16389,
 	8514,
 	16326,
-	29176,
+	29177,
 	12300,
 	16389,
 	8514,
@@ -2865,8 +2871,8 @@ static const int32_t s_InvokerIndices[1015] =
 	3670,
 	8514,
 	16326,
-	29089,
-	29176,
+	29090,
+	29177,
 	12234,
 	27332,
 	24480,
@@ -2908,7 +2914,7 @@ static const int32_t s_InvokerIndices[1015] =
 	16622,
 	16622,
 	2235,
-	29176,
+	29177,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[16] = 
 {
@@ -2927,7 +2933,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[16] =
 	{ 0x0200007D, { 154, 5 } },
 	{ 0x0200007E, { 159, 12 } },
 	{ 0x0200007F, { 171, 11 } },
-	{ 0x0600031B, { 6, 2 } },
+	{ 0x0600031D, { 6, 2 } },
 };
 extern const uint32_t g_rgctx_ICollection_1_tBBE79C4BDAC457BEA82DD2DF2F03F76C807048CE;
 extern const uint32_t g_rgctx_CollectionDebuggerProxy_1_tAA1CF20CFBA27C35FD3B876C1BD91C183D9F6B12;
@@ -3300,7 +3306,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_CodeGenModule;
 const Il2CppCodeGenModule g_System_CodeGenModule = 
 {
 	"System.dll",
-	1015,
+	1017,
 	s_methodPointers,
 	9,
 	s_adjustorThunks,

@@ -274,6 +274,8 @@ private void OnDisable()
          RedrawPoints();
          ClearStatus();
         // Количество обновится из ListenArmyChanges → SyncCountsFromDb/GetCountsAsync
+         // Форс‑синхронизация: сразу подтянем свежие значения с сервера (особенно полезно в Editor)
+         _ = SyncCountsFromDb();
         }
        catch (Exception e)
        {

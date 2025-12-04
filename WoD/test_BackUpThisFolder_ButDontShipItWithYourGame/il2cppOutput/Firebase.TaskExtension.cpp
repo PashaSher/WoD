@@ -309,7 +309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_1__ctor_mC273FC86
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79657
+// Method Definition Index: 79672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWithOnMainThread_m6BDD5EFACC9A21E8AA0A27D6C6BCCA15C000566C (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_task, Action_1_t5EBB3AEBB9FE27F01C5BD35C3A6AD36CB3AA357A* ___1_continuation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -352,7 +352,7 @@ IL_0028:
 		return L_8;
 	}
 }
-// Method Definition Index: 79658
+// Method Definition Index: 79673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* TaskExtension_ContinueWithOnMainThread_m093F341816E1C4F7A5D02D489EB7E6A4F0DA7C6B (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_task, Action_1_t5EBB3AEBB9FE27F01C5BD35C3A6AD36CB3AA357A* ___1_continuation, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___2_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -404,7 +404,7 @@ IL_0029:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79663
+// Method Definition Index: 79678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m67145261D040D8D18AD53C4C0EFEEFE357764B0D (U3CU3Ec__DisplayClass0_0_t5F382822D64CF7CC951C5E6071BAA3624BE89C9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -412,7 +412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m67145261
 		return;
 	}
 }
-// Method Definition Index: 79664
+// Method Definition Index: 79679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* U3CU3Ec__DisplayClass0_0_U3CContinueWithOnMainThreadU3Eb__0_m57C5BAF2301E78C6779DFAEEE2465E5D4B8036AE (U3CU3Ec__DisplayClass0_0_t5F382822D64CF7CC951C5E6071BAA3624BE89C9B* __this, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -464,7 +464,7 @@ IL_0029:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79665
+// Method Definition Index: 79680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_1__ctor_mD126323565E560E67C5AA420D0330A595E3251FD (U3CU3Ec__DisplayClass0_1_t155F3844B6D696CA1D7B64593780C0D7F96AE2DA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -472,7 +472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_1__ctor_mD1263235
 		return;
 	}
 }
-// Method Definition Index: 79666
+// Method Definition Index: 79681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass0_1_U3CContinueWithOnMainThreadU3Eb__1_m623E3350D3FEEF92F8BDE22C7F101F187F40CE99 (U3CU3Ec__DisplayClass0_1_t155F3844B6D696CA1D7B64593780C0D7F96AE2DA* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -501,7 +501,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79667
+// Method Definition Index: 79682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m6A6098F9A3F287392A9D611054EA5E5F6FCFD66D (U3CU3Ec__DisplayClass1_0_t0882492776F3253C07B95D5303766211406C3636* __this, const RuntimeMethod* method) 
 {
 	{
@@ -509,7 +509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m6A6098F9
 		return;
 	}
 }
-// Method Definition Index: 79668
+// Method Definition Index: 79683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* U3CU3Ec__DisplayClass1_0_U3CContinueWithOnMainThreadU3Eb__0_m85B61A9E727814F8F04C89D8E0B25173AFD9C2EC (U3CU3Ec__DisplayClass1_0_t0882492776F3253C07B95D5303766211406C3636* __this, Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -561,7 +561,7 @@ IL_0029:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79669
+// Method Definition Index: 79684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_1__ctor_mC273FC864CD8F1578F7DD67C658EC0FDFFF5B921 (U3CU3Ec__DisplayClass1_1_t68BF2E68E875F5440BD5A2262AA4181E7804AB92* __this, const RuntimeMethod* method) 
 {
 	{
@@ -569,7 +569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_1__ctor_mC273FC86
 		return;
 	}
 }
-// Method Definition Index: 79670
+// Method Definition Index: 79685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass1_1_U3CContinueWithOnMainThreadU3Eb__1_m26029F929FD4E444A5B34D4A61D14165455AEB76 (U3CU3Ec__DisplayClass1_1_t68BF2E68E875F5440BD5A2262AA4181E7804AB92* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;

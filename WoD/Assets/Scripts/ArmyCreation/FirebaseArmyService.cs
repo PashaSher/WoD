@@ -38,6 +38,10 @@ public class FirebaseArmyService : MonoBehaviour
     private DatabaseReference _enemyRef;
     private EventHandler<ValueChangedEventArgs> _enemyHandler;
 
+    // Connection diagnostics
+    private DatabaseReference _infoConnectedRef;
+    private EventHandler<ValueChangedEventArgs> _infoConnectedHandler;
+
     /// <summary> Добавить юнита: создаёт индексированное имя type_i </summary>
     public async Task<string> AddUnitAsync(UnitType type)
 {
@@ -46,12 +50,25 @@ public class FirebaseArmyService : MonoBehaviour
     // На всякий случай убеждаемся, что соединение не в оффлайне (актуально для Editor)
     try { FirebaseDatabase.DefaultInstance.GoOnline(); Debug.Log("[FAS] GoOnline()"); } catch (Exception ex) { Debug.LogWarning($"[FAS] GoOnline failed: {ex.Message}"); }
 
-    var snap = await FirebaseDatabase.DefaultInstance
-        .GetReference(ArmyPath).GetValueAsync();
-    Debug.Log($"[FAS] Current army exists={snap.Exists}, children={(snap.Exists ? (int)snap.ChildrenCount : 0)} at '{ArmyPath}'");
+    var sw = System.Diagnostics.Stopwatch.StartNew();
+
+    // 1) Читаем армию с таймаутом, чтобы видеть зависания в Editor
+    var getArmyTask = FirebaseDatabase.DefaultInstance.GetReference(ArmyPath).GetValueAsync();
+    var getArmyFinished = await System.Threading.Tasks.Task.WhenAny(getArmyTask, System.Threading.Tasks.Task.Delay(5000));
+    DataSnapshot snap = null;
+    if (getArmyFinished == getArmyTask)
+    {
+        snap = await getArmyTask;
+        Debug.Log($"[FAS] Current army exists={snap.Exists}, children={(snap.Exists ? (int)snap.ChildrenCount : 0)} at '{ArmyPath}' (dt={sw.ElapsedMilliseconds}ms)");
+    }
+    else
+    {
+        Debug.LogWarning($"[FAS] GetValueAsync('{ArmyPath}') timeout after {sw.ElapsedMilliseconds}ms — will proceed with index=0");
+        snap = null;
+    }
 
     int nextIndex = 0;
-    if (snap.Exists)
+    if (snap != null && snap.Exists)
     {
         foreach (var child in snap.Children)
         {
@@ -64,7 +81,20 @@ public class FirebaseArmyService : MonoBehaviour
         }
     }
 
-    string key = $"{type}_{nextIndex}";
+    // Если чтение армии не удалось (timeout), используем уникальный ключ, чтобы не затирать существующие записи.
+    // Иначе — привычный формат type_i.
+    string key;
+    if (snap == null)
+    {
+        var ts = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+        var rnd = new System.Random().Next(100, 999);
+        key = $"{type}_{ts}_{rnd}";
+        Debug.Log($"[FAS] Using unique fallback key '{key}' due to snapshot timeout");
+    }
+    else
+    {
+        key = $"{type}_{nextIndex}";
+    }
     var unit = new Dictionary<string, object>
     {
         { "type", type.ToString() },
@@ -73,16 +103,35 @@ public class FirebaseArmyService : MonoBehaviour
         { "host", ifHost }            // <-- НОВОЕ (владелец-сторона)
     };
 
-    await Root.Child(ArmyPath).Child(key).SetValueAsync(unit);
-    Debug.Log($"[FAS] SetValueAsync done for '{ArmyPath}/{key}'");
+    // 2) Пишем юнита с таймаутом и подробным временем
+    sw.Restart();
+    var setTask = Root.Child(ArmyPath).Child(key).SetValueAsync(unit);
+    var setFinished = await System.Threading.Tasks.Task.WhenAny(setTask, System.Threading.Tasks.Task.Delay(5000));
+    if (setFinished != setTask)
+    {
+        Debug.LogWarning($"[FAS] SetValueAsync('{ArmyPath}/{key}') timeout after 5000ms");
+        // дождёмся ошибки, чтобы всплыла в catch вызывающему коду
+        await setTask;
+    }
+    Debug.Log($"[FAS] SetValueAsync done for '{ArmyPath}/{key}' (dt={sw.ElapsedMilliseconds}ms)");
     await UpdateUpdatedAt();
     Debug.Log("[FAS] updatedAt pushed");
 
     // Подтвердим запись и выведем лог (для отладки проблем в Editor)
     try
     {
-        var confirm = await Root.Child(ArmyPath).Child(key).GetValueAsync();
-        Debug.Log($"[FAS] Confirm add '{key}': exists={confirm.Exists} path='/{ArmyPath}/{key}'");
+        sw.Restart();
+        var confirmTask = Root.Child(ArmyPath).Child(key).GetValueAsync();
+        var confirmFinished = await System.Threading.Tasks.Task.WhenAny(confirmTask, System.Threading.Tasks.Task.Delay(5000));
+        if (confirmFinished == confirmTask)
+        {
+            var confirm = await confirmTask;
+            Debug.Log($"[FAS] Confirm add '{key}': exists={confirm.Exists} path='/{ArmyPath}/{key}' (dt={sw.ElapsedMilliseconds}ms)");
+        }
+        else
+        {
+            Debug.LogWarning($"[FAS] Confirm add '{key}' timeout after 5000ms");
+        }
     }
     catch (Exception ex) { Debug.LogWarning($"[FAS] Confirm add failed: {ex.Message}"); }
     return key;
@@ -119,6 +168,20 @@ public class FirebaseArmyService : MonoBehaviour
         IfHost = Globalflags.ifHost;
 
         Debug.Log($"[FAS] Awake: sessionId='{sessionId}', IfHost={ifHost}");
+
+        // Диагностика соединения с RTDB
+        try
+        {
+            _infoConnectedRef = FirebaseDatabase.DefaultInstance.GetReference(".info/connected");
+            _infoConnectedHandler = (s, e) =>
+            {
+                bool connected = false;
+                try { connected = e.Snapshot != null && e.Snapshot.Value is bool b && b; } catch { connected = false; }
+                Debug.Log($"[FAS] .info/connected = {connected}");
+            };
+            _infoConnectedRef.ValueChanged += _infoConnectedHandler;
+        }
+        catch (Exception ex) { Debug.LogWarning($"[FAS] .info/connected subscribe failed: {ex.Message}"); }
         Debug.Log($"[FAS] ArmyPath={ArmyPath}");
         Debug.Log($"[FAS] OpponentArmyPath={OpponentArmyPath}");
     }
@@ -196,7 +259,16 @@ public class FirebaseArmyService : MonoBehaviour
             // можно оставить лог для дебага
             var exists = e.Snapshot != null && e.Snapshot.Exists;
             int children = exists ? (int)e.Snapshot.ChildrenCount : 0;
-            Debug.Log($"[FAS] Army ValueChanged at '{ArmyPath}': exists={exists}, children={children}");
+            // выведем список ключей для наглядности
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            if (exists)
+            {
+                foreach (var ch in e.Snapshot.Children)
+                {
+                    try { sb.Append(ch.Key).Append(' '); } catch { }
+                }
+            }
+            Debug.Log($"[FAS] Army ValueChanged at '{ArmyPath}': exists={exists}, children={children}, keys=[{sb}]");
             onChanged?.Invoke();
         };
         _armyRef.ValueChanged += _armyHandler;
@@ -216,6 +288,12 @@ public class FirebaseArmyService : MonoBehaviour
             Debug.Log("[FAS] StopArmyChanges()");
             _armyHandler = null;
             _armyRef = null;
+        }
+        if (_infoConnectedRef != null && _infoConnectedHandler != null)
+        {
+            _infoConnectedRef.ValueChanged -= _infoConnectedHandler;
+            _infoConnectedHandler = null;
+            _infoConnectedRef = null;
         }
     }
 
