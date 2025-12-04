@@ -17,11 +17,18 @@ public class LoginController : MonoBehaviour
     [SerializeField] private TMP_InputField emailInput;
     [SerializeField] private TMP_InputField passwordInput;
     [SerializeField] private Button loginButton;
+	[SerializeField] private Button googleButton; // Assign in Inspector for "Continue with Google"
     [SerializeField] private TMP_Text statusText;
 
     [Header("Config")]
     [SerializeField] private string nextSceneName = "MainMenu";
     [SerializeField] private bool sendVerifyEmailIfNeeded = true;
+	// If you use the Google Sign-In Unity plugin, set your Web Client ID here (from Firebase console).
+	[SerializeField] private string googleWebClientId = "";
+	// Choose which Google flow to use (requires corresponding plugin in project and scripting define symbols):
+	// - USE_GOOGLE_PLAY_GAMES for Google Play Games plugin
+	// - USE_GOOGLE_SIGNIN for Google Sign-In plugin
+	[SerializeField] private bool preferPlayGamesOnAndroid = true;
 
     private FirebaseAuth auth;
     private DatabaseReference db;
@@ -52,9 +59,19 @@ public class LoginController : MonoBehaviour
                 loginButton.onClick.RemoveListener(OnLoginButton);
                 loginButton.onClick.AddListener(OnLoginButton);
             }
+			if (googleButton != null)
+			{
+				googleButton.onClick.RemoveListener(OnGoogleLoginButton);
+				googleButton.onClick.AddListener(OnGoogleLoginButton);
+			}
 
             SetStatus("Ready.");
-            SetInteractable(true);
+
+			// Auto-skip to main menu if already authenticated and eligible
+			if (await TryAutoEnterAsync())
+				return;
+
+			SetInteractable(true);
         }
         catch (Exception e)
         {
@@ -66,6 +83,8 @@ public class LoginController : MonoBehaviour
     {
         if (loginButton != null)
             loginButton.onClick.RemoveListener(OnLoginButton);
+		if (googleButton != null)
+			googleButton.onClick.RemoveListener(OnGoogleLoginButton);
     }
 
     // Public method for OnClick() in Inspector
@@ -74,6 +93,13 @@ public class LoginController : MonoBehaviour
         Debug.Log("[Login] Button clicked");
         _ = OnLoginClicked(); // fire-and-forget
     }
+
+	// Public method for Google button in Inspector
+	public void OnGoogleLoginButton()
+	{
+		Debug.Log("[Login] Google button clicked");
+		_ = SignInWithGoogleAsync(); // fire-and-forget
+	}
 
     // ---------- LOGIN FLOW ----------
     private async Task OnLoginClicked()
@@ -195,6 +221,7 @@ public class LoginController : MonoBehaviour
     private void SetInteractable(bool on)
     {
         if (loginButton   != null) loginButton.interactable   = on;
+		if (googleButton  != null) googleButton.interactable  = on;
         if (emailInput    != null) emailInput.interactable    = on;
         if (passwordInput != null) passwordInput.interactable = on;
     }
@@ -221,4 +248,156 @@ public class LoginController : MonoBehaviour
         }
         return generic;
     }
+
+	// ---------- AUTO-ENTER ----------
+	private async Task<bool> TryAutoEnterAsync()
+	{
+		try
+		{
+			var user = auth?.CurrentUser;
+			if (user == null) return false;
+
+			await user.ReloadAsync();
+
+			bool emailVerified = false;
+			try { emailVerified = user.IsEmailVerified; } catch { emailVerified = false; }
+
+			bool viaGoogle = false;
+			try
+			{
+				// Check if any linked provider is Google
+				foreach (var info in user.ProviderData)
+				{
+					if (info != null && string.Equals(info.ProviderId, "google.com", StringComparison.OrdinalIgnoreCase))
+					{
+						viaGoogle = true;
+						break;
+					}
+				}
+			}
+			catch { viaGoogle = false; }
+
+			// Allow enter if email verified or Google-linked
+			if (emailVerified || viaGoogle)
+			{
+				SetStatus("Already signed in. Loading MainMenu...");
+				SceneManager.LoadScene(nextSceneName);
+				return true;
+			}
+		}
+		catch (Exception ex)
+		{
+			Debug.LogWarning("[Login] Auto-enter check failed: " + ex.Message);
+		}
+		return false;
+	}
+
+	// ---------- GOOGLE SIGN-IN ----------
+	private async Task SignInWithGoogleAsync()
+	{
+		SetInteractable(false);
+		SetStatus("Starting Google sign-in...");
+
+		if (auth == null || db == null)
+		{
+			Fail("Firebase not initialized.");
+			return;
+		}
+
+		try
+		{
+			string idToken = null;
+			string accessToken = null;
+
+#if (UNITY_ANDROID || UNITY_IOS) && USE_GOOGLE_PLAY_GAMES
+			// Flow via Google Play Games plugin (requires scripting define: USE_GOOGLE_PLAY_GAMES)
+			if (preferPlayGamesOnAndroid)
+			{
+				SetStatus("Signing in via Google Play Games...");
+				{
+					// Local scopes under the directive to avoid missing usings when the plugin is absent
+					GooglePlayGames.BasicApi.PlayGamesClientConfiguration config =
+						new GooglePlayGames.BasicApi.PlayGamesClientConfiguration.Builder()
+							.RequestIdToken()
+							.Build();
+
+					GooglePlayGames.PlayGamesPlatform.InitializeInstance(config);
+					GooglePlayGames.PlayGamesPlatform.Activate();
+				}
+
+				var tcs = new TaskCompletionSource<bool>();
+				Social.localUser.Authenticate(success => tcs.TrySetResult(success));
+				bool ok = await tcs.Task;
+				if (!ok) throw new Exception("Play Games authentication failed.");
+
+				idToken = GooglePlayGames.PlayGamesPlatform.Instance.GetIdToken();
+				if (string.IsNullOrEmpty(idToken))
+					throw new Exception("Play Games returned empty ID token.");
+			}
+			else
+#endif
+#if (UNITY_ANDROID || UNITY_IOS) && USE_GOOGLE_SIGNIN
+			// Flow via Google Sign-In Unity plugin (requires scripting define: USE_GOOGLE_SIGNIN)
+			{
+				SetStatus("Signing in via Google Sign-In...");
+				Google.GoogleSignIn.Configuration = new Google.GoogleSignInConfiguration
+				{
+					WebClientId   = googleWebClientId,
+					RequestIdToken = true,
+					RequestEmail   = true
+				};
+				Google.GoogleSignIn signIn = Google.GoogleSignIn.DefaultInstance;
+				Google.GoogleSignInUser result = await signIn.SignIn();
+				idToken = result.IdToken;
+				accessToken = result.AuthCode; // not required for Firebase
+				if (string.IsNullOrEmpty(idToken))
+					throw new Exception("Google Sign-In returned empty ID token.");
+			}
+#else
+			{
+				throw new NotSupportedException("Google Sign-In not available on this build. Add plugin and define symbols.");
+			}
+#endif
+
+			// Exchange token with Firebase
+			var credential = GoogleAuthProvider.GetCredential(idToken, accessToken);
+			var user = await auth.SignInWithCredentialAsync(credential);
+			if (user == null) throw new Exception("Firebase returned null user.");
+
+			// Update RTDB profile
+			try
+			{
+				string uid = user.UserId;
+				var updates = new Dictionary<string, object>
+				{
+					[$"users/{uid}/emailVerified"] = true,
+					[$"users/{uid}/email"]         = user.Email ?? "",
+					[$"users/{uid}/nickname"]      = user.DisplayName ?? (user.Email ?? "Player"),
+					[$"users/{uid}/lastLoginAt"]   = ServerValue.Timestamp
+				};
+
+				// If no createdAt yet — set it once
+				var snap = await FirebaseDatabase.DefaultInstance
+					.GetReference($"users/{user.UserId}")
+					.GetValueAsync();
+				if (!snap.Exists || !snap.Child("createdAt").Exists)
+				{
+					updates[$"users/{uid}/createdAt"] = ServerValue.Timestamp;
+				}
+
+				await db.UpdateChildrenAsync(updates);
+			}
+			catch (Exception dbEx)
+			{
+				Debug.LogWarning("[Login] RTDB update after Google sign-in failed: " + dbEx.Message);
+			}
+
+			SetStatus("Google sign-in success. Loading MainMenu...");
+			SceneManager.LoadScene(nextSceneName);
+		}
+		catch (Exception ex)
+		{
+			Fail("Google sign-in failed: " + ex.Message);
+		}
+	}
 }
