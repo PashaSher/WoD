@@ -41,10 +41,14 @@ public class FirebaseArmyService : MonoBehaviour
     /// <summary> Добавить юнита: создаёт индексированное имя type_i </summary>
     public async Task<string> AddUnitAsync(UnitType type)
 {
-    Debug.Log($"[FAS] AddUnit to '{ArmyPath}' type={type}");
+    Debug.Log($"[FAS] AddUnit to '{ArmyPath}' type={type} (sid='{sessionId}', ifHost={ifHost})");
+
+    // На всякий случай убеждаемся, что соединение не в оффлайне (актуально для Editor)
+    try { FirebaseDatabase.DefaultInstance.GoOnline(); Debug.Log("[FAS] GoOnline()"); } catch (Exception ex) { Debug.LogWarning($"[FAS] GoOnline failed: {ex.Message}"); }
 
     var snap = await FirebaseDatabase.DefaultInstance
         .GetReference(ArmyPath).GetValueAsync();
+    Debug.Log($"[FAS] Current army exists={snap.Exists}, children={(snap.Exists ? (int)snap.ChildrenCount : 0)} at '{ArmyPath}'");
 
     int nextIndex = 0;
     if (snap.Exists)
@@ -70,7 +74,17 @@ public class FirebaseArmyService : MonoBehaviour
     };
 
     await Root.Child(ArmyPath).Child(key).SetValueAsync(unit);
+    Debug.Log($"[FAS] SetValueAsync done for '{ArmyPath}/{key}'");
     await UpdateUpdatedAt();
+    Debug.Log("[FAS] updatedAt pushed");
+
+    // Подтвердим запись и выведем лог (для отладки проблем в Editor)
+    try
+    {
+        var confirm = await Root.Child(ArmyPath).Child(key).GetValueAsync();
+        Debug.Log($"[FAS] Confirm add '{key}': exists={confirm.Exists} path='/{ArmyPath}/{key}'");
+    }
+    catch (Exception ex) { Debug.LogWarning($"[FAS] Confirm add failed: {ex.Message}"); }
     return key;
 }
 
@@ -150,7 +164,9 @@ public class FirebaseArmyService : MonoBehaviour
         foreach (UnitType t in Enum.GetValues(typeof(UnitType)))
             result[t] = 0;
 
+        Debug.Log($"[FAS] GetCountsAsync from '{ArmyPath}'");
         var snap = await Root.Child(ArmyPath).GetValueAsync();
+        Debug.Log($"[FAS] GetCountsAsync snap.Exists={snap.Exists}, children={(snap.Exists ? (int)snap.ChildrenCount : 0)}");
         if (!snap.Exists) return result;
 
         foreach (var child in snap.Children)
@@ -162,6 +178,9 @@ public class FirebaseArmyService : MonoBehaviour
                     result[t]++;
             }
         }
+        Debug.Log($"[FAS] GetCountsAsync result: " +
+            $"Rifleman={result[UnitType.Rifleman]}, Grenader={result[UnitType.Grenader]}, " +
+            $"Sniper={result[UnitType.Sniper]}, Tank={result[UnitType.Tank]}");
         return result;
     }
 
@@ -175,7 +194,9 @@ public class FirebaseArmyService : MonoBehaviour
         _armyHandler = (s, e) =>
         {
             // можно оставить лог для дебага
-            Debug.Log($"[FAS] Army ValueChanged exists={e.Snapshot != null && e.Snapshot.Exists}");
+            var exists = e.Snapshot != null && e.Snapshot.Exists;
+            int children = exists ? (int)e.Snapshot.ChildrenCount : 0;
+            Debug.Log($"[FAS] Army ValueChanged at '{ArmyPath}': exists={exists}, children={children}");
             onChanged?.Invoke();
         };
         _armyRef.ValueChanged += _armyHandler;
@@ -192,6 +213,7 @@ public class FirebaseArmyService : MonoBehaviour
         if (_armyRef != null && _armyHandler != null)
         {
             _armyRef.ValueChanged -= _armyHandler;
+            Debug.Log("[FAS] StopArmyChanges()");
             _armyHandler = null;
             _armyRef = null;
         }

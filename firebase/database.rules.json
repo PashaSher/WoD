@@ -1,6 +1,43 @@
 {
   "rules": {
-    ".read": "now < 1758772800000",  // 2025-9-25
-    ".write": "now < 1758772800000",  // 2025-9-25
+    // Allow only authenticated clients
+    ".read": "auth != null",
+    ".write": "auth != null",
+
+    // Sessions: readable/writable by any authenticated client (game logic controls who writes)
+    "sessions": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      // Index for queries OrderByChild('sessionOpen').EqualTo(true)
+      ".indexOn": ["sessionOpen"],
+      "$sessionId": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        // Atomic join: allow setting clientUid only if not set yet AND sessionOpen == true
+        "clientUid": {
+          ".write": "auth != null && data.val() == null && root.child('sessions').child($sessionId).child('sessionOpen').val() == true",
+          ".validate": "newData.val() == auth.uid"
+        },
+        // sessionOpen can be toggled by host (create) and closed during join via multi-path update
+        "sessionOpen": {
+          ".write": "auth != null",
+          ".validate": "newData.isBoolean()"
+        },
+        "hostUid": {
+          ".write": "auth != null",
+          ".validate": "newData.isString()"
+        },
+        "updatedAt": { ".write": "auth != null" },
+        "createdAt": { ".write": "auth != null" }
+      }
+    },
+
+    // Users: everyone can read nicknames; each user can write only to their own node
+    "users": {
+      "$uid": {
+        ".read": "auth != null",                         // nicknames and stats are public to authed users
+        ".write": "auth != null && auth.uid == $uid"     // only owner can modify their data
+      }
+    }
   }
 }

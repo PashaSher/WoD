@@ -191,7 +191,9 @@ private void OnDisable()
 
     private async System.Threading.Tasks.Task SyncCountsFromDb()
     {
+        Debug.Log("[ASC] SyncCountsFromDb() start");
         var fresh = await firebase.GetCountsAsync();
+        Debug.Log($"[ASC] SyncCountsFromDb() got: R={fresh[UnitType.Rifleman]} G={fresh[UnitType.Grenader]} S={fresh[UnitType.Sniper]} T={fresh[UnitType.Tank]}");
         foreach (var kv in fresh) _counts[kv.Key] = kv.Value;
         RedrawAllTiles();
     }
@@ -257,30 +259,33 @@ private void OnDisable()
          return;
        }
 
-       var tile = GetTile(type);
-       _plusPending.Add(type);
-       if (tile != null) tile.SetPlusInteractable(false);
+      var tile = GetTile(type);
+      _plusPending.Add(type);
+      if (tile != null) tile.SetPlusInteractable(false);
+      Debug.Log($"[ASC] OnPlus({type}) pointsBefore={_points}");
 
       try
        {
          await firebase.AddUnitAsync(type);
+         Debug.Log($"[ASC] AddUnitAsync({type}) OK");
 
          // НЕ трогаем _counts[type] и не SetCount()
          _points -= price;           // локально меняем только очки
          RedrawPoints();
          ClearStatus();
-         // Количество обновится из ListenArmyChanges → SyncCountsFromDb/GetCountsAsync
+        // Количество обновится из ListenArmyChanges → SyncCountsFromDb/GetCountsAsync
         }
        catch (Exception e)
        {
           Debug.LogWarning($"Add {type} failed: {e.Message}");
+          if (statusText != null) statusText.text = $"Add {type} failed, waiting for server…";
        }
-       finally
-       {
-           _plusPending.Remove(type);
-           if (tile != null) tile.SetPlusInteractable(true);
-       }
-    }
+      finally
+      {
+          _plusPending.Remove(type);
+          if (tile != null) tile.SetPlusInteractable(true);
+      }
+   }
 
     public async void OnMinus(UnitType type)
     {

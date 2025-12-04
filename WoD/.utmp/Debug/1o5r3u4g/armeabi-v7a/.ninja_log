@@ -1,12 +1,12 @@
 # ninja log v5
-47	175	7858959822406699	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e1f5be7ab7ba8c77
-177	313	7858959823635762	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libswappywrapper.so	75ef11e862294769
-0	934	7858959829949965	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	79d1520793bac572
-22	941	7858959829949965	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c324ec38d70f9b7
-28	950	7858959830111315	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	38d083840c9f94a
-11	965	7858959830252361	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	498faeb94facf6e8
-35	974	7858959830358036	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	4e30afa15dbd3977
-41	1029	7858959830887237	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5f208a1edbcc963
-16	1059	7858959831193802	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8e4e4658649c4775
-6	1079	7858959831387809	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	4ec8c8d7e98bd7c
-1080	1159	7858959832173437	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libgame.so	609f4b001cde6c46
+45	169	7865045859808819	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	a83f22d90f38b1ea
+171	363	7865045861483141	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libswappywrapper.so	af46454724fc65ad
+12	927	7865045867327477	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9a59f7c959bb873d
+23	941	7865045867468567	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7890baeaa6c4858d
+18	944	7865045867513877	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	1546f846fa7b1e6f
+1	955	7865045867625756	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7b0177087ede31a7
+34	977	7865045867837756	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2c84ce9f9b831b63
+39	1020	7865045868281179	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b124932d3ab1ac4d
+28	1079	7865045868844842	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ff255ffda4ef178c
+7	1083	7865045868884973	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1ea22dff98e30fd5
+1083	1186	7865045869934471	C:/projects/WoD/WoD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/1o5r3u4g/obj/armeabi-v7a/libgame.so	d9065561fe4e584f

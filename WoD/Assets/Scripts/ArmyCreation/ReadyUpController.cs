@@ -61,8 +61,8 @@ public class ReadyUpController : MonoBehaviour
     private float countdown;
     private bool timerActive;
 
-    // enemy nick world label
-    private TextMeshPro enemyNickLabel3D;
+    // enemy nick UI label
+    private TextMeshProUGUI enemyNickLabelUI;
 
     private void Awake()
     {
@@ -70,8 +70,8 @@ public class ReadyUpController : MonoBehaviour
         if (waitPanel) waitPanel.SetActive(false);
         if (statusText) statusText.text = "";
 
-        if (hideEnemyArmyOnStart) TryHideEnemyArmy();
         BuildTimerOverlay();
+        if (hideEnemyArmyOnStart) TryHideEnemyArmy();
         countdown = Mathf.Max(1f, readyTimeoutSeconds);
         timerActive = true;
         UpdateTimerLabel();
@@ -124,6 +124,17 @@ public class ReadyUpController : MonoBehaviour
         {
             myArmyRef.ValueChanged += OnMyArmyChanged;
         }
+
+        // 5) На всякий случай повторно спрячем армию врага на следующем кадре (если спавнится поздно)
+        StartCoroutine(DelayedHideEnemyArmy());
+    }
+
+    private System.Collections.IEnumerator DelayedHideEnemyArmy()
+    {
+        yield return null;
+        TryHideEnemyArmy();
+        yield return null;
+        TryHideEnemyArmy();
     }
 
     private void Update()
@@ -188,26 +199,38 @@ public class ReadyUpController : MonoBehaviour
         try
         {
             if (!showEnemyNickInsteadOfArmy) return;
-            if (enemyNickLabel3D != null) return;
-            var go = new GameObject("EnemyNickLabel");
-            go.transform.position = worldPos + enemyNickWorldOffset;
-            enemyNickLabel3D = go.AddComponent<TextMeshPro>();
-            if (enemyNickFont != null) enemyNickLabel3D.font = enemyNickFont;
-            enemyNickLabel3D.fontSize = Mathf.Max(10, enemyNickFontSize);
-            enemyNickLabel3D.color = enemyNickColor;
-            enemyNickLabel3D.alignment = TextAlignmentOptions.Center;
-            enemyNickLabel3D.text = string.IsNullOrWhiteSpace(enemyNick) ? "opponent" : enemyNick;
+            if (enemyNickLabelUI != null) return;
+            if (timerCanvas == null) BuildTimerOverlay();
 
-            var mr = go.GetComponent<MeshRenderer>();
-            if (mr != null) { mr.sortingOrder = 200; }
+            var go = new GameObject("EnemyNickLabelUI");
+            go.transform.SetParent(timerCanvas.transform, false);
+            enemyNickLabelUI = go.AddComponent<TextMeshProUGUI>();
+            if (enemyNickFont != null) enemyNickLabelUI.font = enemyNickFont;
+            enemyNickLabelUI.fontSize = Mathf.Max(10, enemyNickFontSize);
+            enemyNickLabelUI.color = enemyNickColor;
+            enemyNickLabelUI.alignment = TextAlignmentOptions.Center;
+            enemyNickLabelUI.raycastTarget = false;
+            enemyNickLabelUI.text = string.IsNullOrWhiteSpace(enemyNick) ? "opponent" : enemyNick;
+
+            // position based on world position projected to screen
+            var cam = Camera.main;
+            Vector3 screen = cam ? cam.WorldToScreenPoint(worldPos + enemyNickWorldOffset) : new Vector3(Screen.width * 0.85f, Screen.height * 0.5f, 0);
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                timerCanvas.transform as RectTransform,
+                new Vector2(screen.x, screen.y),
+                null,
+                out var local);
+            var rt = (RectTransform)enemyNickLabelUI.transform;
+            rt.sizeDelta = new Vector2(400, 80);
+            rt.anchoredPosition = local;
         }
         catch { /* best-effort */ }
     }
 
     private void UpdateEnemyNickLabel()
     {
-        if (enemyNickLabel3D != null)
-            enemyNickLabel3D.text = string.IsNullOrWhiteSpace(enemyNick) ? "opponent" : enemyNick;
+        if (enemyNickLabelUI != null)
+            enemyNickLabelUI.text = string.IsNullOrWhiteSpace(enemyNick) ? "opponent" : enemyNick;
     }
 
     private void BuildTimerOverlay()
@@ -253,31 +276,33 @@ public class ReadyUpController : MonoBehaviour
     {
         try
         {
-            if (enemyArmyRoot != null)
-            {
-                Vector3 pos = enemyArmyRoot.transform.position;
-                enemyArmyRoot.SetActive(false);
-                CreateEnemyNickLabelAt(pos);
-                return;
-            }
-            var go1 = GameObject.Find("AnemyArmy");
-            if (go1 != null)
-            {
-                Vector3 pos = go1.transform.position;
-                go1.SetActive(false);
-                CreateEnemyNickLabelAt(pos);
-                return;
-            }
-            var go2 = GameObject.Find("EnemyArmy");
-            if (go2 != null)
-            {
-                Vector3 pos = go2.transform.position;
-                go2.SetActive(false);
-                CreateEnemyNickLabelAt(pos);
-                return;
-            }
+            if (enemyArmyRoot != null) { ConvertEnemyArmyToNick(enemyArmyRoot); return; }
+            var go1 = GameObject.Find("AnemyArmy"); if (go1 != null) { ConvertEnemyArmyToNick(go1); return; }
+            var go2 = GameObject.Find("EnemyArmy"); if (go2 != null) { ConvertEnemyArmyToNick(go2); return; }
         }
         catch { /* ignore */ }
+    }
+
+    // Делает так, чтобы объект врага показывал только никнейм (а не саму армию)
+    private void ConvertEnemyArmyToNick(GameObject root)
+    {
+        if (root == null) return;
+        // Запоминаем позицию для подписи, затем полностью скрываем объект и его потомков
+        Vector3 pos = root.transform.position;
+        try
+        {
+            var rends = root.GetComponentsInChildren<Renderer>(true);
+            for (int i = 0; i < rends.Length; i++) { try { rends[i].enabled = false; } catch { } }
+            var cols2d = root.GetComponentsInChildren<Collider2D>(true);
+            for (int i = 0; i < cols2d.Length; i++) { try { cols2d[i].enabled = false; } catch { } }
+            var cols3d = root.GetComponentsInChildren<Collider>(true);
+            for (int i = 0; i < cols3d.Length; i++) { try { cols3d[i].enabled = false; } catch { } }
+        }
+        catch { /* ignore */ }
+        // Полностью выключим, если что-то осталось видимым
+        try { root.SetActive(false); } catch { }
+
+        CreateEnemyNickLabelAt(pos);
     }
 
     // Загружает enemyUid и enemyNick (users/.../nickname, fallback: sessions/.../nickname)

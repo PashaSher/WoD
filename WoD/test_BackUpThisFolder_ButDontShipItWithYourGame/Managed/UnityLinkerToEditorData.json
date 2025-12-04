@@ -1021,7 +1021,7 @@
           {
             "name": "Collider",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
             "icon": null
           },
           {

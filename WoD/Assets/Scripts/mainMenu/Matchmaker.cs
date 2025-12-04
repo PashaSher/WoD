@@ -21,6 +21,10 @@ public class Matchmaker : MonoBehaviour
     [SerializeField] private string nextSceneName = "ArmyCreationScene";
     [SerializeField] private int joinRetryCount = 8;     // попытки забрать открытую сессию
     [SerializeField] private float joinRetryDelay = 0.3f; // задержка между попытками (сек)
+    [SerializeField] private bool allowJoinOwnSessionInEditor = true; // для локального теста с одним аккаунтом в Editor
+    [Tooltip("If set, forces FirebaseApp.Options.DatabaseUrl to this value on startup (e.g. https://yourdb.firebasedatabase.app)")]
+    [SerializeField] private string databaseUrlOverride = "";
+    [SerializeField] private bool logProjectInfo = true;
 
     private FirebaseAuth auth;
     private DatabaseReference db;
@@ -41,7 +45,34 @@ public class Matchmaker : MonoBehaviour
         {
             await FirebaseBootstrapper.EnsureInitializedAsync();
             auth = FirebaseAuth.DefaultInstance;
+
+            // Optionally pin Database URL to avoid platform-specific defaults (firebaseio.com vs firebasedatabase.app)
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(databaseUrlOverride))
+                {
+                    var app = Firebase.FirebaseApp.DefaultInstance;
+                    if (app != null)
+                    {
+                        app.Options.DatabaseUrl = new System.Uri(databaseUrlOverride.Trim());
+                    }
+                }
+            }
+            catch (Exception ex) { Debug.LogWarning($"[Matchmaker] DatabaseUrl override failed: {ex.Message}"); }
+
             db = FirebaseDatabase.DefaultInstance.RootReference;
+
+            if (logProjectInfo)
+            {
+                try
+                {
+                    var app = Firebase.FirebaseApp.DefaultInstance;
+                    var opts = app?.Options;
+                    Debug.Log($"[Matchmaker] AppId={opts?.AppId}, ProjectId={opts?.ProjectId}, DBUrl={opts?.DatabaseUrl}");
+                    Debug.Log($"[Matchmaker] Auth UID={auth?.CurrentUser?.UserId}, Email={auth?.CurrentUser?.Email}");
+                }
+                catch (Exception ex) { Debug.LogWarning($"[Matchmaker] logProjectInfo failed: {ex.Message}"); }
+            }
 
             if (auth.CurrentUser == null)
                 throw new Exception("Not signed in. Go through login first.");
@@ -164,8 +195,19 @@ public class Matchmaker : MonoBehaviour
 
             if (!snap.Exists)
             {
-                Debug.Log($"{TAG} No open sessions.");
-                return false;
+                Debug.Log($"{TAG} No open sessions via EqualTo(true). Fallback to recent scan…");
+
+                // Fallback: read last N sessions without EqualTo (workaround for platform boolean quirks)
+                var fb = await FirebaseDatabase.DefaultInstance
+                    .GetReference(sessionsRoot)
+                    .LimitToLast(50)
+                    .GetValueAsync();
+                if (!fb.Exists)
+                {
+                    Debug.Log($"{TAG} Fallback found nothing either.");
+                    return false;
+                }
+                snap = fb; // continue with fallback snapshot
             }
 
             // Пройдёмся по всем узлам и выведем их поля
@@ -185,6 +227,15 @@ public class Matchmaker : MonoBehaviour
             foreach (var child in snap.Children)
             {
                 string id = child.Key;
+                // учитываем только реально открытые
+                bool openFlag = false;
+                try { openFlag = child.Child("sessionOpen").Value is bool b && b; } catch { openFlag = false; }
+                if (!openFlag)
+                {
+                    Debug.Log($"{TAG} skip {id}: sessionOpen != true");
+                    continue;
+                }
+
                 string host = child.Child("hostUid").Value?.ToString() ?? "";
                 if (string.IsNullOrEmpty(id))
                 {
@@ -196,7 +247,12 @@ public class Matchmaker : MonoBehaviour
                     Debug.Log($"{TAG} skip {id}: host is empty");
                     continue;
                 }
-                if (host == myUid)
+                // В обычной игре нельзя подключаться к своей сессии.
+                // Но при локальном тестировании (один аккаунт на телефоне и в Editor)
+                // разрешим это в Editor, чтобы устройство смогло присоединиться.
+                bool joiningOwn = host == myUid;
+                bool skipOwn = joiningOwn && !(Application.isEditor && allowJoinOwnSessionInEditor);
+                if (skipOwn)
                 {
                     Debug.Log($"{TAG} skip {id}: my own session (host==me)");
                     continue;
@@ -218,44 +274,35 @@ public class Matchmaker : MonoBehaviour
                 Debug.Log($"{TAG} try join session={sessionId} (host={hostUid}) ...");
                 var sessionRef = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");
 
-                var txnSnap = await sessionRef.RunTransaction(mutable =>
+                // Попробуем атомарный join через multi-path update (проверяется правилами RTDB)
+                // Правила: clientUid можно писать только если data.clientUid == null && sessionOpen == true
+                var updates = new Dictionary<string, object>
                 {
-                    // ВНИМАНИЕ: это выполняется на ворк-потоке, но Debug.Log допустим
-                    var dict = mutable.Value as Dictionary<string, object> ?? new Dictionary<string, object>();
+                    ["clientUid"]  = myUid,
+                    ["sessionOpen"] = false,
+                    ["updatedAt"]   = ServerValue.Timestamp
+                };
 
-                    bool open = dict.TryGetValue("sessionOpen", out var o) && o is bool b && b;
-                    string host = dict.TryGetValue("hostUid", out var h) ? (h?.ToString() ?? "") : "";
-                    string client = dict.TryGetValue("clientUid", out var c) ? (c?.ToString() ?? "") : "";
+                try
+                {
+                    await sessionRef.UpdateChildrenAsync(updates);
+                }
+                catch (Exception ex)
+                {
+                    Debug.Log($"{TAG} join update failed for {sessionId}: {ex.Message}");
+                }
 
-                    Debug.Log($"{TAG} TXN(before) id={sessionId} open={open} host={host} client={client}");
-
-                    // нельзя подключаться к себе, к закрытой или уже с клиентом
-                    if (!open || !string.IsNullOrEmpty(client) || string.IsNullOrEmpty(host) || host == myUid)
-                    {
-                        Debug.Log($"{TAG} TXN(abort) id={sessionId} reason=" +
-                                  $"open={open}, client='{client}', host='{host}', myUid='{myUid}'");
-                        return TransactionResult.Abort();
-                    }
-
-                    dict["clientUid"] = myUid;                // <-- ставим себя
-                    dict["sessionOpen"] = false;                // <-- закрываем
-                    dict["updatedAt"] = ServerValue.Timestamp;
-
-                    mutable.Value = dict;
-                    Debug.Log($"{TAG} TXN(commit) id={sessionId} set clientUid={myUid}, sessionOpen=false");
-                    return TransactionResult.Success(mutable);
-                });
-
-                // Что получилось после транзакции
-                string afterClient = txnSnap.Child("clientUid").Value?.ToString();
-                object afterOpenV = txnSnap.Child("sessionOpen").Value;
+                // Проверим результат
+                var afterSnap = await sessionRef.GetValueAsync();
+                string afterClient = afterSnap.Child("clientUid").Value?.ToString();
+                object afterOpenV = afterSnap.Child("sessionOpen").Value;
                 bool afterOpen = (afterOpenV is bool bo) && bo;
 
-                Debug.Log($"{TAG} txn result id={sessionId}: clientUid={Val(afterClient)}, sessionOpen={Val(afterOpenV)}");
+                Debug.Log($"{TAG} join result id={sessionId}: clientUid={Val(afterClient)}, sessionOpen={Val(afterOpenV)}");
 
                 bool success =
-                    txnSnap != null &&
-                    txnSnap.Exists &&
+                    afterSnap != null &&
+                    afterSnap.Exists &&
                     afterClient == myUid &&
                     afterOpen == false;
 
