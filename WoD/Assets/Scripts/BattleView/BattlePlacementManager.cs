@@ -49,8 +49,38 @@ public class BattlePlacementManager : MonoBehaviour
 	{
 		cam = Camera.main;
 		ComputeBounds();
-		TryCreateUiIfMissing();
-		ShowPrompt();
+		// Принудительный режим ручной расстановки: без выбора
+		try
+		{
+			if (canvas) Destroy(canvas.gameObject);
+		}
+		catch { }
+		// Дождёмся появления юнитов в сцене (спавнер асинхронный), затем начнём расстановку
+		StartCoroutine(WaitAndBeginPlacement());
+	}
+
+	private IEnumerator WaitAndBeginPlacement()
+	{
+		// Ждём, пока в сцене появятся Мои юниты (host/client)
+		bool iAmHost = Globalflags.ifHost;
+		for (;;)
+		{
+#if UNITY_2022_2_OR_NEWER
+			var all = UnityEngine.Object.FindObjectsByType<Unit>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+#else
+			var all = UnityEngine.Object.FindObjectsOfType<Unit>(true);
+#endif
+			int ownCount = 0;
+			for (int i = 0; i < all.Length; i++)
+			{
+				var u = all[i];
+				if (!u) continue;
+				if (u.host == iAmHost) ownCount++;
+			}
+			if (ownCount > 0) break;
+			yield return null; // ждём следующий кадр
+		}
+		BeginPlacement();
 	}
 
 	private void ComputeBounds()

@@ -71,7 +71,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
     }
 
     private void OnMovingValueChanged(object sender, ValueChangedEventArgs e)
-    {
+      {
         hasMovingCache = true;
         movingCache = ParseBool(e.Snapshot?.Value);
         // If someone else set moving=true while we are drawing a line, cancel local drag UI.
