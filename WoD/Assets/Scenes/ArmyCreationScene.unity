@@ -964,9 +964,21 @@ MonoBehaviour:
     sprite: {fileID: 5807664816570927321, guid: fd977de79192cff4aadc31b4afa240cb, type: 3}
   - type: 4
     sprite: {fileID: 8195469170884960449, guid: 21c59394e98c6824ea58efe625e2440e, type: 3}
-  - type: 5
-    sprite: {fileID: -5356574185940491189, guid: 3e5db0ea5e010444387d8804a64a2baf, type: 3}
   previewStats: []
+  autoCreateMissingTiles: 1
+  typeToggles:
+  - Type: 4
+    Enabled: 1
+  - Type: 5
+    Enabled: 0
+  - Type: 6
+    Enabled: 0
+  - Type: 7
+    Enabled: 0
+  - Type: 8
+    Enabled: 0
+  - Type: 9
+    Enabled: 0
   enemyPickedText: {fileID: 326664272}
 --- !u!1 &278328839
 GameObject:

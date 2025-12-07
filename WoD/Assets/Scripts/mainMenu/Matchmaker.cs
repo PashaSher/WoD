@@ -361,7 +361,7 @@ public class Matchmaker : MonoBehaviour
             FirebaseSessionManager.Instance?.Configure(sessionId, /*isHost:*/ true);
 
             // UI wait
-            SetWaiting(true, "Wait for joiners…");
+            SetWaiting(true, "Wait for game…");
 
             // Listen: when sessionOpen becomes false and clientUid present → go next
             var refToListen = FirebaseDatabase.DefaultInstance.GetReference($"{sessionsRoot}/{sessionId}");

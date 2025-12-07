@@ -35,12 +35,26 @@ public class ArmyShopController : MonoBehaviour
     [Tooltip("Alternative source for previews: UnitStats (uses UnitStats.sprite only for shop).")]
     [SerializeField] private UnitStats[] previewStats;
 
+		[Header("Tiles auto-create")]
+		[Tooltip("If OFF, extra tiles (for types beyond the 4 manual ones) will NOT be auto-created even if Tile Prefab is set.")]
+		[SerializeField] private bool autoCreateMissingTiles = true;
+
+		[Header("Per-type toggles")]
+		[Tooltip("Optional. If empty, all types are considered enabled. If filled, only types with Enabled=true are shown/auto-created.")]
+		[SerializeField] private TypeToggle[] typeToggles;
+
     [System.Serializable]
     public struct PreviewSpriteEntry
     {
         public UnitType type;
         public Sprite sprite;
     }
+		[System.Serializable]
+		public struct TypeToggle
+		{
+			public UnitType Type;
+			public bool Enabled;
+		}
 
     [Header("Enemy summary (live)")]
     [SerializeField] private TextMeshProUGUI enemyPickedText;
@@ -73,10 +87,26 @@ public class ArmyShopController : MonoBehaviour
                 if (s != null) _previewByType[s.unitType] = s;
         }
 
-        if (riflemanTile) { riflemanTile.Init(this, UnitType.Rifleman); ApplyPreview(riflemanTile, UnitType.Rifleman); }
-        if (grenaderTile) { grenaderTile.Init(this, UnitType.Grenader); ApplyPreview(grenaderTile, UnitType.Grenader); }
-        if (sniperTile)   { sniperTile.Init(this, UnitType.Sniper);     ApplyPreview(sniperTile,   UnitType.Sniper); }
-        if (tankTile)     { tankTile.Init(this, UnitType.Tank);         ApplyPreview(tankTile,     UnitType.Tank); }
+		if (riflemanTile)
+		{
+			if (IsTypeEnabled(UnitType.Rifleman)) { riflemanTile.Init(this, UnitType.Rifleman); ApplyPreview(riflemanTile, UnitType.Rifleman); }
+			else try { riflemanTile.gameObject.SetActive(false); } catch { }
+		}
+		if (grenaderTile)
+		{
+			if (IsTypeEnabled(UnitType.Grenader)) { grenaderTile.Init(this, UnitType.Grenader); ApplyPreview(grenaderTile, UnitType.Grenader); }
+			else try { grenaderTile.gameObject.SetActive(false); } catch { }
+		}
+		if (sniperTile)
+		{
+			if (IsTypeEnabled(UnitType.Sniper)) { sniperTile.Init(this, UnitType.Sniper); ApplyPreview(sniperTile, UnitType.Sniper); }
+			else try { sniperTile.gameObject.SetActive(false); } catch { }
+		}
+		if (tankTile)
+		{
+			if (IsTypeEnabled(UnitType.Tank)) { tankTile.Init(this, UnitType.Tank); ApplyPreview(tankTile, UnitType.Tank); }
+			else try { tankTile.gameObject.SetActive(false); } catch { }
+		}
 
         // Авто‑добавление недостающих плиток (не трогаем существующие)
         TryCreateMissingTiles();
@@ -86,7 +116,9 @@ public class ArmyShopController : MonoBehaviour
 
     private void TryCreateMissingTiles()
     {
-        if (tilePrefab == null) return; // без префаба не создаём
+			// глобальный выключатель автосоздания
+			if (!autoCreateMissingTiles) return;
+			if (tilePrefab == null) return; // без префаба не создаём
 
         // Собираем набор уже существующих типов (по четырём полям)
         var existing = new HashSet<UnitType>();
@@ -103,6 +135,7 @@ public class ArmyShopController : MonoBehaviour
 
         foreach (UnitType t in Enum.GetValues(typeof(UnitType)))
         {
+			if (!IsTypeEnabled(t)) continue; // выключенные типы не создаём
             if (existing.Contains(t)) continue; // уже есть вручную
             var tile = Instantiate(tilePrefab, parent);
             tile.gameObject.name = $"Tile_{t}";
@@ -110,6 +143,15 @@ public class ArmyShopController : MonoBehaviour
             ApplyPreview(tile, t);
         }
     }
+
+	private bool IsTypeEnabled(UnitType t)
+	{
+		if (typeToggles == null || typeToggles.Length == 0) return true; // по умолчанию включено всё
+		for (int i = 0; i < typeToggles.Length; i++)
+			if (typeToggles[i].Type == t) return typeToggles[i].Enabled;
+		// если тип отсутствует в списке — считаем включённым для обратной совместимости
+		return true;
+	}
 
     private void ApplyPreview(UnitTile tile, UnitType type)
     {
