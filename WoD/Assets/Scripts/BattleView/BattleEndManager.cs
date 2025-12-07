@@ -18,7 +18,9 @@ public class BattleEndManager : MonoBehaviour
 	[Header("UI")]
 	[SerializeField] private GameObject resultPanel;     // Panel to show/hide
 	[SerializeField] private TMP_Text   resultText;      // "Ты победил" / "Ты проиграл"
+	[SerializeField] private TMP_FontAsset resultFont;  // Custom font for result text
 	[SerializeField] private Button     toMenuButton;    // Button to go to main menu
+	[SerializeField] private TMP_FontAsset buttonFont;  // Custom font for Exit button label
 
 	[Header("Config")] 
 	[SerializeField] private float checkIntervalSeconds = 0.25f;
@@ -39,6 +41,17 @@ public class BattleEndManager : MonoBehaviour
 		{
 			toMenuButton.onClick.RemoveAllListeners();
 			toMenuButton.onClick.AddListener(OnGoToMenuClicked);
+			// Set button label to 'Exit' with custom font if provided
+			try
+			{
+				var label = toMenuButton.GetComponentInChildren<TextMeshProUGUI>(true);
+				if (label != null)
+				{
+					label.text = "Exit";
+					if (buttonFont != null) label.font = buttonFont;
+				}
+			}
+			catch { /* best-effort */ }
 		}
 	}
 
@@ -49,7 +62,7 @@ public class BattleEndManager : MonoBehaviour
 	{
 		if (finished) return;
 		finished = true;
-		ShowResult(localWins ? "Ты победил" : "Ты проиграл");
+		ShowResult(localWins ? "You Win" : "You Lose");
 		_ = TryUpdateWins(localWins);
 	}
 
@@ -105,7 +118,7 @@ public class BattleEndManager : MonoBehaviour
 		if (hostAlive == 0 && clientAlive == 0)
 		{
 			localWins = false;
-			ShowResult("Ты проиграл");
+			ShowResult("You Lose");
 			finished = true;
 			return;
 		}
@@ -113,14 +126,34 @@ public class BattleEndManager : MonoBehaviour
 		// One side has 0
 		bool hostWins = (hostAlive > 0 && clientAlive == 0);
 		localWins = iAmHost ? hostWins : !hostWins;
-		ShowResult(localWins ? "Ты победил" : "Ты проиграл");
+		ShowResult(localWins ? "You Win" : "You Lose");
 		_ = TryUpdateWins(localWins);
 		finished = true;
 	}
 
 	private void ShowResult(string text)
 	{
-		if (resultText) resultText.text = text;
+		if (resultText)
+		{
+			resultText.text = text;
+			// Цвет по стороне: HOST -> чёрный, CLIENT -> синий
+			resultText.color = Globalflags.ifHost ? Color.black : Color.blue;
+			if (resultFont != null) resultText.font = resultFont;
+		}
+		// Ensure 'Exit' label and custom font on the button
+		if (toMenuButton != null)
+		{
+			try
+			{
+				var label = toMenuButton.GetComponentInChildren<TextMeshProUGUI>(true);
+				if (label != null)
+				{
+					label.text = "Exit";
+					if (buttonFont != null) label.font = buttonFont;
+				}
+			}
+			catch { /* best-effort */ }
+		}
 		if (resultPanel) resultPanel.SetActive(true);
 	}
 
