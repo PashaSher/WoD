@@ -249,8 +249,14 @@ public class BattlePlacementManager : MonoBehaviour
 			helperText.font = uiFont != null ? uiFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 			// Цвет по стороне: HOST -> чёрный, CLIENT -> синий
 			helperText.color = Globalflags.ifHost ? Color.black : Color.blue;
-			// Увеличиваем на 50% (было 28)
+			// Базовый крупный размер
 			helperText.fontSize = 70;
+			// Включаем авто-уменьшение, чтобы всегда влезало
+			helperText.resizeTextForBestFit = true;
+			helperText.resizeTextMinSize = 16;
+			helperText.resizeTextMaxSize = 70;
+			helperText.horizontalOverflow = HorizontalWrapMode.Overflow;
+			helperText.verticalOverflow = VerticalWrapMode.Truncate;
 			var rt = (RectTransform)tgo.transform;
 			rt.anchorMin = new Vector2(0.15f, 0.02f);
 			rt.anchorMax = new Vector2(0.85f, 0.12f);
@@ -270,8 +276,8 @@ public class BattlePlacementManager : MonoBehaviour
 		}
 		var u = myUnits[placeIndex];
 		string name = string.IsNullOrEmpty(u.unitType) ? "Unit" : u.unitType;
-		// Показываем только имя юнита, без индекса/ключа
-		helperText.text = $"Click on your half to place: {name}";
+		// Показываем только имя юнита, без индекса/ключа и без префикса
+		helperText.text = name;
 	}
 
 	private void Update()

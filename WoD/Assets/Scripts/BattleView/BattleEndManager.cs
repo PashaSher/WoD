@@ -49,11 +49,6 @@ public class BattleEndManager : MonoBehaviour
 	{
 		if (finished) return;
 		finished = true;
-		if (isDraw)
-		{
-			ShowResult("Ничья");
-			return;
-		}
 		ShowResult(localWins ? "Ты победил" : "Ты проиграл");
 		_ = TryUpdateWins(localWins);
 	}
@@ -106,12 +101,11 @@ public class BattleEndManager : MonoBehaviour
 
 		bool iAmHost = Globalflags.ifHost;
 		bool localWins;
-		bool isDraw = (hostAlive == 0 && clientAlive == 0);
-
-		if (isDraw)
+		// Если обе стороны мертвы — считаем поражением локально (ничью не показываем)
+		if (hostAlive == 0 && clientAlive == 0)
 		{
-			localWins = false; // draw — не плюсуем победу никому
-			ShowResult("Ничья");
+			localWins = false;
+			ShowResult("Ты проиграл");
 			finished = true;
 			return;
 		}

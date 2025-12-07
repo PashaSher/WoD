@@ -538,7 +538,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralDDE8F1D9DADAC56162009F6D5A5D0C8803C8D6E0;
 IL2CPP_EXTERN_C String_t* _stringLiteralE164BC10732F757516E4F741B8A2DABCB61FDD81;
 IL2CPP_EXTERN_C String_t* _stringLiteralE1C3EDA88D4F2EFD3BF9A9ED0DA4F3BE85B9BE9E;
-IL2CPP_EXTERN_C String_t* _stringLiteralE2D4A456C4CDF273C92A0630E6EA8C8A5A601A1B;
 IL2CPP_EXTERN_C String_t* _stringLiteralE69F63C40B53D350457DE8B31F4C60F762D000ED;
 IL2CPP_EXTERN_C String_t* _stringLiteralE705C6345C26AF82E64D22DBE44B2A3514F2F06F;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7345370683046F67F37A18A719CF891ED2498CB;
@@ -546,7 +545,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE8925BA592515970B231EA4EF37F53C755019857
 IL2CPP_EXTERN_C String_t* _stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC;
 IL2CPP_EXTERN_C String_t* _stringLiteralED53B36C9BB00EDAA149E7232725A1C120573441;
 IL2CPP_EXTERN_C String_t* _stringLiteralEDB67A26848CD5E8DE37B04C43CCB3209923E898;
-IL2CPP_EXTERN_C String_t* _stringLiteralEEBEB4395B804B5DBEE0E0556E07CAE304B5A917;
 IL2CPP_EXTERN_C String_t* _stringLiteralF2E968E16304C2CB5FDD3278EA1074DF098CB7C2;
 IL2CPP_EXTERN_C String_t* _stringLiteralF33C364980BDDBEDE9A385065912A606CA7960C3;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
@@ -1846,6 +1844,10 @@ struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1
 {
 	int32_t ___value__;
 };
+struct HorizontalWrapMode_tFBCA6173D94996068BC1CFFCB88108F1BAD39688 
+{
+	int32_t ___value__;
+};
 struct InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 
 {
 	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField;
@@ -2087,6 +2089,10 @@ struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8
 	int32_t ___value__;
 };
 struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct VerticalWrapMode_t16A70E87910F9A8784E74B8F3E0DCEFA3F98DEB3 
 {
 	int32_t ___value__;
 };
@@ -4919,6 +4925,11 @@ inline int32_t List_1_get_Count_m124DD70AF8D41A0266C29E8F486E8973B142C5E4_inline
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_resizeTextForBestFit_m1376BB9FDBAC5571E0F24564E22391AC8EB89A35 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_resizeTextMinSize_m1DC5160514ED872A8C572024A94D7EA9D6357655 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_resizeTextMaxSize_m25EB2C9302AA9354237A2F56BB3E019192C6015B (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_horizontalOverflow_m10AAFBA65FD7F4B1934B5D628B3E70D75D02FFD6 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_verticalOverflow_m72A544DEAE0EBFCCBDE8174DF4C10C903DA8444F (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_UpdateHelperText_m32AEA478E5649870E0BD976AA3F60B87BF21D155 (BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* __this, const RuntimeMethod* method) ;
 inline Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* List_1_get_Item_m77D35315A4CF3129B19ADABD2F36602443BB8593 (List_1_tC861EE71B27D4135EB3A181D6DFD72879B5394A0* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
@@ -5987,15 +5998,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_FinishByTimeoutHp_mA737
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral507715DDDE3E64D2DCBE9DAAAD09403AA0472108);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEEBEB4395B804B5DBEE0E0556E07CAE304B5A917);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	bool V_1 = false;
-	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B6_0 = NULL;
-	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B5_0 = NULL;
-	String_t* G_B7_0 = NULL;
-	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B7_1 = NULL;
+	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B4_0 = NULL;
+	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B3_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B5_1 = NULL;
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:50>
 		bool L_0 = __this->___finished;
@@ -6008,7 +6017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_FinishByTimeoutHp_mA737
 	}
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:50>
-		goto IL_0046;
+		goto IL_0032;
 	}
 
 IL_000d:
@@ -6016,57 +6025,39 @@ IL_000d:
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:51>
 		__this->___finished = (bool)1;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:52>
-		bool L_2 = ___1_isDraw;
-		V_1 = L_2;
-		bool L_3 = V_1;
-		if (!L_3)
+		bool L_2 = ___0_localWins;
+		if (L_2)
 		{
-			goto IL_0028;
+			G_B4_0 = __this;
+			goto IL_001f;
 		}
+		G_B3_0 = __this;
 	}
+	{
+		G_B5_0 = _stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4;
+		G_B5_1 = G_B3_0;
+		goto IL_0024;
+	}
+
+IL_001f:
+	{
+		G_B5_0 = _stringLiteral507715DDDE3E64D2DCBE9DAAAD09403AA0472108;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_0024:
+	{
+		NullCheck(G_B5_1);
+		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(G_B5_1, G_B5_0, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:53>
+		bool L_3 = ___0_localWins;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4;
+		L_4 = BattleEndManager_TryUpdateWins_m63FE24C60CF96F888E3E3026A2168639EAAFBE4E(__this, L_3, NULL);
+	}
+
+IL_0032:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:54>
-		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(__this, _stringLiteralEEBEB4395B804B5DBEE0E0556E07CAE304B5A917, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:55>
-		goto IL_0046;
-	}
-
-IL_0028:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:57>
-		bool L_4 = ___0_localWins;
-		if (L_4)
-		{
-			G_B6_0 = __this;
-			goto IL_0033;
-		}
-		G_B5_0 = __this;
-	}
-	{
-		G_B7_0 = _stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4;
-		G_B7_1 = G_B5_0;
-		goto IL_0038;
-	}
-
-IL_0033:
-	{
-		G_B7_0 = _stringLiteral507715DDDE3E64D2DCBE9DAAAD09403AA0472108;
-		G_B7_1 = G_B6_0;
-	}
-
-IL_0038:
-	{
-		NullCheck(G_B7_1);
-		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(G_B7_1, G_B7_0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:58>
-		bool L_5 = ___0_localWins;
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_6;
-		L_6 = BattleEndManager_TryUpdateWins_m63FE24C60CF96F888E3E3026A2168639EAAFBE4E(__this, L_5, NULL);
-	}
-
-IL_0046:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:59>
 		return;
 	}
 }
@@ -6076,7 +6067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_Update_mBBB2752D3B04C6E
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:63>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:58>
 		bool L_0 = __this->___finished;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -6086,13 +6077,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_Update_mBBB2752D3B04C6E
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:63>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:58>
 		goto IL_0039;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:64>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:59>
 		float L_2;
 		L_2 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_3 = __this->___nextCheckTime;
@@ -6104,24 +6095,24 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:64>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:59>
 		goto IL_0039;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:65>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:60>
 		float L_5;
 		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_6 = __this->___checkIntervalSeconds;
 		__this->___nextCheckTime = ((float)il2cpp_codegen_add(L_5, L_6));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:67>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:62>
 		BattleEndManager_EvaluateBattleState_mB6FA2CEB0F469438F03E0012CBE1D0FFB277007A(__this, NULL);
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:68>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:63>
 		return;
 	}
 }
@@ -6136,7 +6127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_EvaluateBattleState_mB6
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral507715DDDE3E64D2DCBE9DAAAD09403AA0472108);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEEBEB4395B804B5DBEE0E0556E07CAE304B5A917);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -6145,12 +6135,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_EvaluateBattleState_mB6
 	bool V_3 = false;
 	bool V_4 = false;
 	bool V_5 = false;
-	bool V_6 = false;
-	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_7 = NULL;
-	int32_t V_8 = 0;
-	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_9 = NULL;
-	bool V_10 = false;
-	int32_t V_11 = 0;
+	UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* V_6 = NULL;
+	int32_t V_7 = 0;
+	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_8 = NULL;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
 	bool V_12 = false;
 	bool V_13 = false;
 	bool V_14 = false;
@@ -6159,7 +6149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_EvaluateBattleState_mB6
 	bool V_17 = false;
 	bool V_18 = false;
 	bool V_19 = false;
-	bool V_20 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
 	int32_t G_B29_0 = 0;
 	int32_t G_B31_0 = 0;
@@ -6173,49 +6162,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_EvaluateBattleState_mB6
 	String_t* G_B58_0 = NULL;
 	BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* G_B58_1 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:73>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:68>
 		V_0 = 0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:74>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:69>
 		V_1 = 0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:75>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:70>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_0;
 		L_0 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
 		V_2 = L_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:76>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:71>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_1 = V_2;
-		V_7 = L_1;
-		V_8 = 0;
+		V_6 = L_1;
+		V_7 = 0;
 		goto IL_00a3;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:76>
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_2 = V_7;
-		int32_t L_3 = V_8;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:71>
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_2 = V_6;
+		int32_t L_3 = V_7;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		V_9 = L_5;
+		V_8 = L_5;
 	}
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:80>
-			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_6 = V_9;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:75>
+			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_6 = V_8;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_7;
 			L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-			V_12 = L_7;
-			bool L_8 = V_12;
+			V_11 = L_7;
+			bool L_8 = V_11;
 			if (!L_8)
 			{
 				goto IL_0032_1;
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:80>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:75>
 			goto IL_009d;
 		}
 
@@ -6224,11 +6213,11 @@ IL_0032_1:
 		}
 		try
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:83>
-			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = V_9;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:78>
+			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = V_8;
 			NullCheck(L_9);
 			bool L_10 = L_9->___isPassive;
-			V_10 = L_10;
+			V_9 = L_10;
 			goto IL_0048_1;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -6244,26 +6233,26 @@ IL_0032_1:
 CATCH_0040_1:
 		{
 			RuntimeObject* L_11 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:83>
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:83>
-			V_10 = (bool)0;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:78>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:78>
+			V_9 = (bool)0;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0048_1;
 		}
 
 IL_0048_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:84>
-			bool L_12 = V_10;
-			V_13 = L_12;
-			bool L_13 = V_13;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:79>
+			bool L_12 = V_9;
+			V_12 = L_12;
+			bool L_13 = V_12;
 			if (!L_13)
 			{
 				goto IL_0052_1;
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:84>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:79>
 			goto IL_009d;
 		}
 
@@ -6272,11 +6261,11 @@ IL_0052_1:
 		}
 		try
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
-			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_14 = V_9;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:82>
+			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_14 = V_8;
 			NullCheck(L_14);
 			int32_t L_15 = L_14->___health;
-			V_11 = L_15;
+			V_10 = L_15;
 			goto IL_0064_1;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -6292,18 +6281,18 @@ IL_0052_1:
 CATCH_0060_1:
 		{
 			RuntimeObject* L_16 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:82>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:82>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_009d;
 		}
 
 IL_0064_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:88>
-			int32_t L_17 = V_11;
-			V_14 = (bool)((((int32_t)L_17) > ((int32_t)0))? 1 : 0);
-			bool L_18 = V_14;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:83>
+			int32_t L_17 = V_10;
+			V_13 = (bool)((((int32_t)L_17) > ((int32_t)0))? 1 : 0);
+			bool L_18 = V_13;
 			if (!L_18)
 			{
 				goto IL_0094_1;
@@ -6313,11 +6302,11 @@ IL_0064_1:
 		}
 		try
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:91>
-			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_19 = V_9;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:86>
+			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_19 = V_8;
 			NullCheck(L_19);
 			bool L_20 = L_19->___host;
-			V_15 = L_20;
+			V_14 = L_20;
 			goto IL_0081_1;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -6333,25 +6322,25 @@ IL_0064_1:
 CATCH_007d_1:
 		{
 			RuntimeObject* L_21 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:91>
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:91>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:86>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:86>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_009d;
 		}
 
 IL_0081_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:92>
-			bool L_22 = V_15;
-			V_16 = L_22;
-			bool L_23 = V_16;
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
+			bool L_22 = V_14;
+			V_15 = L_22;
+			bool L_23 = V_15;
 			if (!L_23)
 			{
 				goto IL_008f_1;
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:92>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
 			int32_t L_24 = V_0;
 			V_0 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 			goto IL_0093_1;
@@ -6359,7 +6348,7 @@ IL_0081_1:
 
 IL_008f_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:92>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:87>
 			int32_t L_25 = V_1;
 			V_1 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 		}
@@ -6386,7 +6375,7 @@ IL_0094_1:
 CATCH_0097:
 	{
 		RuntimeObject* L_26 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:95>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:90>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_009c;
 	}
@@ -6397,15 +6386,15 @@ IL_009c:
 
 IL_009d:
 	{
-		int32_t L_27 = V_8;
-		V_8 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		int32_t L_27 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00a3:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:76>
-		int32_t L_28 = V_8;
-		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_29 = V_7;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:71>
+		int32_t L_28 = V_7;
+		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_29 = V_6;
 		NullCheck(L_29);
 		if ((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length)))))
 		{
@@ -6413,7 +6402,7 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:99>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:94>
 		bool L_30 = __this->___hadAnyUnits;
 		if (L_30)
 		{
@@ -6451,21 +6440,21 @@ IL_00c3:
 
 IL_00c4:
 	{
-		V_17 = (bool)G_B31_0;
-		bool L_33 = V_17;
+		V_16 = (bool)G_B31_0;
+		bool L_33 = V_16;
 		if (!L_33)
 		{
 			goto IL_00d1;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:99>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:94>
 		__this->___hadAnyUnits = (bool)1;
 	}
 
 IL_00d1:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:102>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:97>
 		int32_t L_34 = V_0;
 		if ((((int32_t)L_34) <= ((int32_t)0)))
 		{
@@ -6485,21 +6474,21 @@ IL_00db:
 
 IL_00dc:
 	{
-		V_18 = (bool)G_B36_0;
-		bool L_36 = V_18;
+		V_17 = (bool)G_B36_0;
+		bool L_36 = V_17;
 		if (!L_36)
 		{
 			goto IL_00e7;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:102>
-		goto IL_0176;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:97>
+		goto IL_0172;
 	}
 
 IL_00e7:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:105>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:100>
 		bool L_37 = __this->___hadAnyUnits;
 		if (L_37)
 		{
@@ -6526,24 +6515,24 @@ IL_00f8:
 
 IL_00f9:
 	{
-		V_19 = (bool)G_B42_0;
-		bool L_40 = V_19;
+		V_18 = (bool)G_B42_0;
+		bool L_40 = V_18;
 		if (!L_40)
 		{
 			goto IL_0101;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:105>
-		goto IL_0176;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:100>
+		goto IL_0172;
 	}
 
 IL_0101:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:107>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:102>
 		bool L_41 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
 		V_3 = L_41;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:109>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:105>
 		int32_t L_42 = V_0;
 		if (L_42)
 		{
@@ -6563,108 +6552,105 @@ IL_0110:
 
 IL_0111:
 	{
-		V_5 = (bool)G_B47_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:111>
-		bool L_44 = V_5;
-		V_20 = L_44;
-		bool L_45 = V_20;
-		if (!L_45)
+		V_19 = (bool)G_B47_0;
+		bool L_44 = V_19;
+		if (!L_44)
 		{
-			goto IL_0134;
+			goto IL_0130;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:113>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:107>
 		V_4 = (bool)0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:114>
-		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(__this, _stringLiteralEEBEB4395B804B5DBEE0E0556E07CAE304B5A917, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:115>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:108>
+		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(__this, _stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:109>
 		__this->___finished = (bool)1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:116>
-		goto IL_0176;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:110>
+		goto IL_0172;
 	}
 
-IL_0134:
+IL_0130:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:120>
-		int32_t L_46 = V_0;
-		if ((((int32_t)L_46) <= ((int32_t)0)))
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:114>
+		int32_t L_45 = V_0;
+		if ((((int32_t)L_45) <= ((int32_t)0)))
 		{
-			goto IL_013e;
+			goto IL_013a;
 		}
 	}
 	{
-		int32_t L_47 = V_1;
-		G_B52_0 = ((((int32_t)L_47) == ((int32_t)0))? 1 : 0);
-		goto IL_013f;
+		int32_t L_46 = V_1;
+		G_B52_0 = ((((int32_t)L_46) == ((int32_t)0))? 1 : 0);
+		goto IL_013b;
 	}
 
-IL_013e:
+IL_013a:
 	{
 		G_B52_0 = 0;
 	}
 
-IL_013f:
+IL_013b:
 	{
-		V_6 = (bool)G_B52_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:121>
-		bool L_48 = V_3;
-		if (L_48)
+		V_5 = (bool)G_B52_0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:115>
+		bool L_47 = V_3;
+		if (L_47)
 		{
-			goto IL_014b;
+			goto IL_0147;
 		}
 	}
 	{
-		bool L_49 = V_6;
-		G_B55_0 = ((((int32_t)L_49) == ((int32_t)0))? 1 : 0);
-		goto IL_014d;
+		bool L_48 = V_5;
+		G_B55_0 = ((((int32_t)L_48) == ((int32_t)0))? 1 : 0);
+		goto IL_0149;
 	}
 
-IL_014b:
+IL_0147:
 	{
-		bool L_50 = V_6;
-		G_B55_0 = ((int32_t)(L_50));
+		bool L_49 = V_5;
+		G_B55_0 = ((int32_t)(L_49));
 	}
 
-IL_014d:
+IL_0149:
 	{
 		V_4 = (bool)G_B55_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:122>
-		bool L_51 = V_4;
-		if (L_51)
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:116>
+		bool L_50 = V_4;
+		if (L_50)
 		{
 			G_B57_0 = __this;
-			goto IL_015b;
+			goto IL_0157;
 		}
 		G_B56_0 = __this;
 	}
 	{
 		G_B58_0 = _stringLiteral755E65E315D4F8973BAE339E533FAFC8C028A8C4;
 		G_B58_1 = G_B56_0;
-		goto IL_0160;
+		goto IL_015c;
 	}
 
-IL_015b:
+IL_0157:
 	{
 		G_B58_0 = _stringLiteral507715DDDE3E64D2DCBE9DAAAD09403AA0472108;
 		G_B58_1 = G_B57_0;
 	}
 
-IL_0160:
+IL_015c:
 	{
 		NullCheck(G_B58_1);
 		BattleEndManager_ShowResult_m4AC760F8F84C438AE84CC7833D67F74B54497EF1(G_B58_1, G_B58_0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:123>
-		bool L_52 = V_4;
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_53;
-		L_53 = BattleEndManager_TryUpdateWins_m63FE24C60CF96F888E3E3026A2168639EAAFBE4E(__this, L_52, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:124>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:117>
+		bool L_51 = V_4;
+		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_52;
+		L_52 = BattleEndManager_TryUpdateWins_m63FE24C60CF96F888E3E3026A2168639EAAFBE4E(__this, L_51, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:118>
 		__this->___finished = (bool)1;
 	}
 
-IL_0176:
+IL_0172:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:125>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:119>
 		return;
 	}
 }
@@ -6680,7 +6666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_ShowResult_m4AC760F8F84
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:129>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:123>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___resultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6693,7 +6679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_ShowResult_m4AC760F8F84
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:129>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:123>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___resultText;
 		String_t* L_4 = ___0_text;
 		NullCheck(L_3);
@@ -6702,7 +6688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_ShowResult_m4AC760F8F84
 
 IL_001d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:130>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:124>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___resultPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -6715,7 +6701,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:130>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:124>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___resultPanel;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)1, NULL);
@@ -6723,7 +6709,7 @@ IL_001d:
 
 IL_0039:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:131>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:125>
 		return;
 	}
 }
@@ -6792,7 +6778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_OnGoToMenuClicked_mCE17
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:167>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:161>
 		FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA* L_0;
 		L_0 = FirebaseSessionManager_get_Instance_m7FB3E6B1F914D5750ADA15927A76F2AAB246D3EA_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6806,7 +6792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_OnGoToMenuClicked_mCE17
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:169>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:163>
 		FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA* L_3;
 		L_3 = FirebaseSessionManager_get_Instance_m7FB3E6B1F914D5750ADA15927A76F2AAB246D3EA_inline(NULL);
 		NullCheck(L_3);
@@ -6817,14 +6803,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattleEndManager_OnGoToMenuClicked_mCE17
 
 IL_001f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:174>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:168>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:176>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:170>
 		return;
 	}
 }
@@ -6898,13 +6884,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransactionResult_t01EA0C6D6583ED0738526D8E4F
 	int32_t G_B9_0 = 0;
 	int32_t G_B14_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:146>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:140>
 		V_0 = ((int64_t)0);
 	}
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:149>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:143>
 			MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C* L_0 = ___0_mutable;
 			NullCheck(L_0);
 			RuntimeObject* L_1;
@@ -6938,7 +6924,7 @@ IL_001f_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:149>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:143>
 			int64_t L_5 = V_1;
 			V_0 = L_5;
 			goto IL_0074_1;
@@ -6946,7 +6932,7 @@ IL_001f_1:
 
 IL_0027_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:150>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:144>
 			MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C* L_6 = ___0_mutable;
 			NullCheck(L_6);
 			RuntimeObject* L_7;
@@ -6980,7 +6966,7 @@ IL_0042_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:150>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:144>
 			int32_t L_11 = V_4;
 			V_0 = ((int64_t)L_11);
 			goto IL_0074_1;
@@ -6988,7 +6974,7 @@ IL_0042_1:
 
 IL_004e_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:151>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:145>
 			MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C* L_12 = ___0_mutable;
 			NullCheck(L_12);
 			RuntimeObject* L_13;
@@ -7023,7 +7009,7 @@ IL_006b_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:151>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:145>
 			int64_t L_18 = V_7;
 			V_0 = L_18;
 		}
@@ -7046,8 +7032,8 @@ IL_0074_1:
 CATCH_0077:
 	{
 		RuntimeObject* L_19 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:153>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:153>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:147>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:147>
 		V_0 = ((int64_t)0);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_007f;
@@ -7055,14 +7041,14 @@ CATCH_0077:
 
 IL_007f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:154>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:148>
 		MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C* L_20 = ___0_mutable;
 		int64_t L_21 = V_0;
 		int64_t L_22 = ((int64_t)il2cpp_codegen_add(L_21, ((int64_t)1)));
 		RuntimeObject* L_23 = Box(il2cpp_defaults.int64_class, &L_22);
 		NullCheck(L_20);
 		MutableData_set_Value_mDFBA34BBCA2C509788FA062D31F3E4A252AA2529(L_20, L_23, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:155>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:149>
 		MutableData_tC0DF39CE3BDF5A4B0329FB77A6F09300B780CE6C* L_24 = ___0_mutable;
 		TransactionResult_t01EA0C6D6583ED0738526D8E4FED45FB2BC61656* L_25;
 		L_25 = TransactionResult_Success_m95254DE323153CE63CD81BE8E2C0651AE6A22A49(L_24, NULL);
@@ -7072,7 +7058,7 @@ IL_007f:
 
 IL_0099:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:156>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:150>
 		TransactionResult_t01EA0C6D6583ED0738526D8E4FED45FB2BC61656* L_26 = V_9;
 		return L_26;
 	}
@@ -7154,7 +7140,7 @@ IL_000c_1:
 
 IL_000e_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:135>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:129>
 			bool L_2 = __this->___won;
 			V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 			bool L_3 = V_1;
@@ -7164,7 +7150,7 @@ IL_000e_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:135>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:129>
 			goto IL_017e;
 		}
 
@@ -7191,7 +7177,7 @@ IL_0027_2:
 
 IL_002c_2:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:138>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:132>
 				BattleEndManager_tA220D195B559FD476F0BCA459E72432C83EF173C* L_5 = __this->___U3CU3E4__this;
 				NullCheck(L_5);
 				FirebaseAuth_tD2FC1EC1E5B6EF920276AFABA103B8B7E2AE2DAF* L_6 = L_5->___auth;
@@ -7225,7 +7211,7 @@ IL_0045_2:
 				NullCheck(G_B13_1);
 				G_B13_1->___U3CuserU3E5__1 = G_B13_0;
 				Il2CppCodeGenWriteBarrier((void**)(&G_B13_1->___U3CuserU3E5__1), (void*)G_B13_0);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:139>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:133>
 				FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A* L_9 = __this->___U3CuserU3E5__1;
 				V_2 = (bool)((((RuntimeObject*)(FirebaseUser_t119C5023B23CA61BCB1A51D0A2424DC7B4E42A3A*)L_9) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 				bool L_10 = V_2;
@@ -7235,13 +7221,13 @@ IL_0045_2:
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:139>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:133>
 				goto IL_017e;
 			}
 
 IL_005c_2:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:141>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:135>
 				il2cpp_codegen_runtime_class_init_inline(FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var);
 				FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* L_11;
 				L_11 = FirebaseDatabase_get_DefaultInstance_m5D2694D707EAE163776CC0FF92B92537BDD59118(NULL);
@@ -7250,7 +7236,7 @@ IL_005c_2:
 				L_12 = FirebaseDatabase_get_RootReference_m169B2E998E82228A8CD898E5CBDB20524281B434(L_11, NULL);
 				__this->___U3CrootU3E5__2 = L_12;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrootU3E5__2), (void*)L_12);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:142>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:136>
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_13 = __this->___U3CrootU3E5__2;
 				NullCheck(L_13);
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_14;
@@ -7267,6 +7253,12 @@ IL_005c_2:
 				L_18 = DatabaseReference_Child_mC08F6692D99BAC7D3BCF83BDE3B8F9A947A0809E(L_17, _stringLiteralF2E968E16304C2CB5FDD3278EA1074DF098CB7C2, NULL);
 				__this->___U3CwinsRefU3E5__3 = L_18;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwinsRefU3E5__3), (void*)L_18);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:138>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:139>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:140>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:141>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:142>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:143>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:144>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:145>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:146>
@@ -7274,12 +7266,6 @@ IL_005c_2:
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:148>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:149>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:150>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:151>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:152>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:153>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:154>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:155>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:156>
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_19 = __this->___U3CwinsRefU3E5__3;
 				il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC27BB4554EA8F2BE902DC117244E5ADAA190B486_il2cpp_TypeInfo_var);
 				Func_2_tAD0F67F96B644A88BC636D784945F464F6BCFBD0* L_20 = ((U3CU3Ec_tC27BB4554EA8F2BE902DC117244E5ADAA190B486_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC27BB4554EA8F2BE902DC117244E5ADAA190B486_il2cpp_TypeInfo_var))->___U3CU3E9__14_0;
@@ -7372,12 +7358,12 @@ IL_0119_2:
 CATCH_0139_1:
 		{
 			Exception_t* L_35 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:158>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:152>
 			V_5 = L_35;
 			Exception_t* L_36 = V_5;
 			__this->___U3CexU3E5__4 = L_36;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CexU3E5__4), (void*)L_36);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:160>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:154>
 			Exception_t* L_37 = __this->___U3CexU3E5__4;
 			NullCheck(L_37);
 			String_t* L_38;
@@ -7420,7 +7406,7 @@ CATCH_0164:
 
 IL_017e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:162>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattleEndManager.cs:156>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_43 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -8606,7 +8592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_EnsureHelperOverl
 IL_0025:
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:236>
-		goto IL_0166;
+		goto IL_01a9;
 	}
 
 IL_002a:
@@ -8620,7 +8606,7 @@ IL_002a:
 		bool L_8 = V_2;
 		if (!L_8)
 		{
-			goto IL_015f;
+			goto IL_01a2;
 		}
 	}
 	{
@@ -8735,50 +8721,70 @@ IL_00f4:
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:253>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_32 = __this->___helperText;
 		NullCheck(L_32);
-		Text_set_fontSize_m426338B0A2CDA58609028FFD471EF5F2C9F364D4(L_32, ((int32_t)42), NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:254>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = V_4;
-		NullCheck(L_33);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
-		L_34 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_33, NULL);
-		V_5 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_34, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		Text_set_fontSize_m426338B0A2CDA58609028FFD471EF5F2C9F364D4(L_32, ((int32_t)70), NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:255>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
-		memset((&L_36), 0, sizeof(L_36));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_36), (0.150000006f), (0.0199999996f), NULL);
-		NullCheck(L_35);
-		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_35, L_36, NULL);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33 = __this->___helperText;
+		NullCheck(L_33);
+		Text_set_resizeTextForBestFit_m1376BB9FDBAC5571E0F24564E22391AC8EB89A35(L_33, (bool)1, NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:256>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_37 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
-		memset((&L_38), 0, sizeof(L_38));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_38), (0.850000024f), (0.119999997f), NULL);
-		NullCheck(L_37);
-		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_37, L_38, NULL);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_34 = __this->___helperText;
+		NullCheck(L_34);
+		Text_set_resizeTextMinSize_m1DC5160514ED872A8C572024A94D7EA9D6357655(L_34, ((int32_t)16), NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:257>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_39 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40;
-		L_40 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		NullCheck(L_39);
-		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_39, L_40, NULL);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->___helperText;
+		NullCheck(L_35);
+		Text_set_resizeTextMaxSize_m25EB2C9302AA9354237A2F56BB3E019192C6015B(L_35, ((int32_t)70), NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:258>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_41 = V_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42;
-		L_42 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		NullCheck(L_41);
-		RectTransform_set_offsetMax_m5514D09D86516F2C0E25FA6D11A3A4274D3D002D(L_41, L_42, NULL);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_36 = __this->___helperText;
+		NullCheck(L_36);
+		Text_set_horizontalOverflow_m10AAFBA65FD7F4B1934B5D628B3E70D75D02FFD6(L_36, 1, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:259>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_37 = __this->___helperText;
+		NullCheck(L_37);
+		Text_set_verticalOverflow_m72A544DEAE0EBFCCBDE8174DF4C10C903DA8444F(L_37, 0, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:260>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = V_4;
+		NullCheck(L_38);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
+		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
+		V_5 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_39, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:261>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_40 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_41), (0.150000006f), (0.0199999996f), NULL);
+		NullCheck(L_40);
+		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_40, L_41, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:262>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_42 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_43), (0.850000024f), (0.119999997f), NULL);
+		NullCheck(L_42);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_42, L_43, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:263>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_44 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_45;
+		L_45 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		NullCheck(L_44);
+		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_44, L_45, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:264>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_46 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_47;
+		L_47 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		NullCheck(L_46);
+		RectTransform_set_offsetMax_m5514D09D86516F2C0E25FA6D11A3A4274D3D002D(L_46, L_47, NULL);
 	}
 
-IL_015f:
+IL_01a2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:260>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:266>
 		BattlePlacementManager_UpdateHelperText_m32AEA478E5649870E0BD976AA3F60B87BF21D155(__this, NULL);
 	}
 
-IL_0166:
+IL_01a9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:261>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:267>
 		return;
 	}
 }
@@ -8793,7 +8799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_UpdateHelperText_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral69B1A8C9CA31F18C707F0899EFE87D124F957E9D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2D4A456C4CDF273C92A0630E6EA8C8A5A601A1B);
 		s_Il2CppMethodInitialized = true;
 	}
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_0 = NULL;
@@ -8803,7 +8808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_UpdateHelperText_
 	int32_t G_B6_0 = 0;
 	String_t* G_B11_0 = NULL;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:265>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:271>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___helperText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8812,28 +8817,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_UpdateHelperText_
 		bool L_2 = V_2;
 		if (!L_2)
 		{
-			goto IL_0018;
+			goto IL_0015;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:265>
-		goto IL_009e;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:271>
+		goto IL_0091;
 	}
 
-IL_0018:
+IL_0015:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:266>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:272>
 		bool L_3 = __this->___isPlacing;
 		if (!L_3)
 		{
-			goto IL_0041;
+			goto IL_003e;
 		}
 	}
 	{
 		int32_t L_4 = __this->___placeIndex;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
-			goto IL_0041;
+			goto IL_003e;
 		}
 	}
 	{
@@ -8843,42 +8848,42 @@ IL_0018:
 		int32_t L_7;
 		L_7 = List_1_get_Count_m124DD70AF8D41A0266C29E8F486E8973B142C5E4_inline(L_6, List_1_get_Count_m124DD70AF8D41A0266C29E8F486E8973B142C5E4_RuntimeMethod_var);
 		G_B6_0 = ((((int32_t)((((int32_t)L_5) < ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_0042;
+		goto IL_003f;
 	}
 
-IL_0041:
+IL_003e:
 	{
 		G_B6_0 = 1;
 	}
 
-IL_0042:
+IL_003f:
 	{
 		V_3 = (bool)G_B6_0;
 		bool L_8 = V_3;
 		if (!L_8)
 		{
-			goto IL_005a;
+			goto IL_0057;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:268>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:274>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___helperText;
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:269>
-		goto IL_009e;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:275>
+		goto IL_0091;
 	}
 
-IL_005a:
+IL_0057:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:271>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:277>
 		List_1_tC861EE71B27D4135EB3A181D6DFD72879B5394A0* L_10 = __this->___myUnits;
 		int32_t L_11 = __this->___placeIndex;
 		NullCheck(L_10);
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_12;
 		L_12 = List_1_get_Item_m77D35315A4CF3129B19ADABD2F36602443BB8593(L_10, L_11, List_1_get_Item_m77D35315A4CF3129B19ADABD2F36602443BB8593_RuntimeMethod_var);
 		V_0 = L_12;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:272>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:278>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_13 = V_0;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___unitType;
@@ -8886,7 +8891,7 @@ IL_005a:
 		L_15 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_14, NULL);
 		if (L_15)
 		{
-			goto IL_0081;
+			goto IL_007e;
 		}
 	}
 	{
@@ -8894,29 +8899,27 @@ IL_005a:
 		NullCheck(L_16);
 		String_t* L_17 = L_16->___unitType;
 		G_B11_0 = L_17;
-		goto IL_0086;
+		goto IL_0083;
 	}
 
-IL_0081:
+IL_007e:
 	{
 		G_B11_0 = _stringLiteral69B1A8C9CA31F18C707F0899EFE87D124F957E9D;
 	}
 
-IL_0086:
+IL_0083:
 	{
 		V_1 = G_B11_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:274>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:280>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___helperText;
 		String_t* L_19 = V_1;
-		String_t* L_20;
-		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE2D4A456C4CDF273C92A0630E6EA8C8A5A601A1B, L_19, NULL);
 		NullCheck(L_18);
-		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, L_20);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, L_19);
 	}
 
-IL_009e:
+IL_0091:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:275>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:281>
 		return;
 	}
 }
@@ -8936,7 +8939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_Update_m6FDC8D04B
 	bool V_3 = false;
 	int32_t G_B5_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:279>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:285>
 		bool L_0 = __this->___isPlacing;
 		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_1;
@@ -8946,13 +8949,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_Update_m6FDC8D04B
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:279>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:285>
 		goto IL_005e;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:280>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:286>
 		int32_t L_2 = __this->___placeIndex;
 		if ((((int32_t)L_2) < ((int32_t)0)))
 		{
@@ -8984,15 +8987,15 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:282>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:288>
 		BattlePlacementManager_FinishPlacement_m5A1CEB139290725130B8AFFBE544EB3CC24D5498(__this, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:283>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:289>
 		goto IL_005e;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:287>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:293>
 		bool L_7;
 		L_7 = BattlePlacementManager_TryGetClickWorld_mFAD6E6B06D6A032CCAFCE1D24B828269A93C376B(__this, (&V_0), NULL);
 		V_3 = L_7;
@@ -9003,19 +9006,19 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:289>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:295>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = BattlePlacementManager_ClampToMyHalf_m624A65AA9AE5A4E72EE02E5060BEE3F136C2D513(__this, L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:290>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:296>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		BattlePlacementManager_TryPlaceCurrentAt_m01043EAA9E0EAF898308DBF81027D845763CF183(__this, L_11, NULL);
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:292>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:298>
 		return;
 	}
 }
@@ -9036,7 +9039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:296>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:302>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___cam;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9049,7 +9052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:296>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:302>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
 		L_3 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->___cam = L_3;
@@ -9058,7 +9061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_001e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:297>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:303>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->___cam;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -9071,7 +9074,7 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:297>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:303>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_4 = L_7;
@@ -9080,7 +9083,7 @@ IL_001e:
 
 IL_0039:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:298>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:304>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8 = __this->___cam;
 		NullCheck(L_8);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -9092,7 +9095,7 @@ IL_0039:
 		float L_12;
 		L_12 = fabsf(L_11);
 		V_0 = L_12;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:299>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:305>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = __this->___cam;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___0_screen;
 		float L_15 = L_14.___x;
@@ -9106,9 +9109,9 @@ IL_0039:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_13, L_19, NULL);
 		V_1 = L_20;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:300>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:306>
 		(&V_1)->___z = (0.0f);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:301>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:307>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
 		V_4 = L_21;
 		goto IL_0083;
@@ -9116,7 +9119,7 @@ IL_0039:
 
 IL_0083:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:302>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:308>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_4;
 		return L_22;
 	}
@@ -9143,7 +9146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BattlePlacementManager_TryGetClickWorld_
 	int32_t G_B3_0 = 0;
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:308>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:314>
 		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_0;
 		L_0 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
 		if (!L_0)
@@ -9179,7 +9182,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:310>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:316>
 		Mouse_t9A9CC4636FA9CDBAD7FB7A02DB0D6395EDCC338F* L_5;
 		L_5 = Mouse_get_current_m410C1F9ABC5AA77353574E8815F7E63289707986_inline(NULL);
 		NullCheck(L_5);
@@ -9189,7 +9192,7 @@ IL_001a:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_6, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:311>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:317>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = ___0_world;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_1;
 		float L_10 = L_9.___x;
@@ -9201,14 +9204,14 @@ IL_001a:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
 		L_14 = BattlePlacementManager_ScreenToWorld_m638ACA3DFE0471368477B71B20190CC766F4BEAB(__this, L_13, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_8 = L_14;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:312>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:318>
 		V_2 = (bool)1;
 		goto IL_00ce;
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:315>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:321>
 		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
 		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_15;
 		L_15 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
@@ -9220,7 +9223,7 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:317>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:323>
 		il2cpp_codegen_runtime_class_init_inline(Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_il2cpp_TypeInfo_var);
 		Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE* L_17;
 		L_17 = Touchscreen_get_current_m6D9CD2446B30224D18E695DF0ECC3A00E4F7B708_inline(NULL);
@@ -9228,7 +9231,7 @@ IL_0055:
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_18;
 		L_18 = Touchscreen_get_primaryTouch_mABAC4C0F1DBA6A718B83682A91DF40FD3563F413_inline(L_17, NULL);
 		V_4 = L_18;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:318>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:324>
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_19 = V_4;
 		if (!L_19)
 		{
@@ -9262,7 +9265,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:320>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:326>
 		TouchControl_t3A64A795FF61A8B27E5EBD61632F23AFCC725079* L_24 = V_4;
 		NullCheck(L_24);
 		Vector2Control_t8D1B4021A1D82671AF916D3C0A476AA94E46A432* L_25;
@@ -9271,7 +9274,7 @@ IL_0081:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26;
 		L_26 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_25, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
 		V_6 = L_26;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:321>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:327>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_27 = ___0_world;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_6;
 		float L_29 = L_28.___x;
@@ -9283,7 +9286,7 @@ IL_0081:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = BattlePlacementManager_ScreenToWorld_m638ACA3DFE0471368477B71B20190CC766F4BEAB(__this, L_32, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_27 = L_33;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:322>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:328>
 		V_2 = (bool)1;
 		goto IL_00ce;
 	}
@@ -9294,19 +9297,19 @@ IL_00be:
 
 IL_00bf:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:337>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:343>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_34 = ___0_world;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
 		L_35 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_34 = L_35;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:338>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:344>
 		V_2 = (bool)0;
 		goto IL_00ce;
 	}
 
 IL_00ce:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:339>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:345>
 		bool L_36 = V_2;
 		return L_36;
 	}
@@ -9325,10 +9328,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:343>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:349>
 		bool L_0 = ((Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_StaticFields*)il2cpp_codegen_static_fields_for(Globalflags_t2CBF3B3679D9A04235B837E923B8F6F0DC22B254_il2cpp_TypeInfo_var))->___ifHost;
 		V_0 = L_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:345>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:351>
 		bool L_1 = V_0;
 		V_1 = L_1;
 		bool L_2 = V_1;
@@ -9338,7 +9341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:345>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:351>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_pos;
 		float L_4 = L_3.___x;
 		float L_5;
@@ -9349,7 +9352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0025:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:346>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:352>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_pos;
 		float L_7 = L_6.___x;
 		float L_8;
@@ -9359,7 +9362,7 @@ IL_0025:
 
 IL_003c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:348>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:354>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_pos;
 		float L_10 = L_9.___x;
 		float L_11 = __this->___halfW;
@@ -9367,7 +9370,7 @@ IL_003c:
 		float L_13;
 		L_13 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_10, ((float)il2cpp_codegen_add(((-L_11)), (0.200000003f))), ((float)il2cpp_codegen_subtract(L_12, (0.200000003f))), NULL);
 		(&___0_pos)->___x = L_13;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:349>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:355>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___0_pos;
 		float L_15 = L_14.___y;
 		float L_16 = __this->___halfH;
@@ -9375,7 +9378,7 @@ IL_003c:
 		float L_18;
 		L_18 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_15, ((float)il2cpp_codegen_add(((-L_16)), (0.5f))), ((float)il2cpp_codegen_subtract(L_17, (0.5f))), NULL);
 		(&___0_pos)->___y = L_18;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:350>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:356>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___0_pos;
 		V_2 = L_19;
 		goto IL_0096;
@@ -9383,7 +9386,7 @@ IL_003c:
 
 IL_0096:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:351>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:357>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_2;
 		return L_20;
 	}
@@ -9407,9 +9410,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_ShowToast_m9BFC18
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_1 = NULL;
 	bool V_2 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:359>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:365>
 		BattlePlacementManager_EnsureHelperOverlay_m3B0E16A0386CDD37378A12DD59901CB8D72534A8(__this, (bool)1, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:360>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:366>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___toastGo;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9422,12 +9425,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_ShowToast_m9BFC18
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:362>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:368>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_3, _stringLiteralCB22F96B242BE73256217C026D1F667896032FDA, NULL);
 		__this->___toastGo = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___toastGo), (void*)L_3);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:363>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:369>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___toastGo;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -9438,60 +9441,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_ShowToast_m9BFC18
 		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
 		NullCheck(L_5);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_5, L_7, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:364>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:370>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___toastGo;
 		NullCheck(L_8);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9;
 		L_9 = GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9(L_8, GameObject_AddComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mFECE312B08FC5FD0A081E51ACA01FAEFD6B841A9_RuntimeMethod_var);
 		__this->___toastText = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___toastText), (void*)L_9);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:365>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:371>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___toastText;
 		NullCheck(L_10);
 		Text_set_alignment_m9FAD6C1C270FA28C610AB1E07414FBF96403157A(L_10, 4, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:366>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:372>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___toastText;
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_12;
 		L_12 = Resources_GetBuiltinResource_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_m3B4545F25A016D36D9AE93723A3449804A127D73(_stringLiteral91EABC919E48AAD7331BDBE21DBB8D4C623A4A25, Resources_GetBuiltinResource_TisFont_tC95270EA3198038970422D78B74A7F2E218A96B6_m3B4545F25A016D36D9AE93723A3449804A127D73_RuntimeMethod_var);
 		NullCheck(L_11);
 		Text_set_font_mA0D2999281A72029A5BC7294A886C5674F07DC5F(L_11, L_12, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:367>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:373>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___toastText;
 		NullCheck(L_13);
 		Text_set_fontSize_m426338B0A2CDA58609028FFD471EF5F2C9F364D4(L_13, ((int32_t)28), NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:368>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:374>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_14 = __this->___toastText;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
 		L_15 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
 		NullCheck(L_14);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_14, L_15);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:369>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:375>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___toastGo;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
 		L_17 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_16, NULL);
 		V_1 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_17, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:370>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:376>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
 		memset((&L_19), 0, sizeof(L_19));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_19), (0.200000003f), (0.800000012f), NULL);
 		NullCheck(L_18);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_18, L_19, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:371>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:377>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
 		memset((&L_21), 0, sizeof(L_21));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_21), (0.800000012f), (0.899999976f), NULL);
 		NullCheck(L_20);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_20, L_21, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:372>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:378>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 		L_23 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_22);
 		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_22, L_23, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:373>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:379>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_24 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25;
 		L_25 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
@@ -9501,12 +9504,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_ShowToast_m9BFC18
 
 IL_00f5:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:375>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:381>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_26 = __this->___toastText;
 		String_t* L_27 = ___0_msg;
 		NullCheck(L_26);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_26, L_27);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:376>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:382>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_28 = __this->___toastCo;
 		V_2 = (bool)((!(((RuntimeObject*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)L_28) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_29 = V_2;
@@ -9516,14 +9519,14 @@ IL_00f5:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:376>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:382>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_30 = __this->___toastCo;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_30, NULL);
 	}
 
 IL_011c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:377>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:383>
 		float L_31 = ___1_seconds;
 		RuntimeObject* L_32;
 		L_32 = BattlePlacementManager_HideToastAfter_mB79C2902FF1CE749318F71608A2A367F82A1EC04(__this, L_31, NULL);
@@ -9531,7 +9534,7 @@ IL_011c:
 		L_33 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_32, NULL);
 		__this->___toastCo = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___toastCo), (void*)L_33);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:378>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:384>
 		return;
 	}
 }
@@ -9599,30 +9602,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BattlePlacementManager_IsPlacementBlocke
 	int32_t G_B23_0 = 0;
 	int32_t G_B32_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:392>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:398>
 		String_t** L_0 = ___2_reason;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:394>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:400>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_1;
 		L_1 = Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668(0, 0, Object_FindObjectsByType_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m005E43D3E03E66BCBAF5A17FEB54E1E7FE3E0668_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:398>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
 		V_2 = 0;
 		goto IL_00cd;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:400>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:406>
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_2 = V_0;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:401>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:407>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_6 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -9635,13 +9638,13 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:401>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:407>
 		goto IL_00c9;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:402>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:408>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_9 = V_3;
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_10 = ___0_placing;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -9655,7 +9658,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:402>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:408>
 		goto IL_00c9;
 	}
 
@@ -9664,7 +9667,7 @@ IL_003e:
 	}
 	try
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:410>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_13 = V_3;
 		NullCheck(L_13);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -9688,15 +9691,15 @@ IL_003e:
 CATCH_0050:
 	{
 		RuntimeObject* L_16 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:410>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:410>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00c9;
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:405>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:411>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		L_18 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_17, NULL);
@@ -9706,12 +9709,12 @@ IL_0054:
 		float L_21;
 		L_21 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_18, L_20, NULL);
 		V_5 = L_21;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:406>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:412>
 		V_6 = (bool)0;
 	}
 	try
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:407>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:413>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_22 = V_3;
 		NullCheck(L_22);
 		bool L_23 = L_22->___isPassive;
@@ -9731,8 +9734,8 @@ IL_0054:
 CATCH_0077:
 	{
 		RuntimeObject* L_24 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:407>
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:407>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:413>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:413>
 		V_6 = (bool)0;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_007f;
@@ -9740,7 +9743,7 @@ CATCH_0077:
 
 IL_007f:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:408>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:414>
 		bool L_25 = V_6;
 		V_9 = L_25;
 		bool L_26 = V_9;
@@ -9750,7 +9753,7 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:411>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:417>
 		float L_27 = V_5;
 		V_10 = (bool)((((float)L_27) < ((float)(0.5f)))? 1 : 0);
 		bool L_28 = V_10;
@@ -9760,24 +9763,24 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:413>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:419>
 		String_t** L_29 = ___2_reason;
 		*((RuntimeObject**)L_29) = (RuntimeObject*)_stringLiteral6B0B3FA0EA057ED86E43E4EB8CAC8A5E5974EDE3;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_29, (void*)(RuntimeObject*)_stringLiteral6B0B3FA0EA057ED86E43E4EB8CAC8A5E5974EDE3);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:414>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:420>
 		V_11 = (bool)1;
 		goto IL_0191;
 	}
 
 IL_00a7:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:416>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:422>
 		goto IL_00c9;
 	}
 
 IL_00a9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:418>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:424>
 		float L_30 = V_5;
 		V_12 = (bool)((((float)L_30) < ((float)(0.600000024f)))? 1 : 0);
 		bool L_31 = V_12;
@@ -9787,11 +9790,11 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:420>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:426>
 		String_t** L_32 = ___2_reason;
 		*((RuntimeObject**)L_32) = (RuntimeObject*)_stringLiteral9DD3604277DC9B671F03A75711E4C9A6A2200500;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_32, (void*)(RuntimeObject*)_stringLiteral9DD3604277DC9B671F03A75711E4C9A6A2200500);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:421>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:427>
 		V_11 = (bool)1;
 		goto IL_0191;
 	}
@@ -9802,14 +9805,14 @@ IL_00c8:
 
 IL_00c9:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:398>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
 		int32_t L_33 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_00cd:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:398>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:404>
 		int32_t L_34 = V_2;
 		UnitU5BU5D_tDDDF9ECC9B2C425E4BDE29B6A85BCCA72C9BEB01* L_35 = V_0;
 		NullCheck(L_35);
@@ -9821,7 +9824,7 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:426>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:432>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = ___1_world;
 		float L_38 = L_37.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = ___1_world;
@@ -9833,7 +9836,7 @@ IL_00cd:
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_42;
 		L_42 = Physics2D_OverlapPointAll_mB5B72FB2FC0B6EDC86429F1D577DC3AC2BC2249C(L_41, NULL);
 		V_1 = L_42;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:427>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:433>
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_43 = V_1;
 		if (!L_43)
 		{
@@ -9862,7 +9865,7 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:429>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:435>
 		V_15 = 0;
 		goto IL_017e;
 	}
@@ -9873,7 +9876,7 @@ IL_010d:
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:433>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:439>
 			Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_46 = V_1;
 			int32_t L_47 = V_15;
 			NullCheck(L_46);
@@ -9883,7 +9886,7 @@ IL_010d:
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50;
 			L_50 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_49, NULL);
 			V_16 = L_50;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:434>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:440>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = V_16;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_52;
@@ -9896,25 +9899,25 @@ IL_010d:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:434>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:440>
 			goto IL_0178;
 		}
 
 IL_012c_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:435>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:441>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = V_16;
 			NullCheck(L_54);
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_55;
 			L_55 = GameObject_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_mA52B2081D4C4519A834592F8DEF7DAA506A25DA2(L_54, GameObject_GetComponentInParent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_mA52B2081D4C4519A834592F8DEF7DAA506A25DA2_RuntimeMethod_var);
 			V_17 = L_55;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:436>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:442>
 			V_18 = (bool)0;
 		}
 		try
 		{
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:437>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:443>
 				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_56 = V_17;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_57;
@@ -9956,8 +9959,8 @@ IL_014d_2:
 CATCH_0152_1:
 		{
 			RuntimeObject* L_60 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:437>
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:437>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:443>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:443>
 			V_18 = (bool)0;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_015a_1;
@@ -9965,7 +9968,7 @@ CATCH_0152_1:
 
 IL_015a_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:438>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:444>
 			bool L_61 = V_18;
 			V_20 = L_61;
 			bool L_62 = V_20;
@@ -9975,11 +9978,11 @@ IL_015a_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:440>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:446>
 			String_t** L_63 = ___2_reason;
 			*((RuntimeObject**)L_63) = (RuntimeObject*)_stringLiteral6B0B3FA0EA057ED86E43E4EB8CAC8A5E5974EDE3;
 			Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_63, (void*)(RuntimeObject*)_stringLiteral6B0B3FA0EA057ED86E43E4EB8CAC8A5E5974EDE3);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:441>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:447>
 			V_11 = (bool)1;
 			goto IL_0191;
 		}
@@ -10002,7 +10005,7 @@ IL_016f_1:
 CATCH_0172:
 	{
 		RuntimeObject* L_64 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:444>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:450>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0177;
 	}
@@ -10013,14 +10016,14 @@ IL_0177:
 
 IL_0178:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:429>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:435>
 		int32_t L_65 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_65, 1));
 	}
 
 IL_017e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:429>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:435>
 		int32_t L_66 = V_15;
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_67 = V_1;
 		NullCheck(L_67);
@@ -10036,14 +10039,14 @@ IL_017e:
 
 IL_018c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:447>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:453>
 		V_11 = (bool)0;
 		goto IL_0191;
 	}
 
 IL_0191:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:448>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:454>
 		bool L_69 = V_11;
 		return L_69;
 	}
@@ -10107,18 +10110,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BattlePlacementManager_FinishPlacement_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:505>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:511>
 		__this->___isPlacing = (bool)0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:506>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:512>
 		BattlePlacementState_EndPlacement_m28B92E888E2E6F473DDE4BE01E2BC2D886776612(NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:508>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:514>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7F29D2DC68A8811A2C220CCA261E2B695AA9DCB2, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:509>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:515>
 		BattleReadyManager_SignalLocalReady_m7E1D92A7C3A641A56029886D459E9E432982CD8F(NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:510>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:516>
 		BattlePlacementManager_EnsureHelperOverlay_m3B0E16A0386CDD37378A12DD59901CB8D72534A8(__this, (bool)0, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:511>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:517>
 		return;
 	}
 }
@@ -10250,7 +10253,7 @@ IL_0016:
 IL_0018:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:381>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:387>
 		float L_3 = __this->___s;
 		float L_4;
 		L_4 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.100000001f), L_3, NULL);
@@ -10265,7 +10268,7 @@ IL_0018:
 IL_0044:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:382>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:388>
 		BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_6 = __this->___U3CU3E4__this;
 		NullCheck(L_6);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = L_6->___toastText;
@@ -10280,7 +10283,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:382>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:388>
 		BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_10 = __this->___U3CU3E4__this;
 		NullCheck(L_10);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = L_10->___toastText;
@@ -10290,7 +10293,7 @@ IL_0044:
 
 IL_0075:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:383>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:389>
 		return (bool)0;
 	}
 }
@@ -10431,7 +10434,7 @@ IL_000d_1:
 
 IL_0012_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:452>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:458>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_2 = __this->___U3CU3E4__this;
 			NullCheck(L_2);
 			List_1_tC861EE71B27D4135EB3A181D6DFD72879B5394A0* L_3 = L_2->___myUnits;
@@ -10443,7 +10446,7 @@ IL_0012_1:
 			L_6 = List_1_get_Item_m77D35315A4CF3129B19ADABD2F36602443BB8593(L_3, L_5, List_1_get_Item_m77D35315A4CF3129B19ADABD2F36602443BB8593_RuntimeMethod_var);
 			__this->___U3CuU3E5__1 = L_6;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CuU3E5__1), (void*)L_6);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:453>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:459>
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_7 = __this->___U3CuU3E5__1;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_8;
@@ -10456,24 +10459,24 @@ IL_0012_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:453>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:459>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_10 = __this->___U3CU3E4__this;
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_11 = __this->___U3CU3E4__this;
 			NullCheck(L_11);
 			int32_t L_12 = L_11->___placeIndex;
 			NullCheck(L_10);
 			L_10->___placeIndex = ((int32_t)il2cpp_codegen_add(L_12, 1));
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:453>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:459>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_13 = __this->___U3CU3E4__this;
 			NullCheck(L_13);
 			BattlePlacementManager_UpdateHelperText_m32AEA478E5649870E0BD976AA3F60B87BF21D155(L_13, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:453>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:459>
 			goto IL_0471;
 		}
 
 IL_0070_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:456>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:462>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_14 = __this->___U3CU3E4__this;
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_15 = __this->___U3CuU3E5__1;
 			Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = __this->___world;
@@ -10489,7 +10492,7 @@ IL_0070_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:458>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:464>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_20 = __this->___U3CU3E4__this;
 			String_t* L_21 = __this->___U3CwhyBlockedU3E5__2;
 			String_t* L_22 = L_21;
@@ -10511,13 +10514,13 @@ IL_00a7_1:
 		{
 			NullCheck(G_B9_1);
 			BattlePlacementManager_ShowToast_m9BFC18DB0C4255749EB714481BB7BB9CC37A7132(G_B9_1, G_B9_0, (1.0f), NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:459>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:465>
 			goto IL_0471;
 		}
 
 IL_00b7_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:462>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:468>
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_25 = __this->___U3CuU3E5__1;
@@ -10558,7 +10561,7 @@ IL_00b7_1:
 			L_42 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral28F4D568517450253F017E895C438D1BC57E392E, L_36, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_42, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:465>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:471>
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_43 = __this->___U3CuU3E5__1;
 			NullCheck(L_43);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
@@ -10566,7 +10569,7 @@ IL_00b7_1:
 			Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = __this->___world;
 			NullCheck(L_44);
 			Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_44, L_45, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:468>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:474>
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_46 = __this->___U3CuU3E5__1;
 			NullCheck(L_46);
 			Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47;
@@ -10605,7 +10608,7 @@ IL_015c_1:
 		{
 			NullCheck(G_B13_2);
 			G_B13_2->___U3ClookTargetXU3E5__3 = ((float)il2cpp_codegen_add(G_B13_1, G_B13_0));
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:469>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:475>
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_52 = __this->___U3CuU3E5__1;
 			float L_53 = __this->___U3ClookTargetXU3E5__3;
 			NullCheck(L_52);
@@ -10652,7 +10655,7 @@ IL_0185_2:
 
 IL_018a_2:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:474>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:480>
 				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_56 = __this->___U3CuU3E5__1;
 				NullCheck(L_56);
 				String_t* L_57 = L_56->___sessionId;
@@ -10688,7 +10691,7 @@ IL_01b3_2:
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:476>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:482>
 				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_63 = __this->___U3CuU3E5__1;
 				NullCheck(L_63);
 				bool L_64 = L_63->___host;
@@ -10716,9 +10719,9 @@ IL_01d5_2:
 				NullCheck(G_B28_1);
 				G_B28_1->___U3CbranchU3E5__4 = G_B28_0;
 				Il2CppCodeGenWriteBarrier((void**)(&G_B28_1->___U3CbranchU3E5__4), (void*)G_B28_0);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:477>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:478>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:479>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:483>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:484>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:485>
 				il2cpp_codegen_runtime_class_init_inline(FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960_il2cpp_TypeInfo_var);
 				FirebaseDatabase_t39655E1CF62FCA36F81637138EABB8E0E88FF960* L_65;
 				L_65 = FirebaseDatabase_get_DefaultInstance_m5D2694D707EAE163776CC0FF92B92537BDD59118(NULL);
@@ -10749,14 +10752,14 @@ IL_01d5_2:
 				L_76 = DatabaseReference_Child_mC08F6692D99BAC7D3BCF83BDE3B8F9A947A0809E(L_75, _stringLiteralCA0AA89382EC9FBF76CB9BBEAB1872B5A701BEAA, NULL);
 				__this->___U3CstateRefU3E5__5 = L_76;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstateRefU3E5__5), (void*)L_76);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:481>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:482>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:483>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:484>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:485>
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:486>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:487>
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:488>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:489>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:490>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:491>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:492>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:493>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:494>
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_77 = (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*)il2cpp_codegen_object_new(Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710_il2cpp_TypeInfo_var);
 				Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9(L_77, Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9_RuntimeMethod_var);
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_78 = L_77;
@@ -10827,7 +10830,7 @@ IL_0292_2:
 				NullCheck(G_B31_4);
 				G_B31_4->___U3CpayloadU3E5__6 = L_96;
 				Il2CppCodeGenWriteBarrier((void**)(&G_B31_4->___U3CpayloadU3E5__6), (void*)L_96);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:489>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:495>
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_98 = __this->___U3CstateRefU3E5__5;
 				Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* L_99 = __this->___U3CpayloadU3E5__6;
 				NullCheck(L_98);
@@ -10871,7 +10874,7 @@ IL_02fd_2:
 IL_031a_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_4), NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:490>
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:496>
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_109 = __this->___U3CstateRefU3E5__5;
 				NullCheck(L_109);
 				DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_110;
@@ -10948,12 +10951,12 @@ IL_03b5_2:
 CATCH_03b8_1:
 		{
 			Exception_t* L_122 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:493>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:499>
 			V_7 = L_122;
 			Exception_t* L_123 = V_7;
 			__this->___U3CexU3E5__7 = L_123;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CexU3E5__7), (void*)L_123);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:495>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:501>
 			Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_124 = __this->___U3CuU3E5__1;
 			NullCheck(L_124);
 			String_t* L_125 = L_124->___unitKey;
@@ -10971,18 +10974,18 @@ CATCH_03b8_1:
 
 IL_03f1_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:498>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:504>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_129 = __this->___U3CU3E4__this;
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_130 = __this->___U3CU3E4__this;
 			NullCheck(L_130);
 			int32_t L_131 = L_130->___placeIndex;
 			NullCheck(L_129);
 			L_129->___placeIndex = ((int32_t)il2cpp_codegen_add(L_131, 1));
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:499>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:505>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_132 = __this->___U3CU3E4__this;
 			NullCheck(L_132);
 			BattlePlacementManager_UpdateHelperText_m32AEA478E5649870E0BD976AA3F60B87BF21D155(L_132, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:500>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:506>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_133 = __this->___U3CU3E4__this;
 			NullCheck(L_133);
 			int32_t L_134 = L_133->___placeIndex;
@@ -11000,7 +11003,7 @@ IL_03f1_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:500>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:506>
 			BattlePlacementManager_t04D71538CDF10163C8307A5BE498CE715B980554* L_139 = __this->___U3CU3E4__this;
 			NullCheck(L_139);
 			BattlePlacementManager_FinishPlacement_m5A1CEB139290725130B8AFFBE544EB3CC24D5498(L_139, NULL);
@@ -11039,7 +11042,7 @@ CATCH_0449:
 
 IL_0471:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:501>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/BattlePlacementManager.cs:507>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CuU3E5__1 = (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CuU3E5__1), (void*)(Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867*)NULL);
