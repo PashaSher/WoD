@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TankStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 3
+  kind: 0
   health: 300
   damage: 0
   attackRange: 10
@@ -20,7 +21,7 @@ MonoBehaviour:
   fireRate: 1
   accuracy: 0.9
   accuracySpread: 0.3
-  sprite: {fileID: 4326872430171513394, guid: d7d90445a921cb74bad0cf3fafacbdbe, type: 3}
+  sprite: {fileID: 5807664816570927321, guid: fd977de79192cff4aadc31b4afa240cb, type: 3}
   animatorOverride: {fileID: 0}
   unitPrefab: {fileID: 1101546919222511750, guid: dc5a78742243033488ce78f175f88076, type: 3}
   projectileStats: {fileID: 11400000, guid: c0f1e2d3c4b5a6978877665544332211, type: 2}

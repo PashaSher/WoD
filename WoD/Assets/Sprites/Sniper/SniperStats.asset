@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SniperStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 2
+  kind: 0
   health: 100
   damage: 0
   attackRange: 10
@@ -20,7 +21,7 @@ MonoBehaviour:
   fireRate: 0.25
   accuracy: 1
   accuracySpread: 0
-  sprite: {fileID: 0}
+  sprite: {fileID: 8446344220835096063, guid: c5c6b7b9c13719a49962273a8a2e0857, type: 3}
   animatorOverride: {fileID: 0}
   unitPrefab: {fileID: 5958190626903498121, guid: 55e2ac0d8dd92354ab0d6fde8048800b, type: 3}
   projectileStats: {fileID: 11400000, guid: d20cd40b079219b48beaef255f548bf1, type: 2}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GrenaderStats
   m_EditorClassIdentifier: Assembly-CSharp::UnitStats
   unitType: 1
+  kind: 0
   health: 100
   damage: 0
   attackRange: 10
@@ -20,7 +21,7 @@ MonoBehaviour:
   fireRate: 1
   accuracy: 0.9
   accuracySpread: 0.3
-  sprite: {fileID: 8036600702859897560, guid: f46ecc2648c416e4a9aeb9af050f253a, type: 3}
+  sprite: {fileID: -9098228815809506913, guid: 0145d31c5bd82dd40b9da2d53c7acf2d, type: 3}
   animatorOverride: {fileID: 0}
   unitPrefab: {fileID: 901604189953159355, guid: b9dfb7a6998b5d54eab3a1099eaf9fc2, type: 3}
   projectileStats: {fileID: 11400000, guid: 57a483b2f6a94b845a29ff67b70a6ff1, type: 2}
