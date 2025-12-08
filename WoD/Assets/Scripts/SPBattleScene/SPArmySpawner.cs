@@ -141,6 +141,7 @@ public class SPArmySpawner : MonoBehaviour
                 {
                     if (stats != null) unit.Init(type.ToString(), stats);
                     else               unit.unitType = type.ToString();
+                    unit.host = true; // mark as player's side for downstream systems
                 }
 
                 foreach (var r in renderers)

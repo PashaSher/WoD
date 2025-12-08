@@ -975,7 +975,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BattleEndManager
   resultPanel: {fileID: 224645555}
   resultText: {fileID: 2082891549}
+  resultFont: {fileID: 0}
   toMenuButton: {fileID: 72328987}
+  buttonFont: {fileID: 0}
   checkIntervalSeconds: 0.5
   sessionsPath: sessions
 --- !u!114 &1013267382
@@ -1097,7 +1099,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3fbdb8feb9bbc25499da5b3ee4ae5f33, type: 2}
   - {fileID: 11400000, guid: f1e45fa1f4d2d88468a9222f5846dda3, type: 2}
   - {fileID: 11400000, guid: 25b7874604ef2c240ab5d9fbb208634d, type: 2}
-  - {fileID: 11400000, guid: 917d600c26e643f42b3339dcd3dc14ab, type: 2}
+  - {fileID: 0}
   unitsParent: {fileID: 0}
   ifHost: 0
   sessionId: 
