@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: dd0ea7016541b8d41b7a90204dcccec8
+  - enabled: 1
+    path: Assets/Scenes/SPArmyCreation.unity
+    guid: 7792a24b169571e4cb30f484b5babe01
+  - enabled: 1
+    path: Assets/Scenes/SPBattleScene.unity
+    guid: 31394277248854e4d80aa396722b64cd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

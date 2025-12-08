@@ -21,4 +21,4 @@ MonoBehaviour:
   scale: {x: 0.1, y: 0.1}
   destroySprite: {fileID: -8030570891474961867, guid: 3a2b8657cec21e240b954520188a2cac, type: 3}
   destroyDuration: 1
-  destroyScale: {x: 0.5, y: 0.5}
+  destroyScale: {x: 0.25, y: 0.25}
