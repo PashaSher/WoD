@@ -393,6 +393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514321104}
+  - component: {fileID: 514321105}
   m_Layer: 0
   m_Name: SPEnemySpawner
   m_TagString: Untagged
@@ -410,6 +411,61 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &514321105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514321101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095a6f0c6a7fc7f43ba81781f8456fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SPEnemySpawner
+  unitRootPrefab: {fileID: 7513316361796521670, guid: c564bd8c0bbe51249bc356d8541a5bc9, type: 3}
+  unitStatsList:
+  - {fileID: 11400000, guid: c78f30f17b20810448ca18723cd5dd12, type: 2}
+  - {fileID: 11400000, guid: 6005b48ba2ca92a42a0493ebf325895a, type: 2}
+  - {fileID: 11400000, guid: 3fbdb8feb9bbc25499da5b3ee4ae5f33, type: 2}
+  - {fileID: 11400000, guid: f1e45fa1f4d2d88468a9222f5846dda3, type: 2}
+  unitsParent: {fileID: 1009643581}
+  allowedTypes: 00000000010000000200000003000000
+  spawnMargin: 1.2
+  maxPlacementAttempts: 10
+  minSpacing: 0.8
+  verboseLogs: 1
+--- !u!1 &1009643580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1009643581}
+  m_Layer: 0
+  m_Name: Units
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1009643581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009643580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 253.91179, y: 126.4987, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -604,3 +660,4 @@ SceneRoots:
   - {fileID: 514321004}
   - {fileID: 514321104}
   - {fileID: 1021835130}
+  - {fileID: 1009643581}
