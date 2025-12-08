@@ -202,7 +202,7 @@ public class SPEnemySpawner : MonoBehaviour
 				{
 					if (!r) continue;
 					r.enabled = true;
-					r.color = Color.black;
+					r.color = Color.blue;
 					if (r.sortingOrder < 5) r.sortingOrder = 5;
 				}
 
@@ -212,7 +212,7 @@ public class SPEnemySpawner : MonoBehaviour
 				visualTr.localScale = s;
 
 				var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
-				if (ring != null) ring.color = Color.red;
+				if (ring != null) ring.color = Color.blue;
 
 				go.name = $"{type}_EN_{spawned}";
 				spawned++;
