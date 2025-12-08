@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// Single-player spawner: instantiates player's selected units (left side) from SPArmyState.
@@ -47,6 +48,7 @@ public class SPArmySpawner : MonoBehaviour
 
     private void Start()
     {
+		EnsureInputForWorldClicks();
         if (unitRootPrefab == null)
         {
             Debug.LogError("[SPArmySpawner] UnitRootPrefab not set.");
@@ -163,6 +165,27 @@ public class SPArmySpawner : MonoBehaviour
                 go.name = $"{type}_SP_{spawned}";
                 spawned++;
 
+				// Attach local drag mover (single-player) onto clickable child.
+				// 1) Disable multiplayer mover if present to avoid RTDB usage in SP.
+				var mpMover = visualTr.GetComponent<UnitDragMover>();
+				if (mpMover != null) mpMover.enabled = false;
+				// 2) Ensure collider for pointer events
+				var col2d = visualTr.GetComponent<Collider2D>();
+				if (col2d == null)
+				{
+					// Prefer CircleCollider2D as a simple clickable area
+					col2d = visualTr.gameObject.AddComponent<CircleCollider2D>();
+					var cc = col2d as CircleCollider2D;
+					if (cc != null)
+					{
+						cc.isTrigger = true;
+						cc.radius = 0.4f;
+					}
+				}
+				// 3) Add SP mover if missing
+				var spMover = visualTr.GetComponent<SPUnitDragMover>();
+				if (spMover == null) spMover = visualTr.gameObject.AddComponent<SPUnitDragMover>();
+
                 // Next position
                 y -= 1.5f;
                 if (y < -halfH + 1f)
@@ -174,6 +197,25 @@ public class SPArmySpawner : MonoBehaviour
         }
         SafeLog($"Spawned {spawned} units from SP selection.");
     }
+
+	// Ensure there is an EventSystem and Physics2D raycaster so IPointer* handlers work on 2D objects
+	private void EnsureInputForWorldClicks()
+	{
+		// EventSystem
+		if (EventSystem.current == null)
+		{
+			var esGo = new GameObject("EventSystem");
+			esGo.AddComponent<EventSystem>();
+			// StandaloneInputModule works with both old and new input (via back-compat)
+			esGo.AddComponent<StandaloneInputModule>();
+		}
+		// Physics2DRaycaster on main camera
+		var cam = Camera.main;
+		if (cam != null && cam.GetComponent<Physics2DRaycaster>() == null)
+		{
+			cam.gameObject.AddComponent<Physics2DRaycaster>();
+		}
+	}
 
     private GameObject GetPrefabForType(UnitType type)
     {
