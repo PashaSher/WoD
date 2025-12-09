@@ -32,7 +32,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 	private void Update()
 	{
 		// Во время расстановки — не атакуем
-		if (BattlePlacementState.IsPlacementActive) { if (debugLogs) Debug.Log("[SPUnitAutoAttack] Placement active -> skip"); SetAttacking(false); wasAttacking = false; return; }
+		if (BattlePlacementState.IsPlacementActive) { SetAttacking(false); wasAttacking = false; return; }
 		if (unit == null || unit.moveSpeed < 0.001f) { if (debugLogs) Debug.Log("[SPUnitAutoAttack] No unit or moveSpeed < eps -> skip"); return; }
 		// Запрет атаки во время движения (как в MP — стреляем стоя)
 		if (animFlags != null && animFlags.IsMoving) { if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' Moving -> block attack"); SetAttacking(false); wasAttacking = false; return; }
@@ -75,11 +75,6 @@ public class SPUnitAutoAttack : MonoBehaviour
 			catch { }
 		}
 		bool shouldAttack = (best != null && bestSqr <= range * range);
-		if (debugLogs)
-		{
-			string targetName = best ? best.name : "none";
-			Debug.Log($"[SPUnitAutoAttack] '{unit.name}' scan: enemies={considered}, blockedLOS={blocked}, range={range:F2}, target={targetName}, dist={(best != null ? Mathf.Sqrt(bestSqr).ToString("F2") : "--")}, shouldAttack={shouldAttack}");
-		}
 		if (shouldAttack && !wasAttacking && best != null && (animFlags == null || !animFlags.IsMoving))
 		{
 			float tx; try { tx = best.transform.position.x; } catch { tx = unit.transform.position.x; }
@@ -89,28 +84,19 @@ public class SPUnitAutoAttack : MonoBehaviour
 			if (useAnimationEvents && animFlags != null)
 			{
 				// Запускаем анимацию атаки, сам выстрел придёт из Animation Event
-				if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' start attack via animation events");
+				if (debugLogs) { }
 				animFlags.SetAttacking(true);
 				// В SP атакуем строго по ивентам анимации; переход по bool 'attack'
 				// Если контроллер использует триггер, настройте переходы под bool 'attack'
 			}
 			else if (!useAnimationEvents)
 			{
-				if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' start attack immediate (no events)");
+				if (debugLogs) { }
 			}
 		}
-		else if (shouldAttack && wasAttacking)
-		{
-			if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' already attacking - waiting for animation events/fire rate");
-		}
-		else if (shouldAttack && animFlags != null && animFlags.IsMoving)
-		{
-			if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' shouldAttack but moving -> blocked");
-		}
-		else if (!shouldAttack && wasAttacking)
-		{
-			if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' lost target -> stop attack");
-		}
+		else if (shouldAttack && wasAttacking) { }
+		else if (shouldAttack && animFlags != null && animFlags.IsMoving) { }
+		else if (!shouldAttack && wasAttacking) { }
 		currentTarget = shouldAttack ? best : null;
 		SetAttacking(shouldAttack);
 		// Держим bool 'attack' синхронным со сканером всегда (как в MP)

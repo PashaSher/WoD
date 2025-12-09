@@ -55,6 +55,7 @@ public class SPEnemySpawner : MonoBehaviour
 	private void Start()
 	{
 		EnsureBattleEndManagerPresent();
+		EnsureEnemyBotPresent();
 		if (unitRootPrefab != null && unitRootPrefab.scene.IsValid())
 		{
 			Debug.LogError("[SPEnemySpawner] UnitRootPrefab references a scene object. Drag a prefab asset.");
@@ -247,6 +248,20 @@ public class SPEnemySpawner : MonoBehaviour
 				var go = new GameObject("SPBattleEnd(Auto-FromEnemySpawner)");
 				go.AddComponent<SPBattleEndManager>();
 				SafeLog("SPBattleEndManager auto-attached by SPEnemySpawner");
+			}
+		}
+		catch { }
+	}
+
+	private void EnsureEnemyBotPresent()
+	{
+		try
+		{
+			if (FindObjectOfType<SPEnemyBot>() == null)
+			{
+				var go = new GameObject("SPEnemyBot(Auto-FromEnemySpawner)");
+				go.AddComponent<SPEnemyBot>();
+				SafeLog("SPEnemyBot auto-attached by SPEnemySpawner");
 			}
 		}
 		catch { }

@@ -50,6 +50,7 @@ public class SPArmySpawner : MonoBehaviour
     {
 		EnsureInputForWorldClicks();
 		EnsureBattleEndManagerPresent();
+		EnsureEnemyBotPresent();
         if (unitRootPrefab == null)
         {
             Debug.LogError("[SPArmySpawner] UnitRootPrefab not set.");
@@ -222,6 +223,20 @@ public class SPArmySpawner : MonoBehaviour
 				var go = new GameObject("SPBattleEnd(Auto-FromSpawner)");
 				go.AddComponent<SPBattleEndManager>();
 				SafeLog("SPBattleEndManager auto-attached by SPArmySpawner");
+			}
+		}
+		catch { }
+	}
+
+	private void EnsureEnemyBotPresent()
+	{
+		try
+		{
+			if (FindObjectOfType<SPEnemyBot>() == null)
+			{
+				var go = new GameObject("SPEnemyBot(Auto-FromSpawner)");
+				go.AddComponent<SPEnemyBot>();
+				SafeLog("SPEnemyBot auto-attached by SPArmySpawner");
 			}
 		}
 		catch { }

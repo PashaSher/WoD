@@ -33,6 +33,14 @@ public static class SPBattleBootstrap
 		}
 		catch { }
 
+		// Простой бот для перемещения синих (enemy) юнитов
+		try
+		{
+			var go = new GameObject("SPEnemyBot(Auto)");
+			go.AddComponent<SPEnemyBot>();
+		}
+		catch { }
+
 		// Постоянный бэйдж «you are black/blue» — показываем только во время расстановки
 		try
 		{
