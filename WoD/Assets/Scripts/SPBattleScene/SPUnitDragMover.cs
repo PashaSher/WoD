@@ -68,6 +68,8 @@ public class SPUnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler,
 		if (BattlePlacementState.IsPlacementActive) return;
 		if (!CanControl()) return;
 		EnsureAnimFlags();
+		// Запрещаем реакцию на нажатие, если юнит уже двигается (SP).
+		if (animFlags != null && animFlags.IsMoving) return;
 		Debug.Log($"[SPUnitDragMover] Down on '{unit?.name}' at screen={e.position}");
 
 		dragging   = true;
@@ -135,8 +137,17 @@ public class SPUnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler,
 	private IEnumerator MoveToAndFinish(Vector3 target, float speed)
 	{
 		EnsureAnimFlags();
+		// Перед началом движения — немедленно отменим атаку и переключим анимацию/флаги в режим движения
+		try
+		{
+			var auto = GetComponent<SPUnitAutoAttack>() ?? GetComponentInChildren<SPUnitAutoAttack>() ?? GetComponentInParent<SPUnitAutoAttack>();
+			if (auto != null) auto.ForceStopAttack();
+		}
+		catch { }
+		try { unit?.SetAttacking(false); } catch { }
 		if (animFlags != null)
 		{
+			animFlags.SetAttacking(false);
 			animFlags.SetMoving(true);
 			animFlags.SetSpeed(Mathf.Max(0.01f, speed));
 		}

@@ -217,6 +217,9 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
         if (remoteMoving) yield break;
 
+		// Немедленно отменяем атаку при старте движения (и пушим в RTDB через Unit)
+		try { unit?.SetAttacking(false); } catch {}
+
         int facing = (target.x >= unit.transform.position.x) ? 1 : -1;
 
         // SINGLE write: final coordinates + moving=true

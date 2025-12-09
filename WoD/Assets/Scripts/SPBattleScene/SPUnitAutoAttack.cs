@@ -13,7 +13,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 	// Точка вылета как в MP: опционально укажем вручную; иначе найдем "MuzzleFlash"; иначе возьмём Visual + смещение
 	[SerializeField] private Transform projectileSpawn;
 	[SerializeField] private Vector3 startOffset = new Vector3(0.25f, 0.1f, 0f);
-		[SerializeField] private bool  debugLogs = true;
+		[SerializeField] private bool  debugLogs = false;
 
 	private Unit unit;
 	private SPAnimatorFlags animFlags;
@@ -240,6 +240,21 @@ public class SPUnitAutoAttack : MonoBehaviour
 	{
 		// Не завершаем атаку событием. Выход из атаки — только по сканеру (нет цели/LOS).
 		if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' Attack animation end (no state change)");
+	}
+
+	/// <summary>
+	/// Жёстко останавливает атаку (используется при старте движения).
+	/// </summary>
+	public void ForceStopAttack()
+	{
+		try
+		{
+			if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit?.name}' ForceStopAttack()");
+			SetAttacking(false);
+			wasAttacking = false;
+			currentTarget = null;
+		}
+		catch { }
 	}
 
 	private void SetAttacking(bool value) => unit.SetAttacking(value);

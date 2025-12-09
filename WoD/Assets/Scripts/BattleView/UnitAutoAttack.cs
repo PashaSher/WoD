@@ -415,6 +415,8 @@ public class UnitAutoAttack : MonoBehaviour
 		// Во время расстановки/ожидания — не стреляем
 		if (BattlePlacementState.IsPlacementActive) return;
 		if (!BattleReadyManager.Active || !BattleReadyManager.BothReady) return;
+		// Доп. защита: если юнит в движении по RTDB — не стрелять даже при событии
+		if (hasMovingCache && movingCache) return;
 		// Чтобы не стрелять вне режима атаки — уважаем cadence из сканирования
 		if (!IsAttacking()) return;
 		// Переносим каденс на анимацию: ограничим частоту по fireRate, чтобы дизайнер мог ставить частые события

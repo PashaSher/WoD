@@ -11,7 +11,9 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -19,7 +21,9 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -27,7 +31,9 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -63,7 +69,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -82,7 +90,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -130,7 +140,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -156,7 +168,9 @@
               "Assets/Scenes/BattleScene.unity",
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -181,7 +195,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -200,7 +216,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -237,7 +255,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -274,7 +294,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -299,7 +321,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -320,7 +344,9 @@
             "name": "MeshRenderer",
             "scenes": [
               "Assets/Scenes/BattleScene.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -333,7 +359,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -352,7 +380,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -365,7 +395,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -408,7 +440,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -427,7 +461,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -464,7 +500,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -501,7 +539,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -515,7 +555,9 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1066,9 +1108,17 @@
             "icon": null
           },
           {
+            "name": "CircleCollider2D",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider2D",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1088,7 +1138,9 @@
           {
             "name": "PolygonCollider2D",
             "scenes": [
-              "Assets/Scenes/BattleScene.unity"
+              "Assets/Scenes/BattleScene.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1559,7 +1611,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1578,7 +1632,9 @@
               "Assets/Scenes/CreateAccountWindow.unity",
               "Assets/Scenes/LogInScene.unity",
               "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/RegistrationWindow.unity"
+              "Assets/Scenes/RegistrationWindow.unity",
+              "Assets/Scenes/SPArmyCreation.unity",
+              "Assets/Scenes/SPBattleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null

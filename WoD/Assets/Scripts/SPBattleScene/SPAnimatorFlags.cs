@@ -164,7 +164,7 @@ public class SPAnimatorFlags : MonoBehaviour
 			var target = on ? moveState : idleState;
 			TryCrossFade(target, 0.05f);
 		}
-		Debug.Log($"[SPAnimatorFlags] '{unitName}' SetMoving({on}) -> applied: movingBool={a} moving={b} Moving={c}");
+		if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' SetMoving({on}) -> applied: movingBool={a} moving={b} Moving={c}");
 		lastMoving = on;
 	}
 
@@ -174,10 +174,7 @@ public class SPAnimatorFlags : MonoBehaviour
 		bool a = SetFloatIfExists(speedFloat, value);
 		bool b = SetFloatIfExists("Speed", value);
 		bool c = SetFloatIfExists("speed", value);
-		if (verboseLogs || a || b || c)
-		{
-			Debug.Log($"[SPAnimatorFlags] '{unitName}' SetSpeed({value:F3}) -> applied: SpeedName={a} Speed={b} speed={c}");
-		}
+		if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' SetSpeed({value:F3}) -> applied: SpeedName={a} Speed={b} speed={c}");
 	}
 
 	public void SetAttacking(bool on)
@@ -193,9 +190,9 @@ public class SPAnimatorFlags : MonoBehaviour
 		{
 			var target = on ? attackState : idleState;
 			bool ok = TryCrossFade(target, 0.05f);
-			Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade('{target}') => {ok}");
+			if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade('{target}') => {ok}");
 		}
-		Debug.Log($"[SPAnimatorFlags] '{unitName}' SetAttacking({on}) -> applied: attackingName={a} Attacking={b} attacking={c} attack={d}");
+		if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' SetAttacking({on}) -> applied: attackingName={a} Attacking={b} attacking={c} attack={d}");
 	}
 
 	public void TriggerAttack()

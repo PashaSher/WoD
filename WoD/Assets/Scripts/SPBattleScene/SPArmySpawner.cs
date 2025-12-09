@@ -49,6 +49,7 @@ public class SPArmySpawner : MonoBehaviour
     private void Start()
     {
 		EnsureInputForWorldClicks();
+		EnsureBattleEndManagerPresent();
         if (unitRootPrefab == null)
         {
             Debug.LogError("[SPArmySpawner] UnitRootPrefab not set.");
@@ -211,6 +212,20 @@ public class SPArmySpawner : MonoBehaviour
         }
         SafeLog($"Spawned {spawned} units from SP selection.");
     }
+
+	private void EnsureBattleEndManagerPresent()
+	{
+		try
+		{
+			if (FindObjectOfType<SPBattleEndManager>() == null)
+			{
+				var go = new GameObject("SPBattleEnd(Auto-FromSpawner)");
+				go.AddComponent<SPBattleEndManager>();
+				SafeLog("SPBattleEndManager auto-attached by SPArmySpawner");
+			}
+		}
+		catch { }
+	}
 
 	// Ensure there is an EventSystem and Physics2D raycaster so IPointer* handlers work on 2D objects
 	private void EnsureInputForWorldClicks()
