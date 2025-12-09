@@ -16,21 +16,26 @@ public class SPAnimatorFlags : MonoBehaviour
 	[SerializeField] private bool mirrorAttackingFromUnit = true;
 
 	[Header("Parameter names (auto-detected if empty)")]
-	[SerializeField] private string movingBool = "";
-	[SerializeField] private string speedFloat = "";
-	[SerializeField] private string attackingBool = "";
+	[SerializeField] private string movingBool = "moving";
+	[SerializeField] private string speedFloat = "Speed";
+	[SerializeField] private string attackingBool = "attack";
 	[SerializeField] private string attackTrigger = "";
 	[SerializeField] private string hitTrigger = "";
 	[SerializeField] private string dieTrigger = "";
 
 	[SerializeField] private float movingThreshold = 0.01f;
 	[SerializeField] private bool  alsoInferSpeedFromMotion = false;
+	[SerializeField] private bool  useStateCrossfadeFallback = false;
+	[SerializeField] private string idleState    = "idel";
+	[SerializeField] private string moveState    = "moving";
+	[SerializeField] private string attackState  = "attack";
 
 	private Animator animator;
 	private Transform unitRoot;
 	private Unit unit;
 	private Vector3 lastPos;
 	private string unitName;
+	private bool lastMoving;
 
 	private void Awake()
 	{
@@ -83,7 +88,8 @@ public class SPAnimatorFlags : MonoBehaviour
 			}
 			if (string.IsNullOrEmpty(attackingBool))
 			{
-				string[] candidates = { "Attacking", "IsAttacking", "attacking", "isAttacking", "attack" };
+				// Include MP aliases (typos used in some controllers): "Atacing"
+				string[] candidates = { "Attacking", "IsAttacking", "attacking", "isAttacking", "attack", "Atacing", "atacing", "Atack", "atack", "Shoot", "shoot", "Fire", "fire" };
 				var p = ps.FirstOrDefault(x => x.type == AnimatorControllerParameterType.Bool && candidates.Contains(x.name));
 				if (p != null) attackingBool = p.name;
 			}
@@ -128,6 +134,7 @@ public class SPAnimatorFlags : MonoBehaviour
 				Debug.Log($"[SPAnimatorFlags] '{unitName}' speed={speed:F3}, moving={(speed > movingThreshold)} (set '{movingBool}', '{speedFloat}')");
 			}
 			lastPos = pos;
+			lastMoving = speed > movingThreshold;
 		}
 
 		// Mirror Unit.attacking if available
@@ -151,7 +158,14 @@ public class SPAnimatorFlags : MonoBehaviour
 		bool a = SetBoolIfExists(movingBool, on);
 		bool b = SetBoolIfExists("moving", on);
 		bool c = SetBoolIfExists("Moving", on);
+		if (!(a || b || c) && useStateCrossfadeFallback)
+		{
+			// No param matched → try to crossfade by state name (does not modify controller asset)
+			var target = on ? moveState : idleState;
+			TryCrossFade(target, 0.05f);
+		}
 		Debug.Log($"[SPAnimatorFlags] '{unitName}' SetMoving({on}) -> applied: movingBool={a} moving={b} Moving={c}");
+		lastMoving = on;
 	}
 
 	public void SetSpeed(float value)
@@ -160,7 +174,10 @@ public class SPAnimatorFlags : MonoBehaviour
 		bool a = SetFloatIfExists(speedFloat, value);
 		bool b = SetFloatIfExists("Speed", value);
 		bool c = SetFloatIfExists("speed", value);
-		Debug.Log($"[SPAnimatorFlags] '{unitName}' SetSpeed({value:F3}) -> applied: SpeedName={a} Speed={b} speed={c}");
+		if (verboseLogs || a || b || c)
+		{
+			Debug.Log($"[SPAnimatorFlags] '{unitName}' SetSpeed({value:F3}) -> applied: SpeedName={a} Speed={b} speed={c}");
+		}
 	}
 
 	public void SetAttacking(bool on)
@@ -170,17 +187,40 @@ public class SPAnimatorFlags : MonoBehaviour
 		bool b = SetBoolIfExists("Attacking", on);
 		bool c = SetBoolIfExists("attacking", on);
 		bool d = SetBoolIfExists("attack", on);
+		// Независимо от наличия параметров, попробуем мягко перейти в нужный клип по имени
+		// (это не меняет контроллер и не влияет на MP — работает только в SP).
+		if (useStateCrossfadeFallback)
+		{
+			var target = on ? attackState : idleState;
+			bool ok = TryCrossFade(target, 0.05f);
+			Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade('{target}') => {ok}");
+		}
 		Debug.Log($"[SPAnimatorFlags] '{unitName}' SetAttacking({on}) -> applied: attackingName={a} Attacking={b} attacking={c} attack={d}");
 	}
 
 	public void TriggerAttack()
 	{
 		if (animator == null) return;
+		// Try explicit trigger name first
 		if (!string.IsNullOrEmpty(attackTrigger) && HasParamTrigger(attackTrigger))
 		{
 			animator.SetTrigger(attackTrigger);
-			if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' TriggerAttack() -> '{attackTrigger}'");
+			Debug.Log($"[SPAnimatorFlags] '{unitName}' TriggerAttack() -> '{attackTrigger}'");
+			return;
 		}
+		// Probe common trigger names like MP
+		string[] candidates = { "Attack", "attack", "Shoot", "shoot", "Fire", "fire" };
+		for (int i = 0; i < candidates.Length; i++)
+		{
+			var tr = candidates[i];
+			if (HasParamTrigger(tr))
+			{
+				animator.SetTrigger(tr);
+				Debug.Log($"[SPAnimatorFlags] '{unitName}' TriggerAttack() -> '{tr}' (auto)");
+				return;
+			}
+		}
+		Debug.Log($"[SPAnimatorFlags] '{unitName}' TriggerAttack() -> no trigger found on Animator");
 	}
 
 	public void TriggerHit()
@@ -233,6 +273,30 @@ public class SPAnimatorFlags : MonoBehaviour
 		if (!HasParamFloat(name)) return false;
 		animator.SetFloat(name, value);
 		return true;
+	}
+	
+	public bool IsMoving => lastMoving;
+
+	private bool TryCrossFade(string stateName, float duration)
+	{
+		if (string.IsNullOrEmpty(stateName) || animator == null) return false;
+		if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' TryCrossFade('{stateName}', {duration:F2})");
+		int h1 = Animator.StringToHash(stateName);
+		int h2 = Animator.StringToHash("Base Layer." + stateName);
+		if (animator.HasState(0, h1))
+		{
+			animator.CrossFade(h1, duration);
+			if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade OK by '{stateName}'");
+			return true;
+		}
+		if (animator.HasState(0, h2))
+		{
+			animator.CrossFade(h2, duration);
+			if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade OK by 'Base Layer.{stateName}'");
+		 return true;
+		}
+		if (verboseLogs) Debug.Log($"[SPAnimatorFlags] '{unitName}' CrossFade FAIL, state not found");
+		return false;
 	}
 }
 

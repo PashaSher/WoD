@@ -168,6 +168,9 @@ public class SPArmySpawner : MonoBehaviour
 				// Disable multiplayer mover if present to avoid RTDB usage in SP.
 				var mpMover = visualTr.GetComponent<UnitDragMover>();
 				if (mpMover != null) mpMover.enabled = false;
+				// Disable multiplayer auto-attack to prevent double handlers in SP.
+				var mpAutoAttack = visualTr.GetComponent<UnitAutoAttack>();
+				if (mpAutoAttack != null) mpAutoAttack.enabled = false;
 				// Ensure collider for pointer events
 				var col2d = visualTr.GetComponent<Collider2D>();
 				if (col2d == null)
@@ -190,6 +193,9 @@ public class SPArmySpawner : MonoBehaviour
 				// Auto-attack scanner (SP)
 				if (visualTr.GetComponent<SPUnitAutoAttack>() == null)
 					visualTr.gameObject.AddComponent<SPUnitAutoAttack>();
+				// Animator event bridge for firing via animation
+				if (visualTr.GetComponent<SPAttackEvents>() == null)
+					visualTr.gameObject.AddComponent<SPAttackEvents>();
 				// Add SP mover last
 				var spMover = visualTr.GetComponent<SPUnitDragMover>();
 				if (spMover == null) spMover = visualTr.gameObject.AddComponent<SPUnitDragMover>();

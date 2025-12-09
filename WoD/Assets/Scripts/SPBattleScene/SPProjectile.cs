@@ -12,6 +12,12 @@ public class SPProjectile : MonoBehaviour
 	private Vector3 target;
 	private Vector3 _prevPos;
 	private bool _hitApplied;
+	private bool _dying;
+	private float _spawnTime;
+
+	// Взрыв/эффект уничтожения
+	private SpriteRenderer _explosionRenderer;
+	private GameObject _explosionGo;
 
 	public void Init(Unit owner, ProjectileStats stats, Vector2 start, Vector2 target)
 	{
@@ -24,11 +30,25 @@ public class SPProjectile : MonoBehaviour
 			transform.localScale = new Vector3(Mathf.Abs(stats.scale.x), Mathf.Abs(stats.scale.y), 1f);
 		transform.position = new Vector3(start.x, start.y, this.target.z);
 		_prevPos = transform.position;
+		_spawnTime = Time.time;
+		// One-time init log (safe, lightweight)
+		try
+		{
+			Debug.Log($"[SPProjectile] Init owner={(owner ? owner.name : "null")}, start={transform.position}, target={this.target}, speed={(stats ? stats.speed : 0f)}, dmg={(stats ? stats.damage : 0)}, splash={(stats ? stats.splashRadius : 0f)}, sprite={(stats && stats.sprite ? stats.sprite.name : "null")}");
+		}
+		catch { }
 	}
 
 	private void Update()
 	{
-		if (!stats || _hitApplied) return;
+		if (!stats || _hitApplied || _dying) return;
+
+		// Страховка по времени жизни
+		if (stats.maxLifetime > 0f && (Time.time - _spawnTime) >= stats.maxLifetime)
+		{
+			BeginDeath();
+			return;
+		}
 		float step = Mathf.Max(0.01f, stats.speed) * Time.deltaTime;
 
 		Vector2 from = _prevPos;
@@ -56,9 +76,10 @@ public class SPProjectile : MonoBehaviour
 					if (!u) continue;
 					if (u == owner) continue;
 					if (owner && u.host == owner.host) continue; // только враги
-					if (u.isPassive) { Finish(); return; }
+					if (u.isPassive) { try { Debug.Log($"[SPProjectile] Hit passive '{u.name}' -> destroy"); } catch {} BeginDeath(); return; }
 					ApplyDamageAt(hits[i].point);
-					Finish();
+					try { Debug.Log($"[SPProjectile] Hit '{u.name}' at {hits[i].point}"); } catch {}
+					BeginDeath();
 					return;
 				}
 				catch { }
@@ -67,7 +88,7 @@ public class SPProjectile : MonoBehaviour
 
 		transform.position = to;
 		_prevPos = transform.position;
-		if (Vector2.Distance(transform.position, target) <= 0.02f) Finish();
+		if (Vector2.Distance(transform.position, target) <= 0.02f) OnArrived();
 	}
 
 	private void ApplyDamageAt(Vector2 point)
@@ -114,10 +135,74 @@ public class SPProjectile : MonoBehaviour
 		}
 	}
 
-	private void Finish()
+	private void OnArrived()
 	{
-		Destroy(gameObject);
+		try { Debug.Log($"[SPProjectile] Arrived at {transform.position}"); } catch {}
+		if (!_hitApplied) ApplyDamageAt(transform.position);
+		BeginDeath();
+	}
+
+	private void BeginDeath()
+	{
+		if (_dying) return;
+		_dying = true;
+
+		// отключаем спрайт снаряда сразу
+		if (spriteRenderer != null) spriteRenderer.enabled = false;
+
+		// рисуем спрайт взрыва поверх (как в MP)
+		if (stats != null && stats.destroySprite != null)
+		{
+			if (_explosionRenderer == null)
+			{
+				_explosionGo = new GameObject("Explosion");
+				_explosionGo.transform.position = transform.position;
+				_explosionGo.transform.rotation = Quaternion.identity;
+				_explosionGo.transform.localScale = Vector3.one;
+				_explosionRenderer = _explosionGo.AddComponent<SpriteRenderer>();
+				if (spriteRenderer != null)
+				{
+					_explosionRenderer.sortingLayerID = spriteRenderer.sortingLayerID;
+					_explosionRenderer.sortingOrder = spriteRenderer.sortingOrder + 1;
+					_explosionRenderer.color = spriteRenderer.color;
+				}
+				_explosionRenderer.flipX = false;
+				_explosionRenderer.flipY = false;
+			}
+			else
+			{
+				_explosionGo.transform.position = transform.position;
+				_explosionGo.transform.rotation = Quaternion.identity;
+				_explosionRenderer.flipX = false;
+				_explosionRenderer.flipY = false;
+			}
+			_explosionRenderer.sprite = stats.destroySprite;
+			_explosionRenderer.enabled = true;
+		}
+
+		// маштаб вспышки
+		if (stats != null && stats.destroyScale != Vector2.zero)
+		{
+			float sx = Mathf.Abs(stats.destroyScale.x);
+			float sy = Mathf.Abs(stats.destroyScale.y);
+			if (_explosionGo != null)
+				_explosionGo.transform.localScale = new Vector3(sx, sy, 1f);
+			else
+				transform.localScale = new Vector3(sx, sy, 1f);
+		}
+
+		StartCoroutine(DeathRoutine());
+	}
+
+	private System.Collections.IEnumerator DeathRoutine()
+	{
+		float dur = (stats != null && stats.destroyDuration > 0f) ? stats.destroyDuration : 1f;
+		yield return new WaitForSeconds(dur);
+		if (_explosionGo) Destroy(_explosionGo);
+		if (this) Destroy(gameObject);
 	}
 }
+
+
 
 
