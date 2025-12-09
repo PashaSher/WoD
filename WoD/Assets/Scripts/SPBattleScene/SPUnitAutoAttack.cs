@@ -291,31 +291,44 @@ public class SPUnitAutoAttack : MonoBehaviour
 	private Vector3 GetTargetPoint(Unit target)
 	{
 		if (!target) return Vector3.zero;
-		Transform vis = target.transform.Find("Visual");
-		Collider2D bestCol = null;
+		// 1) Пытаемся найти любой Collider2D у цели (у Visual или у детей/корня)
+		Collider2D col = null;
+		var vis = target.transform.Find("Visual");
 		if (vis)
 		{
-			bestCol = vis.GetComponent<Collider2D>();
-			if (!bestCol)
+			col = vis.GetComponent<Collider2D>();
+			if (!col)
 			{
 				var cols = vis.GetComponentsInChildren<Collider2D>(true);
-				if (cols != null && cols.Length > 0) bestCol = cols[0];
-			}
-			if (!bestCol)
-			{
-				var sr = vis.GetComponent<SpriteRenderer>();
-				if (sr && sr.sprite)
-				{
-					var b = sr.bounds;
-					return new Vector3(b.center.x, b.center.y, target.transform.position.z);
-				}
+				if (cols != null && cols.Length > 0) col = cols[0];
 			}
 		}
-		if (bestCol != null)
+		if (!col)
 		{
-			var b = bestCol.bounds;
+			// не нашли на Visual — берём на самом target или его детях
+			col = target.GetComponent<Collider2D>();
+			if (!col)
+			{
+				var cols = target.GetComponentsInChildren<Collider2D>(true);
+				if (cols != null && cols.Length > 0) col = cols[0];
+			}
+		}
+		if (col)
+		{
+			var b = col.bounds;
 			return new Vector3(b.center.x, b.center.y, target.transform.position.z);
 		}
+		// 2) Если нет коллайдера — берём центр спрайта Visual
+		if (vis)
+		{
+			var sr = vis.GetComponent<SpriteRenderer>();
+			if (sr && sr.sprite)
+			{
+				var b = sr.bounds;
+				return new Vector3(b.center.x, b.center.y, target.transform.position.z);
+			}
+		}
+		// 3) Фоллбек — позиция трансформа цели
 		return target.transform.position;
 	}
 }

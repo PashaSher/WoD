@@ -77,8 +77,21 @@ public class SPProjectile : MonoBehaviour
 					if (u == owner) continue;
 					if (owner && u.host == owner.host) continue; // только враги
 					if (u.isPassive) { try { Debug.Log($"[SPProjectile] Hit passive '{u.name}' -> destroy"); } catch {} BeginDeath(); return; }
-					ApplyDamageAt(hits[i].point);
-					try { Debug.Log($"[SPProjectile] Hit '{u.name}' at {hits[i].point}"); } catch {}
+					// Если это одиночный снаряд (без сплэша) — наносим урон прямо по Unit, которого задел Linecast.
+					// Это надёжнее, чем пересчитывать ближайшего к точке попадания (у юнитов центр transform может быть далеко от хитбокса).
+					if (stats != null && stats.splashRadius <= 0f)
+					{
+						_hitApplied = true;
+						int dmg = Mathf.Max(1, stats.damage);
+						u.TakeDamage(dmg);
+						try { Debug.Log($"[SPProjectile] Hit '{u.name}' at {hits[i].point} -> dmg={dmg}"); } catch {}
+					}
+					else
+					{
+						// Сплэш — рассчитаем урон по радиусу
+						ApplyDamageAt(hits[i].point);
+						try { Debug.Log($"[SPProjectile] Hit '{u.name}' at {hits[i].point}"); } catch {}
+					}
 					BeginDeath();
 					return;
 				}
@@ -117,16 +130,31 @@ public class SPProjectile : MonoBehaviour
 		}
 		else
 		{
-			// одиночная цель — ближайший в малом радиусе
+			// одиночная цель — ближайший в малом радиусе (берём центр коллайдера, если есть)
 			float bestSqr = float.PositiveInfinity;
 			Unit best = null;
+			Vector2 bestCenter = point;
 			foreach (var u in all)
 			{
 				try
 				{
 					if (!u || (owner && u.host == owner.host)) continue;
 					if (u.isPassive) continue;
-					float sqr = ((Vector2)u.transform.position - point).sqrMagnitude;
+					// центр хитбокса (если есть), иначе transform.position
+					Vector3 center3 = u.transform.position;
+					var vis = u.transform.Find("Visual");
+					if (vis)
+					{
+						var col = vis.GetComponent<Collider2D>();
+						if (!col)
+						{
+							var cols = vis.GetComponentsInChildren<Collider2D>(true);
+							if (cols != null && cols.Length > 0) col = cols[0];
+						}
+						if (col) center3 = col.bounds.center;
+					}
+					Vector2 center = new Vector2(center3.x, center3.y);
+					float sqr = (center - point).sqrMagnitude;
 					if (sqr < bestSqr) { bestSqr = sqr; best = u; }
 				}
 				catch { }
