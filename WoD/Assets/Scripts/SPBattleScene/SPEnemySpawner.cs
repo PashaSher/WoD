@@ -211,6 +211,15 @@ public class SPEnemySpawner : MonoBehaviour
 				s.x = Mathf.Abs(s.x);
 				visualTr.localScale = s;
 
+				// Animator flags for SP (move/attack triggers) - add BEFORE mover if mover existed
+				if (anim != null && visualTr.GetComponent<SPAnimatorFlags>() == null)
+				{
+					visualTr.gameObject.AddComponent<SPAnimatorFlags>();
+				}
+				// Auto-attack scanner (SP)
+				if (visualTr.GetComponent<SPUnitAutoAttack>() == null)
+					visualTr.gameObject.AddComponent<SPUnitAutoAttack>();
+
 				var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
 				if (ring != null) ring.color = Color.blue;
 

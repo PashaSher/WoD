@@ -11,6 +11,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 	[SerializeField] private float firstShotDelaySeconds = 0.2f;
 
 	private Unit unit;
+	private SPAnimatorFlags animFlags;
 	private float nextScanTime;
 	private float nextShotTime;
 	private bool  wasAttacking;
@@ -19,6 +20,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 	private void Awake()
 	{
 		unit = GetComponentInParent<Unit>();
+		animFlags = GetComponent<SPAnimatorFlags>() ?? GetComponentInChildren<SPAnimatorFlags>();
 	}
 
 	private void Update()
@@ -70,6 +72,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 		}
 		currentTarget = shouldAttack ? best : null;
 		SetAttacking(shouldAttack);
+		if (animFlags != null) animFlags.SetAttacking(shouldAttack);
 		wasAttacking = shouldAttack;
 	}
 
@@ -77,6 +80,7 @@ public class SPUnitAutoAttack : MonoBehaviour
 	{
 		if (unit == null || unit.projectileStats == null) return;
 		if (!unit.IsAttacking) return;
+		if (animFlags != null) animFlags.TriggerAttack();
 
 		// Точка вылета
 		var vis = unit.transform.Find("Visual");

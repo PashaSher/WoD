@@ -159,17 +159,16 @@ public class SPArmySpawner : MonoBehaviour
                 s.x = -Mathf.Abs(s.x);
                 visualTr.localScale = s;
 
-                var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
-                if (ring != null) ring.color = Color.cyan;
+				var ring = go.transform.Find("SelectionRing")?.GetComponent<SpriteRenderer>();
+				if (ring != null) { ring.color = Color.cyan; }
 
                 go.name = $"{type}_SP_{spawned}";
                 spawned++;
 
-				// Attach local drag mover (single-player) onto clickable child.
-				// 1) Disable multiplayer mover if present to avoid RTDB usage in SP.
+				// Disable multiplayer mover if present to avoid RTDB usage in SP.
 				var mpMover = visualTr.GetComponent<UnitDragMover>();
 				if (mpMover != null) mpMover.enabled = false;
-				// 2) Ensure collider for pointer events
+				// Ensure collider for pointer events
 				var col2d = visualTr.GetComponent<Collider2D>();
 				if (col2d == null)
 				{
@@ -182,7 +181,16 @@ public class SPArmySpawner : MonoBehaviour
 						cc.radius = 0.4f;
 					}
 				}
-				// 3) Add SP mover if missing
+				// Animator flags (if Animator present) - add BEFORE mover so mover can find it in Awake
+				if (anim != null)
+				{
+					if (visualTr.GetComponent<SPAnimatorFlags>() == null)
+						visualTr.gameObject.AddComponent<SPAnimatorFlags>();
+				}
+				// Auto-attack scanner (SP)
+				if (visualTr.GetComponent<SPUnitAutoAttack>() == null)
+					visualTr.gameObject.AddComponent<SPUnitAutoAttack>();
+				// Add SP mover last
 				var spMover = visualTr.GetComponent<SPUnitDragMover>();
 				if (spMover == null) spMover = visualTr.gameObject.AddComponent<SPUnitDragMover>();
 
