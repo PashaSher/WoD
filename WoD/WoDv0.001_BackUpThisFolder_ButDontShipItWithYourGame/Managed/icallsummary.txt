@@ -469,6 +469,7 @@ UnityEngine.Canvas::get_pixelRect_Injected
 UnityEngine.Canvas::get_renderingDisplaySize_Injected
 UnityEngine.Canvas::set_additionalShaderChannels_Injected
 UnityEngine.Canvas::set_overrideSorting_Injected
+UnityEngine.Canvas::set_pixelPerfect_Injected
 UnityEngine.Canvas::set_referencePixelsPerUnit_Injected
 UnityEngine.Canvas::set_renderMode_Injected
 UnityEngine.Canvas::set_scaleFactor_Injected

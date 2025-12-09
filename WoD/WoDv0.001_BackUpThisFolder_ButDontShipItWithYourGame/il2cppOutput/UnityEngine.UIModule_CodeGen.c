@@ -107,6 +107,7 @@ extern void Canvas_set_scaleFactor_m65383E2F466BC670568C9CC1D631FA63911DB095 (vo
 extern void Canvas_get_referencePixelsPerUnit_mE402D29BA765D8AC4BBBBA71A87BEBB8D398432A (void);
 extern void Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30 (void);
 extern void Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75 (void);
+extern void Canvas_set_pixelPerfect_m4610F1B69D813E93BC21F06E0FC4981A509963A5 (void);
 extern void Canvas_get_renderOrder_m4BC79FD8062270F9848DFE38DE6CC578BBF7DFAC (void);
 extern void Canvas_get_overrideSorting_mF0E6E695650194B15D53BB544926756F370CF33B (void);
 extern void Canvas_set_overrideSorting_m155D936A457E7935683894150A0E5DBED2170F54 (void);
@@ -146,6 +147,7 @@ extern void Canvas_set_scaleFactor_Injected_mDE2F684F7391BCB7D6DF49229C67D7F9114
 extern void Canvas_get_referencePixelsPerUnit_Injected_m7991F00B8C372B400BF2D8EC47627BB8546EBA40 (void);
 extern void Canvas_set_referencePixelsPerUnit_Injected_m5D5C7B8A579AB2DF7BC87CBD0EC35F34DA1D29C1 (void);
 extern void Canvas_get_pixelPerfect_Injected_mF71B536C4D6158E5EC32789DD73CF329A90DBD5E (void);
+extern void Canvas_set_pixelPerfect_Injected_m13077ED9EA8EF29FB07B47675D22A55418B50D64 (void);
 extern void Canvas_get_renderOrder_Injected_m0FD3B8BA4815A0E5A32709748DEAC1E7D26AFBCC (void);
 extern void Canvas_get_overrideSorting_Injected_m254545A661B4D5D72D0F9CFBDC1360A6D2183CE9 (void);
 extern void Canvas_set_overrideSorting_Injected_m8D1AF35DA1344FE539E55629268C2B1A32042391 (void);
@@ -168,7 +170,7 @@ extern void UISystemProfilerApi_BeginSample_m6AF893A85204DA2129D9D3D75D8A6EDD329
 extern void UISystemProfilerApi_EndSample_mAFBCEDF8073F3FB0E1644482D909F108DBE11F3D (void);
 extern void UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B (void);
 extern void UISystemProfilerApi_AddMarker_Injected_m283D922C84E040D412F5DC712DE6C81FD05AC87E (void);
-static Il2CppMethodPointer s_methodPointers[162] = 
+static Il2CppMethodPointer s_methodPointers[164] = 
 {
 	NULL,
 	CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF,
@@ -271,6 +273,7 @@ static Il2CppMethodPointer s_methodPointers[162] =
 	Canvas_get_referencePixelsPerUnit_mE402D29BA765D8AC4BBBBA71A87BEBB8D398432A,
 	Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30,
 	Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75,
+	Canvas_set_pixelPerfect_m4610F1B69D813E93BC21F06E0FC4981A509963A5,
 	Canvas_get_renderOrder_m4BC79FD8062270F9848DFE38DE6CC578BBF7DFAC,
 	Canvas_get_overrideSorting_mF0E6E695650194B15D53BB544926756F370CF33B,
 	Canvas_set_overrideSorting_m155D936A457E7935683894150A0E5DBED2170F54,
@@ -310,6 +313,7 @@ static Il2CppMethodPointer s_methodPointers[162] =
 	Canvas_get_referencePixelsPerUnit_Injected_m7991F00B8C372B400BF2D8EC47627BB8546EBA40,
 	Canvas_set_referencePixelsPerUnit_Injected_m5D5C7B8A579AB2DF7BC87CBD0EC35F34DA1D29C1,
 	Canvas_get_pixelPerfect_Injected_mF71B536C4D6158E5EC32789DD73CF329A90DBD5E,
+	Canvas_set_pixelPerfect_Injected_m13077ED9EA8EF29FB07B47675D22A55418B50D64,
 	Canvas_get_renderOrder_Injected_m0FD3B8BA4815A0E5A32709748DEAC1E7D26AFBCC,
 	Canvas_get_overrideSorting_Injected_m254545A661B4D5D72D0F9CFBDC1360A6D2183CE9,
 	Canvas_set_overrideSorting_Injected_m8D1AF35DA1344FE539E55629268C2B1A32042391,
@@ -333,7 +337,7 @@ static Il2CppMethodPointer s_methodPointers[162] =
 	UISystemProfilerApi_AddMarker_mB0E292213D18AE3770165011E265A57B17FCF90B,
 	UISystemProfilerApi_AddMarker_Injected_m283D922C84E040D412F5DC712DE6C81FD05AC87E,
 };
-static const int32_t s_InvokerIndices[162] = 
+static const int32_t s_InvokerIndices[164] = 
 {
 	-1,
 	16525,
@@ -436,6 +440,7 @@ static const int32_t s_InvokerIndices[162] =
 	16525,
 	12424,
 	16220,
+	12118,
 	16350,
 	16220,
 	12118,
@@ -475,6 +480,7 @@ static const int32_t s_InvokerIndices[162] =
 	27469,
 	24268,
 	27011,
+	24263,
 	27189,
 	27011,
 	24263,
@@ -502,7 +508,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UIModule_CodeGenModule = 
 {
 	"UnityEngine.UIModule.dll",
-	162,
+	164,
 	s_methodPointers,
 	0,
 	NULL,

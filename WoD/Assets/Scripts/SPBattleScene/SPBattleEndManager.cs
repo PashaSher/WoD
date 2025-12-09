@@ -1,3 +1,6 @@
+using System.Threading.Tasks;
+using Firebase.Auth;
+using Firebase.Database;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,10 +28,12 @@ public class SPBattleEndManager : MonoBehaviour
 	private float nextCheckTime;
 	private bool finished;
 	private bool hadAnyUnits;
+	private FirebaseAuth auth;
 
 	private void Awake()
 	{
 		if (verboseLogs) Debug.Log("[SPBattleEnd] Awake()");
+		try { auth = FirebaseAuth.DefaultInstance; } catch { auth = null; }
 		EnsureResultUI();
 		HidePanel();
 		WireButton();
@@ -83,6 +88,7 @@ public class SPBattleEndManager : MonoBehaviour
 		bool localWins = (hostAlive > 0 && clientAlive == 0);
 		if (verboseLogs) Debug.Log($"[SPBattleEnd] hostAlive={hostAlive} clientAlive={clientAlive} => localWins={localWins}");
 		ShowResult(localWins ? "You Win" : "You Lose");
+		_ = TryUpdateWins(localWins);
 		finished = true;
 	}
 
@@ -101,6 +107,37 @@ public class SPBattleEndManager : MonoBehaviour
 	private void HidePanel()
 	{
 		if (resultPanel != null) resultPanel.SetActive(false);
+	}
+
+	private async Task TryUpdateWins(bool won)
+	{
+		if (!won) return;
+		try
+		{
+			var user = auth?.CurrentUser;
+			if (user == null) return;
+
+			var root = FirebaseDatabase.DefaultInstance.RootReference;
+			var winsRef = root.Child("users").Child(user.UserId).Child("wins");
+
+			await winsRef.RunTransaction(mutable =>
+			{
+				long cur = 0;
+				try
+				{
+					if (mutable.Value is long l) cur = l;
+					else if (mutable.Value is int i) cur = i;
+					else if (mutable.Value is string s && long.TryParse(s, out var ls)) cur = ls;
+				}
+				catch { cur = 0; }
+				mutable.Value = cur + 1;
+				return TransactionResult.Success(mutable);
+			});
+		}
+		catch (System.Exception ex)
+		{
+			Debug.LogWarning($"[SPBattleEnd] wins update failed: {ex.Message}");
+		}
 	}
 
 	private void WireButton()
