@@ -30967,7 +30967,7 @@ struct Style_t2B2F9215D2F707AE604505F3512EE3207D4C5BE1_marshaled_com
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotation;
 };
-struct U3CMoveUnitU3Ed__28_t041750C8F21CCD6F0B5250E313F604CE3F70A779  : public RuntimeObject
+struct U3CMoveUnitU3Ed__33_tC37423C186FA1B52286B08F40D6BCAA2BD9E75F1  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -47132,6 +47132,11 @@ struct SPEnemyBot_t50F1440E780F2A103F49857660E3F82859630B02  : public MonoBehavi
 	float ___farTargetProbability;
 	float ___maintainRangeMinFactor;
 	float ___maintainRangeMaxFactor;
+	bool ___approachAlwaysWhenFar;
+	float ___approachBeyondFactor;
+	bool ___approachToRangeInOneGo;
+	float ___approachStopMinFactor;
+	float ___approachStopMaxFactor;
 	float ___crowdRadius;
 	int32_t ___crowdThreshold;
 	float ___crowdStayProbability;
@@ -59264,7 +59269,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize7254 = { sizeof(U3CTryUpdate
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize7255;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7255 = { sizeof(SPBattleEndManager_t6274081BCB21935343082E6B3456540FC5C7052C), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize7256;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize7256 = { sizeof(U3CMoveUnitU3Ed__28_t041750C8F21CCD6F0B5250E313F604CE3F70A779), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize7256 = { sizeof(U3CMoveUnitU3Ed__33_tC37423C186FA1B52286B08F40D6BCAA2BD9E75F1), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize7257;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize7257 = { sizeof(SPEnemyBot_t50F1440E780F2A103F49857660E3F82859630B02), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize7258;

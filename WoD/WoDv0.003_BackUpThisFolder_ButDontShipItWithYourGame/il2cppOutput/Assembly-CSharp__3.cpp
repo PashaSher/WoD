@@ -3069,6 +3069,11 @@ struct SPEnemyBot_t50F1440E780F2A103F49857660E3F82859630B02  : public MonoBehavi
 	float ___farTargetProbability;
 	float ___maintainRangeMinFactor;
 	float ___maintainRangeMaxFactor;
+	bool ___approachAlwaysWhenFar;
+	float ___approachBeyondFactor;
+	bool ___approachToRangeInOneGo;
+	float ___approachStopMinFactor;
+	float ___approachStopMaxFactor;
 	float ___crowdRadius;
 	int32_t ___crowdThreshold;
 	float ___crowdStayProbability;
