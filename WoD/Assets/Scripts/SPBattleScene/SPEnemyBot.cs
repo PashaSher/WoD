@@ -10,9 +10,17 @@ public class SPEnemyBot : MonoBehaviour
 {
 	[Header("Behavior")]
 	[SerializeField] private float thinkIntervalSeconds = 1.0f;
-	[SerializeField] private float stepDistance = 1.0f;          // how far to move per command
+	[SerializeField] private float stepDistance = 1.0f;          // legacy default step if min/max are zero
 	[SerializeField] private float stopDistance = 0.05f;          // movement epsilon
-	[SerializeField] private float perUnitCooldownSeconds = 2.0f; // min interval per unit between moves
+	[SerializeField] private float perUnitCooldownSeconds = 20.0f; // запрет двигаться после хода (сек)
+
+	[Header("Step Randomization")]
+	[SerializeField, Tooltip("Минимальная длина шага (мировые ед.)")]
+	private float stepDistanceMin = 0.4f;
+	[SerializeField, Tooltip("Максимальная длина шага (мировые ед.)")]
+	private float stepDistanceMax = 1.2f;
+	[SerializeField, Range(0f, 1f), Tooltip("Малая вероятность вместо ближней цели ориентироваться на самую дальнюю")]
+	private float farTargetProbability = 0.10f;
 
 		[Header("Tactics")]
 		[SerializeField, Tooltip("Доля от attackRange, ниже которой юнит начинает отступать")]
@@ -36,6 +44,7 @@ public class SPEnemyBot : MonoBehaviour
 	private float nextThinkTime;
 	private readonly Dictionary<Unit, float> unitCooldownUntil = new();
 	private readonly Dictionary<Unit, bool> unitApproachPref = new();
+	private readonly Dictionary<Unit, float> unitBaseStep = new();
 
 	private void Update()
 	{
@@ -67,20 +76,21 @@ public class SPEnemyBot : MonoBehaviour
 
 					// Цель: ближайший чёрный (для оценки дистанции).
 				Vector3 from = u.transform.position;
-				var target = FindNearestPlayerUnit(from);
+				var nearest = FindNearestPlayerUnit(from);
 
 					// Решение о движении:
 					// 1) Если вокруг много врагов — с вероятностью (1 - crowdStayProbability) убегаем от их центра, иначе остаёмся.
 					// 2) Иначе: если слишком близко к цели (< minFactor * attackRange) — отходим назад.
 					// 3) Если далеко — танки всегда подходят, половина прочих подходит, чтобы войти в радиус атаки.
 					Vector3 moveDir = Vector3.zero;
+					bool isTank = IsTank(u);
 
 					// толпа вокруг?
 					Vector3 enemiesCentroid;
 					int enemyCount = CountEnemiesAndCentroidAround(from, crowdRadius, out enemiesCentroid);
 					if (enemyCount >= Mathf.Max(1, crowdThreshold))
 					{
-						bool flee = Random.value > Mathf.Clamp01(crowdStayProbability); // 30% по умолчанию
+						bool flee = !isTank && (Random.value > Mathf.Clamp01(crowdStayProbability)); // танк не отступает
 						if (flee)
 						{
 							Vector3 away = (from - enemiesCentroid);
@@ -88,15 +98,17 @@ public class SPEnemyBot : MonoBehaviour
 							if (away.sqrMagnitude > 0.0001f) moveDir = away.normalized;
 						}
 					}
-					else if (target)
+					else if (nearest)
 					{
 						float range = Mathf.Max(0.01f, u.attackRange > 0 ? u.attackRange : 1.5f);
-						Vector3 to = target.transform.position;
+						// Выбор опорной цели для направления: обычно ближайший, иногда — самый дальний
+						var approachRef = (Random.value < Mathf.Clamp01(farTargetProbability)) ? FindFarthestPlayerUnit(from) : nearest;
+						Vector3 to = approachRef ? approachRef.transform.position : nearest.transform.position;
 						float dist = Vector2.Distance(from, to);
 						float minDist = range * Mathf.Clamp01(maintainRangeMinFactor);
 
 						// слишком близко -> отходим
-						if (dist < minDist)
+						if (!isTank && dist < minDist)
 						{
 							Vector3 away = (from - to);
 							away.z = 0f;
@@ -105,7 +117,6 @@ public class SPEnemyBot : MonoBehaviour
 						else if (dist > range)
 						{
 							// цель вне радиуса — половина юнитов подходит, танк подходит всегда
-							bool isTank = IsTank(u);
 							bool shouldApproach = isTank || GetApproachPreference(u);
 							if (shouldApproach)
 							{
@@ -119,13 +130,47 @@ public class SPEnemyBot : MonoBehaviour
 					// Выполнить шаг, если есть направление
 					if (moveDir.sqrMagnitude > 0.0001f)
 					{
-						Vector3 dest = from + moveDir * Mathf.Max(0.01f, stepDistance);
+						// Персональная длина шага + рандомная коррекция от ситуации
+						float baseStep = GetUnitBaseStep(u);
+						float stepJitter = Random.Range(0.8f, 1.3f);
+						float stepLen = Mathf.Max(0.01f, baseStep * stepJitter);
+
+						// Стараться не перелетать целевой 'коридор' стрельбы: двигаемся к границе зоны атаки
+						// Для подхода: останавливаться на ~[0.85..1.0]*range от цели
+						// Для отхода: стремиться увеличить дистанцию как минимум до minDist
+						float range = Mathf.Max(0.01f, u.attackRange > 0 ? u.attackRange : 1.5f);
+						float capLen = stepLen;
+						if (nearest)
+						{
+							var toPos = nearest.transform.position;
+							float distNow = Vector2.Distance(from, toPos);
+							if (Vector3.Dot(moveDir, (toPos - from)) > 0f)
+							{
+								// Идём к цели: ограничим шаг, чтобы не зайти слишком глубоко
+								float desiredStop = range * Random.Range(0.85f, 1.00f);
+								float need = Mathf.Max(0f, distNow - desiredStop);
+								capLen = Mathf.Min(stepLen, need + 0.1f);
+							}
+							else
+							{
+								// Отходим от цели: стараемся выйти на безопасную дистанцию
+								float minDist = range * Mathf.Clamp01(maintainRangeMinFactor);
+								float need = Mathf.Max(0f, minDist - distNow);
+								capLen = Mathf.Min(stepLen, need + 0.1f);
+							}
+						}
+
+						if (capLen <= 0.01f) goto SkipMove; // уже достаточно
+
+						Vector3 dest = from + moveDir * capLen;
 						dest = ClampToCameraBounds(dest, screenMargin); // не выходить за экран
 						dest.z = from.z;
 						if (verboseLogs) Debug.Log($"[SPEnemyBot] Move '{u.name}' -> {dest} (dir={moveDir}, enemiesNear={enemyCount})");
 						StartCoroutine(MoveUnit(u, dest));
 						unitCooldownUntil[u] = Time.time + Mathf.Max(0.1f, perUnitCooldownSeconds);
 					}
+
+					SkipMove: ;
 			}
 			catch { }
 		}
@@ -139,6 +184,17 @@ public class SPEnemyBot : MonoBehaviour
 			}
 			catch { return false; }
 		}
+
+	private float GetUnitBaseStep(Unit u)
+	{
+		if (!u) return Mathf.Max(0.01f, stepDistance);
+		if (unitBaseStep.TryGetValue(u, out var s)) return s;
+		float minS = (stepDistanceMin > 0.001f) ? stepDistanceMin : Mathf.Max(0.01f, stepDistance * 0.6f);
+		float maxS = (stepDistanceMax > 0.001f) ? stepDistanceMax : Mathf.Max(minS + 0.01f, stepDistance * 1.4f);
+		float pick = Random.Range(minS, maxS);
+		unitBaseStep[u] = pick;
+		return pick;
+	}
 
 	private bool GetApproachPreference(Unit u)
 		{
@@ -180,6 +236,28 @@ public class SPEnemyBot : MonoBehaviour
 				if (u.health <= 0) continue;
 				float sqr = (u.transform.position - pos).sqrMagnitude;
 				if (sqr < bestSqr) { bestSqr = sqr; best = u; }
+			}
+			catch { }
+		}
+		return best;
+	}
+
+	private Unit FindFarthestPlayerUnit(Vector3 pos)
+	{
+		Unit best = null;
+		float bestSqr = -1f;
+		var all = UnityEngine.Object.FindObjectsByType<Unit>(UnityEngine.FindObjectsInactive.Exclude, UnityEngine.FindObjectsSortMode.None);
+		for (int i = 0; i < all.Length; i++)
+		{
+			var u = all[i];
+			try
+			{
+				if (!u) continue;
+				if (!u.host) continue;       // player black only
+				if (u.isPassive) continue;
+				if (u.health <= 0) continue;
+				float sqr = (u.transform.position - pos).sqrMagnitude;
+				if (sqr > bestSqr) { bestSqr = sqr; best = u; }
 			}
 			catch { }
 		}

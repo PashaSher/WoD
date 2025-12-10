@@ -42,6 +42,44 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996794279208:android:3773a232dba1bd629cdc1d",
+        "android_client_info": {
+          "package_name": "com.solina.wod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996794279208-6prh9vojd9rsu9o3a5t1po7b8rvdbkai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solina.wod",
+            "certificate_hash": "9642ddc1a045b7743b9362b9223f5ee4546dfb27"
+          }
+        },
+        {
+          "client_id": "996794279208-c63uslekfsda1bludt5brlte2ov5jilf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4i-uGVpqGNSzQKFF2msT3TdwwiTlPYRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996794279208-c63uslekfsda1bludt5brlte2ov5jilf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2638490693624676~6946724283"
     }
   ],
   "configuration_version": "1"

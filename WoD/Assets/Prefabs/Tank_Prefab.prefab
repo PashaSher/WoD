@@ -55,6 +55,8 @@ MonoBehaviour:
   attackRange: 0
   moveSpeed: 0
   maxHP: 0
+  isStationary: 0
+  isPassive: 0
   fireRate: 0
   accuracy: 0
   accuracySpread: 0
@@ -183,6 +185,7 @@ GameObject:
   - component: {fileID: 8617318314918328282}
   - component: {fileID: 6104956324170563442}
   - component: {fileID: 2283548503202754918}
+  - component: {fileID: 7896561759641506898}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -404,6 +407,24 @@ MonoBehaviour:
   projectileSpawn: {fileID: 0}
   startOffset: {x: 0.25, y: 0.1, z: 0}
   firstShotDelaySeconds: 0.2
+--- !u!114 &7896561759641506898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162641991907183179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51cdd12d8ff8a854483fc00a4f47cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SPUnitAutoAttack
+  scanIntervalSeconds: 0.25
+  firstShotDelaySeconds: 0.2
+  useAnimationEvents: 1
+  projectileSpawn: {fileID: 0}
+  startOffset: {x: 0.25, y: 0.1, z: 0}
+  debugLogs: 0
 --- !u!1 &5768184420706309098
 GameObject:
   m_ObjectHideFlags: 0
