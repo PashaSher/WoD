@@ -33,7 +33,11 @@ public class SPUnitAutoAttack : MonoBehaviour
 	{
 		// Во время расстановки — не атакуем
 		if (BattlePlacementState.IsPlacementActive) { SetAttacking(false); wasAttacking = false; return; }
-		if (unit == null || unit.moveSpeed < 0.001f) { if (debugLogs) Debug.Log("[SPUnitAutoAttack] No unit or moveSpeed < eps -> skip"); return; }
+		if (unit == null) { if (debugLogs) Debug.Log("[SPUnitAutoAttack] No unit -> skip"); return; }
+		// Разрешаем стационарным (турелям) стрелять при нулевой скорости
+		bool isTurret = false;
+		try { isTurret = unit.isStationary || (!string.IsNullOrEmpty(unit.unitType) && unit.unitType.Contains("Turret")); } catch { }
+		if (!isTurret && unit.moveSpeed < 0.001f) { if (debugLogs) Debug.Log("[SPUnitAutoAttack] moveSpeed < eps and not stationary -> skip"); return; }
 		// Запрет атаки во время движения (как в MP — стреляем стоя)
 		if (animFlags != null && animFlags.IsMoving) { if (debugLogs) Debug.Log($"[SPUnitAutoAttack] '{unit.name}' Moving -> block attack"); SetAttacking(false); wasAttacking = false; return; }
 		if (Time.time < nextScanTime) { return; }

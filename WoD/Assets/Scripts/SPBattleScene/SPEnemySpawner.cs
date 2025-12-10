@@ -17,7 +17,7 @@ public class SPEnemySpawner : MonoBehaviour
 	[SerializeField] private Transform unitsParent;
 
 	[Header("Generation")]
-	[SerializeField] private UnitType[] allowedTypes = new[] { UnitType.Rifleman, UnitType.Grenader, UnitType.Sniper, UnitType.Tank };
+	[SerializeField] private UnitType[] allowedTypes = new[] { UnitType.Rifleman, UnitType.Grenader, UnitType.Sniper, UnitType.Tank, UnitType.Turret };
 	[SerializeField] private float spawnMargin = 1.2f; // keep off edges a little
 	[SerializeField] private int maxPlacementAttempts = 10;
 	[SerializeField] private float minSpacing = 0.8f; // simple non-overlap guard

@@ -27514,7 +27514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SPBattleEndManager__ctor_mAC60F92D9E6529
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 61149
+// Method Definition Index: 61150
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27523,7 +27523,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Id
 		return L_0;
 	}
 }
-// Method Definition Index: 61145
+// Method Definition Index: 61146
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_AuthCode_m086556E7DADF3850F2A70EC022F5BF9870DAAE34_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27532,7 +27532,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Au
 		return L_0;
 	}
 }
-// Method Definition Index: 77005
+// Method Definition Index: 77006
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DatabaseError_tFD978352951107742E3BC2F2D2BA135C388722D9* ValueChangedEventArgs_get_DatabaseError_m60546FE44C0504634CAF170C875255CDB6E19798_inline (ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27540,7 +27540,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DatabaseError_tFD978352951107742E
 		return L_0;
 	}
 }
-// Method Definition Index: 77003
+// Method Definition Index: 77004
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ValueChangedEventArgs_get_Snapshot_mBCD854B17AC08A3720E4CEE6333AD156514B3885_inline (ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27563,7 +27563,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FirebaseSessionManager_tF388620D0
 		return L_0;
 	}
 }
-// Method Definition Index: 76047
+// Method Definition Index: 76048
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppOptions_set_DatabaseUrl_m50A56D4AFD426801574A5008562EA3683E8516C9_inline (AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -27573,7 +27573,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AppOptions_set_DatabaseUrl_m
 		return;
 	}
 }
-// Method Definition Index: 76048
+// Method Definition Index: 76049
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppOptions_get_AppId_m4487D55B87BFDEBF06E4C946CA8BB8D6F2763D9B_inline (AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27581,7 +27581,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppOptions_get_AppId_m4
 		return L_0;
 	}
 }
-// Method Definition Index: 76056
+// Method Definition Index: 76057
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppOptions_get_ProjectId_m046C1AA401A3A455F57C805273D4B35F5C8CFB01_inline (AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27589,7 +27589,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AppOptions_get_ProjectI
 		return L_0;
 	}
 }
-// Method Definition Index: 76046
+// Method Definition Index: 76047
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* AppOptions_get_DatabaseUrl_mD70471C397E4022DBBF141396FED531CA8C0C8B4_inline (AppOptions_tC85C010A614E35ED5C64709D909D4525D9DE6D09* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27612,7 +27612,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AdsManager_tE059594BE435B35683118
 		return L_0;
 	}
 }
-// Method Definition Index: 80458
+// Method Definition Index: 80459
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* HttpsCallableResult_get_Data_mE248A2721DAF4F68BC1E31B79A2199BF37C75E2F_inline (HttpsCallableResult_t2FA435FCD334CB21B9890AC3C2CA2FC7650ED42B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27739,7 +27739,7 @@ IL_000c:
 		return L_4;
 	}
 }
-// Method Definition Index: 60803
+// Method Definition Index: 60804
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Unit_get_IsAttacking_m4F41C2D159F9BA2CF70AAB7ADEDFD0B52C93092A_inline (Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* __this, const RuntimeMethod* method) 
 {
 	{

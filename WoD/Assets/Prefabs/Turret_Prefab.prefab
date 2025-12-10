@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8696693687047467008}
   - component: {fileID: 8125635394631895902}
   - component: {fileID: 4816878725419142649}
+  - component: {fileID: 5338805152440570753}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -203,6 +204,24 @@ MonoBehaviour:
   projectileSpawn: {fileID: 0}
   startOffset: {x: 0.25, y: 0.1, z: 0}
   firstShotDelaySeconds: 0
+--- !u!114 &5338805152440570753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619286090483691142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51cdd12d8ff8a854483fc00a4f47cb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SPUnitAutoAttack
+  scanIntervalSeconds: 0.25
+  firstShotDelaySeconds: 0.2
+  useAnimationEvents: 1
+  projectileSpawn: {fileID: 0}
+  startOffset: {x: 0.25, y: 0.1, z: 0}
+  debugLogs: 0
 --- !u!1 &1684952237624007102
 GameObject:
   m_ObjectHideFlags: 0

@@ -68,6 +68,8 @@ public class SPEnemyBot : MonoBehaviour
 				if (!u) continue;
 				if (u.host) continue;             // only blue
 				if (u.isPassive) continue;        // ignore obstacles
+				// не двигаем стационарные объекты (турели/укрепления)
+				if (u.isStationary || IsTurret(u)) continue;
 				if (u.health <= 0) continue;      // dead
 				if (u.moveSpeed <= 0.01f) continue;
 				if (unitCooldownUntil.TryGetValue(u, out var until) && Time.time < until) continue;
@@ -181,6 +183,15 @@ public class SPEnemyBot : MonoBehaviour
 			try
 			{
 				return u != null && !string.IsNullOrEmpty(u.unitType) && u.unitType.Contains("Tank");
+			}
+			catch { return false; }
+		}
+
+	private static bool IsTurret(Unit u)
+		{
+			try
+			{
+				return u != null && !string.IsNullOrEmpty(u.unitType) && u.unitType.Contains("Turret");
 			}
 			catch { return false; }
 		}

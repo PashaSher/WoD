@@ -6361,7 +6361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeExcep
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71397
+// Method Definition Index: 71398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MultiRotationConstraintJob_t8467F525BB382E6383CDC43A1F96DDEFD565D4D0 MultiRotationConstraintJobBinder_1_Create_mDB0AE15181BF140D5EA27DB2DE37B73ACCCA8BA2_gshared (MultiRotationConstraintJobBinder_1_t8AE7E84249AB6F2E2B725F7874985532D0728D6B* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_animator, Il2CppFullySharedGenericStruct* ___1_data, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___2_component, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6588,7 +6588,7 @@ IL_016d:
 		return L_70;
 	}
 }
-// Method Definition Index: 71398
+// Method Definition Index: 71399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiRotationConstraintJobBinder_1_Destroy_m8362E30D9F39784C51BE2A20841F4C3559915EF3_gshared (MultiRotationConstraintJobBinder_1_t8AE7E84249AB6F2E2B725F7874985532D0728D6B* __this, MultiRotationConstraintJob_t8467F525BB382E6383CDC43A1F96DDEFD565D4D0 ___0_job, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6617,7 +6617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiRotationConstraintJobBinder_1_Destr
 		return;
 	}
 }
-// Method Definition Index: 71399
+// Method Definition Index: 71400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiRotationConstraintJobBinder_1__ctor_m68C1E6E8667BB6E6316F9EBBFAF2389ED1E4634A_gshared (MultiRotationConstraintJobBinder_1_t8AE7E84249AB6F2E2B725F7874985532D0728D6B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30384,7 +30384,7 @@ IL_000a:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 71952
+// Method Definition Index: 71953
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t WeightedTransformArray_get_Count_mD90F3A1C0B624BD7B9EE8D22EB71F261034F0F52_inline (WeightedTransformArray_t9C87400A2F017C9E693E7D2B0F3DE12FCA6182D3* __this, const RuntimeMethod* method) 
 {
 	{
