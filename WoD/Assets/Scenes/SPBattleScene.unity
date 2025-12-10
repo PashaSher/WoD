@@ -367,6 +367,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6005b48ba2ca92a42a0493ebf325895a, type: 2}
   - {fileID: 11400000, guid: 3fbdb8feb9bbc25499da5b3ee4ae5f33, type: 2}
   - {fileID: 11400000, guid: f1e45fa1f4d2d88468a9222f5846dda3, type: 2}
+  - {fileID: 11400000, guid: 25b7874604ef2c240ab5d9fbb208634d, type: 2}
   unitsParent: {fileID: 0}
   verboseLogs: 1
 --- !u!4 &514321004
@@ -434,6 +435,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6005b48ba2ca92a42a0493ebf325895a, type: 2}
   - {fileID: 11400000, guid: 3fbdb8feb9bbc25499da5b3ee4ae5f33, type: 2}
   - {fileID: 11400000, guid: f1e45fa1f4d2d88468a9222f5846dda3, type: 2}
+  - {fileID: 0}
   unitsParent: {fileID: 1009643581}
   allowedTypes: 00000000010000000200000003000000
   spawnMargin: 1.2
