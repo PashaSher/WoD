@@ -550,6 +550,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1087251525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087251527}
+  - component: {fileID: 1087251526}
+  m_Layer: 0
+  m_Name: ManualSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1087251526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087251525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c091cd2e7cdf26b40a1f9f173372edfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SPManualPlacer
+  uiFont: {fileID: 12800000, guid: cc8916f4a4654984dab196fd3ba91544, type: 3}
+  helperColor: {r: 0, g: 0, b: 0, a: 1}
+  helperFontSize: 64
+  xPad: 0.2
+  yPad: 0.5
+  verboseLogs: 1
+--- !u!4 &1087251527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087251525}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1079.2056, y: 525.22455, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1483499140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -719,3 +769,4 @@ SceneRoots:
   - {fileID: 1021835130}
   - {fileID: 1009643581}
   - {fileID: 1483499140}
+  - {fileID: 1087251527}

@@ -27,6 +27,7 @@ public class SPBattleEndManager : MonoBehaviour
 
 	private float nextCheckTime;
 	private bool finished;
+	private bool leavingToMenu;
 	private bool hadAnyUnits;
 	private FirebaseAuth auth;
 
@@ -216,10 +217,27 @@ public class SPBattleEndManager : MonoBehaviour
 
 	private void OnGoToMenuClicked()
 	{
+		if (leavingToMenu) return;
+		leavingToMenu = true;
+		if (toMenuButton != null) toMenuButton.interactable = false;
+
 		void Proceed()
 		{
 			SceneManager.LoadScene(string.IsNullOrEmpty(mainMenuSceneName) ? "MainMenu" : mainMenuSceneName);
 		}
+
+		System.Collections.IEnumerator Fallback()
+		{
+			float t = 0f;
+			const float timeout = 8f;
+			while (t < timeout)
+			{
+				t += Time.unscaledDeltaTime;
+				yield return null;
+			}
+			Proceed();
+		}
+		StartCoroutine(Fallback());
 
 		if (AdsManager.Instance != null)
 		{

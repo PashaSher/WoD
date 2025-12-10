@@ -39,6 +39,8 @@ public class SPEnemyBot : MonoBehaviour
 
 	private void Update()
 	{
+		// Не двигаем врагов, пока игрок расставляется
+		if (BattlePlacementState.IsPlacementActive) return;
 		if (Time.time < nextThinkTime) return;
 		nextThinkTime = Time.time + Mathf.Max(0.25f, thinkIntervalSeconds);
 

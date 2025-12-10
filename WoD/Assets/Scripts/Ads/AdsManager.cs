@@ -16,6 +16,7 @@ public class AdsManager : MonoBehaviour
 #endif
 	[SerializeField] private float waitForReadyTimeoutSec = 5f;
 	[SerializeField] private float postFocusDelaySec = 0.6f;
+	[SerializeField] private float resumeReloadDelaySec = 0.8f;
 
 	private InterstitialAd interstitialAd;
 	private readonly Queue<Action> mainThreadActions = new Queue<Action>();
@@ -125,6 +126,45 @@ public class AdsManager : MonoBehaviour
 		if (hasFocus && deferredShowPrimed && pendingCallback != null)
 		{
 			StartCoroutine(TryShowDelayedRoutine(pendingCallback));
+		}
+	}
+
+	private void OnApplicationPause(bool paused)
+	{
+		if (paused)
+		{
+			// Уходим в фон: текущий interstitial может стать невалидным — сбросим и перезагрузим после резюма
+			Debug.Log("[AdsManager] OnApplicationPause(true) — drop current interstitial");
+			interstitialShowing = false;
+			deferredShowPrimed = false;
+			pendingCallback = null;
+			try { interstitialAd?.Destroy(); } catch { }
+			interstitialAd = null;
+			interstitialReady = false;
+		}
+		else
+		{
+			// Возврат из фона: через небольшую паузу перезагрузим креатив
+			Debug.Log("[AdsManager] OnApplicationPause(false) — schedule reload");
+			StartCoroutine(ReloadAfterResumeRoutine());
+		}
+	}
+
+	private System.Collections.IEnumerator ReloadAfterResumeRoutine()
+	{
+		// Дождёмся фокуса и небольшую паузу, чтобы Activity стабильно вернулась
+		float t = 0f;
+		float delay = Mathf.Max(0.2f, resumeReloadDelaySec);
+		while (!Application.isFocused || t < delay)
+		{
+			t += Time.unscaledDeltaTime;
+			yield return null;
+		}
+		LoadInterstitial();
+		// Если ранее ставили отложенный показ — попробуем аккуратно показать (без колбэка навигации)
+		if (deferredShowPrimed)
+		{
+			StartCoroutine(TryShowDelayedRoutine(null));
 		}
 	}
 

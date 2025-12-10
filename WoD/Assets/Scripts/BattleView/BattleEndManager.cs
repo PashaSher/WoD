@@ -28,6 +28,7 @@ public class BattleEndManager : MonoBehaviour
 
 	private float nextCheckTime;
 	private bool finished;
+	private bool leavingToMenu;
 	private bool hadAnyUnits; // станет true, когда хотя бы один юнит появится в сцене
 
 	private FirebaseAuth auth;
@@ -190,6 +191,11 @@ public class BattleEndManager : MonoBehaviour
 
 	private void OnGoToMenuClicked()
 	{
+		if (leavingToMenu) return;
+		leavingToMenu = true;
+		// Заблокируем повторные нажатия
+		if (toMenuButton != null) toMenuButton.interactable = false;
+
 		void ProceedToMenu()
 		{
 			if (FirebaseSessionManager.Instance != null)
@@ -201,6 +207,20 @@ public class BattleEndManager : MonoBehaviour
 				SceneManager.LoadScene("MainMenu");
 			}
 		}
+
+		// Фолбэк: если по какой-то причине колбэк не придёт, уйдём в меню сами
+		System.Collections.IEnumerator Fallback()
+		{
+			float t = 0f;
+			const float timeout = 8f;
+			while (t < timeout)
+			{
+				t += Time.unscaledDeltaTime;
+				yield return null;
+			}
+			ProceedToMenu();
+		}
+		StartCoroutine(Fallback());
 
 		if (AdsManager.Instance != null)
 		{
