@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SPBattleScene.unity
     guid: 31394277248854e4d80aa396722b64cd
+  - enabled: 1
+    path: Assets/Scenes/GamewithFriend.unity
+    guid: 1548ab7a26fbdb547a11f6eb298cb152
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
