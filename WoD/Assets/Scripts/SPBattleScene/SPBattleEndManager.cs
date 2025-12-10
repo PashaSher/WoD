@@ -216,7 +216,19 @@ public class SPBattleEndManager : MonoBehaviour
 
 	private void OnGoToMenuClicked()
 	{
-		SceneManager.LoadScene(string.IsNullOrEmpty(mainMenuSceneName) ? "MainMenu" : mainMenuSceneName);
+		void Proceed()
+		{
+			SceneManager.LoadScene(string.IsNullOrEmpty(mainMenuSceneName) ? "MainMenu" : mainMenuSceneName);
+		}
+
+		if (AdsManager.Instance != null)
+		{
+			AdsManager.Instance.ShowInterstitial(Proceed);
+		}
+		else
+		{
+			Proceed();
+		}
 	}
 }
 

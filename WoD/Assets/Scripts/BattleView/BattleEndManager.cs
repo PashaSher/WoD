@@ -190,15 +190,25 @@ public class BattleEndManager : MonoBehaviour
 
 	private void OnGoToMenuClicked()
 	{
-		// Используем имеющийся менеджер для корректного выхода из сессии
-		if (FirebaseSessionManager.Instance != null)
+		void ProceedToMenu()
 		{
-			_ = FirebaseSessionManager.Instance.LeaveSessionAndGoToMenuAsync();
+			if (FirebaseSessionManager.Instance != null)
+			{
+				_ = FirebaseSessionManager.Instance.LeaveSessionAndGoToMenuAsync();
+			}
+			else
+			{
+				SceneManager.LoadScene("MainMenu");
+			}
+		}
+
+		if (AdsManager.Instance != null)
+		{
+			AdsManager.Instance.ShowInterstitial(ProceedToMenu);
 		}
 		else
 		{
-			// Fallback — просто загрузим сцену MainMenu, если менеджера нет
-			SceneManager.LoadScene("MainMenu");
+			ProceedToMenu();
 		}
 	}
 }
