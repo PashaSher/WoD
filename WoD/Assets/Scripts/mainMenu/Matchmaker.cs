@@ -90,6 +90,9 @@ public class Matchmaker : MonoBehaviour
             }
 
             TogglePlay(true);
+
+            // Если предыдущий показ был отклонён из‑за отсутствия фокуса — попробуем показать сейчас, в меню
+            try { AdsManager.Instance?.TryShowDeferredInterstitial(); } catch { }
         }
         catch (Exception e)
         {
