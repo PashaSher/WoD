@@ -27,6 +27,16 @@ public class SPEnemyBot : MonoBehaviour
 		private float maintainRangeMinFactor = 0.75f;
 		[SerializeField, Tooltip("Не подходить ближе этой доли от attackRange (не приближаться вообще)")]
 		private float maintainRangeMaxFactor = 1.00f; // оставлено для ясности
+		[SerializeField, Tooltip("Всегда подтягиваться, если дальше чем factor*attackRange")]
+		private bool approachAlwaysWhenFar = true;
+		[SerializeField, Tooltip("Если дистанция > factor*attackRange — обязательный подход к цели")]
+		private float approachBeyondFactor = 1.20f;
+		[SerializeField, Tooltip("Подтягиваться одним движением до дистанции выстрела")]
+		private bool approachToRangeInOneGo = true;
+		[SerializeField, Tooltip("Во время подхода останавливаться примерно на этом диапазоне * attackRange (мин)")]
+		private float approachStopMinFactor = 0.95f;
+		[SerializeField, Tooltip("Во время подхода останавливаться примерно на этом диапазоне * attackRange (макс)")]
+		private float approachStopMaxFactor = 1.00f;
 		[SerializeField, Tooltip("Радиус вокруг, в котором 'много юнитов' считается опасным")]
 		private float crowdRadius = 2.5f;
 		[SerializeField, Tooltip("Порог количества врагов вокруг для побега")]
@@ -119,12 +129,31 @@ public class SPEnemyBot : MonoBehaviour
 						else if (dist > range)
 						{
 							// цель вне радиуса — половина юнитов подходит, танк подходит всегда
-							bool shouldApproach = isTank || GetApproachPreference(u);
+							bool farBeyond = approachAlwaysWhenFar && dist > (range * Mathf.Max(1.0f, approachBeyondFactor));
+							// если сильно далеко — всегда подходить; танки — всегда; иначе по вероятности
+							bool shouldApproach = isTank || farBeyond || GetApproachPreference(u);
 							if (shouldApproach)
 							{
 								Vector3 towards = (to - from);
 								towards.z = 0f;
 								if (towards.sqrMagnitude > 0.0001f) moveDir = towards.normalized;
+
+								// Если нужно — двигаться сразу на оптимальную дистанцию выстрела,
+								// а не небольшим шагом.
+								if (approachToRangeInOneGo)
+								{
+									float stopF = Mathf.Clamp(Random.Range(approachStopMinFactor, approachStopMaxFactor), 0.5f, 1.5f);
+									float desiredStop = range * stopF;
+									float need = Mathf.Max(0f, dist - desiredStop);
+									// Зададим целевую точку сразу на границе зоны атаки
+									Vector3 destFull = from + moveDir * need;
+									destFull = ClampToCameraBounds(destFull, screenMargin);
+									destFull.z = from.z;
+									if (verboseLogs) Debug.Log($"[SPEnemyBot] ApproachOneGo '{u.name}' -> {destFull} (need={need:F2}, stopF={stopF:F2})");
+									StartCoroutine(MoveUnit(u, destFull));
+									unitCooldownUntil[u] = Time.time + Mathf.Max(0.1f, perUnitCooldownSeconds);
+									continue; // одну цель на этот тик обработали
+								}
 							}
 						}
 					}
@@ -149,7 +178,10 @@ public class SPEnemyBot : MonoBehaviour
 							if (Vector3.Dot(moveDir, (toPos - from)) > 0f)
 							{
 								// Идём к цели: ограничим шаг, чтобы не зайти слишком глубоко
-								float desiredStop = range * Random.Range(0.85f, 1.00f);
+								float desiredStop = range * Random.Range(
+									Mathf.Clamp01(approachStopMinFactor),
+									Mathf.Max(Mathf.Clamp01(approachStopMaxFactor), Mathf.Clamp01(approachStopMinFactor))
+								);
 								float need = Mathf.Max(0f, distNow - desiredStop);
 								capLen = Mathf.Min(stepLen, need + 0.1f);
 							}
