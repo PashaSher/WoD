@@ -221,32 +221,9 @@ public class SPBattleEndManager : MonoBehaviour
 		leavingToMenu = true;
 		if (toMenuButton != null) toMenuButton.interactable = false;
 
-		void Proceed()
-		{
-			SceneManager.LoadScene(string.IsNullOrEmpty(mainMenuSceneName) ? "MainMenu" : mainMenuSceneName);
-		}
-
-		System.Collections.IEnumerator Fallback()
-		{
-			float t = 0f;
-			const float timeout = 8f;
-			while (t < timeout)
-			{
-				t += Time.unscaledDeltaTime;
-				yield return null;
-			}
-			Proceed();
-		}
-		StartCoroutine(Fallback());
-
-		if (AdsManager.Instance != null)
-		{
-			AdsManager.Instance.ShowInterstitial(Proceed);
-		}
-		else
-		{
-			Proceed();
-		}
+		// Пометим переход в меню из боя — показ рекламы произойдёт в Main Menu (если не первый вход)
+		try { AdsManager.Instance?.FlagReturnToMainMenuFromBattle(); } catch { }
+		SceneManager.LoadScene(string.IsNullOrEmpty(mainMenuSceneName) ? "MainMenu" : mainMenuSceneName);
 	}
 }
 

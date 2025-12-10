@@ -91,8 +91,11 @@ public class Matchmaker : MonoBehaviour
 
             TogglePlay(true);
 
-            // Если предыдущий показ был отклонён из‑за отсутствия фокуса — попробуем показать сейчас, в меню
-            try { AdsManager.Instance?.TryShowDeferredInterstitial(); } catch { }
+            // Сообщим менеджеру рекламы о загрузке Main Menu:
+            //  - первый вход после запуска — реклама не показывается;
+            //  - при последующих входах — выполняется загрузка креатива;
+            //  - если пришли из боя — будет предпринята неблокирующая попытка показа.
+            try { AdsManager.Instance?.OnMainMenuLoaded(); } catch { }
         }
         catch (Exception e)
         {

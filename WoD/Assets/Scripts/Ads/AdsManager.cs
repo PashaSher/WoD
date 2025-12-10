@@ -7,6 +7,15 @@ public class AdsManager : MonoBehaviour
 {
 	public static AdsManager Instance { get; private set; }
 
+	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+	private static void Bootstrap()
+	{
+		// Ensure AdsManager exists even if the first loaded scene doesn't contain it (e.g., MP entry)
+		if (Instance != null) return;
+		var go = new GameObject(nameof(AdsManager));
+		go.AddComponent<AdsManager>();
+	}
+
 #if UNITY_ANDROID
 	[SerializeField] private string interstitialAdUnitId = "ca-app-pub-2638490693624676/7356227323";
 #elif UNITY_IOS
@@ -25,6 +34,9 @@ public class AdsManager : MonoBehaviour
 	private bool deferredShowPrimed;
 	public bool HasDeferredInterstitial => deferredShowPrimed;
 	private System.Action pendingCallback;
+	// New flow controls
+	private bool hasMainMenuLoadedOnce;
+	private bool returnToMenuFromBattle;
 
 	private void Awake()
 	{
@@ -44,7 +56,8 @@ public class AdsManager : MonoBehaviour
 		MobileAds.Initialize(_ =>
 		{
 			Debug.Log("[AdsManager] MobileAds initialized");
-			LoadInterstitial();
+			// Больше не загружаем креатив автоматически на старте приложения.
+			// Загрузка выполняется при входе в Main Menu (не впервые).
 		});
 	}
 
@@ -76,6 +89,59 @@ public class AdsManager : MonoBehaviour
 		{
 			mainThreadActions.Enqueue(action);
 		}
+	}
+
+	/// <summary>
+	/// Пометить, что мы выходим в меню из сцены боя (SP/MP).
+	/// Реклама будет показана на загрузке Main Menu (если это не первый вход).
+	/// </summary>
+	public void FlagReturnToMainMenuFromBattle()
+	{
+		returnToMenuFromBattle = true;
+	}
+
+	/// <summary>
+	/// Вызвать при загрузке сцены Main Menu.
+	///  - Первый вход после запуска приложения — пропускаем рекламу.
+	///  - Любые последующие входы — загружаем креатив.
+	///  - Если отмечен переход из боя — пытаемся показать (не блокируя меню).
+	/// </summary>
+	public void OnMainMenuLoaded()
+	{
+		bool isFirstLoad = !hasMainMenuLoadedOnce;
+		hasMainMenuLoadedOnce = true;
+
+		// Начиная со второго входа в Main Menu — запрашиваем загрузку интерстициала
+		if (!isFirstLoad && interstitialAd == null)
+		{
+			LoadInterstitial();
+		}
+
+		// Показываем только если пришли из боя, и это не первый вход в меню
+		if (!isFirstLoad && returnToMenuFromBattle)
+		{
+			// Сбрасываем флаг сразу, чтобы избежать повторов при быстрых пересценах
+			returnToMenuFromBattle = false;
+			StartCoroutine(ShowOnMenuIfReadyRoutine());
+		}
+	}
+
+	private System.Collections.IEnumerator ShowOnMenuIfReadyRoutine()
+	{
+		// Неблокирующая попытка показа: ждём недолго и показываем, если готово
+		float t = 0f;
+		float timeout = Mathf.Clamp(waitForReadyTimeoutSec, 0.2f, 3.5f);
+		while (t < timeout)
+		{
+			if (Application.isFocused && interstitialAd != null && interstitialAd.CanShowAd())
+			{
+				ShowNow(null);
+				yield break;
+			}
+			t += Time.unscaledDeltaTime;
+			yield return null;
+		}
+		// Если не успели — оставим креатив загруженным для следующего раза (без отложенного показа)
 	}
 
 	/// <summary>
@@ -226,6 +292,10 @@ public class AdsManager : MonoBehaviour
 		}
 		// Не дождались — продолжаем без рекламы, но сразу перезагрузим для следующего раза
 		RunOnMainThread(onClosed);
+		// Пометим отложенный показ: как только креатив догрузится и будет фокус — покажем в MainMenu без колбэка
+		deferredShowPrimed = true;
+		// Колбэк уже отработал — сбросим, чтобы не вызывался повторно
+		pendingCallback = null;
 		if (interstitialAd == null) LoadInterstitial();
 	}
 

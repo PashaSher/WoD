@@ -208,28 +208,9 @@ public class BattleEndManager : MonoBehaviour
 			}
 		}
 
-		// Фолбэк: если по какой-то причине колбэк не придёт, уйдём в меню сами
-		System.Collections.IEnumerator Fallback()
-		{
-			float t = 0f;
-			const float timeout = 8f;
-			while (t < timeout)
-			{
-				t += Time.unscaledDeltaTime;
-				yield return null;
-			}
-			ProceedToMenu();
-		}
-		StartCoroutine(Fallback());
-
-		if (AdsManager.Instance != null)
-		{
-			AdsManager.Instance.ShowInterstitial(ProceedToMenu);
-		}
-		else
-		{
-			ProceedToMenu();
-		}
+		// Пометим переход в меню из боя — показ рекламы произойдёт в Main Menu (если не первый вход)
+		try { AdsManager.Instance?.FlagReturnToMainMenuFromBattle(); } catch { }
+		ProceedToMenu();
 	}
 }
 
