@@ -74,12 +74,7 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
       {
         hasMovingCache = true;
         movingCache = ParseBool(e.Snapshot?.Value);
-        // If someone else set moving=true while we are drawing a line, cancel local drag UI.
-        if (movingCache && dragging)
-        {
-            dragging = false;
-            line.enabled = false;
-        }
+        // Allow retarget while moving — do not cancel local drag UI.
     }
 
     // Attempt to build reference if it isn't ready yet
@@ -115,15 +110,14 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
             return;
         }
 
-        // If we have cache and unit is moving — ignore.
-        if (hasMovingCache && movingCache)
-        {
-            // Still moving remotely — do nothing
-            return;
-        }
+        // Allow starting drag even if moving==true (retarget while moving)
+        dragging   = true;
+        startWorld = ScreenToWorld(e.position);
+        currWorld  = startWorld;
 
-        // Double-check from server just in case cache is stale
-        StartCoroutine(BeginDragIfNotMoving(e.position));
+        line.enabled = true;
+        line.SetPosition(0, unit.transform.position);
+        line.SetPosition(1, unit.transform.position);
     }
 
     private IEnumerator BeginDragIfNotMoving(Vector2 screenPos)
@@ -194,9 +188,6 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
         if (!EnsureStateRef()) return; // safety
 
-        // If someone set moving in RTDB while we were dragging — abort.
-        if (hasMovingCache && movingCache) return;
-
         var target = ScreenToWorld(e.position);
 		// Если линия была заблокирована препятствием — не даём пройти «сквозь», используем ближайшую точку
 		if (_blocked) target = _blockedPoint;
@@ -208,15 +199,6 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
     private IEnumerator TryCommitMove(Vector3 target)
     {
-        var task = stateRef.Child("moving").GetValueAsync();
-        while (!task.IsCompleted) yield return null;
-
-        bool remoteMoving = ParseBool(task.Result?.Value);
-        hasMovingCache = true;
-        movingCache = remoteMoving;
-
-        if (remoteMoving) yield break;
-
 		// Немедленно отменяем атаку при старте движения (и пушим в RTDB через Unit)
 		try { unit?.SetAttacking(false); } catch {}
 
@@ -233,12 +215,10 @@ public class UnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         };
         stateRef.UpdateChildrenAsync(updates);
 
-        // update cache so further drags are blocked until finished
-        movingCache = true;
-
         // locally move and on arrival set moving=false
         StopAllCoroutines();
         StartCoroutine(MoveToAndFinish(target, unit.moveSpeed));
+        yield break;
     }
 
     private IEnumerator MoveToAndFinish(Vector3 target, float speed)

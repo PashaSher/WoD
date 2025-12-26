@@ -68,8 +68,7 @@ public class SPUnitDragMover : MonoBehaviour, IPointerDownHandler, IDragHandler,
 		if (BattlePlacementState.IsPlacementActive) return;
 		if (!CanControl()) return;
 		EnsureAnimFlags();
-		// Запрещаем реакцию на нажатие, если юнит уже двигается (SP).
-		if (animFlags != null && animFlags.IsMoving) return;
+		// Разрешаем ретаргет во время движения — не блокируем нажатие при IsMoving
 		Debug.Log($"[SPUnitDragMover] Down on '{unit?.name}' at screen={e.position}");
 
 		dragging   = true;
