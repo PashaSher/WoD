@@ -111,15 +111,21 @@ public class SPEnemySpawner : MonoBehaviour
 
 	private void SpawnEnemy(Dictionary<UnitType, int> counts)
 	{
-		var cam = Camera.main;
-		if (cam == null)
+		// Use MapBounds if present; fallback to camera extents
+		Rect map;
+		if (MapBounds.TryGet(out var mb)) map = mb.WorldRect;
+		else
 		{
-			Debug.LogError("[SPEnemySpawner] Camera.main == null");
-			return;
+			var cam = Camera.main;
+			if (cam == null)
+			{
+				Debug.LogError("[SPEnemySpawner] Camera.main == null and no MapBounds");
+				return;
+			}
+			float halfH = cam.orthographicSize;
+			float halfW = halfH * cam.aspect;
+			map = new Rect(-halfW, -halfH, halfW * 2f, halfH * 2f);
 		}
-
-		float halfH = cam.orthographicSize;
-		float halfW = halfH * cam.aspect;
 
 		placedPositions.Clear();
 
@@ -130,13 +136,14 @@ public class SPEnemySpawner : MonoBehaviour
 			int num = kv.Value;
 			for (int i = 0; i < num; i++)
 			{
-				// random position on RIGHT half
+				// random position on RIGHT half of the map
 				Vector3 pos;
 				int attempts = 0;
 				do
 				{
-					float x = Random.Range(+0.1f * halfW, halfW - spawnMargin);
-					float y = Random.Range(-halfH + spawnMargin, halfH - spawnMargin);
+					float midX = map.center.x;
+					float x = Random.Range(Mathf.Lerp(midX, map.xMax - spawnMargin, 1f), map.xMax - spawnMargin);
+					float y = Random.Range(map.yMin + spawnMargin, map.yMax - spawnMargin);
 					pos = new Vector3(x, y, 0f);
 					attempts++;
 				}

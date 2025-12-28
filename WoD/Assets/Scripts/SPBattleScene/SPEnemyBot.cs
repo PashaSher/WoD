@@ -248,8 +248,16 @@ public class SPEnemyBot : MonoBehaviour
 			return decided;
 		}
 
-	private static Vector3 ClampToCameraBounds(Vector3 p, float margin)
+		private static Vector3 ClampToCameraBounds(Vector3 p, float margin)
 		{
+			// Prefer clamping to map bounds if available (big map), fallback to current camera view
+			try
+			{
+				p = MapBounds.ClampPoint(p, margin);
+				return p;
+			}
+			catch { }
+
 			var cam = Camera.main;
 			if (cam == null) return p;
 			float halfH = cam.orthographicSize;

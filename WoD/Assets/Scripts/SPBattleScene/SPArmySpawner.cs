@@ -70,18 +70,24 @@ public class SPArmySpawner : MonoBehaviour
 
     private void SpawnArmy(Dictionary<UnitType, int> counts)
     {
-        var cam = Camera.main;
-        if (cam == null)
+        // Use MapBounds if present; fallback to camera extents
+        Rect map;
+        if (MapBounds.TryGet(out var mb)) map = mb.WorldRect;
+        else
         {
-            Debug.LogError("[SPArmySpawner] Camera.main == null");
-            return;
+            var cam = Camera.main;
+            if (cam == null)
+            {
+                Debug.LogError("[SPArmySpawner] Camera.main == null and no MapBounds");
+                return;
+            }
+            float halfH = cam.orthographicSize;
+            float halfW = halfH * cam.aspect;
+            map = new Rect(-halfW, -halfH, halfW * 2f, halfH * 2f);
         }
 
-        float halfH = cam.orthographicSize;
-        float halfW = halfH * cam.aspect;
-
-        float startX = -halfW + 2f;
-        float y = halfH - 1f;
+        float startX = map.xMin + 2f; // left edge of map + margin
+        float y = map.yMax - 1f;      // from top of map downwards
         int spawned = 0;
 
         foreach (var kv in counts)
@@ -202,9 +208,9 @@ public class SPArmySpawner : MonoBehaviour
 
                 // Next position
                 y -= 1.5f;
-                if (y < -halfH + 1f)
+                if (y < map.yMin + 1f)
                 {
-                    y = halfH - 1f;
+                    y = map.yMax - 1f;
                     startX += 1.6f;
                 }
             }
