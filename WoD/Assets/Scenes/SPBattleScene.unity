@@ -274,9 +274,10 @@ MonoBehaviour:
   panSpeed: 1
   blockPanOverUI: 0
   clampMargin: 0.1
+  blockPanWhenPointerOverUnit: 1
   enableZoom: 1
   minOrthoSize: 3
-  maxOrthoSize: 40
+  maxOrthoSize: 10
   zoomSensitivity: 1
 --- !u!1 &488166836
 GameObject:

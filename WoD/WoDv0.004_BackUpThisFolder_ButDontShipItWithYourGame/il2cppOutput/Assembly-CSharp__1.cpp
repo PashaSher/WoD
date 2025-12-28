@@ -246,6 +246,7 @@ struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 struct KerningTable_t040C3FE3B519B12AADE1C5B00628581551D5AB6B;
 struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
 struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12;
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
 struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
 struct MethodInfo_t;
@@ -502,7 +503,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8E2A732DF47BDCB38685517728E7E3BDC6AEF05E
 IL2CPP_EXTERN_C String_t* _stringLiteral900D858FE9ABCD2ED2B25CD27110A78ADCC6EC6B;
 IL2CPP_EXTERN_C String_t* _stringLiteral91066B49B23DC04340079E51F96226A1F93C53D4;
 IL2CPP_EXTERN_C String_t* _stringLiteral91EABC919E48AAD7331BDBE21DBB8D4C623A4A25;
-IL2CPP_EXTERN_C String_t* _stringLiteral92565942DDCD64B6E62AD9B0B2540BDF8B0D12A6;
 IL2CPP_EXTERN_C String_t* _stringLiteral92CDF30DA690857AD50288D6CAF0D065E3B66631;
 IL2CPP_EXTERN_C String_t* _stringLiteral92D8E5EAC452A8B69FDE0EB27ACAF05C89A2F673;
 IL2CPP_EXTERN_C String_t* _stringLiteral9384C6EF2DA5C0BD5274A0DACFF291D0ABBFD8B1;
@@ -544,6 +544,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCDBF4AD9A15224285193C22AE97F410FB46EB51D
 IL2CPP_EXTERN_C String_t* _stringLiteralCE4C2A04554CC026892EEB88DC196A50E2B944DE;
 IL2CPP_EXTERN_C String_t* _stringLiteralCF5D81CE913129F4F9476FD4E3CD401FC2798AC1;
 IL2CPP_EXTERN_C String_t* _stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD58A7DB134353437FBE637C900A71A8608958CC3;
 IL2CPP_EXTERN_C String_t* _stringLiteralD7FB81FFD28B12146FB08515FA7C8B2389AED29C;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralE164BC10732F757516E4F741B8A2DABCB61FDD81;
@@ -3527,6 +3528,11 @@ struct FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA  : publi
 	String_t* ___sessionId;
 	bool ___isHost;
 };
+struct MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___center;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size;
+};
 struct MuzzleFlashController_tC06331A82663000E32E1066ADA8C2397AED48938  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___muzzleFlashObject;
@@ -4269,6 +4275,10 @@ struct FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA_StaticFi
 {
 	FirebaseSessionManager_tF388620D07466371831BA4075E2E25888F2951CA* ___U3CInstanceU3Ek__BackingField;
 };
+struct MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12_StaticFields
+{
+	MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12* ___U3CInstanceU3Ek__BackingField;
+};
 struct Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A_StaticFields
 {
 	Pointer_t800EF2832B62E889AC9C182E3B18098AF220E32A* ___U3CcurrentU3Ek__BackingField;
@@ -4926,9 +4936,15 @@ inline void AsyncTaskMethodBuilder_Start_TisU3CLoadAndSpawnU3Ed__14_t0D05836496D
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* AsyncTaskMethodBuilder_get_Task_mE9125D5F8B96F26D1BA5A5347ED82669521C7F9E (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataSnapshot_get_HasChildren_m18F85DDD26BB428F6D72D5F0DCC48FEB8A9DFFEB (DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MapBounds_TryGet_mEED6A0918D1DDDE9B2DA45707A95C45352275CCE (MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12** ___0_mb, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D MapBounds_get_WorldRect_mF1860ACD3F64E636896821E35B4EB2794987BCB6 (MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DataSnapshot_get_ChildrenCount_m11A46B8917211A241820AF7DA99028E05261351C (DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DataSnapshot_get_Key_m71F6DF80BFBCFA8C9C2F2368AD5F6A44F5E70908 (DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* __this, const RuntimeMethod* method) ;
@@ -5011,6 +5027,7 @@ inline void Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562 (Dic
 {
 	((  void (*) (Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE*, String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 inline PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* Component_GetComponent_TisPolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E_m838C3ADF8730E17B91A80DDD18BB0830E513D114 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -8625,54 +8642,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_SpawnArmy_mB241D136AC38816D7
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EB71F608E6D04F24DF5AFDE75B3FF2BC660BA64);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral92565942DDCD64B6E62AD9B0B2540BDF8B0D12A6);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAFBD21C658171311449EA97C87F073369E40D51D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE7D9A7293C9C37FC28CBBCC2A24F84E4902D557);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD58A7DB134353437FBE637C900A71A8608958CC3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE705C6345C26AF82E64D22DBE44B2A3514F2F06F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBCEF3DBE07FDBBDE6A73DD3DFED7EE27768C213);
 		s_Il2CppMethodInitialized = true;
 	}
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
-	float V_1 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12* V_1 = NULL;
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
-	float V_4 = 0.0f;
-	bool V_5 = false;
+	bool V_4 = false;
+	int32_t V_5 = 0;
 	int32_t V_6 = 0;
-	int32_t V_7 = 0;
+	bool V_7 = false;
 	bool V_8 = false;
-	bool V_9 = false;
-	RuntimeObject* V_10 = NULL;
-	DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* V_11 = NULL;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_9 = NULL;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
 	bool V_12 = false;
 	RuntimeObject* V_13 = NULL;
 	DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* V_14 = NULL;
-	String_t* V_15 = NULL;
-	String_t* V_16 = NULL;
-	int32_t V_17 = 0;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_18;
-	memset((&V_18), 0, sizeof(V_18));
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_19 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_20 = NULL;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_21 = NULL;
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* V_22 = NULL;
-	SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* V_23 = NULL;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_24 = NULL;
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_25 = NULL;
-	UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* V_26 = NULL;
-	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_27 = NULL;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_28;
-	memset((&V_28), 0, sizeof(V_28));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_29;
-	memset((&V_29), 0, sizeof(V_29));
+	bool V_15 = false;
+	RuntimeObject* V_16 = NULL;
+	DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* V_17 = NULL;
+	String_t* V_18 = NULL;
+	String_t* V_19 = NULL;
+	int32_t V_20 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_22 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_23 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_24 = NULL;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* V_25 = NULL;
+	SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* V_26 = NULL;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_27 = NULL;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_28 = NULL;
+	UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* V_29 = NULL;
 	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_30 = NULL;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_31 = NULL;
-	String_t* V_32 = NULL;
-	bool V_33 = false;
-	bool V_34 = false;
-	bool V_35 = false;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_31;
+	memset((&V_31), 0, sizeof(V_31));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_32;
+	memset((&V_32), 0, sizeof(V_32));
+	Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* V_33 = NULL;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_34 = NULL;
+	String_t* V_35 = NULL;
 	bool V_36 = false;
 	bool V_37 = false;
 	bool V_38 = false;
@@ -8681,65 +8699,68 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_SpawnArmy_mB241D136AC38816D7
 	bool V_41 = false;
 	bool V_42 = false;
 	bool V_43 = false;
-	SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* V_44 = NULL;
-	int32_t V_45 = 0;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_46 = NULL;
-	bool V_47 = false;
-	bool V_48 = false;
-	bool V_49 = false;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* V_47 = NULL;
+	int32_t V_48 = 0;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_49 = NULL;
 	bool V_50 = false;
-	Exception_t* V_51 = NULL;
+	bool V_51 = false;
 	bool V_52 = false;
 	bool V_53 = false;
-	bool V_54 = false;
+	Exception_t* V_54 = NULL;
+	bool V_55 = false;
+	bool V_56 = false;
+	bool V_57 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	int32_t G_B3_0 = 0;
-	float G_B10_0 = 0.0f;
-	int32_t G_B15_0 = 0;
-	int32_t G_B27_0 = 0;
-	RuntimeObject* G_B31_0 = NULL;
-	RuntimeObject* G_B30_0 = NULL;
-	String_t* G_B32_0 = NULL;
-	int32_t G_B41_0 = 0;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B45_0 = NULL;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B44_0 = NULL;
-	int32_t G_B50_0 = 0;
-	int32_t G_B55_0 = 0;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B70_0;
-	memset((&G_B70_0), 0, sizeof(G_B70_0));
-	float G_B80_0 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B80_1 = NULL;
-	float G_B79_0 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B79_1 = NULL;
-	float G_B81_0 = 0.0f;
-	float G_B81_1 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B81_2 = NULL;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B90_0 = NULL;
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B89_0 = NULL;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B91_0 = NULL;
+	float G_B13_0 = 0.0f;
+	int32_t G_B18_0 = 0;
+	int32_t G_B30_0 = 0;
+	RuntimeObject* G_B34_0 = NULL;
+	RuntimeObject* G_B33_0 = NULL;
+	String_t* G_B35_0 = NULL;
+	int32_t G_B44_0 = 0;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B48_0 = NULL;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B47_0 = NULL;
+	int32_t G_B53_0 = 0;
+	int32_t G_B58_0 = 0;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B73_0;
+	memset((&G_B73_0), 0, sizeof(G_B73_0));
+	float G_B83_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B83_1 = NULL;
+	float G_B82_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B82_1 = NULL;
+	float G_B84_0 = 0.0f;
+	float G_B84_1 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B84_2 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B93_0 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B92_0 = NULL;
 	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B94_0 = NULL;
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B93_0 = NULL;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B95_0;
-	memset((&G_B95_0), 0, sizeof(G_B95_0));
-	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B95_1 = NULL;
-	RuntimeObject* G_B98_0 = NULL;
-	String_t* G_B98_1 = NULL;
-	String_t* G_B98_2 = NULL;
-	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B98_3 = NULL;
-	RuntimeObject* G_B97_0 = NULL;
-	String_t* G_B97_1 = NULL;
-	String_t* G_B97_2 = NULL;
-	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B97_3 = NULL;
-	String_t* G_B99_0 = NULL;
-	RuntimeObject* G_B99_1 = NULL;
-	String_t* G_B99_2 = NULL;
-	String_t* G_B99_3 = NULL;
-	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B99_4 = NULL;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B97_0 = NULL;
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B96_0 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F G_B98_0;
+	memset((&G_B98_0), 0, sizeof(G_B98_0));
+	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* G_B98_1 = NULL;
+	RuntimeObject* G_B101_0 = NULL;
+	String_t* G_B101_1 = NULL;
+	String_t* G_B101_2 = NULL;
+	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B101_3 = NULL;
+	RuntimeObject* G_B100_0 = NULL;
+	String_t* G_B100_1 = NULL;
+	String_t* G_B100_2 = NULL;
+	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B100_3 = NULL;
 	String_t* G_B102_0 = NULL;
-	float G_B108_0 = 0.0f;
-	float G_B107_0 = 0.0f;
-	float G_B109_0 = 0.0f;
-	float G_B109_1 = 0.0f;
+	RuntimeObject* G_B102_1 = NULL;
+	String_t* G_B102_2 = NULL;
+	String_t* G_B102_3 = NULL;
+	ArmySpawner_t85BB7641C46CEAA894FE4432542416812147800F* G_B102_4 = NULL;
+	String_t* G_B105_0 = NULL;
+	float G_B111_0 = 0.0f;
+	float G_B110_0 = 0.0f;
+	float G_B112_0 = 0.0f;
+	float G_B112_1 = 0.0f;
 	{
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:142>
 		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_0 = ___0_armySnap;
@@ -8764,8 +8785,8 @@ IL_000f:
 
 IL_0010:
 	{
-		V_8 = (bool)G_B3_0;
-		bool L_3 = V_8;
+		V_7 = (bool)G_B3_0;
+		bool L_3 = V_7;
 		if (!L_3)
 		{
 			goto IL_0033;
@@ -8780,112 +8801,147 @@ IL_0010:
 		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3180B9F3B778D0BC6F408D56D87F9A03FC41CFCE, L_6, NULL);
 		ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(__this, L_7, NULL);
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:145>
-		goto IL_066f;
+		goto IL_06c0;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:148>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
-		L_8 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
-		V_0 = L_8;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:149>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_9 = V_0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:150>
+		bool L_8;
+		L_8 = MapBounds_TryGet_mEED6A0918D1DDDE9B2DA45707A95C45352275CCE((&V_1), NULL);
+		V_8 = L_8;
+		bool L_9 = V_8;
+		if (!L_9)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:150>
+		MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12* L_10 = V_1;
+		NullCheck(L_10);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_11;
+		L_11 = MapBounds_get_WorldRect_mF1860ACD3F64E636896821E35B4EB2794987BCB6(L_10, NULL);
+		V_0 = L_11;
+		goto IL_00a3;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:153>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
+		L_12 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		V_9 = L_12;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:154>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_9 = L_10;
-		bool L_11 = V_9;
-		if (!L_11)
+		bool L_14;
+		L_14 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_12 = L_14;
+		bool L_15 = V_12;
+		if (!L_15)
 		{
-			goto IL_0057;
+			goto IL_0070;
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:151>
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral92565942DDCD64B6E62AD9B0B2540BDF8B0D12A6, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:152>
-		goto IL_066f;
-	}
-
-IL_0057:
-	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:155>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = V_0;
-		NullCheck(L_12);
-		float L_13;
-		L_13 = Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8(L_12, NULL);
-		V_1 = L_13;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:156>
-		float L_14 = V_1;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = V_0;
-		NullCheck(L_15);
-		float L_16;
-		L_16 = Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D(L_15, NULL);
-		V_2 = ((float)il2cpp_codegen_multiply(L_14, L_16));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:158>
-		int32_t L_17 = ___1_side;
-		if (!L_17)
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralD58A7DB134353437FBE637C900A71A8608958CC3, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:157>
+		goto IL_06c0;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:159>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_16 = V_9;
+		NullCheck(L_16);
+		float L_17;
+		L_17 = Camera_get_orthographicSize_m7950C5627086253E02992A43ADFE59039DB473F8(L_16, NULL);
+		V_10 = L_17;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:160>
+		float L_18 = V_10;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_19 = V_9;
+		NullCheck(L_19);
+		float L_20;
+		L_20 = Camera_get_aspect_m48BF8820EA2D55BE0D154BC5546819FB65BE257D(L_19, NULL);
+		V_11 = ((float)il2cpp_codegen_multiply(L_18, L_20));
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:161>
+		float L_21 = V_11;
+		float L_22 = V_10;
+		float L_23 = V_11;
+		float L_24 = V_10;
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_0), ((-L_21)), ((-L_22)), ((float)il2cpp_codegen_multiply(L_23, (2.0f))), ((float)il2cpp_codegen_multiply(L_24, (2.0f))), NULL);
+	}
+
+IL_00a3:
+	{
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:164>
+		int32_t L_25 = ___1_side;
+		if (!L_25)
 		{
-			goto IL_0073;
+			goto IL_00b5;
 		}
 	}
 	{
-		float L_18 = V_2;
-		G_B10_0 = ((float)il2cpp_codegen_subtract(L_18, (2.0f)));
-		goto IL_007b;
+		float L_26;
+		L_26 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&V_0), NULL);
+		G_B13_0 = ((float)il2cpp_codegen_subtract(L_26, (2.0f)));
+		goto IL_00c2;
 	}
 
-IL_0073:
+IL_00b5:
 	{
-		float L_19 = V_2;
-		G_B10_0 = ((float)il2cpp_codegen_add(((-L_19)), (2.0f)));
+		float L_27;
+		L_27 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&V_0), NULL);
+		G_B13_0 = ((float)il2cpp_codegen_add(L_27, (2.0f)));
 	}
 
-IL_007b:
+IL_00c2:
 	{
-		V_3 = G_B10_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:159>
-		float L_20 = V_1;
-		V_4 = ((float)il2cpp_codegen_subtract(L_20, (1.0f)));
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:161>
-		int32_t L_21 = ___1_side;
-		V_5 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:162>
-		V_6 = 0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:164>
-		V_7 = 0;
+		V_2 = G_B13_0;
 		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:165>
-		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_22 = ___0_armySnap;
-		NullCheck(L_22);
-		RuntimeObject* L_23;
-		L_23 = DataSnapshot_get_Children_m5A77ABE26BB1750F85677DF6E03D02560F6F6632(L_22, NULL);
-		NullCheck(L_23);
-		RuntimeObject* L_24;
-		L_24 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var, L_23);
-		V_10 = L_24;
+		float L_28;
+		L_28 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_0), NULL);
+		V_3 = ((float)il2cpp_codegen_subtract(L_28, (1.0f)));
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:167>
+		int32_t L_29 = ___1_side;
+		V_4 = (bool)((((int32_t)L_29) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:168>
+		V_5 = 0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:170>
+		V_6 = 0;
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:171>
+		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_30 = ___0_armySnap;
+		NullCheck(L_30);
+		RuntimeObject* L_31;
+		L_31 = DataSnapshot_get_Children_m5A77ABE26BB1750F85677DF6E03D02560F6F6632(L_30, NULL);
+		NullCheck(L_31);
+		RuntimeObject* L_32;
+		L_32 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var, L_31);
+		V_13 = L_32;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00d9:
+FINALLY_0125:
 			{
 				{
-					RuntimeObject* L_25 = V_10;
-					if (!L_25)
+					RuntimeObject* L_33 = V_13;
+					if (!L_33)
 					{
-						goto IL_00e5;
+						goto IL_0131;
 					}
 				}
 				{
-					RuntimeObject* L_26 = V_10;
-					NullCheck(L_26);
-					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_26);
+					RuntimeObject* L_34 = V_13;
+					NullCheck(L_34);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_34);
 				}
 
-IL_00e5:
+IL_0131:
 				{
 					return;
 				}
@@ -8894,70 +8950,70 @@ IL_00e5:
 		try
 		{
 			{
-				goto IL_00ce_1;
+				goto IL_011a_1;
 			}
 
-IL_00a1_1:
+IL_00ed_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:165>
-				RuntimeObject* L_27 = V_10;
-				NullCheck(L_27);
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_28;
-				L_28 = InterfaceFuncInvoker0< DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* >::Invoke(0, IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var, L_27);
-				V_11 = L_28;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:166>
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_29 = V_11;
-				NullCheck(L_29);
-				bool L_30;
-				L_30 = DataSnapshot_get_HasChildren_m18F85DDD26BB428F6D72D5F0DCC48FEB8A9DFFEB(L_29, NULL);
-				if (!L_30)
-				{
-					goto IL_00c1_1;
-				}
-			}
-			{
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_31 = V_11;
-				NullCheck(L_31);
-				bool L_32;
-				L_32 = DataSnapshot_HasChild_m51D8F1F298E707997C3056A34F8964EF0D385288(L_31, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
-				G_B15_0 = ((int32_t)(L_32));
-				goto IL_00c2_1;
-			}
-
-IL_00c1_1:
-			{
-				G_B15_0 = 0;
-			}
-
-IL_00c2_1:
-			{
-				V_12 = (bool)G_B15_0;
-				bool L_33 = V_12;
-				if (!L_33)
-				{
-					goto IL_00ce_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:166>
-				int32_t L_34 = V_7;
-				V_7 = ((int32_t)il2cpp_codegen_add(L_34, 1));
-			}
-
-IL_00ce_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:165>
-				RuntimeObject* L_35 = V_10;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:171>
+				RuntimeObject* L_35 = V_13;
 				NullCheck(L_35);
-				bool L_36;
-				L_36 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_35);
-				if (L_36)
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_36;
+				L_36 = InterfaceFuncInvoker0< DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* >::Invoke(0, IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var, L_35);
+				V_14 = L_36;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:172>
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_37 = V_14;
+				NullCheck(L_37);
+				bool L_38;
+				L_38 = DataSnapshot_get_HasChildren_m18F85DDD26BB428F6D72D5F0DCC48FEB8A9DFFEB(L_37, NULL);
+				if (!L_38)
 				{
-					goto IL_00a1_1;
+					goto IL_010d_1;
 				}
 			}
 			{
-				goto IL_00e6;
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_39 = V_14;
+				NullCheck(L_39);
+				bool L_40;
+				L_40 = DataSnapshot_HasChild_m51D8F1F298E707997C3056A34F8964EF0D385288(L_39, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
+				G_B18_0 = ((int32_t)(L_40));
+				goto IL_010e_1;
+			}
+
+IL_010d_1:
+			{
+				G_B18_0 = 0;
+			}
+
+IL_010e_1:
+			{
+				V_15 = (bool)G_B18_0;
+				bool L_41 = V_15;
+				if (!L_41)
+				{
+					goto IL_011a_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:172>
+				int32_t L_42 = V_6;
+				V_6 = ((int32_t)il2cpp_codegen_add(L_42, 1));
+			}
+
+IL_011a_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:171>
+				RuntimeObject* L_43 = V_13;
+				NullCheck(L_43);
+				bool L_44;
+				L_44 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_43);
+				if (L_44)
+				{
+					goto IL_00ed_1;
+				}
+			}
+			{
+				goto IL_0132;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8966,81 +9022,81 @@ IL_00ce_1:
 		}
 	}
 
-IL_00e6:
+IL_0132:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:168>
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_37 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_38 = L_37;
-		int32_t L_39 = ___1_side;
-		int32_t L_40 = L_39;
-		RuntimeObject* L_41 = Box(Side_tF0388047AE502194FE69CD7A8A4ACA9AD92237EF_il2cpp_TypeInfo_var, &L_40);
-		NullCheck(L_38);
-		ArrayElementTypeCheck (L_38, L_41);
-		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_41);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_42 = L_38;
-		float L_43 = V_3;
-		float L_44 = L_43;
-		RuntimeObject* L_45 = Box(il2cpp_defaults.single_class, &L_44);
-		NullCheck(L_42);
-		ArrayElementTypeCheck (L_42, L_45);
-		(L_42)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_45);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_42;
-		float L_47 = V_4;
-		float L_48 = L_47;
-		RuntimeObject* L_49 = Box(il2cpp_defaults.single_class, &L_48);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:174>
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_45 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_45;
+		int32_t L_47 = ___1_side;
+		int32_t L_48 = L_47;
+		RuntimeObject* L_49 = Box(Side_tF0388047AE502194FE69CD7A8A4ACA9AD92237EF_il2cpp_TypeInfo_var, &L_48);
 		NullCheck(L_46);
 		ArrayElementTypeCheck (L_46, L_49);
-		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_49);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_49);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_50 = L_46;
-		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_51 = ___0_armySnap;
-		NullCheck(L_51);
-		int64_t L_52;
-		L_52 = DataSnapshot_get_ChildrenCount_m11A46B8917211A241820AF7DA99028E05261351C(L_51, NULL);
-		int64_t L_53 = L_52;
-		RuntimeObject* L_54 = Box(il2cpp_defaults.int64_class, &L_53);
+		float L_51 = V_2;
+		float L_52 = L_51;
+		RuntimeObject* L_53 = Box(il2cpp_defaults.single_class, &L_52);
 		NullCheck(L_50);
-		ArrayElementTypeCheck (L_50, L_54);
-		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_54);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_55 = L_50;
-		int32_t L_56 = V_7;
-		int32_t L_57 = L_56;
-		RuntimeObject* L_58 = Box(il2cpp_defaults.int32_class, &L_57);
-		NullCheck(L_55);
-		ArrayElementTypeCheck (L_55, L_58);
-		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_58);
-		String_t* L_59;
-		L_59 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral3E0F80805F4C6D8516FA90E85D7782660D5C6750, L_55, NULL);
-		ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(__this, L_59, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:170>
-		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_60 = ___0_armySnap;
-		NullCheck(L_60);
-		RuntimeObject* L_61;
-		L_61 = DataSnapshot_get_Children_m5A77ABE26BB1750F85677DF6E03D02560F6F6632(L_60, NULL);
-		NullCheck(L_61);
-		RuntimeObject* L_62;
-		L_62 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var, L_61);
-		V_13 = L_62;
+		ArrayElementTypeCheck (L_50, L_53);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_53);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_54 = L_50;
+		float L_55 = V_3;
+		float L_56 = L_55;
+		RuntimeObject* L_57 = Box(il2cpp_defaults.single_class, &L_56);
+		NullCheck(L_54);
+		ArrayElementTypeCheck (L_54, L_57);
+		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_57);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_58 = L_54;
+		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_59 = ___0_armySnap;
+		NullCheck(L_59);
+		int64_t L_60;
+		L_60 = DataSnapshot_get_ChildrenCount_m11A46B8917211A241820AF7DA99028E05261351C(L_59, NULL);
+		int64_t L_61 = L_60;
+		RuntimeObject* L_62 = Box(il2cpp_defaults.int64_class, &L_61);
+		NullCheck(L_58);
+		ArrayElementTypeCheck (L_58, L_62);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_62);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_63 = L_58;
+		int32_t L_64 = V_6;
+		int32_t L_65 = L_64;
+		RuntimeObject* L_66 = Box(il2cpp_defaults.int32_class, &L_65);
+		NullCheck(L_63);
+		ArrayElementTypeCheck (L_63, L_66);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject*)L_66);
+		String_t* L_67;
+		L_67 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral3E0F80805F4C6D8516FA90E85D7782660D5C6750, L_63, NULL);
+		ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(__this, L_67, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:176>
+		DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_68 = ___0_armySnap;
+		NullCheck(L_68);
+		RuntimeObject* L_69;
+		L_69 = DataSnapshot_get_Children_m5A77ABE26BB1750F85677DF6E03D02560F6F6632(L_68, NULL);
+		NullCheck(L_69);
+		RuntimeObject* L_70;
+		L_70 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_tBC9C31DD44D05A2C774F76CC1C6C912FB9541D70_il2cpp_TypeInfo_var, L_69);
+		V_16 = L_70;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0644:
+FINALLY_0695:
 			{
 				{
-					RuntimeObject* L_63 = V_13;
-					if (!L_63)
+					RuntimeObject* L_71 = V_16;
+					if (!L_71)
 					{
-						goto IL_0650;
+						goto IL_06a1;
 					}
 				}
 				{
-					RuntimeObject* L_64 = V_13;
-					NullCheck(L_64);
-					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_64);
+					RuntimeObject* L_72 = V_16;
+					NullCheck(L_72);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_72);
 				}
 
-IL_0650:
+IL_06a1:
 				{
 					return;
 				}
@@ -9049,699 +9105,699 @@ IL_0650:
 		try
 		{
 			{
-				goto IL_0636_1;
+				goto IL_0687_1;
 			}
 
-IL_0144_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:170>
-				RuntimeObject* L_65 = V_13;
-				NullCheck(L_65);
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_66;
-				L_66 = InterfaceFuncInvoker0< DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* >::Invoke(0, IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var, L_65);
-				V_14 = L_66;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:172>
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_67 = V_14;
-				NullCheck(L_67);
-				String_t* L_68;
-				L_68 = DataSnapshot_get_Key_m71F6DF80BFBCFA8C9C2F2368AD5F6A44F5E70908(L_67, NULL);
-				V_15 = L_68;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:174>
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_69 = V_14;
-				NullCheck(L_69);
-				bool L_70;
-				L_70 = DataSnapshot_get_HasChildren_m18F85DDD26BB428F6D72D5F0DCC48FEB8A9DFFEB(L_69, NULL);
-				if (!L_70)
-				{
-					goto IL_0171_1;
-				}
-			}
-			{
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_71 = V_14;
-				NullCheck(L_71);
-				bool L_72;
-				L_72 = DataSnapshot_HasChild_m51D8F1F298E707997C3056A34F8964EF0D385288(L_71, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
-				G_B27_0 = ((((int32_t)L_72) == ((int32_t)0))? 1 : 0);
-				goto IL_0172_1;
-			}
-
-IL_0171_1:
-			{
-				G_B27_0 = 1;
-			}
-
-IL_0172_1:
-			{
-				V_33 = (bool)G_B27_0;
-				bool L_73 = V_33;
-				if (!L_73)
-				{
-					goto IL_017d_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:174>
-				goto IL_0636_1;
-			}
-
-IL_017d_1:
+IL_018f_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:176>
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_74 = V_14;
-				NullCheck(L_74);
-				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_75;
-				L_75 = DataSnapshot_Child_m308ABEC425ADE01909B1A318D61DC965802EF64C(L_74, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
+				RuntimeObject* L_73 = V_16;
+				NullCheck(L_73);
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_74;
+				L_74 = InterfaceFuncInvoker0< DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* >::Invoke(0, IEnumerator_1_t89D6D9FAD8F93015339F011596FA51B8F53D3248_il2cpp_TypeInfo_var, L_73);
+				V_17 = L_74;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:178>
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_75 = V_17;
 				NullCheck(L_75);
-				RuntimeObject* L_76;
-				L_76 = DataSnapshot_get_Value_mF787DB763C81F79ED7CC2621AC49708EB8A6DBA2(L_75, NULL);
-				RuntimeObject* L_77 = L_76;
-				if (L_77)
+				String_t* L_76;
+				L_76 = DataSnapshot_get_Key_m71F6DF80BFBCFA8C9C2F2368AD5F6A44F5E70908(L_75, NULL);
+				V_18 = L_76;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:180>
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_77 = V_17;
+				NullCheck(L_77);
+				bool L_78;
+				L_78 = DataSnapshot_get_HasChildren_m18F85DDD26BB428F6D72D5F0DCC48FEB8A9DFFEB(L_77, NULL);
+				if (!L_78)
 				{
-					G_B31_0 = L_77;
-					goto IL_0195_1;
+					goto IL_01bc_1;
 				}
-				G_B30_0 = L_77;
 			}
 			{
-				G_B32_0 = ((String_t*)(NULL));
-				goto IL_019a_1;
-			}
-
-IL_0195_1:
-			{
-				NullCheck(G_B31_0);
-				String_t* L_78;
-				L_78 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B31_0);
-				G_B32_0 = L_78;
-			}
-
-IL_019a_1:
-			{
-				V_16 = G_B32_0;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:177>
-				String_t* L_79 = V_16;
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_79 = V_17;
+				NullCheck(L_79);
 				bool L_80;
-				L_80 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_79, NULL);
-				V_34 = L_80;
-				bool L_81 = V_34;
+				L_80 = DataSnapshot_HasChild_m51D8F1F298E707997C3056A34F8964EF0D385288(L_79, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
+				G_B30_0 = ((((int32_t)L_80) == ((int32_t)0))? 1 : 0);
+				goto IL_01bd_1;
+			}
+
+IL_01bc_1:
+			{
+				G_B30_0 = 1;
+			}
+
+IL_01bd_1:
+			{
+				V_36 = (bool)G_B30_0;
+				bool L_81 = V_36;
 				if (!L_81)
 				{
-					goto IL_01c6_1;
+					goto IL_01c8_1;
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:179>
-				String_t* L_82 = V_15;
-				String_t* L_83;
-				L_83 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral1729663E85597BECD079A5FCF8D9A3026F280D08, L_82, _stringLiteralAFBD21C658171311449EA97C87F073369E40D51D, NULL);
-				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_83, NULL);
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:180>
-				goto IL_0636_1;
+				goto IL_0687_1;
 			}
 
-IL_01c6_1:
+IL_01c8_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:183>
-				String_t* L_84 = V_16;
-				il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
-				bool L_85;
-				L_85 = Enum_TryParse_TisUnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_m6F88E459C951D96063A7D8FCAB6AF8C767A4CD77(L_84, (bool)1, (&V_17), Enum_TryParse_TisUnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_m6F88E459C951D96063A7D8FCAB6AF8C767A4CD77_RuntimeMethod_var);
-				V_35 = (bool)((((int32_t)L_85) == ((int32_t)0))? 1 : 0);
-				bool L_86 = V_35;
-				if (!L_86)
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:182>
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_82 = V_17;
+				NullCheck(L_82);
+				DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* L_83;
+				L_83 = DataSnapshot_Child_m308ABEC425ADE01909B1A318D61DC965802EF64C(L_82, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, NULL);
+				NullCheck(L_83);
+				RuntimeObject* L_84;
+				L_84 = DataSnapshot_get_Value_mF787DB763C81F79ED7CC2621AC49708EB8A6DBA2(L_83, NULL);
+				RuntimeObject* L_85 = L_84;
+				if (L_85)
 				{
-					goto IL_0212_1;
+					G_B34_0 = L_85;
+					goto IL_01e0_1;
+				}
+				G_B33_0 = L_85;
+			}
+			{
+				G_B35_0 = ((String_t*)(NULL));
+				goto IL_01e5_1;
+			}
+
+IL_01e0_1:
+			{
+				NullCheck(G_B34_0);
+				String_t* L_86;
+				L_86 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B34_0);
+				G_B35_0 = L_86;
+			}
+
+IL_01e5_1:
+			{
+				V_19 = G_B35_0;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:183>
+				String_t* L_87 = V_19;
+				bool L_88;
+				L_88 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_87, NULL);
+				V_37 = L_88;
+				bool L_89 = V_37;
+				if (!L_89)
+				{
+					goto IL_0211_1;
 				}
 			}
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:185>
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_87 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_88 = L_87;
-				NullCheck(L_88);
-				(L_88)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral6EB71F608E6D04F24DF5AFDE75B3FF2BC660BA64);
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_89 = L_88;
-				String_t* L_90 = V_16;
-				NullCheck(L_89);
-				(L_89)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_90);
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_91 = L_89;
-				NullCheck(L_91);
-				(L_91)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral391CB022358B8F750B765D0B29723FB2F108B249);
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_92 = L_91;
-				String_t* L_93 = V_15;
-				NullCheck(L_92);
-				(L_92)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_93);
-				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_94 = L_92;
-				NullCheck(L_94);
-				(L_94)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
-				String_t* L_95;
-				L_95 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_94, NULL);
+				String_t* L_90 = V_18;
+				String_t* L_91;
+				L_91 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral1729663E85597BECD079A5FCF8D9A3026F280D08, L_90, _stringLiteralAFBD21C658171311449EA97C87F073369E40D51D, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_95, NULL);
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_91, NULL);
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:186>
-				goto IL_0636_1;
+				goto IL_0687_1;
 			}
 
-IL_0212_1:
+IL_0211_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:190>
-				float L_96 = V_3;
-				float L_97 = V_4;
-				Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_18), L_96, L_97, (0.0f), NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:189>
+				String_t* L_92 = V_19;
+				il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+				bool L_93;
+				L_93 = Enum_TryParse_TisUnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_m6F88E459C951D96063A7D8FCAB6AF8C767A4CD77(L_92, (bool)1, (&V_20), Enum_TryParse_TisUnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_m6F88E459C951D96063A7D8FCAB6AF8C767A4CD77_RuntimeMethod_var);
+				V_38 = (bool)((((int32_t)L_93) == ((int32_t)0))? 1 : 0);
+				bool L_94 = V_38;
+				if (!L_94)
+				{
+					goto IL_025d_1;
+				}
+			}
+			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:191>
-				int32_t L_98 = V_17;
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99;
-				L_99 = ArmySpawner_GetPrefabForType_m8FB50BA255727538C34B7006B99C3FDAFF7C3E3D(__this, L_98, NULL);
-				V_19 = L_99;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:192>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_100 = V_19;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_101 = V_18;
-				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_102;
-				L_102 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_103 = __this->___unitsParent;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104;
-				L_104 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_100, L_101, L_102, L_103, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
-				V_20 = L_104;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:195>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = V_20;
-				NullCheck(L_105);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_106;
-				L_106 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_105, NULL);
-				NullCheck(L_106);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_107;
-				L_107 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_106, _stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC, NULL);
-				V_21 = L_107;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:196>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_108 = V_21;
-				bool L_109;
-				L_109 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_108, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_36 = L_109;
-				bool L_110 = V_36;
-				if (!L_110)
-				{
-					goto IL_027b_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:198>
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_95 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_96 = L_95;
+				NullCheck(L_96);
+				(L_96)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral6EB71F608E6D04F24DF5AFDE75B3FF2BC660BA64);
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_97 = L_96;
+				String_t* L_98 = V_19;
+				NullCheck(L_97);
+				(L_97)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_98);
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_99 = L_97;
+				NullCheck(L_99);
+				(L_99)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral391CB022358B8F750B765D0B29723FB2F108B249);
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_100 = L_99;
+				String_t* L_101 = V_18;
+				NullCheck(L_100);
+				(L_100)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_101);
+				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_102 = L_100;
+				NullCheck(L_102);
+				(L_102)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D);
+				String_t* L_103;
+				L_103 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_102, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFBCEF3DBE07FDBBDE6A73DD3DFED7EE27768C213, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:199>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_111 = V_20;
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_103, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:192>
+				goto IL_0687_1;
+			}
+
+IL_025d_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:196>
+				float L_104 = V_2;
+				float L_105 = V_3;
+				Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_21), L_104, L_105, (0.0f), NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:197>
+				int32_t L_106 = V_20;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_107;
+				L_107 = ArmySpawner_GetPrefabForType_m8FB50BA255727538C34B7006B99C3FDAFF7C3E3D(__this, L_106, NULL);
+				V_22 = L_107;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:198>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_108 = V_22;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_109 = V_21;
+				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_110;
+				L_110 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_111 = __this->___unitsParent;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_111, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:200>
-				goto IL_0636_1;
-			}
-
-IL_027b_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:204>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_112 = V_21;
-				NullCheck(L_112);
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_113;
-				L_113 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(L_112, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
-				V_22 = L_113;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:205>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_114 = V_21;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_112;
+				L_112 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181(L_108, L_109, L_110, L_111, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mD136E37F696C00A3A1D4F65724ACAE903E385181_RuntimeMethod_var);
+				V_23 = L_112;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:201>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_113 = V_23;
+				NullCheck(L_113);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_114;
+				L_114 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_113, NULL);
 				NullCheck(L_114);
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_115;
-				L_115 = Component_GetComponentsInChildren_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mEFB51A2FF71938F1041FD7A0AF9BD47802288E04(L_114, (bool)1, Component_GetComponentsInChildren_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mEFB51A2FF71938F1041FD7A0AF9BD47802288E04_RuntimeMethod_var);
-				V_23 = L_115;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:206>
-				V_24 = (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)NULL;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:207>
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_116 = V_23;
-				if (!L_116)
-				{
-					goto IL_029d_1;
-				}
-			}
-			{
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_117 = V_23;
-				NullCheck(L_117);
-				G_B41_0 = ((!(((uint32_t)(((RuntimeArray*)L_117)->max_length)) <= ((uint32_t)0)))? 1 : 0);
-				goto IL_029e_1;
-			}
-
-IL_029d_1:
-			{
-				G_B41_0 = 0;
-			}
-
-IL_029e_1:
-			{
-				V_37 = (bool)G_B41_0;
-				bool L_118 = V_37;
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_115;
+				L_115 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_114, _stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC, NULL);
+				V_24 = L_115;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:202>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_116 = V_24;
+				bool L_117;
+				L_117 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_116, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_39 = L_117;
+				bool L_118 = V_39;
 				if (!L_118)
 				{
-					goto IL_02ae_1;
+					goto IL_02c5_1;
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:209>
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_119 = V_23;
-				NullCheck(L_119);
-				int32_t L_120 = 0;
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_121 = (L_119)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
-				V_24 = L_121;
-				goto IL_02d6_1;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:204>
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralFBCEF3DBE07FDBBDE6A73DD3DFED7EE27768C213, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:205>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_119 = V_23;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_119, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:206>
+				goto IL_0687_1;
 			}
 
-IL_02ae_1:
+IL_02c5_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:214>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_122 = V_21;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:210>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_120 = V_24;
+				NullCheck(L_120);
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_121;
+				L_121 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(L_120, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+				V_25 = L_121;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:211>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_122 = V_24;
 				NullCheck(L_122);
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_123;
-				L_123 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(L_122, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_124 = L_123;
-				if (L_124)
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_123;
+				L_123 = Component_GetComponentsInChildren_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mEFB51A2FF71938F1041FD7A0AF9BD47802288E04(L_122, (bool)1, Component_GetComponentsInChildren_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mEFB51A2FF71938F1041FD7A0AF9BD47802288E04_RuntimeMethod_var);
+				V_26 = L_123;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:212>
+				V_27 = (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)NULL;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:213>
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_124 = V_26;
+				if (!L_124)
 				{
-					G_B45_0 = L_124;
-					goto IL_02c6_1;
+					goto IL_02e7_1;
 				}
-				G_B44_0 = L_124;
 			}
 			{
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_125 = V_21;
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_125 = V_26;
 				NullCheck(L_125);
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_126;
-				L_126 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_125, NULL);
-				NullCheck(L_126);
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_127;
-				L_127 = GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4(L_126, GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4_RuntimeMethod_var);
-				G_B45_0 = L_127;
+				G_B44_0 = ((!(((uint32_t)(((RuntimeArray*)L_125)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+				goto IL_02e8_1;
 			}
 
-IL_02c6_1:
+IL_02e7_1:
 			{
-				V_24 = G_B45_0;
+				G_B44_0 = 0;
+			}
+
+IL_02e8_1:
+			{
+				V_40 = (bool)G_B44_0;
+				bool L_126 = V_40;
+				if (!L_126)
+				{
+					goto IL_02f8_1;
+				}
+			}
+			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:215>
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_128 = (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28*)(SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28*)SZArrayNew(SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28_il2cpp_TypeInfo_var, (uint32_t)1);
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_129 = L_128;
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_130 = V_24;
-				NullCheck(L_129);
-				(L_129)->SetAt(static_cast<il2cpp_array_size_t>(0), (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)L_130);
-				V_23 = L_129;
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_127 = V_26;
+				NullCheck(L_127);
+				int32_t L_128 = 0;
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_129 = (L_127)->GetAt(static_cast<il2cpp_array_size_t>(L_128));
+				V_27 = L_129;
+				goto IL_0320_1;
 			}
 
-IL_02d6_1:
+IL_02f8_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:218>
-				V_25 = (Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99*)NULL;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:219>
-				V_26 = (UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C*)NULL;
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:220>
-				Dictionary_2_tEB1B60F54785D5FB7FF29965DEAB9C7C238A6658* L_131 = __this->___statsByType;
-				int32_t L_132 = V_17;
-				NullCheck(L_131);
-				bool L_133;
-				L_133 = Dictionary_2_TryGetValue_m3D249D0B479FD9852CF831C653B309A9F3B1507C(L_131, L_132, (&V_26), Dictionary_2_TryGetValue_m3D249D0B479FD9852CF831C653B309A9F3B1507C_RuntimeMethod_var);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:222>
-				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_134 = V_26;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_135;
-				L_135 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_134, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_38 = L_135;
-				bool L_136 = V_38;
-				if (!L_136)
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_130 = V_24;
+				NullCheck(L_130);
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_131;
+				L_131 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(L_130, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_132 = L_131;
+				if (L_132)
 				{
-					goto IL_0385_1;
+					G_B48_0 = L_132;
+					goto IL_0310_1;
 				}
+				G_B47_0 = L_132;
 			}
 			{
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_133 = V_24;
+				NullCheck(L_133);
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_134;
+				L_134 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_133, NULL);
+				NullCheck(L_134);
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_135;
+				L_135 = GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4(L_134, GameObject_AddComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_mC0705A0CDAD279A507AA0FD4425FB60968CCE8C4_RuntimeMethod_var);
+				G_B48_0 = L_135;
+			}
+
+IL_0310_1:
+			{
+				V_27 = G_B48_0;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:221>
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_136 = (SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28*)(SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28*)SZArrayNew(SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28_il2cpp_TypeInfo_var, (uint32_t)1);
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_137 = L_136;
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_138 = V_27;
+				NullCheck(L_137);
+				(L_137)->SetAt(static_cast<il2cpp_array_size_t>(0), (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)L_138);
+				V_26 = L_137;
+			}
+
+IL_0320_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:224>
+				V_28 = (Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99*)NULL;
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:225>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_137 = V_22;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_138;
-				L_138 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_137, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (!L_138)
-				{
-					goto IL_0317_1;
-				}
-			}
-			{
-				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_139 = V_26;
+				V_29 = (UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C*)NULL;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:226>
+				Dictionary_2_tEB1B60F54785D5FB7FF29965DEAB9C7C238A6658* L_139 = __this->___statsByType;
+				int32_t L_140 = V_20;
 				NullCheck(L_139);
-				AnimatorOverrideController_tF78BD58B30BB0D767E7A96F8428EA66F2DFD5493* L_140 = L_139->___animatorOverride;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_141;
-				L_141 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_140, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				G_B50_0 = ((int32_t)(L_141));
-				goto IL_0318_1;
-			}
-
-IL_0317_1:
-			{
-				G_B50_0 = 0;
-			}
-
-IL_0318_1:
-			{
-				V_39 = (bool)G_B50_0;
-				bool L_142 = V_39;
-				if (!L_142)
-				{
-					goto IL_033a_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:227>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_143 = V_22;
-				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_144 = V_26;
-				NullCheck(L_144);
-				AnimatorOverrideController_tF78BD58B30BB0D767E7A96F8428EA66F2DFD5493* L_145 = L_144->___animatorOverride;
-				NullCheck(L_143);
-				Animator_set_runtimeAnimatorController_m505ACBA1D2E59814239EF3760A9F537D03301311(L_143, L_145, NULL);
+				L_141 = Dictionary_2_TryGetValue_m3D249D0B479FD9852CF831C653B309A9F3B1507C(L_139, L_140, (&V_29), Dictionary_2_TryGetValue_m3D249D0B479FD9852CF831C653B309A9F3B1507C_RuntimeMethod_var);
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:228>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_146 = V_22;
-				NullCheck(L_146);
-				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_146, (bool)1, NULL);
-				goto IL_0382_1;
-			}
-
-IL_033a_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:235>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_147 = V_22;
+				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_142 = V_29;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_148;
-				L_148 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_147, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (!L_148)
+				bool L_143;
+				L_143 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_142, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_41 = L_143;
+				bool L_144 = V_41;
+				if (!L_144)
 				{
-					goto IL_0354_1;
+					goto IL_03cf_1;
 				}
 			}
 			{
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_149 = V_22;
-				NullCheck(L_149);
-				RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_150;
-				L_150 = Animator_get_runtimeAnimatorController_mE10F46F893A630D1AE846EF66DC2769E3ECE5AB8(L_149, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:231>
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_145 = V_25;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_151;
-				L_151 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_150, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				G_B55_0 = ((int32_t)(L_151));
-				goto IL_0355_1;
-			}
-
-IL_0354_1:
-			{
-				G_B55_0 = 0;
-			}
-
-IL_0355_1:
-			{
-				V_40 = (bool)G_B55_0;
-				bool L_152 = V_40;
-				if (!L_152)
+				bool L_146;
+				L_146 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_145, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_146)
 				{
-					goto IL_0368_1;
+					goto IL_0361_1;
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:237>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_153 = V_22;
-				NullCheck(L_153);
-				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_153, (bool)1, NULL);
-				goto IL_0381_1;
+				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_147 = V_29;
+				NullCheck(L_147);
+				AnimatorOverrideController_tF78BD58B30BB0D767E7A96F8428EA66F2DFD5493* L_148 = L_147->___animatorOverride;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_149;
+				L_149 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_148, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				G_B53_0 = ((int32_t)(L_149));
+				goto IL_0362_1;
 			}
 
-IL_0368_1:
+IL_0361_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:239>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_154 = V_22;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_155;
-				L_155 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_154, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_41 = L_155;
-				bool L_156 = V_41;
-				if (!L_156)
+				G_B53_0 = 0;
+			}
+
+IL_0362_1:
+			{
+				V_42 = (bool)G_B53_0;
+				bool L_150 = V_42;
+				if (!L_150)
 				{
-					goto IL_0381_1;
+					goto IL_0384_1;
 				}
 			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:233>
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_151 = V_25;
+				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_152 = V_29;
+				NullCheck(L_152);
+				AnimatorOverrideController_tF78BD58B30BB0D767E7A96F8428EA66F2DFD5493* L_153 = L_152->___animatorOverride;
+				NullCheck(L_151);
+				Animator_set_runtimeAnimatorController_m505ACBA1D2E59814239EF3760A9F537D03301311(L_151, L_153, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:234>
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_154 = V_25;
+				NullCheck(L_154);
+				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_154, (bool)1, NULL);
+				goto IL_03cc_1;
+			}
+
+IL_0384_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:241>
-				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_157 = V_22;
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_155 = V_25;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_156;
+				L_156 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_155, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_156)
+				{
+					goto IL_039e_1;
+				}
+			}
+			{
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_157 = V_25;
 				NullCheck(L_157);
-				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_157, (bool)0, NULL);
+				RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_158;
+				L_158 = Animator_get_runtimeAnimatorController_mE10F46F893A630D1AE846EF66DC2769E3ECE5AB8(L_157, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_159;
+				L_159 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_158, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				G_B58_0 = ((int32_t)(L_159));
+				goto IL_039f_1;
 			}
 
-IL_0381_1:
+IL_039e_1:
 			{
+				G_B58_0 = 0;
 			}
 
-IL_0382_1:
+IL_039f_1:
 			{
-				goto IL_03a0_1;
+				V_43 = (bool)G_B58_0;
+				bool L_160 = V_43;
+				if (!L_160)
+				{
+					goto IL_03b2_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:243>
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_161 = V_25;
+				NullCheck(L_161);
+				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_161, (bool)1, NULL);
+				goto IL_03cb_1;
 			}
 
-IL_0385_1:
+IL_03b2_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:245>
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_162 = V_25;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_163;
+				L_163 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_162, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_44 = L_163;
+				bool L_164 = V_44;
+				if (!L_164)
+				{
+					goto IL_03cb_1;
+				}
+			}
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:247>
-				int32_t L_158 = V_17;
-				int32_t L_159 = L_158;
-				RuntimeObject* L_160 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_159);
-				String_t* L_161 = V_15;
-				String_t* L_162;
-				L_162 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral3E3634A21F275798AD07235141696BD423351BE8, L_160, L_161, NULL);
-				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_162, NULL);
+				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_165 = V_25;
+				NullCheck(L_165);
+				Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_165, (bool)0, NULL);
 			}
 
-IL_03a0_1:
+IL_03cb_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:252>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_163 = V_20;
-				NullCheck(L_163);
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_164;
-				L_164 = GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09(L_163, GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var);
-				V_27 = L_164;
+			}
+
+IL_03cc_1:
+			{
+				goto IL_03ea_1;
+			}
+
+IL_03cf_1:
+			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:253>
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_165 = V_27;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_166;
-				L_166 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_165, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_42 = L_166;
-				bool L_167 = V_42;
-				if (!L_167)
-				{
-					goto IL_03f4_1;
-				}
+				int32_t L_166 = V_20;
+				int32_t L_167 = L_166;
+				RuntimeObject* L_168 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_167);
+				String_t* L_169 = V_18;
+				String_t* L_170;
+				L_170 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral3E3634A21F275798AD07235141696BD423351BE8, L_168, L_169, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_170, NULL);
 			}
+
+IL_03ea_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:255>
-				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_168 = V_26;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_169;
-				L_169 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_168, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_43 = L_169;
-				bool L_170 = V_43;
-				if (!L_170)
-				{
-					goto IL_03df_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:255>
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_171 = V_27;
-				Il2CppFakeBox<int32_t> L_172(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, (&V_17));
-				String_t* L_173;
-				L_173 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_172), NULL);
-				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_174 = V_26;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:258>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_171 = V_23;
 				NullCheck(L_171);
-				Unit_Init_mA6BAA7F79B47E3F2C4A9058B43FBD656C753116F(L_171, L_173, L_174, NULL);
-				goto IL_03f3_1;
-			}
-
-IL_03df_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:256>
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_175 = V_27;
-				Il2CppFakeBox<int32_t> L_176(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, (&V_17));
-				String_t* L_177;
-				L_177 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_176), NULL);
-				NullCheck(L_175);
-				L_175->___unitType = L_177;
-				Il2CppCodeGenWriteBarrier((void**)(&L_175->___unitType), (void*)L_177);
-			}
-
-IL_03f3_1:
-			{
-			}
-
-IL_03f4_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:260>
-				bool L_178 = V_5;
-				if (L_178)
-				{
-					goto IL_03ff_1;
-				}
-			}
-			{
-				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_179;
-				L_179 = Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline(NULL);
-				G_B70_0 = L_179;
-				goto IL_0404_1;
-			}
-
-IL_03ff_1:
-			{
-				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_180;
-				L_180 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
-				G_B70_0 = L_180;
-			}
-
-IL_0404_1:
-			{
-				V_28 = G_B70_0;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:261>
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_181 = V_23;
-				V_44 = L_181;
-				V_45 = 0;
-				goto IL_045b_1;
-			}
-
-IL_0410_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:261>
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_182 = V_44;
-				int32_t L_183 = V_45;
-				NullCheck(L_182);
-				int32_t L_184 = L_183;
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_185 = (L_182)->GetAt(static_cast<il2cpp_array_size_t>(L_184));
-				V_46 = L_185;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:263>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_186 = V_46;
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_172;
+				L_172 = GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09(L_171, GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var);
+				V_30 = L_172;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:259>
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_173 = V_30;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_187;
-				L_187 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_186, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_47 = L_187;
-				bool L_188 = V_47;
-				if (!L_188)
+				bool L_174;
+				L_174 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_173, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_45 = L_174;
+				bool L_175 = V_45;
+				if (!L_175)
 				{
-					goto IL_0428_1;
+					goto IL_043e_1;
 				}
 			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:263>
-				goto IL_0455_1;
-			}
-
-IL_0428_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:264>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_189 = V_46;
-				NullCheck(L_189);
-				Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_189, (bool)1, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:265>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_190 = V_46;
-				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_191 = V_28;
-				NullCheck(L_190);
-				SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_190, L_191, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:266>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_192 = V_46;
-				NullCheck(L_192);
-				int32_t L_193;
-				L_193 = Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA(L_192, NULL);
-				V_48 = (bool)((((int32_t)L_193) < ((int32_t)5))? 1 : 0);
-				bool L_194 = V_48;
-				if (!L_194)
-				{
-					goto IL_0454_1;
-				}
-			}
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:266>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_195 = V_46;
-				NullCheck(L_195);
-				Renderer_set_sortingOrder_m4C67F002AD68CA0D55D20D6B78CDED3DB24467DA(L_195, 5, NULL);
-			}
-
-IL_0454_1:
-			{
-			}
-
-IL_0455_1:
-			{
-				int32_t L_196 = V_45;
-				V_45 = ((int32_t)il2cpp_codegen_add(L_196, 1));
-			}
-
-IL_045b_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:261>
-				int32_t L_197 = V_45;
-				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_198 = V_44;
-				NullCheck(L_198);
-				if ((((int32_t)L_197) < ((int32_t)((int32_t)(((RuntimeArray*)L_198)->max_length)))))
+				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_176 = V_29;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_177;
+				L_177 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_176, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_46 = L_177;
+				bool L_178 = V_46;
+				if (!L_178)
 				{
-					goto IL_0410_1;
+					goto IL_0429_1;
 				}
 			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:261>
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_179 = V_30;
+				Il2CppFakeBox<int32_t> L_180(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, (&V_20));
+				String_t* L_181;
+				L_181 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_180), NULL);
+				UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_182 = V_29;
+				NullCheck(L_179);
+				Unit_Init_mA6BAA7F79B47E3F2C4A9058B43FBD656C753116F(L_179, L_181, L_182, NULL);
+				goto IL_043d_1;
+			}
+
+IL_0429_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:262>
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_183 = V_30;
+				Il2CppFakeBox<int32_t> L_184(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, (&V_20));
+				String_t* L_185;
+				L_185 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_184), NULL);
+				NullCheck(L_183);
+				L_183->___unitType = L_185;
+				Il2CppCodeGenWriteBarrier((void**)(&L_183->___unitType), (void*)L_185);
+			}
+
+IL_043d_1:
+			{
+			}
+
+IL_043e_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:266>
+				bool L_186 = V_4;
+				if (L_186)
+				{
+					goto IL_0449_1;
+				}
+			}
+			{
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_187;
+				L_187 = Color_get_blue_mF04A26CE61D6DA3C0D8B1C4720901B1028C7AB87_inline(NULL);
+				G_B73_0 = L_187;
+				goto IL_044e_1;
+			}
+
+IL_0449_1:
+			{
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_188;
+				L_188 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
+				G_B73_0 = L_188;
+			}
+
+IL_044e_1:
+			{
+				V_31 = G_B73_0;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:267>
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_189 = V_26;
+				V_47 = L_189;
+				V_48 = 0;
+				goto IL_04a5_1;
+			}
+
+IL_045a_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:267>
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_190 = V_47;
+				int32_t L_191 = V_48;
+				NullCheck(L_190);
+				int32_t L_192 = L_191;
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_193 = (L_190)->GetAt(static_cast<il2cpp_array_size_t>(L_192));
+				V_49 = L_193;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:269>
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_194 = V_49;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_195;
+				L_195 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_194, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_50 = L_195;
+				bool L_196 = V_50;
+				if (!L_196)
+				{
+					goto IL_0472_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:269>
+				goto IL_049f_1;
+			}
+
+IL_0472_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:270>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_199 = V_21;
-				NullCheck(L_199);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_200;
-				L_200 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_199, NULL);
-				V_29 = L_200;
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_197 = V_49;
+				NullCheck(L_197);
+				Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_197, (bool)1, NULL);
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:271>
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_201 = V_29;
-				float L_202 = L_201.___x;
-				float L_203;
-				L_203 = fabsf(L_202);
-				int32_t L_204 = ___1_side;
-				if ((((int32_t)L_204) == ((int32_t)1)))
-				{
-					G_B80_0 = L_203;
-					G_B80_1 = (&V_29);
-					goto IL_0485_1;
-				}
-				G_B79_0 = L_203;
-				G_B79_1 = (&V_29);
-			}
-			{
-				G_B81_0 = (-1.0f);
-				G_B81_1 = G_B79_0;
-				G_B81_2 = G_B79_1;
-				goto IL_048a_1;
-			}
-
-IL_0485_1:
-			{
-				G_B81_0 = (1.0f);
-				G_B81_1 = G_B80_0;
-				G_B81_2 = G_B80_1;
-			}
-
-IL_048a_1:
-			{
-				G_B81_2->___x = ((float)il2cpp_codegen_multiply(G_B81_1, G_B81_0));
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_198 = V_49;
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_199 = V_31;
+				NullCheck(L_198);
+				SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_198, L_199, NULL);
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:272>
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_205 = V_21;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_206 = V_29;
-				NullCheck(L_205);
-				Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_205, L_206, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:275>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_207 = V_20;
-				NullCheck(L_207);
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_208;
-				L_208 = GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09(L_207, GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var);
-				V_30 = L_208;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:276>
-				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_209 = V_30;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_210;
-				L_210 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_209, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_49 = L_210;
-				bool L_211 = V_49;
-				if (!L_211)
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_200 = V_49;
+				NullCheck(L_200);
+				int32_t L_201;
+				L_201 = Renderer_get_sortingOrder_m4CE7ADEEC8E2F28CC1D10B1D4091A10F8F1583FA(L_200, NULL);
+				V_51 = (bool)((((int32_t)L_201) < ((int32_t)5))? 1 : 0);
+				bool L_202 = V_51;
+				if (!L_202)
 				{
-					goto IL_0513_1;
+					goto IL_049e_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:272>
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_203 = V_49;
+				NullCheck(L_203);
+				Renderer_set_sortingOrder_m4C67F002AD68CA0D55D20D6B78CDED3DB24467DA(L_203, 5, NULL);
+			}
+
+IL_049e_1:
+			{
+			}
+
+IL_049f_1:
+			{
+				int32_t L_204 = V_48;
+				V_48 = ((int32_t)il2cpp_codegen_add(L_204, 1));
+			}
+
+IL_04a5_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:267>
+				int32_t L_205 = V_48;
+				SpriteRendererU5BU5D_t0DEDE77D607814DC56F5AC6D7D80AA5A342ABF28* L_206 = V_47;
+				NullCheck(L_206);
+				if ((((int32_t)L_205) < ((int32_t)((int32_t)(((RuntimeArray*)L_206)->max_length)))))
+				{
+					goto IL_045a_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:276>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_207 = V_24;
+				NullCheck(L_207);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_208;
+				L_208 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_207, NULL);
+				V_32 = L_208;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:277>
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_209 = V_32;
+				float L_210 = L_209.___x;
+				float L_211;
+				L_211 = fabsf(L_210);
+				int32_t L_212 = ___1_side;
+				if ((((int32_t)L_212) == ((int32_t)1)))
+				{
+					G_B83_0 = L_211;
+					G_B83_1 = (&V_32);
+					goto IL_04cf_1;
+				}
+				G_B82_0 = L_211;
+				G_B82_1 = (&V_32);
+			}
+			{
+				G_B84_0 = (-1.0f);
+				G_B84_1 = G_B82_0;
+				G_B84_2 = G_B82_1;
+				goto IL_04d4_1;
+			}
+
+IL_04cf_1:
+			{
+				G_B84_0 = (1.0f);
+				G_B84_1 = G_B83_0;
+				G_B84_2 = G_B83_1;
+			}
+
+IL_04d4_1:
+			{
+				G_B84_2->___x = ((float)il2cpp_codegen_multiply(G_B84_1, G_B84_0));
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:278>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_213 = V_24;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_214 = V_32;
+				NullCheck(L_213);
+				Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_213, L_214, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:281>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_215 = V_23;
+				NullCheck(L_215);
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_216;
+				L_216 = GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09(L_215, GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var);
+				V_33 = L_216;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:282>
+				Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_217 = V_33;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_218;
+				L_218 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_217, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_52 = L_218;
+				bool L_219 = V_52;
+				if (!L_219)
+				{
+					goto IL_055d_1;
 				}
 			}
 			{
@@ -9749,42 +9805,42 @@ IL_048a_1:
 			try
 			{
 				{
-					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:280>
-					Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_212 = V_30;
-					String_t* L_213 = __this->___sessionId;
-					bool L_214 = V_5;
-					String_t* L_215 = V_15;
-					NullCheck(L_212);
-					Unit_SetFirebaseContextAndPush_m3F282BF3F9742AA623EEBED3BF9FAEA22473E445(L_212, L_213, L_214, L_215, NULL);
-					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:282>
-					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_216 = V_20;
-					ArmySpawner_EnsureClickable_m4123DE713EF052CF986EFEEFDB1A3BD93B042586(__this, L_216, NULL);
-					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:284>
-					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_217 = V_20;
-					NullCheck(L_217);
-					UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* L_218;
-					L_218 = GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD(L_217, GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD_RuntimeMethod_var);
+					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:286>
+					Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_220 = V_33;
+					String_t* L_221 = __this->___sessionId;
+					bool L_222 = V_4;
+					String_t* L_223 = V_18;
+					NullCheck(L_220);
+					Unit_SetFirebaseContextAndPush_m3F282BF3F9742AA623EEBED3BF9FAEA22473E445(L_220, L_221, L_222, L_223, NULL);
+					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:288>
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_224 = V_23;
+					ArmySpawner_EnsureClickable_m4123DE713EF052CF986EFEEFDB1A3BD93B042586(__this, L_224, NULL);
+					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:290>
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_225 = V_23;
+					NullCheck(L_225);
+					UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* L_226;
+					L_226 = GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD(L_225, GameObject_GetComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_mED9F466426D70399B450646884F326FDCCEBDBBD_RuntimeMethod_var);
 					il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-					bool L_219;
-					L_219 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_218, NULL);
-					V_50 = (bool)((((int32_t)L_219) == ((int32_t)0))? 1 : 0);
-					bool L_220 = V_50;
-					if (!L_220)
+					bool L_227;
+					L_227 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_226, NULL);
+					V_53 = (bool)((((int32_t)L_227) == ((int32_t)0))? 1 : 0);
+					bool L_228 = V_53;
+					if (!L_228)
 					{
-						goto IL_04eb_2;
+						goto IL_0535_2;
 					}
 				}
 				{
-					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:285>
-					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_221 = V_20;
-					NullCheck(L_221);
-					UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* L_222;
-					L_222 = GameObject_AddComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_m879607EE2C020B9C0ABFB7EE9D1DF95971540998(L_221, GameObject_AddComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_m879607EE2C020B9C0ABFB7EE9D1DF95971540998_RuntimeMethod_var);
+					//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:291>
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_229 = V_23;
+					NullCheck(L_229);
+					UnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724* L_230;
+					L_230 = GameObject_AddComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_m879607EE2C020B9C0ABFB7EE9D1DF95971540998(L_229, GameObject_AddComponent_TisUnitAnimator_t4D3EDE87A2EF8FBF6E374BA8704E5BD626C37724_m879607EE2C020B9C0ABFB7EE9D1DF95971540998_RuntimeMethod_var);
 				}
 
-IL_04eb_2:
+IL_0535_2:
 				{
-					goto IL_0512_1;
+					goto IL_055c_1;
 				}
 			}
 			catch(Il2CppExceptionWrapper& e)
@@ -9792,298 +9848,300 @@ IL_04eb_2:
 				if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 				{
 					IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-					goto CATCH_04ee_1;
+					goto CATCH_0538_1;
 				}
 				throw e;
 			}
 
-CATCH_04ee_1:
+CATCH_0538_1:
 			{
-				Exception_t* L_223 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:288>
-				V_51 = L_223;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:288>
-				String_t* L_224 = V_15;
-				Exception_t* L_225 = V_51;
-				NullCheck(L_225);
-				String_t* L_226;
-				L_226 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_225);
-				String_t* L_227;
-				L_227 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral91066B49B23DC04340079E51F96226A1F93C53D4)), L_224, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9816E74B93E1C26A72AD4D2196C8A3C7A3C28924)), L_226, NULL);
+				Exception_t* L_231 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:294>
+				V_54 = L_231;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:294>
+				String_t* L_232 = V_18;
+				Exception_t* L_233 = V_54;
+				NullCheck(L_233);
+				String_t* L_234;
+				L_234 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_233);
+				String_t* L_235;
+				L_235 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral91066B49B23DC04340079E51F96226A1F93C53D4)), L_232, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9816E74B93E1C26A72AD4D2196C8A3C7A3C28924)), L_234, NULL);
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_227, NULL);
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_235, NULL);
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-				goto IL_0512_1;
+				goto IL_055c_1;
 			}
 
-IL_0512_1:
+IL_055c_1:
 			{
 			}
 
-IL_0513_1:
+IL_055d_1:
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:292>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_228 = V_20;
-				NullCheck(L_228);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_229;
-				L_229 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_228, NULL);
-				NullCheck(L_229);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_230;
-				L_230 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_229, _stringLiteral572161AF0128AB2B9E5DD07E4CA74DB5BD1B843B, NULL);
-				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_231 = L_230;
-				if (L_231)
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:298>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_236 = V_23;
+				NullCheck(L_236);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_237;
+				L_237 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_236, NULL);
+				NullCheck(L_237);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_238;
+				L_238 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_237, _stringLiteral572161AF0128AB2B9E5DD07E4CA74DB5BD1B843B, NULL);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_239 = L_238;
+				if (L_239)
 				{
-					G_B90_0 = L_231;
-					goto IL_052b_1;
+					G_B93_0 = L_239;
+					goto IL_0575_1;
 				}
-				G_B89_0 = L_231;
+				G_B92_0 = L_239;
 			}
 			{
-				G_B91_0 = ((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)(NULL));
-				goto IL_0530_1;
-			}
-
-IL_052b_1:
-			{
-				NullCheck(G_B90_0);
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_232;
-				L_232 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(G_B90_0, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
-				G_B91_0 = L_232;
+				G_B94_0 = ((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)(NULL));
+				goto IL_057a_1;
 			}
 
-IL_0530_1:
+IL_0575_1:
 			{
-				V_31 = G_B91_0;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:293>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_233 = V_31;
+				NullCheck(G_B93_0);
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_240;
+				L_240 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(G_B93_0, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
+				G_B94_0 = L_240;
+			}
+
+IL_057a_1:
+			{
+				V_34 = G_B94_0;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:299>
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_241 = V_34;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_234;
-				L_234 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_233, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				V_52 = L_234;
-				bool L_235 = V_52;
-				if (!L_235)
+				bool L_242;
+				L_242 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_241, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_55 = L_242;
+				bool L_243 = V_55;
+				if (!L_243)
 				{
-					goto IL_0558_1;
+					goto IL_05a2_1;
 				}
 			}
 			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:293>
-				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_236 = V_31;
-				bool L_237 = V_5;
-				if (L_237)
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:299>
+				SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_244 = V_34;
+				bool L_245 = V_4;
+				if (L_245)
 				{
-					G_B94_0 = L_236;
-					goto IL_054d_1;
+					G_B97_0 = L_244;
+					goto IL_0597_1;
 				}
-				G_B93_0 = L_236;
+				G_B96_0 = L_244;
 			}
 			{
-				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_238;
-				L_238 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
-				G_B95_0 = L_238;
-				G_B95_1 = G_B93_0;
-				goto IL_0552_1;
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_246;
+				L_246 = Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline(NULL);
+				G_B98_0 = L_246;
+				G_B98_1 = G_B96_0;
+				goto IL_059c_1;
 			}
 
-IL_054d_1:
+IL_0597_1:
 			{
-				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_239;
-				L_239 = Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline(NULL);
-				G_B95_0 = L_239;
-				G_B95_1 = G_B94_0;
+				Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_247;
+				L_247 = Color_get_cyan_m182A29E7475C0A98ACC03E1CF5252BAB83F0BA31_inline(NULL);
+				G_B98_0 = L_247;
+				G_B98_1 = G_B97_0;
 			}
 
-IL_0552_1:
+IL_059c_1:
 			{
-				NullCheck(G_B95_1);
-				SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(G_B95_1, G_B95_0, NULL);
+				NullCheck(G_B98_1);
+				SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(G_B98_1, G_B98_0, NULL);
 			}
 
-IL_0558_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:296>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_240 = V_20;
-				int32_t L_241 = V_17;
-				int32_t L_242 = L_241;
-				RuntimeObject* L_243 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_242);
-				String_t* L_244 = V_15;
-				String_t* L_245;
-				L_245 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0ACD01722156B8516C7B5AED45E29FC23B05A674, L_243, L_244, NULL);
-				NullCheck(L_240);
-				Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_240, L_245, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:297>
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_246 = V_20;
-				NullCheck(L_246);
-				String_t* L_247;
-				L_247 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_246, NULL);
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_248 = V_18;
-				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_249 = L_248;
-				RuntimeObject* L_250 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_249);
-				Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_251 = V_25;
-				if (L_251)
-				{
-					G_B98_0 = L_250;
-					G_B98_1 = L_247;
-					G_B98_2 = _stringLiteralBE7D9A7293C9C37FC28CBBCC2A24F84E4902D557;
-					G_B98_3 = __this;
-					goto IL_058e_1;
-				}
-				G_B97_0 = L_250;
-				G_B97_1 = L_247;
-				G_B97_2 = _stringLiteralBE7D9A7293C9C37FC28CBBCC2A24F84E4902D557;
-				G_B97_3 = __this;
-			}
-			{
-				G_B99_0 = ((String_t*)(NULL));
-				G_B99_1 = G_B97_0;
-				G_B99_2 = G_B97_1;
-				G_B99_3 = G_B97_2;
-				G_B99_4 = G_B97_3;
-				goto IL_0595_1;
-			}
-
-IL_058e_1:
-			{
-				Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_252 = V_25;
-				NullCheck(L_252);
-				String_t* L_253;
-				L_253 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_252, NULL);
-				G_B99_0 = L_253;
-				G_B99_1 = G_B98_0;
-				G_B99_2 = G_B98_1;
-				G_B99_3 = G_B98_2;
-				G_B99_4 = G_B98_3;
-			}
-
-IL_0595_1:
-			{
-				String_t* L_254;
-				L_254 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B99_3, G_B99_2, G_B99_1, G_B99_0, NULL);
-				NullCheck(G_B99_4);
-				ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(G_B99_4, L_254, NULL);
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:300>
-				bool L_255 = V_5;
-				if (L_255)
-				{
-					goto IL_05ab_1;
-				}
-			}
-			{
-				G_B102_0 = _stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846;
-				goto IL_05b0_1;
-			}
-
-IL_05ab_1:
-			{
-				G_B102_0 = _stringLiteralE705C6345C26AF82E64D22DBE44B2A3514F2F06F;
-			}
-
-IL_05b0_1:
-			{
-				String_t* L_256 = V_15;
-				String_t* L_257;
-				L_257 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B102_0, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_256, NULL);
-				V_32 = L_257;
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:301>
-				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_258 = __this->___unitByKey;
-				String_t* L_259 = V_32;
-				NullCheck(L_258);
-				bool L_260;
-				L_260 = Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52(L_258, L_259, Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
-				V_53 = (bool)((((int32_t)L_260) == ((int32_t)0))? 1 : 0);
-				bool L_261 = V_53;
-				if (!L_261)
-				{
-					goto IL_05e6_1;
-				}
-			}
+IL_05a2_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:302>
-				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_262 = __this->___unitByKey;
-				String_t* L_263 = V_32;
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_264 = V_20;
-				NullCheck(L_262);
-				Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_262, L_263, L_264, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
-				goto IL_05f6_1;
-			}
-
-IL_05e6_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:304>
-				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_265 = __this->___unitByKey;
-				String_t* L_266 = V_32;
-				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267 = V_20;
-				NullCheck(L_265);
-				Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562(L_265, L_266, L_267, Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
-			}
-
-IL_05f6_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:307>
-				float L_268 = V_4;
-				V_4 = ((float)il2cpp_codegen_subtract(L_268, (1.5f)));
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:308>
-				float L_269 = V_4;
-				float L_270 = V_1;
-				V_54 = (bool)((((float)L_269) < ((float)((float)il2cpp_codegen_add(((-L_270)), (1.0f)))))? 1 : 0);
-				bool L_271 = V_54;
-				if (!L_271)
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_248 = V_23;
+				int32_t L_249 = V_20;
+				int32_t L_250 = L_249;
+				RuntimeObject* L_251 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_250);
+				String_t* L_252 = V_18;
+				String_t* L_253;
+				L_253 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral0ACD01722156B8516C7B5AED45E29FC23B05A674, L_251, L_252, NULL);
+				NullCheck(L_248);
+				Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_248, L_253, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:303>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_254 = V_23;
+				NullCheck(L_254);
+				String_t* L_255;
+				L_255 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_254, NULL);
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_256 = V_21;
+				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_257 = L_256;
+				RuntimeObject* L_258 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_257);
+				Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_259 = V_28;
+				if (L_259)
 				{
-					goto IL_062f_1;
+					G_B101_0 = L_258;
+					G_B101_1 = L_255;
+					G_B101_2 = _stringLiteralBE7D9A7293C9C37FC28CBBCC2A24F84E4902D557;
+					G_B101_3 = __this;
+					goto IL_05d8_1;
+				}
+				G_B100_0 = L_258;
+				G_B100_1 = L_255;
+				G_B100_2 = _stringLiteralBE7D9A7293C9C37FC28CBBCC2A24F84E4902D557;
+				G_B100_3 = __this;
+			}
+			{
+				G_B102_0 = ((String_t*)(NULL));
+				G_B102_1 = G_B100_0;
+				G_B102_2 = G_B100_1;
+				G_B102_3 = G_B100_2;
+				G_B102_4 = G_B100_3;
+				goto IL_05df_1;
+			}
+
+IL_05d8_1:
+			{
+				Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_260 = V_28;
+				NullCheck(L_260);
+				String_t* L_261;
+				L_261 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_260, NULL);
+				G_B102_0 = L_261;
+				G_B102_1 = G_B101_0;
+				G_B102_2 = G_B101_1;
+				G_B102_3 = G_B101_2;
+				G_B102_4 = G_B101_3;
+			}
+
+IL_05df_1:
+			{
+				String_t* L_262;
+				L_262 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B102_3, G_B102_2, G_B102_1, G_B102_0, NULL);
+				NullCheck(G_B102_4);
+				ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(G_B102_4, L_262, NULL);
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:306>
+				bool L_263 = V_4;
+				if (L_263)
+				{
+					goto IL_05f5_1;
 				}
 			}
+			{
+				G_B105_0 = _stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846;
+				goto IL_05fa_1;
+			}
+
+IL_05f5_1:
+			{
+				G_B105_0 = _stringLiteralE705C6345C26AF82E64D22DBE44B2A3514F2F06F;
+			}
+
+IL_05fa_1:
+			{
+				String_t* L_264 = V_18;
+				String_t* L_265;
+				L_265 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B105_0, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_264, NULL);
+				V_35 = L_265;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:307>
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_266 = __this->___unitByKey;
+				String_t* L_267 = V_35;
+				NullCheck(L_266);
+				bool L_268;
+				L_268 = Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52(L_266, L_267, Dictionary_2_ContainsKey_mF00464F30B7E5B8DD16FDCB098BDAF027B2D1F52_RuntimeMethod_var);
+				V_56 = (bool)((((int32_t)L_268) == ((int32_t)0))? 1 : 0);
+				bool L_269 = V_56;
+				if (!L_269)
+				{
+					goto IL_0630_1;
+				}
+			}
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:308>
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_270 = __this->___unitByKey;
+				String_t* L_271 = V_35;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_272 = V_23;
+				NullCheck(L_270);
+				Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF(L_270, L_271, L_272, Dictionary_2_Add_mE5ED48EAB67073C645CD87B5E6ACA2E6BF7975AF_RuntimeMethod_var);
+				goto IL_0640_1;
+			}
+
+IL_0630_1:
 			{
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:310>
-				float L_272 = V_1;
-				V_4 = ((float)il2cpp_codegen_subtract(L_272, (1.0f)));
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:311>
-				float L_273 = V_3;
-				int32_t L_274 = ___1_side;
-				if (!L_274)
-				{
-					G_B108_0 = L_273;
-					goto IL_0627_1;
-				}
-				G_B107_0 = L_273;
-			}
-			{
-				G_B109_0 = (-1.60000002f);
-				G_B109_1 = G_B107_0;
-				goto IL_062c_1;
+				Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_273 = __this->___unitByKey;
+				String_t* L_274 = V_35;
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_275 = V_23;
+				NullCheck(L_273);
+				Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562(L_273, L_274, L_275, Dictionary_2_set_Item_mE6554D0475579971087BB5735888B85A85EDD562_RuntimeMethod_var);
 			}
 
-IL_0627_1:
+IL_0640_1:
 			{
-				G_B109_0 = (1.60000002f);
-				G_B109_1 = G_B108_0;
-			}
-
-IL_062c_1:
-			{
-				V_3 = ((float)il2cpp_codegen_add(G_B109_1, G_B109_0));
-			}
-
-IL_062f_1:
-			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:313>
+				float L_276 = V_3;
+				V_3 = ((float)il2cpp_codegen_subtract(L_276, (1.5f)));
 				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:314>
-				int32_t L_275 = V_6;
-				V_6 = ((int32_t)il2cpp_codegen_add(L_275, 1));
-			}
-
-IL_0636_1:
-			{
-				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:170>
-				RuntimeObject* L_276 = V_13;
-				NullCheck(L_276);
-				bool L_277;
-				L_277 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_276);
-				if (L_277)
+				float L_277 = V_3;
+				float L_278;
+				L_278 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_0), NULL);
+				V_57 = (bool)((((float)L_277) < ((float)((float)il2cpp_codegen_add(L_278, (1.0f)))))? 1 : 0);
+				bool L_279 = V_57;
+				if (!L_279)
 				{
-					goto IL_0144_1;
+					goto IL_0680_1;
 				}
 			}
 			{
-				goto IL_0651;
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:316>
+				float L_280;
+				L_280 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_0), NULL);
+				V_3 = ((float)il2cpp_codegen_subtract(L_280, (1.0f)));
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:317>
+				float L_281 = V_2;
+				int32_t L_282 = ___1_side;
+				if (!L_282)
+				{
+					G_B111_0 = L_281;
+					goto IL_0678_1;
+				}
+				G_B110_0 = L_281;
+			}
+			{
+				G_B112_0 = (-1.60000002f);
+				G_B112_1 = G_B110_0;
+				goto IL_067d_1;
+			}
+
+IL_0678_1:
+			{
+				G_B112_0 = (1.60000002f);
+				G_B112_1 = G_B111_0;
+			}
+
+IL_067d_1:
+			{
+				V_2 = ((float)il2cpp_codegen_add(G_B112_1, G_B112_0));
+			}
+
+IL_0680_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:320>
+				int32_t L_283 = V_5;
+				V_5 = ((int32_t)il2cpp_codegen_add(L_283, 1));
+			}
+
+IL_0687_1:
+			{
+				//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:176>
+				RuntimeObject* L_284 = V_16;
+				NullCheck(L_284);
+				bool L_285;
+				L_285 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_284);
+				if (L_285)
+				{
+					goto IL_018f_1;
+				}
+			}
+			{
+				goto IL_06a2;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -10092,23 +10150,23 @@ IL_0636_1:
 		}
 	}
 
-IL_0651:
+IL_06a2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:317>
-		int32_t L_278 = ___1_side;
-		int32_t L_279 = L_278;
-		RuntimeObject* L_280 = Box(Side_tF0388047AE502194FE69CD7A8A4ACA9AD92237EF_il2cpp_TypeInfo_var, &L_279);
-		int32_t L_281 = V_6;
-		int32_t L_282 = L_281;
-		RuntimeObject* L_283 = Box(il2cpp_defaults.int32_class, &L_282);
-		String_t* L_284;
-		L_284 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral06ABA407F0AD9797CBF60978EE0478A62C5151D8, L_280, L_283, NULL);
-		ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(__this, L_284, NULL);
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:323>
+		int32_t L_286 = ___1_side;
+		int32_t L_287 = L_286;
+		RuntimeObject* L_288 = Box(Side_tF0388047AE502194FE69CD7A8A4ACA9AD92237EF_il2cpp_TypeInfo_var, &L_287);
+		int32_t L_289 = V_5;
+		int32_t L_290 = L_289;
+		RuntimeObject* L_291 = Box(il2cpp_defaults.int32_class, &L_290);
+		String_t* L_292;
+		L_292 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral06ABA407F0AD9797CBF60978EE0478A62C5151D8, L_288, L_291, NULL);
+		ArmySpawner_SafeLog_m1DC2F03396E13E550D3B90276DAA36A77D09CF8A(__this, L_292, NULL);
 	}
 
-IL_066f:
+IL_06c0:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:318>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:324>
 		return;
 	}
 }
@@ -10148,7 +10206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_EnsureClickable_m4123DE713EF
 	int32_t G_B9_0 = 0;
 	int32_t G_B21_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:322>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:328>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -10157,7 +10215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_EnsureClickable_m4123DE713EF
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_1, _stringLiteralE9C276987A94F49F88F906ABFDB3F1BE940DF8AC, NULL);
 		V_0 = L_2;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:323>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:329>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -10170,25 +10228,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_EnsureClickable_m4123DE713EF
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:323>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:329>
 		goto IL_012b;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:326>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:332>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_0;
 		NullCheck(L_6);
 		PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* L_7;
 		L_7 = Component_GetComponent_TisPolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E_m838C3ADF8730E17B91A80DDD18BB0830E513D114(L_6, Component_GetComponent_TisPolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E_m838C3ADF8730E17B91A80DDD18BB0830E513D114_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:327>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:333>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
 		NullCheck(L_8);
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_9;
 		L_9 = Component_GetComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m8E881B105EA2AA2D9E3CFB68EE0924719FA96813(L_8, Component_GetComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m8E881B105EA2AA2D9E3CFB68EE0924719FA96813_RuntimeMethod_var);
 		V_2 = L_9;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:328>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:334>
 		PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* L_10 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -10222,7 +10280,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:331>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:337>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_0;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
@@ -10231,17 +10289,17 @@ IL_0048:
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_17;
 		L_17 = GameObject_AddComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m269F530A27F1496AA2C27915AA02DBC4BDF0EB69(L_16, GameObject_AddComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m269F530A27F1496AA2C27915AA02DBC4BDF0EB69_RuntimeMethod_var);
 		V_2 = L_17;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:332>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:338>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_18 = V_2;
 		NullCheck(L_18);
 		Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48(L_18, (bool)1, NULL);
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:334>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:340>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = V_0;
 		NullCheck(L_19);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_20;
 		L_20 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(L_19, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
 		V_7 = L_20;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:335>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:341>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_21 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_22;
@@ -10278,7 +10336,7 @@ IL_0083:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:336>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:342>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_27 = V_2;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_28 = V_7;
 		NullCheck(L_28);
@@ -10303,7 +10361,7 @@ IL_00aa:
 
 IL_00ad:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:340>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:346>
 		PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* L_33 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_34;
@@ -10316,7 +10374,7 @@ IL_00ad:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:340>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:346>
 		PolygonCollider2D_t7CEFFFEE6522175436B408712B052D236889C89E* L_36 = V_1;
 		NullCheck(L_36);
 		Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48(L_36, (bool)1, NULL);
@@ -10324,7 +10382,7 @@ IL_00ad:
 
 IL_00c2:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:341>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:347>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_37 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -10337,7 +10395,7 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:341>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:347>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_40 = V_2;
 		NullCheck(L_40);
 		Collider2D_set_isTrigger_m19D5227BAB5D41F212D515C1E2CA433C2FEF7A48(L_40, (bool)1, NULL);
@@ -10349,13 +10407,13 @@ IL_00d6:
 
 IL_00d7:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:345>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:351>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = ___0_go;
 		NullCheck(L_41);
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_42;
 		L_42 = GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09(L_41, GameObject_GetComponent_TisUnit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867_m591861E25547FC556BBAB6E97DF3D27DF07D6E09_RuntimeMethod_var);
 		V_3 = L_42;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:346>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:352>
 		Unit_tCADA6AEDF9CE70F5C82D173F931BABAFC17AA867* L_43 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_44;
@@ -10390,7 +10448,7 @@ IL_00fe:
 IL_00ff:
 	{
 		V_4 = (bool)G_B21_0;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:347>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:353>
 		bool L_49 = V_4;
 		V_12 = L_49;
 		bool L_50 = V_12;
@@ -10400,7 +10458,7 @@ IL_00ff:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:349>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:355>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = V_0;
 		NullCheck(L_51);
 		UnitDragMover_t74E1F1CC4C80FA09D49F69E427EED405A1BE3D86* L_52;
@@ -10416,7 +10474,7 @@ IL_00ff:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:350>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:356>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = V_0;
 		NullCheck(L_55);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56;
@@ -10432,7 +10490,7 @@ IL_012a:
 
 IL_012b:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:352>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:358>
 		return;
 	}
 }
@@ -10458,7 +10516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	bool V_5 = false;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:359>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:365>
 		Dictionary_2_tEB1B60F54785D5FB7FF29965DEAB9C7C238A6658* L_0 = __this->___statsByType;
 		int32_t L_1 = ___0_type;
 		NullCheck(L_0);
@@ -10505,7 +10563,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:360>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:366>
 		UnitStats_t9BCD47A4ECA199D9FB77D77E54AC7BEC87986D7C* L_9 = V_0;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___unitPrefab;
@@ -10515,7 +10573,7 @@ IL_0029:
 
 IL_0036:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:363>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:369>
 		int32_t L_11 = ___0_type;
 		int32_t L_12 = L_11;
 		RuntimeObject* L_13 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_12);
@@ -10524,7 +10582,7 @@ IL_0036:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A(L_14, Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A_RuntimeMethod_var);
 		V_1 = L_15;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:364>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:370>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -10537,7 +10595,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:364>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:370>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_1;
 		V_3 = L_19;
 		goto IL_008d;
@@ -10545,7 +10603,7 @@ IL_0036:
 
 IL_005d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:365>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:371>
 		int32_t L_20 = ___0_type;
 		int32_t L_21 = L_20;
 		RuntimeObject* L_22 = Box(UnitType_t2F839A76BB1430DB0D6FE0D370ED0EBC9673FC1F_il2cpp_TypeInfo_var, &L_21);
@@ -10554,7 +10612,7 @@ IL_005d:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
 		L_24 = Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A(L_23, Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A_RuntimeMethod_var);
 		V_1 = L_24;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:366>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:372>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -10567,7 +10625,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:366>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:372>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = V_1;
 		V_3 = L_28;
 		goto IL_008d;
@@ -10575,7 +10633,7 @@ IL_005d:
 
 IL_0084:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:369>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:375>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___unitRootPrefab;
 		V_3 = L_29;
 		goto IL_008d;
@@ -10583,7 +10641,7 @@ IL_0084:
 
 IL_008d:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:370>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:376>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_3;
 		return L_30;
 	}
@@ -10600,7 +10658,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_SafeLog_m1DC2F03396E13E550D3
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:373>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:379>
 		bool L_0 = __this->___verboseLogs;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -10610,7 +10668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_SafeLog_m1DC2F03396E13E550D3
 		}
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:374>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:380>
 		String_t* L_2 = ___0_msg;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral3317C15FB6D138F31BA1FFB5516168692F47B16B, L_2, NULL);
@@ -10620,7 +10678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_SafeLog_m1DC2F03396E13E550D3
 
 IL_001c:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:375>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:381>
 		return;
 	}
 }
@@ -10644,7 +10702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_AttachRemovalListeners_mC797
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:382>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:388>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_0 = __this->___hostArmyRef;
 			V_0 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 			bool L_1 = V_0;
@@ -10654,13 +10712,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_AttachRemovalListeners_mC797
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:384>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:390>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_2 = __this->___hostArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_3 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_3, __this, (intptr_t)((void*)ArmySpawner_OnHostUnitRemoved_mD56CEEF409C138159E614950AF435BF1E42B16A4_RuntimeMethod_var), NULL);
 			NullCheck(L_2);
 			Query_remove_ChildRemoved_m6CF252AC8F4AD2C39DEDA588447E788E3AB11A3F(L_2, L_3, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:385>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:391>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_4 = __this->___hostArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_5 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_5, __this, (intptr_t)((void*)ArmySpawner_OnHostUnitRemoved_mD56CEEF409C138159E614950AF435BF1E42B16A4_RuntimeMethod_var), NULL);
@@ -10670,7 +10728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_AttachRemovalListeners_mC797
 
 IL_0041_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:387>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:393>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_6 = __this->___clientArmyRef;
 			V_1 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_6) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 			bool L_7 = V_1;
@@ -10680,13 +10738,13 @@ IL_0041_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:389>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:395>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_8 = __this->___clientArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_9 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_9, __this, (intptr_t)((void*)ArmySpawner_OnClientUnitRemoved_mA31E41BE2A692F562F8FA84C22E0F4D8ADF46B50_RuntimeMethod_var), NULL);
 			NullCheck(L_8);
 			Query_remove_ChildRemoved_m6CF252AC8F4AD2C39DEDA588447E788E3AB11A3F(L_8, L_9, NULL);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:390>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:396>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_10 = __this->___clientArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_11 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_11, __this, (intptr_t)((void*)ArmySpawner_OnClientUnitRemoved_mA31E41BE2A692F562F8FA84C22E0F4D8ADF46B50_RuntimeMethod_var), NULL);
@@ -10712,9 +10770,9 @@ IL_0080_1:
 CATCH_0083:
 	{
 		Exception_t* L_12 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:393>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:399>
 		V_2 = L_12;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:395>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:401>
 		Exception_t* L_13 = V_2;
 		NullCheck(L_13);
 		String_t* L_14;
@@ -10729,7 +10787,7 @@ CATCH_0083:
 
 IL_009e:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:397>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:403>
 		return;
 	}
 }
@@ -10752,7 +10810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_OnDestroy_m29781EF86A029B927
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:403>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:409>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_0 = __this->___hostArmyRef;
 			V_0 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 			bool L_1 = V_0;
@@ -10762,7 +10820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_OnDestroy_m29781EF86A029B927
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:403>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:409>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_2 = __this->___hostArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_3 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_3, __this, (intptr_t)((void*)ArmySpawner_OnHostUnitRemoved_mD56CEEF409C138159E614950AF435BF1E42B16A4_RuntimeMethod_var), NULL);
@@ -10772,7 +10830,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_OnDestroy_m29781EF86A029B927
 
 IL_0027_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:404>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:410>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_4 = __this->___clientArmyRef;
 			V_1 = (bool)((!(((RuntimeObject*)(DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 			bool L_5 = V_1;
@@ -10782,7 +10840,7 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:404>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:410>
 			DatabaseReference_tD6F9941BEAE8109991B814490DA64099EECBFA6D* L_6 = __this->___clientArmyRef;
 			EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9* L_7 = (EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9*)il2cpp_codegen_object_new(EventHandler_1_tD798EE5B5514ADFE98557DC45E91A5D0F55C07F9_il2cpp_TypeInfo_var);
 			EventHandler_1__ctor_m14849F15A7BB20B55074D3BAB73D286633141489(L_7, __this, (intptr_t)((void*)ArmySpawner_OnClientUnitRemoved_mA31E41BE2A692F562F8FA84C22E0F4D8ADF46B50_RuntimeMethod_var), NULL);
@@ -10808,14 +10866,14 @@ IL_004c_1:
 CATCH_004f:
 	{
 		RuntimeObject* L_8 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:406>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:412>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0054;
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:407>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:413>
 		return;
 	}
 }
@@ -10829,7 +10887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_OnHostUnitRemoved_mD56CEEF40
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:409>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:415>
 		ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* L_0 = ___1_e;
 		ArmySpawner_HandleUnitRemoved_m796BB75A525CE87486A9E02104D5B5C3E4782F78(__this, _stringLiteralE705C6345C26AF82E64D22DBE44B2A3514F2F06F, L_0, NULL);
 		return;
@@ -10845,7 +10903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_OnClientUnitRemoved_mA31E41B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:410>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:416>
 		ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* L_0 = ___1_e;
 		ArmySpawner_HandleUnitRemoved_m796BB75A525CE87486A9E02104D5B5C3E4782F78(__this, _stringLiteral8576BA38A6B54451F2DCD524CBE7A6AEAD448846, L_0, NULL);
 		return;
@@ -10881,7 +10939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmySpawner_HandleUnitRemoved_m796BB75A5
 	try
 	{
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:416>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:422>
 			ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* L_0 = ___1_e;
 			if (L_0)
 			{
@@ -10923,7 +10981,7 @@ IL_0015_1:
 IL_001a_1:
 		{
 			V_0 = G_B6_0;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:417>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:423>
 			String_t* L_5 = V_0;
 			bool L_6;
 			L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
@@ -10935,19 +10993,19 @@ IL_001a_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:417>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:423>
 			goto IL_00a1;
 		}
 
 IL_0027_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:418>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:424>
 			String_t* L_8 = ___0_branch;
 			String_t* L_9 = V_0;
 			String_t* L_10;
 			L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_8, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_9, NULL);
 			V_1 = L_10;
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:419>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:425>
 			Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_11 = __this->___unitByKey;
 			String_t* L_12 = V_1;
 			NullCheck(L_11);
@@ -10961,7 +11019,7 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:421>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:427>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_2;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_16;
@@ -10974,7 +11032,7 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:421>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:427>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_2;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_18, NULL);
@@ -10982,13 +11040,13 @@ IL_0027_1:
 
 IL_005c_1:
 		{
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:422>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:428>
 			Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* L_19 = __this->___unitByKey;
 			String_t* L_20 = V_1;
 			NullCheck(L_19);
 			bool L_21;
 			L_21 = Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32(L_19, L_20, Dictionary_2_Remove_mD172B7CDE8C2305E9FB368A39846E3C9B296EE32_RuntimeMethod_var);
-			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:423>
+			//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:429>
 			String_t* L_22 = V_1;
 			String_t* L_23;
 			L_23 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral733C2C4095D844CC6C685C22AD501F5B70E65158, L_22, _stringLiteral6DC96DB2B86B5BF9EF7C91F2CA35E142D593826C, NULL);
@@ -11013,9 +11071,9 @@ IL_0081_1:
 CATCH_0084:
 	{
 		Exception_t* L_24 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:426>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:432>
 		V_6 = L_24;
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:428>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:434>
 		Exception_t* L_25 = V_6;
 		NullCheck(L_25);
 		String_t* L_26;
@@ -11030,7 +11088,7 @@ CATCH_0084:
 
 IL_00a1:
 	{
-		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:430>
+		//<source_info:C:/projects/WoD/WoD/Assets/Scripts/BattleView/ArmySpawner.cs:436>
 		return;
 	}
 }
@@ -26959,6 +27017,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeathRoutineU3Ed__23_System
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// Method Definition Index: 46164
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		return;
+	}
+}
+// Method Definition Index: 46190
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Width;
+		float L_1 = __this->___m_XMin;
+		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 46186
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_XMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 46192
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Height;
+		float L_1 = __this->___m_YMin;
+		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
 // Method Definition Index: 47583
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
@@ -27035,6 +27158,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
+// Method Definition Index: 46188
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_YMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
 // Method Definition Index: 46108
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
 {
@@ -27077,7 +27216,7 @@ IL_0015:
 		return L_5;
 	}
 }
-// Method Definition Index: 76846
+// Method Definition Index: 76848
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ChildChangedEventArgs_get_Snapshot_m100ACE866E445C613AEC004CF99B9EED54C6F270_inline (ChildChangedEventArgs_t8791D1660D2DB8C77665D885F1FD6CB230468937* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27650,7 +27789,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD48131
 		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 77030
+// Method Definition Index: 77032
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataSnapshot_tF8B2EB3F4F07CDF924E0D65F31933D4F333F0C3A* ValueChangedEventArgs_get_Snapshot_mBCD854B17AC08A3720E4CEE6333AD156514B3885_inline (ValueChangedEventArgs_t8E15F0CB1F83812A628870BF56E2CC5BF56A2FBB* __this, const RuntimeMethod* method) 
 {
 	{

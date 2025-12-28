@@ -82,6 +82,14 @@ public class CameraPanZoom2D : MonoBehaviour
 #endif
 	}
 
+	// World-space threshold that corresponds to ~0.75 pixel; helps to kill clamp jitter at edges
+	private float NoMoveThreshold()
+	{
+		if (cam == null || Screen.height <= 0) return 0.0005f;
+		float worldPerPixel = (cam.orthographicSize * 2f) / Mathf.Max(1, Screen.height);
+		return Mathf.Max(0.00025f, worldPerPixel * 0.75f);
+	}
+
 	private void HandleMousePan()
 	{
 		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
@@ -106,7 +114,14 @@ public class CameraPanZoom2D : MonoBehaviour
 			if (delta.sqrMagnitude > 0f)
 			{
 				Vector3 desired = cam.transform.position - delta * Mathf.Max(0.01f, panSpeed);
-				ApplyClampedPosition(desired);
+				var applied = ApplyClampedPosition(desired);
+				// If clamp blocked movement (very small applied delta), prevent jitter by consuming gesture without shifting camera
+				float thr = NoMoveThreshold();
+				if (applied.sqrMagnitude <= (thr * thr))
+				{
+					prevWorld = cur;
+					return;
+				}
 				prevWorld = cam.ScreenToWorldPoint(Input.mousePosition);
 			}
 		}
@@ -124,12 +139,14 @@ public class CameraPanZoom2D : MonoBehaviour
 		if (Mathf.Abs(scroll) < 0.0001f) return;
 		float oldSize = cam.orthographic ? cam.orthographicSize : 5f;
 		float newSize = Mathf.Clamp(oldSize * Mathf.Pow(0.9f, scroll * 10f * zoomSensitivity), minOrthoSize, maxOrthoSize);
+		// If at bounds, skip to avoid micro jitter
+		if (Mathf.Abs(newSize - oldSize) < 1e-5f) return;
 		Vector3 before = cam.ScreenToWorldPoint(Input.mousePosition);
 		cam.orthographic = true;
 		cam.orthographicSize = newSize;
 		Vector3 after = cam.ScreenToWorldPoint(Input.mousePosition);
 		Vector3 delta = before - after;
-		ApplyClampedPosition(cam.transform.position + new Vector3(delta.x, delta.y, 0f));
+		_ = ApplyClampedPosition(cam.transform.position + new Vector3(delta.x, delta.y, 0f));
 	}
 
 	private void HandleTouch()
@@ -161,7 +178,13 @@ public class CameraPanZoom2D : MonoBehaviour
 				Vector3 delta = cur - prevWorld;
 				if (delta.sqrMagnitude > 0f)
 				{
-					ApplyClampedPosition(cam.transform.position - delta * Mathf.Max(0.01f, panSpeed));
+					var applied = ApplyClampedPosition(cam.transform.position - delta * Mathf.Max(0.01f, panSpeed));
+					float thr = NoMoveThreshold();
+					if (applied.sqrMagnitude <= (thr * thr))
+					{
+						prevWorld = cur;
+						return;
+					}
 					prevWorld = cam.ScreenToWorldPoint(t.position);
 				}
 			}
@@ -187,6 +210,7 @@ public class CameraPanZoom2D : MonoBehaviour
 				float scale = prevDist > 0f ? (prevDist / currDist) : 1f; // >1 => zoom in
 				float oldSize = cam.orthographicSize;
 				float newSize = Mathf.Clamp(oldSize * Mathf.Pow(scale, 1f * zoomSensitivity), minOrthoSize, maxOrthoSize);
+				if (Mathf.Abs(newSize - oldSize) < 1e-5f) return;
 
 				Vector2 mid = (t0.position + t1.position) * 0.5f;
 				Vector3 before = cam.ScreenToWorldPoint(new Vector3(mid.x, mid.y, 0f));
@@ -194,20 +218,26 @@ public class CameraPanZoom2D : MonoBehaviour
 				cam.orthographicSize = newSize;
 				Vector3 after = cam.ScreenToWorldPoint(new Vector3(mid.x, mid.y, 0f));
 				Vector3 delta = before - after;
-				ApplyClampedPosition(cam.transform.position + new Vector3(delta.x, delta.y, 0f));
+				_ = ApplyClampedPosition(cam.transform.position + new Vector3(delta.x, delta.y, 0f));
 			}
 		}
 	}
 
-	private void ApplyClampedPosition(Vector3 desired)
+	// Applies clamped position and returns the actual applied delta (newPos - oldPos)
+	private Vector3 ApplyClampedPosition(Vector3 desired)
 	{
+		Vector3 oldPos = cam.transform.position;
 		Vector3 target = desired;
 		if (MapBounds.TryGet(out var _))
 		{
 			target = MapBounds.ClampCameraCenter(cam, desired, clampMargin);
 		}
+		// Snap tiny decimals to avoid micro jitter at edges
+		target.x = Mathf.Abs(target.x) < 1e-6f ? 0f : target.x;
+		target.y = Mathf.Abs(target.y) < 1e-6f ? 0f : target.y;
 		target.z = cam.transform.position.z;
 		cam.transform.position = target;
+		return target - oldPos;
 	}
 }
 

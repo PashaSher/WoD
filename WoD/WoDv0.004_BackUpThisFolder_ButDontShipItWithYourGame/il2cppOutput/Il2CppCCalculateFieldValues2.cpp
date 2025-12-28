@@ -32554,6 +32554,7 @@ struct CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A  : public MonoB
 	float ___panSpeed;
 	bool ___blockPanOverUI;
 	float ___clampMargin;
+	bool ___blockPanWhenPointerOverUnit;
 	bool ___enableZoom;
 	float ___minOrthoSize;
 	float ___maxOrthoSize;
@@ -32561,6 +32562,7 @@ struct CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A  : public MonoB
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam;
 	bool ___dragging;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prevWorld;
+	bool ___panLockedUntilRelease;
 };
 struct ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -43229,9 +43231,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7241[10] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7242[6] = 
 {
 	static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___dragSensitivity)),static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___uiDragBlockRadius)),static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___clampMargin)),static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___cam)),static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___dragging)),static_cast<int32_t>(offsetof(CameraPan2D_t80F9071408E71F74A30A22F3ED8F1FD2CC72B4C0, ___prevWorld)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7243[11] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7243[13] = 
 {
-	static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___enablePan)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___panSpeed)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___blockPanOverUI)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___clampMargin)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___enableZoom)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___minOrthoSize)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___maxOrthoSize)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___zoomSensitivity)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___cam)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___dragging)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___prevWorld)),};
+	static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___enablePan)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___panSpeed)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___blockPanOverUI)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___clampMargin)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___blockPanWhenPointerOverUnit)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___enableZoom)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___minOrthoSize)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___maxOrthoSize)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___zoomSensitivity)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___cam)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___dragging)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___prevWorld)),static_cast<int32_t>(offsetof(CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A, ___panLockedUntilRelease)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7244[3] = 
 {
 	static_cast<int32_t>(offsetof(MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12_StaticFields, ___U3CInstanceU3Ek__BackingField)),static_cast<int32_t>(offsetof(MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12, ___center)),static_cast<int32_t>(offsetof(MapBounds_tF0342BC6FA726FA50B8532E984B467EE7AE7CC12, ___size)),};

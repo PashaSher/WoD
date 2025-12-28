@@ -145,18 +145,24 @@ public class ArmySpawner : MonoBehaviour
             return;
         }
 
-        var cam = Camera.main;
-        if (cam == null)
+        // Map-based spawn: prefer MapBounds, fallback to current camera view
+        Rect map;
+        if (MapBounds.TryGet(out var mb)) map = mb.WorldRect;
+        else
         {
-            Debug.LogError("[ArmySpawner] Camera.main == null");
-            return;
+            var cam = Camera.main;
+            if (cam == null)
+            {
+                Debug.LogError("[ArmySpawner] Camera.main == null and no MapBounds");
+                return;
+            }
+            float halfH = cam.orthographicSize;
+            float halfW = halfH * cam.aspect;
+            map = new Rect(-halfW, -halfH, halfW * 2f, halfH * 2f);
         }
 
-        float halfH = cam.orthographicSize;
-        float halfW = halfH * cam.aspect;
-
-        float x = (side == Side.Left) ? -halfW + 2f : halfW - 2f;
-        float y =  halfH - 1f;
+        float x = (side == Side.Left) ? (map.xMin + 2f) : (map.xMax - 2f);
+        float y =  map.yMax - 1f;
 
         bool isHostBranch = (side == Side.Left); // hostArmy слева
         int spawned = 0;
@@ -305,9 +311,9 @@ public class ArmySpawner : MonoBehaviour
 
             // Следующее место
             y -= 1.5f;
-            if (y < -halfH + 1f)
+            if (y < map.yMin + 1f)
             {
-                y = halfH - 1f;
+                y = map.yMax - 1f;
                 x += (side == Side.Left ? +1.6f : -1.6f);
             }
 

@@ -26929,7 +26929,7 @@ IL2CPP_EXTERN_C  void TaskAwaiter_1_GetResult_mA0FDEC1F33CAC08401C6F3B9E5A5C6F1B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76842
+// Method Definition Index: 76844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSourceCompat_1_SetExceptionInternal_mBD3B57F5B3278987BD52E35957241AA95E827E01_gshared (TaskCompletionSource_1_t8A40BE53A167B6D71D5640881A7A894D8DA94970* ___0_tcs, AggregateException_t51B6205846DFB356B94452702201DD239D44422F* ___1_exception, const RuntimeMethod* method) 
 {
 	{
@@ -26940,7 +26940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSourceCompat_1_SetExceptio
 		return;
 	}
 }
-// Method Definition Index: 76843
+// Method Definition Index: 76845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSourceCompat_1_SetException_mD42345DF7671BF94C0C6F98FB8AFAC19160B8580_gshared (TaskCompletionSource_1_t8A40BE53A167B6D71D5640881A7A894D8DA94970* ___0_tcs, AggregateException_t51B6205846DFB356B94452702201DD239D44422F* ___1_exception, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;

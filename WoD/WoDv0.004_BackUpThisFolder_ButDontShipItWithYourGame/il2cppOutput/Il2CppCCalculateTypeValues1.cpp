@@ -46472,6 +46472,7 @@ struct CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A  : public MonoB
 	float ___panSpeed;
 	bool ___blockPanOverUI;
 	float ___clampMargin;
+	bool ___blockPanWhenPointerOverUnit;
 	bool ___enableZoom;
 	float ___minOrthoSize;
 	float ___maxOrthoSize;
@@ -46479,6 +46480,7 @@ struct CameraPanZoom2D_tC9C45E083425F5A4D5BC680D96E2AF5EFA65594A  : public MonoB
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam;
 	bool ___dragging;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prevWorld;
+	bool ___panLockedUntilRelease;
 };
 struct ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
